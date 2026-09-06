@@ -83,7 +83,7 @@ fn word_of(t: &Tok) -> &str {
         | CopPlPast(w) | Cop1Sg(w) | Conj(w) | Neg(w) | TempAdv(w) | TimeAdv(w) | Yet(w) | Focus(w) | Other(w) | DoBase(w) | Do3(w) | DoPast(w)
         | ModalMust(w) | ModalCan(w) | ModalCannot(w) | If(w) | Then(w) | Every(w)
         | No(w) | Num(w) | NumPl(w) | Percent(w) | Approx(w) | So(w) | Because(w) | Namely(w)
-        | Ord(w) | Than(w) | More(w) | Scale(w) | AdjCmp(w) | AdjLong(w) | Be(w)
+        | Ord(w) | Than(w) | More(w) | Scale(w) | AdjCmp(w) | AdjLong(w) | AdjSup(w) | Most(w) | Be(w)
         | BecomeSg(w) | BecomePl(w) | BecomePast(w) | Some_(w) | Name(w) => w,
         Comma => ",",
         Colon => ":",
@@ -147,6 +147,8 @@ fn tag_of(t: &Tok) -> &'static str {
         Scale(_) => "SCALE",
         AdjCmp(_) => "ADJ_CMP",
         AdjLong(_) => "ADJ_LONG",
+        AdjSup(_) => "ADJ_SUP",
+        Most(_) => "MOST",
         Be(_) => "BE",
         BecomeSg(_) => "BECOME_SG",
         BecomePl(_) => "BECOME_PL",

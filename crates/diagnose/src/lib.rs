@@ -359,7 +359,8 @@ fn word(t: &Tok) -> &str {
         | Tok::ModalCan(w) | Tok::ModalCannot(w) | Tok::If(w) | Tok::Then(w)
         | Tok::Every(w) | Tok::No(w) | Tok::Num(w) | Tok::NumPl(w) | Tok::Percent(w)
         | Tok::Approx(w) | Tok::So(w) | Tok::Because(w) | Tok::Namely(w) | Tok::Some_(w) | Tok::Name(w)
-        | Tok::Ord(w) | Tok::Than(w) | Tok::More(w) | Tok::Scale(w) | Tok::AdjCmp(w) | Tok::AdjLong(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w) => w,
+        | Tok::Ord(w) | Tok::Than(w) | Tok::More(w) | Tok::Scale(w) | Tok::AdjCmp(w) | Tok::AdjLong(w)
+        | Tok::AdjSup(w) | Tok::Most(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w) => w,
         Tok::Comma => ",",
         Tok::Colon => ":",
     }
@@ -963,6 +964,14 @@ fn slot_findings(lexicon: &Lexicon, toks: &[Tok]) -> Vec<String> {
         if matches!(t, Tok::AdjCmp(_)) && !matches!(toks.get(i + 1), Some(Tok::Than(_))) {
             out.push(format!("\"{}\" needs the standard: \"{} than <noun phrase>\" (ADR 0030)", word(t), word(t)));
         }
+        // superlatives (ADR 0056): "most big" when an inflected form exists
+        if let Tok::Most(_) = t {
+            if let Some(Tok::Adj(a) | Tok::AdjLong(a)) = toks.get(i + 1) {
+                if let Some(s) = lexicon.superlative(a) {
+                    out.push(format!("\"most {a}\" — write \"{s}\" (short adjectives inflect, ADR 0056)"));
+                }
+            }
+        }
         if matches!(t, Tok::Scale(_)) && !(i > 0 && matches!(toks[i - 1], Tok::NumPl(_))) {
             out.push(format!("\"{}\" follows digits: \"20 {}\" (ADR 0029)", word(t), word(t)));
         }
@@ -1078,7 +1087,8 @@ fn term_of(t: &Tok) -> Vec<Term> {
         Tok::Ord(_) => vec![Term::Ord],
         Tok::Be(_) | Tok::BecomeSg(_) | Tok::BecomePl(_) | Tok::BecomePast(_) => vec![Term::CopAny],
         Tok::Than(_) => vec![Term::Than],
-        Tok::More(_) | Tok::Scale(_) | Tok::AdjCmp(_) | Tok::AdjLong(_) | Tok::Adj(_) => vec![Term::Adj],
+        Tok::More(_) | Tok::Scale(_) | Tok::AdjCmp(_) | Tok::AdjLong(_) | Tok::Adj(_)
+        | Tok::AdjSup(_) | Tok::Most(_) => vec![Term::Adj],
         Tok::NounSg(_) => vec![Term::NSg],
         Tok::NounPl(_) => vec![Term::NPl],
         Tok::VtBase(_) | Tok::Vt3(_) | Tok::ViBase(_) | Tok::Vi3(_) => vec![Term::VAny],

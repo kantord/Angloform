@@ -326,6 +326,7 @@ avoiding	form	VERB_TRANS_ING	avoid
 avoids	form	VERB_TRANS_3SG	avoid
 bad	form	ADJ	bad
 badder	form	ADJ_CMP	bad
+baddest	form	ADJ_SUP	bad
 ban	form	VERB_TRANS_BASE	ban
 ban	term	-	Ban
 banned	form	VERB_TRANS_ED	ban
@@ -350,10 +351,12 @@ belong	form	VERB_INTRANS_BASE	belong
 belonged	form	VERB_INTRANS_ED	belong
 belonging	form	VERB_INTRANS_ING	belong
 belongs	form	VERB_INTRANS_3SG	belong
+best	form	ADJ_SUP	good
 better	form	ADJ_CMP	good
 between	form	PREP_V	between
 big	form	ADJ	big
 bigger	form	ADJ_CMP	big
+biggest	form	ADJ_SUP	big
 billion	form	SCALE	billion
 binaries	form	NOUN_PL	binary
 binary	form	NOUN_SG	binary
@@ -363,6 +366,7 @@ blockers	form	NOUN_PL	blocker
 blocks	term	-	Blocks
 blunt	form	ADJ	blunt
 blunter	form	ADJ_CMP	blunt
+bluntest	form	ADJ_SUP	blunt
 bound	form	NOUN_SG	bound
 boundaries	form	NOUN_PL	boundary
 boundary	form	NOUN_SG	boundary
@@ -433,6 +437,7 @@ charisma	form	NOUN_SG	charisma
 charismas	form	NOUN_PL	charisma
 cheap	form	ADJ	cheap
 cheaper	form	ADJ_CMP	cheap
+cheapest	form	ADJ_SUP	cheap
 cheat	form	VERB_INTRANS_BASE	cheat
 cheated	form	VERB_INTRANS_ED	cheat
 cheating	form	VERB_INTRANS_ING	cheat
@@ -464,6 +469,7 @@ cleaning	form	VERB_TRANS_ING	clean
 cleans	form	VERB_TRANS_3SG	clean
 clear	form	ADJ	clear
 clearer	form	ADJ_CMP	clear
+clearest	form	ADJ_SUP	clear
 closed	form	ADJ_LONG	closed
 closed class	term	-	Closed Class
 closed classes	term	-	Closed Classes
@@ -661,6 +667,7 @@ decoration	form	NOUN_SG	decoration
 decorations	form	NOUN_PL	decoration
 deep	form	ADJ	deep
 deeper	form	ADJ_CMP	deep
+deepest	form	ADJ_SUP	deep
 defense	form	NOUN_SG	defense
 defenses	form	NOUN_PL	defense
 defer	form	VERB_TRANS_BASE	defer
@@ -770,6 +777,7 @@ earned	form	VERB_TRANS_ED	earn
 earning	form	VERB_TRANS_ING	earn
 earns	form	VERB_TRANS_3SG	earn
 easier	form	ADJ_CMP	easy
+easiest	form	ADJ_SUP	easy
 easy	form	ADJ	easy
 edit	form	VERB_TRANS_BASE	edit
 edit	reject	NOUN	revision
@@ -789,6 +797,7 @@ emphasis	form	NOUN_SG	emphasis
 emphasises	form	NOUN_PL	emphasis
 emphatic	form	ADJ_LONG	emphatic
 emptier	form	ADJ_CMP	empty
+emptiest	form	ADJ_SUP	empty
 empty	form	ADJ	empty
 empty	reject	VERB	drain
 enable	form	VERB_TRANS_BASE	enable
@@ -894,6 +903,7 @@ fetching	form	VERB_TRANS_ING	fetch
 fewer	ban	-	comparatives of a quantity are deferred (ADR 0030) - write "a small number of <nouns>", or a Comparative of an adjective with "than"
 fiat	form	ADJ	fiat
 fiater	form	ADJ_CMP	fiat
+fiatest	form	ADJ_SUP	fiat
 field	form	NOUN_SG	field
 fields	form	NOUN_PL	field
 file	form	NOUN_SG	file
@@ -924,6 +934,7 @@ flattened	form	VERB_TRANS_ED	flatten
 flattening	form	VERB_TRANS_ING	flatten
 flattens	form	VERB_TRANS_3SG	flatten
 flatter	form	ADJ_CMP	flat
+flattest	form	ADJ_SUP	flat
 floor	form	NOUN_SG	floor
 floors	form	NOUN_PL	floor
 fold	form	VERB_TRANS_BASE	fold
@@ -953,6 +964,7 @@ frame	form	NOUN_SG	frame
 frames	form	NOUN_PL	frame
 free	form	ADJ	free
 freer	form	ADJ_CMP	free
+freest	form	ADJ_SUP	free
 frequencies	form	NOUN_PL	frequency
 frequency	form	NOUN_SG	frequency
 friend	form	NOUN_SG	friend
@@ -963,6 +975,7 @@ fronted	ban	-	write "at the front": "the text at the front of the sentence"
 fronts	form	NOUN_PL	front
 full	form	ADJ	full
 fuller	form	ADJ_CMP	full
+fullest	form	ADJ_SUP	full
 function word	term	-	Function Word
 function words	term	-	Function Words
 future	form	ADJ_LONG	future
@@ -1044,6 +1057,7 @@ hears	form	VERB_TRANS_3SG	hear
 heart	form	NOUN_SG	heart
 hearts	form	NOUN_PL	heart
 heavier	form	ADJ_CMP	heavy
+heaviest	form	ADJ_SUP	heavy
 heavy	form	ADJ	heavy
 held	form	VERB_TRANS_ED	hold
 help	form	VERB_TRANS_BASE	help
@@ -1192,6 +1206,7 @@ language models	term	-	Language Models
 languages	form	NOUN_PL	language
 last	form	ADJ	last
 laster	form	ADJ_CMP	last
+lastest	form	ADJ_SUP	last
 late	form	ADJ_LONG	late
 later	form	ADJ_LONG	later
 layer	form	NOUN_SG	layer
@@ -1203,6 +1218,7 @@ learns	form	VERB_TRANS_3SG	learn
 left	form	ADJ	left
 left-branching	ban	-	describe the shape in a sentence: "the sentence has a heavy branch at the front"
 lefter	form	ADJ_CMP	left
+leftest	form	ADJ_SUP	left
 legal	form	ADJ_LONG	legal
 lemma	term	-	Lemma
 lemmas	term	-	Lemmas
@@ -1242,6 +1258,7 @@ logic	form	NOUN_SG	logic
 logics	form	NOUN_PL	logic
 long	form	ADJ	long
 longer	form	ADJ_CMP	long
+longest	form	ADJ_SUP	long
 lookahead	form	NOUN_SG	lookahead
 lookaheads	form	NOUN_PL	lookahead
 loose	form	ADJ_LONG	loose
@@ -1253,6 +1270,7 @@ losses	form	NOUN_PL	loss
 lost	form	VERB_TRANS_ED	lose
 loud	form	ADJ	loud
 louder	form	ADJ_CMP	loud
+loudest	form	ADJ_SUP	loud
 love	form	NOUN_SG	love
 loves	form	NOUN_PL	love
 lowercase	form	NOUN_SG	lowercase
@@ -1264,6 +1282,7 @@ macros	form	NOUN_PL	macro
 made	form	VERB_TRANS_ED	make
 main	form	ADJ	main
 mainer	form	ADJ_CMP	main
+mainest	form	ADJ_SUP	main
 maintainer	form	NOUN_SG	maintainer
 maintainers	form	NOUN_PL	maintainer
 make	form	VERB_TRANS_BASE	make
@@ -1350,7 +1369,7 @@ monitored	form	VERB_TRANS_ED	monitor
 monitoring	form	VERB_TRANS_ING	monitor
 monitors	form	VERB_TRANS_3SG	monitor
 more	form	MORE	more
-most	ban	-	superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item
+most	form	MOST	most
 move	form	VERB_TRANS_BASE	move
 moved	form	VERB_TRANS_ED	move
 moves	form	VERB_TRANS_3SG	move
@@ -1384,6 +1403,7 @@ nested	form	ADJ_LONG	nested
 never	form	NEG	never
 new	form	ADJ	new
 newer	form	ADJ_CMP	new
+newest	form	ADJ_SUP	new
 night	form	NOUN_SG	night
 nights	form	NOUN_PL	night
 nine	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
@@ -1391,6 +1411,7 @@ no	form	QUANT_NEG	no
 noise	form	NOUN_SG	noise
 noises	form	NOUN_PL	noise
 noisier	form	ADJ_CMP	noisy
+noisiest	form	ADJ_SUP	noisy
 noisy	form	ADJ	noisy
 normative	form	ADJ_LONG	normative
 not	form	NEG	not
@@ -1426,6 +1447,7 @@ offering	form	VERB_TRANS_ING	offer
 offers	form	VERB_TRANS_3SG	offer
 old	form	ADJ	old
 older	form	ADJ_CMP	old
+oldest	form	ADJ_SUP	old
 on	form	PREP_V	on
 one	form	NUM_SG	one
 ongoing	form	ADJ_LONG	ongoing
@@ -1503,6 +1525,7 @@ passive	term	-	Passive
 passives	term	-	Passives
 past	form	ADJ	past
 paster	form	ADJ_CMP	past
+pastest	form	ADJ_SUP	past
 pattern	form	NOUN_SG	pattern
 patterns	form	NOUN_PL	pattern
 pay	form	VERB_TRANS_BASE	pay
@@ -1532,6 +1555,7 @@ place	form	NOUN_SG	place
 places	form	NOUN_PL	place
 plain	form	ADJ	plain
 plainer	form	ADJ_CMP	plain
+plainest	form	ADJ_SUP	plain
 plan	form	VERB_TRANS_BASE	plan
 planned	form	VERB_TRANS_ED	plan
 planning	form	VERB_TRANS_ING	plan
@@ -1592,6 +1616,7 @@ prevents	form	VERB_TRANS_3SG	prevent
 primary	form	ADJ_LONG	primary
 prior	form	ADJ	prior
 priorer	form	ADJ_CMP	prior
+priorest	form	ADJ_SUP	prior
 probably	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
 problem	form	NOUN_SG	problem
 problems	form	NOUN_PL	problem
@@ -1685,6 +1710,7 @@ reading	form	VERB_TRANS_ING	read
 reads	form	VERB_TRANS_3SG	read
 real	form	ADJ	real
 realer	form	ADJ_CMP	real
+realest	form	ADJ_SUP	real
 reappear	form	VERB_INTRANS_BASE	reappear
 reappeared	form	VERB_INTRANS_ED	reappear
 reappearing	form	VERB_INTRANS_ING	reappear
@@ -1847,6 +1873,7 @@ role	form	NOUN_SG	role
 roles	form	NOUN_PL	role
 round	form	ADJ	round
 rounder	form	ADJ_CMP	round
+roundest	form	ADJ_SUP	round
 row	form	NOUN_SG	row
 rows	form	NOUN_PL	row
 rule	form	NOUN_SG	rule
@@ -1928,7 +1955,7 @@ shares	form	NOUN_PL	share
 she	ban	-	third-person reference is banned - repeat the noun you mean (ADR 0002)
 short	form	ADJ	short
 shorter	form	ADJ_CMP	short
-shortest	ban	-	superlatives are deferred (ADR 0029) - write "short", or a Comparative: "shorter than …"
+shortest	form	ADJ_SUP	short
 should	ban	-	"should" is a deferred modal (ADR 0009) - for an obligation write "must"; for advice write a Conditional: "if …, then the writer …"
 show	form	VERB_TRANS_BASE	show
 show	reject	NOUN	display
@@ -1966,6 +1993,7 @@ slot	form	NOUN_SG	slot
 slots	form	NOUN_PL	slot
 small	form	ADJ	small
 smaller	form	ADJ_CMP	small
+smallest	form	ADJ_SUP	small
 so	form	RESULT	so
 some	form	QUANT_EXIST	some
 somewhat	ban	-	epistemic hedges are banned - state the claim directly, or drop the qualifier (ADR 0042)
@@ -2022,10 +2050,12 @@ stores	form	VERB_TRANS_3SG	store
 storing	form	VERB_TRANS_ING	store
 strict	form	ADJ	strict
 stricter	form	ADJ_CMP	strict
+strictest	form	ADJ_SUP	strict
 string	form	NOUN_SG	string
 strings	form	NOUN_PL	string
 strong	form	ADJ	strong
 stronger	form	ADJ_CMP	strong
+strongest	form	ADJ_SUP	strong
 structural	form	ADJ_LONG	structural
 structure	form	NOUN_SG	structure
 structure loss	term	-	Structure Loss
@@ -2061,6 +2091,7 @@ sweeps	form	NOUN_PL	sweep
 sweet	form	ADJ	sweet
 sweet	reject	NOUN	candy
 sweeter	form	ADJ_CMP	sweet
+sweetest	form	ADJ_SUP	sweet
 syllable	form	NOUN_SG	syllable
 syllables	form	NOUN_PL	syllable
 symbol	form	NOUN_SG	symbol
@@ -2289,6 +2320,7 @@ writing	form	VERB_TRANS_ING	write
 written	form	VERB_TRANS_ED	write
 wrong	form	ADJ	wrong
 wronger	form	ADJ_CMP	wrong
+wrongest	form	ADJ_SUP	wrong
 wrote	form	VERB_TRANS_ED	write
 yet	form	YET	yet
 you	form	PRON_2	you

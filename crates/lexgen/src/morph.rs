@@ -30,9 +30,10 @@ pub fn gerund(verb: &str) -> String {
     format!("{}ing", doubled(verb))
 }
 
-/// Inflected comparative for short adjectives (ADR 0030): one syllable, or
-/// two ending in -y. Longer adjectives return None and use "more <adj>".
-pub fn comparative(adj: &str) -> Option<String> {
+/// One syllable, or two ending in -y — the same split ADR 0030's
+/// comparative uses and ADR 0056's superlative reuses (both inflect only
+/// on this class; longer adjectives take the periphrastic "more"/"most").
+fn is_short(adj: &str) -> bool {
     let syllables = adj
         .chars()
         .fold((0usize, false), |(n, prev_vowel), c| {
@@ -41,8 +42,13 @@ pub fn comparative(adj: &str) -> Option<String> {
         })
         .0
         .max(1);
-    let short = syllables == 1 || (syllables == 2 && adj.ends_with('y'));
-    if !short {
+    syllables == 1 || (syllables == 2 && adj.ends_with('y'))
+}
+
+/// Inflected comparative for short adjectives (ADR 0030): one syllable, or
+/// two ending in -y. Longer adjectives return None and use "more <adj>".
+pub fn comparative(adj: &str) -> Option<String> {
+    if !is_short(adj) {
         return None;
     }
     Some(if adj.ends_with('e') {
@@ -51,6 +57,22 @@ pub fn comparative(adj: &str) -> Option<String> {
         format!("{stem}ier")
     } else {
         format!("{}er", doubled(adj))
+    })
+}
+
+/// Inflected superlative for short adjectives (ADR 0056's grammar; same
+/// short/long split as `comparative`). Longer adjectives return None and
+/// use "most <adj>".
+pub fn superlative(adj: &str) -> Option<String> {
+    if !is_short(adj) {
+        return None;
+    }
+    Some(if adj.ends_with('e') {
+        format!("{adj}st")
+    } else if let Some(stem) = strip_consonant_y(adj) {
+        format!("{stem}iest")
+    } else {
+        format!("{}est", doubled(adj))
     })
 }
 
@@ -117,6 +139,11 @@ mod tests {
         assert_eq!(gerund("die"), "dying");
         assert_eq!(gerund("see"), "seeing");
         assert_eq!(gerund("fail"), "failing");
+        assert_eq!(comparative("big").as_deref(), Some("bigger"));
+        assert_eq!(superlative("big").as_deref(), Some("biggest"));
+        assert_eq!(superlative("easy").as_deref(), Some("easiest"));
+        assert_eq!(superlative("short").as_deref(), Some("shortest"));
+        assert_eq!(superlative("transparent"), None);
     }
 
     // Property tests: these functions are pure string transforms fed
@@ -137,6 +164,7 @@ mod tests {
             let _ = past(&s);
             let _ = gerund(&s);
             let _ = comparative(&s);
+            let _ = superlative(&s);
         }
 
         #[test]
@@ -159,6 +187,13 @@ mod tests {
         fn comparative_when_some_ends_in_er(s in "[a-z]{1,20}") {
             if let Some(c) = comparative(&s) {
                 proptest::prop_assert!(c.ends_with("er"));
+            }
+        }
+
+        #[test]
+        fn superlative_when_some_ends_in_est(s in "[a-z]{1,20}") {
+            if let Some(s) = superlative(&s) {
+                proptest::prop_assert!(s.ends_with("est"));
             }
         }
 

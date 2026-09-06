@@ -69,6 +69,8 @@ pub enum Tok {
     Scale(String),
     AdjCmp(String),
     AdjLong(String),
+    AdjSup(String),
+    Most(String),
     Be(String),
     BecomeSg(String),
     BecomePl(String),
@@ -115,6 +117,8 @@ pub struct Lexicon {
     names: std::collections::BTreeSet<String>,
     /// adjective lemma → its inflected comparative surface (ADR 0030)
     comparatives: BTreeMap<String, String>,
+    /// adjective lemma → its inflected superlative surface (ADR 0056)
+    superlatives: BTreeMap<String, String>,
     rejects: BTreeMap<String, Vec<(String, String)>>,
     bans: BTreeMap<String, String>,
     /// Capitalized term → its Capitalized parent category (ADR 0027's
@@ -134,6 +138,7 @@ impl Lexicon {
         let mut terms: BTreeMap<String, String> = BTreeMap::new();
         let mut names = std::collections::BTreeSet::new();
         let mut comparatives: BTreeMap<String, String> = BTreeMap::new();
+        let mut superlatives: BTreeMap<String, String> = BTreeMap::new();
         let mut member_of: BTreeMap<String, String> = BTreeMap::new();
         for line in text.lines().filter(|l| !l.starts_with('#')) {
             let f: Vec<&str> = line.split('\t').collect();
@@ -144,6 +149,9 @@ impl Lexicon {
                     lemmas.insert(surface.to_string(), value.to_string());
                     if tag == "ADJ_CMP" {
                         comparatives.insert(value.to_string(), surface.to_string());
+                    }
+                    if tag == "ADJ_SUP" {
+                        superlatives.insert(value.to_string(), surface.to_string());
                     }
                 }
                 "reject" => rejects
@@ -165,7 +173,7 @@ impl Lexicon {
                 _ => {}
             }
         }
-        Ok(Lexicon { forms, lemmas, terms, names, comparatives, rejects, bans, member_of })
+        Ok(Lexicon { forms, lemmas, terms, names, comparatives, superlatives, rejects, bans, member_of })
     }
 
     pub fn load(path: &str) -> Result<Lexicon, String> {
@@ -187,6 +195,11 @@ impl Lexicon {
     /// The inflected comparative of an adjective, if it has one (ADR 0030).
     pub fn comparative(&self, adj: &str) -> Option<&str> {
         self.comparatives.get(adj).map(String::as_str)
+    }
+
+    /// The inflected superlative of an adjective, if it has one (ADR 0056).
+    pub fn superlative(&self, adj: &str) -> Option<&str> {
+        self.superlatives.get(adj).map(String::as_str)
     }
 
     /// The Capitalized parent category of a Capitalized domain term, if
@@ -622,6 +635,8 @@ fn tag_to_tok(tag: &str, word: &str) -> Option<Tok> {
         "SCALE" => Tok::Scale(w),
         "ADJ_CMP" => Tok::AdjCmp(w),
         "ADJ_LONG" => Tok::AdjLong(w),
+        "ADJ_SUP" => Tok::AdjSup(w),
+        "MOST" => Tok::Most(w),
         "BE" => Tok::Be(w),
         "BECOME_SG" => Tok::BecomeSg(w),
         "BECOME_PL" => Tok::BecomePl(w),

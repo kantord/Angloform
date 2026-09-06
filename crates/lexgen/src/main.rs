@@ -352,6 +352,17 @@ fn expand(e: &SeedEntry, errors: &mut Vec<String>) -> Vec<Form> {
                 Some((c, explicit)) => {
                     push(lemma.into(), "ADJ".into(), true, &mut out);
                     push(c, "ADJ_CMP".into(), explicit, &mut out);
+                    // ADR 0056: a short adjective also has an inflected
+                    // superlative; a long one takes "most <adj>" instead
+                    // (no ADJ_SUP form — the grammar uses "most" + ADJ_LONG).
+                    let sup = match over("superlative") {
+                        Some(s) if s == "none" => None,
+                        Some(s) => Some((s, true)),
+                        None => morph::superlative(lemma).map(|s| (s, false)),
+                    };
+                    if let Some((s, explicit)) = sup {
+                        push(s, "ADJ_SUP".into(), explicit, &mut out);
+                    }
                 }
                 None => push(lemma.into(), "ADJ_LONG".into(), true, &mut out),
             }

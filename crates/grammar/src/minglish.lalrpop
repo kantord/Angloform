@@ -68,6 +68,8 @@ extern {
         "SCALE" => Tok::Scale(<String>),
         "ADJ_CMP" => Tok::AdjCmp(<String>),
         "ADJ_LONG" => Tok::AdjLong(<String>),
+        "ADJ_SUP" => Tok::AdjSup(<String>),
+        "MOST" => Tok::Most(<String>),
         "BE" => Tok::Be(<String>),
         "BECOME_SG" => Tok::BecomeSg(<String>),
         "BECOME_PL" => Tok::BecomePl(<String>),
@@ -173,6 +175,8 @@ LThan: Tree = <l:@L> <w:"THAN"> => leaf(l, w);
 LMore: Tree = <l:@L> <w:"MORE"> => leaf(l, w);
 LScale: Tree = <l:@L> <w:"SCALE"> => leaf(l, w);
 LAdjCmp: Tree = <l:@L> <w:"ADJ_CMP"> => leaf(l, w);
+LAdjSup: Tree = <l:@L> <w:"ADJ_SUP"> => leaf(l, w);
+LMost: Tree = <l:@L> <w:"MOST"> => leaf(l, w);
 LSome: Tree = <l:@L> <w:"SOME"> => leaf(l, w);
 LName: Tree = <l:@L> <w:"NAME"> => leaf(l, w);
 
@@ -549,6 +553,14 @@ NPSGCore: Tree = {
     // ordinal (ADR 0029): "the first word", "the 4th file", "a first draft"
     <d:LDetAny> <o:LOrd> <a:LAdj?> <n:LNounSg> <of:OfPP?> =>
         nd("NP", 3, vec![Some(d), Some(o), a, Some(n), of]),
+    // superlative (ADR 0056): a short adjective inflects ("the biggest
+    // file"), a long one takes "most" (ADR 0030's inflected/periphrastic
+    // split, reused). The optional of-PP names the set, same slot as the
+    // Ordinal's, unforced the same way (ADR 0029 didn't force it either).
+    <d:LDetAny> <s:LAdjSup> <a:LAdj?> <n:LNounSg> <of:OfPP?> =>
+        nd("NP", 3, vec![Some(d), Some(s), a, Some(n), of]),
+    <d:LDetAny> <m:LMost> <a:LAdjLong> <n:LNounSg> <of:OfPP?> =>
+        nd("NP", 3, vec![Some(d), Some(m), Some(a), Some(n), of]),
     // proper names (ADR 0018): bare, or appositive after a noun
     <nm:LName> => nm,
     <d:LDet> <a:LAdj?> <n:LNounSg> <nm:LName> <o:OfPP?> =>
@@ -605,6 +617,10 @@ NPInner: Tree = {
     NPi<LNum, LNounSg>,
     <d:LDetAny> <o:LOrd> <a:LAdj?> <n:LNounSg> =>
         nd("NP", 3, vec![Some(d), Some(o), a, Some(n)]),
+    <d:LDetAny> <s:LAdjSup> <a:LAdj?> <n:LNounSg> =>
+        nd("NP", 3, vec![Some(d), Some(s), a, Some(n)]),
+    <d:LDetAny> <m:LMost> <a:LAdjLong> <n:LNounSg> =>
+        nd("NP", 3, vec![Some(d), Some(m), Some(a), Some(n)]),
     <d:LDet?> <ap:LApprox?> <n:LNumPl> <sc:LScale?> <a:LAdj?> <nn:LNounPl> =>
         nd("NP", 5, vec![d, ap, Some(n), sc, a, Some(nn)]),
     NPi<LDet, LNounSg>,

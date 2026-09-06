@@ -30,26 +30,37 @@ differently," a much smaller kind of gap.
 
 **Remaining narrow gaps** (all *deferred* in STATUS.md's decision
 queue, not discovered-and-unaddressed): measurement values/decimals/
-thousands separators (ADR 0022), superlatives (ADR 0029), percent-of-mass
-and percentages-as-predicates (ADR 0024), ambitransitive verbs (no
-case attached yet). These matter specifically for spec-like content
-with numbers, benchmarks, or thresholds — a real technical-writing use
-case, not an edge case.
+thousands separators (ADR 0022), percent-of-mass and
+percentages-as-predicates (ADR 0024), ambitransitive verbs (no case
+attached yet). These matter specifically for spec-like content with
+numbers, benchmarks, or thresholds — a real technical-writing use case,
+not an edge case.
 
-**2026-09-06 update**: closed the named-standard comparison "identical to
-X" (ADR 0023's deferral) via ADR 0055 — one new grammar alternative
-(an adjective complement can take a PP, reusing ADR 0031's attachment
-argument for a noun-phrase complement), zero LALR(1) conflict, 2 stale
-linter rules removed (they were rejecting a shape the grammar now
-accepts), full corpus + workspace tests green. One session, as estimated
-below. 3 items remain of the original 4.
+**2026-09-06 update**: closed 2 of the original 4. The named-standard
+comparison "identical to X" (ADR 0023's deferral) via ADR 0055 — one new
+grammar alternative (an adjective complement can take a PP, reusing ADR
+0031's attachment argument for a noun-phrase complement), zero LALR(1)
+conflict, 2 stale linter rules removed (they were rejecting a shape the
+grammar now accepts). Superlatives ("the biggest file", "the most
+transparent file", ADR 0029/0030's deferral) via ADR 0056 — same
+short/long inflection split ADR 0030 already used for comparatives, the
+same attributive slot and optional of-PP ADR 0029 already used for the
+Ordinal; unbanned "most" and the hardcoded "shortest" ban (both now
+auto-derived); Lexgen's unattested-form lint caught 9 irregular-looking
+generated superlatives (all real-if-rare regularizations already
+tolerated for the matching comparative, e.g. "wronger" → "wrongest"),
+acknowledged via explicit Seed overrides, the process working exactly as
+ADR 0030 designed it to. Zero LALR(1) conflict, full corpus + workspace
+tests green both times. One session each, as estimated below. 2 items
+remain of the original 4.
 
-**To close (the remaining 3)**: same proven method as this session's ADR
-0042–0049 and 0055 runs — one deferred item at a time, grammar-first
-(check for LALR conflicts before design lock-in), verified against the
-full corpus each time. Each item has closed a comparable-complexity gap
-in roughly one focused session historically. Estimated: 2–4 sessions,
-independently parallelizable (no shared grammar position between them).
+**To close (the remaining 2)**: same proven method as this session's ADR
+0042–0049, 0055, and 0056 runs — one deferred item at a time,
+grammar-first (check for LALR conflicts before design lock-in), verified
+against the full corpus each time. Each item has closed a
+comparable-complexity gap in roughly one focused session historically.
+Estimated: 1–3 sessions, independently parallelizable (no shared grammar
+position between them).
 
 ## Condition 2: the prose that results is natural, not merely parseable — THE gap
 
@@ -211,10 +222,10 @@ metric.
 1. **Fix README.md.** Hours, zero risk, no dependency on anything else,
    and it's actively misleading right now — do this regardless of what
    else gets prioritized.
-2. **Close the 4 deferred numeric/comparative gaps** (Condition 1).
-   Bounded, mechanical, parallelizable, proven method. Do this while
-   Condition 2's design work is still being scoped — it doesn't block
-   or depend on it.
+2. **Close the deferred numeric/comparative gaps** (Condition 1). 2 of 4
+   done (ADR 0055, ADR 0056); 2 remain. Bounded, mechanical,
+   parallelizable, proven method. Do this while Condition 2's design work
+   is still being scoped — it doesn't block or depend on it.
 3. **Rank Condition 2's failure shapes by real frequency**, then design
    the 1–2 highest-leverage constructions (likely an
    appositive/parenthetical-definition form). Treat Condition 3's

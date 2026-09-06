@@ -96,8 +96,8 @@ impl Category {
     pub fn slots(&self) -> &'static [&'static str] {
         match self {
             Category::Noun => &["plural"],
-            // ADR 0030: short adjectives inflect (-er); "none" opts out
-            Category::Adj => &["comparative"],
+            // ADR 0030/0056: short adjectives inflect (-er/-est); "none" opts out
+            Category::Adj => &["comparative", "superlative"],
             Category::VerbTrans | Category::VerbIntrans => {
                 &["third", "past", "ppart", "ing"]
             }
