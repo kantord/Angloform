@@ -79,8 +79,6 @@ fn rejections_get_named_diagnoses() {
         ("Then the queue is empty", "inside a Step Block"),
         ("every decision about a structure uses 3 criteria", "exists only before digits"),
         ("the rule keeps the loss small", "carries the result"),
-        ("the bound is 4", "needs its noun"),
-        ("the bound of the Open Dependencies is about 4", "needs its noun"),
         ("every Grammar ADR uses the 3 criteria", "only after"),
         ("the writer prefers the more expressive one", "not a Pronoun"),
         ("the criterion of the Cognitive Load is first", "needs its noun"),
@@ -120,10 +118,11 @@ fn rejections_get_named_diagnoses() {
         Diagnosis::Word(msg) => assert!(msg.contains("it")),
         other => panic!("expected Word diagnosis, got {other:?}"),
     }
-    // digits: 0 and number words redirect through the word-level channel (ADR 0022)
+    // "0" is a value, not a count (ADR 0058): still redirected, now a
+    // named Style finding instead of a word-level lex ban (ADR 0022)
     match diagnose(&lexicon, "the agent deleted 0 files") {
-        Diagnosis::Word(msg) => assert!(msg.contains("\"no <noun>")),
-        other => panic!("expected Word diagnosis, got {other:?}"),
+        Diagnosis::Style(msgs) => assert!(msgs.iter().any(|m| m.contains("\"no <noun>"))),
+        other => panic!("expected Style diagnosis, got {other:?}"),
     }
     match diagnose(&lexicon, "the agent deleted three files") {
         Diagnosis::Word(msg) => assert!(msg.contains("digits")),

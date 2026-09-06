@@ -28,39 +28,47 @@ almost every rejection already has a specific, named cause — not "the
 grammar can't express this," but "the writer needs to phrase it
 differently," a much smaller kind of gap.
 
-**Remaining narrow gaps** (all *deferred* in STATUS.md's decision
-queue, not discovered-and-unaddressed): measurement values/decimals/
-thousands separators (ADR 0022), percent-of-mass and
-percentages-as-predicates (ADR 0024), ambitransitive verbs (no case
-attached yet). These matter specifically for spec-like content with
-numbers, benchmarks, or thresholds — a real technical-writing use case,
-not an edge case.
+**Status: closed.** All 4 of the originally-deferred numeric/comparative
+gaps are done as of 2026-09-06. The only remaining item in this
+condition's original scope is ambitransitive verbs (no case attached yet
+— a separate, findings-level gap, never one of the 4 ADR-numbered
+deferrals; not blocking).
 
-**2026-09-06 update**: closed 2 of the original 4. The named-standard
-comparison "identical to X" (ADR 0023's deferral) via ADR 0055 — one new
-grammar alternative (an adjective complement can take a PP, reusing ADR
-0031's attachment argument for a noun-phrase complement), zero LALR(1)
-conflict, 2 stale linter rules removed (they were rejecting a shape the
-grammar now accepts). Superlatives ("the biggest file", "the most
-transparent file", ADR 0029/0030's deferral) via ADR 0056 — same
-short/long inflection split ADR 0030 already used for comparatives, the
-same attributive slot and optional of-PP ADR 0029 already used for the
-Ordinal; unbanned "most" and the hardcoded "shortest" ban (both now
-auto-derived); Lexgen's unattested-form lint caught 9 irregular-looking
-generated superlatives (all real-if-rare regularizations already
-tolerated for the matching comparative, e.g. "wronger" → "wrongest"),
-acknowledged via explicit Seed overrides, the process working exactly as
-ADR 0030 designed it to. Zero LALR(1) conflict, full corpus + workspace
-tests green both times. One session each, as estimated below. 2 items
-remain of the original 4.
-
-**To close (the remaining 2)**: same proven method as this session's ADR
-0042–0049, 0055, and 0056 runs — one deferred item at a time,
-grammar-first (check for LALR conflicts before design lock-in), verified
-against the full corpus each time. Each item has closed a
-comparable-complexity gap in roughly one focused session historically.
-Estimated: 1–3 sessions, independently parallelizable (no shared grammar
-position between them).
+**2026-09-06 update, in closing order**: The named-standard comparison
+"identical to X" (ADR 0023's deferral) via ADR 0055 — one new grammar
+alternative (an adjective complement can take a PP, reusing ADR 0031's
+attachment argument for a noun-phrase complement), zero LALR(1) conflict,
+2 stale linter rules removed (they were rejecting a shape the grammar now
+accepts). Superlatives ("the biggest file", "the most transparent file",
+ADR 0029/0030's deferral) via ADR 0056 — same short/long inflection split
+ADR 0030 already used for comparatives, the same attributive slot and
+optional of-PP ADR 0029 already used for the Ordinal; unbanned "most" and
+the hardcoded "shortest" ban (both now auto-derived); Lexgen's
+unattested-form lint caught 9 irregular-looking generated superlatives
+(all real-if-rare regularizations already tolerated for the matching
+comparative, e.g. "wronger" → "wrongest"), acknowledged via explicit Seed
+overrides, the process working exactly as ADR 0030 designed it to.
+Percent of a singular noun and a bare share as a Complement value (ADR
+0024's other 2 deferrals) via ADR 0057 — the existing plural
+percent-share rule was narrowed to a plural inner noun and a new sibling
+rule added for a singular inner noun (so "50 percent of the file is …"
+and "43 percent of the swaps are …" each get the right agreement and the
+wrong-agreement form now correctly rejects, closing a latent
+over-acceptance the original rule had); a bare share ("the load is 43
+percent") is legal only in Complement position, so ADR 0024's
+anti-anaphora ban on a bare share as subject/object is untouched. ADR
+0024's 3rd deferral, decimals, turned out already closed by ADR 0029's
+general decimal-digit support — verified, not built. A bare digit as a
+measurement value ("the value is 0", ADR 0022's core deferral) via ADR
+0058 — "0" now tokenizes as its own NUM_VAL terminal instead of a hard
+lex ban, distinct from the NUM_PL count slot, so it's legal as a bare (or
+approximate) Complement value but still cannot reach a count position
+("0 files" stays rejected, now via a named Linter finding instead of an
+unnamed lex error). ADR 0022's other 2 sub-questions (thousands
+separators, negative numbers) and units generally stay open — real but
+smaller and not evidenced as blocking yet; see STATUS.md's queue if they
+become live. Zero LALR(1) conflict, full corpus + workspace tests green
+all 4 times. One session each.
 
 ## Condition 2: the prose that results is natural, not merely parseable — THE gap
 
@@ -222,10 +230,8 @@ metric.
 1. **Fix README.md.** Hours, zero risk, no dependency on anything else,
    and it's actively misleading right now — do this regardless of what
    else gets prioritized.
-2. **Close the deferred numeric/comparative gaps** (Condition 1). 2 of 4
-   done (ADR 0055, ADR 0056); 2 remain. Bounded, mechanical,
-   parallelizable, proven method. Do this while Condition 2's design work
-   is still being scoped — it doesn't block or depend on it.
+2. ~~**Close the deferred numeric/comparative gaps** (Condition 1).~~ Done
+   2026-09-06 — all 4 closed (ADR 0055, ADR 0056, ADR 0057, ADR 0058).
 3. **Rank Condition 2's failure shapes by real frequency**, then design
    the 1–2 highest-leverage constructions (likely an
    appositive/parenthetical-definition form). Treat Condition 3's

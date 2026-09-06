@@ -176,17 +176,23 @@ that is not derivable from the code, ADRs, or git history.
    enumerator → role assignment → table-driven rewrite with explanations;
    NLI as the future faithfulness gate. Steps 1–3 need no model and no API
    spend; the first candidate for build work after the vocabulary queue.
-4. Deferred by ADR 0022 (numbers, decided 2026-09-01): measurement values
-   ("the exit code is 0" — the natural home for a future 0), ordinals,
-   units, thousands separators, decimals. Needs a value slot distinct from
-   the NUM_PL count slot.
+4. ~~Deferred by ADR 0022 (numbers, decided 2026-09-01): measurement values
+   ("the exit code is 0" — the natural home for a future 0).~~ Closed
+   2026-09-06 by ADR 0058 — "0" tokenizes as its own NUM_VAL terminal, a
+   value slot distinct from the NUM_PL count slot, legal as a bare
+   Complement value but still unable to reach a count position. Units and
+   thousands separators remain open (smaller, not evidenced as blocking
+   yet). This was the last of the original 4 numeric/comparative gaps —
+   see docs/readiness.md.
 5. ~~Deferred by ADR 0023 (same): the named-standard form "identical to the
    report".~~ Closed 2026-09-06 by ADR 0055 — an adjective complement can
    now take a PP, same attachment as ADR 0031's NP complement.
-6. Deferred by ADR 0024 (percent): percent of a singular mass, percentages as
-   predicates, decimals. Ambitransitives ("the process stops") remain a
-   findings-level gap with no case attached; commit-as-verb (adr0001-05) was
-   resolved by the linter's own redirect (*save*).
+6. ~~Deferred by ADR 0024 (percent): percent of a singular mass, percentages
+   as predicates, decimals.~~ Closed 2026-09-06 by ADR 0057 (mass/predicate)
+   — decimals were already covered by ADR 0029. Ambitransitives ("the
+   process stops") remain a findings-level gap with no case attached;
+   commit-as-verb (adr0001-05) was resolved by the linter's own redirect
+   (*save*).
 
 ## Working process (session-established, not in any ADR)
 

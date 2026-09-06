@@ -360,7 +360,7 @@ fn word(t: &Tok) -> &str {
         | Tok::Every(w) | Tok::No(w) | Tok::Num(w) | Tok::NumPl(w) | Tok::Percent(w)
         | Tok::Approx(w) | Tok::So(w) | Tok::Because(w) | Tok::Namely(w) | Tok::Some_(w) | Tok::Name(w)
         | Tok::Ord(w) | Tok::Than(w) | Tok::More(w) | Tok::Scale(w) | Tok::AdjCmp(w) | Tok::AdjLong(w)
-        | Tok::AdjSup(w) | Tok::Most(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w) => w,
+        | Tok::AdjSup(w) | Tok::Most(w) | Tok::NumVal(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w) => w,
         Tok::Comma => ",",
         Tok::Colon => ":",
     }
@@ -660,14 +660,13 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
             ));
         }
     }
-    // a bare number as a complement: "the bound is 4" (measurements are deferred, ADR 0022)
+    // "0" is a measurement value (ADR 0058), never a count: it tokenizes
+    // as NUM_VAL, not NUM_PL, so it can never reach a count position
+    // (NPNum needs NUM_PL) — give the same redirect the old lex-level ban
+    // on "0" gave, now as a named finding instead of an unnamed rejection.
     for (i, t) in toks.iter().enumerate() {
-        if matches!(t, Tok::CopSg(_) | Tok::CopPl(_) | Tok::CopSgPast(_) | Tok::CopPlPast(_) | Tok::Cop1Sg(_)) {
-            let mut j = i + 1;
-            if matches!(toks.get(j), Some(Tok::Approx(_))) { j += 1; }
-            if matches!(toks.get(j), Some(Tok::NumPl(_))) && toks.get(j + 1).is_none() {
-                out.push("a number needs its noun: \"the bound is 4 Open Dependencies\"; a bare value is deferred (ADR 0022)".to_string());
-            }
+        if matches!(t, Tok::NumVal(_)) && matches!(toks.get(i + 1), Some(Tok::NounPl(_))) {
+            out.push("\"0\" is a value, not a count — for none write \"no <noun> …\" as the subject, or \"… does not <verb> <nouns>\" (ADR 0022)".to_string());
         }
     }
     // a quantifier + noun + Name: "every Grammar ADR" — the appositive needs the/a
@@ -1078,7 +1077,7 @@ fn term_of(t: &Tok) -> Vec<Term> {
         Tok::Every(_) => vec![Term::Every],
         Tok::No(_) => vec![Term::No],
         Tok::Some_(_) => vec![Term::Some_],
-        Tok::Num(_) | Tok::NumPl(_) => vec![Term::Num],
+        Tok::Num(_) | Tok::NumPl(_) | Tok::NumVal(_) => vec![Term::Num],
         Tok::Percent(_) => vec![Term::Pct],
         Tok::Approx(_) => vec![Term::Approx],
         Tok::So(_) => vec![Term::So],

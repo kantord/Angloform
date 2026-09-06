@@ -146,12 +146,14 @@ the advice:
   parses uniquely — peak-open 2, max-dep 2, depth 1, right-branching 25%
 
 ✗ 0 agents retry the request
-  WORD: "0" is not a minglish word — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022)
+  STYLE:
+    - "0" is a value, not a count — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022)
 ✓ no agent retries the request
   parses uniquely — peak-open 2, max-dep 2, depth 1, right-branching 25%
 
 ✗ the agent deleted 0 files
-  WORD: "0" is not a minglish word — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022)
+  STYLE:
+    - "0" is a value, not a count — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022)
 ✓ the agent did not delete files
   parses uniquely — peak-open 3, max-dep 3, depth 1, right-branching 20%
 

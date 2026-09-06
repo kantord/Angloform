@@ -70,6 +70,7 @@ extern {
         "ADJ_LONG" => Tok::AdjLong(<String>),
         "ADJ_SUP" => Tok::AdjSup(<String>),
         "MOST" => Tok::Most(<String>),
+        "NUM_VAL" => Tok::NumVal(<String>),
         "BE" => Tok::Be(<String>),
         "BECOME_SG" => Tok::BecomeSg(<String>),
         "BECOME_PL" => Tok::BecomePl(<String>),
@@ -177,6 +178,7 @@ LScale: Tree = <l:@L> <w:"SCALE"> => leaf(l, w);
 LAdjCmp: Tree = <l:@L> <w:"ADJ_CMP"> => leaf(l, w);
 LAdjSup: Tree = <l:@L> <w:"ADJ_SUP"> => leaf(l, w);
 LMost: Tree = <l:@L> <w:"MOST"> => leaf(l, w);
+LNumVal: Tree = <l:@L> <w:"NUM_VAL"> => leaf(l, w);
 LSome: Tree = <l:@L> <w:"SOME"> => leaf(l, w);
 LName: Tree = <l:@L> <w:"NAME"> => leaf(l, w);
 
@@ -565,6 +567,7 @@ NPSGCore: Tree = {
     <nm:LName> => nm,
     <d:LDet> <a:LAdj?> <n:LNounSg> <nm:LName> <o:OfPP?> =>
         nd("NPAppos", 2, vec![Some(d), a, Some(n), Some(nm), o]),
+    NPPctSg,
 };
 // digits count plural nouns (ADR 0022); *one* + singular is NPSG (ADR 0016)
 NPPL: Tree = {
@@ -584,11 +587,22 @@ NPNum: Tree = {
         nd("NP", 5, vec![d, ap, Some(n), sc, a, Some(nn), o]),
 };
 
-// <digits> percent of <plural NP> — a share of a named set; plural agreement
-// (ADR 0024). The of-PP is mandatory: the set must be named.
+// <digits> percent of <plural NP> — a share of a named set; plural
+// agreement (ADR 0024). The of-PP is mandatory: the set must be named.
+// Restricted to a plural inner NP (not the generic OfPP/NPInner) so this
+// never overlaps the singular-mass sibling below — the 2 rules partition
+// on the noun's own number, no LALR ambiguity.
 NPPct: Tree = {
-    <ap:LApprox?> <n:LNumPl> <p:LPercent> <o:OfPP> =>
-        nd("NPPct", 2, vec![ap, Some(n), Some(p), Some(o)]),
+    <ap:LApprox?> <n:LNumPl> <p:LPercent> <prep:LPrepN> <np:NPi<LDet, LNounPl>> =>
+        nd("NPPct", 2, vec![ap, Some(n), Some(p), Some(nd("OfPP", 1, vec![Some(prep), Some(np)]))]),
+};
+
+// <digits> percent of <singular mass NP> — a share of an uncounted whole;
+// singular agreement (ADR 0057, ADR 0024's deferral): "50 percent of the
+// file is the text", unlike a percent of a counted set above.
+NPPctSg: Tree = {
+    <ap:LApprox?> <n:LNumPl> <p:LPercent> <prep:LPrepN> <np:NPi<LDet, LNounSg>> =>
+        nd("NPPct", 2, vec![ap, Some(n), Some(p), Some(nd("OfPP", 1, vec![Some(prep), Some(np)]))]),
 };
 
 // every + singular; no + singular is subject-only (ADR 0014).
@@ -644,6 +658,22 @@ PPv: Tree = {
 Compl: Tree = {
     LAdj,
     NPAny,
+    // ADR 0057: a bare share as a value, not a noun phrase referring to a
+    // set — "the load is 43 percent" states a measurement, so the of-PP
+    // naming a set (mandatory on NPPct/NPPctSg above, ADR 0024) does not
+    // apply here; confined to the Complement slot, so it can never stand
+    // as a subject or object the way a real (anaphoric) bare share would.
+    <ap:LApprox?> <n:LNumPl> <p:LPercent> =>
+        nd("NPPct", 2, vec![ap, Some(n), Some(p), None]),
+    // ADR 0058: a bare digit as a measurement value — "the value is 3",
+    // "the value is 0", optionally approximate (ADR 0025) — a value slot
+    // distinct from the NUM_PL count slot (ADR 0022): "0" tokenizes as
+    // NUM_VAL, never NUM_PL, so it still cannot reach a count position
+    // ("0 files" stays unparseable) even though it is legal here.
+    LNumPl,
+    LNumVal,
+    <ap:LApprox> <n:LNumPl> => nd("Value", 1, vec![Some(ap), Some(n)]),
+    <ap:LApprox> <n:LNumVal> => nd("Value", 1, vec![Some(ap), Some(n)]),
     // ADR 0031: one verb-preposition phrase may follow a noun-phrase
     // complement and attaches to it — the copula has no object to compete
     <np:NPAny> <pp:PPv> => nd("ComplPP", 0, vec![Some(np), Some(pp)]),

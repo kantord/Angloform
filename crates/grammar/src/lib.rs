@@ -71,6 +71,7 @@ pub enum Tok {
     AdjLong(String),
     AdjSup(String),
     Most(String),
+    NumVal(String),
     Be(String),
     BecomeSg(String),
     BecomePl(String),
@@ -568,9 +569,12 @@ fn number_token(word: &str) -> Option<Result<Tok, String>> {
         return None;
     }
     Some(match word {
-        "0" => Err("for none write \"no <noun> …\" as the subject, or \
-                    \"… does not <verb> <nouns>\" (ADR 0022)"
-            .to_string()),
+        // ADR 0058: "0" is a measurement value (a NUM_VAL, not a NUM_PL
+        // count) — the Grammar confines it to the value position, so it
+        // still cannot reach a count position ("0 files"); the Linter
+        // gives the same "no <noun>" redirect there (ADR 0022) as before,
+        // now as a named finding instead of a lex-level ban.
+        "0" => Ok(Tok::NumVal(word.to_string())),
         "1" => Err("write \"one\" — exactly one stays a word (ADR 0016)".to_string()),
         _ if word.starts_with('0') => {
             Err("a number does not start with 0 (ADR 0022)".to_string())
@@ -788,7 +792,7 @@ pub enum Case {
     Complement,
 }
 
-const NP_LABELS: [&str; 8] = ["NP", "NPAppos", "NPGen", "NPPct", "Cmp", "ComplPP", "NPOnly", "NPOther"];
+const NP_LABELS: [&str; 9] = ["NP", "NPAppos", "NPGen", "NPPct", "Cmp", "ComplPP", "NPOnly", "NPOther", "Value"];
 
 /// Tag `t` with `case` if it stands directly as an argument (an NP-family
 /// node, or a bare name leaf) — everything else (a PP, an of-PP) is not
