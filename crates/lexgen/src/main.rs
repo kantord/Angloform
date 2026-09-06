@@ -13,7 +13,7 @@ mod refdata;
 mod seed;
 
 use refdata::RefData;
-use seed::{Category, SeedEntry};
+use seed::{Category, RejectTarget, SeedEntry};
 
 const SEED_PATH: &str = "seed/seed.json";
 const DOMAIN_PATH: &str = "domain/model.json";
@@ -193,7 +193,10 @@ fn main() {
         }
     }
 
-    // -- lint: cross-POS completeness --------------------------------------
+    // -- lint: cross-POS completeness (forward) -----------------------------
+    // Every attested-but-not-own POS must be covered by a `reject` entry
+    // (a word redirect or advice text — ADR 0060 removed the silent `waive`
+    // escape hatch).
     for e in &entries {
         let Some(own_pos) = e.cat().wordnet_pos() else {
             continue; // closed classes are fiat; reference data can't judge them
@@ -209,15 +212,43 @@ fn main() {
                 continue;
             }
             let name = refdata::pos_name(pos);
-            if e.reject.contains_key(name) || e.waive.iter().any(|w| w == name) {
+            if e.reject.contains_key(name) {
                 continue;
             }
             errors.push(format!(
                 "cross-POS: \"{}\" is enabled as {} but is also attested as \
-                 {name} — add a redirect in `reject` (\"{name}\": \"<word>\") \
-                 or an explicit entry in `waive`",
+                 {name} — add \"reject\": {{\"{name}\": \"<word>\"}} (a redirect) \
+                 or {{\"{name}\": {{\"advice\": \"<text>\"}}}} (no word substitutes)",
                 e.lemma, e.category
             ));
+        }
+    }
+
+    // -- lint: cross-POS completeness (reverse) -----------------------------
+    // The exact symmetric case: a `reject` entry naming a POS that is not
+    // actually attested is unverified documentation — the thing ADR 0060
+    // exists to catch (found in review: 2 of 4 waivers added for the
+    // Angloform Wiki translation were exactly this, guessed rather than
+    // checked against the data).
+    for e in &entries {
+        if e.cat().wordnet_pos().is_none() {
+            continue;
+        }
+        if e.domain && (matches!(e.cat(), Category::Noun) || e.lemma.contains(' ')) {
+            continue;
+        }
+        let attested = refdata.pos_of(&e.lemma);
+        for name in e.reject.keys() {
+            let is_attested = attested
+                .iter()
+                .any(|pos| refdata::pos_name(*pos) == name.as_str());
+            if !is_attested {
+                errors.push(format!(
+                    "unnecessary reject: \"{}\" rejects {name}, but {name} is not \
+                     attested for this word in the reference data — remove it",
+                    e.lemma
+                ));
+            }
         }
     }
 
@@ -442,8 +473,15 @@ fn render_lexicon(forms: &[Form], entries: &[SeedEntry]) -> String {
         rows.push((shown.clone(), "name", "-".to_string(), shown));
     }
     for e in entries {
-        for (pos, suggestion) in &e.reject {
-            rows.push((e.lemma.clone(), "reject", pos.clone(), suggestion.clone()));
+        for (pos, target) in &e.reject {
+            match target {
+                RejectTarget::Word(w) => {
+                    rows.push((e.lemma.clone(), "reject", pos.clone(), w.clone()));
+                }
+                RejectTarget::Advice { advice } => {
+                    rows.push((e.lemma.clone(), "reject_advice", pos.clone(), advice.clone()));
+                }
+            }
         }
         if matches!(e.cat(), Category::Banned) {
             rows.push((e.lemma.clone(), "ban", "-".to_string(), e.advice.clone()));
@@ -471,13 +509,23 @@ fn render_report(forms: &[Form], entries: &[SeedEntry], refdata: &RefData) -> St
     for e in entries {
         *per_cat.entry(e.category.as_str()).or_default() += 1;
     }
+    let (word_redirects, advice_redirects): (usize, usize) = entries.iter().fold(
+        (0, 0),
+        |(w, a), e| {
+            let (ew, ea) = e.reject.values().fold((0, 0), |(w, a), t| match t {
+                RejectTarget::Word(_) => (w + 1, a),
+                RejectTarget::Advice { .. } => (w, a + 1),
+            });
+            (w + ew, a + ea)
+        },
+    );
     out.push_str("## Summary\n\n");
     out.push_str(&format!(
-        "- {} lemmas, {} surface forms, {} redirects, {} waivers\n",
+        "- {} lemmas, {} surface forms, {} redirects ({word_redirects} word substitute, \
+         {advice_redirects} advice-only)\n",
         entries.len(),
         forms.len(),
-        entries.iter().map(|e| e.reject.len()).sum::<usize>(),
-        entries.iter().map(|e| e.waive.len()).sum::<usize>(),
+        word_redirects + advice_redirects,
     ));
     out.push_str(&format!(
         "- Domain model: {} terms with definitions (ADR 0027)\n",
@@ -542,7 +590,8 @@ fn render_report(forms: &[Form], entries: &[SeedEntry], refdata: &RefData) -> St
     // (ADR 0023).
     let mut rare: Vec<(f64, String)> = Vec::new();
     for e in entries {
-        for (pos, sugg) in &e.reject {
+        for (pos, target) in &e.reject {
+            let RejectTarget::Word(sugg) = target else { continue };
             let sugg_z = refdata.zipf(sugg).unwrap_or(0.0);
             if sugg_z < REDIRECT_ZIPF_FLOOR {
                 rare.push((
@@ -576,9 +625,11 @@ fn render_report(forms: &[Form], entries: &[SeedEntry], refdata: &RefData) -> St
         let outside: Vec<String> = entries
             .iter()
             .flat_map(|e| {
-                e.reject.iter().filter(|(_, s)| !enabled.contains(s.as_str())).map(
-                    move |(pos, s)| format!("{} ({pos}) → \"{s}\"", e.lemma),
-                )
+                e.reject.iter().filter_map(|(pos, target)| {
+                    let RejectTarget::Word(s) = target else { return None };
+                    (!enabled.contains(s.as_str()))
+                        .then(|| format!("{} ({pos}) → \"{s}\"", e.lemma))
+                })
             })
             .collect();
         out.push_str("## Redirect targets outside the lexicon\n\n");
@@ -595,14 +646,21 @@ fn render_report(forms: &[Form], entries: &[SeedEntry], refdata: &RefData) -> St
         }
     }
 
-    // Waivers = deliberate debt
-    let waivers: Vec<String> = entries
+    // Advice-only rejections: attested senses with no word substitute
+    // (ADR 0060 — every one of these is verified against the reference data
+    // by the cross-POS reverse check above; none are silent).
+    let advice_only: Vec<String> = entries
         .iter()
-        .flat_map(|e| e.waive.iter().map(move |w| format!("{} ({w})", e.lemma)))
+        .flat_map(|e| {
+            e.reject.iter().filter_map(move |(pos, target)| match target {
+                RejectTarget::Advice { advice } => Some(format!("{} ({pos}): {advice}", e.lemma)),
+                RejectTarget::Word(_) => None,
+            })
+        })
         .collect();
-    if !waivers.is_empty() {
-        out.push_str("## Waivers (attested senses with no redirect)\n\n");
-        for w in &waivers {
+    if !advice_only.is_empty() {
+        out.push_str("## Advice-only rejections (attested senses with no word substitute)\n\n");
+        for w in &advice_only {
             out.push_str(&format!("- {w}\n"));
         }
         out.push('\n');

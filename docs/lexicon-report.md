@@ -4,9 +4,9 @@
 
 ## Summary
 
-- 969 lemmas, 2041 surface forms, 40 redirects, 474 waivers
+- 982 lemmas, 2071 surface forms, 502 redirects (41 word substitute, 461 advice-only)
 - Domain model: 89 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 150, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 467, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 175, YET 1
+- Lemmas per category: ADJ 150, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 475, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 178, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
@@ -48,482 +48,469 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - edit (NOUN) → "revision"
 - show (NOUN) → "display"
 
-## Waivers (attested senses with no redirect)
+## Advice-only rejections (attested senses with no word substitute)
 
-- read (ADJ)
-- send (NOUN)
-- old (NOUN)
-- empty (NOUN)
-- big (ADV)
-- open (ADV)
-- open (NOUN)
-- tool (VERB)
-- sweet (ADV)
-- machine (VERB)
-- binary (ADJ)
-- initial (NOUN)
-- initial (VERB)
-- have (NOUN)
-- sense (VERB)
-- generated (VERB)
-- research (VERB)
-- rule (VERB)
-- invariant (ADJ)
-- table (VERB)
-- expense (VERB)
-- record (NOUN)
-- match (NOUN)
-- pin (NOUN)
-- fetch (NOUN)
-- save (NOUN)
-- come (NOUN)
-- prior (NOUN)
-- common (NOUN)
-- small (NOUN)
-- small (ADV)
-- irregular (NOUN)
-- hidden (VERB)
-- drift (NOUN)
-- difference (VERB)
-- discourse (VERB)
-- prose (VERB)
-- project (VERB)
-- team (VERB)
-- example (VERB)
-- layer (VERB)
-- plan (NOUN)
-- repeat (NOUN)
-- say (NOUN)
-- say (ADV)
-- produce (NOUN)
-- future (NOUN)
-- reference (VERB)
-- demonstrative (ADJ)
-- object (VERB)
-- ban (NOUN)
-- carry (NOUN)
-- split (NOUN)
-- split (ADJ)
-- refer (ADJ)
-- refer (NOUN)
-- unknown (NOUN)
-- possessive (NOUN)
-- token (ADJ)
-- token (VERB)
-- class (VERB)
-- place (VERB)
-- point (VERB)
-- referent (ADJ)
-- exact (VERB)
-- know (NOUN)
-- cause (NOUN)
-- text (VERB)
-- choice (ADJ)
-- count (NOUN)
-- proxy (VERB)
-- quality (ADJ)
-- share (VERB)
-- change (NOUN)
-- structure (VERB)
-- permanent (NOUN)
-- original (NOUN)
-- meaning (ADJ)
-- claim (VERB)
-- give (NOUN)
-- resolve (NOUN)
-- remove (NOUN)
-- measure (NOUN)
-- fix (NOUN)
-- name (NOUN)
-- keep (NOUN)
-- drop (NOUN)
-- base (NOUN)
-- base (VERB)
-- hole (VERB)
-- kind (ADJ)
-- add (NOUN)
-- good (NOUN)
-- good (ADV)
-- item (ADV)
-- item (VERB)
-- list (VERB)
-- phrase (VERB)
-- last (NOUN)
-- last (VERB)
-- last (ADV)
-- end (NOUN)
-- quoted (VERB)
-- make (NOUN)
-- link (NOUN)
-- adjective (ADJ)
-- general (NOUN)
-- general (VERB)
-- past (NOUN)
-- past (ADV)
-- state (VERB)
-- mark (NOUN)
-- question (VERB)
-- take (NOUN)
-- see (NOUN)
-- follow (NOUN)
-- subject (VERB)
-- subject (ADJ)
-- subject (ADV)
-- plain (NOUN)
-- plain (ADV)
-- plain (VERB)
-- time (VERB)
-- time (ADJ)
-- present (NOUN)
-- present (VERB)
-- action (VERB)
-- contrast (VERB)
-- correct (VERB)
-- cover (NOUN)
-- compound (NOUN)
-- compound (VERB)
-- alternative (ADJ)
-- attach (NOUN)
-- join (NOUN)
-- scope (VERB)
-- clear (NOUN)
-- clear (VERB)
-- clear (ADV)
-- command (VERB)
-- emphatic (NOUN)
-- tell (NOUN)
-- part (VERB)
-- part (ADV)
-- help (NOUN)
-- main (NOUN)
-- natural (NOUN)
-- enter (NOUN)
-- limit (NOUN)
-- style (VERB)
-- shape (VERB)
-- branch (VERB)
-- heavy (NOUN)
-- heavy (ADV)
-- load (VERB)
-- easy (ADV)
-- easy (VERB)
-- bound (VERB)
-- bound (ADJ)
-- put (NOUN)
-- order (VERB)
-- model (VERB)
-- model (ADJ)
-- taste (VERB)
-- ideal (NOUN)
-- familiar (NOUN)
-- surprise (VERB)
-- noise (VERB)
-- tie (NOUN)
-- trade (NOUN)
-- primary (NOUN)
-- secondary (NOUN)
-- set (VERB)
-- set (ADJ)
-- head (VERB)
-- head (ADJ)
-- bad (NOUN)
-- bad (ADV)
-- bad (VERB)
-- score (VERB)
-- monitor (NOUN)
-- gather (NOUN)
-- evidence (VERB)
-- metric (ADJ)
-- conflict (NOUN)
-- weigh (NOUN)
-- right (VERB)
-- right (ADJ)
-- right (ADV)
-- overshoot (NOUN)
-- tree (VERB)
-- ground (NOUN)
-- ground (ADJ)
-- profile (VERB)
-- target (VERB)
-- real (NOUN)
-- real (ADV)
-- deep (NOUN)
-- deep (ADV)
-- distance (VERB)
-- work (VERB)
-- hold (NOUN)
-- long (VERB)
-- long (ADV)
-- long (NOUN)
-- win (NOUN)
-- branching (ADJ)
-- short (NOUN)
-- short (ADV)
-- short (VERB)
-- free (VERB)
-- free (ADV)
-- free (NOUN)
-- front (ADJ)
-- front (VERB)
-- separate (ADJ)
-- separate (NOUN)
-- consequent (ADJ)
-- condition (VERB)
-- late (ADV)
-- mandatory (NOUN)
-- wrong (NOUN)
-- wrong (VERB)
-- wrong (ADV)
-- seam (VERB)
-- nested (VERB)
-- mechanical (NOUN)
-- rewrite (VERB)
-- blunt (VERB)
-- stall (NOUN)
-- hurt (NOUN)
-- hurt (ADJ)
-- beat (NOUN)
-- beat (ADJ)
-- review (NOUN)
-- whole (NOUN)
-- whole (ADV)
-- number (VERB)
-- trust (NOUN)
-- modal (ADJ)
-- force (VERB)
-- scale (VERB)
-- merge (NOUN)
-- new (ADV)
-- guard (VERB)
-- cheat (NOUN)
-- classic (NOUN)
-- chain (VERB)
-- turn (NOUN)
-- break (NOUN)
-- violate (ADJ)
-- audit (NOUN)
-- recast (NOUN)
-- reward (NOUN)
-- catch (NOUN)
-- regret (NOUN)
-- bug (VERB)
-- affect (VERB)
-- narrow (ADJ)
-- narrow (NOUN)
-- false (ADV)
-- generic (NOUN)
-- existential (NOUN)
-- universal (NOUN)
-- purpose (VERB)
-- position (VERB)
-- cache (VERB)
-- perfect (VERB)
-- perfect (NOUN)
-- definite (ADJ)
-- strong (ADV)
-- pair (VERB)
-- plural (NOUN)
-- silent (NOUN)
-- update (NOUN)
-- cheap (ADV)
-- cheap (NOUN)
-- judge (NOUN)
-- move (NOUN)
-- bare (VERB)
-- bare (NOUN)
-- singular (NOUN)
-- frame (VERB)
-- clean (ADJ)
-- clean (NOUN)
-- clean (ADV)
-- macro (ADJ)
-- opaque (NOUN)
-- opaque (VERB)
-- field (VERB)
-- deliberate (VERB)
-- pressure (VERB)
-- signal (VERB)
-- signal (ADJ)
-- coin (NOUN)
-- jargon (VERB)
-- infinitive (ADJ)
-- numeral (ADJ)
-- approximate (VERB)
-- minimum (ADJ)
-- square (VERB)
-- square (ADJ)
-- square (ADV)
-- complete (VERB)
-- corner (VERB)
-- remedy (VERB)
-- current (NOUN)
-- paraphrase (VERB)
-- pack (VERB)
-- technical (NOUN)
-- positive (NOUN)
-- quantified (VERB)
-- provisional (NOUN)
-- fiat (NOUN)
-- home (VERB)
-- home (ADV)
-- home (ADJ)
-- stay (NOUN)
-- term (VERB)
-- predicate (ADJ)
-- predicate (VERB)
-- get (NOUN)
-- pattern (VERB)
-- full (ADV)
-- full (VERB)
-- full (NOUN)
-- single (VERB)
-- single (NOUN)
-- rank (ADJ)
-- rank (NOUN)
-- duplicate (NOUN)
-- duplicate (ADJ)
-- span (VERB)
-- brand (VERB)
-- mention (NOUN)
-- register (VERB)
-- twin (ADJ)
-- twin (VERB)
-- vocative (ADJ)
-- wait (NOUN)
-- author (VERB)
-- sweep (VERB)
-- adversative (NOUN)
-- character (VERB)
-- capital (ADJ)
-- fold (NOUN)
-- case (VERB)
-- miss (VERB)
-- loud (ADV)
-- flat (NOUN)
-- flat (ADV)
-- flat (VERB)
-- row (VERB)
-- half (ADJ)
-- half (ADV)
-- half (VERB)
-- capitalized (VERB)
-- core (NOUN)
-- core (VERB)
-- offer (NOUN)
-- group (VERB)
-- way (ADV)
-- safe (NOUN)
-- safe (ADV)
-- lowercase (ADJ)
-- lowercase (VERB)
-- appositive (ADJ)
-- loose (VERB)
-- loose (ADV)
-- loose (NOUN)
-- showcase (VERB)
-- answer (NOUN)
-- mix (VERB)
-- string (VERB)
-- decimal (ADJ)
-- negative (NOUN)
-- negative (VERB)
-- value (VERB)
-- pick (NOUN)
-- absolute (NOUN)
-- relative (NOUN)
-- floor (VERB)
-- flag (NOUN)
-- absent (VERB)
-- map (NOUN)
-- symbol (VERB)
-- refuse (NOUN)
-- ordinary (NOUN)
-- meet (NOUN)
-- meet (ADJ)
-- go (NOUN)
-- go (ADJ)
-- touch (NOUN)
-- fall (NOUN)
-- repair (VERB)
-- run (VERB)
-- warning (ADJ)
-- size (VERB)
-- size (ADJ)
-- gain (NOUN)
-- precedent (ADJ)
-- connective (ADJ)
-- override (NOUN)
-- prompt (VERB)
-- prompt (ADJ)
-- prompt (ADV)
-- dash (VERB)
-- dash (ADV)
-- dash (ADJ)
-- guess (NOUN)
-- step (VERB)
-- degree (ADJ)
-- paragraph (VERB)
-- line (VERB)
-- format (VERB)
-- reason (VERB)
-- pay (NOUN)
-- inner (NOUN)
-- minute (ADJ)
-- minute (VERB)
-- skip (NOUN)
-- round (NOUN)
-- round (VERB)
-- round (ADV)
-- syllable (VERB)
-- slot (VERB)
-- maximum (ADJ)
-- fraction (VERB)
-- range (VERB)
-- superlative (ADJ)
-- revert (NOUN)
-- suffix (VERB)
-- standard (ADJ)
-- compare (NOUN)
-- later (ADV)
-- letter (VERB)
-- fence (VERB)
-- sequence (VERB)
-- feature (VERB)
-- precondition (VERB)
-- title (VERB)
-- reserve (NOUN)
-- spoken (VERB)
-- transition (VERB)
-- integrate (ADJ)
-- left (NOUN)
-- left (ADV)
-- left (VERB)
-- corollary (ADJ)
-- curate (NOUN)
-- lint (NOUN)
-- parse (NOUN)
-- transitive (NOUN)
-- intransitive (NOUN)
-- breeze (VERB)
-- delight (VERB)
-- heart (VERB)
-- joy (VERB)
-- fear (VERB)
-- hope (VERB)
-- despair (VERB)
-- thought (VERB)
-- father (VERB)
-- friend (VERB)
-- love (VERB)
-- human (NOUN)
-- man (ADJ)
-- man (VERB)
-- alone (ADV)
-- house (VERB)
-- sun (VERB)
-- ice (VERB)
-- world (ADJ)
-- task (VERB)
+- read (ADJ): the adjective sense ("a read book", meaning already read) is too obscure to redirect; not enabled
+- send (NOUN): the noun sense (nautical — a send, a wave's forward movement) is not enabled; irrelevant to this domain
+- old (NOUN): the noun sense ("the old", generic reference to old people) is not enabled; irrelevant to this domain
+- empty (NOUN): the noun sense ("empties"/"an empty", i.e. an empty container) is not enabled; irrelevant to this domain
+- big (ADV): the adverbial sense ("win big") is not enabled; angloform has no adverb category
+- open (NOUN): the noun sense ("in the open") is not enabled; irrelevant to this domain
+- tool (VERB): the verb sense ("to tool around") is not enabled; irrelevant to this domain
+- sweet (ADV): the adverbial sense ("talk sweet") is not enabled; angloform has no adverb category
+- machine (VERB): the verb sense ("to machine a part", i.e. shape it with tools) is not enabled; irrelevant to this domain
+- binary (ADJ): the adjective sense ("binary code") is unused in this domain; not enabled
+- initial (NOUN): the noun sense ("his initials") is not enabled; irrelevant to this domain
+- initial (VERB): the verb sense ("to initial a document") is not enabled; irrelevant to this domain
+- have (NOUN): the noun sense ("the haves") is not enabled; irrelevant to this domain (the auxiliary "have" reading is separately unparseable by construction, ADR 0016)
+- sense (VERB): the verb sense ("to sense danger") is not enabled; irrelevant to this domain
+- generated (VERB): "generated" is the past participle of the verb "generate" (deliberately not enabled); angloform allows one sense per word
+- research (VERB): the verb sense (to research something) is not enabled; angloform allows one sense per word
+- rule (VERB): the verb sense (to rule, as a judge or monarch) is not enabled; angloform allows one sense per word
+- invariant (ADJ): the adjective sense (an invariant quantity, unchanging) is not enabled; angloform allows one sense per word
+- table (VERB): the verb sense (to table a motion — propose or postpone, depending on dialect) is not enabled; angloform allows one sense per word
+- expense (VERB): the verb sense ("to expense a purchase", business jargon) is not enabled; angloform allows one sense per word
+- record (NOUN): the noun sense (a record) is not enabled; angloform allows one sense per word
+- match (NOUN): the noun sense (a match — a contest, or a matchstick) is not enabled; angloform allows one sense per word
+- pin (NOUN): the noun sense (a pin, a fastener) is not enabled; angloform allows one sense per word
+- fetch (NOUN): the noun sense (a fetch, e.g. a memory fetch in computing, or archaically a trick) is not enabled; angloform allows one sense per word
+- save (NOUN): the noun sense (a save, e.g. in sports or computing) is not enabled; angloform allows one sense per word
+- come (NOUN): the noun sense is vulgar slang and not enabled; angloform allows one sense per word
+- prior (NOUN): the noun sense (a prior, the head of a religious house) is not enabled; angloform allows one sense per word
+- common (NOUN): the noun sense (a common, shared public land) is not enabled; angloform allows one sense per word
+- small (ADV): the adverbial sense ("cut it small", "think small") is not enabled; angloform has no adverb category
+- small (NOUN): the noun sense ("the small of the back") is not enabled; angloform allows one sense per word
+- irregular (NOUN): the noun sense (an irregular — an irregular soldier, or a substandard product) is not enabled; angloform allows one sense per word
+- hidden (VERB): "hidden" is the past participle of the verb "hide" (not separately enabled); angloform allows one sense per word
+- drift (NOUN): the noun sense (a drift, e.g. a snowdrift) is not enabled; angloform allows one sense per word
+- difference (VERB): the verb sense (rare — e.g. heraldry "to difference a coat of arms") is not enabled; angloform allows one sense per word
+- discourse (VERB): the verb sense ("to discourse upon a subject", formal) is not enabled; angloform allows one sense per word
+- prose (VERB): the verb sense (archaic — to write or speak tediously) is not enabled; angloform allows one sense per word
+- project (VERB): the verb sense (to project, e.g. an image or a plan) is not enabled; angloform allows one sense per word
+- team (VERB): the verb sense ("to team up") is not enabled; angloform allows one sense per word
+- example (VERB): the verb sense (rare — to exemplify) is not enabled; angloform allows one sense per word
+- layer (VERB): the verb sense (to layer, e.g. paint or hair) is not enabled; angloform allows one sense per word
+- plan (NOUN): the noun sense (a plan) is not enabled; angloform allows one sense per word
+- repeat (NOUN): the noun sense (a repeat, e.g. a rerun) is not enabled; angloform allows one sense per word
+- say (ADV): the adverbial/interjection sense ("say, that's a good idea") is not enabled; angloform has no adverb category
+- say (NOUN): the noun sense ("to have a say") is not enabled; angloform allows one sense per word
+- produce (NOUN): the noun sense (produce — farm goods) is not enabled; angloform allows one sense per word
+- future (NOUN): the noun sense (the future; also a financial "future") is not enabled; angloform allows one sense per word
+- reference (VERB): the verb sense ("to reference a source") is not enabled; angloform allows one sense per word
+- demonstrative (ADJ): the adjective sense (a demonstrative person, or "demonstrative pronoun") is not enabled; angloform allows one sense per word
+- object (VERB): the verb sense ("to object to something") is not enabled; angloform allows one sense per word
+- ban (NOUN): the noun sense (a ban) is not enabled; angloform allows one sense per word
+- carry (NOUN): the noun sense (a carry, e.g. in arithmetic or golf) is not enabled; angloform allows one sense per word
+- split (ADJ): the adjective sense ("a split decision") is not enabled; angloform allows one sense per word
+- split (NOUN): the noun sense (a split, e.g. a division) is not enabled; angloform allows one sense per word
+- refer (ADJ): the reference data attests an adjectival use of "refer"; no common meaning could be confirmed — not enabled
+- refer (NOUN): the reference data attests a noun use of "refer"; no common meaning could be confirmed — not enabled
+- unknown (NOUN): the noun sense (an unknown, e.g. in mathematics, or "the unknown") is not enabled; angloform allows one sense per word
+- possessive (NOUN): the noun sense (a possessive, the grammatical case/pronoun) is not enabled; angloform allows one sense per word
+- token (ADJ): the adjective sense ("a token gesture") is not enabled; angloform allows one sense per word
+- token (VERB): the verb sense (archaic — to signify or portend) is not enabled; angloform allows one sense per word
+- class (VERB): the verb sense ("to class something as X") is not enabled; angloform allows one sense per word
+- place (VERB): the verb sense ("to place", e.g. an order or an object) is not enabled; angloform allows one sense per word
+- point (VERB): the verb sense ("to point at something") is not enabled; angloform allows one sense per word
+- referent (ADJ): the adjective sense (e.g. "referent power" in social-psychology terminology) is not enabled; angloform allows one sense per word
+- exact (VERB): the verb sense ("to exact revenge" or "to exact a toll") is not enabled; angloform allows one sense per word
+- know (NOUN): the noun sense ("in the know") is not enabled; angloform allows one sense per word
+- cause (NOUN): the noun sense (a cause) is not enabled; angloform allows one sense per word
+- choice (ADJ): the adjective sense ("choice cuts of meat", meaning select) is not enabled; angloform allows one sense per word
+- count (NOUN): the noun sense (a count — a tally, or a nobleman's title) is not enabled; angloform allows one sense per word
+- quality (ADJ): the adjective sense ("quality time", meaning good) is not enabled; angloform allows one sense per word
+- share (VERB): the verb sense ("to share something") is not enabled; angloform allows one sense per word
+- change (NOUN): the noun sense (change — coins, or a change of plans) is not enabled; angloform allows one sense per word
+- structure (VERB): the verb sense ("to structure something") is not enabled; angloform allows one sense per word
+- permanent (NOUN): the noun sense (a permanent — a hairstyle, informally "a perm") is not enabled; angloform allows one sense per word
+- original (NOUN): the noun sense ("the original", or "she's an original") is not enabled; angloform allows one sense per word
+- meaning (ADJ): the adjective (participial) sense ("a meaning look", i.e. significant) is not enabled; angloform allows one sense per word
+- claim (VERB): the verb sense ("to claim something") is not enabled; angloform allows one sense per word
+- give (NOUN): the noun sense ("there is some give in the rope", meaning flexibility) is not enabled; angloform allows one sense per word
+- resolve (NOUN): the noun sense ("show some resolve", meaning determination) is not enabled; angloform allows one sense per word
+- remove (NOUN): the noun sense (formal — "at one remove", meaning at a distance) is not enabled; angloform allows one sense per word
+- measure (NOUN): the noun sense (a measure, e.g. "take measures", or a musical bar) is not enabled; angloform allows one sense per word
+- fix (NOUN): the noun sense ("in a fix", meaning trouble; also drug slang) is not enabled; angloform allows one sense per word
+- name (NOUN): the noun sense (a name) is not enabled; angloform allows one sense per word
+- keep (NOUN): the noun sense ("earn your keep"; also a castle's keep) is not enabled; angloform allows one sense per word
+- drop (NOUN): the noun sense (a drop, e.g. of water) is not enabled; angloform allows one sense per word
+- base (NOUN): the noun sense (a base, e.g. military, or a number base) is not enabled; angloform allows one sense per word
+- base (VERB): the verb sense ("to base a decision on something") is not enabled; angloform allows one sense per word
+- hole (VERB): the verb sense ("to hole a boat"; golf "to hole a putt") is not enabled; angloform allows one sense per word
+- kind (ADJ): the adjective sense ("a kind person", meaning considerate) is not enabled; angloform allows one sense per word
+- add (NOUN): the reference data attests a noun use of "add"; no common meaning could be confirmed — not enabled
+- good (ADV): the adverbial sense (informal — "doing good", nonstandard for "well") is not enabled; angloform has no adverb category
+- good (NOUN): the noun sense ("for the greater good") is not enabled; angloform allows one sense per word
+- item (ADV): the adverbial sense (archaic — "item" used to introduce each entry in a list, meaning "likewise") is not enabled; angloform has no adverb category
+- item (VERB): the reference data attests a verb use of "item"; no common meaning could be confirmed — not enabled
+- phrase (VERB): the verb sense ("how you phrase something") is not enabled; angloform allows one sense per word
+- last (ADV): the adverbial sense ("he finished last") is not enabled; angloform has no adverb category
+- last (NOUN): the noun sense (a shoemaker's last, a foot-shaped mold) is not enabled; angloform allows one sense per word
+- last (VERB): the verb sense ("it will last a while") is not enabled; angloform allows one sense per word
+- end (NOUN): the noun sense (an end) is not enabled; angloform allows one sense per word
+- quoted (VERB): "quoted" is the past participle of the verb "quote" (deliberately not enabled); angloform allows one sense per word
+- make (NOUN): the noun sense ("what make is your car", meaning brand) is not enabled; angloform allows one sense per word
+- link (NOUN): the noun sense (a link) is not enabled; angloform allows one sense per word
+- adjective (ADJ): the adjective sense (legal jargon — "adjective law", meaning procedural) is not enabled; angloform allows one sense per word
+- general (NOUN): the noun sense (a general, the military rank) is not enabled; angloform allows one sense per word
+- general (VERB): the reference data attests a verb use of "general"; no common meaning could be confirmed — not enabled
+- past (ADV): the adverbial sense ("she walked past") is not enabled; angloform has no adverb category
+- past (NOUN): the noun sense (the past) is not enabled; angloform allows one sense per word
+- state (VERB): the verb sense ("to state a fact") is not enabled; angloform allows one sense per word
+- mark (NOUN): the noun sense (a mark — a grade, a stain, or a former currency) is not enabled; angloform allows one sense per word
+- question (VERB): the verb sense ("to question someone") is not enabled; angloform allows one sense per word
+- take (NOUN): the noun sense ("a hot take"; box-office "the take") is not enabled; angloform allows one sense per word
+- see (NOUN): the noun sense (ecclesiastical — a bishop's see) is not enabled; angloform allows one sense per word
+- follow (NOUN): the noun sense (billiards jargon — a type of shot) is not enabled; angloform allows one sense per word
+- subject (ADJ): the adjective sense ("subject to change") is not enabled; angloform allows one sense per word
+- subject (ADV): the reference data attests an adverbial use of "subject"; no common meaning could be confirmed — angloform has no adverb category regardless
+- subject (VERB): the verb sense ("to subject someone to something") is not enabled; angloform allows one sense per word
+- plain (ADV): the adverbial sense ("plain forgot", informal for "plainly") is not enabled; angloform has no adverb category
+- plain (NOUN): the noun sense (a plain, the landform) is not enabled; angloform allows one sense per word
+- plain (VERB): the verb sense (archaic — to complain, or to make plain) is not enabled; angloform allows one sense per word
+- time (VERB): the verb sense ("to time an event") is not enabled; angloform allows one sense per word
+- present (NOUN): the noun sense (a present — a gift, or "the present" moment) is not enabled; angloform allows one sense per word
+- present (VERB): the verb sense ("to present something") is not enabled; angloform allows one sense per word
+- action (VERB): the verb sense (business jargon — "let's action this") is not enabled; angloform allows one sense per word
+- contrast (VERB): the verb sense ("to contrast two things") is not enabled; angloform allows one sense per word
+- correct (VERB): the verb sense ("to correct a mistake") is not enabled; angloform allows one sense per word
+- cover (NOUN): the noun sense (a cover, e.g. of a book) is not enabled; angloform allows one sense per word
+- compound (NOUN): the noun sense (a compound — chemical, or a walled area) is not enabled; angloform allows one sense per word
+- compound (VERB): the verb sense ("to compound a problem") is not enabled; angloform allows one sense per word
+- alternative (ADJ): the adjective sense ("an alternative route") is not enabled; angloform allows one sense per word
+- attach (NOUN): the reference data attests a noun use of "attach"; no common meaning could be confirmed — not enabled
+- join (NOUN): the noun sense (a join, e.g. in carpentry or a database) is not enabled; angloform allows one sense per word
+- clear (ADV): the adverbial sense ("stand clear", "clear across town") is not enabled; angloform has no adverb category
+- clear (NOUN): the noun sense ("in the clear") is not enabled; angloform allows one sense per word
+- clear (VERB): the verb sense ("to clear a table") is not enabled; angloform allows one sense per word
+- command (VERB): the verb sense ("to command an army") is not enabled; angloform allows one sense per word
+- emphatic (NOUN): the reference data attests a noun use of "emphatic"; no common meaning could be confirmed — not enabled
+- tell (NOUN): the noun sense (poker jargon "a tell"; archaeology "a tell", a mound) is not enabled; angloform allows one sense per word
+- part (ADV): the adverbial sense ("part finished", "part French") is not enabled; angloform has no adverb category
+- part (VERB): the verb sense ("to part ways", or "to part your hair") is not enabled; angloform allows one sense per word
+- help (NOUN): the noun sense (help, e.g. domestic help) is not enabled; angloform allows one sense per word
+- main (NOUN): the noun sense (a water main; "in the main") is not enabled; angloform allows one sense per word
+- natural (NOUN): the noun sense (music — a natural sign; also "a natural", someone gifted) is not enabled; angloform allows one sense per word
+- limit (NOUN): the noun sense (a limit) is not enabled; angloform allows one sense per word
+- style (VERB): the verb sense ("to style someone's hair") is not enabled; angloform allows one sense per word
+- shape (VERB): the verb sense ("to shape an argument") is not enabled; angloform allows one sense per word
+- branch (VERB): the verb sense ("the road branches", "to branch out") is not enabled; angloform allows one sense per word
+- heavy (ADV): the adverbial sense ("lie heavy", "hangs heavy") is not enabled; angloform has no adverb category
+- heavy (NOUN): the noun sense (slang — "a heavy", meaning a villain or bodyguard) is not enabled; angloform allows one sense per word
+- load (VERB): the verb sense ("to load a truck") is not enabled; angloform allows one sense per word
+- easy (ADV): the adverbial sense ("take it easy", "go easy") is not enabled; angloform has no adverb category
+- easy (VERB): the reference data attests a verb use of "easy"; no common meaning could be confirmed — not enabled
+- bound (ADJ): the adjective sense ("bound for home", meaning destined) is not enabled; angloform allows one sense per word
+- bound (VERB): the verb sense ("to bound across the field", meaning to leap) is not enabled; angloform allows one sense per word
+- put (NOUN): the noun sense (finance jargon — "a put option") is not enabled; angloform allows one sense per word
+- order (VERB): the verb sense ("to order food") is not enabled; angloform allows one sense per word
+- model (ADJ): the adjective sense ("a model student") is not enabled; angloform allows one sense per word
+- model (VERB): the verb sense ("to model clothing" or "to model behavior") is not enabled; angloform allows one sense per word
+- taste (VERB): the verb sense ("to taste food") is not enabled; angloform allows one sense per word
+- ideal (NOUN): the noun sense (an ideal) is not enabled; angloform allows one sense per word
+- familiar (NOUN): the noun sense (a witch's familiar, folklore) is not enabled; angloform allows one sense per word
+- surprise (VERB): the verb sense ("to surprise someone") is not enabled; angloform allows one sense per word
+- noise (VERB): the verb sense (dated — "to noise something abroad", meaning to spread word of) is not enabled; angloform allows one sense per word
+- tie (NOUN): the noun sense (a necktie, or a tied game) is not enabled; angloform allows one sense per word
+- trade (NOUN): the noun sense (a trade, e.g. an occupation) is not enabled; angloform allows one sense per word
+- primary (NOUN): the noun sense (a political primary election) is not enabled; angloform allows one sense per word
+- secondary (NOUN): the noun sense (American football jargon — "the secondary", the defensive backfield) is not enabled; angloform allows one sense per word
+- set (ADJ): the adjective sense ("a set phrase", "all set") is not enabled; angloform allows one sense per word
+- set (VERB): the verb sense ("to set a table") is not enabled; angloform allows one sense per word
+- head (VERB): the verb sense ("to head a committee") is not enabled; angloform allows one sense per word
+- bad (ADV): the adverbial sense (informal — "wants it bad", nonstandard for "badly") is not enabled; angloform has no adverb category
+- bad (NOUN): the noun sense ("take the good with the bad") is not enabled; angloform allows one sense per word
+- bad (VERB): the reference data attests a verb use of "bad"; no common meaning could be confirmed — not enabled
+- score (VERB): the verb sense ("to score a goal") is not enabled; angloform allows one sense per word
+- monitor (NOUN): the noun sense (a monitor, e.g. a computer screen) is not enabled; angloform allows one sense per word
+- gather (NOUN): the noun sense (sewing jargon — a gather in fabric) is not enabled; angloform allows one sense per word
+- evidence (VERB): the verb sense (formal — "this evidences a trend") is not enabled; angloform allows one sense per word
+- metric (ADJ): the adjective sense ("the metric system") is not enabled; angloform allows one sense per word
+- conflict (NOUN): the noun sense (a conflict) is not enabled; angloform allows one sense per word
+- weigh (NOUN): the reference data attests a noun use of "weigh"; no common meaning could be confirmed — not enabled
+- right (ADJ): the adjective sense ("the right answer") is not enabled; angloform allows one sense per word
+- right (ADV): the adverbial sense ("turn right", "right here") is not enabled; angloform has no adverb category
+- right (VERB): the verb sense ("to right a wrong", or "to right a capsized boat") is not enabled; angloform allows one sense per word
+- overshoot (NOUN): the noun sense (an overshoot) is not enabled; angloform allows one sense per word
+- tree (VERB): the verb sense ("the dog treed the raccoon", meaning chased up a tree) is not enabled; angloform allows one sense per word
+- ground (ADJ): "ground" is also the past participle of the verb "grind" ("ground beef"), used adjectivally; not separately enabled
+- ground (NOUN): the noun sense (the ground) is not enabled; angloform allows one sense per word
+- profile (VERB): the verb sense ("to profile a suspect"; software "to profile code") is not enabled; angloform allows one sense per word
+- target (VERB): the verb sense ("to target an audience") is not enabled; angloform allows one sense per word
+- real (ADV): the adverbial sense (informal — "real good", nonstandard for "really") is not enabled; angloform has no adverb category
+- real (NOUN): the noun sense (mathematics — "the reals"; historically a Spanish coin) is not enabled; angloform allows one sense per word
+- deep (ADV): the adverbial sense ("dig deep", "run deep") is not enabled; angloform has no adverb category
+- deep (NOUN): the noun sense (poetic — "the deep", meaning the sea) is not enabled; angloform allows one sense per word
+- distance (VERB): the verb sense ("to distance oneself from something") is not enabled; angloform allows one sense per word
+- work (VERB): the verb sense ("to work a job") is not enabled; angloform allows one sense per word
+- hold (NOUN): the noun sense (a ship's hold; a wrestling hold) is not enabled; angloform allows one sense per word
+- long (ADV): the adverbial sense ("stay long", "all night long") is not enabled; angloform has no adverb category
+- long (NOUN): the noun sense (finance jargon — "go long on a stock") is not enabled; angloform allows one sense per word
+- long (VERB): the verb sense ("to long for something") is not enabled; angloform allows one sense per word
+- win (NOUN): the noun sense (a win) is not enabled; angloform allows one sense per word
+- branching (ADJ): the adjective (participial) sense ("a branching path") is not enabled; angloform allows one sense per word
+- short (ADV): the adverbial sense ("fall short", "stop short") is not enabled; angloform has no adverb category
+- short (NOUN): the noun sense (a short — a short film, or an electrical short) is not enabled; angloform allows one sense per word
+- short (VERB): the verb sense (finance jargon — "to short a stock"; electrical "to short a circuit") is not enabled; angloform allows one sense per word
+- free (ADV): the adverbial sense ("run free", "get in free") is not enabled; angloform has no adverb category
+- free (NOUN): the reference data attests a noun use of "free"; no common meaning could be confirmed — not enabled
+- free (VERB): the verb sense ("to free a prisoner") is not enabled; angloform allows one sense per word
+- front (ADJ): the adjective (attributive) sense ("the front door") is not enabled; angloform allows one sense per word
+- front (VERB): the verb sense ("to front a band"; "to front someone money") is not enabled; angloform allows one sense per word
+- separate (ADJ): the adjective sense ("a separate issue") is not enabled; angloform allows one sense per word
+- separate (NOUN): the noun sense (fashion jargon — "separates", clothing items) is not enabled; angloform allows one sense per word
+- consequent (ADJ): the adjective sense (formal — "consequent damage") is not enabled; angloform allows one sense per word
+- condition (VERB): the verb sense ("to condition a response"; "to condition hair") is not enabled; angloform allows one sense per word
+- late (ADV): the adverbial sense ("arrive late") is not enabled; angloform has no adverb category
+- mandatory (NOUN): the noun sense (obscure legal/historical — "a mandatory", a state holding a mandate) is not enabled; angloform allows one sense per word
+- wrong (ADV): the adverbial sense ("guess wrong", "go wrong") is not enabled; angloform has no adverb category
+- wrong (NOUN): the noun sense ("right a wrong") is not enabled; angloform allows one sense per word
+- wrong (VERB): the verb sense ("to wrong someone") is not enabled; angloform allows one sense per word
+- seam (VERB): the verb sense (cricket jargon — "to seam the ball") is not enabled; angloform allows one sense per word
+- nested (VERB): "nested" is the past participle of the verb "nest" (not separately enabled); angloform allows one sense per word
+- mechanical (NOUN): the noun sense (obscure/literary — "the mechanicals", tradesmen, from Shakespeare) is not enabled; angloform allows one sense per word
+- rewrite (VERB): the verb sense ("to rewrite something") is not enabled; angloform allows one sense per word
+- blunt (VERB): the verb sense ("to blunt an edge" or "to blunt criticism") is not enabled; angloform allows one sense per word
+- stall (NOUN): the noun sense (a stall, e.g. a market stall) is not enabled; angloform allows one sense per word
+- hurt (ADJ): the adjective (participial) sense ("hurt feelings") is not separately enabled; angloform allows one sense per word
+- hurt (NOUN): the noun sense ("nurse a hurt") is not enabled; angloform allows one sense per word
+- beat (ADJ): the adjective sense (informal — "I'm beat", meaning exhausted) is not enabled; angloform allows one sense per word
+- beat (NOUN): the noun sense (a beat — musical, or a police officer's beat) is not enabled; angloform allows one sense per word
+- review (NOUN): the noun sense (a review) is not enabled; angloform allows one sense per word
+- whole (ADV): the reference data attests an adverbial use of "whole"; no common meaning could be confirmed — angloform has no adverb category regardless
+- whole (NOUN): the noun sense ("the whole is greater than its parts") is not enabled; angloform allows one sense per word
+- number (VERB): the verb sense ("to number the pages"; "his days are numbered") is not enabled; angloform allows one sense per word
+- trust (NOUN): the noun sense (a trust, financial or legal) is not enabled; angloform allows one sense per word
+- modal (ADJ): the adjective sense ("modal logic", "a modal verb") is not enabled; angloform allows one sense per word
+- force (VERB): the verb sense ("to force a door open") is not enabled; angloform allows one sense per word
+- scale (VERB): the verb sense ("to scale a wall" or "to scale a business") is not enabled; angloform allows one sense per word
+- new (ADV): the adverbial sense (literary — "new-fallen snow") is not enabled; angloform has no adverb category
+- guard (VERB): the verb sense ("to guard a prisoner") is not enabled; angloform allows one sense per word
+- cheat (NOUN): the noun sense (a cheat — a dishonest act, or a person) is not enabled; angloform allows one sense per word
+- classic (NOUN): the noun sense (a classic) is not enabled; angloform allows one sense per word
+- chain (VERB): the verb sense ("to chain a dog") is not enabled; angloform allows one sense per word
+- turn (NOUN): the noun sense (a turn) is not enabled; angloform allows one sense per word
+- break (NOUN): the noun sense (a break) is not enabled; angloform allows one sense per word
+- violate (ADJ): the reference data attests an adjectival use of "violate"; no common meaning could be confirmed — not enabled
+- audit (NOUN): the noun sense (an audit) is not enabled; angloform allows one sense per word
+- recast (NOUN): the noun sense (a recast, e.g. of a cast of actors) is not enabled; angloform allows one sense per word
+- reward (NOUN): the noun sense (a reward) is not enabled; angloform allows one sense per word
+- catch (NOUN): the noun sense (a catch, e.g. "there's a catch") is not enabled; angloform allows one sense per word
+- regret (NOUN): the noun sense (a regret) is not enabled; angloform allows one sense per word
+- bug (VERB): the verb sense ("to bug someone"; "to bug a room", i.e. plant a listening device) is not enabled; angloform allows one sense per word
+- affect (VERB): the verb sense ("to affect something", i.e. to influence) is not enabled; angloform allows one sense per word
+- narrow (ADJ): the adjective sense ("a narrow path") is not enabled; angloform allows one sense per word
+- narrow (NOUN): the noun sense (a narrow — a narrow strait or passage) is not enabled; angloform allows one sense per word
+- false (ADV): the adverbial sense ("play someone false", "sing false") is not enabled; angloform has no adverb category
+- generic (NOUN): the noun sense (a generic — an unbranded product or drug) is not enabled; angloform allows one sense per word
+- universal (NOUN): the noun sense (philosophy jargon — a universal, as opposed to a particular) is not enabled; angloform allows one sense per word
+- purpose (VERB): the verb sense (formal/archaic — "I purpose to do something") is not enabled; angloform allows one sense per word
+- position (VERB): the verb sense ("to position something") is not enabled; angloform allows one sense per word
+- cache (VERB): the verb sense (computing — "to cache a value") is not enabled; angloform allows one sense per word
+- perfect (NOUN): the noun sense (grammar jargon — "the perfect", a verb tense/aspect) is not enabled; angloform allows one sense per word
+- perfect (VERB): the verb sense ("to perfect a technique") is not enabled; angloform allows one sense per word
+- definite (ADJ): the adjective sense ("a definite answer") is not enabled; angloform allows one sense per word
+- strong (ADV): the adverbial sense ("going strong", "hold strong") is not enabled; angloform has no adverb category
+- pair (VERB): the verb sense ("to pair socks"; "wine pairs with cheese") is not enabled; angloform allows one sense per word
+- plural (NOUN): the noun sense (grammar jargon — "the plural", the plural form) is not enabled; angloform allows one sense per word
+- silent (NOUN): the noun sense (film jargon — "a silent", a silent film) is not enabled; angloform allows one sense per word
+- update (NOUN): the noun sense (an update) is not enabled; angloform allows one sense per word
+- cheap (ADV): the adverbial sense ("buy it cheap", "sell cheap") is not enabled; angloform has no adverb category
+- cheap (NOUN): the noun sense ("on the cheap", meaning inexpensively) is not enabled; angloform allows one sense per word
+- judge (NOUN): the noun sense (a judge) is not enabled; angloform allows one sense per word
+- move (NOUN): the noun sense (a move, e.g. in chess or a relocation) is not enabled; angloform allows one sense per word
+- bare (VERB): the verb sense ("to bare one's teeth") is not enabled; angloform allows one sense per word
+- singular (NOUN): the noun sense (grammar jargon — "the singular", the singular form) is not enabled; angloform allows one sense per word
+- frame (VERB): the verb sense ("to frame a picture"; "to frame someone for a crime") is not enabled; angloform allows one sense per word
+- clean (ADJ): the adjective sense ("a clean room") is not enabled; angloform allows one sense per word
+- clean (ADV): the adverbial sense ("clean forgot", "hit it clean") is not enabled; angloform has no adverb category
+- clean (NOUN): the reference data attests a noun use of "clean"; no common meaning could be confirmed — not enabled
+- macro (ADJ): the adjective sense ("macroeconomics", "macro photography") is not enabled; angloform allows one sense per word
+- opaque (NOUN): the reference data attests a noun use of "opaque"; no common meaning could be confirmed — not enabled
+- opaque (VERB): the verb sense (rare/technical — "to opaque a surface", i.e. make it opaque) is not enabled; angloform allows one sense per word
+- field (VERB): the verb sense ("to field a question" or "to field a ball") is not enabled; angloform allows one sense per word
+- deliberate (VERB): the verb sense ("to deliberate over a decision") is not enabled; angloform allows one sense per word
+- pressure (VERB): the verb sense ("to pressure someone") is not enabled; angloform allows one sense per word
+- signal (ADJ): the adjective sense (formal/literary — "a signal achievement", meaning notable) is not enabled; angloform allows one sense per word
+- signal (VERB): the verb sense ("to signal a turn") is not enabled; angloform allows one sense per word
+- coin (NOUN): the noun sense (a coin) is not enabled; angloform allows one sense per word
+- jargon (VERB): the reference data attests a verb use of "jargon"; no common meaning could be confirmed — not enabled
+- numeral (ADJ): the reference data attests an adjectival use of "numeral"; no common meaning could be confirmed — not enabled
+- approximate (VERB): the verb sense ("to approximate a value") is not enabled; angloform allows one sense per word
+- minimum (ADJ): the adjective sense ("minimum wage") is not enabled; angloform allows one sense per word
+- square (ADJ): the adjective sense ("a square deal", "a square meal") is not enabled; angloform allows one sense per word
+- square (ADV): the adverbial sense ("hit it square in the face") is not enabled; angloform has no adverb category
+- square (VERB): the verb sense ("to square a debt"; math "to square a number") is not enabled; angloform allows one sense per word
+- complete (VERB): the verb sense ("to complete a task") is not enabled; angloform allows one sense per word
+- corner (VERB): the verb sense ("to corner the market"; "to corner an animal") is not enabled; angloform allows one sense per word
+- remedy (VERB): the verb sense ("to remedy a problem") is not enabled; angloform allows one sense per word
+- current (NOUN): the noun sense (a current, e.g. electrical or oceanic) is not enabled; angloform allows one sense per word
+- paraphrase (VERB): the verb sense ("to paraphrase a text") is not enabled; angloform allows one sense per word
+- pack (VERB): the verb sense ("to pack a suitcase") is not enabled; angloform allows one sense per word
+- technical (NOUN): the noun sense (sports jargon — "a technical", i.e. a technical foul) is not enabled; angloform allows one sense per word
+- positive (NOUN): the noun sense (photography — a positive print; mathematics — a positive number) is not enabled; angloform allows one sense per word
+- quantified (VERB): "quantified" is the past participle of the verb "quantify" (not separately enabled); angloform allows one sense per word
+- provisional (NOUN): the noun sense (historical/political — "the Provisionals", a faction name) is not enabled; angloform allows one sense per word
+- fiat (NOUN): the noun sense (a fiat, a decree) is not enabled; angloform allows one sense per word
+- home (ADJ): the adjective (attributive) sense ("the home team") is not enabled; angloform allows one sense per word
+- home (ADV): the adverbial sense ("go home", "drive the point home") is not enabled; angloform has no adverb category
+- home (VERB): the verb sense ("to home in on something") is not enabled; angloform allows one sense per word
+- stay (NOUN): the noun sense (a stay, e.g. a hotel stay, or nautical rigging) is not enabled; angloform allows one sense per word
+- term (VERB): the verb sense (formal — "to term something X", meaning to call it that) is not enabled; angloform allows one sense per word
+- predicate (ADJ): the adjective sense (attributive use, e.g. "predicate nominative") is not enabled; angloform allows one sense per word
+- predicate (VERB): the verb sense ("to predicate one thing on another") is not enabled; angloform allows one sense per word
+- get (NOUN): the noun sense (archaic/dialectal — the offspring of an animal) is not enabled; angloform allows one sense per word
+- pattern (VERB): the verb sense ("to pattern oneself after someone") is not enabled; angloform allows one sense per word
+- full (ADV): the adverbial sense ("know full well", "full in the face") is not enabled; angloform has no adverb category
+- full (NOUN): the noun sense ("paid in full") is not enabled; angloform allows one sense per word
+- full (VERB): the verb sense (archaic textile term — "to full cloth") is not enabled; angloform allows one sense per word
+- single (NOUN): the noun sense (a single — e.g. a music single, or a one-dollar bill) is not enabled; angloform allows one sense per word
+- single (VERB): the verb sense ("to single someone out"; baseball "to single") is not enabled; angloform allows one sense per word
+- rank (ADJ): the adjective sense ("a rank smell", or "a rank amateur" meaning utter) is not enabled; angloform allows one sense per word
+- rank (NOUN): the noun sense (a rank, e.g. military) is not enabled; angloform allows one sense per word
+- duplicate (ADJ): the adjective sense ("a duplicate key") is not enabled; angloform allows one sense per word
+- duplicate (NOUN): the noun sense (a duplicate, a copy) is not enabled; angloform allows one sense per word
+- span (VERB): the verb sense ("the bridge spans the river") is not enabled; angloform allows one sense per word
+- brand (VERB): the verb sense ("to brand cattle", or "to brand someone as X") is not enabled; angloform allows one sense per word
+- mention (NOUN): the noun sense ("an honorable mention") is not enabled; angloform allows one sense per word
+- register (VERB): the verb sense ("to register a car") is not enabled; angloform allows one sense per word
+- twin (ADJ): the adjective sense ("twin beds", "twin sister") is not enabled; angloform allows one sense per word
+- twin (VERB): the verb sense ("the city is twinned with another") is not enabled; angloform allows one sense per word
+- vocative (ADJ): the adjective sense (grammar jargon — "the address is vocative") is not enabled; angloform allows one sense per word
+- wait (NOUN): the noun sense (a wait, e.g. "a long wait") is not enabled; angloform allows one sense per word
+- author (VERB): the verb sense ("to author a book") is not enabled; angloform allows one sense per word
+- sweep (VERB): the verb sense ("to sweep the floor") is not enabled; angloform allows one sense per word
+- adversative (NOUN): the noun sense (an adversative — a contrastive conjunction, linguistics jargon) is not enabled; angloform allows one sense per word
+- character (VERB): the verb sense (archaic — "to character", meaning to describe or inscribe) is not enabled; angloform allows one sense per word
+- capital (ADJ): the adjective sense ("a capital idea"; "capital punishment") is not enabled; angloform allows one sense per word
+- fold (NOUN): the noun sense (a fold, e.g. in fabric or geology; or a sheep pen) is not enabled; angloform allows one sense per word
+- case (VERB): the verb sense (slang — "to case a joint", i.e. scope it out) is not enabled; angloform allows one sense per word
+- miss (VERB): the verb sense ("to miss a target" or "to miss someone") is not enabled; angloform allows one sense per word
+- loud (ADV): the adverbial sense ("speak loud", "loud and clear") is not enabled; angloform has no adverb category
+- flat (ADV): the adverbial sense ("turned him down flat", "ran flat out") is not enabled; angloform has no adverb category
+- flat (NOUN): the noun sense (a flat — a British apartment, a musical flat, or a flat tire) is not enabled; angloform allows one sense per word
+- flat (VERB): the verb sense (music jargon — "to flat a note", i.e. lower its pitch) is not enabled; angloform allows one sense per word
+- row (VERB): the verb sense ("to row a boat") is not enabled; angloform allows one sense per word
+- half (ADJ): the adjective sense ("a half measure", "half price") is not enabled; angloform allows one sense per word
+- half (ADV): the adverbial sense ("half finished", "half asleep") is not enabled; angloform has no adverb category
+- capitalized (VERB): "capitalized" is the past participle of the verb "capitalize" (not separately enabled); angloform allows one sense per word
+- core (NOUN): the noun sense (an apple core, the earth's core) is not enabled; angloform allows one sense per word
+- core (VERB): the verb sense ("to core an apple") is not enabled; angloform allows one sense per word
+- offer (NOUN): the noun sense (an offer) is not enabled; angloform allows one sense per word
+- group (VERB): the verb sense ("to group items together") is not enabled; angloform allows one sense per word
+- way (ADV): the adverbial sense (informal — "way too much", "way better") is not enabled; angloform has no adverb category
+- safe (ADV): the adverbial sense ("play it safe") is not enabled; angloform has no adverb category
+- safe (NOUN): the noun sense (a safe, for storing valuables) is not enabled; angloform allows one sense per word
+- lowercase (ADJ): the adjective sense ("a lowercase letter") is not enabled; angloform allows one sense per word
+- appositive (ADJ): the adjective sense (grammar jargon — "the phrase is appositive") is not enabled; angloform allows one sense per word
+- loose (ADV): the adverbial sense ("hang loose", "cut loose") is not enabled; angloform has no adverb category
+- loose (NOUN): the noun sense ("on the loose"; rugby "the loose") is not enabled; angloform allows one sense per word
+- loose (VERB): the verb sense ("to loose an arrow") is not enabled; angloform allows one sense per word
+- showcase (VERB): the verb sense ("to showcase talent") is not enabled; angloform allows one sense per word
+- answer (NOUN): the noun sense (an answer) is not enabled; angloform allows one sense per word
+- mix (VERB): the verb sense ("to mix ingredients") is not enabled; angloform allows one sense per word
+- string (VERB): the verb sense ("to string a guitar" or "to string beads") is not enabled; angloform allows one sense per word
+- decimal (ADJ): the adjective sense ("the decimal system") is not enabled; angloform allows one sense per word
+- negative (NOUN): the noun sense (a photographic negative, or a "no" answer) is not enabled; angloform allows one sense per word
+- negative (VERB): the verb sense (dated — "to negative a proposal", meaning to veto) is not enabled; angloform allows one sense per word
+- value (VERB): the verb sense ("to value something") is not enabled; angloform allows one sense per word
+- pick (NOUN): the noun sense (a pick, e.g. a guitar pick or an ice pick) is not enabled; angloform allows one sense per word
+- absolute (NOUN): the noun sense (philosophy jargon — "the Absolute") is not enabled; angloform allows one sense per word
+- relative (NOUN): the noun sense (a relative, i.e. a family member) is not enabled; angloform allows one sense per word
+- floor (VERB): the verb sense ("to floor an opponent"; "to floor the accelerator") is not enabled; angloform allows one sense per word
+- flag (NOUN): the noun sense (a flag) is not enabled; angloform allows one sense per word
+- absent (VERB): the verb sense (formal — "to absent oneself from a meeting") is not enabled; angloform allows one sense per word
+- map (NOUN): the noun sense (a map) is not enabled; angloform allows one sense per word
+- symbol (VERB): the verb sense (rare — to symbolize) is not enabled; angloform allows one sense per word
+- refuse (NOUN): the noun sense (refuse, meaning garbage — a different word, same spelling) is not enabled; angloform allows one sense per word
+- ordinary (NOUN): the noun sense (heraldry/legal jargon — "an ordinary") is not enabled; angloform allows one sense per word
+- meet (ADJ): the adjective sense (archaic — "meet and right", meaning fitting) is not enabled; angloform allows one sense per word
+- meet (NOUN): the noun sense (a meet, e.g. a track meet) is not enabled; angloform allows one sense per word
+- go (ADJ): the adjective sense ("all systems go", a go signal) is not enabled; angloform allows one sense per word
+- go (NOUN): the noun sense ("have a go", "it's your go") is not enabled; angloform allows one sense per word
+- touch (NOUN): the noun sense ("a personal touch"; rugby "touch") is not enabled; angloform allows one sense per word
+- fall (NOUN): the noun sense (a fall; American English for autumn) is not enabled; angloform allows one sense per word
+- repair (VERB): the verb sense ("to repair something") is not enabled; angloform allows one sense per word
+- run (VERB): the verb sense ("to run") is not enabled; angloform allows one sense per word
+- warning (ADJ): the adjective (attributive) sense ("a warning sign") is not enabled; angloform allows one sense per word
+- size (ADJ): the reference data attests an adjectival use of "size"; no common meaning could be confirmed — not enabled
+- size (VERB): the verb sense ("to size something up") is not enabled; angloform allows one sense per word
+- gain (NOUN): the noun sense (a gain) is not enabled; angloform allows one sense per word
+- precedent (ADJ): the adjective sense (formal/legal — "precedent" meaning preceding) is not enabled; angloform allows one sense per word
+- connective (ADJ): the adjective sense ("connective tissue") is not enabled; angloform allows one sense per word
+- override (NOUN): the noun sense (a manual override) is not enabled; angloform allows one sense per word
+- prompt (ADJ): the adjective sense ("a prompt reply", meaning quick) is not enabled; angloform allows one sense per word
+- prompt (ADV): the adverbial sense ("at six o'clock prompt") is not enabled; angloform has no adverb category
+- prompt (VERB): the verb sense ("to prompt someone", or an AI prompt) is not enabled; angloform allows one sense per word
+- dash (ADJ): the reference data attests an adjectival use of "dash"; no common meaning could be confirmed — not enabled
+- dash (ADV): the reference data attests an adverbial use of "dash"; no common meaning could be confirmed — angloform has no adverb category regardless
+- dash (VERB): the verb sense ("to dash across the street") is not enabled; angloform allows one sense per word
+- guess (NOUN): the noun sense (a guess) is not enabled; angloform allows one sense per word
+- step (VERB): the verb sense ("to step forward") is not enabled; angloform allows one sense per word
+- degree (ADJ): the reference data attests an adjectival use of "degree"; no common meaning could be confirmed — not enabled
+- paragraph (VERB): the verb sense ("to paragraph a document", i.e. divide it into paragraphs) is not enabled; angloform allows one sense per word
+- line (VERB): the verb sense ("to line a jacket"; "to line up") is not enabled; angloform allows one sense per word
+- format (VERB): the verb sense ("to format a document") is not enabled; angloform allows one sense per word
+- reason (VERB): the verb sense ("to reason through a problem") is not enabled; angloform allows one sense per word
+- pay (NOUN): the noun sense (pay, i.e. a salary) is not enabled; angloform allows one sense per word
+- inner (NOUN): the noun sense (archery/shooting jargon — a scoring ring) is not enabled; angloform allows one sense per word
+- minute (ADJ): the adjective sense ("a minute detail", pronounced differently, meaning tiny) is not enabled; angloform allows one sense per word
+- minute (VERB): the verb sense (British — "to minute a meeting", i.e. record its minutes) is not enabled; angloform allows one sense per word
+- skip (NOUN): the noun sense (a skip — a jump, or British "a skip", a large trash container) is not enabled; angloform allows one sense per word
+- round (ADV): the adverbial sense (British — "come round", "all year round") is not enabled; angloform has no adverb category
+- round (NOUN): the noun sense (a round, e.g. of drinks, or a boxing round) is not enabled; angloform allows one sense per word
+- round (VERB): the verb sense ("to round a number"; "to round a corner") is not enabled; angloform allows one sense per word
+- syllable (VERB): the verb sense (rare — to utter distinctly, syllable by syllable) is not enabled; angloform allows one sense per word
+- slot (VERB): the verb sense ("to slot something into place") is not enabled; angloform allows one sense per word
+- maximum (ADJ): the adjective sense ("maximum speed") is not enabled; angloform allows one sense per word
+- fraction (VERB): the verb sense (chemistry jargon — to separate into fractions) is not enabled; angloform allows one sense per word
+- range (VERB): the verb sense ("prices range from X to Y") is not enabled; angloform allows one sense per word
+- superlative (ADJ): the adjective sense ("superlative skill", meaning excellent) is not enabled; angloform allows one sense per word
+- revert (NOUN): the noun sense (rare — property, or a person, that reverts) is not enabled; angloform allows one sense per word
+- suffix (VERB): the verb sense (linguistics — "to suffix a letter to a word") is not enabled; angloform allows one sense per word
+- standard (ADJ): the adjective sense ("standard procedure") is not enabled; angloform allows one sense per word
+- compare (NOUN): the noun sense (literary — "beyond compare") is not enabled; angloform allows one sense per word
+- later (ADV): the adverbial sense ("see you later") is not enabled; angloform has no adverb category
+- letter (VERB): the verb sense ("to letter a sign", sign-painting) is not enabled; angloform allows one sense per word
+- fence (VERB): the verb sense ("to fence a yard"; the sport of fencing; slang "to fence stolen goods") is not enabled; angloform allows one sense per word
+- sequence (VERB): the verb sense (biology — "to sequence DNA") is not enabled; angloform allows one sense per word
+- feature (VERB): the verb sense ("the movie features an actor") is not enabled; angloform allows one sense per word
+- precondition (VERB): the verb sense ("to precondition something") is not enabled; angloform allows one sense per word
+- title (VERB): the verb sense ("to title a book") is not enabled; angloform allows one sense per word
+- reserve (NOUN): the noun sense (a reserve, e.g. a nature reserve, or reticence — "with reserve") is not enabled; angloform allows one sense per word
+- spoken (VERB): "spoken" is the past participle of the verb "speak" (not separately enabled); angloform allows one sense per word
+- transition (VERB): the verb sense ("to transition to a new role") is not enabled; angloform allows one sense per word
+- integrate (ADJ): the reference data attests an adjectival use of "integrate"; no common meaning could be confirmed — not enabled
+- left (ADV): the adverbial sense ("turn left") is not enabled; angloform has no adverb category
+- left (NOUN): the noun sense ("the left", directional or political) is not enabled; angloform allows one sense per word
+- left (VERB): "left" is also the past tense of the verb "leave" ("she left early"); not separately enabled
+- corollary (ADJ): the adjective (attributive) sense ("a corollary benefit") is not enabled; angloform allows one sense per word
+- discipline (VERB): the verb sense ("to discipline someone") is not enabled; angloform allows one sense per word
+- challenge (NOUN): the noun sense (a challenge) is not enabled; angloform allows one sense per word
+- curate (NOUN): the noun sense (an assistant to a vicar or rector, ecclesiastical) is not enabled; angloform allows one sense per word
+- lint (NOUN): the noun sense (lint — fluff, fiber debris) is not enabled; angloform allows one sense per word
+- transitive (NOUN): the reference data attests a noun use of "transitive"; no common meaning could be confirmed — not enabled
+- intransitive (NOUN): the reference data attests a noun use of "intransitive"; no common meaning could be confirmed — not enabled
+- breeze (VERB): the verb sense ("to breeze through an exam", "she breezed in") is not enabled; angloform allows one sense per word
+- delight (VERB): the verb sense ("this delights me") is not enabled; angloform allows one sense per word
+- heart (VERB): the verb sense (informal — "I heart New York"; archaically, to encourage) is not enabled; angloform allows one sense per word
+- joy (VERB): the verb sense (archaic/literary — "to joy in something", meaning to rejoice) is not enabled; angloform allows one sense per word
+- fear (VERB): the verb sense ("to fear something") is deferred; write "X is filled with fear" instead
+- hope (VERB): the verb sense ("to hope") is deferred; write "X is filled with hope" instead (same as "fear")
+- despair (VERB): the verb sense ("to despair") is deferred; write "X is filled with despair" instead (same as "fear")
+- thought (VERB): "thought" is independently attested as a rare verb form ("to thought"), though the base verb "think" is not enabled; not enabled here either — "thought" is a bare noun in this pack
+- father (VERB): the verb sense ("to father a child") is not enabled; angloform allows one sense per word
+- friend (VERB): the verb sense (modern — "to friend someone", on social media) is not enabled; angloform allows one sense per word
+- love (VERB): the verb sense ("to love") is deferred; write "X is filled with love" instead
+- human (NOUN): the noun sense ("a human") is deferred; write "man" or "creature" instead
+- man (ADJ): the adjective sense ("man enough") is deferred; not enabled
+- man (VERB): the verb sense ("to man a post") is deferred; not enabled
+- alone (ADV): only the predicate use is enabled ("I am alone", ADR 0052); the adverbial sense ("leave it alone") is deferred; angloform has no adverb category
+- house (VERB): the verb sense ("to house someone") is deferred, out of scope for this pack
+- sun (VERB): the verb sense ("to sun oneself", i.e. to sunbathe) is not enabled; angloform allows one sense per word
+- ice (VERB): the verb sense ("to ice a cake" or "to ice a drink") is not enabled; angloform allows one sense per word
+- world (ADJ): the adjective (attributive) sense ("a world record", "world class") is not enabled; angloform allows one sense per word
+- task (VERB): the verb sense ("to task someone with a job") is not enabled; angloform allows one sense per word
 
 ## Corpus coverage
 

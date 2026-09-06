@@ -62,6 +62,8 @@ extern {
         "RESULT" => Tok::So(<String>),
         "REASON" => Tok::Because(<String>),
         "NAMELY" => Tok::Namely(<String>),
+        "WHICH" => Tok::Which(<String>),
+        "WHO" => Tok::Who(<String>),
         "ORD" => Tok::Ord(<String>),
         "THAN" => Tok::Than(<String>),
         "MORE" => Tok::More(<String>),
@@ -171,6 +173,8 @@ LBecause: Tree = <l:@L> <w:"REASON"> => leaf(l, w);
 // Appositive's opening comma and its content — see the ApposSG
 // definition below for why.
 LNamely: Tree = <l:@L> <w:"NAMELY"> => leaf(l, w);
+LWhich: Tree = <l:@L> <w:"WHICH"> => leaf(l, w);
+LWho: Tree = <l:@L> <w:"WHO"> => leaf(l, w);
 LOrd: Tree = <l:@L> <w:"ORD"> => leaf(l, w);
 LThan: Tree = <l:@L> <w:"THAN"> => leaf(l, w);
 LMore: Tree = <l:@L> <w:"MORE"> => leaf(l, w);
@@ -187,8 +191,16 @@ LName: Tree = <l:@L> <w:"NAME"> => leaf(l, w);
 // Verb predicate for one (transitive, intransitive) agreement pair. A
 // colon right after the verb introduces an inline list of objects
 // (EXPERIMENT: "the mechanism stores: a word and a message").
+//
+// DIAGNOSTIC STATE (ADR 0059 in progress): temporarily testing whether
+// RelClauseSG/PL can reuse this exact nonterminal directly (no depth-1
+// cap at the grammar level yet) to isolate whether a duplicate
+// "VPnPlain" nonterminal was itself the source of the earlier LALR(1)
+// conflict, or whether the conflict has some other cause.
 VPn<Vt, Vi>: Tree = {
     <v:Vt> <o:NPAny> <p:PPv?> => nd("VP", 0, vec![Some(v), Some(o), p]),
+    <v:Vt> <o:NPi<LDet, LNounSg>> <rc:RelClauseSG> => nd("VP", 0, vec![Some(v), Some(nd("NPRel", 0, vec![Some(o), Some(rc)]))]),
+    <v:Vt> <o:NPi<LDet, LNounPl>> <rc:RelClausePL> => nd("VP", 0, vec![Some(v), Some(nd("NPRel", 0, vec![Some(o), Some(rc)]))]),
     <v:Vt> <c:LColon> <n1:NPAny> <cj:LConj> <n2:NPAnyOrOther> => nd("VP", 0, vec![Some(v), Some(c), Some(n1), Some(cj), Some(n2)]),
     <v:Vi> <p:PPv?> => nd("VP", 0, vec![Some(v), p]),
 };
@@ -611,6 +623,24 @@ NPNo: Tree = { NPx<LNo, LNounSg> };
 NPSome: Tree = { NPx<LSome, LNounPl> };
 
 NPAny: Tree = { NPSG, NPPL, BarePl, NPEvery };
+
+// ADR 0059 (revises ADR 0010): a non-restrictive relative clause. A
+// mandatory explicit relativizer avoids the Reduced-Relative garden
+// path ADR 0010 banned ("the file stored in the cache"); "who" for a
+// human/agent antecedent, "which" otherwise — Linter-checked
+// (diagnose::relativizer_animacy), not grammar-enforced, since the
+// grammar has no animacy machinery. Subject-relative only (the
+// relativizer plays the subject role inside its own clause — no
+// gap-tracking) and clause-final only (no closing comma needed). See
+// docs/relative-clause-design-2026-09-06.md for the full design record.
+RelClauseSG: Tree = {
+    <c:LComma> <r:LWhich> <p:PredSG> => nd("RelClause", 2, vec![Some(c), Some(r), Some(p)]),
+    <c:LComma> <r:LWho> <p:PredSG> => nd("RelClause", 2, vec![Some(c), Some(r), Some(p)]),
+};
+RelClausePL: Tree = {
+    <c:LComma> <r:LWhich> <p:PredPL> => nd("RelClause", 2, vec![Some(c), Some(r), Some(p)]),
+    <c:LComma> <r:LWho> <p:PredPL> => nd("RelClause", 2, vec![Some(c), Some(r), Some(p)]),
+};
 
 // Bare plural: generic/characterizing reading only, by fiat (ADR 0013).
 BarePl: Tree = {

@@ -985,7 +985,7 @@ fn slot_findings(lexicon: &Lexicon, toks: &[Tok]) -> Vec<String> {
                 if prev.is_some_and(is_det) =>
             {
                 out.push(match lexicon.redirect(w, "NOUN") {
-                    Some(s) => format!("\"{w}\" is a verb in angloform — as a noun use \"{s}\""),
+                    Some(r) => format!("\"{w}\" is a verb in angloform — {}", r.render("noun")),
                     None => format!("\"{w}\" is a verb in angloform and cannot follow a determiner"),
                 });
             }
@@ -999,8 +999,8 @@ fn slot_findings(lexicon: &Lexicon, toks: &[Tok]) -> Vec<String> {
                 if (prev.is_none() || prev.is_some_and(|p| is_noun_head(p) || introduces_bare_verb(p)))
                     && next.is_some_and(|n| is_det(n) || matches!(n, Tok::Adj(_) | Tok::AdjLong(_))) =>
             {
-                if let Some(s) = lexicon.redirect(w, "VERB") {
-                    out.push(format!("\"{w}\" is a noun in angloform — as a verb use \"{s}\""));
+                if let Some(r) = lexicon.redirect(w, "VERB") {
+                    out.push(format!("\"{w}\" is a noun in angloform — {}", r.render("verb")));
                 }
             }
             _ => {}

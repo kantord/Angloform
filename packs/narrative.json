@@ -2,14 +2,22 @@
   {
     "lemma": "breeze",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "Frankenstein Letter 1 pilot: 'a cold breeze filled me with delight'"
+    "note": "Frankenstein Letter 1 pilot: 'a cold breeze filled me with delight'",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to breeze through an exam\", \"she breezed in\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "delight",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "Frankenstein Letter 1 pilot gap"
+    "note": "Frankenstein Letter 1 pilot gap",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"this delights me\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "disaster",
@@ -19,38 +27,60 @@
   {
     "lemma": "welfare",
     "category": "NOUN",
-    "forms": { "plural": "welfare" },
+    "forms": {
+      "plural": "welfare"
+    },
     "note": "uncountable, like 'data'; Frankenstein Letter 1 pilot gap"
   },
   {
     "lemma": "heart",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "Frankenstein Letter 1 pilot gap"
+    "note": "Frankenstein Letter 1 pilot gap",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (informal — \"I heart New York\"; archaically, to encourage) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "joy",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "Frankenstein Letter 1 pilot gap"
+    "note": "Frankenstein Letter 1 pilot gap",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (archaic/literary — \"to joy in something\", meaning to rejoice) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "fear",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "verb sense ('to fear') deferred; use 'X filled with fear' instead"
+    "note": "verb sense ('to fear') deferred; use 'X filled with fear' instead",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to fear something\") is deferred; write \"X is filled with fear\" instead"
+      }
+    }
   },
   {
     "lemma": "hope",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "verb sense ('to hope') deferred, same as fear"
+    "note": "verb sense ('to hope') deferred, same as fear",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to hope\") is deferred; write \"X is filled with hope\" instead (same as \"fear\")"
+      }
+    }
   },
   {
     "lemma": "despair",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "verb sense ('to despair') deferred, same as fear"
+    "note": "verb sense ('to despair') deferred, same as fear",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to despair\") is deferred; write \"X is filled with despair\" instead (same as \"fear\")"
+      }
+    }
   },
   {
     "lemma": "horror",
@@ -65,26 +95,42 @@
   {
     "lemma": "thought",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "the base verb 'think' is not in the language, but 'thought' is independently attested as a rare verb form ('to thought'); 'thought' here is a bare noun"
+    "note": "the base verb 'think' is not in the language, but 'thought' is independently attested as a rare verb form ('to thought'); 'thought' here is a bare noun",
+    "reject": {
+      "VERB": {
+        "advice": "\"thought\" is independently attested as a rare verb form (\"to thought\"), though the base verb \"think\" is not enabled; not enabled here either — \"thought\" is a bare noun in this pack"
+      }
+    }
   },
   {
     "lemma": "father",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "Frankenstein Letter 1 pilot gap"
+    "note": "Frankenstein Letter 1 pilot gap",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to father a child\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "friend",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "Frankenstein Letter 1 pilot gap"
+    "note": "Frankenstein Letter 1 pilot gap",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (modern — \"to friend someone\", on social media) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "love",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "verb sense ('to love') deferred; use 'X filled with love' instead"
+    "note": "verb sense ('to love') deferred; use 'X filled with love' instead",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to love\") is deferred; write \"X is filled with love\" instead"
+      }
+    }
   },
   {
     "lemma": "affection",
@@ -94,13 +140,17 @@
   {
     "lemma": "happiness",
     "category": "NOUN",
-    "forms": { "plural": "happiness" },
+    "forms": {
+      "plural": "happiness"
+    },
     "note": "uncountable, like 'data'"
   },
   {
     "lemma": "life",
     "category": "NOUN",
-    "forms": { "plural": "lives" },
+    "forms": {
+      "plural": "lives"
+    },
     "note": "irregular plural; no VERB_TRANS 'live' exists yet, so 'lives' cannot collide"
   },
   {
@@ -111,8 +161,12 @@
   {
     "lemma": "human",
     "category": "ADJ",
-    "waive": ["NOUN"],
-    "note": "noun sense ('a human') deferred; use 'man' or 'creature' instead"
+    "note": "noun sense ('a human') deferred; use 'man' or 'creature' instead",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"a human\") is deferred; write \"man\" or \"creature\" instead"
+      }
+    }
   },
   {
     "lemma": "creature",
@@ -122,21 +176,38 @@
   {
     "lemma": "man",
     "category": "NOUN",
-    "forms": { "plural": "men" },
-    "waive": ["ADJ", "VERB"],
-    "note": "irregular plural; ADJ/VERB senses ('man enough', 'to man a post') deferred"
+    "forms": {
+      "plural": "men"
+    },
+    "note": "irregular plural; ADJ/VERB senses ('man enough', 'to man a post') deferred",
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"man enough\") is deferred; not enabled"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to man a post\") is deferred; not enabled"
+      }
+    }
   },
   {
     "lemma": "alone",
     "category": "ADJ",
-    "waive": ["ADV"],
-    "note": "predicate use only ('I am alone', enabled by ADR 0052); adverbial use deferred"
+    "note": "predicate use only ('I am alone', enabled by ADR 0052); adverbial use deferred",
+    "reject": {
+      "ADV": {
+        "advice": "only the predicate use is enabled (\"I am alone\", ADR 0052); the adverbial sense (\"leave it alone\") is deferred; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "house",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "verb sense ('to house') deferred as out of scope for this pack"
+    "note": "verb sense ('to house') deferred as out of scope for this pack",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to house someone\") is deferred, out of scope for this pack"
+      }
+    }
   },
   {
     "lemma": "cottage",
@@ -146,15 +217,25 @@
   {
     "lemma": "sun",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "Frankenstein Letter 1 pilot gap"
+    "note": "Frankenstein Letter 1 pilot gap",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to sun oneself\", i.e. to sunbathe) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "ice",
     "category": "NOUN",
-    "forms": { "plural": "ice" },
-    "waive": ["VERB"],
-    "note": "uncountable, like 'data'"
+    "forms": {
+      "plural": "ice"
+    },
+    "note": "uncountable, like 'data'",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to ice a cake\" or \"to ice a drink\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "day",
@@ -169,8 +250,12 @@
   {
     "lemma": "world",
     "category": "NOUN",
-    "waive": ["ADJ"],
-    "note": "Frankenstein Letter 1 pilot gap"
+    "note": "Frankenstein Letter 1 pilot gap",
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective (attributive) sense (\"a world record\", \"world class\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "sister",
@@ -180,13 +265,21 @@
   {
     "lemma": "task",
     "category": "NOUN",
-    "waive": ["VERB"],
-    "note": "Frankenstein Letter 1 round 2: paragraph 1 translation gap"
+    "note": "Frankenstein Letter 1 round 2: paragraph 1 translation gap",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to task someone with a job\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "hear",
     "category": "VERB_TRANS",
-    "forms": { "past": "heard", "ppart": "heard", "third": "hears" },
+    "forms": {
+      "past": "heard",
+      "ppart": "heard",
+      "third": "hears"
+    },
     "note": "Frankenstein Letter 1 round 2; irregular past/ppart"
   },
   {

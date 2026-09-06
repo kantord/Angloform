@@ -228,7 +228,7 @@ fn load_lexicon(path: &str) -> Lexicon {
                 };
                 lex.surface_pos.insert(surface.to_string(), family.to_string());
             }
-            "reject" => {
+            "reject" | "reject_advice" => {
                 lex.rejects.insert(
                     (surface.to_string(), tag.to_string()),
                     value.to_string(),

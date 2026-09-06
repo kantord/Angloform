@@ -303,9 +303,6 @@
     "lemma": "curate",
     "category": "VERB_TRANS",
     "definition": "people curate the Seed. people add every Lemma to the Seed and choose the Category of the Lemma. a machine does not curate the Seed, because a machine optimizes the rarity of the words.",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "curates",
       "past": "curated",
@@ -313,15 +310,17 @@
     },
     "examples": [
       "the maintainers curated the word \"identical\"."
-    ]
+    ],
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an assistant to a vicar or rector, ecclesiastical) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "lint",
     "category": "VERB_TRANS",
     "definition": "the Linter lints a sentence. the Linter checks every word against the Lexicon and checks the structure against the Grammar. if the sentence fails, then the Linter shows an error with a remedy.",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "lints",
       "past": "linted",
@@ -329,21 +328,24 @@
     },
     "examples": [
       "the Linter lints the sentence \"the agent reads the file\"."
-    ]
+    ],
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (lint — fluff, fiber debris) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "parse",
     "category": "VERB_TRANS",
     "definition": "the Linter parses a sentence, so the Linter builds the tree of the sentence from the tokens. if the Linter cannot parse a sentence, then the sentence is a Rejection.",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "parses"
     },
     "examples": [
       "the Linter parses the sentence \"the agent reads the file\"."
-    ]
+    ],
+    "reject": {}
   },
   {
     "lemma": "waive",
@@ -384,23 +386,27 @@
     "lemma": "transitive",
     "category": "ADJ",
     "definition": "a transitive verb needs an object.",
-    "waive": [
-      "NOUN"
-    ],
     "examples": [
       "the verb \"delete\" is transitive."
-    ]
+    ],
+    "reject": {
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"transitive\"; no common meaning could be confirmed — not enabled"
+      }
+    }
   },
   {
     "lemma": "intransitive",
     "category": "ADJ",
     "definition": "an intransitive verb does not need an object.",
-    "waive": [
-      "NOUN"
-    ],
     "examples": [
       "the verb \"fail\" is intransitive."
-    ]
+    ],
+    "reject": {
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"intransitive\"; no common meaning could be confirmed — not enabled"
+      }
+    }
   },
   {
     "lemma": "rejected sense",

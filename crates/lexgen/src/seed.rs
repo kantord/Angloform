@@ -3,6 +3,19 @@
 use serde::Deserialize;
 use std::collections::BTreeMap;
 
+/// A rejected-sense entry: either a suggested replacement word, or free-text
+/// advice for a collision with no natural word substitute. Replaces the old
+/// silent `waive` field (see docs/adr/0060) — every excluded sense must
+/// explain itself to the writer who hits it; nothing is silently dropped.
+#[derive(Deserialize, Clone)]
+#[serde(untagged)]
+pub enum RejectTarget {
+    /// A suggested replacement word.
+    Word(String),
+    /// Free-text advice, shown verbatim by the Linter.
+    Advice { advice: String },
+}
+
 #[derive(Deserialize)]
 #[serde(deny_unknown_fields)]
 pub struct SeedEntry {
@@ -11,12 +24,9 @@ pub struct SeedEntry {
     /// Irregular-form overrides, keyed by slot name (see Category::slots).
     #[serde(default)]
     pub forms: BTreeMap<String, String>,
-    /// Rejected uses: attested-but-banned POS → suggested replacement word.
+    /// Rejected uses: attested-but-banned POS → a redirect word or advice.
     #[serde(default)]
-    pub reject: BTreeMap<String, String>,
-    /// Attested POSes deliberately left without a redirect.
-    #[serde(default)]
-    pub waive: Vec<String>,
+    pub reject: BTreeMap<String, RejectTarget>,
     /// Writer-facing advice for BANNED words (shown by the linter).
     #[serde(default)]
     pub advice: String,

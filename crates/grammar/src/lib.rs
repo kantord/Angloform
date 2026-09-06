@@ -63,6 +63,8 @@ pub enum Tok {
     So(String),
     Because(String),
     Namely(String),
+    Which(String),
+    Who(String),
     Ord(String),
     Than(String),
     More(String),
@@ -109,6 +111,26 @@ impl std::fmt::Display for LexError {
 
 // --------------------------------------------------------------- lexicon --
 
+/// A rejected-sense redirect: either a suggested replacement word, or
+/// free-text advice for a collision with no natural word substitute (ADR
+/// 0060 — replaces the old silent `waive`; every excluded sense explains
+/// itself to the writer who hits it).
+#[derive(Clone, Debug)]
+pub enum Redirect {
+    Word(String),
+    Advice(String),
+}
+
+impl Redirect {
+    /// Render as the message fragment shown after "is a {pos} in angloform".
+    pub fn render(&self, pos: &str) -> String {
+        match self {
+            Redirect::Word(w) => format!("as a {pos} use \"{w}\""),
+            Redirect::Advice(a) => a.clone(),
+        }
+    }
+}
+
 pub struct Lexicon {
     forms: BTreeMap<String, String>,
     lemmas: BTreeMap<String, String>,
@@ -120,7 +142,7 @@ pub struct Lexicon {
     comparatives: BTreeMap<String, String>,
     /// adjective lemma → its inflected superlative surface (ADR 0056)
     superlatives: BTreeMap<String, String>,
-    rejects: BTreeMap<String, Vec<(String, String)>>,
+    rejects: BTreeMap<String, Vec<(String, Redirect)>>,
     bans: BTreeMap<String, String>,
     /// Capitalized term → its Capitalized parent category (ADR 0027's
     /// `member_of`, ADR 0049): the domain model's own is-a graph, made
@@ -134,7 +156,7 @@ impl Lexicon {
     pub fn from_tsv(text: &str) -> Result<Lexicon, String> {
         let mut forms = BTreeMap::new();
         let mut lemmas = BTreeMap::new();
-        let mut rejects: BTreeMap<String, Vec<(String, String)>> = BTreeMap::new();
+        let mut rejects: BTreeMap<String, Vec<(String, Redirect)>> = BTreeMap::new();
         let mut bans: BTreeMap<String, String> = BTreeMap::new();
         let mut terms: BTreeMap<String, String> = BTreeMap::new();
         let mut names = std::collections::BTreeSet::new();
@@ -158,7 +180,11 @@ impl Lexicon {
                 "reject" => rejects
                     .entry(surface.to_string())
                     .or_default()
-                    .push((tag.to_string(), value.to_string())),
+                    .push((tag.to_string(), Redirect::Word(value.to_string()))),
+                "reject_advice" => rejects
+                    .entry(surface.to_string())
+                    .or_default()
+                    .push((tag.to_string(), Redirect::Advice(value.to_string()))),
                 "ban" => {
                     bans.insert(surface.to_string(), value.to_string());
                 }
@@ -216,11 +242,11 @@ impl Lexicon {
 
     /// The redirect suggestion for a rejected (POS) use of a word, looked up
     /// by its lemma (the reject table is keyed by lemma).
-    pub fn redirect(&self, word: &str, pos: &str) -> Option<&str> {
+    pub fn redirect(&self, word: &str, pos: &str) -> Option<&Redirect> {
         let key = self.lemmas.get(word).map(String::as_str).unwrap_or(word);
         self.rejects
             .get(key)
-            .and_then(|rs| rs.iter().find(|(p, _)| p == pos).map(|(_, s)| s.as_str()))
+            .and_then(|rs| rs.iter().find(|(p, _)| p == pos).map(|(_, r)| r))
     }
 
     /// Tokenize a sentence. Commas become COMMA tokens; a trailing period is
@@ -423,7 +449,7 @@ impl Lexicon {
             position: pos,
             suggestion: self.rejects.get(word).map(|rs| {
                 rs.iter()
-                    .map(|(pos, sugg)| format!("as a {pos} use \"{sugg}\""))
+                    .map(|(pos, r)| r.render(pos))
                     .collect::<Vec<_>>()
                     .join("; ")
             }),
@@ -633,6 +659,8 @@ fn tag_to_tok(tag: &str, word: &str) -> Option<Tok> {
         "RESULT" => Tok::So(w),
         "REASON" => Tok::Because(w),
         "NAMELY" => Tok::Namely(w),
+        "WHICH" => Tok::Which(w),
+        "WHO" => Tok::Who(w),
         "ORD" => Tok::Ord(w),
         "THAN" => Tok::Than(w),
         "MORE" => Tok::More(w),

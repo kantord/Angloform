@@ -16,22 +16,22 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 
 | verdict | tokens | share |
 |---|---|---|
-| OK | 8230 | 37.7% |
-| REDIRECT (designed rejection with suggestion) | 47 | 0.2% |
-| MISMATCH (enabled word, uncovered POS) | 2168 | 9.9% |
+| OK | 8235 | 37.7% |
+| REDIRECT (designed rejection with suggestion) | 305 | 1.4% |
+| MISMATCH (enabled word, uncovered POS) | 1981 | 9.1% |
 | PROPN (out of scope) | 2075 | 9.5% |
-| OOV | 9327 | 42.7% |
+| OOV | 9251 | 42.3% |
 
 ## OOV by gold UPOS
 
-- NOUN: 3126
-- ADJ: 1278
-- PRON: 1147
+- NOUN: 3121
+- ADJ: 1275
 - VERB: 1131
+- PRON: 1084
 - ADV: 931
 - NUM: 495
 - AUX: 319
-- DET: 269
+- DET: 264
 - ADP: 250
 - SCONJ: 173
 - INTJ: 112
@@ -40,22 +40,25 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 
 ## Top missing lemmas (curation candidates — human decides)
 
-it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET (×111), that/PRON (×105), would/AUX (×91), he/PRON (×82), that/SCONJ (×81), great/ADJ (×72), 's/PART (×70), service/NOUN (×67), what/PRON (×59), just/ADV (×57), very/ADV (×57), want/VERB (×53), our/PRON (×50), thanks/NOUN (×49), this/PRON (×49), there/PRON (×48), all/DET (×46), up/ADP (×46), any/DET (×45), could/AUX (×44), his/PRON (×40), food/NOUN (×39), look/VERB (×38), as/ADP (×36), as/SCONJ (×35), here/ADV (×35), please/INTJ (×34), now/ADV (×33), out/ADP (×33), should/AUX (×33), which/PRON (×33), think/VERB (×32), year/NOUN (×31), there/ADV (×30), when/ADV (×30), who/PRON (×30)
+it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET (×111), that/PRON (×105), would/AUX (×91), he/PRON (×82), that/SCONJ (×81), great/ADJ (×72), 's/PART (×70), service/NOUN (×67), what/PRON (×59), just/ADV (×57), very/ADV (×57), want/VERB (×53), our/PRON (×50), thanks/NOUN (×49), this/PRON (×49), there/PRON (×48), all/DET (×46), up/ADP (×46), any/DET (×45), could/AUX (×44), his/PRON (×40), food/NOUN (×39), look/VERB (×38), as/ADP (×36), as/SCONJ (×35), here/ADV (×35), please/INTJ (×34), now/ADV (×33), out/ADP (×33), should/AUX (×33), think/VERB (×32), year/NOUN (×31), there/ADV (×30), when/ADV (×30), their/PRON (×29), try/VERB (×29)
 
 ## Redirect hits (the rejection rules doing their job)
 
+- work used as VERB ×26
+- love used as VERB ×21
+- clean used as ADJ ×10
 - store used as NOUN ×10
+- hope used as VERB ×9
+- help used as NOUN ×8
+- long used as ADV ×8
 - need used as NOUN ×8
+- late used as ADV ×7
+- link used as NOUN ×7
+- end used as NOUN ×6
+- change used as NOUN ×5
 - file used as VERB ×5
-- commit used as VERB ×4
-- note used as VERB ×4
-- report used as VERB ×4
-- open used as ADJ ×3
-- show used as NOUN ×3
-- check used as NOUN ×2
-- test used as VERB ×2
-- build used as NOUN ×1
-- copy used as VERB ×1
+- list used as VERB ×5
+- name used as NOUN ×5
 
 ## Uncovered POS mismatches (holes in the redirect table)
 
@@ -69,11 +72,11 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 - be used as VERB ×48
 - do used as VERB ×45
 - one used as NUM ×34
+- which used as PRON ×33
+- who used as PRON ×30
 - about used as ADP ×26
-- work used as VERB ×26
 - for used as SCONJ ×24
 - other used as ADJ ×22
-- love used as VERB ×21
 
 ## Samples for manual review
 
@@ -93,7 +96,7 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 - i.e. — *i.e (ADV, OOV)*
 - Wtf is this? — *Wtf (PRON, OOV); this (PRON, OOV)*
 - WASHINGTON (Reuters) - — *WASHINGTON (proper noun); Reuters (proper noun)*
-- The answer is, "Yes!" — *answer as NOUN (no redirect); Yes (INTJ, OOV)*
+- The answer is, "Yes!" — *answer as NOUN → "the noun sense (an answer) is not enabled; angloform allows one sense per word"; Yes (INTJ, OOV)*
 - (On what evidence? — *what (DET, OOV)*
 - i'm the king — *'m as AUX (no redirect); king (NOUN, OOV)*
 - yeah — *yeah (INTJ, OOV)*

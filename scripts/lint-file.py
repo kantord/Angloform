@@ -98,7 +98,7 @@ def load_lexicon():
             lemma[surface] = val4
         elif kind == "ban":
             bans[surface] = val4
-        elif kind == "reject":
+        elif kind in ("reject", "reject_advice"):
             rejects[surface] = (val3, val4)
     return lemma, tag, bans, rejects
 

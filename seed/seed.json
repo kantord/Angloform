@@ -223,11 +223,11 @@
       "third": "reads"
     },
     "reject": {
-      "NOUN": "text"
+      "NOUN": "text",
+      "ADJ": {
+        "advice": "the adjective sense (\"a read book\", meaning already read) is too obscure to redirect; not enabled"
+      }
     },
-    "waive": [
-      "ADJ"
-    ],
     "note": "adjectival sense (a read book) too obscure to redirect"
   },
   {
@@ -248,10 +248,12 @@
       "past": "sent",
       "third": "sends"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "nautical noun sense; irrelevant to domain"
+    "note": "nautical noun sense; irrelevant to domain",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (nautical — a send, a wave's forward movement) is not enabled; irrelevant to this domain"
+      }
+    }
   },
   {
     "lemma": "store",
@@ -363,10 +365,12 @@
   {
     "lemma": "old",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "generic-people noun sense (the old); irrelevant to domain"
+    "note": "generic-people noun sense (the old); irrelevant to domain",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"the old\", generic reference to old people) is not enabled; irrelevant to this domain"
+      }
+    }
   },
   {
     "lemma": "i",
@@ -407,20 +411,22 @@
     "lemma": "empty",
     "category": "ADJ",
     "reject": {
-      "VERB": "drain"
+      "VERB": "drain",
+      "NOUN": {
+        "advice": "the noun sense (\"empties\"/\"an empty\", i.e. an empty container) is not enabled; irrelevant to this domain"
+      }
     },
-    "waive": [
-      "NOUN"
-    ],
     "note": "noun sense (empties/an empty) irrelevant to domain"
   },
   {
     "lemma": "big",
     "category": "ADJ",
-    "waive": [
-      "ADV"
-    ],
-    "note": "adverbial sense (win big) irrelevant; no ADV category exists yet anyway"
+    "note": "adverbial sense (win big) irrelevant; no ADV category exists yet anyway",
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"win big\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "and",
@@ -510,12 +516,11 @@
     "lemma": "open",
     "category": "VERB_TRANS",
     "reject": {
-      "ADJ": "unlocked"
+      "ADJ": "unlocked",
+      "NOUN": {
+        "advice": "the noun sense (\"in the open\") is not enabled; irrelevant to this domain"
+      }
     },
-    "waive": [
-      "ADV",
-      "NOUN"
-    ],
     "note": "adverb (break open) and noun (in the open) senses irrelevant to domain",
     "forms": {
       "past": "opened",
@@ -526,12 +531,14 @@
   {
     "lemma": "tool",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "verb sense (tool around) irrelevant to domain",
     "forms": {
       "plural": "tools"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to tool around\") is not enabled; irrelevant to this domain"
+      }
     }
   },
   {
@@ -592,11 +599,11 @@
     "lemma": "sweet",
     "category": "ADJ",
     "reject": {
-      "NOUN": "candy"
+      "NOUN": "candy",
+      "ADV": {
+        "advice": "the adverbial sense (\"talk sweet\") is not enabled; angloform has no adverb category"
+      }
     },
-    "waive": [
-      "ADV"
-    ],
     "note": "adverbial sense (talk sweet) irrelevant to domain",
     "forms": {
       "comparative": "sweeter"
@@ -630,12 +637,14 @@
   {
     "lemma": "machine",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "verb sense (machine a part) irrelevant to domain",
     "forms": {
       "plural": "machines"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to machine a part\", i.e. shape it with tools) is not enabled; irrelevant to this domain"
+      }
     }
   },
   {
@@ -659,19 +668,25 @@
   {
     "lemma": "binary",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
-    "note": "programmer-transparent word for build output (ADR 0015); adjectival sense unused"
+    "note": "programmer-transparent word for build output (ADR 0015); adjectival sense unused",
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"binary code\") is unused in this domain; not enabled"
+      }
+    }
   },
   {
     "lemma": "initial",
     "category": "ADJ",
     "note": "for transparent paraphrases (ADR 0015); noun (his initials) and verb (initial a document) senses irrelevant",
-    "waive": [
-      "NOUN",
-      "VERB"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"his initials\") is not enabled; irrelevant to this domain"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to initial a document\") is not enabled; irrelevant to this domain"
+      }
+    }
   },
   {
     "lemma": "have",
@@ -681,10 +696,12 @@
       "past": "had",
       "ing": "having"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "possession only; auxiliary reading unparseable by construction (ADR 0016); noun sense (the haves) irrelevant"
+    "note": "possession only; auxiliary reading unparseable by construction (ADR 0016); noun sense (the haves) irrelevant",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"the haves\") is not enabled; irrelevant to this domain (the auxiliary \"have\" reading is separately unparseable by construction, ADR 0016)"
+      }
+    }
   },
   {
     "lemma": "one",
@@ -699,12 +716,14 @@
   {
     "lemma": "sense",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "verb sense (sense danger) irrelevant to domain",
     "forms": {
       "plural": "senses"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to sense danger\") is not enabled; irrelevant to this domain"
+      }
     }
   },
   {
@@ -962,9 +981,11 @@
     "lemma": "generated",
     "category": "ADJ",
     "note": "participial adjective (ADR 0015); the verb generate is deliberately not enabled, so no collision",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "\"generated\" is the past participle of the verb \"generate\" (deliberately not enabled); angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "entry",
@@ -1129,12 +1150,14 @@
   {
     "lemma": "research",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "researches"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (to research something) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1164,23 +1187,27 @@
   {
     "lemma": "rule",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "rules"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (to rule, as a judge or monarch) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "invariant",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "invariants"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (an invariant quantity, unchanging) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1191,12 +1218,14 @@
   {
     "lemma": "table",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "tables"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (to table a motion — propose or postpone, depending on dialect) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1231,12 +1260,14 @@
   {
     "lemma": "expense",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "expenses"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to expense a purchase\", business jargon) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1308,46 +1339,54 @@
   {
     "lemma": "record",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "records"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a record) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "match",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "matches"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a match — a contest, or a matchstick) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "pin",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "pins"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a pin, a fastener) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "fetch",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "fetches",
       "past": "fetched"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a fetch, e.g. a memory fetch in computing, or archaically a trick) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1361,12 +1400,14 @@
   {
     "lemma": "save",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "saves"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a save, e.g. in sports or computing) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1412,21 +1453,25 @@
     "forms": {
       "past": "came"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense is vulgar slang and not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "prior",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "comparative": "priorer",
       "superlative": "priorest"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a prior, the head of a religious house) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1437,27 +1482,35 @@
   {
     "lemma": "common",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a common, shared public land) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "small",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV"
-    ],
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"the small of the back\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"cut it small\", \"think small\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "irregular",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an irregular — an irregular soldier, or a substandard product) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "deterministic",
@@ -1514,31 +1567,37 @@
     "lemma": "hidden",
     "category": "ADJ",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "\"hidden\" is the past participle of the verb \"hide\" (not separately enabled); angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "drift",
     "category": "VERB_INTRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "generated files drift from the seed (ADR 0001); noun sense waived (one tag)",
     "forms": {
       "third": "drifts",
       "past": "drifted"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a drift, e.g. a snowdrift) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "difference",
     "category": "NOUN",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "differences"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (rare — e.g. heraldry \"to difference a coat of arms\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1565,6 +1624,16 @@
     "lemma": "namely",
     "category": "NAMELY",
     "note": "ADR 0054 revision: mandatory marker right after the Appositive's opening comma (\"Subj, namely NP, Predicate\") — removes the garden path where a bare \"Subj, NP,\" reads as an asyndetic list until the predicate's agreement resolves it (confirmed real by direct human reaction, docs/garden-paths-2026-09-06.md). A word real English already uses for exactly this (non-restrictive restatement), not a punctuation workaround."
+  },
+  {
+    "lemma": "which",
+    "category": "WHICH",
+    "note": "ADR 0059 (revises ADR 0010): non-restrictive relative clause relativizer for a non-human/non-agent antecedent — \"the tool writes the file, which enters the pipeline.\" \"that\" stays banned (its own 3-way pointer/complementizer/relative ambiguity, ADR 0002/0010); \"which\" is dedicated to this one job, used nowhere else in the grammar. See docs/relative-clause-design-2026-09-06.md."
+  },
+  {
+    "lemma": "who",
+    "category": "WHO",
+    "note": "ADR 0059 (revises ADR 0010): non-restrictive relative clause relativizer for a human/agent antecedent — \"the tool notifies the maintainers, who approve the release.\" Correct antecedent choice (who vs. which) is Linter-checked against a small agent-noun list, not grammar-enforced (diagnose::relativizer_animacy). See docs/relative-clause-design-2026-09-06.md."
   },
   {
     "lemma": "since",
@@ -1595,11 +1664,13 @@
     "lemma": "discourse",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "discourses"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to discourse upon a subject\", formal) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1614,22 +1685,26 @@
     "lemma": "prose",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "proses"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (archaic — to write or speak tediously) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "project",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "projects"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (to project, e.g. an image or a plan) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1660,22 +1735,26 @@
     "lemma": "team",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "teams"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to team up\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "example",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "examples"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (rare — to exemplify) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1704,33 +1783,39 @@
     "lemma": "layer",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "layers"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (to layer, e.g. paint or hair) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "plan",
     "category": "VERB_TRANS",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "plans"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a plan) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "repeat",
     "category": "VERB_TRANS",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "repeats"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a repeat, e.g. a rerun) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1741,20 +1826,26 @@
       "past": "said",
       "ppart": "said"
     },
-    "waive": [
-      "NOUN",
-      "ADV"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"to have a say\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial/interjection sense (\"say, that's a good idea\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "produce",
     "category": "VERB_TRANS",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "produces"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (produce — farm goods) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1766,9 +1857,11 @@
     "lemma": "future",
     "category": "ADJ",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (the future; also a financial \"future\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "instructional",
@@ -1779,11 +1872,13 @@
     "lemma": "reference",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "references"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to reference a source\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1806,11 +1901,13 @@
     "lemma": "demonstrative",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "demonstratives"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (a demonstrative person, or \"demonstrative pronoun\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -1841,20 +1938,24 @@
     "lemma": "object",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "objects"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to object to something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "ban",
     "category": "VERB_TRANS",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a ban) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "allow",
@@ -1891,36 +1992,46 @@
     "lemma": "carry",
     "category": "VERB_TRANS",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a carry, e.g. in arithmetic or golf) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "split",
     "category": "VERB_TRANS",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "NOUN",
-      "ADJ"
-    ],
     "forms": {
       "past": "split",
       "ppart": "split",
       "ing": "splitting"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a split, e.g. a division) is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"a split decision\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "refer",
     "category": "VERB_INTRANS",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "ADJ",
-      "NOUN"
-    ],
     "forms": {
       "third": "refers",
       "past": "refered",
       "ing": "refering"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the reference data attests an adjectival use of \"refer\"; no common meaning could be confirmed — not enabled"
+      },
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"refer\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
@@ -1937,17 +2048,21 @@
     "lemma": "unknown",
     "category": "ADJ",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an unknown, e.g. in mathematics, or \"the unknown\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "possessive",
     "category": "ADJ",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a possessive, the grammatical case/pronoun) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "closed",
@@ -1981,42 +2096,52 @@
     "lemma": "token",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "waive": [
-      "ADJ",
-      "VERB"
-    ],
     "forms": {
       "plural": "tokens"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a token gesture\") is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (archaic — to signify or portend) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "class",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to class something as X\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "place",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "places"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to place\", e.g. an order or an object) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "point",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "points"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to point at something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2031,20 +2156,24 @@
     "lemma": "referent",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "referents"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (e.g. \"referent power\" in social-psychology terminology) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "exact",
     "category": "ADJ",
     "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to exact revenge\" or \"to exact a toll\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "against",
@@ -2065,9 +2194,11 @@
       "ppart": "known",
       "third": "knows"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"in the know\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "require",
@@ -2089,23 +2220,23 @@
     "lemma": "cause",
     "category": "VERB_TRANS",
     "note": "surfaced by the ADR 0002 paragraph run 4 (2026-09-02)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "causes"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a cause) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "text",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 4 (2026-09-02)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "texts"
-    }
+    },
+    "reject": {}
   },
   {
     "lemma": "repetitive",
@@ -2141,64 +2272,72 @@
     "lemma": "choice",
     "category": "NOUN",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "choices"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"choice cuts of meat\", meaning select) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "count",
     "category": "VERB_TRANS",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "counts",
       "past": "counted"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a count — a tally, or a nobleman's title) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "proxy",
     "category": "NOUN",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {}
   },
   {
     "lemma": "quality",
     "category": "NOUN",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "qualities"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"quality time\", meaning good) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "share",
     "category": "NOUN",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "shares"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to share something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "change",
     "category": "VERB_TRANS",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "changes"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (change — coins, or a change of plans) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2210,28 +2349,34 @@
     "lemma": "structure",
     "category": "NOUN",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "structures"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to structure something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "permanent",
     "category": "ADJ",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a permanent — a hairstyle, informally \"a perm\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "original",
     "category": "ADJ",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"the original\", or \"she's an original\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "translation",
@@ -2245,11 +2390,13 @@
     "lemma": "meaning",
     "category": "NOUN",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "meanings"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective (participial) sense (\"a meaning look\", i.e. significant) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2285,11 +2432,13 @@
     "lemma": "claim",
     "category": "NOUN",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "claims"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to claim something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2309,9 +2458,11 @@
       "ppart": "given",
       "third": "gives"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"there is some give in the rope\", meaning flexibility) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "reader",
@@ -2325,41 +2476,49 @@
     "lemma": "resolve",
     "category": "VERB_TRANS",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "resolves"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"show some resolve\", meaning determination) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "remove",
     "category": "VERB_TRANS",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "removes"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (formal — \"at one remove\", meaning at a distance) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "measure",
     "category": "VERB_TRANS",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a measure, e.g. \"take measures\", or a musical bar) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "fix",
     "category": "VERB_TRANS",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "fixes"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"in a fix\", meaning trouble; also drug slang) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2373,10 +2532,12 @@
   {
     "lemma": "name",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "needed by domain-model definitions (ADR 0027)"
+    "note": "needed by domain-model definitions (ADR 0027)",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a name) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "keep",
@@ -2386,10 +2547,12 @@
       "ppart": "kept",
       "third": "keeps"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "needed by domain-model definitions (ADR 0027)"
+    "note": "needed by domain-model definitions (ADR 0027)",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"earn your keep\"; also a castle's keep) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "drop",
@@ -2399,19 +2562,25 @@
       "ppart": "dropped",
       "ing": "dropping"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "needed by domain-model definitions (ADR 0027)"
+    "note": "needed by domain-model definitions (ADR 0027)",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a drop, e.g. of water) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "base",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB"
-    ],
-    "note": "needed by domain-model definitions (ADR 0027)"
+    "note": "needed by domain-model definitions (ADR 0027)",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a base, e.g. military, or a number base) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to base a decision on something\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "into",
@@ -2437,49 +2606,59 @@
   {
     "lemma": "hole",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "needed by domain-model definitions (ADR 0027)",
     "forms": {
       "plural": "holes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to hole a boat\"; golf \"to hole a putt\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "kind",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "needed by domain-model definitions (ADR 0027)",
     "forms": {
       "plural": "kinds"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a kind person\", meaning considerate) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "add",
     "category": "VERB_TRANS",
     "note": "needed by domain-model definitions (ADR 0027)",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "adds",
       "past": "added",
       "ing": "adding"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"add\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
     "lemma": "good",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV"
-    ],
     "note": "needed by domain-model definitions (ADR 0027)",
     "forms": {
       "comparative": "better",
       "superlative": "best"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"for the greater good\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (informal — \"doing good\", nonstandard for \"well\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
@@ -2494,12 +2673,16 @@
     "lemma": "item",
     "category": "NOUN",
     "note": "ADR 0028",
-    "waive": [
-      "ADV",
-      "VERB"
-    ],
     "forms": {
       "plural": "items"
+    },
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (archaic — \"item\" used to introduce each entry in a list, meaning \"likewise\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "the reference data attests a verb use of \"item\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
@@ -2510,10 +2693,10 @@
   {
     "lemma": "list",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0028: the noun; the verb sense stays out (contain)"
+    "note": "ADR 0028: the noun; the verb sense stays out (contain)",
+    "reject": {
+      "VERB": "contain"
+    }
   },
   {
     "lemma": "enumerate",
@@ -2526,33 +2709,43 @@
   {
     "lemma": "phrase",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0028",
     "forms": {
       "plural": "phrases"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"how you phrase something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "last",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB",
-      "ADV"
-    ],
-    "note": "ADR 0028"
+    "note": "ADR 0028",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a shoemaker's last, a foot-shaped mold) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"it will last a while\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"he finished last\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "end",
     "category": "VERB_INTRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0028",
     "forms": {
       "third": "ends"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an end) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2572,9 +2765,11 @@
     "lemma": "quoted",
     "category": "ADJ",
     "note": "ADR 0028; quote is not an enabled verb, so no collision",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "\"quoted\" is the past participle of the verb \"quote\" (deliberately not enabled); angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "instruction",
@@ -2590,31 +2785,37 @@
       "ing": "making",
       "third": "makes"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0002 rewrite"
+    "note": "ADR 0002 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"what make is your car\", meaning brand) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "link",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0003 rewrite",
     "forms": {
       "ing": "linking"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a link) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "adjective",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0003 rewrite",
     "forms": {
       "plural": "adjectives"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (legal jargon — \"adjective law\", meaning procedural) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2628,11 +2829,15 @@
   {
     "lemma": "general",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB"
-    ],
-    "note": "ADR 0003 rewrite"
+    "note": "ADR 0003 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a general, the military rank) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the reference data attests a verb use of \"general\"; no common meaning could be confirmed — not enabled"
+      }
+    }
   },
   {
     "lemma": "ongoing",
@@ -2642,24 +2847,30 @@
   {
     "lemma": "past",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV"
-    ],
     "note": "ADR 0003 rewrite",
     "forms": {
       "superlative": "pastest"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (the past) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"she walked past\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
     "lemma": "state",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0003 rewrite",
     "forms": {
       "plural": "states"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to state a fact\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2673,20 +2884,24 @@
   {
     "lemma": "mark",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0003 rewrite"
+    "note": "ADR 0003 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a mark — a grade, a stain, or a former currency) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "question",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0003 rewrite",
     "forms": {
       "plural": "questions"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to question someone\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2698,10 +2913,12 @@
       "ing": "taking",
       "third": "takes"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0003 rewrite"
+    "note": "ADR 0003 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"a hot take\"; box-office \"the take\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "enforce",
@@ -2720,77 +2937,100 @@
       "ing": "seeing",
       "third": "sees"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0003 rewrite"
+    "note": "ADR 0003 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (ecclesiastical — a bishop's see) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "follow",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0003 rewrite",
     "forms": {
       "third": "follows",
       "past": "followed"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (billiards jargon — a type of shot) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "subject",
     "category": "NOUN",
-    "waive": [
-      "VERB",
-      "ADJ",
-      "ADV"
-    ],
     "note": "ADR 0003 rewrite",
     "forms": {
       "plural": "subjects"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to subject someone to something\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"subject to change\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the reference data attests an adverbial use of \"subject\"; no common meaning could be confirmed — angloform has no adverb category regardless"
+      }
     }
   },
   {
     "lemma": "plain",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV",
-      "VERB"
-    ],
     "note": "ADR 0003 rewrite",
     "forms": {
       "comparative": "plainer",
       "superlative": "plainest"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a plain, the landform) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"plain forgot\", informal for \"plainly\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "the verb sense (archaic — to complain, or to make plain) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "time",
     "category": "NOUN",
-    "waive": [
-      "VERB",
-      "ADJ"
-    ],
-    "note": "ADR 0003 rewrite"
+    "note": "ADR 0003 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to time an event\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "present",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB"
-    ],
-    "note": "ADR 0003 rewrite"
+    "note": "ADR 0003 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a present — a gift, or \"the present\" moment) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to present something\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "action",
     "category": "NOUN",
     "note": "ADR 0003 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "actions"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (business jargon — \"let's action this\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2809,48 +3049,60 @@
   {
     "lemma": "contrast",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0004 rewrite",
     "forms": {
       "plural": "contrasts"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to contrast two things\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "correct",
     "category": "ADJ",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0004 rewrite"
+    "note": "ADR 0004 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to correct a mistake\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "cover",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0004 rewrite"
+    "note": "ADR 0004 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a cover, e.g. of a book) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "compound",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB"
-    ],
-    "note": "ADR 0004 rewrite"
+    "note": "ADR 0004 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a compound — chemical, or a walled area) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to compound a problem\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "alternative",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0004 rewrite",
     "forms": {
       "plural": "alternatives"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"an alternative route\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -2865,61 +3117,73 @@
     "lemma": "attach",
     "category": "VERB_INTRANS",
     "note": "ADR 0004 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "attaches",
       "ing": "attaching"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"attach\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
     "lemma": "join",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0004 rewrite",
     "forms": {
       "third": "joins"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a join, e.g. in carpentry or a database) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "scope",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0004 rewrite"
+    "note": "ADR 0004 rewrite",
+    "reject": {}
   },
   {
     "lemma": "clear",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB",
-      "ADV"
-    ],
-    "note": "ADR 0004 rewrite"
+    "note": "ADR 0004 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"in the clear\") is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to clear a table\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"stand clear\", \"clear across town\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "command",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0005 run",
     "forms": {
       "plural": "commands"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to command an army\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "emphatic",
     "category": "ADJ",
     "note": "ADR 0005 run",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"emphatic\"; no common meaning could be confirmed — not enabled"
+      }
+    }
   },
   {
     "lemma": "tell",
@@ -2930,18 +3194,24 @@
       "third": "tells"
     },
     "note": "ADR 0005 run",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (poker jargon \"a tell\"; archaeology \"a tell\", a mound) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "part",
     "category": "NOUN",
-    "waive": [
-      "VERB",
-      "ADV"
-    ],
-    "note": "ADR 0005 run"
+    "note": "ADR 0005 run",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to part ways\", or \"to part your hair\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"part finished\", \"part French\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "permit",
@@ -2981,12 +3251,14 @@
   {
     "lemma": "help",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0005 run",
     "forms": {
       "third": "helps"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (help, e.g. domestic help) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3002,12 +3274,14 @@
   {
     "lemma": "main",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0005 rewrite",
     "forms": {
       "superlative": "mainest"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a water main; \"in the main\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3021,32 +3295,34 @@
   {
     "lemma": "natural",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0005 rewrite"
+    "note": "ADR 0005 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (music — a natural sign; also \"a natural\", someone gifted) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "enter",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0005 rewrite",
     "forms": {
       "third": "enters",
       "past": "entered"
-    }
+    },
+    "reject": {}
   },
   {
     "lemma": "limit",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0005 rewrite",
     "forms": {
       "third": "limits"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a limit) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3077,60 +3353,76 @@
     "lemma": "style",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "styles"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to style someone's hair\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "shape",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "shapes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to shape an argument\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "branch",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "branches"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"the road branches\", \"to branch out\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "heavy",
     "category": "ADJ",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN",
-      "ADV"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (slang — \"a heavy\", meaning a villain or bodyguard) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"lie heavy\", \"hangs heavy\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "load",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to load a truck\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "easy",
     "category": "ADJ",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "ADV",
-      "VERB"
-    ]
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"take it easy\", \"go easy\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "the reference data attests a verb use of \"easy\"; no common meaning could be confirmed — not enabled"
+      }
+    }
   },
   {
     "lemma": "constraint",
@@ -3144,10 +3436,14 @@
     "lemma": "bound",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB",
-      "ADJ"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to bound across the field\", meaning to leap) is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"bound for home\", meaning destined) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "put",
@@ -3159,19 +3455,23 @@
       "ing": "putting",
       "third": "puts"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (finance jargon — \"a put option\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "order",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "orders"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to order food\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3186,12 +3486,16 @@
     "lemma": "model",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB",
-      "ADJ"
-    ],
     "forms": {
       "plural": "models"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to model clothing\" or \"to model behavior\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"a model student\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3203,11 +3507,13 @@
     "lemma": "taste",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "tastes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to taste food\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3222,9 +3528,11 @@
     "lemma": "ideal",
     "category": "ADJ",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an ideal) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "available",
@@ -3235,19 +3543,23 @@
     "lemma": "familiar",
     "category": "ADJ",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a witch's familiar, folklore) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "surprise",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "surprises"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to surprise someone\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3267,11 +3579,13 @@
     "lemma": "noise",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "noises"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (dated — \"to noise something abroad\", meaning to spread word of) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3307,9 +3621,11 @@
     "forms": {
       "ing": "tying"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a necktie, or a tied game) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "expressive",
@@ -3320,12 +3636,14 @@
     "lemma": "trade",
     "category": "VERB_TRANS",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "trades",
       "past": "traded"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a trade, e.g. an occupation) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3348,28 +3666,36 @@
     "lemma": "primary",
     "category": "ADJ",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a political primary election) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "secondary",
     "category": "ADJ",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (American football jargon — \"the secondary\", the defensive backfield) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "set",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB",
-      "ADJ"
-    ],
     "forms": {
       "plural": "sets"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to set a table\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"a set phrase\", \"all set\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3384,31 +3710,40 @@
     "lemma": "head",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB",
-      "ADJ"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to head a committee\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "bad",
     "category": "ADJ",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN",
-      "ADV",
-      "VERB"
-    ],
     "forms": {
       "comparative": "badder"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"take the good with the bad\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (informal — \"wants it bad\", nonstandard for \"badly\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "the reference data attests a verb use of \"bad\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
     "lemma": "score",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to score a goal\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "verify",
@@ -3422,34 +3757,40 @@
     "lemma": "monitor",
     "category": "VERB_TRANS",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "monitors",
       "past": "monitored"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a monitor, e.g. a computer screen) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "gather",
     "category": "VERB_TRANS",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "gathers"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (sewing jargon — a gather in fabric) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "evidence",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "evidences"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (formal — \"this evidences a trend\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3469,20 +3810,24 @@
     "lemma": "metric",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "ADJ"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"the metric system\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "conflict",
     "category": "VERB_INTRANS",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "conflicts",
       "past": "conflicted"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a conflict) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3505,12 +3850,14 @@
     "lemma": "weigh",
     "category": "VERB_TRANS",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "weighs",
       "past": "weighed"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"weigh\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
@@ -3525,11 +3872,17 @@
     "lemma": "right",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB",
-      "ADJ",
-      "ADV"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to right a wrong\", or \"to right a capsized boat\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"the right answer\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"turn right\", \"right here\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "overshoot",
@@ -3540,31 +3893,39 @@
       "past": "overshot",
       "ppart": "overshot"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an overshoot) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "tree",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "trees"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"the dog treed the raccoon\", meaning chased up a tree) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "ground",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN",
-      "ADJ"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "past": "grounded"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (the ground) is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "\"ground\" is also the past participle of the verb \"grind\" (\"ground beef\"), used adjectivally; not separately enabled"
+      }
     }
   },
   {
@@ -3580,12 +3941,14 @@
   {
     "lemma": "profile",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "plural": "profiles"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to profile a suspect\"; software \"to profile code\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3599,12 +3962,14 @@
   {
     "lemma": "target",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "plural": "targets"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to target an audience\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3625,36 +3990,46 @@
   {
     "lemma": "real",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "comparative": "realer"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (mathematics — \"the reals\"; historically a Spanish coin) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (informal — \"real good\", nonstandard for \"really\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
     "lemma": "deep",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "comparative": "deeper"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (poetic — \"the deep\", meaning the sea) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"dig deep\", \"run deep\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
     "lemma": "distance",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "plural": "distances"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to distance oneself from something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3673,10 +4048,12 @@
   {
     "lemma": "work",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0006 rewrite"
+    "note": "ADR 0006 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to work a job\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "hold",
@@ -3686,20 +4063,28 @@
       "ppart": "held",
       "third": "holds"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0006 rewrite"
+    "note": "ADR 0006 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a ship's hold; a wrestling hold) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "long",
     "category": "ADJ",
-    "waive": [
-      "VERB",
-      "ADV",
-      "NOUN"
-    ],
-    "note": "ADR 0006 rewrite"
+    "note": "ADR 0006 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to long for something\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"stay long\", \"all night long\") is not enabled; angloform has no adverb category"
+      },
+      "NOUN": {
+        "advice": "the noun sense (finance jargon — \"go long on a stock\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "between",
@@ -3720,44 +4105,60 @@
       "ing": "winning",
       "third": "wins"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0006 rewrite"
+    "note": "ADR 0006 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a win) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "branching",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "plural": "branchings"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective (participial) sense (\"a branching path\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "short",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV",
-      "VERB"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "comparative": "shorter"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a short — a short film, or an electrical short) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"fall short\", \"stop short\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "the verb sense (finance jargon — \"to short a stock\"; electrical \"to short a circuit\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "free",
     "category": "ADJ",
-    "waive": [
-      "VERB",
-      "ADV",
-      "NOUN"
-    ],
-    "note": "ADR 0006 rewrite"
+    "note": "ADR 0006 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to free a prisoner\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"run free\", \"get in free\") is not enabled; angloform has no adverb category"
+      },
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"free\"; no common meaning could be confirmed — not enabled"
+      }
+    }
   },
   {
     "lemma": "noisy",
@@ -3794,13 +4195,17 @@
   {
     "lemma": "front",
     "category": "NOUN",
-    "waive": [
-      "ADJ",
-      "VERB"
-    ],
     "note": "ADR 0006 rewrite",
     "forms": {
       "plural": "fronts"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective (attributive) sense (\"the front door\") is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to front a band\"; \"to front someone money\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3822,11 +4227,15 @@
   {
     "lemma": "separate",
     "category": "VERB_TRANS",
-    "waive": [
-      "ADJ",
-      "NOUN"
-    ],
-    "note": "ADR 0006 rewrite"
+    "note": "ADR 0006 rewrite",
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a separate issue\") is not enabled; angloform allows one sense per word"
+      },
+      "NOUN": {
+        "advice": "the noun sense (fashion jargon — \"separates\", clothing items) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "marker",
@@ -3847,69 +4256,87 @@
   {
     "lemma": "consequent",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0007 rewrite",
     "forms": {
       "plural": "consequents"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (formal — \"consequent damage\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "condition",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0007 rewrite"
+    "note": "ADR 0007 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to condition a response\"; \"to condition hair\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "late",
     "category": "ADJ",
-    "waive": [
-      "ADV"
-    ],
-    "note": "ADR 0007 rewrite"
+    "note": "ADR 0007 rewrite",
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"arrive late\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "mandatory",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0007 rewrite"
+    "note": "ADR 0007 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (obscure legal/historical — \"a mandatory\", a state holding a mandate) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "wrong",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB",
-      "ADV"
-    ],
     "note": "ADR 0007 rewrite",
     "forms": {
       "superlative": "wrongest"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"right a wrong\") is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to wrong someone\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"guess wrong\", \"go wrong\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
     "lemma": "seam",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0007 rewrite",
     "forms": {
       "plural": "seams"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (cricket jargon — \"to seam the ball\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "nested",
     "category": "ADJ",
     "note": "ADR 0007 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "\"nested\" is the past participle of the verb \"nest\" (not separately enabled); angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "reactive",
@@ -3920,9 +4347,11 @@
     "lemma": "mechanical",
     "category": "ADJ",
     "note": "ADR 0007 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (obscure/literary — \"the mechanicals\", tradesmen, from Shakespeare) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "suggest",
@@ -3964,12 +4393,14 @@
   {
     "lemma": "rewrite",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0007 rewrite",
     "forms": {
       "plural": "rewrites"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to rewrite something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -3980,24 +4411,28 @@
   {
     "lemma": "blunt",
     "category": "ADJ",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0008 rewrite",
     "forms": {
       "comparative": "blunter",
       "superlative": "bluntest"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to blunt an edge\" or \"to blunt criticism\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "stall",
     "category": "VERB_INTRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0008 rewrite",
     "forms": {
       "past": "stalled"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a stall, e.g. a market stall) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4009,11 +4444,15 @@
       "ing": "hurting",
       "third": "hurts"
     },
-    "waive": [
-      "NOUN",
-      "ADJ"
-    ],
-    "note": "ADR 0008 rewrite"
+    "note": "ADR 0008 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"nurse a hurt\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective (participial) sense (\"hurt feelings\") is not separately enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "synonym",
@@ -4031,51 +4470,65 @@
       "ppart": "beaten",
       "ing": "beating"
     },
-    "waive": [
-      "NOUN",
-      "ADJ"
-    ],
-    "note": "ADR 0008 rewrite"
+    "note": "ADR 0008 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a beat — musical, or a police officer's beat) is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (informal — \"I'm beat\", meaning exhausted) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "review",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0008 rewrite",
     "forms": {
       "third": "reviews",
       "past": "reviewed",
       "ing": "reviewing"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a review) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "whole",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV"
-    ],
-    "note": "ADR 0008 rewrite"
+    "note": "ADR 0008 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"the whole is greater than its parts\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the reference data attests an adverbial use of \"whole\"; no common meaning could be confirmed — angloform has no adverb category regardless"
+      }
+    }
   },
   {
     "lemma": "number",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0008 rewrite"
+    "note": "ADR 0008 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to number the pages\"; \"his days are numbered\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "trust",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0008 rewrite",
     "forms": {
       "third": "trusts"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a trust, financial or legal) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4091,12 +4544,14 @@
   {
     "lemma": "modal",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0008 rewrite",
     "forms": {
       "plural": "modals"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"modal logic\", \"a modal verb\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4115,12 +4570,14 @@
   {
     "lemma": "force",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0009 rewrite",
     "forms": {
       "plural": "forces"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to force a door open\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4158,24 +4615,24 @@
   {
     "lemma": "scale",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0009 rewrite",
     "forms": {
       "plural": "scales"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to scale a wall\" or \"to scale a business\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "merge",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0009 rewrite",
     "forms": {
       "third": "merges"
-    }
+    },
+    "reject": {}
   },
   {
     "lemma": "revisit",
@@ -4190,23 +4647,27 @@
   {
     "lemma": "new",
     "category": "ADJ",
-    "waive": [
-      "ADV"
-    ],
     "note": "ADR 0008 rewrite",
     "forms": {
       "comparative": "newer"
+    },
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (literary — \"new-fallen snow\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
     "lemma": "guard",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0008 rewrite",
     "forms": {
       "plural": "guards"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to guard a prisoner\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4222,12 +4683,14 @@
     "lemma": "cheat",
     "category": "VERB_INTRANS",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "cheats",
       "past": "cheated"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a cheat — a dishonest act, or a person) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4252,9 +4715,11 @@
     "lemma": "classic",
     "category": "ADJ",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a classic) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "structural",
@@ -4273,19 +4738,23 @@
     "lemma": "chain",
     "category": "NOUN",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to chain a dog\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "turn",
     "category": "VERB_TRANS",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "turns"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a turn) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4298,9 +4767,11 @@
       "ing": "breaking",
       "third": "breaks"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a break) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "expectation",
@@ -4314,24 +4785,28 @@
     "lemma": "violate",
     "category": "VERB_TRANS",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "third": "violates"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the reference data attests an adjectival use of \"violate\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
     "lemma": "audit",
     "category": "VERB_TRANS",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "audits",
       "past": "audited",
       "ing": "auditing"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an audit) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4352,9 +4827,11 @@
       "ppart": "recast",
       "ing": "recasting"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a recast, e.g. of a cast of actors) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "invent",
@@ -4370,12 +4847,14 @@
     "lemma": "reward",
     "category": "VERB_TRANS",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "rewards",
       "past": "rewarded"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a reward) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4388,9 +4867,11 @@
       "ing": "catching",
       "third": "catches"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a catch, e.g. \"there's a catch\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "regret",
@@ -4401,9 +4882,11 @@
       "ppart": "regretted",
       "ing": "regretting"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a regret) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "column",
@@ -4417,19 +4900,23 @@
     "lemma": "bug",
     "category": "NOUN",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to bug someone\"; \"to bug a room\", i.e. plant a listening device) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "affect",
     "category": "NOUN",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "affects"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to affect something\", i.e. to influence) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4449,10 +4936,14 @@
     "lemma": "narrow",
     "category": "VERB_TRANS",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "ADJ",
-      "NOUN"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a narrow path\") is not enabled; angloform allows one sense per word"
+      },
+      "NOUN": {
+        "advice": "the noun sense (a narrow — a narrow strait or passage) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "rendering",
@@ -4466,25 +4957,27 @@
     "lemma": "false",
     "category": "ADJ",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "ADV"
-    ]
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"play someone false\", \"sing false\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "generic",
     "category": "ADJ",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a generic — an unbranded product or drug) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "existential",
     "category": "ADJ",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {}
   },
   {
     "lemma": "tolerate",
@@ -4508,9 +5001,11 @@
     "lemma": "universal",
     "category": "ADJ",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (philosophy jargon — a universal, as opposed to a particular) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "prevent",
@@ -4526,22 +5021,26 @@
     "lemma": "purpose",
     "category": "NOUN",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "purposes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (formal/archaic — \"I purpose to do something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "position",
     "category": "NOUN",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "positions"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to position something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4566,21 +5065,27 @@
     "lemma": "cache",
     "category": "NOUN",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "caches"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (computing — \"to cache a value\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "perfect",
     "category": "ADJ",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "VERB",
-      "NOUN"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to perfect a technique\") is not enabled; angloform allows one sense per word"
+      },
+      "NOUN": {
+        "advice": "the noun sense (grammar jargon — \"the perfect\", a verb tense/aspect) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "role",
@@ -4602,22 +5107,26 @@
     "lemma": "definite",
     "category": "NOUN",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "definites"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a definite answer\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "strong",
     "category": "ADJ",
-    "waive": [
-      "ADV"
-    ],
     "note": "ADR 0010-0013 rewrite",
     "forms": {
       "comparative": "stronger"
+    },
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"going strong\", \"hold strong\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
@@ -4633,10 +5142,12 @@
   {
     "lemma": "pair",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0010-0013 rewrite"
+    "note": "ADR 0010-0013 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to pair socks\"; \"wine pairs with cheese\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "problem",
@@ -4654,10 +5165,12 @@
   {
     "lemma": "plural",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0010-0013 rewrite"
+    "note": "ADR 0010-0013 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (grammar jargon — \"the plural\", the plural form) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "information",
@@ -4671,22 +5184,26 @@
     "lemma": "silent",
     "category": "ADJ",
     "note": "ADR 0010-0013 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (film jargon — \"a silent\", a silent film) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "update",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0010-0013 rewrite",
     "forms": {
       "third": "updates",
       "past": "updated",
       "ppart": "updated",
       "ing": "updating"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an update) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4697,50 +5214,61 @@
   {
     "lemma": "cheap",
     "category": "ADJ",
-    "waive": [
-      "ADV",
-      "NOUN"
-    ],
     "note": "ADR 0010-0013 rewrite",
     "forms": {
       "comparative": "cheaper"
+    },
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"buy it cheap\", \"sell cheap\") is not enabled; angloform has no adverb category"
+      },
+      "NOUN": {
+        "advice": "the noun sense (\"on the cheap\", meaning inexpensively) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "judge",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0010-0013 rewrite"
+    "note": "ADR 0010-0013 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a judge) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "move",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0010-0013 rewrite",
     "forms": {
       "third": "moves"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a move, e.g. in chess or a relocation) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "bare",
     "category": "ADJ",
-    "waive": [
-      "VERB",
-      "NOUN"
-    ],
-    "note": "ADR 0010-0013 rewrite"
+    "note": "ADR 0010-0013 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to bare one's teeth\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "singular",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0010-0013 rewrite"
+    "note": "ADR 0010-0013 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (grammar jargon — \"the singular\", the singular form) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "apply",
@@ -4799,11 +5327,13 @@
     "lemma": "frame",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "frames"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to frame a picture\"; \"to frame someone for a crime\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -4815,35 +5345,47 @@
     "lemma": "clean",
     "category": "VERB_TRANS",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "ADJ",
-      "NOUN",
-      "ADV"
-    ],
     "forms": {
       "third": "cleans",
       "past": "cleaned"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a clean room\") is not enabled; angloform allows one sense per word"
+      },
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"clean\"; no common meaning could be confirmed — not enabled"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"clean forgot\", \"hit it clean\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
     "lemma": "macro",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "macros"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"macroeconomics\", \"macro photography\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "opaque",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "NOUN",
-      "VERB"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the reference data attests a noun use of \"opaque\"; no common meaning could be confirmed — not enabled"
+      },
+      "VERB": {
+        "advice": "the verb sense (rare/technical — \"to opaque a surface\", i.e. make it opaque) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "bracketing",
@@ -4865,9 +5407,11 @@
     "lemma": "field",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to field a question\" or \"to field a ball\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "subsystem",
@@ -4889,9 +5433,11 @@
     "lemma": "deliberate",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to deliberate over a decision\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "promotion",
@@ -4914,47 +5460,57 @@
     "lemma": "pressure",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "pressures"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to pressure someone\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "signal",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB",
-      "ADJ"
-    ],
     "forms": {
       "plural": "signals"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to signal a turn\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (formal/literary — \"a signal achievement\", meaning notable) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "coin",
     "category": "VERB_TRANS",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "coins",
       "past": "coined",
       "ing": "coining"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a coin) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "jargon",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "jargons"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the reference data attests a verb use of \"jargon\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
@@ -4999,22 +5555,22 @@
     "lemma": "infinitive",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "infinitives"
-    }
+    },
+    "reject": {}
   },
   {
     "lemma": "numeral",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "numerals"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the reference data attests an adjectival use of \"numeral\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
@@ -5029,9 +5585,11 @@
     "lemma": "approximate",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to approximate a value\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "concept",
@@ -5056,43 +5614,55 @@
     "lemma": "minimum",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "minimums"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"minimum wage\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "square",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB",
-      "ADJ",
-      "ADV"
-    ],
     "forms": {
       "plural": "squares"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to square a debt\"; math \"to square a number\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"a square deal\", \"a square meal\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"hit it square in the face\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
     "lemma": "complete",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to complete a task\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "corner",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "corners"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to corner the market\"; \"to corner an animal\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5118,9 +5688,11 @@
     "forms": {
       "plural": "remedies"
     },
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to remedy a problem\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "hyphenated",
@@ -5131,9 +5703,11 @@
     "lemma": "current",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a current, e.g. electrical or oceanic) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "transparent",
@@ -5149,19 +5723,23 @@
     "lemma": "paraphrase",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to paraphrase a text\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "pack",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "packs"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to pack a suitcase\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5176,33 +5754,41 @@
     "lemma": "technical",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (sports jargon — \"a technical\", i.e. a technical foul) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "positive",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (photography — a positive print; mathematics — a positive number) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "quantified",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "\"quantified\" is the past participle of the verb \"quantify\" (not separately enabled); angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "provisional",
     "category": "ADJ",
     "note": "ADR 0014-0017 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (historical/political — \"the Provisionals\", a faction name) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "possession",
@@ -5215,13 +5801,15 @@
   {
     "lemma": "fiat",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0014-0017 rewrite",
     "forms": {
       "comparative": "fiater",
       "superlative": "fiatest"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a fiat, a decree) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5238,31 +5826,41 @@
   {
     "lemma": "home",
     "category": "NOUN",
-    "waive": [
-      "VERB",
-      "ADV",
-      "ADJ"
-    ],
     "note": "ADR 0014-0017 rewrite",
     "forms": {
       "plural": "homes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to home in on something\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"go home\", \"drive the point home\") is not enabled; angloform has no adverb category"
+      },
+      "ADJ": {
+        "advice": "the adjective (attributive) sense (\"the home team\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "stay",
     "category": "VERB_INTRANS",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0014-0017 rewrite"
+    "note": "ADR 0014-0017 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a stay, e.g. a hotel stay, or nautical rigging) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "term",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0014-0017 rewrite"
+    "note": "ADR 0014-0017 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (formal — \"to term something X\", meaning to call it that) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "explicit",
@@ -5272,14 +5870,18 @@
   {
     "lemma": "predicate",
     "category": "NOUN",
-    "note": "ADR 0014-0017 rewrite [auto-waived ADJ] [auto-waived VERB]",
+    "note": "ADR 0014-0017 rewrite",
     "forms": {
       "plural": "predicates"
     },
-    "waive": [
-      "ADJ",
-      "VERB"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (attributive use, e.g. \"predicate nominative\") is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to predicate one thing on another\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "announce",
@@ -5298,10 +5900,12 @@
       "ing": "getting",
       "third": "gets"
     },
-    "note": "ADR 0014-0017 rewrite [auto-waived NOUN]",
-    "waive": [
-      "NOUN"
-    ]
+    "note": "ADR 0014-0017 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (archaic/dialectal — the offspring of an animal) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "definition",
@@ -5314,23 +5918,31 @@
   {
     "lemma": "pattern",
     "category": "NOUN",
-    "note": "ADR 0014-0017 rewrite [auto-waived VERB]",
+    "note": "ADR 0014-0017 rewrite",
     "forms": {
       "plural": "patterns"
     },
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to pattern oneself after someone\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "full",
     "category": "ADJ",
-    "note": "ADR 0014-0017 rewrite [auto-waived ADV] [auto-waived VERB] [auto-waived NOUN]",
-    "waive": [
-      "ADV",
-      "VERB",
-      "NOUN"
-    ]
+    "note": "ADR 0014-0017 rewrite",
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"know full well\", \"full in the face\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "the verb sense (archaic textile term — \"to full cloth\") is not enabled; angloform allows one sense per word"
+      },
+      "NOUN": {
+        "advice": "the noun sense (\"paid in full\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "include",
@@ -5359,34 +5971,46 @@
   {
     "lemma": "single",
     "category": "ADJ",
-    "note": "ADR 0014-0017 rewrite [auto-waived VERB] [auto-waived NOUN]",
-    "waive": [
-      "VERB",
-      "NOUN"
-    ]
+    "note": "ADR 0014-0017 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to single someone out\"; baseball \"to single\") is not enabled; angloform allows one sense per word"
+      },
+      "NOUN": {
+        "advice": "the noun sense (a single — e.g. a music single, or a one-dollar bill) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "rank",
     "category": "VERB_TRANS",
-    "note": "ADR 0014-0017 rewrite [auto-waived ADJ] [auto-waived NOUN]",
+    "note": "ADR 0014-0017 rewrite",
     "forms": {
       "third": "ranks"
     },
-    "waive": [
-      "ADJ",
-      "NOUN"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a rank smell\", or \"a rank amateur\" meaning utter) is not enabled; angloform allows one sense per word"
+      },
+      "NOUN": {
+        "advice": "the noun sense (a rank, e.g. military) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "duplicate",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN",
-      "ADJ"
-    ],
     "note": "ADR 0014",
     "forms": {
       "third": "duplicates"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a duplicate, a copy) is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"a duplicate key\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5400,10 +6024,12 @@
   {
     "lemma": "span",
     "category": "NOUN",
-    "note": "ADR 0018-0021 rewrite [auto-waived VERB]",
-    "waive": [
-      "VERB"
-    ]
+    "note": "ADR 0018-0021 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"the bridge spans the river\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "meaningless",
@@ -5422,13 +6048,15 @@
   {
     "lemma": "brand",
     "category": "NOUN",
-    "note": "ADR 0018-0021 rewrite [auto-waived VERB]",
+    "note": "ADR 0018-0021 rewrite",
     "forms": {
       "plural": "brands"
     },
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to brand cattle\", or \"to brand someone as X\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "asymmetry",
@@ -5449,35 +6077,43 @@
   {
     "lemma": "mention",
     "category": "VERB_TRANS",
-    "note": "ADR 0018-0021 rewrite [auto-waived NOUN]",
+    "note": "ADR 0018-0021 rewrite",
     "forms": {
       "third": "mentions",
       "past": "mentioned",
       "ing": "mentioning"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"an honorable mention\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "register",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "registers"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to register a car\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "twin",
     "category": "NOUN",
-    "note": "ADR 0018-0021 rewrite [auto-waived ADJ] [auto-waived VERB]",
-    "waive": [
-      "ADJ",
-      "VERB"
-    ]
+    "note": "ADR 0018-0021 rewrite",
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"twin beds\", \"twin sister\") is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"the city is twinned with another\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "signature",
@@ -5507,23 +6143,27 @@
     "lemma": "vocative",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "vocatives"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (grammar jargon — \"the address is vocative\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "wait",
     "category": "VERB_INTRANS",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "waits",
       "past": "waited"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a wait, e.g. \"a long wait\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5562,9 +6202,11 @@
     "lemma": "author",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to author a book\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "contributor",
@@ -5596,17 +6238,21 @@
     "lemma": "sweep",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to sweep the floor\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "adversative",
     "category": "ADJ",
-    "note": "ADR 0018-0021 rewrite [auto-waived NOUN]",
-    "waive": [
-      "NOUN"
-    ]
+    "note": "ADR 0018-0021 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an adversative — a contrastive conjunction, linguistics jargon) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "guidance",
@@ -5628,11 +6274,13 @@
     "lemma": "character",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "characters"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (archaic — \"to character\", meaning to describe or inscribe) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5655,23 +6303,27 @@
     "lemma": "capital",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "capitals"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a capital idea\"; \"capital punishment\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "fold",
     "category": "VERB_TRANS",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "folds",
       "past": "folded"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a fold, e.g. in fabric or geology; or a sheep pen) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5686,11 +6338,13 @@
     "lemma": "case",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "cases"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (slang — \"to case a joint\", i.e. scope it out) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5702,40 +6356,52 @@
     "lemma": "miss",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to miss a target\" or \"to miss someone\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "loud",
     "category": "ADJ",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "ADV"
-    ],
     "forms": {
       "comparative": "louder"
+    },
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"speak loud\", \"loud and clear\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
     "lemma": "flat",
     "category": "ADJ",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "NOUN",
-      "ADV",
-      "VERB"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a flat — a British apartment, a musical flat, or a flat tire) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"turned him down flat\", \"ran flat out\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "the verb sense (music jargon — \"to flat a note\", i.e. lower its pitch) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "row",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "rows"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to row a boat\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5753,50 +6419,63 @@
     "forms": {
       "plural": "halves"
     },
-    "waive": [
-      "ADJ",
-      "ADV",
-      "VERB"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a half measure\", \"half price\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"half finished\", \"half asleep\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "capitalized",
     "category": "ADJ",
-    "note": "ADR 0018-0021 rewrite [auto-waived VERB]",
-    "waive": [
-      "VERB"
-    ]
+    "note": "ADR 0018-0021 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "\"capitalized\" is the past participle of the verb \"capitalize\" (not separately enabled); angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "core",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB"
-    ],
-    "note": "ADR 0018-0021 rewrite [auto-waived VERB]"
+    "note": "ADR 0018-0021 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an apple core, the earth's core) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to core an apple\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "offer",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0018-0021 rewrite",
     "forms": {
       "third": "offers",
       "past": "offered"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an offer) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "group",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0018-0021 rewrite",
     "forms": {
       "plural": "groups"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to group items together\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5825,19 +6504,25 @@
   {
     "lemma": "way",
     "category": "NOUN",
-    "waive": [
-      "ADV"
-    ],
-    "note": "ADR 0018-0021 rewrite"
+    "note": "ADR 0018-0021 rewrite",
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (informal — \"way too much\", \"way better\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "safe",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV"
-    ],
-    "note": "ADR 0018-0021 rewrite [auto-waived ADV]"
+    "note": "ADR 0018-0021 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a safe, for storing valuables) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"play it safe\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "advice",
@@ -5850,13 +6535,14 @@
   {
     "lemma": "lowercase",
     "category": "NOUN",
-    "waive": [
-      "ADJ",
-      "VERB"
-    ],
     "note": "ADR 0018",
     "forms": {
       "plural": "lowercases"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a lowercase letter\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5870,45 +6556,57 @@
   {
     "lemma": "appositive",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0018",
     "forms": {
       "plural": "appositives"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (grammar jargon — \"the phrase is appositive\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "loose",
     "category": "ADJ",
-    "waive": [
-      "VERB",
-      "ADV",
-      "NOUN"
-    ],
-    "note": "ADR 0019 [auto-waived NOUN]"
+    "note": "ADR 0019",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to loose an arrow\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"hang loose\", \"cut loose\") is not enabled; angloform has no adverb category"
+      },
+      "NOUN": {
+        "advice": "the noun sense (\"on the loose\"; rugby \"the loose\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "showcase",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0019",
     "forms": {
       "plural": "showcases"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to showcase talent\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "answer",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0020",
     "forms": {
       "third": "answers",
       "past": "answered"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an answer) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5939,11 +6637,13 @@
     "lemma": "mix",
     "category": "NOUN",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "mixes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to mix ingredients\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -5958,9 +6658,11 @@
     "lemma": "string",
     "category": "NOUN",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to string a guitar\" or \"to string beads\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "measurement",
@@ -5990,29 +6692,37 @@
     "lemma": "decimal",
     "category": "NOUN",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "decimals"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"the decimal system\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "negative",
     "category": "ADJ",
-    "note": "ADR 0022-0025 rewrite [auto-waived VERB]",
-    "waive": [
-      "NOUN",
-      "VERB"
-    ]
+    "note": "ADR 0022-0025 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a photographic negative, or a \"no\" answer) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (dated — \"to negative a proposal\", meaning to veto) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "value",
     "category": "NOUN",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to value something\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "quantity",
@@ -6058,47 +6768,57 @@
     "lemma": "pick",
     "category": "VERB_TRANS",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "picks"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a pick, e.g. a guitar pick or an ice pick) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "absolute",
     "category": "ADJ",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (philosophy jargon — \"the Absolute\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "relative",
     "category": "ADJ",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a relative, i.e. a family member) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "floor",
     "category": "NOUN",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "VERB"
-    ],
     "forms": {
       "plural": "floors"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to floor an opponent\"; \"to floor the accelerator\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "flag",
     "category": "VERB_TRANS",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a flag) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "underrate",
@@ -6113,31 +6833,37 @@
     "lemma": "absent",
     "category": "ADJ",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (formal — \"to absent oneself from a meeting\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "map",
     "category": "VERB_TRANS",
     "note": "ADR 0022-0025 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "maps"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a map) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "symbol",
     "category": "NOUN",
-    "note": "ADR 0022-0025 rewrite [auto-waived VERB]",
+    "note": "ADR 0022-0025 rewrite",
     "forms": {
       "plural": "symbols"
     },
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (rare — to symbolize) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "approximation",
@@ -6150,13 +6876,15 @@
   {
     "lemma": "refuse",
     "category": "VERB_TRANS",
-    "note": "ADR 0022-0025 rewrite [auto-waived NOUN]",
+    "note": "ADR 0022-0025 rewrite",
     "forms": {
       "third": "refuses"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (refuse, meaning garbage — a different word, same spelling) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "orthographic",
@@ -6174,10 +6902,12 @@
   {
     "lemma": "ordinary",
     "category": "ADJ",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0022"
+    "note": "ADR 0022",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (heraldry/legal jargon — \"an ordinary\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "meet",
@@ -6188,11 +6918,15 @@
       "ing": "meeting",
       "third": "meets"
     },
-    "waive": [
-      "NOUN",
-      "ADJ"
-    ],
-    "note": "ADR 0024 [auto-waived ADJ]"
+    "note": "ADR 0024",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a meet, e.g. a track meet) is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (archaic — \"meet and right\", meaning fitting) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "by",
@@ -6208,11 +6942,15 @@
       "ppart": "gone",
       "ing": "going"
     },
-    "waive": [
-      "NOUN",
-      "ADJ"
-    ],
-    "note": "ADR 0022-0025 rewrite [auto-waived ADJ]"
+    "note": "ADR 0022-0025 rewrite",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"have a go\", \"it's your go\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"all systems go\", a go signal) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "property",
@@ -6233,12 +6971,14 @@
   {
     "lemma": "touch",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0022-0025 rewrite",
     "forms": {
       "third": "touches"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"a personal touch\"; rugby \"touch\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -6249,78 +6989,94 @@
       "ppart": "fallen",
       "ing": "falling"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0023"
+    "note": "ADR 0023",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a fall; American English for autumn) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "repair",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0023",
     "forms": {
       "plural": "repairs"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to repair something\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "run",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0022",
     "forms": {
       "plural": "runs"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to run\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "warning",
     "category": "NOUN",
-    "note": "ADR 0023 [auto-waived ADJ]",
+    "note": "ADR 0023",
     "forms": {
       "plural": "warnings"
     },
-    "waive": [
-      "ADJ"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective (attributive) sense (\"a warning sign\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "size",
     "category": "NOUN",
-    "waive": [
-      "VERB",
-      "ADJ"
-    ],
-    "note": "ADR 0022 [auto-waived ADJ]",
+    "note": "ADR 0022",
     "forms": {
       "plural": "sizes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to size something up\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the reference data attests an adjectival use of \"size\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
     "lemma": "gain",
     "category": "VERB_TRANS",
     "note": "ADR 0026-0028 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "past": "gained",
       "ing": "gaining"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a gain) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "precedent",
     "category": "NOUN",
-    "note": "ADR 0026-0028 rewrite [auto-waived ADJ]",
+    "note": "ADR 0026-0028 rewrite",
     "forms": {
       "plural": "precedents"
     },
-    "waive": [
-      "ADJ"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (formal/legal — \"precedent\" meaning preceding) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "hypothesis",
@@ -6342,11 +7098,13 @@
     "lemma": "connective",
     "category": "NOUN",
     "note": "ADR 0026-0028 rewrite",
-    "waive": [
-      "ADJ"
-    ],
     "forms": {
       "plural": "connectives"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"connective tissue\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -6396,21 +7154,29 @@
       "ing": "overriding",
       "third": "overrides"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a manual override) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "prompt",
     "category": "NOUN",
-    "note": "ADR 0026-0028 rewrite [auto-waived ADV]",
-    "waive": [
-      "VERB",
-      "ADJ",
-      "ADV"
-    ],
+    "note": "ADR 0026-0028 rewrite",
     "forms": {
       "plural": "prompts"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to prompt someone\", or an AI prompt) is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "the adjective sense (\"a prompt reply\", meaning quick) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"at six o'clock prompt\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
@@ -6437,14 +7203,20 @@
   {
     "lemma": "dash",
     "category": "NOUN",
-    "note": "ADR 0026-0028 rewrite [auto-waived ADV] [auto-waived ADJ]",
-    "waive": [
-      "VERB",
-      "ADV",
-      "ADJ"
-    ],
+    "note": "ADR 0026-0028 rewrite",
     "forms": {
       "plural": "dashes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to dash across the street\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the reference data attests an adverbial use of \"dash\"; no common meaning could be confirmed — angloform has no adverb category regardless"
+      },
+      "ADJ": {
+        "advice": "the reference data attests an adjectival use of \"dash\"; no common meaning could be confirmed — not enabled"
+      }
     }
   },
   {
@@ -6459,12 +7231,14 @@
     "lemma": "guess",
     "category": "VERB_TRANS",
     "note": "ADR 0026-0028 rewrite",
-    "waive": [
-      "NOUN"
-    ],
     "forms": {
       "third": "guesses",
       "past": "guessed"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a guess) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -6484,20 +7258,24 @@
     "lemma": "step",
     "category": "NOUN",
     "note": "ADR 0026-0028 rewrite",
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to step forward\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "degree",
     "category": "NOUN",
-    "note": "ADR 0026-0028 rewrite [auto-waived ADJ]",
+    "note": "ADR 0026-0028 rewrite",
     "forms": {
       "plural": "degrees"
     },
-    "waive": [
-      "ADJ"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the reference data attests an adjectival use of \"degree\"; no common meaning could be confirmed — not enabled"
+      }
+    }
   },
   {
     "lemma": "valid",
@@ -6507,42 +7285,50 @@
   {
     "lemma": "paragraph",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0026-0028 rewrite",
     "forms": {
       "plural": "paragraphs"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to paragraph a document\", i.e. divide it into paragraphs) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "line",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
-    "note": "ADR 0026-0028 rewrite"
+    "note": "ADR 0026-0028 rewrite",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to line a jacket\"; \"to line up\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "format",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0026-0028 rewrite",
     "forms": {
       "plural": "formats"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to format a document\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "reason",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0026-0028 rewrite",
     "forms": {
       "plural": "reasons"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to reason through a problem\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -6554,10 +7340,12 @@
       "ing": "paying",
       "third": "pays"
     },
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0026"
+    "note": "ADR 0026",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (pay, i.e. a salary) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "continuity",
@@ -6596,10 +7384,12 @@
   {
     "lemma": "inner",
     "category": "ADJ",
-    "note": "ADR 0028 [auto-waived NOUN]",
-    "waive": [
-      "NOUN"
-    ]
+    "note": "ADR 0028",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (archery/shooting jargon — a scoring ring) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "fact",
@@ -6652,34 +7442,46 @@
   {
     "lemma": "minute",
     "category": "NOUN",
-    "waive": [
-      "ADJ",
-      "VERB"
-    ],
-    "note": "ADR 0029 corpus"
+    "note": "ADR 0029 corpus",
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"a minute detail\", pronounced differently, meaning tiny) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (British — \"to minute a meeting\", i.e. record its minutes) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "skip",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "third": "skips"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a skip — a jump, or British \"a skip\", a large trash container) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "round",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "VERB",
-      "ADV"
-    ],
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "superlative": "roundest"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a round, e.g. of drinks, or a boxing round) is not enabled; angloform allows one sense per word"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to round a number\"; \"to round a corner\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (British — \"come round\", \"all year round\") is not enabled; angloform has no adverb category"
+      }
     }
   },
   {
@@ -6693,67 +7495,79 @@
   {
     "lemma": "syllable",
     "category": "NOUN",
-    "note": "ADR 0029-0030 rewrite [auto-waived VERB]",
+    "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "syllables"
     },
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (rare — to utter distinctly, syllable by syllable) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "slot",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "slots"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to slot something into place\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "maximum",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "maximums"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"maximum speed\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "fraction",
     "category": "NOUN",
-    "note": "ADR 0029-0030 rewrite [auto-waived VERB]",
+    "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "fractions"
     },
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (chemistry jargon — to separate into fractions) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "range",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "ranges"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"prices range from X to Y\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "superlative",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "superlatives"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"superlative skill\", meaning excellent) is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -6767,14 +7581,16 @@
   {
     "lemma": "revert",
     "category": "VERB_TRANS",
-    "note": "ADR 0029-0030 rewrite [auto-waived NOUN]",
+    "note": "ADR 0029-0030 rewrite",
     "forms": {
       "third": "reverts",
       "past": "reverted"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (rare — property, or a person, that reverts) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "integer",
@@ -6811,23 +7627,27 @@
   {
     "lemma": "suffix",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "suffixes"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (linguistics — \"to suffix a letter to a word\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "standard",
     "category": "NOUN",
-    "waive": [
-      "ADJ"
-    ],
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "standards"
+    },
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective sense (\"standard procedure\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -6838,13 +7658,15 @@
   {
     "lemma": "compare",
     "category": "VERB_TRANS",
-    "note": "ADR 0029-0030 rewrite [auto-waived NOUN]",
+    "note": "ADR 0029-0030 rewrite",
     "forms": {
       "third": "compares"
     },
-    "waive": [
-      "NOUN"
-    ]
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (literary — \"beyond compare\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "comparison",
@@ -6870,18 +7692,22 @@
   {
     "lemma": "later",
     "category": "ADJ",
-    "waive": [
-      "ADV"
-    ],
-    "note": "ADR 0029"
+    "note": "ADR 0029",
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"see you later\") is not enabled; angloform has no adverb category"
+      }
+    }
   },
   {
     "lemma": "letter",
     "category": "NOUN",
-    "note": "ADR 0029 [auto-waived VERB]",
-    "waive": [
-      "VERB"
-    ]
+    "note": "ADR 0029",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to letter a sign\", sign-painting) is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "be",
@@ -6902,12 +7728,14 @@
   {
     "lemma": "fence",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0032",
     "forms": {
       "plural": "fences"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to fence a yard\"; the sport of fencing; slang \"to fence stolen goods\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -6936,12 +7764,14 @@
   {
     "lemma": "sequence",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0033",
     "forms": {
       "plural": "sequences"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (biology — \"to sequence DNA\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -6976,24 +7806,28 @@
   {
     "lemma": "feature",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0034",
     "forms": {
       "plural": "features"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"the movie features an actor\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "precondition",
     "category": "NOUN",
-    "note": "ADR 0034 [auto-waived VERB]",
+    "note": "ADR 0034",
     "forms": {
       "plural": "preconditions"
     },
-    "waive": [
-      "VERB"
-    ]
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to precondition something\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "continuation",
@@ -7006,21 +7840,25 @@
   {
     "lemma": "title",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0034",
     "forms": {
       "plural": "titles"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to title a book\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
     "lemma": "reserve",
     "category": "VERB_TRANS",
-    "waive": [
-      "NOUN"
-    ],
-    "note": "ADR 0034"
+    "note": "ADR 0034",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a reserve, e.g. a nature reserve, or reticence — \"with reserve\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "unambiguous",
@@ -7046,10 +7884,12 @@
   {
     "lemma": "spoken",
     "category": "ADJ",
-    "note": "ADR 0034 [auto-waived VERB]",
-    "waive": [
-      "VERB"
-    ]
+    "note": "ADR 0034",
+    "reject": {
+      "VERB": {
+        "advice": "\"spoken\" is the past participle of the verb \"speak\" (not separately enabled); angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "idea",
@@ -7077,12 +7917,14 @@
   {
     "lemma": "transition",
     "category": "NOUN",
-    "waive": [
-      "VERB"
-    ],
     "note": "ADR 0035",
     "forms": {
       "plural": "transitions"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to transition to a new role\") is not enabled; angloform allows one sense per word"
+      }
     }
   },
   {
@@ -7133,13 +7975,15 @@
   {
     "lemma": "integrate",
     "category": "VERB_TRANS",
-    "note": "ADR 0006 run [auto-waived ADJ]",
+    "note": "ADR 0006 run",
     "forms": {
       "third": "integrates"
     },
-    "waive": [
-      "ADJ"
-    ]
+    "reject": {
+      "ADJ": {
+        "advice": "the reference data attests an adjectival use of \"integrate\"; no common meaning could be confirmed — not enabled"
+      }
+    }
   },
   {
     "lemma": "categorical",
@@ -7154,15 +7998,21 @@
   {
     "lemma": "left",
     "category": "ADJ",
-    "waive": [
-      "NOUN",
-      "ADV",
-      "VERB"
-    ],
     "note": "ADR 0006 run",
     "forms": {
       "comparative": "lefter",
       "superlative": "leftest"
+    },
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (\"the left\", directional or political) is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"turn left\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "\"left\" is also the past tense of the verb \"leave\" (\"she left early\"); not separately enabled"
+      }
     }
   },
   {
@@ -7171,10 +8021,12 @@
     "forms": {
       "plural": "corollaries"
     },
-    "note": "ADR 0006 run [auto-waived ADJ]",
-    "waive": [
-      "ADJ"
-    ]
+    "note": "ADR 0006 run",
+    "reject": {
+      "ADJ": {
+        "advice": "the adjective (attributive) sense (\"a corollary benefit\") is not enabled; angloform allows one sense per word"
+      }
+    }
   },
   {
     "lemma": "science",
@@ -7183,6 +8035,71 @@
     "forms": {
       "plural": "sciences"
     }
+  },
+  {
+    "lemma": "discipline",
+    "category": "NOUN",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06); lexgen rejects this word without the waiver (VERB sense attested in the data); verb sense (to discipline) irrelevant to domain",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to discipline someone\") is not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
+    "lemma": "nature",
+    "category": "NOUN",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
+  },
+  {
+    "lemma": "society",
+    "category": "NOUN",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
+  },
+  {
+    "lemma": "explanation",
+    "category": "NOUN",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
+  },
+  {
+    "lemma": "observation",
+    "category": "NOUN",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
+  },
+  {
+    "lemma": "conclusion",
+    "category": "NOUN",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
+  },
+  {
+    "lemma": "community",
+    "category": "NOUN",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
+  },
+  {
+    "lemma": "method",
+    "category": "NOUN",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
+  },
+  {
+    "lemma": "organize",
+    "category": "VERB_TRANS",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
+  },
+  {
+    "lemma": "challenge",
+    "category": "VERB_TRANS",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06); lexgen rejects this word without the waiver (NOUN sense attested in the data); noun sense unused in this text",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (a challenge) is not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
+    "lemma": "validate",
+    "category": "VERB_TRANS",
+    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
   },
   {
     "lemma": "fewer",
