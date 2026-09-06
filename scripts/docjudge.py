@@ -3,8 +3,8 @@
 
 Same judges as scripts/prejudge.py (docs/prejudge.md), applied to the documents
 themselves rather than to repair proposals. The telephone original of an ADR is
-its earliest committed version when that version predates the minglish rewrite
-(ADRs written in minglish from the start have no original: naturalness and the
+its earliest committed version when that version predates the angloform rewrite
+(ADRs written in angloform from the start have no original: naturalness and the
 explainer's "unclear" flags are all we have for them).
 
   docjudge.py bundle OUTDIR          OUTDIR/proposals/<doc>.json (paragraphs) and
@@ -30,7 +30,7 @@ MODEL = os.path.join(ROOT, "domain/model.json")
 STORE = os.path.join(ROOT, "docs/judgements.yaml")
 REPORT = os.path.join(ROOT, "docs/judge-report.md")
 NAT_MEAN, NAT_MIN, FID_MIN = 4.0, 3, 4
-MINGLISH_FROM = "0029"  # ADRs from here on were written in minglish: no English original
+ANGLOFORM_FROM = "0029"  # ADRs from here on were written in angloform: no English original
 
 
 def sha(text):
@@ -59,7 +59,7 @@ def doc_id(path):
 
 
 def original_of(path):
-    if doc_id(path) >= MINGLISH_FROM:
+    if doc_id(path) >= ANGLOFORM_FROM:
         return None
     rel = os.path.relpath(path, ROOT)
     commits = subprocess.run(["git", "log", "--format=%h", "--", rel], cwd=ROOT,

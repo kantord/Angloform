@@ -41,7 +41,7 @@ Ranked criteria for every syntactic-structure decision, in order:
    fails this criterion.
 
 5. **Expressiveness, subordinate.** Sounding natural, charismatic, and
-   expressive is a genuine goal — minglish text should be pleasant to read,
+   expressive is a genuine goal — angloform text should be pleasant to read,
    not robotic — but it never overrides criteria 1–4. Where two valid
    formulations tie on load, density, and context need, prefer the more
    expressive one; never trade precision or clarity for charisma.

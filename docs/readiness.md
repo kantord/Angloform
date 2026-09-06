@@ -1,4 +1,4 @@
-# Readiness: how close is minglish to usable, and how to get there
+# Readiness: how close is angloform to usable, and how to get there
 
 Answers "how close are we?" with measured evidence, not impression, and
 turns that into an ordered plan. Written 2026-09-05. Update this file
@@ -8,7 +8,7 @@ condition's status changes.
 **"Usable" defined**: someone outside this project's own authorship —
 human or a different LLM with no special coaching — can pick up the
 onboarding doc, write a real technical document (a spec, an ADR, a
-plan) in minglish, have it read back naturally by another such person,
+plan) in angloform, have it read back naturally by another such person,
 and get unblocked quickly when the linter rejects something. Five
 conditions, each with current measured status.
 
@@ -89,7 +89,7 @@ guessed): a small number of recurring *shapes*, not scattered typos —
    imaginability — a reader can parse the sentence and still not form a
    mental model of the thing (5 terms flagged this way in the sampled
    failures alone).
-3. **Referent ambiguity from banned pronouns done badly**: minglish
+3. **Referent ambiguity from banned pronouns done badly**: angloform
    bans anaphoric pronouns (ADR 0002) to kill one kind of ambiguity, but
    several failures show noun-repetition used *mechanically* — reads as
    "the tool… the tool… the tool" rather than restructured for flow.
@@ -180,7 +180,7 @@ root cause, one combined design pass is more efficient than two.
 **Status: partially met, and the front door was actively broken.**
 What exists: a CLI (`just lint`), a web playground
 (`crates/wasm` + `web/`, wasm-bindgen + Vite + Playwright e2e — real
-infrastructure, not a stub), and `skills/minglish/SKILL.md` (137 lines,
+infrastructure, not a stub), and `skills/angloform/SKILL.md` (137 lines,
 the LLM-facing onboarding doc, already proven to work — see Condition
 5). What was broken: `README.md`, the actual front door for a human
 visitor, still read **"Early stage — currently the lexicon layer and
@@ -210,7 +210,7 @@ requested repair right on the first try the large majority of the time.
 But: (a) LLM-only, one model family tested (deepseek via opencode); (b)
 "first try" means "with the linter's feedback loop available," not
 zero-shot cold authoring of original content; (c) **zero data exists on
-a human** attempting to read or write minglish unaided. For a language
+a human** attempting to read or write angloform unaided. For a language
 whose stated purpose includes human-readable technical documents, this
 is a real gap in the evidence, not just a formality.
 

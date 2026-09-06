@@ -6,7 +6,7 @@ resolution: rewritten
 rewrite: People choose the words; each word costs one JSON entry. The machine handles
   inflection and the safety checks.
 note: 'flag was correct (nominalization + zeugma); rewrite applied in place, all sentences
-  valid minglish; ''cheap'' carried by the one-entry bound, ''safety'' unfolded to
+  valid angloform; ''cheap'' carried by the one-entry bound, ''safety'' unfolded to
   its referent (collisions) | REVISED after quality re-audit: ''finds the collisions''
   narrowed ''safety'' to one invariant - breadth restored; ''cheap'' restored via
   ''costs one JSON entry'''

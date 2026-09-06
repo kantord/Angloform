@@ -5,11 +5,11 @@
 //! "Antiparsers").
 //!
 //! Two sources, run separately and reported side by side:
-//!   - tests/paragraph-cases + tests/agent-cases: real near-miss minglish
+//!   - tests/paragraph-cases + tests/agent-cases: real near-miss angloform
 //!     — proposal/output text from actual repair attempts. The higher-
 //!     relevance source: these are sentences someone (or some model) was
-//!     genuinely trying to write as minglish, not just any English.
-//!   - data/ud/en_ewt-ud-test.conllu: real English, not curated minglish
+//!     genuinely trying to write as angloform, not just any English.
+//!   - data/ud/en_ewt-ud-test.conllu: real English, not curated angloform
 //!     at all — kept for comparison, but most of it fails at the WORD
 //!     level long before reaching structural analysis (telemetry, not a
 //!     coverage target — same caveat `triage` already carries).
@@ -66,7 +66,7 @@ impl Tally {
                     let key = normalize(&f);
                     *self.findings.entry(key.clone()).or_default() += 1;
                     self.examples.entry(key).or_insert_with(|| sentence.to_string());
-                    if f.contains("restructure into one of the minglish templates") && self.generic_fallback.len() < 30
+                    if f.contains("restructure into one of the angloform templates") && self.generic_fallback.len() < 30
                     {
                         self.generic_fallback.push(sentence.to_string());
                     }
@@ -86,7 +86,7 @@ impl Tally {
             out.push_str(&format!("- {kind}: {n} ({:.1}%)\n", 100.0 * *n as f64 / self.total.max(1) as f64));
         }
         out.push_str(&format!(
-            "\n### The generic fallback (\"restructure into one of the minglish templates\")\n\n\
+            "\n### The generic fallback (\"restructure into one of the angloform templates\")\n\n\
              Fired {} times.\n\n",
             self.generic_fallback.len()
         ));
@@ -169,12 +169,12 @@ fn main() {
          English parses.\n\n",
     );
     report.push_str(&near_miss.section(
-        "Near-miss minglish (tests/paragraph-cases + tests/agent-cases)",
+        "Near-miss angloform (tests/paragraph-cases + tests/agent-cases)",
         "Real repair-attempt proposals/outputs — the higher-relevance source",
     ));
     report.push_str(&ewt.section(
         "Real English, for comparison (data/ud/en_ewt-ud-test.conllu)",
-        "Not curated minglish at all — most of it fails at the WORD level first",
+        "Not curated angloform at all — most of it fails at the WORD level first",
     ));
 
     std::fs::write(REPORT_PATH, &report).expect("write report");

@@ -1,7 +1,7 @@
 # Project status and handoff
 
 Last updated: 2026-09-05 (`just finding-frequency` — real-usage
-instrumentation of `diagnose()` outcomes over 6643 near-miss minglish
+instrumentation of `diagnose()` outcomes over 6643 near-miss angloform
 sentences from `tests/paragraph-cases/` + `tests/agent-cases/`. Ranks
 STYLE finding kinds so the antiparser backlog (docs/ideas.md,
 "Antiparsers") gets built off real frequency, not guesses. The ranking
@@ -50,7 +50,7 @@ that is not derivable from the code, ADRs, or git history.
 
 ## Where everything lives
 
-- `docs/readiness.md` (2026-09-05) — "how close is minglish to usable":
+- `docs/readiness.md` (2026-09-05) — "how close is angloform to usable":
   5 measured readiness conditions (vocabulary coverage: met; naturalness:
   NOT met, 3/37 docs pass the naturalness bar — the real blocker;
   paragraph coherence: partial; tooling/onboarding: partial, README.md
@@ -59,7 +59,7 @@ that is not derivable from the code, ADRs, or git history.
   it ready" or picking the next priority.
 - `docs/prompt-ab.md` (2026-09-05) — A/B test of the `agenttest` system
   prompt: a new, 100%-dogfooded, ≤300-word prompt
-  (`skills/minglish/repair-prompt.md`) matches or beats the production
+  (`skills/angloform/repair-prompt.md`) matches or beats the production
   1109-word `SKILL.md` on repair fix-rate (50%→100% on the test set)
   and ties it exactly on naturalness (blind judge, two authoring
   tasks). Finding: naturalness is capped by the language's own
@@ -119,10 +119,10 @@ that is not derivable from the code, ADRs, or git history.
   production. Read this before trusting either A/B round's numbers at
   face value, and before deciding whether ADR 0050 stands.
 - `domain/model.json` — the domain model (ADR 0027): every project term with
-  its minglish definition; `CONTEXT.md` is generated from it. Noun terms are
-  written Capitalized in minglish text. `just define <Term>` looks one up.
+  its angloform definition; `CONTEXT.md` is generated from it. Noun terms are
+  written Capitalized in angloform text. `just define <Term>` looks one up.
   ADR 0036 schema: every noun term has `kind` ("unique" | "category"), a
-  category needs `examples` (an example ending in "." is a minglish
+  category needs `examples` (an example ending in "." is an angloform
   sentence and is self-linted; a multi-line one is a Block), `member_of`
   names its parent category. These fields live only in the model, never in
   the seed; a core lemma that becomes a term is dropped from the seed
@@ -233,7 +233,7 @@ that is not derivable from the code, ADRs, or git history.
   3.2 to 3.7 corpus-wide; every document still fully parses (100%,
   docs/dogfood-sweep.md) and lints clean. docs/language-gaps.md records
   what blocked further improvement.
-- ADR sweep: every ADR (0001–0028) is fully minglish since 2026-09-02
+- ADR sweep: every ADR (0001–0028) is fully angloform since 2026-09-02
   (docs/dogfood-sweep.md; docs/dogfood-adr-00NN.md per ADR). 0002 was rewritten
   by hand after nine paragraph-repair runs; 0005 after one cold run; the other
   26 with no model run (lint-file + fix-gap-or-follow-advice). The problem

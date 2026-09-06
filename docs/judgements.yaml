@@ -979,7 +979,7 @@
         why: personifies an abstract ratio as capable of becoming 'honest', unnatural
       score: 3
   telephone:
-    explanation: 'This document sets rules for judging whether an English-to-minglish translation
+    explanation: 'This document sets rules for judging whether an English-to-angloform translation
       pair is faithful, prompted by an audit that found three example pairs in the corpus
       suffering a Propositional Loss: one dropped a universal quantifier like ''all'', one
       changed a causal claim, and one invented a doer that was not in the original. A cost-scoring
@@ -1105,7 +1105,7 @@
       every noun needs a determiner; the carve-out is considered safe because the Bare Plural
       has just one fixed reading, so it doesn''t reopen the ambiguity the determiner rule
       exists to prevent. English would allow a second reading of a bare plural — an existential
-      one, as in ''dogs are barking'' meaning some dogs are barking — but Minglish bans that
+      one, as in ''dogs are barking'' meaning some dogs are barking — but Angloform bans that
       second reading; a future decision will introduce the word ''some'' to cover existential
       statements explicitly. A generic statement is also different from a universal one: ''birds
       fly'' tolerates exceptions, while a word like ''every'' would not; a future decision
@@ -1525,9 +1525,9 @@
       issues: []
       score: 4
   telephone:
-    explanation: 'This decision establishes how Minglish handles proper Names, which the dogfooding
+    explanation: 'This decision establishes how Angloform handles proper Names, which the dogfooding
       process needs because project documents constantly refer to specific named things —
-      for example the language Minglish itself, the file ''seed.json,'' the tool Lexgen, and
+      for example the language Angloform itself, the file ''seed.json,'' the tool Lexgen, and
       the database WordNet. Because Names form an open-ended set rather than a fixed vocabulary
       (they are not a Closed Class), the Lexicon (the project''s fixed word list) is the wrong
       mechanism for handling them; an alternative of putting every Name inside quotation marks
@@ -1755,7 +1755,7 @@
       lost: []
       score: 5
     unclear:
-    - readings: '"the product" could refer to the minglish language/tool itself as a product
+    - readings: '"the product" could refer to the angloform language/tool itself as a product
         whose purpose is to force clarity about who acts, or it could loosely mean the document/policy
         being written is the "product" in question'
       span: The question is the purpose of the product, because a policy must answer the question.
@@ -2362,10 +2362,10 @@
       — are verbs or adjectives, so a noun-only list cannot cover every term. The proposal
       introduces a new file, domain/model.json, shaped like the Seed, where every entry carries
       the same six fields as a Seed entry: lemma, category, forms, reject, waive, and note.
-      Every model entry must include a Minglish-language definition, and Lexgen merges the
+      Every model entry must include an Angloform-language definition, and Lexgen merges the
       model with the Seed into one Lexicon; the model can add new words but cannot override
       an existing Seed word, and a model Lemma cannot duplicate a Seed Lemma within the same
-      Category. Name entries — the model defines four: Minglish, Lexgen, Triage, WordNet —
+      Category. Name entries — the model defines four: Angloform, Lexgen, Triage, WordNet —
       get a definition but no inflected Surface Forms. Model nouns are capitalized and receive
       a single token each, whether singular or plural and whether the term is one word or
       a multi-word phrase. If a capitalized word is not found in the model at all, it is treated
@@ -2755,7 +2755,7 @@
       score: 3
   telephone:
     explanation: 'This document addresses how to represent Gherkin-style test scenarios, feature
-      files with Given/When/Then steps, inside Minglish. Previously the rewrite process had
+      files with Given/When/Then steps, inside Angloform. Previously the rewrite process had
       been turning every list of steps into ordinary prose, but this doesn''t really fit:
       decision "0028" allows list items only when an item is a Noun Phrase, whereas a step
       is really a clause, so a step cannot properly be an item of an Enumeration. Also, while
@@ -2764,7 +2764,7 @@
       can''t simply be reused that way within ordinary prose. Because of this, the maintainer
       required an unambiguous, line-based structure for steps; the existing Enumeration is
       one such line-based structure, and Gherkin already has its own line-based structure,
-      so a Gherkin file has to be treated as a document written in Minglish and obey its rules.
+      so a Gherkin file has to be treated as a document written in Angloform and obey its rules.
       The solution is a new construct called a Step Block: a Block written in the shape used
       by Gherkin, where a keyword opens every line, and the language defines four such keywords:
       "Given," "When," "Then," and "And." "Given" marks a precondition, "When" marks an event,
@@ -2772,7 +2772,7 @@
       it on the prior line; each line holds exactly one clause, and that clause cannot contain
       a Coordination, the same restriction that already applies to the two clauses of a Conditional.
       A Step Block is opened by one of two headers, "Feature:" or "Scenario:," and that header
-      carries a title which the Linter checks; the title must be either a valid Minglish sentence
+      carries a title which the Linter checks; the title must be either a valid Angloform sentence
       or a quoted Name. Inside a Step Block the capitalized word "Then" is allowed to open
       a line, but this is a special case: outside a Step Block, in ordinary prose, the lowercase
       word "then" still cannot open a sentence, per decision "0014." Gherkin''s own "But"
@@ -2989,7 +2989,7 @@ model:
       why: example words (the, not, if) let a reader recognize instances, though 'Closed Class'
         is used undefined
     - score: 5
-      term: minglish
+      term: angloform
       why: a full example sentence makes the language immediately graspable
     - score: 4
       term: lexgen
@@ -3325,7 +3325,7 @@ model:
     - i: 25
       issues: []
       score: 4
-      term: minglish
+      term: angloform
     - i: 26
       issues:
       - span: Lexgen is a tool of the project. Lexgen reads the Seed and builds the Lexicon.
@@ -3640,9 +3640,9 @@ model:
       score: 4
       term: pronoun
   telephone:
-    explanation: 'The project builds Minglish, a controlled subset of English designed so
+    explanation: 'The project builds Angloform, a controlled subset of English designed so
       that every sentence has exactly one possible parse, removing the ambiguity ordinary
-      English allows. Minglish rests on two pillars: a Lexicon of allowed words and a Grammar
+      English allows. Angloform rests on two pillars: a Lexicon of allowed words and a Grammar
       of allowed sentence patterns. Word-building starts with a Lemma, the base spelling of
       a word (like ''delete''), which maintainers manually curate and assign a Category, a
       word class such as noun or transitive verb, since an automated process would just optimize
@@ -3686,7 +3686,7 @@ model:
       just cannot express yet, and maintainers close Gaps over time through recorded decisions.
       A recurring source of Bans and Gaps is reference: an Anaphoric Pronoun (''it'', ''they'',
       ''this'') points back to a noun mentioned earlier, and resolving it would require a
-      Discourse Layer, a mechanism Minglish deliberately lacks, so every Anaphoric Pronoun
+      Discourse Layer, a mechanism Angloform deliberately lacks, so every Anaphoric Pronoun
       is banned and writers must repeat the noun instead of risking a Reference Ambiguity.
       An Indexical Pronoun (''I'', ''you''), by contrast, is always allowed, since it names
       the writer or reader directly with no need for prior context. Both pronoun kinds fall
@@ -3730,10 +3730,10 @@ model:
       Load takes priority in the Grammar''s choices. This concern extends explicitly to Language
       Models, programs that read and write text word by word and are similarly hurt by long
       Open Dependencies; a related idea is Context Need, how much prior text a reader must
-      hold onto to understand a sentence, which good Minglish sentences keep small. Minglish
+      hold onto to understand a sentence, which good Angloform sentences keep small. Angloform
       sentences are checked against real usage through Translation Pairs, each mapping an
-      original sentence of English (the language of the sample corpus, of which Minglish is
-      a controlled subset) to a Minglish rendering that the Linter must be able to parse and
+      original sentence of English (the language of the sample corpus, of which Angloform is
+      a controlled subset) to an Angloform rendering that the Linter must be able to parse and
       that must preserve every claim of the original. Any change a translation makes must
       be recorded as a Declared Loss. If a translation changes what is actually being claimed,
       such as dropping a quantifier or inventing an unstated doer, that is a forbidden Propositional
@@ -3741,7 +3741,7 @@ model:
       are allowed and simply declared: a Register Loss, which drops tone such as politeness
       or emphasis while keeping every claim intact, and a Structure Loss, which only reorders
       words, such as moving a passive sentence''s doer to the front, without changing any
-      claim. The project also tests Minglish against itself, called Dogfood: maintainers lint
+      claim. The project also tests Angloform against itself, called Dogfood: maintainers lint
       the project''s own documents, especially its architecture decisions, and any Rejection
       that surfaces reveals a Gap needing a fix. Beyond ordinary sentences, project documents
       use two special multi-line formats called Blocks, which tooling never splits apart:
@@ -3750,7 +3750,7 @@ model:
       Block, the Gherkin scenario format, where each line opens with a keyword, Given for
       a precondition, When for an event, Then for a result, And for a continuation, under
       a titled Scenario line. Gherkin is itself a whole test-file format built from Step Blocks,
-      and its files count as Minglish documents the Linter checks too. Markdown is simply
+      and its files count as Angloform documents the Linter checks too. Markdown is simply
       the text format the project''s documents are written in, and it happens to render an
       Enumeration''s dash-prefixed lines as an actual bullet list. Rounding out numeric expression:
       an Ordinal marks a position (like ''first'' or ''4th'') and is allowed, while a Number

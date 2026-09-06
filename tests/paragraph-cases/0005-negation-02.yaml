@@ -36,7 +36,7 @@ proposals:
     words: 81
     terms: 9
     connectives: 2
-  diagnosis: '"The Seed enables 3 words: "not", "do", and "does"": STYLE: this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028) | "The language uses "do" and "does" for negation only": WORD: "negation" is not a minglish word — "Negation" is a defined term — write it capitalized (see CONTEXT.md) [all unknown words: negation, only] | "The Grammar does not allow emphatic "do"": STYLE: "does … allow" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "emphatic do" — an adjective cannot modify a Name; write "do" alone, or "the emphatic <noun> do" (ADR 0018) | "The Grammar does not allow interrogative "do"": WORD: "interrogative" is banned in minglish — the language has no questions yet - write "a question" as a noun, or restructure | "The Grammar allows the form "do not" as a prohibition": WORD: "form" is not a minglish word [all unknown words: form, as, prohibition] | "The Grammar allows the form "does not" with a verb base": WORD: "form" is not a minglish word | "The Grammar does not allow constituent negation": WORD: "constituent" is not a minglish word — "Constituent" is a defined term — write it capitalized (see CONTEXT.md) [all unknown words: constituent, negation]'
+  diagnosis: '"The Seed enables 3 words: "not", "do", and "does"": STYLE: this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028) | "The language uses "do" and "does" for negation only": WORD: "negation" is not an angloform word — "Negation" is a defined term — write it capitalized (see CONTEXT.md) [all unknown words: negation, only] | "The Grammar does not allow emphatic "do"": STYLE: "does … allow" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "emphatic do" — an adjective cannot modify a Name; write "do" alone, or "the emphatic <noun> do" (ADR 0018) | "The Grammar does not allow interrogative "do"": WORD: "interrogative" is banned in angloform — the language has no questions yet - write "a question" as a noun, or restructure | "The Grammar allows the form "do not" as a prohibition": WORD: "form" is not an angloform word [all unknown words: form, as, prohibition] | "The Grammar allows the form "does not" with a verb base": WORD: "form" is not an angloform word | "The Grammar does not allow constituent negation": WORD: "constituent" is not an angloform word — "Constituent" is a defined term — write it capitalized (see CONTEXT.md) [all unknown words: constituent, negation]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: |-
@@ -56,7 +56,7 @@ proposals:
     words: 82
     terms: 10
     connectives: 2
-  diagnosis: '"The Grammar permits "do" and "does" only in a negation": WORD: "permits" is banned in minglish — write "allows" [all unknown words: permits, only, negation] | "The Grammar does not permit "do" for emphasis": WORD: "permit" is banned in minglish — write "allow" ("the Grammar allows the word") | "The Grammar does not permit "do" for a question": WORD: "permit" is banned in minglish — write "allow" ("the Grammar allows the word") | "The Grammar permits "do not" as an imperative": WORD: "permits" is banned in minglish — write "allows" [all unknown words: permits, as, imperative] | "The Grammar permits "does not" with a verb base": WORD: "permits" is banned in minglish — write "allows" | "The Grammar does not permit "not" with a noun": WORD: "permit" is banned in minglish — write "allow" ("the Grammar allows the word")'
+  diagnosis: '"The Grammar permits "do" and "does" only in a negation": WORD: "permits" is banned in angloform — write "allows" [all unknown words: permits, only, negation] | "The Grammar does not permit "do" for emphasis": WORD: "permit" is banned in angloform — write "allow" ("the Grammar allows the word") | "The Grammar does not permit "do" for a question": WORD: "permit" is banned in angloform — write "allow" ("the Grammar allows the word") | "The Grammar permits "do not" as an imperative": WORD: "permits" is banned in angloform — write "allows" [all unknown words: permits, as, imperative] | "The Grammar permits "does not" with a verb base": WORD: "permits" is banned in angloform — write "allows" | "The Grammar does not permit "not" with a noun": WORD: "permit" is banned in angloform — write "allow" ("the Grammar allows the word")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: |-
@@ -76,7 +76,7 @@ proposals:
     words: 80
     terms: 10
     connectives: 2
-  diagnosis: '"The Grammar allows "do" and "does" in a negation": WORD: "negation" is not a minglish word — "Negation" is a defined term — write it capitalized (see CONTEXT.md) | "The Grammar does not allow "do" for emphasis": STYLE: "does … allow" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "emphasis" — a singular noun needs a determiner: "the emphasis" (mass nouns take "the") | "The Grammar allows "do not" as a command": WORD: "as" is banned in minglish — "as" has too many senses - for a reason write "<result>, because <reason>" (ADR 0026); for a comparison write "is <adjective>er than <noun phrase>" (ADR 0030)'
+  diagnosis: '"The Grammar allows "do" and "does" in a negation": WORD: "negation" is not an angloform word — "Negation" is a defined term — write it capitalized (see CONTEXT.md) | "The Grammar does not allow "do" for emphasis": STYLE: "does … allow" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "emphasis" — a singular noun needs a determiner: "the emphasis" (mass nouns take "the") | "The Grammar allows "do not" as a command": WORD: "as" is banned in angloform — "as" has too many senses - for a reason write "<result>, because <reason>" (ADR 0026); for a comparison write "is <adjective>er than <noun phrase>" (ADR 0030)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: |-
@@ -96,7 +96,7 @@ proposals:
     words: 28
     terms: 0
     connectives: 2
-  diagnosis: '""do" and "does" carry negation": WORD: "negation" is not a minglish word — "Negation" is a defined term — write it capitalized (see CONTEXT.md) | ""do" does not carry emphasis": STYLE: "does … carry" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "emphasis" — a singular noun needs a determiner: "the emphasis" (mass nouns take "the") | ""does" does not carry emphasis": STYLE: "does … carry" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "emphasis" — a singular noun needs a determiner: "the emphasis" (mass nouns take "the")'
+  diagnosis: '""do" and "does" carry negation": WORD: "negation" is not an angloform word — "Negation" is a defined term — write it capitalized (see CONTEXT.md) | ""do" does not carry emphasis": STYLE: "does … carry" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "emphasis" — a singular noun needs a determiner: "the emphasis" (mass nouns take "the") | ""does" does not carry emphasis": STYLE: "does … carry" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "emphasis" — a singular noun needs a determiner: "the emphasis" (mass nouns take "the")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: |-
@@ -134,7 +134,7 @@ proposals:
     words: 15
     terms: 0
     connectives: 1
-  diagnosis: '"The language enables 3 function words": WORD: "function" is not a minglish word | "every function word carries one meaning": WORD: "function" is not a minglish word'
+  diagnosis: '"The language enables 3 function words": WORD: "function" is not an angloform word | "every function word carries one meaning": WORD: "function" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: |-

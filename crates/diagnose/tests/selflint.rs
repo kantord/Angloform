@@ -1,5 +1,5 @@
 //! Self-linting: every example sentence the project shows a writer — in the
-//! skill, in linter advice, in ban advice — must itself be valid minglish.
+//! skill, in linter advice, in ban advice — must itself be valid angloform.
 //! Feeding the model invalid examples and expecting valid output is the
 //! failure this test exists to crash on.
 
@@ -96,7 +96,7 @@ fn assert_all_parse(lexicon: &Lexicon, examples: &[String], source: &str) {
 #[test]
 fn skill_examples_parse() {
     let lexicon = Lexicon::load(&repo("lexicon.tsv")).unwrap();
-    let skill = std::fs::read_to_string(repo("skills/minglish/SKILL.md")).unwrap();
+    let skill = std::fs::read_to_string(repo("skills/angloform/SKILL.md")).unwrap();
     let section = skill
         .split("## Sentence shapes")
         .nth(1)
@@ -104,10 +104,10 @@ fn skill_examples_parse() {
         .expect("skill sections");
     let examples = example_sentences(&lexicon, section, '`', '`');
     assert!(examples.len() >= 20, "expected many skill examples, found {}", examples.len());
-    assert_all_parse(&lexicon, &examples, "skills/minglish/SKILL.md");
+    assert_all_parse(&lexicon, &examples, "skills/angloform/SKILL.md");
 }
 
-/// Every definition in the domain model is minglish (ADR 0027).
+/// Every definition in the domain model is angloform (ADR 0027).
 #[test]
 fn domain_definitions_parse() {
     let lexicon = Lexicon::load(&repo("lexicon.tsv")).unwrap();
@@ -118,7 +118,7 @@ fn domain_definitions_parse() {
         let lemma = e["lemma"].as_str().unwrap_or("?");
         // examples that are sentences or blocks must parse too (ADR 0036)
         for x in e["examples"].as_array().into_iter().flatten().filter_map(|x| x.as_str()) {
-            // convention: an example with a final period is a minglish sentence;
+            // convention: an example with a final period is an angloform sentence;
             // one without is a member or a shape (may be a banned construction)
             let is_block = x.contains('\n');
             if is_block || x.ends_with('.') {

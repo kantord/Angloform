@@ -9,7 +9,7 @@ fn repo(path: &str) -> String {
 }
 
 // diagnose() runs on arbitrary LLM-repair-proposal text (agenttest) and
-// arbitrary document prose (lint-file.py), not just well-formed minglish —
+// arbitrary document prose (lint-file.py), not just well-formed angloform —
 // crash-freedom on any input is a real requirement.
 proptest::proptest! {
     #[test]
@@ -94,7 +94,7 @@ fn rejections_get_named_diagnoses() {
         ("instructional text uses Indexical Pronouns", "needs a determiner"),
         ("the team defers the mechanism to the future", "is an adjective"),
         ("the Pronouns are about 2200 of the unknown tokens", "count needs its noun"),
-        ("the document describes the finding", "verb form in minglish"),
+        ("the document describes the finding", "verb form in angloform"),
         ("resolving the Pronoun requires a Discourse Layer", "cannot be the subject"),
         ("the language bans the possessive of every Anaphoric Pronoun", "of every"),
         ("Triage measures the Coverage against the UD-EWT corpora", "follows its noun"),
@@ -174,7 +174,7 @@ fn verb_redirect_fires_in_every_bare_verb_position() {
     }
 }
 
-/// ADR 0048 (grilled design): minglish converges to one canonical
+/// ADR 0048 (grilled design): angloform converges to one canonical
 /// construction per meaning by default; coexistence needs empirical
 /// evidence, and none exists for same-verb-lemma coordination — this
 /// session's own earlier analysis already found it reads worse than the
@@ -217,7 +217,7 @@ fn same_verb_coordination_is_banned_but_only_the_plain_shape() {
 /// planned next step, after the prototype was evaluated positively):
 /// when the hand-written pattern checks find nothing, a structural
 /// antiparser match now replaces the fully generic "restructure into
-/// one of the minglish templates" fallback. "only" in the free
+/// one of the angloform templates" fallback. "only" in the free
 /// pre-predicate position (ADR 0047) had no dedicated pattern check —
 /// this is a genuine, previously-uncovered improvement, not a
 /// duplicate of an existing one.
@@ -228,7 +228,7 @@ fn antiparse_replaces_the_generic_fallback_when_nothing_else_fired() {
         Diagnosis::Style(findings) => {
             assert!(findings.iter().any(|f| f.contains("[AntiFreeOnly]")), "{findings:?}");
             assert!(
-                !findings.iter().any(|f| f.contains("restructure into one of the minglish templates")),
+                !findings.iter().any(|f| f.contains("restructure into one of the angloform templates")),
                 "the generic fallback should have been replaced: {findings:?}"
             );
         }

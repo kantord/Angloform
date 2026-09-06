@@ -7,7 +7,7 @@
 - Sentences: 54; parse: 54/54 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 7/37 consecutive pairs share the subject with the sentence before (19%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 7 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 2 ✓ but
@@ -19,7 +19,7 @@
 - Sentences: 25; parse: 25/25 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 3/14 consecutive pairs share the subject with the sentence before (21%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 7 ✓ , so
   - reason: 1 ✓ , because
   - condition: 2 ✓ if …, then
@@ -30,7 +30,7 @@
 - Sentences: 28; parse: 28/28 (100%)
 - Headings: 4; with a banned or wrong-sense word: 1
 - Topic continuity: 2/15 consecutive pairs share the subject with the sentence before (13%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 3 ✓ , so
   - contrast: 1 ✓ but
   - condition: 1 ✓ if …, then
@@ -41,7 +41,7 @@
 - Sentences: 24; parse: 24/24 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 4/13 consecutive pairs share the subject with the sentence before (31%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 6 ✓ , so
   - reason: 3 ✓ , because
   - contrast: 8 ✓ but
@@ -52,7 +52,7 @@
 - Sentences: 24; parse: 24/24 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 4/12 consecutive pairs share the subject with the sentence before (33%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 5 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 3 ✓ but
@@ -63,7 +63,7 @@
 - Sentences: 58; parse: 58/58 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 9/40 consecutive pairs share the subject with the sentence before (22%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 4 ✓ , so
   - reason: 3 ✓ , because
   - contrast: 4 ✓ but
@@ -75,7 +75,7 @@
 - Sentences: 21; parse: 21/21 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 4/10 consecutive pairs share the subject with the sentence before (40%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 5 ✓ , so
   - reason: 1 ✓ , because
   - condition: 12 ✓ if …, then
@@ -86,7 +86,7 @@
 - Sentences: 37; parse: 37/37 (100%)
 - Headings: 4; with a banned or wrong-sense word: 1
 - Topic continuity: 13/26 consecutive pairs share the subject with the sentence before (50%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 6 ✓ , so
   - reason: 3 ✓ , because
   - contrast: 2 ✓ but
@@ -97,7 +97,7 @@
 - Sentences: 38; parse: 38/38 (100%)
 - Headings: 4; with a banned or wrong-sense word: 1
 - Topic continuity: 9/26 consecutive pairs share the subject with the sentence before (35%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 7 ✓ , so
   - reason: 3 ✓ , because
   - condition: 2 ✓ if …, then
@@ -108,7 +108,7 @@
 - Sentences: 31; parse: 31/31 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 3/19 consecutive pairs share the subject with the sentence before (16%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 6 ✓ , so
   - reason: 2 ✓ , because
   - condition: 2 ✓ if …, then
@@ -119,7 +119,7 @@
 - Sentences: 33; parse: 33/33 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 5/23 consecutive pairs share the subject with the sentence before (22%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 11 ✓ , so
   - reason: 1 ✓ , because
   - condition: 3 ✓ if …, then
@@ -130,7 +130,7 @@
 - Sentences: 41; parse: 41/41 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 12/28 consecutive pairs share the subject with the sentence before (43%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 6 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 3 ✓ but
@@ -142,7 +142,7 @@
 - Sentences: 39; parse: 39/39 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 5/25 consecutive pairs share the subject with the sentence before (20%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 6 ✓ , so
   - reason: 3 ✓ , because
   - condition: 1 ✓ if …, then
@@ -153,7 +153,7 @@
 - Sentences: 45; parse: 45/45 (100%)
 - Headings: 5; with a banned or wrong-sense word: 0
 - Topic continuity: 10/31 consecutive pairs share the subject with the sentence before (32%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 9 ✓ , so
   - reason: 5 ✓ , because
   - condition: 3 ✓ if …, then
@@ -164,7 +164,7 @@
 - Sentences: 61; parse: 61/61 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 13/44 consecutive pairs share the subject with the sentence before (30%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 5 ✓ , so
   - contrast: 4 ✓ but
   - condition: 7 ✓ if …, then
@@ -175,7 +175,7 @@
 - Sentences: 35; parse: 35/35 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 7/28 consecutive pairs share the subject with the sentence before (25%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 5 ✓ , so
   - reason: 4 ✓ , because
   - contrast: 1 ✓ but
@@ -187,7 +187,7 @@
 - Sentences: 21; parse: 21/21 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 5/14 consecutive pairs share the subject with the sentence before (36%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 2 ✓ , so
   - reason: 3 ✓ , because
   - condition: 1 ✓ if …, then
@@ -198,7 +198,7 @@
 - Sentences: 43; parse: 43/43 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 14/32 consecutive pairs share the subject with the sentence before (44%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 4 ✓ , so
   - reason: 3 ✓ , because
   - contrast: 2 ✓ but
@@ -209,7 +209,7 @@
 - Sentences: 31; parse: 31/31 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 7/22 consecutive pairs share the subject with the sentence before (32%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 9 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 1 ✓ but
@@ -221,7 +221,7 @@
 - Sentences: 27; parse: 27/27 (100%)
 - Headings: 4; with a banned or wrong-sense word: 1
 - Topic continuity: 7/13 consecutive pairs share the subject with the sentence before (54%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 3 ✓ , so
   - reason: 3 ✓ , because
   - condition: 1 ✓ if …, then
@@ -232,7 +232,7 @@
 - Sentences: 25; parse: 25/25 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 8/19 consecutive pairs share the subject with the sentence before (42%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 8 ✓ , so
   - reason: 3 ✓ , because
   - contrast: 16 ✓ but
@@ -243,7 +243,7 @@
 - Sentences: 52; parse: 52/52 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 17/38 consecutive pairs share the subject with the sentence before (45%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 10 ✓ , so
   - reason: 4 ✓ , because
   - contrast: 1 ✓ but
@@ -255,7 +255,7 @@
 - Sentences: 61; parse: 61/61 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 11/48 consecutive pairs share the subject with the sentence before (23%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 13 ✓ , so
   - reason: 4 ✓ , because
   - condition: 7 ✓ if …, then
@@ -266,7 +266,7 @@
 - Sentences: 31; parse: 31/31 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 4/20 consecutive pairs share the subject with the sentence before (20%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 8 ✓ , so
   - reason: 6 ✓ , because
   - condition: 1 ✓ if …, then
@@ -277,7 +277,7 @@
 - Sentences: 20; parse: 20/20 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 0/11 consecutive pairs share the subject with the sentence before (0%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 8 ✓ , so
   - reason: 2 ✓ , because
   - sequence: 3 ✓ after/before/until + noun phrase (ADR 0033)
@@ -287,7 +287,7 @@
 - Sentences: 52; parse: 52/52 (100%)
 - Headings: 4; with a banned or wrong-sense word: 1
 - Topic continuity: 13/39 consecutive pairs share the subject with the sentence before (33%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 25 ✓ , so
   - reason: 15 ✓ , because
   - condition: 3 ✓ if …, then
@@ -299,7 +299,7 @@
 - Sentences: 57; parse: 57/57 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 13/35 consecutive pairs share the subject with the sentence before (37%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 8 ✓ , so
   - reason: 2 ✓ , because
   - contrast: 3 ✓ but
@@ -311,7 +311,7 @@
 - Sentences: 37; parse: 37/37 (100%)
 - Headings: 4; with a banned or wrong-sense word: 1
 - Topic continuity: 5/23 consecutive pairs share the subject with the sentence before (22%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 4 ✓ , so
   - contrast: 2 ✓ but
   - condition: 1 ✓ if …, then
@@ -322,7 +322,7 @@
 - Sentences: 29; parse: 29/29 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 4/14 consecutive pairs share the subject with the sentence before (29%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 5 ✓ , so
   - reason: 1 ✓ , because
   - condition: 1 ✓ if …, then
@@ -333,7 +333,7 @@
 - Sentences: 28; parse: 28/28 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 6/20 consecutive pairs share the subject with the sentence before (30%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 2 ✓ , so
   - condition: 6 ✓ if …, then
 
@@ -342,7 +342,7 @@
 - Sentences: 20; parse: 20/20 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 6/13 consecutive pairs share the subject with the sentence before (46%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 3 ✓ , so
   - reason: 2 ✓ , because
   - contrast: 2 ✓ but
@@ -354,7 +354,7 @@
 - Sentences: 21; parse: 21/21 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 6/12 consecutive pairs share the subject with the sentence before (50%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - reason: 2 ✓ , because
   - condition: 2 ✓ if …, then
   - sequence: 1 ✓ after/before/until + noun phrase (ADR 0033)
@@ -364,7 +364,7 @@
 - Sentences: 15; parse: 15/15 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 1/8 consecutive pairs share the subject with the sentence before (12%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 3 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 1 ✓ but
@@ -375,7 +375,7 @@
 - Sentences: 31; parse: 31/31 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 7/16 consecutive pairs share the subject with the sentence before (44%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 6 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 5 ✓ but
@@ -387,7 +387,7 @@
 - Sentences: 18; parse: 18/18 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 5/11 consecutive pairs share the subject with the sentence before (45%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 1 ✓ , so
   - contrast: 1 ✓ but
   - condition: 1 ✓ if …, then
@@ -397,7 +397,7 @@
 - Sentences: 32; parse: 32/32 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 10/18 consecutive pairs share the subject with the sentence before (56%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 5 ✓ , so
   - reason: 2 ✓ , because
   - contrast: 2 ✓ but
@@ -409,7 +409,7 @@
 - Sentences: 27; parse: 27/27 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 6/18 consecutive pairs share the subject with the sentence before (33%)
-- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 2 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 6 ✓ but

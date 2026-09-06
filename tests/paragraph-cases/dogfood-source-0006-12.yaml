@@ -27,7 +27,7 @@ proposals:
     words: 26
     terms: 0
     connectives: 0
-  diagnosis: '"If a Natural-sounding formulation conflicts with a measurably easier formulation, then the idea chooses the measurably easier formulation": WORD: "measurably" is not a minglish word | "Criterion 2 keeps the loss of naturalness small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss of" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in minglish and cannot follow a determiner; "naturalness" — a singular noun needs a determiner: "the naturalness" (mass nouns take "the")'
+  diagnosis: '"If a Natural-sounding formulation conflicts with a measurably easier formulation, then the idea chooses the measurably easier formulation": WORD: "measurably" is not an angloform word | "Criterion 2 keeps the loss of naturalness small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss of" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in angloform and cannot follow a determiner; "naturalness" — a singular noun needs a determiner: "the naturalness" (mass nouns take "the")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a Natural-sounding formulation conflicts with a formulation that is easier, then the idea chooses the easier formulation. Criterion 2 keeps the loss of naturalness small.
@@ -42,7 +42,7 @@ proposals:
     words: 26
     terms: 0
     connectives: 0
-  diagnosis: '"If a Natural-sounding formulation conflicts with a formulation that is easier, then the idea chooses the easier formulation": WORD: "that" is banned in minglish — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010) | "Criterion 2 keeps the loss of naturalness small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss of" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in minglish and cannot follow a determiner; "naturalness" — a singular noun needs a determiner: "the naturalness" (mass nouns take "the")'
+  diagnosis: '"If a Natural-sounding formulation conflicts with a formulation that is easier, then the idea chooses the easier formulation": WORD: "that" is banned in angloform — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010) | "Criterion 2 keeps the loss of naturalness small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss of" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in angloform and cannot follow a determiner; "naturalness" — a singular noun needs a determiner: "the naturalness" (mass nouns take "the")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: A Natural-sounding formulation conflicts with a formulation that is easier. The idea chooses the easier formulation. Criterion 2 keeps the loss of naturalness small.
@@ -57,7 +57,7 @@ proposals:
     words: 24
     terms: 0
     connectives: 0
-  diagnosis: '"A Natural-sounding formulation conflicts with a formulation that is easier": WORD: "that" is banned in minglish — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010) | "The idea chooses the easier formulation": STYLE: "easier" needs the standard: "easier than <noun phrase>" (ADR 0030); "formulation" — a singular noun needs a determiner: "the formulation" (mass nouns take "the") | "Criterion 2 keeps the loss of naturalness small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss of" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in minglish and cannot follow a determiner; "naturalness" — a singular noun needs a determiner: "the naturalness" (mass nouns take "the")'
+  diagnosis: '"A Natural-sounding formulation conflicts with a formulation that is easier": WORD: "that" is banned in angloform — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010) | "The idea chooses the easier formulation": STYLE: "easier" needs the standard: "easier than <noun phrase>" (ADR 0030); "formulation" — a singular noun needs a determiner: "the formulation" (mass nouns take "the") | "Criterion 2 keeps the loss of naturalness small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss of" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in angloform and cannot follow a determiner; "naturalness" — a singular noun needs a determiner: "the naturalness" (mass nouns take "the")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a natural-sounding formulation conflicts with a measurably easier formulation, then the easier formulation wins. Criterion 2 limits the loss of naturalness.
@@ -72,7 +72,7 @@ proposals:
     words: 22
     terms: 0
     connectives: 0
-  diagnosis: '"If a natural-sounding formulation conflicts with a measurably easier formulation, then the easier formulation wins": WORD: "natural-sounding" is not a minglish word [all unknown words: natural-sounding, measurably] | "Criterion 2 limits the loss of naturalness": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "limits" is a verb in minglish and cannot follow a determiner; "naturalness" — a singular noun needs a determiner: "the naturalness" (mass nouns take "the")'
+  diagnosis: '"If a natural-sounding formulation conflicts with a measurably easier formulation, then the easier formulation wins": WORD: "natural-sounding" is not an angloform word [all unknown words: natural-sounding, measurably] | "Criterion 2 limits the loss of naturalness": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "limits" is a verb in angloform and cannot follow a determiner; "naturalness" — a singular noun needs a determiner: "the naturalness" (mass nouns take "the")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a natural formulation conflicts with a measurable formulation, then the measurable formulation wins. The second criterion limits the loss of the naturalness.
@@ -87,7 +87,7 @@ proposals:
     words: 23
     terms: 0
     connectives: 0
-  diagnosis: '"If a natural formulation conflicts with a measurable formulation, then the measurable formulation wins": WORD: "measurable" is not a minglish word'
+  diagnosis: '"If a natural formulation conflicts with a measurable formulation, then the measurable formulation wins": WORD: "measurable" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a natural formulation conflicts with an easier formulation, then the easier formulation wins. The second criterion limits the loss of the naturalness.
@@ -117,7 +117,7 @@ proposals:
     words: 23
     terms: 0
     connectives: 1
-  diagnosis: '"If a sentence is natural and is measurable, then the natural sentence loses to the measurable sentence": WORD: "measurable" is not a minglish word | "Criterion 2 keeps the loss small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in minglish and cannot follow a determiner'
+  diagnosis: '"If a sentence is natural and is measurable, then the natural sentence loses to the measurable sentence": WORD: "measurable" is not an angloform word | "Criterion 2 keeps the loss small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in angloform and cannot follow a determiner'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a sentence is natural and is measurable, then the natural sentence loses to the measurable sentence. The criterion keeps the loss small.
@@ -132,7 +132,7 @@ proposals:
     words: 23
     terms: 0
     connectives: 1
-  diagnosis: '"If a sentence is natural and is measurable, then the natural sentence loses to the measurable sentence": WORD: "measurable" is not a minglish word | "The criterion keeps the loss small": STYLE: "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences'
+  diagnosis: '"If a sentence is natural and is measurable, then the natural sentence loses to the measurable sentence": WORD: "measurable" is not an angloform word | "The criterion keeps the loss small": STYLE: "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: A natural sentence conflicts with a different sentence. The different sentence is easier. The easy sentence wins. Criterion 2 keeps the loss small.
@@ -147,7 +147,7 @@ proposals:
     words: 23
     terms: 0
     connectives: 0
-  diagnosis: '"The different sentence is easier": STYLE: "easier" needs the standard: "easier than <noun phrase>" (ADR 0030) | "Criterion 2 keeps the loss small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in minglish and cannot follow a determiner'
+  diagnosis: '"The different sentence is easier": STYLE: "easier" needs the standard: "easier than <noun phrase>" (ADR 0030) | "Criterion 2 keeps the loss small": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in angloform and cannot follow a determiner'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the load of a sentence conflicts with the naturalness of the sentence, then the load wins, but the second criterion limits the loss.
@@ -219,7 +219,7 @@ proposals:
     words: 17
     terms: 0
     connectives: 1
-  diagnosis: '""Natural-sounding" loses to "measurably easier" when the two conflict, but the fallback criterion keeps the loss small": WORD: "when" is banned in minglish — "when" is not in the language - write "if <clause>, then <clause>" (ADR 0007), or name the event: "after the split" (ADR 0033) [all unknown words: when, two, fallback]'
+  diagnosis: '""Natural-sounding" loses to "measurably easier" when the two conflict, but the fallback criterion keeps the loss small": WORD: "when" is banned in angloform — "when" is not in the language - write "if <clause>, then <clause>" (ADR 0007), or name the event: "after the split" (ADR 0033) [all unknown words: when, two, fallback]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: '"Natural-sounding" loses to "measurably easier" if the two conflict, but the fallback criterion keeps the loss small.'
@@ -234,7 +234,7 @@ proposals:
     words: 17
     terms: 0
     connectives: 2
-  diagnosis: '""Natural-sounding" loses to "measurably easier" if the two conflict, but the fallback criterion keeps the loss small": WORD: "two" is banned in minglish — counts are digits: write "3 files", not "three files" (ADR 0022) [all unknown words: two, fallback]'
+  diagnosis: '""Natural-sounding" loses to "measurably easier" if the two conflict, but the fallback criterion keeps the loss small": WORD: "two" is banned in angloform — counts are digits: write "3 files", not "three files" (ADR 0022) [all unknown words: two, fallback]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: '"Natural-sounding" loses to "measurably easier" if the 2 conflict, but the fallback criterion keeps the loss small.'
@@ -249,7 +249,7 @@ proposals:
     words: 17
     terms: 0
     connectives: 2
-  diagnosis: '""Natural-sounding" loses to "measurably easier" if the 2 conflict, but the fallback criterion keeps the loss small": WORD: "fallback" is not a minglish word'
+  diagnosis: '""Natural-sounding" loses to "measurably easier" if the 2 conflict, but the fallback criterion keeps the loss small": WORD: "fallback" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: if a natural Sentence Shape conflicts with a lighter Cognitive Load, then the lighter load wins, but the second criterion restricts the loss.
@@ -264,7 +264,7 @@ proposals:
     words: 23
     terms: 2
     connectives: 2
-  diagnosis: '"if a natural Sentence Shape conflicts with a lighter Cognitive Load, then the lighter load wins, but the second criterion restricts the loss": WORD: "lighter" is not a minglish word [all unknown words: lighter, restricts]'
+  diagnosis: '"if a natural Sentence Shape conflicts with a lighter Cognitive Load, then the lighter load wins, but the second criterion restricts the loss": WORD: "lighter" is not an angloform word [all unknown words: lighter, restricts]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: if a natural Sentence Shape conflicts with a smaller Cognitive Load, then the smaller load wins, but the second criterion limits the loss.
@@ -300,7 +300,7 @@ proposals:
   diagnosis: |-
     "the conflict between a natural Sentence Shape and a smaller Cognitive Load has 2 outcomes:
     - the smaller Cognitive Load wins
-    - the second criterion limits the loss": WORD: "outcomes" is not a minglish word [all unknown words: outcomes, -]
+    - the second criterion limits the loss": WORD: "outcomes" is not an angloform word [all unknown words: outcomes, -]
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a choice between a more natural version and a measurably easier version conflicts, then the easier version wins, but criterion 2 keeps the loss small.
@@ -315,7 +315,7 @@ proposals:
     words: 26
     terms: 0
     connectives: 2
-  diagnosis: '"If a choice between a more natural version and a measurably easier version conflicts, then the easier version wins, but criterion 2 keeps the loss small": WORD: "measurably" is not a minglish word'
+  diagnosis: '"If a choice between a more natural version and a measurably easier version conflicts, then the easier version wins, but criterion 2 keeps the loss small": WORD: "measurably" is not an angloform word'
   count: 2
   model: deepseek/deepseek-v4-flash
 - text: If a choice between a more natural version and a more easy version conflicts, then the more easy version wins, but criterion 2 keeps the loss small.
@@ -330,7 +330,7 @@ proposals:
     words: 27
     terms: 0
     connectives: 2
-  diagnosis: '"If a choice between a more natural version and a more easy version conflicts, then the more easy version wins, but criterion 2 keeps the loss small": STYLE: "choice between …" — only "of" attaches to a noun; "between" attaches to the verb. Write "the choice of …", or move the phrase after the verb (ADR 0011); "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in minglish and cannot follow a determiner; "more easy" — write "easier" (short adjectives inflect, ADR 0030); "version" — a singular noun needs a determiner: "the version" (mass nouns take "the"); a Conditional''s clauses carry no "and"/"or" — split into 2 conditionals, or move the second claim to its own sentence (ADR 0007); a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037); this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028)'
+  diagnosis: '"If a choice between a more natural version and a more easy version conflicts, then the more easy version wins, but criterion 2 keeps the loss small": STYLE: "choice between …" — only "of" attaches to a noun; "between" attaches to the verb. Write "the choice of …", or move the phrase after the verb (ADR 0011); "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "keeps" is a verb in angloform and cannot follow a determiner; "more easy" — write "easier" (short adjectives inflect, ADR 0030); "version" — a singular noun needs a determiner: "the version" (mass nouns take "the"); a Conditional''s clauses carry no "and"/"or" — split into 2 conditionals, or move the second claim to its own sentence (ADR 0007); a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037); this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: '"Natural sounding" loses to "measurably easier" if the 2 conflict, but the second criterion keeps the loss small.'
@@ -345,7 +345,7 @@ proposals:
     words: 18
     terms: 0
     connectives: 2
-  diagnosis: '""Natural sounding" loses to "measurably easier" if the 2 conflict, but the second criterion keeps the loss small": STYLE: "conflict" is a verb in minglish and cannot follow a determiner; "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "loses" is transitive in minglish and needs an object; condition must come first — write: if <clause>, then <clause> (ADR 0007); this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028)'
+  diagnosis: '""Natural sounding" loses to "measurably easier" if the 2 conflict, but the second criterion keeps the loss small": STYLE: "conflict" is a verb in angloform and cannot follow a determiner; "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences; "loses" is transitive in angloform and needs an object; condition must come first — write: if <clause>, then <clause> (ADR 0007); this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If "natural sounding" conflicts with "measurably easier", then "natural sounding" loses to "measurably easier". The second criterion limits the loss.
@@ -360,7 +360,7 @@ proposals:
     words: 20
     terms: 0
     connectives: 0
-  diagnosis: '"If "natural sounding" conflicts with "measurably easier", then "natural sounding" loses to "measurably easier"": STYLE: "loses" is transitive in minglish and needs an object'
+  diagnosis: '"If "natural sounding" conflicts with "measurably easier", then "natural sounding" loses to "measurably easier"": STYLE: "loses" is transitive in angloform and needs an object'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If "natural sounding" conflicts with "measurably easier", then "measurably easier" beats "natural sounding". The second criterion limits the loss.
@@ -389,7 +389,7 @@ proposals:
     words: 24
     terms: 0
     connectives: 1
-  diagnosis: '"If a formulation is natural and a formulation is measurably easier, then the measurably easier formulation wins": WORD: "measurably" is not a minglish word | "the second criterion keeps the loss small": STYLE: "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences'
+  diagnosis: '"If a formulation is natural and a formulation is measurably easier, then the measurably easier formulation wins": WORD: "measurably" is not an angloform word | "the second criterion keeps the loss small": STYLE: "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a formulation sounds natural and a formulation is easier, then the easier formulation wins. the second criterion limits the loss.
@@ -404,7 +404,7 @@ proposals:
     words: 21
     terms: 0
     connectives: 1
-  diagnosis: '"If a formulation sounds natural and a formulation is easier, then the easier formulation wins": WORD: "sounds" is not a minglish word'
+  diagnosis: '"If a formulation sounds natural and a formulation is easier, then the easier formulation wins": WORD: "sounds" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a formulation is natural and a formulation is easier, then the easier formulation wins. the second criterion limits the loss.
@@ -434,7 +434,7 @@ proposals:
     words: 35
     terms: 1
     connectives: 2
-  diagnosis: '"If a formulation sounds natural, but a second formulation is easier, then the Grammar picks the easier formulation": WORD: "sounds" is not a minglish word | "The second criterion keeps the loss small, because the easier formulation is also the more common pattern": WORD: "also" is banned in minglish — "also" adds a second claim - write the claim as its own sentence; the reader keeps both'
+  diagnosis: '"If a formulation sounds natural, but a second formulation is easier, then the Grammar picks the easier formulation": WORD: "sounds" is not an angloform word | "The second criterion keeps the loss small, because the easier formulation is also the more common pattern": WORD: "also" is banned in angloform — "also" adds a second claim - write the claim as its own sentence; the reader keeps both'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a formulation sounds natural, but a second formulation is easier, then the Grammar picks the easier formulation. The second criterion keeps the loss small. The easier formulation is the more common pattern.
@@ -449,7 +449,7 @@ proposals:
     words: 33
     terms: 1
     connectives: 1
-  diagnosis: '"If a formulation sounds natural, but a second formulation is easier, then the Grammar picks the easier formulation": WORD: "sounds" is not a minglish word | "The second criterion keeps the loss small": STYLE: "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences | "The easier formulation is the more common pattern": STYLE: "easier" needs the standard: "easier than <noun phrase>" (ADR 0030); "formulation" — a singular noun needs a determiner: "the formulation" (mass nouns take "the"); "pattern" — a singular noun needs a determiner: "the pattern" (mass nouns take "the")'
+  diagnosis: '"If a formulation sounds natural, but a second formulation is easier, then the Grammar picks the easier formulation": WORD: "sounds" is not an angloform word | "The second criterion keeps the loss small": STYLE: "keeps … loss small" — a verb cannot take an object and an adjective; use a verb that carries the result ("limits the loss"), or 2 sentences | "The easier formulation is the more common pattern": STYLE: "easier" needs the standard: "easier than <noun phrase>" (ADR 0030); "formulation" — a singular noun needs a determiner: "the formulation" (mass nouns take "the"); "pattern" — a singular noun needs a determiner: "the pattern" (mass nouns take "the")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If a formulation is natural, but a second formulation is easier, then the Grammar picks the easier formulation. The second criterion limits the loss. The easier formulation follows the more common pattern.
@@ -479,7 +479,7 @@ proposals:
     words: 31
     terms: 0
     connectives: 0
-  diagnosis: '"If the natural quality of a sentence conflicts with the measurable ease of the sentence, then the ease wins": WORD: "measurable" is not a minglish word [all unknown words: measurable, ease] | "However, the fallback to the most common construction keeps the loss small": WORD: "However" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file") [all unknown words: fallback, most]'
+  diagnosis: '"If the natural quality of a sentence conflicts with the measurable ease of the sentence, then the ease wins": WORD: "measurable" is not an angloform word [all unknown words: measurable, ease] | "However, the fallback to the most common construction keeps the loss small": WORD: "However" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file") [all unknown words: fallback, most]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the natural quality of a sentence conflicts with the load of the sentence, then the load wins. The fallback to the common construction keeps the loss small.
@@ -494,7 +494,7 @@ proposals:
     words: 28
     terms: 0
     connectives: 0
-  diagnosis: '"The fallback to the common construction keeps the loss small": WORD: "fallback" is not a minglish word'
+  diagnosis: '"The fallback to the common construction keeps the loss small": WORD: "fallback" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the natural quality of a sentence conflicts with the load of the sentence, then the load wins. The second criterion keeps the loss small.
@@ -524,7 +524,7 @@ proposals:
     words: 24
     terms: 0
     connectives: 2
-  diagnosis: '"If the natural style and the measurable ease conflict, then the measurable ease wins, but criterion 2 limits the loss of the natural style": WORD: "measurable" is not a minglish word [all unknown words: measurable, ease]'
+  diagnosis: '"If the natural style and the measurable ease conflict, then the measurable ease wins, but criterion 2 limits the loss of the natural style": WORD: "measurable" is not an angloform word [all unknown words: measurable, ease]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the natural style and the easier load conflict, then the easier load wins, but criterion 2 limits the loss of the natural style.
@@ -539,7 +539,7 @@ proposals:
     words: 24
     terms: 0
     connectives: 2
-  diagnosis: '"If the natural style and the easier load conflict, then the easier load wins, but criterion 2 limits the loss of the natural style": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "easier" needs the standard: "easier than <noun phrase>" (ADR 0030); "limits" is a verb in minglish and cannot follow a determiner; "load" — a singular noun needs a determiner: "the load" (mass nouns take "the"); a Conditional''s clauses carry no "and"/"or" — split into 2 conditionals, or move the second claim to its own sentence (ADR 0007); a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037); this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028)'
+  diagnosis: '"If the natural style and the easier load conflict, then the easier load wins, but criterion 2 limits the loss of the natural style": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "easier" needs the standard: "easier than <noun phrase>" (ADR 0030); "limits" is a verb in angloform and cannot follow a determiner; "load" — a singular noun needs a determiner: "the load" (mass nouns take "the"); a Conditional''s clauses carry no "and"/"or" — split into 2 conditionals, or move the second claim to its own sentence (ADR 0007); a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037); this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the natural style and the easier load conflict, then the easier load wins.  Criterion 2 limits the loss of the natural style.
@@ -554,6 +554,6 @@ proposals:
     words: 23
     terms: 0
     connectives: 1
-  diagnosis: '"If the natural style and the easier load conflict, then the easier load wins": STYLE: "easier" needs the standard: "easier than <noun phrase>" (ADR 0030); "load" — a singular noun needs a determiner: "the load" (mass nouns take "the"); a Conditional''s clauses carry no "and"/"or" — split into 2 conditionals, or move the second claim to its own sentence (ADR 0007); a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037) | "Criterion 2 limits the loss of the natural style": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "limits" is a verb in minglish and cannot follow a determiner'
+  diagnosis: '"If the natural style and the easier load conflict, then the easier load wins": STYLE: "easier" needs the standard: "easier than <noun phrase>" (ADR 0030); "load" — a singular noun needs a determiner: "the load" (mass nouns take "the"); a Conditional''s clauses carry no "and"/"or" — split into 2 conditionals, or move the second claim to its own sentence (ADR 0007); a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037) | "Criterion 2 limits the loss of the natural style": STYLE: "criterion" — a singular noun needs a determiner: "the criterion" (mass nouns take "the"); "limits" is a verb in angloform and cannot follow a determiner'
   count: 1
   model: deepseek/deepseek-v4-flash

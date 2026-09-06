@@ -13,7 +13,7 @@ candidate list for a human/agent reading test before shipping, not a final
 verdict — severity still needs the same empirical check this file's own
 history used (see docs/garden-paths-2026-09-06.md).
 
-Usage: python3 scripts/garden-path-scan.py [crates/grammar/src/minglish.lalrpop]
+Usage: python3 scripts/garden-path-scan.py [crates/grammar/src/angloform.lalrpop]
 """
 import re
 import sys
@@ -122,7 +122,7 @@ def scan(path):
 
 
 def main():
-    path = sys.argv[1] if len(sys.argv) > 1 else "crates/grammar/src/minglish.lalrpop"
+    path = sys.argv[1] if len(sys.argv) > 1 else "crates/grammar/src/angloform.lalrpop"
     findings = scan(path)
     if not findings:
         print("garden-path-scan: no same-category comma-only junctions found")

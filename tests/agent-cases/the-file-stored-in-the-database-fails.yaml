@@ -86,7 +86,7 @@ runs:
     - output: the file is stored in the database. the file fails.
       valid: false
       diagnosis: '"the file is stored in the database": STYLE: "stored" is transitive
-        in minglish and needs an object; passive ("is <verb>-ed") is not in minglish
+        in angloform and needs an object; passive ("is <verb>-ed") is not in angloform
         — name the doer and use active voice (ADR 0003)'
     - output: a user stores the file in the database. the file fails.
       valid: true

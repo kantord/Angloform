@@ -5,5 +5,5 @@ resolution: rewritten
 rewrite: We vendor the reference data (...) and pin the data by checksum. The linter
   checks the words with the data. The data does not choose the words.
 note: passive/only/never chain rewritten in place; the only/never contrast expressed
-  as affirmative + generic negation pair; core sentences valid minglish; the 'only'
+  as affirmative + generic negation pair; core sentences valid angloform; the 'only'
   gap case stays open independently

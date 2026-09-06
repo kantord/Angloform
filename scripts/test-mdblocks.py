@@ -9,11 +9,11 @@ Asserts three things, not just "it doesn't crash":
    (structure), and excluded constructs (code/table/hr/frontmatter/HTML/
    footnote-definition) leave no trace in any other block's text (no
    leakage — this is exactly the class of bug the file was built to catch).
-2. The real minglish sentences the file deliberately includes still parse
+2. The real angloform sentences the file deliberately includes still parse
    clean through the actual grammar/linter, not just get classified right —
    a structural fix that broke the underlying sentence would pass part 1
    and fail here.
-3. The known-not-minglish content (the guide/diagram/chart words, "Bold"
+3. The known-not-angloform content (the guide/diagram/chart words, "Bold"
    opening a sentence, the non-colon nested list) is correctly rejected,
    with a real reason — proves the linter still runs on this content, it
    doesn't just silently pass everything.
@@ -124,8 +124,8 @@ def main():
         "The agent stores the file after the rule",  # after the hr
     ]
     must_fail = [
-        "The agent reads the guide",  # "guide" not minglish
-        "The report has a chart",  # "chart" not minglish
+        "The agent reads the guide",  # "guide" not angloform
+        "The report has a chart",  # "chart" not angloform
         "the agent has 2 reports with no colon",  # missing Enumeration colon
         "Bold text and italic text",  # "Bold" opens a sentence
     ]

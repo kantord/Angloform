@@ -40,14 +40,14 @@ notes where. Add an entry when a new type is caught; never delete one.
   advice, fixed 2026-09-01). Write templates as `"the <noun>"` and mark the
   example as an example.
 - **Wrong error class**: a deliberately banned word reported as "not a
-  minglish word", so bans read as typos (fixed 2026-09-01: bans now say
-  "is banned in minglish").
+  angloform word", so bans read as typos (fixed 2026-09-01: bans now say
+  "is banned in angloform").
 - **One reading named, the other meant**: a capitalized verb at sentence
   start diagnosed as a bad name when an imperative was meant (agent run 4;
   fixed by dual-reading advice, ADR 0019).
 - **Dormant redirect**: a redirect that never fires because the word lexes
   as its enabled form ("the agent files the report"; ideas, advice gap 2).
-- **Generic fallback**: "not recognizable as a minglish-like sentence" where
+- **Generic fallback**: "not recognizable as an angloform-like sentence" where
   a pattern finding exists or could (tier-2 count 0 with no findings). The
   ADR 0002 paragraph run showed 115 of these for four silent gaps —
   noun-noun compounds, unquoted mention, copula + PP, noun coordination —

@@ -1,7 +1,7 @@
 # 0001 — Lexicon is a generated artifact from a curated Seed list
 
 Date: 2026-08-31
-Status: accepted (rewritten in minglish 2026-09-01; meaning preserved, see docs/dogfood-adr-0001.md)
+Status: accepted (rewritten in angloform 2026-09-01; meaning preserved, see docs/dogfood-adr-0001.md)
 
 ## Context
 

@@ -33,7 +33,7 @@ runs:
     - output: delete the file
       valid: false
       diagnosis: '"delete the file": STYLE: this structure is outside the sanctioned
-        sentence shapes — restructure into one of the minglish templates'
+        sentence shapes — restructure into one of the angloform templates'
     - output: you must delete the file
       valid: true
   - rounds: 2
@@ -42,7 +42,7 @@ runs:
     - output: delete the file
       valid: false
       diagnosis: '"delete the file": STYLE: this structure is outside the sanctioned
-        sentence shapes — restructure into one of the minglish templates'
+        sentence shapes — restructure into one of the angloform templates'
     - output: you must delete the file
       valid: true
 - at_unix: 1788285530

@@ -4,7 +4,7 @@
 
 Cost = Σ unigram surprisal (9 − zipf) per word token: the price of a
 word is its improbability, not its length. Lower is cheaper to read.
-Ratio < 1.00 means the minglish side is cheaper than the English
+Ratio < 1.00 means the angloform side is cheaper than the English
 original.
 
 | # | en words | en cost | mg words | mg cost | ratio |
@@ -107,7 +107,7 @@ AFTER (15 words, cost 46.7, **129%** of original) — 2 sentence(s), each parses
 Declared loss: nominalization
 
 **8.** BEFORE (18 words, cost 77.2)
-> minglish needs a lexicon: every allowed surface form, each with exactly one form-tag, plus redirects for rejected uses.
+> angloform needs a lexicon: every allowed surface form, each with exactly one form-tag, plus redirects for rejected uses.
 
 AFTER (38 words, cost 124.7, **162%** of original) — 5 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 23%
 > The language needs a Lexicon. The Lexicon contains every Surface Form of the words. Every Surface Form has one Form Tag. A word can have an unused sense. The Lexicon can contain a replacement for the unused sense.

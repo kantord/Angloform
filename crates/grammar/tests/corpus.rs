@@ -31,7 +31,7 @@ fn corpus_parses_with_snapshots() {
     insta::assert_snapshot!("corpus_trees", snap);
 }
 
-/// Every .feature file is a minglish document (ADR 0034).
+/// Every .feature file is an angloform document (ADR 0034).
 #[test]
 fn feature_files_parse() {
     let lexicon = Lexicon::load(&repo("lexicon.tsv")).unwrap();

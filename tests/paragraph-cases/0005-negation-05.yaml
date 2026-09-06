@@ -28,7 +28,7 @@ proposals:
     words: 35
     terms: 4
     connectives: 0
-  diagnosis: '""Not" negates the main verb of the clause": WORD: "negates" is not a minglish word | ""Not" does not negate a Noun Phrase": WORD: "negate" is not a minglish word'
+  diagnosis: '""Not" negates the main verb of the clause": WORD: "negates" is not an angloform word | ""Not" does not negate a Noun Phrase": WORD: "negate" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The Grammar defines one scope for "not". "Not" changes the truth of the verb. "Not" does not change a Noun Phrase. The Grammar bans "not all users". The Grammar bans "a not old file".
@@ -57,7 +57,7 @@ proposals:
     words: 45
     terms: 2
     connectives: 0
-  diagnosis: '"The word "not" negates the main verb of a clause": WORD: "negates" is not a minglish word | "The language bans constituent negation": WORD: "constituent" is not a minglish word — "Constituent" is a defined term — write it capitalized (see CONTEXT.md) [all unknown words: constituent, negation]'
+  diagnosis: '"The word "not" negates the main verb of a clause": WORD: "negates" is not an angloform word | "The language bans constituent negation": WORD: "constituent" is not an angloform word — "Constituent" is a defined term — write it capitalized (see CONTEXT.md) [all unknown words: constituent, negation]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The word "not" changes the meaning of the verb of a sentence. The Grammar gives one scope to every Function Word. The language bans the structure "not" before a Noun Phrase. The language bans the structure "not" before an adjective.
@@ -102,7 +102,7 @@ proposals:
     words: 35
     terms: 1
     connectives: 0
-  diagnosis: '"The word "not" negates the predicate of the clause": WORD: "negates" is not a minglish word | "The language bans the negation of a Noun Phrase": WORD: "negation" is not a minglish word — "Negation" is a defined term — write it capitalized (see CONTEXT.md)'
+  diagnosis: '"The word "not" negates the predicate of the clause": WORD: "negates" is not an angloform word | "The language bans the negation of a Noun Phrase": WORD: "negation" is not an angloform word — "Negation" is a defined term — write it capitalized (see CONTEXT.md)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The word "not" changes the meaning of the verb of the sentence. The language bans a "not" that describes a Noun Phrase. The language does not allow "not all users". The language does not allow "a not old file".
@@ -117,7 +117,7 @@ proposals:
     words: 39
     terms: 1
     connectives: 0
-  diagnosis: '"The word "not" changes the meaning of the verb of the sentence": AMBIGUOUS (5 readings): "of … of" — "of" does not chain; name the inner thing in its own sentence, or drop one level (ADR 0011); split the sentence, or move the prepositional phrase so each attachment is explicit | "The language bans a "not" that describes a Noun Phrase": WORD: "that" is banned in minglish — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010)'
+  diagnosis: '"The word "not" changes the meaning of the verb of the sentence": AMBIGUOUS (5 readings): "of … of" — "of" does not chain; name the inner thing in its own sentence, or drop one level (ADR 0011); split the sentence, or move the prepositional phrase so each attachment is explicit | "The language bans a "not" that describes a Noun Phrase": WORD: "that" is banned in angloform — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The word "not" changes the verb of the sentence. "not" changes the meaning of the verb. The language bans "not" with a Noun Phrase. "not all users" uses "not" with a Noun Phrase. The language does not allow "not all users". "a not old file" uses "not" with a Noun Phrase. The language does not allow "a not old file".

@@ -3,6 +3,7 @@
 Anaphoric Pronoun	form	NOUN_SG	anaphoric pronoun
 Anaphoric Pronoun	member_of	-	Pronoun
 Anaphoric Pronouns	form	NOUN_PL	anaphoric pronoun
+Angloform	name	-	Angloform
 Auxiliaries	form	NOUN_PL	auxiliary
 Auxiliary	form	NOUN_SG	auxiliary
 Auxiliary	member_of	-	Function Word
@@ -93,7 +94,6 @@ Lexicons	form	NOUN_PL	lexicon
 Linter	form	NOUN_SG	linter
 Linters	form	NOUN_PL	linter
 Markdown	name	-	Markdown
-Minglish	name	-	Minglish
 Modifier	form	NOUN_SG	modifier
 Modifiers	form	NOUN_PL	modifier
 Name	form	NOUN_SG	name
@@ -1561,7 +1561,7 @@ planned	form	VERB_TRANS_ED	plan
 planning	form	VERB_TRANS_ING	plan
 plans	form	VERB_TRANS_3SG	plan
 pleasant	form	ADJ_LONG	pleasant
-please	ban	-	politeness markers are not minglish - state the instruction directly or write "you must ..."
+please	ban	-	politeness markers are not angloform - state the instruction directly or write "you must ..."
 plural	form	ADJ_LONG	plural
 point	form	NOUN_SG	point
 points	form	NOUN_PL	point

@@ -22,8 +22,8 @@ Oxford-comma and pure `and`-chain forms). ADR 0037 gave a binary
 (exactly-2) shape; extending it seemed like the obvious fix.
 
 **ADR 0050** (`docs/adr/0050-nary-clause-coordination.md`, itself
-100% dogfooded minglish) adds a 3-clause Oxford-comma shape to
-`crates/grammar/src/minglish.lalrpop`'s `CoordClause` rule. Built as
+100% dogfooded angloform) adds a 3-clause Oxford-comma shape to
+`crates/grammar/src/angloform.lalrpop`'s `CoordClause` rule. Built as
 explicit bounded alternatives (2-ary, 3-ary), not a generic `+`
 repetition macro — the macro version produced a genuine LALR(1)
 shift/reduce conflict with the existing Causal/Conditional lookahead
@@ -141,7 +141,7 @@ This is flagged, not quietly accepted — see
    untested — a real next step, not a corpus-wide claim this session
    supports.
 4. **The associative/table-mapping gap identified earlier is still
-   real** (minglish has no construction for a genuine key→value
+   real** (angloform has no construction for a genuine key→value
    mapping — confirmed empirically, Enumeration items must be single
    noun phrases) but turned out not to be necessary for *this*
    paragraph: splitting into 2 homogeneous flat lists, accepting a
@@ -269,7 +269,7 @@ naturalness rewriting:
    scoring.
 4. Do not repeat this session's mistake in `0014`: always check a
    document's original English source (`docs/dogfood-adr-*.md` or the
-   bundle's `originals/`) before "clarifying" an ambiguous minglish
+   bundle's `originals/`) before "clarifying" an ambiguous angloform
    sentence — the ambiguity may be a lossy compression of something the
    source already resolved, not open information to invent an answer
    for.
@@ -318,14 +318,14 @@ complaint — worth a direct look before its next naturalness pass.
 
 One recurring judge complaint across nearly all of `model`'s 89
 paragraphs — "sentence starts lowercase, reads like a typo" — is very
-likely a **false complaint**, not a real defect: minglish's own
+likely a **false complaint**, not a real defect: angloform's own
 orthography rule makes a lowercase sentence-initial word valid
-(`skills/minglish/SKILL.md`: "sentence-start capitals are allowed",
+(`skills/angloform/SKILL.md`: "sentence-start capitals are allowed",
 not required), and the entire corpus uses this convention
 deliberately. Do not "fix" this in a future pass; it is the judge
 being wrong about the language's own rules, not the prose being wrong
 — a good candidate for a `docs/prejudge.md` prompt clarification
-(tell the judge lowercase sentence starts are valid minglish) so this
+(tell the judge lowercase sentence starts are valid angloform) so this
 false signal stops recurring.
 
 ### Round 4: chasing the 4 naturalness-candidates to a full pass — decisively worse, not better
@@ -421,14 +421,14 @@ correct protocol, scored **4/5, 0 unclear** — before spending any
 engineering time. That confirmed the lever before committing to it.
 
 **Built real grammar support, not a markdown shortcut.** Markdown
-tables were, until this round, completely unvalidated by the minglish
+tables were, until this round, completely unvalidated by the angloform
 grammar (`scripts/mdblocks.py` discarded their content outright — the
 project's one remaining ungoverned zone). Using an unchecked table to
 win the naturalness score would have meant abandoning ADR 0001's
 check-don't-choose discipline for a number; flagged to the user
 directly, who chose to build real support instead. **ADR 0051**
 ("A table for one fact of every word (Mapping)", itself 100% dogfooded
-minglish) adds:
+angloform) adds:
 
 - `crates/grammar`: `is_mapping`/`parse_mapping`, mirroring the
   existing Enumeration/Step-Block dispatch in `parse_text`. Each table

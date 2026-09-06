@@ -1,5 +1,5 @@
-# english<TAB>minglish<TAB>declared drops (ADR 0012; empty = lossless)
-# minglish side must be lexicon-valid and parse in the tier-1 grammar (textcost enforces both)
+# english<TAB>angloform<TAB>declared drops (ADR 0012; empty = lossless)
+# angloform side must be lexicon-valid and parse in the tier-1 grammar (textcost enforces both)
 Please don't delete my report.	do not delete my report	politeness
 If the test fails, the agent will just retry the request.	if the test fails, then the agent retries the request	emphasis
 The server returned an empty result.	the server returned an empty result

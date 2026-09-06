@@ -1,11 +1,11 @@
 import { beforeAll, describe, expect, it } from 'vitest'
 import { readFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
-import init, { diagnose_sentence, tokenize } from '../lib/wasm/minglish_wasm.js'
+import init, { diagnose_sentence, tokenize } from '../lib/wasm/angloform_wasm.js'
 import type { DiagnosisResult, TreeNode } from '../lib/types'
 
 async function loadWasmForTest() {
-  const bytes = await readFile(resolve(process.cwd(), 'src/lib/wasm/minglish_wasm_bg.wasm'))
+  const bytes = await readFile(resolve(process.cwd(), 'src/lib/wasm/angloform_wasm_bg.wasm'))
   await init({ module_or_path: bytes })
 }
 

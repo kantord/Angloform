@@ -1,4 +1,4 @@
-//! Tier-1 minglish grammar: LALRPOP over form-tags, lexicon-backed lexer,
+//! Tier-1 angloform grammar: LALRPOP over form-tags, lexicon-backed lexer,
 //! and cognitive-load metrics derived from head-annotated parse trees.
 //!
 //! The LR(1) build is the ambiguity gate: a grammar conflict is a compile
@@ -10,7 +10,7 @@
 use lalrpop_util::lalrpop_mod;
 use std::collections::BTreeMap;
 
-lalrpop_mod!(pub minglish);
+lalrpop_mod!(pub angloform);
 
 // ---------------------------------------------------------------- tokens --
 
@@ -96,9 +96,9 @@ pub struct LexError {
 impl std::fmt::Display for LexError {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         if self.banned {
-            write!(f, "\"{}\" is banned in minglish", self.word)?;
+            write!(f, "\"{}\" is banned in angloform", self.word)?;
         } else {
-            write!(f, "\"{}\" is not a minglish word", self.word)?;
+            write!(f, "\"{}\" is not an angloform word", self.word)?;
         }
         if let Some(s) = &self.suggestion {
             write!(f, " — {s}")?;
@@ -370,7 +370,7 @@ impl Lexicon {
                     word: word.to_string(),
                     position: pos,
                     suggestion: Some(format!(
-                        "minglish words are lowercase (\"{folded}\"); a name \
+                        "angloform words are lowercase (\"{folded}\"); a name \
                          that equals a word needs quotes"
                     )),
                     banned: false,
@@ -385,7 +385,7 @@ impl Lexicon {
                     suggestion: Some(
                         "a name cannot start a sentence — introduce it \
                          (\"the tool Lexgen …\") or quote it; or if this \
-                         is a command, use a minglish verb in lowercase \
+                         is a command, use an angloform verb in lowercase \
                          (\"delete the file\")"
                             .to_string(),
                     ),
@@ -881,7 +881,7 @@ pub fn parse_text(lexicon: &Lexicon, text: &str) -> Result<Tree, String> {
     }
 }
 
-/// Feature:/Scenario: headers carry a minglish sentence or a quoted Name;
+/// Feature:/Scenario: headers carry an angloform sentence or a quoted Name;
 /// Given/When/Then/And lines carry one clause each (ADR 0034).
 fn parse_step_block(lexicon: &Lexicon, text: &str) -> Result<Tree, String> {
     let mut children = Vec::new();
@@ -895,8 +895,8 @@ fn parse_step_block(lexicon: &Lexicon, text: &str) -> Result<Tree, String> {
             let tree = parse(lexicon, title).or_else(|_| {
                 let toks = lexicon.tokenize(title).map_err(|e| e.to_string())?;
                 let iter = toks.into_iter().map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
-                minglish::ItemParser::new().parse(iter).map_err(|_| String::new())
-            }).map_err(|e| format!("line {}: the title \"{title}\" is not a minglish sentence or a quoted Name{}", k + 1, if e.is_empty() { String::new() } else { format!(" — {e}") }))?;
+                angloform::ItemParser::new().parse(iter).map_err(|_| String::new())
+            }).map_err(|e| format!("line {}: the title \"{title}\" is not an angloform sentence or a quoted Name{}", k + 1, if e.is_empty() { String::new() } else { format!(" — {e}") }))?;
             children.push(tree);
             continue;
         }
@@ -908,7 +908,7 @@ fn parse_step_block(lexicon: &Lexicon, text: &str) -> Result<Tree, String> {
         let clause = raw[kw.len()..].trim().trim_end_matches('.');
         let toks = lexicon.tokenize(clause).map_err(|e| format!("line {}: {e}", k + 1))?;
         let iter = toks.into_iter().map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
-        let tree = minglish::StepParser::new()
+        let tree = angloform::StepParser::new()
             .parse(iter)
             .map_err(|e| format!("line {} (\"{}{clause}\"): a step is one clause with no coordination — {}", k + 1, kw, format_parse_error(&e)))?;
         children.push(tree);
@@ -925,7 +925,7 @@ fn parse_enumeration(lexicon: &Lexicon, text: &str) -> Result<Tree, String> {
     let iter = intro_tokens
         .into_iter()
         .map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
-    let intro = minglish::IntroParser::new()
+    let intro = angloform::IntroParser::new()
         .parse(iter)
         .map_err(|e| format!("intro: {}", format_parse_error(&e)))?;
     let expected = enumerated_count(&intro)?;
@@ -938,7 +938,7 @@ fn parse_enumeration(lexicon: &Lexicon, text: &str) -> Result<Tree, String> {
         let iter = toks
             .into_iter()
             .map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
-        let tree = minglish::ItemParser::new()
+        let tree = angloform::ItemParser::new()
             .parse(iter)
             .map_err(|_| format!("item {} (\"{item}\") is not a noun phrase — an item names one thing (ADR 0028)", k + 1))?;
         children.push(tree);
@@ -963,7 +963,7 @@ fn parse_mapping(lexicon: &Lexicon, text: &str) -> Result<Tree, String> {
     let iter = intro_tokens
         .into_iter()
         .map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
-    let intro = minglish::IntroParser::new()
+    let intro = angloform::IntroParser::new()
         .parse(iter)
         .map_err(|e| format!("intro: {}", format_parse_error(&e)))?;
     let mut children = vec![intro];
@@ -979,7 +979,7 @@ fn parse_mapping(lexicon: &Lexicon, text: &str) -> Result<Tree, String> {
             let iter = toks
                 .into_iter()
                 .map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
-            let tree = minglish::ItemParser::new()
+            let tree = angloform::ItemParser::new()
                 .parse(iter)
                 .map_err(|_| format!("row {} cell {} (\"{cell}\") is not a noun phrase — a Mapping cell names one thing (ADR 0051)", k + 1, col + 1))?;
             children.push(tree);
@@ -1042,7 +1042,7 @@ pub fn parse(lexicon: &Lexicon, sentence: &str) -> Result<Tree, String> {
     let iter = tokens
         .into_iter()
         .map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
-    minglish::SentenceParser::new()
+    angloform::SentenceParser::new()
         .parse(iter)
         .map_err(|e| format_parse_error(&e))
 }
@@ -1058,7 +1058,7 @@ pub fn parse_tokens(toks: &[Tok]) -> Result<Tree, ParseError> {
         .cloned()
         .enumerate()
         .map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
-    minglish::SentenceParser::new().parse(iter)
+    angloform::SentenceParser::new().parse(iter)
 }
 
 /// The token position where Tier-1 failed, when the error carries one.

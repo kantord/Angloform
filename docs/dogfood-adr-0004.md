@@ -1,4 +1,4 @@
-# Dogfood: ADR 0004 in minglish
+# Dogfood: ADR 0004 in angloform
 
 Rewritten in place 2026-09-02, no model run. 33/33 units parse.
 

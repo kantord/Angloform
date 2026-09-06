@@ -1,4 +1,4 @@
-# Dogfood: ADR 0022 in minglish
+# Dogfood: ADR 0022 in angloform
 
 Rewritten in place 2026-09-02 with no model run (`just lint-file`, then fix a
 gap or follow the advice per unit); every unit parses. The problem

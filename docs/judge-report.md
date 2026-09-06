@@ -341,7 +341,7 @@ design. The future design can parse a sentence inside the quoted span. — 'futu
   - The meaning "we = the authors" is one example. — the "=" sign reads as a formula/notation rather than natural prose
 - ¶6 natural 3/5
   - The question is the purpose of the product, because a policy must answer the question. — the logical link between "the question" and "the purpose of the product" is compressed to the point of being hard to follow naturally
-- unclear: The question is the purpose of the product, because a policy must answer the question. — "the product" could refer to the minglish language/tool itself as a product whose purpose is to force clarity about who acts, or it could loosely mean the document/policy being written is the "product" in question
+- unclear: The question is the purpose of the product, because a policy must answer the question. — "the product" could refer to the angloform language/tool itself as a product whose purpose is to force clarity about who acts, or it could loosely mean the document/policy being written is the "product" in question
 - fidelity 5/5
 
 ## 0021

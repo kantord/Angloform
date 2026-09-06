@@ -447,7 +447,7 @@ pub fn run(
          exactly `GAP: <one-line reason>`. No other prose."
     );
 
-    let concurrency: usize = std::env::var("MINGLISH_TEST_CONCURRENCY")
+    let concurrency: usize = std::env::var("ANGLOFORM_TEST_CONCURRENCY")
         .ok()
         .and_then(|v| v.parse().ok())
         .unwrap_or(16);
@@ -565,7 +565,7 @@ fn process(
         .collect::<Vec<_>>()
         .join("\n\n");
     let user = format!(
-        "Rewrite ONLY the paragraph marked >>> <<< in minglish. The rest of the document \
+        "Rewrite ONLY the paragraph marked >>> <<< in angloform. The rest of the document \
          is context: use it to understand what the paragraph means, do not rewrite it.\n\n\
          DOCUMENT:\n{document}\n\nPARAGRAPH TO REWRITE:\n  {}\n\nLinter rejections:\n{}\n",
         paras[i],

@@ -1,4 +1,4 @@
-//! minglish linter compiled to wasm32-unknown-unknown for the static web
+//! angloform linter compiled to wasm32-unknown-unknown for the static web
 //! playground (see `web/`). The lexicon is embedded at compile time, so no
 //! filesystem access is needed at runtime.
 

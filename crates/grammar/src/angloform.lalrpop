@@ -1,4 +1,4 @@
-// Tier-1 minglish grammar. Terminals are form-tags (see lexicon.tsv);
+// Tier-1 angloform grammar. Terminals are form-tags (see lexicon.tsv);
 // constructions are exactly those sanctioned by ADRs 0002–0014.
 // LR(1)-clean by design: the PREP_N/PREP_V split (ADR 0011) removes PP
 // attachment conflicts, coordination is factored so the token after CONJ
@@ -623,7 +623,7 @@ OfPP: Tree = {
 };
 
 NPInner: Tree = {
-    // a defined or quoted name inside an of-PP: "every sentence of Minglish"
+    // a defined or quoted name inside an of-PP: "every sentence of Angloform"
     <nm:LName> => nm,
     // appositive name inside an of-PP: "every form of the file "lexicon.tsv""
     <d:LDet> <a:LAdj?> <n:LNounSg> <nm:LName> =>

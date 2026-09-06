@@ -4,7 +4,7 @@
 
 Cost = Σ unigram surprisal (9 − zipf) per word token: the price of a
 word is its improbability, not its length. Lower is cheaper to read.
-Ratio < 1.00 means the minglish side is cheaper than the English
+Ratio < 1.00 means the angloform side is cheaper than the English
 original.
 
 | # | en words | en cost | mg words | mg cost | ratio |

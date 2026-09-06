@@ -12,7 +12,7 @@ step in English, but the decision "0014" reserves the First Token of a
 sentence for the Sentence Shape. The maintainer required an unambiguous
 structure with lines. The Enumeration is one structure with lines. Gherkin
 has a structure with lines, so a file of Gherkin must be a document of
-Minglish.
+Angloform.
 
 ## Decision
 
@@ -34,7 +34,7 @@ A header opens a Step Block. Gherkin has 2 headers:
 - "Scenario:"
 
 A header carries a title, and the Linter lints the title. The title is a
-sentence of Minglish or is a quoted Name.
+sentence of Angloform or is a quoted Name.
 
 The word "Then" opens a line inside a Step Block. The word "then" does not
 open a sentence of the prose, so the decision "0014" keeps the rule. The

@@ -7,7 +7,7 @@ cd "$(dirname "$0")/.."
 REPO_ROOT="$(cd .. && pwd)"
 VERSION=0.2.126
 
-CARGO_TARGET_DIR="$REPO_ROOT/target" cargo build --release -p minglish-wasm \
+CARGO_TARGET_DIR="$REPO_ROOT/target" cargo build --release -p angloform-wasm \
   --target wasm32-unknown-unknown --manifest-path "$REPO_ROOT/Cargo.toml"
 
 BINDGEN=${WASM_BINDGEN:-$(command -v wasm-bindgen || true)}
@@ -30,5 +30,5 @@ fi
 
 OUT=src/lib/wasm
 mkdir -p "$OUT"
-"$BINDGEN" --target web --out-dir "$OUT" "$REPO_ROOT/target/wasm32-unknown-unknown/release/minglish_wasm.wasm"
+"$BINDGEN" --target web --out-dir "$OUT" "$REPO_ROOT/target/wasm32-unknown-unknown/release/angloform_wasm.wasm"
 echo "wasm glue written to $OUT"

@@ -36,12 +36,12 @@ entry of the model has the 6 fields of the Seed:
 - "waive"
 - "note"
 
-Every entry must have a definition in Minglish. Lexgen merges the 2
+Every entry must have a definition in Angloform. Lexgen merges the 2
 files into one Lexicon. The pack adds words but does not override a word
 of the Seed. A Lemma of the model cannot repeat a Lemma of the Seed in
 one Category. An entry of a Name has a definition but does not have
 Surface Forms. The model has 4 Names:
-- Minglish
+- Angloform
 - Lexgen
 - Triage
 - WordNet

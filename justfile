@@ -1,4 +1,4 @@
-# minglish task runner — `just <target>`
+# angloform task runner — `just <target>`
 
 # run every repo invariant (tests, regeneration, drift check)
 check:
@@ -44,7 +44,7 @@ web-test:
 # MILESTONE: run the LLM repair-loop harness (needs OPENROUTER_API_KEY;
 # see tests/agent-cases/README.md — results need human review)
 agenttest concurrency="64":
-    MINGLISH_TEST_CONCURRENCY={{concurrency}} cargo run -p agenttest
+    ANGLOFORM_TEST_CONCURRENCY={{concurrency}} cargo run -p agenttest
 
 # MILESTONE: paragraph-level proposals for a markdown file (needs
 # OPENROUTER_API_KEY; cases in tests/paragraph-cases/, report needs ADR 0012
@@ -79,7 +79,7 @@ judge-docs *ARGS:
 verdict N VERDICT *NOTE:
     python3 scripts/paragraph-review.py {{N}} {{VERDICT}} {{NOTE}}
 
-# MILESTONE: propose minglish fixes for a markdown file's prose (never edits
+# MILESTONE: propose angloform fixes for a markdown file's prose (never edits
 # the source; output needs ADR 0012 meaning review)
 autofix file out="docs/autofix-report.md":
     python3 scripts/extract-sentences.py {{file}} > /tmp/autofix-sentences.txt

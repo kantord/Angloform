@@ -371,7 +371,7 @@
   {
     "lemma": "i",
     "category": "PRON_1SG",
-    "note": "indexical, never anaphoric; lowercase by minglish orthography (ADR 0002)"
+    "note": "indexical, never anaphoric; lowercase by angloform orthography (ADR 0002)"
   },
   {
     "lemma": "you",
@@ -644,7 +644,7 @@
     "reject": {
       "VERB": "write"
     },
-    "note": "the dogfood test found minglish could not say 'word'"
+    "note": "the dogfood test found angloform could not say 'word'"
   },
   {
     "lemma": "every",
@@ -902,7 +902,7 @@
   {
     "lemma": "please",
     "category": "BANNED",
-    "advice": "politeness markers are not minglish - state the instruction directly or write \"you must ...\""
+    "advice": "politeness markers are not angloform - state the instruction directly or write \"you must ...\""
   },
   {
     "lemma": "edit",
@@ -1068,7 +1068,7 @@
   {
     "lemma": "language",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "languages"
     }
@@ -1076,7 +1076,7 @@
   {
     "lemma": "option",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "options"
     }
@@ -1084,7 +1084,7 @@
   {
     "lemma": "algorithm",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "algorithms"
     }
@@ -1092,7 +1092,7 @@
   {
     "lemma": "generator",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "generators"
     }
@@ -1103,7 +1103,7 @@
     "reject": {
       "VERB": "replace"
     },
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "swaps"
     }
@@ -1111,17 +1111,17 @@
   {
     "lemma": "rarity",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "ambiguity",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "clarity",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "clarities"
     }
@@ -1132,7 +1132,7 @@
     "waive": [
       "VERB"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "researches"
     }
@@ -1140,7 +1140,7 @@
   {
     "lemma": "typo",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "typos"
     }
@@ -1151,12 +1151,12 @@
     "reject": {
       "VERB": "record"
     },
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "rationale",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "rationales"
     }
@@ -1167,7 +1167,7 @@
     "waive": [
       "VERB"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "rules"
     }
@@ -1178,7 +1178,7 @@
     "waive": [
       "ADJ"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "invariants"
     }
@@ -1186,7 +1186,7 @@
   {
     "lemma": "frequency",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "table",
@@ -1194,7 +1194,7 @@
     "waive": [
       "VERB"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "tables"
     }
@@ -1202,12 +1202,12 @@
   {
     "lemma": "history",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "reversal",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "reversals"
     }
@@ -1215,7 +1215,7 @@
   {
     "lemma": "decision",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "decisions"
     }
@@ -1223,7 +1223,7 @@
   {
     "lemma": "replacement",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "replacements"
     }
@@ -1234,7 +1234,7 @@
     "waive": [
       "VERB"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "expenses"
     }
@@ -1242,7 +1242,7 @@
   {
     "lemma": "verb",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "verbs"
     }
@@ -1250,7 +1250,7 @@
   {
     "lemma": "noun",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "nouns"
     }
@@ -1258,7 +1258,7 @@
   {
     "lemma": "contain",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "contains",
       "ing": "containing"
@@ -1267,7 +1267,7 @@
   {
     "lemma": "derive",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "derives"
     }
@@ -1275,7 +1275,7 @@
   {
     "lemma": "consider",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "considers"
     }
@@ -1283,7 +1283,7 @@
   {
     "lemma": "replace",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "replaces"
     }
@@ -1291,7 +1291,7 @@
   {
     "lemma": "reduce",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "reduces"
     }
@@ -1299,7 +1299,7 @@
   {
     "lemma": "expand",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "expands",
       "ing": "expanding"
@@ -1311,7 +1311,7 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "records"
     }
@@ -1322,7 +1322,7 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "matches"
     }
@@ -1333,7 +1333,7 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "pins"
     }
@@ -1344,7 +1344,7 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "fetches",
       "past": "fetched"
@@ -1353,7 +1353,7 @@
   {
     "lemma": "migrate",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "migrates"
     }
@@ -1364,7 +1364,7 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "saves"
     }
@@ -1372,7 +1372,7 @@
   {
     "lemma": "optimize",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "optimizes"
     }
@@ -1383,7 +1383,7 @@
     "reject": {
       "NOUN": "expense"
     },
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "past": "costed"
     }
@@ -1391,7 +1391,7 @@
   {
     "lemma": "grow",
     "category": "VERB_INTRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "past": "grew",
       "ppart": "grown",
@@ -1401,7 +1401,7 @@
   {
     "lemma": "collide",
     "category": "VERB_INTRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "collides"
     }
@@ -1415,7 +1415,7 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "prior",
@@ -1423,7 +1423,7 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "comparative": "priorer",
       "superlative": "priorest"
@@ -1432,7 +1432,7 @@
   {
     "lemma": "rare",
     "category": "ADJ",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "common",
@@ -1440,7 +1440,7 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "small",
@@ -1449,7 +1449,7 @@
       "NOUN",
       "ADV"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "irregular",
@@ -1457,32 +1457,32 @@
     "waive": [
       "NOUN"
     ],
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "deterministic",
     "category": "ADJ",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "handwritten",
     "category": "ADJ",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "apparent",
     "category": "ADJ",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "expensive",
     "category": "ADJ",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "unused",
     "category": "ADJ",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)"
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
   },
   {
     "lemma": "percent",
@@ -1505,7 +1505,7 @@
   {
     "lemma": "improvement",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "improvements"
     }
@@ -1513,7 +1513,7 @@
   {
     "lemma": "hidden",
     "category": "ADJ",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "waive": [
       "VERB"
     ]
@@ -1533,7 +1533,7 @@
   {
     "lemma": "difference",
     "category": "NOUN",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "waive": [
       "VERB"
     ],
@@ -1544,7 +1544,7 @@
   {
     "lemma": "explain",
     "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 minglish rewrite (dogfood, 2026-09-01)",
+    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "explains",
       "past": "explained",

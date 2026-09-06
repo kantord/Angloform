@@ -1,4 +1,4 @@
-//! triage — run the minglish lexicon against a pre-tagged corpus (CoNLL-U)
+//! triage — run the angloform lexicon against a pre-tagged corpus (CoNLL-U)
 //! and report how far real English sentences are from being expressible.
 //!
 //! Token verdicts:

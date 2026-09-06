@@ -2,7 +2,7 @@
 
 Not a coverage target (see docs/STATUS.md, "EWT triage numbers are telemetry, not targets"); this measures which *rejection explanations* fire, not how much of English parses.
 
-## Near-miss minglish (tests/paragraph-cases + tests/agent-cases)
+## Near-miss angloform (tests/paragraph-cases + tests/agent-cases)
 
 Real repair-attempt proposals/outputs — the higher-relevance source — 6643 sentences.
 
@@ -14,7 +14,7 @@ Real repair-attempt proposals/outputs — the higher-relevance source — 6643 s
 - Unknown: 70 (1.1%)
 - Word: 2670 (40.2%)
 
-### The generic fallback ("restructure into one of the minglish templates")
+### The generic fallback ("restructure into one of the angloform templates")
 
 Fired 28 times.
 
@@ -51,21 +51,21 @@ Fired 28 times.
 
 - 480 — X — a singular noun needs a determiner: X (mass nouns take X)
   example: the declarations list contains the words i and you and my and your
-- 273 — X — noun-noun compounds are not minglish; write X, or one transparent word (ADR 0015)
+- 273 — X — noun-noun compounds are not angloform; write X, or one transparent word (ADR 0015)
   example: the system does not have an anaphora mechanism
 - 121 — X is a defined term — write X (see CONTEXT.md)
   example: the system does not have plans for an anaphora or a discourse layer
 - 114 — this is an inline list — write an Enumeration block: a statement ending in X whose last noun phrase is plural or counted, then one X per line (ADR 0028)
   example: the allowed words include i, you, my, and your
-- 108 — X is transitive in minglish and needs an object
+- 108 — X is transitive in angloform and needs an object
   example: the system does not have plans for an anaphora or a discourse layer
 - 97 — a comma before X is mandatory when a new clause follows — X; no comma when X only joins a predicate under the same subject (ADR 0037)
   example: the declarations list contains the words i and you and my and your
-- 76 — X is a verb in minglish and cannot follow a determiner
-  example: Minglish is the name of the language
+- 76 — X is a verb in angloform and cannot follow a determiner
+  example: Angloform is the name of the language
 - 76 — noun phrases cannot be coordinated — write the colon-list: X (ADR 0041), or split the sentence (ADR 0004). Repeating the verb does not help here: the same verb twice is itself banned (ADR 0048)
   example: A Copula uses "is not" or "are not"
-- 69 — X is a verb in minglish — as a noun use X
+- 69 — X is a verb in angloform — as a noun use X
   example: the cost is consistent with the clarity of the project
 - 52 — X — a Name takes no determiner: write X, or introduce it with a noun: X (ADR 0018)
   example: The Linter can lint a Negated statement
@@ -81,15 +81,15 @@ Fired 28 times.
   example: A rule forces longer text
 - 32 — X — an adjective cannot take a prepositional phrase yet; restructure with a verb, or split the sentence (deferred, ADR 0023)
   example: the cost is consistent with the clarity of the project
-- 28 — this structure is outside the sanctioned sentence shapes — restructure into one of the minglish templates
+- 28 — this structure is outside the sanctioned sentence shapes — restructure into one of the angloform templates
   example: i refers to the speaker
 - 26 — X — only X attaches to a noun; X attaches to the verb. Write X, or move the phrase after the verb (ADR 0011)
   example: a mechanism for the anaphora does not appear
 - 25 — X — comparatives of a quantity are deferred (ADR 0030); write X, or restructure
   example: Every rule removes more ambiguity than the added length costs
-- 25 — passive (X) is not in minglish — name the doer and use active voice (ADR 0003)
+- 25 — passive (X) is not in angloform — name the doer and use active voice (ADR 0003)
   example: the prose is accepted
-- 23 — X is a verb form in minglish and cannot follow a determiner — name the thing with a noun
+- 23 — X is a verb form in angloform and cannot follow a determiner — name the thing with a noun
   example: the agent needs a discourse layer for the finding of the referent of the anaphora
 - 23 — a comma cannot join 2 clauses — write 2 sentences, or X / X (ADR 0026)
   example: the prose is repetitive, the agent mentions the agent
@@ -147,7 +147,7 @@ Fired 28 times.
   example: A rule can force a text longer than the standard
 - 6 — line 1 (X): a step is one clause with no coordination — unexpected NounPl(X) at word 2 — no sanctioned sentence structure continues this way
   example: When a rule forces a longer text, the text must earn the length
-- 4 — X is a noun in minglish — as a verb use X
+- 4 — X is a noun in angloform — as a verb use X
   example: i did not design a discourse mechanism
 - 4 — X — a verb takes one object; write X (no ditransitives)
   example: The Sentence Shapes give every sentence a Parse
@@ -178,7 +178,7 @@ Fired 28 times.
 
 ## Real English, for comparison (data/ud/en_ewt-ud-test.conllu)
 
-Not curated minglish at all — most of it fails at the WORD level first — 2077 sentences.
+Not curated angloform at all — most of it fails at the WORD level first — 2077 sentences.
 
 ### Outcomes
 
@@ -187,7 +187,7 @@ Not curated minglish at all — most of it fails at the WORD level first — 207
 - Unknown: 18 (0.9%)
 - Word: 2027 (97.6%)
 
-### The generic fallback ("restructure into one of the minglish templates")
+### The generic fallback ("restructure into one of the angloform templates")
 
 Fired 1 times.
 
@@ -195,13 +195,13 @@ Fired 1 times.
 
 ### STYLE finding kinds, ranked (quoted words normalized to `X`)
 
-- 8 — X is transitive in minglish and needs an object
+- 8 — X is transitive in angloform and needs an object
   example: Compare the flags to the Fallujah one.
 - 7 — X — a Name takes no determiner: write X, or introduce it with a noun: X (ADR 0018)
   example: Compare the flags to the Fallujah one.
 - 3 — X — an adjective cannot modify a Name; write X alone, or X (ADR 0018)
   example: Original Margin Call Margin Due Today
-- 2 — X is a verb in minglish and cannot follow a determiner
+- 2 — X is a verb in angloform and cannot follow a determiner
   example: Compare the flags to the Fallujah one.
 - 2 — X needs its noun: X (ADR 0029)
   example: First Union Securities, Inc.
@@ -217,6 +217,6 @@ Fired 1 times.
   example: But not so.
 - 1 — X — a verb form cannot be the subject; name the doer: X
   example: Winning Attorney!
-- 1 — this structure is outside the sanctioned sentence shapes — restructure into one of the minglish templates
+- 1 — this structure is outside the sanctioned sentence shapes — restructure into one of the angloform templates
   example: STAY AWAY
 

@@ -48,10 +48,10 @@ proposals:
     terms: 1
     connectives: 1
   diagnosis: |-
-    "Every Grammar ADR uses the 3 criteria": STYLE: "every Grammar ADR" — a Name follows a noun only after "the" or "a"; write "every Grammar of ADR" or restructure (ADR 0018) | "ADR must order the criteria": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file") | "ADR compares every structure to the 3 criteria": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file") | "the 3 criteria have one order:
+    "Every Grammar ADR uses the 3 criteria": STYLE: "every Grammar ADR" — a Name follows a noun only after "the" or "a"; write "every Grammar of ADR" or restructure (ADR 0018) | "ADR must order the criteria": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file") | "ADR compares every structure to the 3 criteria": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file") | "the 3 criteria have one order:
     - the first criterion
     - the second criterion
-    - the third criterion": STYLE: the enumerated noun phrase must be plural, counted ("3 pronouns"), or "every <noun>" (ADR 0028) | "ADR justifies the choice of the structure": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file")
+    - the third criterion": STYLE: the enumerated noun phrase must be plural, counted ("3 pronouns"), or "every <noun>" (ADR 0028) | "ADR justifies the choice of the structure": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file")
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: |-
@@ -72,10 +72,10 @@ proposals:
     terms: 0
     connectives: 1
   diagnosis: |-
-    "ADR orders the criteria": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file") | "ADR compares every structure to the 3 criteria": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file") | "The 3 criteria have one order:
+    "ADR orders the criteria": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file") | "ADR compares every structure to the 3 criteria": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file") | "The 3 criteria have one order:
     - the first criterion
     - the second criterion
-    - the third criterion": STYLE: the enumerated noun phrase must be plural, counted ("3 pronouns"), or "every <noun>" (ADR 0028) | "ADR justifies the choice of the structure": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file")
+    - the third criterion": STYLE: the enumerated noun phrase must be plural, counted ("3 pronouns"), or "every <noun>" (ADR 0028) | "ADR justifies the choice of the structure": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file")
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR must justify the choice of the Grammar ADR. the justification must reference the 3 criteria. the justification must follow the order of the criteria.
@@ -90,7 +90,7 @@ proposals:
     words: 28
     terms: 2
     connectives: 0
-  diagnosis: '"Every future Grammar ADR must justify the choice of the Grammar ADR": AMBIGUOUS (2 readings): "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; split the sentence, or move the prepositional phrase so each attachment is explicit | "the justification must reference the 3 criteria": WORD: "justification" is not a minglish word | "the justification must follow the order of the criteria": WORD: "justification" is not a minglish word'
+  diagnosis: '"Every future Grammar ADR must justify the choice of the Grammar ADR": AMBIGUOUS (2 readings): "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; split the sentence, or move the prepositional phrase so each attachment is explicit | "the justification must reference the 3 criteria": WORD: "justification" is not an angloform word | "the justification must follow the order of the criteria": WORD: "justification" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR must justify the choice of the ADR. the ADR references the 3 criteria. the ADR follows the order of the criteria.
@@ -120,7 +120,7 @@ proposals:
     words: 30
     terms: 1
     connectives: 0
-  diagnosis: '"Every future Grammar ADR must justify the choice of the document": AMBIGUOUS (2 readings): "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; split the sentence, or move the prepositional phrase so each attachment is explicit | "the document is the ADR": STYLE: "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018) | "the document references the 3 criteria": STYLE: "document references" — noun-noun compounds are not minglish; write "the references of the document", or one transparent word (ADR 0015)'
+  diagnosis: '"Every future Grammar ADR must justify the choice of the document": AMBIGUOUS (2 readings): "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; split the sentence, or move the prepositional phrase so each attachment is explicit | "the document is the ADR": STYLE: "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018) | "the document references the 3 criteria": STYLE: "document references" — noun-noun compounds are not angloform; write "the references of the document", or one transparent word (ADR 0015)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR must justify the choice. The choice must respect 3 criteria. The order of the criteria is the order of the list.
@@ -135,7 +135,7 @@ proposals:
     words: 25
     terms: 1
     connectives: 0
-  diagnosis: '"Every future Grammar ADR must justify the choice": STYLE: "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "The choice must respect 3 criteria": WORD: "respect" is not a minglish word'
+  diagnosis: '"Every future Grammar ADR must justify the choice": STYLE: "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "The choice must respect 3 criteria": WORD: "respect" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR justifies the choice. The choice uses 3 criteria. The order of the criteria is the order of the list.
@@ -150,7 +150,7 @@ proposals:
     words: 23
     terms: 1
     connectives: 0
-  diagnosis: '"Every future Grammar ADR justifies the choice": STYLE: this structure is outside the sanctioned sentence shapes — restructure into one of the minglish templates'
+  diagnosis: '"Every future Grammar ADR justifies the choice": STYLE: this structure is outside the sanctioned sentence shapes — restructure into one of the angloform templates'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The future Grammar ADR uses 3 criteria. The ADR justifies every choice against the criteria. The order of the criteria is the order of the list.
@@ -195,7 +195,7 @@ proposals:
     words: 25
     terms: 1
     connectives: 0
-  diagnosis: '"Every future Grammar Adr must justify the choice of the Adr": STYLE: "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "the Adr" — a Name takes no determiner: write "Adr", or introduce it with a noun: "the tool Adr" (ADR 0018) | "The justification names the 3 criteria": WORD: "justification" is not a minglish word | "The justification names the order of the criteria": WORD: "justification" is not a minglish word'
+  diagnosis: '"Every future Grammar Adr must justify the choice of the Adr": STYLE: "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "the Adr" — a Name takes no determiner: write "Adr", or introduce it with a noun: "the tool Adr" (ADR 0018) | "The justification names the 3 criteria": WORD: "justification" is not an angloform word | "The justification names the order of the criteria": WORD: "justification" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar Adr uses the 3 criteria. Every future Grammar Adr uses the order of the criteria.
@@ -210,7 +210,7 @@ proposals:
     words: 18
     terms: 2
     connectives: 0
-  diagnosis: '"Every future Grammar Adr uses the 3 criteria": not recognizable as a minglish-like sentence | "Every future Grammar Adr uses the order of the criteria": AMBIGUOUS (2 readings): split the sentence, or move the prepositional phrase so each attachment is explicit'
+  diagnosis: '"Every future Grammar Adr uses the 3 criteria": not recognizable as an angloform-like sentence | "Every future Grammar Adr uses the order of the criteria": AMBIGUOUS (2 readings): split the sentence, or move the prepositional phrase so each attachment is explicit'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR must justify the choice of the Grammar against the 3 criteria, in the order of the criteria.
@@ -240,7 +240,7 @@ proposals:
     words: 26
     terms: 2
     connectives: 0
-  diagnosis: '"Every future Grammar ADR uses the 3 criteria": not recognizable as a minglish-like sentence | "The ADR must justify the choice of the Grammar against the criteria, in the order of the criteria": STYLE: "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018)'
+  diagnosis: '"Every future Grammar ADR uses the 3 criteria": not recognizable as an angloform-like sentence | "The ADR must justify the choice of the Grammar against the criteria, in the order of the criteria": STYLE: "must … justify" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: ADR uses the 3 criteria. ADR must justify the choice of the Grammar against the criteria. The order of the criteria is the order of the list.
@@ -255,7 +255,7 @@ proposals:
     words: 27
     terms: 1
     connectives: 0
-  diagnosis: '"ADR uses the 3 criteria": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file") | "ADR must justify the choice of the Grammar against the criteria": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file")'
+  diagnosis: '"ADR uses the 3 criteria": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file") | "ADR must justify the choice of the Grammar against the criteria": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: every future Grammar adr must justify the choice against the 3 criteria in the order of the criteria
@@ -270,7 +270,7 @@ proposals:
     words: 18
     terms: 1
     connectives: 0
-  diagnosis: '"every future Grammar adr must justify the choice against the 3 criteria in the order of the criteria": WORD: "adr" is not a minglish word'
+  diagnosis: '"every future Grammar adr must justify the choice against the 3 criteria in the order of the criteria": WORD: "adr" is not an angloform word'
   count: 2
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR must justify the choice against the 3 criteria in the order of the criteria.
@@ -330,7 +330,7 @@ proposals:
     words: 21
     terms: 1
     connectives: 0
-  diagnosis: '"ADR is a document": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file") | "every future Grammar ADR justifies the choice against the 3 criteria in the order of the criteria": not recognizable as a minglish-like sentence'
+  diagnosis: '"ADR is a document": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file") | "every future Grammar ADR justifies the choice against the 3 criteria in the order of the criteria": not recognizable as an angloform-like sentence'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR must justify the choice of the ADR against the criteria and in the order.
@@ -375,7 +375,7 @@ proposals:
     words: 24
     terms: 1
     connectives: 1
-  diagnosis: '"A Grammar ADR is a document": STYLE: this structure is outside the sanctioned sentence shapes — restructure into one of the minglish templates | "The document justifies the choice of the ADR against the criteria and justifies the choice in the order": STYLE: "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018)'
+  diagnosis: '"A Grammar ADR is a document": STYLE: this structure is outside the sanctioned sentence shapes — restructure into one of the angloform templates | "The document justifies the choice of the ADR against the criteria and justifies the choice in the order": STYLE: "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR must use the 3 criteria. the ADR justifies the choice against the criteria in the order of the criteria.
@@ -405,7 +405,7 @@ proposals:
     words: 22
     terms: 1
     connectives: 0
-  diagnosis: '"Every future Grammar ADR uses the 3 criteria": not recognizable as a minglish-like sentence | "the ADR justifies the choice against the criteria in the order of the criteria": STYLE: "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018)'
+  diagnosis: '"Every future Grammar ADR uses the 3 criteria": not recognizable as an angloform-like sentence | "the ADR justifies the choice against the criteria in the order of the criteria": STYLE: "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Every future Grammar ADR must justify the choice of the Grammar against the 3 criteria in the order of the criteria.
@@ -540,6 +540,6 @@ proposals:
     words: 21
     terms: 1
     connectives: 0
-  diagnosis: '"Every future Grammar ADR justifies every choice of the ADR against the 3 criteria": STYLE: "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018) | "ADR follows the order of the criteria": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file")'
+  diagnosis: '"Every future Grammar ADR justifies every choice of the ADR against the 3 criteria": STYLE: "the ADR" — a Name takes no determiner: write "ADR", or introduce it with a noun: "the tool ADR" (ADR 0018) | "ADR follows the order of the criteria": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file")'
   count: 1
   model: deepseek/deepseek-v4-flash

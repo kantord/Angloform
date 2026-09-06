@@ -42,7 +42,7 @@ proposals:
     words: 25
     terms: 0
     connectives: 0
-  diagnosis: '"The writer chooses the common pattern of standard English": not recognizable as a minglish-like sentence'
+  diagnosis: '"The writer chooses the common pattern of standard English": not recognizable as an angloform-like sentence'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The writer uses the common pattern of standard English.
@@ -57,7 +57,7 @@ proposals:
     words: 9
     terms: 0
     connectives: 0
-  diagnosis: '"The writer uses the common pattern of standard English": not recognizable as a minglish-like sentence'
+  diagnosis: '"The writer uses the common pattern of standard English": not recognizable as an angloform-like sentence'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the good branching is not an option, then the agent chooses the most common pattern of English. Familiarity is an aid to the reader. Surprise is a cost to the reader.
@@ -72,7 +72,7 @@ proposals:
     words: 32
     terms: 0
     connectives: 0
-  diagnosis: '"If the good branching is not an option, then the agent chooses the most common pattern of English": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item | "Familiarity is an aid to the reader": WORD: "aid" is banned in minglish — write "help": "the rule helps the reader" | "Surprise is a cost to the reader": STYLE: "cost" is a verb in minglish — as a noun use "expense"; "cost" is transitive in minglish and needs an object; "is … cost" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "surprise" — a singular noun needs a determiner: "the surprise" (mass nouns take "the")'
+  diagnosis: '"If the good branching is not an option, then the agent chooses the most common pattern of English": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item | "Familiarity is an aid to the reader": WORD: "aid" is banned in angloform — write "help": "the rule helps the reader" | "Surprise is a cost to the reader": STYLE: "cost" is a verb in angloform — as a noun use "expense"; "cost" is transitive in angloform and needs an object; "is … cost" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "surprise" — a singular noun needs a determiner: "the surprise" (mass nouns take "the")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: A good branching is not an option. The agent chooses the common pattern of English. Familiarity helps the reader. The surprise is an expense to the reader.
@@ -116,7 +116,7 @@ proposals:
     words: 32
     terms: 0
     connectives: 1
-  diagnosis: '"If the ideal Branching is not available, then the writer chooses the most common structure of English": WORD: "Branching" is not a minglish word — minglish words are lowercase ("branching"); a name that equals a word needs quotes | "familiarity is a help to the reader and surprise is a cost to the reader": STYLE: "cost" is a verb in minglish — as a noun use "expense"; "cost" is transitive in minglish and needs an object; "familiarity" — a singular noun needs a determiner: "the familiarity" (mass nouns take "the"); "help" is a verb in minglish and cannot follow a determiner; "help" is transitive in minglish and needs an object; "is … help" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "surprise" — a singular noun needs a determiner: "the surprise" (mass nouns take "the"); a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037)'
+  diagnosis: '"If the ideal Branching is not available, then the writer chooses the most common structure of English": WORD: "Branching" is not an angloform word — angloform words are lowercase ("branching"); a name that equals a word needs quotes | "familiarity is a help to the reader and surprise is a cost to the reader": STYLE: "cost" is a verb in angloform — as a noun use "expense"; "cost" is transitive in angloform and needs an object; "familiarity" — a singular noun needs a determiner: "the familiarity" (mass nouns take "the"); "help" is a verb in angloform and cannot follow a determiner; "help" is transitive in angloform and needs an object; "is … help" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "surprise" — a singular noun needs a determiner: "the surprise" (mass nouns take "the"); a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not available, then the writer chooses the most common structure of English. The familiarity of the structure helps the reader. The surprise of a new structure costs the reader.
@@ -131,7 +131,7 @@ proposals:
     words: 34
     terms: 0
     connectives: 0
-  diagnosis: '"If the ideal branching is not available, then the writer chooses the most common structure of English": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
+  diagnosis: '"If the ideal branching is not available, then the writer chooses the most common structure of English": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not available, then the writer chooses the common structure of English. The familiarity of the structure helps the reader. The surprise of a new structure costs the reader.
@@ -160,7 +160,7 @@ proposals:
     words: 36
     terms: 0
     connectives: 3
-  diagnosis: '"if the ideal branching does not exist, then the writer must use the most common pattern of English, because the familiarities of the reader help the reader and the surprise of the reader costs the reader": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
+  diagnosis: '"if the ideal branching does not exist, then the writer must use the most common pattern of English, because the familiarities of the reader help the reader and the surprise of the reader costs the reader": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: if the ideal branching does not exist, then the writer must use a commoner pattern of English than the ideal branching, because the familiarities of the reader help the reader and the surprise of the reader costs the reader
@@ -175,7 +175,7 @@ proposals:
     words: 39
     terms: 0
     connectives: 4
-  diagnosis: '"if the ideal branching does not exist, then the writer must use a commoner pattern of English than the ideal branching, because the familiarities of the reader help the reader and the surprise of the reader costs the reader": WORD: "commoner" is not a minglish word'
+  diagnosis: '"if the ideal branching does not exist, then the writer must use a commoner pattern of English than the ideal branching, because the familiarities of the reader help the reader and the surprise of the reader costs the reader": WORD: "commoner" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: if the ideal branching does not exist, then the writer must use a more familiar pattern of English than the ideal branching, because the familiarities of the reader help the reader and the surprise of the reader costs the reader
@@ -205,7 +205,7 @@ proposals:
     words: 28
     terms: 0
     connectives: 1
-  diagnosis: '"If the ideal branching does not exist, then the writer uses the most common pattern of standard English": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item | "familiarity is a processing aid, so surprise is a cost": WORD: "processing" is not a minglish word [all unknown words: processing, aid]'
+  diagnosis: '"If the ideal branching does not exist, then the writer uses the most common pattern of standard English": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item | "familiarity is a processing aid, so surprise is a cost": WORD: "processing" is not an angloform word [all unknown words: processing, aid]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is absent, then the writer uses a frequent pattern of standard English. familiarity helps the reader, so surprise is a cost.
@@ -220,7 +220,7 @@ proposals:
     words: 25
     terms: 0
     connectives: 1
-  diagnosis: '"If the ideal branching is absent, then the writer uses a frequent pattern of standard English": WORD: "frequent" is not a minglish word | "familiarity helps the reader, so surprise is a cost": STYLE: "cost" is a verb in minglish — as a noun use "expense"; "cost" is transitive in minglish and needs an object; "familiarity" — a singular noun needs a determiner: "the familiarity" (mass nouns take "the"); "surprise" — a singular noun needs a determiner: "the surprise" (mass nouns take "the")'
+  diagnosis: '"If the ideal branching is absent, then the writer uses a frequent pattern of standard English": WORD: "frequent" is not an angloform word | "familiarity helps the reader, so surprise is a cost": STYLE: "cost" is a verb in angloform — as a noun use "expense"; "cost" is transitive in angloform and needs an object; "familiarity" — a singular noun needs a determiner: "the familiarity" (mass nouns take "the"); "surprise" — a singular noun needs a determiner: "the surprise" (mass nouns take "the")'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is absent, then the writer uses a common pattern of standard English. the familiarity helps the reader, so the surprise is an expense.
@@ -235,7 +235,7 @@ proposals:
     words: 27
     terms: 0
     connectives: 1
-  diagnosis: '"If the ideal branching is absent, then the writer uses a common pattern of standard English": not recognizable as a minglish-like sentence'
+  diagnosis: '"If the ideal branching is absent, then the writer uses a common pattern of standard English": not recognizable as an angloform-like sentence'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not valid, then the writer chooses the most common pattern of English. Familiarity helps the reader, and surprise costs the reader.
@@ -250,7 +250,7 @@ proposals:
     words: 26
     terms: 0
     connectives: 1
-  diagnosis: '"If the ideal branching is not valid, then the writer chooses the most common pattern of English": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item | "Familiarity helps the reader, and surprise costs the reader": STYLE: "familiarity" — a singular noun needs a determiner: "the familiarity" (mass nouns take "the"); "surprise" — a singular noun needs a determiner: "the surprise" (mass nouns take "the"); this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028)'
+  diagnosis: '"If the ideal branching is not valid, then the writer chooses the most common pattern of English": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item | "Familiarity helps the reader, and surprise costs the reader": STYLE: "familiarity" — a singular noun needs a determiner: "the familiarity" (mass nouns take "the"); "surprise" — a singular noun needs a determiner: "the surprise" (mass nouns take "the"); this is an inline list — write an Enumeration block: a statement ending in ":" whose last noun phrase is plural or counted, then one "- item" per line (ADR 0028)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not valid, then the writer chooses the common pattern of English. The writer chooses the common pattern over the less common pattern. The familiarity helps the reader, and the surprise costs the reader.
@@ -265,7 +265,7 @@ proposals:
     words: 38
     terms: 0
     connectives: 1
-  diagnosis: '"The writer chooses the common pattern over the less common pattern": WORD: "less" is banned in minglish — comparatives of a quantity are deferred (ADR 0030) - write "a small <noun>", or a Comparative of an adjective with "than"'
+  diagnosis: '"The writer chooses the common pattern over the less common pattern": WORD: "less" is banned in angloform — comparatives of a quantity are deferred (ADR 0030) - write "a small <noun>", or a Comparative of an adjective with "than"'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not valid, then the writer chooses the common pattern of English. The common pattern is better than the rare pattern. The familiarity helps the reader, and the surprise costs the reader.
@@ -294,7 +294,7 @@ proposals:
     words: 28
     terms: 0
     connectives: 1
-  diagnosis: '"If the ideal branching is not available, then the agent chooses the most common pattern of standard English": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item | "Familiarity is a processing aid, and surprise is a cost": WORD: "processing" is not a minglish word [all unknown words: processing, aid]'
+  diagnosis: '"If the ideal branching is not available, then the agent chooses the most common pattern of standard English": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item | "Familiarity is a processing aid, and surprise is a cost": WORD: "processing" is not an angloform word [all unknown words: processing, aid]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not available, then the agent chooses a more common pattern of standard English. A familiar pattern helps the reader, and a surprising pattern costs the reader.
@@ -309,7 +309,7 @@ proposals:
     words: 31
     terms: 0
     connectives: 1
-  diagnosis: '"If the ideal branching is not available, then the agent chooses a more common pattern of standard English": STYLE: "pattern" — a singular noun needs a determiner: "the pattern" (mass nouns take "the") | "A familiar pattern helps the reader, and a surprising pattern costs the reader": WORD: "surprising" is not a minglish word'
+  diagnosis: '"If the ideal branching is not available, then the agent chooses a more common pattern of standard English": STYLE: "pattern" — a singular noun needs a determiner: "the pattern" (mass nouns take "the") | "A familiar pattern helps the reader, and a surprising pattern costs the reader": WORD: "surprising" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not available, then the agent chooses the more common pattern of standard English. A familiar pattern helps the reader, and a novel pattern costs the reader.
@@ -324,7 +324,7 @@ proposals:
     words: 31
     terms: 0
     connectives: 1
-  diagnosis: '"If the ideal branching is not available, then the agent chooses the more common pattern of standard English": STYLE: "pattern" — a singular noun needs a determiner: "the pattern" (mass nouns take "the") | "A familiar pattern helps the reader, and a novel pattern costs the reader": WORD: "novel" is not a minglish word'
+  diagnosis: '"If the ideal branching is not available, then the agent chooses the more common pattern of standard English": STYLE: "pattern" — a singular noun needs a determiner: "the pattern" (mass nouns take "the") | "A familiar pattern helps the reader, and a novel pattern costs the reader": WORD: "novel" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The Sentence Shape of the last resort is the most common pattern of English. If the ideal branching does not exist, then the writer uses the most frequent standard pattern, because familiarities reduce the load and surprise increases the load.
@@ -339,7 +339,7 @@ proposals:
     words: 40
     terms: 1
     connectives: 2
-  diagnosis: '"The Sentence Shape of the last resort is the most common pattern of English": WORD: "resort" is not a minglish word [all unknown words: resort, most] | "If the ideal branching does not exist, then the writer uses the most frequent standard pattern, because familiarities reduce the load and surprise increases the load": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item [all unknown words: most, frequent, increases]'
+  diagnosis: '"The Sentence Shape of the last resort is the most common pattern of English": WORD: "resort" is not an angloform word [all unknown words: resort, most] | "If the ideal branching does not exist, then the writer uses the most frequent standard pattern, because familiarities reduce the load and surprise increases the load": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item [all unknown words: most, frequent, increases]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The writer uses a common pattern of English. If the ideal branching is absent, then the writer uses a pattern that is more common than the alternative. Familiarities reduce the load, and surprise increases the load.
@@ -354,7 +354,7 @@ proposals:
     words: 36
     terms: 0
     connectives: 2
-  diagnosis: '"If the ideal branching is absent, then the writer uses a pattern that is more common than the alternative": WORD: "that" is banned in minglish — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010) | "Familiarities reduce the load, and surprise increases the load": WORD: "increases" is not a minglish word'
+  diagnosis: '"If the ideal branching is absent, then the writer uses a pattern that is more common than the alternative": WORD: "that" is banned in angloform — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010) | "Familiarities reduce the load, and surprise increases the load": WORD: "increases" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The writer uses a common pattern of English. If the ideal branching is absent, then the writer uses a pattern. The pattern is more common than the alternative. Familiarities reduce the load. Surprise grows the load.
@@ -384,7 +384,7 @@ proposals:
     words: 27
     terms: 0
     connectives: 2
-  diagnosis: '"If the ideal branching is not available, then a writer chooses the most common pattern of English, because familiarity helps the reader and surprise costs the reader": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
+  diagnosis: '"If the ideal branching is not available, then a writer chooses the most common pattern of English, because familiarity helps the reader and surprise costs the reader": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not available, then a writer chooses a common pattern of English, because familiarity helps the reader and surprise costs the reader.
@@ -429,7 +429,7 @@ proposals:
     words: 31
     terms: 1
     connectives: 2
-  diagnosis: '"The Fallback is a tie-breaker": WORD: "tie-breaker" is not a minglish word | "When the ideal branching is unavailable, the Grammar picks the most common pattern of English, because familiarity is a processing aid and surprise is a cost": WORD: line 1: "unavailable" is not a minglish word [all unknown words: unavailable, most, processing, aid]'
+  diagnosis: '"The Fallback is a tie-breaker": WORD: "tie-breaker" is not an angloform word | "When the ideal branching is unavailable, the Grammar picks the most common pattern of English, because familiarity is a processing aid and surprise is a cost": WORD: line 1: "unavailable" is not an angloform word [all unknown words: unavailable, most, processing, aid]'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The Fallback is a choice. When the Grammar cannot use the ideal branching, the Grammar picks the most common pattern of English, because the reader knows the pattern, and a surprise hurts the reader.
@@ -444,7 +444,7 @@ proposals:
     words: 34
     terms: 2
     connectives: 2
-  diagnosis: '"The Fallback is a choice": STYLE: "the Fallback" — a Name takes no determiner: write "Fallback", or introduce it with a noun: "the tool Fallback" (ADR 0018) | "When the Grammar cannot use the ideal branching, the Grammar picks the most common pattern of English, because the reader knows the pattern, and a surprise hurts the reader": WORD: line 1: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
+  diagnosis: '"The Fallback is a choice": STYLE: "the Fallback" — a Name takes no determiner: write "Fallback", or introduce it with a noun: "the tool Fallback" (ADR 0018) | "When the Grammar cannot use the ideal branching, the Grammar picks the most common pattern of English, because the reader knows the pattern, and a surprise hurts the reader": WORD: line 1: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: Fallback is a choice. When the Grammar cannot use the ideal branching, the Grammar picks a pattern of English that is more common than the alternatives, because the reader knows the pattern, and a surprise hurts the reader.
@@ -459,7 +459,7 @@ proposals:
     words: 38
     terms: 2
     connectives: 3
-  diagnosis: '"Fallback is a choice": WORD: "Fallback" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file") | "When the Grammar cannot use the ideal branching, the Grammar picks a pattern of English that is more common than the alternatives, because the reader knows the pattern, and a surprise hurts the reader": WORD: line 1: "that" is banned in minglish — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010)'
+  diagnosis: '"Fallback is a choice": WORD: "Fallback" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file") | "When the Grammar cannot use the ideal branching, the Grammar picks a pattern of English that is more common than the alternatives, because the reader knows the pattern, and a surprise hurts the reader": WORD: line 1: "that" is banned in angloform — "that" has 3 senses - as a pointer, repeat the noun you mean (ADR 0002); as a complementizer (shows that <fact>), state the fact in its own sentence: "the report shows the result"; as a relative (the file that fails), split: "the file fails. the file …" (ADR 0010)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: When the ideal branching is not available, a writer uses the most common pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.
@@ -474,7 +474,7 @@ proposals:
     words: 28
     terms: 0
     connectives: 4
-  diagnosis: '"When the ideal branching is not available, a writer uses the most common pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.": WORD: line 1: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
+  diagnosis: '"When the ideal branching is not available, a writer uses the most common pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.": WORD: line 1: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: When the ideal branching is not available, a writer uses a commoner pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.
@@ -489,7 +489,7 @@ proposals:
     words: 27
     terms: 0
     connectives: 4
-  diagnosis: '"When the ideal branching is not available, a writer uses a commoner pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.": WORD: line 1: "commoner" is not a minglish word'
+  diagnosis: '"When the ideal branching is not available, a writer uses a commoner pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.": WORD: line 1: "commoner" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: When the ideal branching is not available, a writer uses a more common pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.
@@ -504,7 +504,7 @@ proposals:
     words: 28
     terms: 0
     connectives: 4
-  diagnosis: '"When the ideal branching is not available, a writer uses a more common pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.": WORD: line 1: "Standard" is not a minglish word — minglish words are lowercase ("standard"); a name that equals a word needs quotes'
+  diagnosis: '"When the ideal branching is not available, a writer uses a more common pattern of Standard English, because familiarity helps the reader and because surprise hurts the reader.": WORD: line 1: "Standard" is not an angloform word — angloform words are lowercase ("standard"); a name that equals a word needs quotes'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not available, then the Grammar picks the most common pattern of English, because the familiarity of the pattern helps the reader and the surprise of a rare pattern hurts the reader.
@@ -519,7 +519,7 @@ proposals:
     words: 36
     terms: 1
     connectives: 2
-  diagnosis: '"If the ideal branching is not available, then the Grammar picks the most common pattern of English, because the familiarity of the pattern helps the reader and the surprise of a rare pattern hurts the reader": WORD: "most" is banned in minglish — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
+  diagnosis: '"If the ideal branching is not available, then the Grammar picks the most common pattern of English, because the familiarity of the pattern helps the reader and the surprise of a rare pattern hurts the reader": WORD: "most" is banned in angloform — superlatives are deferred (ADR 0029) - write a Comparative with a standard, or name the top item'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not available, then the Grammar picks the commoner pattern of English than the rare pattern, because the familiarity of the commoner pattern helps the reader and the surprise of the rare pattern hurts the reader.
@@ -534,7 +534,7 @@ proposals:
     words: 40
     terms: 1
     connectives: 3
-  diagnosis: '"If the ideal branching is not available, then the Grammar picks the commoner pattern of English than the rare pattern, because the familiarity of the commoner pattern helps the reader and the surprise of the rare pattern hurts the reader": WORD: "commoner" is not a minglish word'
+  diagnosis: '"If the ideal branching is not available, then the Grammar picks the commoner pattern of English than the rare pattern, because the familiarity of the commoner pattern helps the reader and the surprise of the rare pattern hurts the reader": WORD: "commoner" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: If the ideal branching is not available, then the Grammar picks the more common pattern of English than the rare pattern, because the familiarity of the more common pattern helps the reader and the surprise of the rare pattern hurts the reader.

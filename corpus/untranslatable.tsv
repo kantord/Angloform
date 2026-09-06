@@ -1,4 +1,4 @@
-# english sentence<TAB>reason codes — why a faithful minglish translation is impossible today
+# english sentence<TAB>reason codes — why a faithful angloform translation is impossible today
 # sampled deterministically from UD_English-EWT r2.16 test (# text lines, 5–14 words, every 29th)
 # codes: TENSE past/future needed; ASPECT progressive/perfect; QUESTION interrogative form;
 #   ANAPHORA 3rd-person reference; FRAGMENT not a clause; PASSIVE; IDIOM non-compositional;

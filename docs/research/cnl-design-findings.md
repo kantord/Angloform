@@ -1,4 +1,4 @@
-# Research findings: designing minglish (a minimal, unambiguous English subset)
+# Research findings: designing angloform (a minimal, unambiguous English subset)
 
 **Provenance note:** These findings come from exploratory Claude web sessions
 (August 2026) that combined literature review with ad-hoc experiments (WordNet /
@@ -30,7 +30,7 @@ flat-list resource.
 Ogden's 18 operator verbs average 19.7 WordNet senses vs 2.6 for verbs
 generally (7.5×). *make* = 49 senses, *give* = 44, *take* = 42, *get* = 36.
 Basic English's strategy (few, highly general words) is the exact opposite of
-minglish's (one form, one meaning).
+angloform's (one form, one meaning).
 
 ### Lexical swap algorithms find rarity, not disambiguation `[experiment]`
 A swap generator (replace ambiguous word with rarer synonym, e.g.
@@ -130,9 +130,9 @@ parse alone (no constituency parse needed).
 ### Grammar-based treebanks record full parse forests `[literature]`
 Redwoods (over the ERG) records *all* grammar-licensed analyses plus the
 annotator-preferred one, stored as discriminant decisions (dynamic treebank).
-Two uses for minglish: parse-count-per-sentence as an empirical ambiguity
+Two uses for angloform: parse-count-per-sentence as an empirical ambiguity
 ranking of constructions (what to ban), and coverage gaps as an adversarial
-paraphrase test set. Caveat: validating "minglish can express anything"
+paraphrase test set. Caveat: validating "angloform can express anything"
 against a grammar-filtered corpus pre-selects away the counterexamples — the
 *failures* are the deliverable.
 
@@ -227,8 +227,8 @@ machine contrast; a reliability claim). Faithful retranslations flipped the
 dogfood cost ratio from 0.56 to 1.13 — revealing a metric blind spot:
 unigram surprisal prices nominalizations ("word choice", "a human
 judgment") as cheap because their words are common, while their reader
-decoding cost is invisible. minglish unfolds nominalizations and gets
-billed for it. Consequences: (a) the cost ratio understates minglish
+decoding cost is invisible. angloform unfolds nominalizations and gets
+billed for it. Consequences: (a) the cost ratio understates angloform
 precisely where it helps most; (b) the ratio is telemetry, never a target
 for translators; (c) a future cost model should price syntactic/semantic
 decoding, not just lexical frequency (LM-based surprisal would partly
@@ -236,7 +236,7 @@ capture this).
 
 ### Parseability bias in rewrites (2026-09-01, 4th metric-chasing catch)
 Auditing the in-place ADR 0001 rewrites as English showed two of three had
-traded precision for minglish-validity ("committed"→"has"; "owns
+traded precision for angloform-validity ("committed"→"has"; "owns
 safety"→"finds the collisions") with the loss under-declared. The flow's
 rule is: rewrite into well-written English; when well-written English still
 fails to parse, that is GAP EVIDENCE (here: *we*, commit-as-verb), never a

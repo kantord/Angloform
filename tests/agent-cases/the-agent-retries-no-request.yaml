@@ -32,7 +32,7 @@ runs:
     attempts:
     - output: the agent does not retry any request
       valid: false
-      diagnosis: '"the agent does not retry any request": WORD: "any" is not a minglish word'
+      diagnosis: '"the agent does not retry any request": WORD: "any" is not an angloform word'
     - output: the agent does not retry a request
       valid: true
   - rounds: 1
@@ -56,7 +56,7 @@ runs:
     attempts:
     - output: the agent does not retry any request
       valid: false
-      diagnosis: '"the agent does not retry any request": WORD: "any" is not a minglish word'
+      diagnosis: '"the agent does not retry any request": WORD: "any" is not an angloform word'
     - output: the agent does not retry a request
       valid: true
   - rounds: 1
@@ -106,7 +106,7 @@ runs:
     attempts:
     - output: the agent does not retry any request
       valid: false
-      diagnosis: '"the agent does not retry any request": WORD: "any" is not a minglish word'
+      diagnosis: '"the agent does not retry any request": WORD: "any" is not an angloform word'
     - output: the agent retries no request
       valid: false
       diagnosis: '"the agent retries no request": STYLE: "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'

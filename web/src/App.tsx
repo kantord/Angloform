@@ -50,7 +50,7 @@ export default function App() {
   return (
     <div className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-8">
       <header className="flex flex-col gap-1">
-        <h1 className="font-heading text-3xl font-semibold tracking-tight">minglish</h1>
+        <h1 className="font-heading text-3xl font-semibold tracking-tight">angloform</h1>
         <p className="text-sm text-muted-foreground">
           the linter of the project, compiled to wasm — type a sentence, pick an example,
           and see the Parse and the Rejections of the Linter.
@@ -66,7 +66,7 @@ export default function App() {
           <Textarea
             value={sentence}
             onChange={(e) => setSentence(e.target.value)}
-            placeholder="type a sentence of minglish…"
+            placeholder="type a sentence of angloform…"
             rows={2}
             onKeyDown={(e) => {
               if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {

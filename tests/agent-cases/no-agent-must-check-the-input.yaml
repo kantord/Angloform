@@ -150,7 +150,7 @@ runs:
     - output: agent must not check the input
       valid: false
       diagnosis: '"agent must not check the input": STYLE: this structure is outside
-        the sanctioned sentence shapes — restructure into one of the minglish templates'
+        the sanctioned sentence shapes — restructure into one of the angloform templates'
     - output: every agent must not check the input
       valid: false
       diagnosis: '"every agent must not check the input": STYLE: "every … not" is

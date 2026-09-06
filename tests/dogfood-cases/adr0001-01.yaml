@@ -5,8 +5,8 @@ diagnosis: passive + pronoun chain + semicolon splice (they, are committed, neve
   hand-edited)
 resolution: rewritten
 rewrite: We commit the generated files. People do not edit the generated files.
-note: 'rewrite applied in place in ADR 0001; the new prose is itself valid minglish
+note: 'rewrite applied in place in ADR 0001; the new prose is itself valid angloform
   (both sentences parse); redundant ''build outputs'' apposition removed (generated
   entails it) | REVISED after quality re-audit: ''repository has'' was vaguer than
-  ''committed'' - precision restored; ''we commit'' is well-written English that minglish
+  ''committed'' - precision restored; ''we commit'' is well-written English that angloform
   cannot yet parse (gaps filed: we, commit-as-verb)'

@@ -1,7 +1,7 @@
 # 0006 — Syntax principle: comprehension-first branching, minimal context need
 
 Date: 2026-08-31
-Status: accepted (governing principle for all grammar-tier decisions; rewritten in minglish 2026-09-02)
+Status: accepted (governing principle for all grammar-tier decisions; rewritten in angloform 2026-09-02)
 
 ## Context
 
@@ -55,7 +55,7 @@ earns the words, and the mandatory word "then" earns the word. If a rule
 adds the padding, then the rule violates the 4th criterion.
 
 The 5th criterion is the expressiveness. A natural text is a real goal. A
-text of Minglish must be pleasant and must not be robotic. The 4 prior
+text of Angloform must be pleasant and must not be robotic. The 4 prior
 criteria outrank the expressiveness. The comparison of 2 valid
 formulations uses 3 criteria:
 - the Cognitive Load

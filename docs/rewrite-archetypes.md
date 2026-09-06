@@ -1,6 +1,6 @@
 # Rewrite archetypes
 
-Recurring problems met while rewriting the ADRs in minglish, logged as they
+Recurring problems met while rewriting the ADRs in angloform, logged as they
 occur (2026-09-02). Each is a candidate for the review after all ADRs
 parse: decide whether it is a language gap, a linter gap, or an accepted
 rewrite cost.

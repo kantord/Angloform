@@ -1,7 +1,7 @@
 # 0005 — Negation: not with do-support, fixed predicate scope
 
 Date: 2026-08-31
-Status: proposed (tentative — same review point as ADR 0002–0004; rewritten in minglish 2026-09-02)
+Status: proposed (tentative — same review point as ADR 0002–0004; rewritten in angloform 2026-09-02)
 
 ## Context
 

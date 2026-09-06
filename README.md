@@ -1,10 +1,10 @@
-# minglish
+# angloform
 
 A formalized, unambiguous subset of English with a real LALR(1) grammar:
 every enabled word has exactly one syntactic role and every sentence has
 exactly one parse, so text can be checked and parsed deterministically —
 not just a curated word list. Used to write its own design decisions:
-every ADR in `docs/adr/` (54 so far) is itself minglish, self-parsing,
+every ADR in `docs/adr/` (54 so far) is itself angloform, self-parsing,
 enforced by CI.
 
 **How ready is it?** `docs/readiness.md` is the living, measured answer —
@@ -19,8 +19,8 @@ just lint-file docs/adr/0001-generated-lexicon-from-curated-seed.md  # lint a wh
 just web                                   # run the browser playground (crates/wasm + web/)
 ```
 
-An LLM (or a person) writing minglish should start from
-`skills/minglish/SKILL.md` — the onboarding doc, itself proven against a
+An LLM (or a person) writing angloform should start from
+`skills/angloform/SKILL.md` — the onboarding doc, itself proven against a
 real repair-loop harness (see `docs/readiness.md`, Condition 5).
 
 ## Layout
@@ -28,7 +28,7 @@ real repair-loop harness (see `docs/readiness.md`, Condition 5).
 - `seed/seed.json` — hand-curated vocabulary source of truth (the only
   hand-edited lexical input; see `docs/adr/0001`)
 - `crates/lexgen` — generates `lexicon.tsv` + `docs/lexicon-report.md`
-- `crates/grammar` — the LALR(1) grammar (`minglish.lalrpop`), parser, and
+- `crates/grammar` — the LALR(1) grammar (`angloform.lalrpop`), parser, and
   cognitive-load metrics (peak-open dependencies, right-branching share)
 - `crates/diagnose` — the linter CLI: parses cleanly (✓) or names exactly
   why not (a missing word, a banned shape, a specific style finding)
@@ -39,10 +39,10 @@ real repair-loop harness (see `docs/readiness.md`, Condition 5).
   Vite, with Playwright e2e tests)
 - `crates/agenttest` — the LLM repair-loop harness (milestone runs only,
   needs an API key — see `docs/readiness.md`, Condition 5)
-- `crates/textcost` — compares minglish vs. English token/word cost
+- `crates/textcost` — compares angloform vs. English token/word cost
 - `domain/model.json` — the project's own domain model (ADR 0027);
   `CONTEXT.md` is generated from it (`just define "<Term>"` looks one up)
-- `docs/adr/` — every language/policy decision, each self-parsing minglish
+- `docs/adr/` — every language/policy decision, each self-parsing angloform
   citing its own evidence · `docs/research/` — empirical findings ·
   `docs/readiness.md` — current status and the ordered plan to close gaps
 - `corpus/accept.txt` — hand-picked grammar-feature regression sentences

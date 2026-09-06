@@ -32,7 +32,7 @@ proposals:
     words: 15
     terms: 0
     connectives: 1
-  diagnosis: '"The copula does not use "do"": WORD: "copula" is not a minglish word — "Copula" is a defined term — write it capitalized (see CONTEXT.md) | "the copula uses "not" after "is" or after "were"": WORD: "copula" is not a minglish word — "Copula" is a defined term — write it capitalized (see CONTEXT.md)'
+  diagnosis: '"The copula does not use "do"": WORD: "copula" is not an angloform word — "Copula" is a defined term — write it capitalized (see CONTEXT.md) | "the copula uses "not" after "is" or after "were"": WORD: "copula" is not an angloform word — "Copula" is a defined term — write it capitalized (see CONTEXT.md)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The Copula does not use "do". the Copula uses "not" after "is" or after "were".
@@ -121,7 +121,7 @@ proposals:
     words: 18
     terms: 2
     connectives: 2
-  diagnosis: '"A Copular negation uses "is not" or "are not"": WORD: "Copular" is not a minglish word — minglish words are lowercase ("copular"); a name that equals a word needs quotes | "a Copular negation does not use "do" or "does"": WORD: "Copular" is not a minglish word — minglish words are lowercase ("copular"); a name that equals a word needs quotes'
+  diagnosis: '"A Copular negation uses "is not" or "are not"": WORD: "Copular" is not an angloform word — angloform words are lowercase ("copular"); a name that equals a word needs quotes | "a Copular negation does not use "do" or "does"": WORD: "Copular" is not an angloform word — angloform words are lowercase ("copular"); a name that equals a word needs quotes'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: A Copula uses "is not" or "are not". a Copula does not use "do" or "does".

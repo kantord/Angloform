@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Extract prose sentences from a markdown file, one per line, for linting.
-Backticked spans become minglish quoted identifiers, links resolve to their
+Backticked spans become angloform quoted identifiers, links resolve to their
 visible text, bold/italic strip; an Enumeration or Step Block prints as one
 line with its internal breaks marked by ⏎. Headings, tables, code fences,
 and horizontal rules are excluded — see docs/markdown-linting.md."""

@@ -1,7 +1,7 @@
 # 0003 — Copula: is/are only, present tense, no passive/progressive
 
 Date: 2026-08-31
-Status: proposed (tentative — same review point as ADR 0002; rewritten in minglish 2026-09-02)
+Status: proposed (tentative — same review point as ADR 0002; rewritten in angloform 2026-09-02)
 
 ## Context
 

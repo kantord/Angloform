@@ -1,7 +1,7 @@
 //! Property tests over arbitrary text, not just the curated corpus: every
 //! public entry point here is fed real user/agent/LLM input (a diagnose()
 //! call on an LLM repair proposal, a document run through units()), so
-//! crash-freedom on *any* string — not just well-formed minglish — is a
+//! crash-freedom on *any* string — not just well-formed angloform — is a
 //! real requirement, not a nicety. These complement corpus.rs's exact-output
 //! snapshots with much broader, generated-input coverage; proptest's
 //! shrinking turns any failure straight into a minimal repro.

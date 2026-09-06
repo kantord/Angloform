@@ -1,4 +1,4 @@
-# ADR dogfood pairs (0001–0005) — english<TAB>minglish<TAB>declared drops (ADR 0012)
+# ADR dogfood pairs (0001–0005) — english<TAB>angloform<TAB>declared drops (ADR 0012)
 # generated report: docs/dogfood-cost-report.md
 Word choice must stay a human judgment.	people must choose the words of the Lexicon. machines must not choose the words of the Lexicon.	nominalization,continuity
 …the critical safety property is exactly the kind of check humans miss and machines don't.	people cannot find every Collision. machines can find every Collision.	nominalization,emphasis
@@ -7,7 +7,7 @@ Every curation commit shows its effect in the diffs.	every commit shows the effe
 Both generated files are committed; they are build outputs and are never hand-edited.	the repository has the generated files. people do not edit the generated files.	redundancy
 Curation stays human and cheap: one JSON entry per word; the machine owns inflection and safety.	people choose the words. every word has one entry. the machine writes the inflections and finds the Collisions.	nominalization,continuity
 Reference data is used only for checking - never for choosing words.	the Linter checks the words with the data. the data does not choose the words.	nominalization
-minglish needs a lexicon: every allowed surface form, each with exactly one form-tag, plus redirects for rejected uses.	the language needs a Lexicon. the Lexicon contains every Surface Form of the words. every Surface Form has one Form Tag. a word can have an unused sense. the Lexicon can contain a replacement for the unused sense.	terminology
+angloform needs a lexicon: every allowed surface form, each with exactly one form-tag, plus redirects for rejected uses.	the language needs a Lexicon. the Lexicon contains every Surface Form of the words. every Surface Form has one Form Tag. a word can have an unused sense. the Lexicon can contain a replacement for the unused sense.	terminology
 Three ways to produce it were considered.	the maintainers considered 3 options.	topic-structure
 Prior research showed that algorithmic word selection optimizes rarity, not clarity: a swap generator's apparent disambiguation was fully explained by picking rarer words, and 43% of its swaps had no benefit at all.	the file "docs/research/cnl-design-findings.md" describes the prior research. the algorithms optimized the rarity of the words. the algorithms did not optimize the clarity of the words. one generator replaced common words with rare words. the rarity of the rare words explained the apparent improvement. 43 percent of the swaps did not reduce the ambiguity.	emphasis,comparative
 At the same time, hand-writing every inflected surface form (full paradigms, ~5 forms per verb) is toil that invites typos and silent gaps.	every verb has about 5 Surface Forms. if people write every Surface Form, then the Lexicon has typos. if people write every Surface Form, then the Lexicon has hidden holes.	affect

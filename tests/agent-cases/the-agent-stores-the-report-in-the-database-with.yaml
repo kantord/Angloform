@@ -36,7 +36,7 @@ runs:
     attempts:
     - output: the agent stores the report in the database. the agent uses the tool.
       valid: false
-      diagnosis: '"the agent uses the tool": WORD: "uses" is not a minglish word'
+      diagnosis: '"the agent uses the tool": WORD: "uses" is not an angloform word'
     - output: the agent stores the report in the database with the tool.
       valid: false
       diagnosis: '"the agent stores the report in the database with the tool": AMBIGUOUS (5 readings): split the sentence, or move the prepositional phrase so each attachment is explicit'
@@ -47,7 +47,7 @@ runs:
     attempts:
     - output: the agent stores the report in the database. the agent uses the tool.
       valid: false
-      diagnosis: '"the agent uses the tool": WORD: "uses" is not a minglish word'
+      diagnosis: '"the agent uses the tool": WORD: "uses" is not an angloform word'
     - output: the agent stores the report in the database. the agent stores the report with the tool.
       valid: true
   - rounds: 3
@@ -55,10 +55,10 @@ runs:
     attempts:
     - output: the agent stores the report in the database. the agent uses the tool.
       valid: false
-      diagnosis: '"the agent uses the tool": WORD: "uses" is not a minglish word'
+      diagnosis: '"the agent uses the tool": WORD: "uses" is not an angloform word'
     - output: the agent stores the report in the database. the agent uses the tool.
       valid: false
-      diagnosis: '"the agent uses the tool": WORD: "uses" is not a minglish word'
+      diagnosis: '"the agent uses the tool": WORD: "uses" is not an angloform word'
     - output: the agent stores the report in the database. the agent stores the report with the tool.
       valid: true
 - at_unix: 1788285596
@@ -72,7 +72,7 @@ runs:
     attempts:
     - output: the agent stores the report in the database. the tool is used for the report.
       valid: false
-      diagnosis: '"the tool is used for the report": STYLE: "used" is transitive in minglish and needs an object; passive ("is <verb>-ed") is not in minglish — name the doer and use active voice (ADR 0003)'
+      diagnosis: '"the tool is used for the report": STYLE: "used" is transitive in angloform and needs an object; passive ("is <verb>-ed") is not in angloform — name the doer and use active voice (ADR 0003)'
     - output: the agent stores the report in the database with the tool.
       valid: false
       diagnosis: '"the agent stores the report in the database with the tool": AMBIGUOUS (5 readings): split the sentence, or move the prepositional phrase so each attachment is explicit'

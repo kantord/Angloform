@@ -1,6 +1,6 @@
-# Dogfood: translating ADR 0001 into minglish
+# Dogfood: translating ADR 0001 into angloform
 
-Sentence-by-sentence attempt to render our own first ADR in minglish
+Sentence-by-sentence attempt to render our own first ADR in angloform
 (2026-09-01, lexicon at 47+ lemmas, tier-1 grammar). Faithful translations
 join `corpus/pairs.tsv`; blockers carry the reason codes from
 `corpus/untranslatable.tsv`. Retroactive rewriting of the ADR itself is
@@ -14,13 +14,13 @@ pairs: **docs/dogfood-cost-report.md** (source: corpus/dogfood-pairs.tsv).
 
 | ADR 0001 sentence (abridged) | verdict |
 |---|---|
-| "minglish needs a lexicon: every allowed surface form, each with exactly one form-tag…" | BLOCKED — QUANTIFIER (*every, each, exactly one*), COMPOUND (*form-tag*) |
+| "angloform needs a lexicon: every allowed surface form, each with exactly one form-tag…" | BLOCKED — QUANTIFIER (*every, each, exactly one*), COMPOUND (*form-tag*) |
 | "Word choice must stay a human judgment." | ✓ translated (post-ADR 0013) — "people must choose words", drops: nominalization |
 | "…exactly the kind of check humans miss and machines don't." | ✓ translated (post-ADR 0013) — "people do not find collisions. machines find collisions.", drops: nominalization |
 | "A hand-edited seed/seed.json is the single source of truth." | ✓ translated (post-ADR 0018) — "people edit the file \"seed.json\". the file \"seed.json\" is the source of the truth.", drops: emphasis |
-| "Both generated files are committed; they are…never hand-edited." | ✓ resolved by in-place rewrite (dogfood case adr0001-01): the flag was correct about the prose; the rewrite is itself valid minglish |
+| "Both generated files are committed; they are…never hand-edited." | ✓ resolved by in-place rewrite (dogfood case adr0001-01): the flag was correct about the prose; the rewrite is itself valid angloform |
 | "Reference data is used only for checking — never for choosing words." | ✓ resolved by in-place rewrite (case adr0001-03); only/never expressed as affirmative + generic-negation pair |
-| "Curation stays human and cheap: one JSON entry per word…" | ✓ resolved by in-place rewrite (case adr0001-02); all rewrite sentences valid minglish |
+| "Curation stays human and cheap: one JSON entry per word…" | ✓ resolved by in-place rewrite (case adr0001-02); all rewrite sentences valid angloform |
 | "Every curation commit shows its effect in the diffs." | ✓ translated (post-ADR 0014/0015) — "every commit shows the effect of the commit in the diffs", drops: nominalization |
 
 ## What technical prose needs, by blocking frequency
@@ -47,7 +47,7 @@ pairs: **docs/dogfood-cost-report.md** (source: corpus/dogfood-pairs.tsv).
 generic-reference retraction → 2 after ADR 0013 → 4 after names (ADR 0018),
 every/one, and the transparency policy unblocked the seed.json and
 curation-commit rows). **Reframe (2026-09-01): the goal is NOT to translate arbitrary English.**
-minglish parses well-written text and flags problems in text that is not —
+angloform parses well-written text and flags problems in text that is not —
 so each blocked row must first be judged: is the rejection the linter being
 *right* about the prose? Verdicts on the remaining 4: the both/they/passive
 semicolon splice and the "curation stays human and cheap" compression are
@@ -99,7 +99,7 @@ now listed in the lexicon report so the ADR 0023 hole is visible.
   (*about* / *~*).
 - Pair 14: the sentence had absorbed a parenthetical that belonged
   elsewhere → restated as drift + check + hand-edit failure.
-- Pair 15: the causal link ("hence this ADR") has no minglish form. Declared
+- Pair 15: the causal link ("hence this ADR") has no angloform form. Declared
   as `causal`, a known tier-1 debt; causal connectives are now the head of
   the STATUS queue.
 - Pair 13 (*commit* → *save … in the repository*) kept. The maintainer's

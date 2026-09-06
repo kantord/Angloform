@@ -2,7 +2,7 @@
 // the exact shape ADR 0040 found conflicts trying to add *inside* the main
 // grammar. Kept as its own small, separately-checked grammar (ADR 0043's
 // Idiomatic Structure principle applied to antiparsers themselves): no
-// shared nonterminals with minglish.lalrpop, so it cannot reconflict it,
+// shared nonterminals with angloform.lalrpop, so it cannot reconflict it,
 // and its own conflict-freedom is checked independently by lalrpop.
 
 use crate::anti::bare_coord::{Conjunct, BareCoordMatch};

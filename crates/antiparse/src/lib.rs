@@ -1,8 +1,8 @@
 //! Prototype: "antiparsers" — small, independent grammars that recognize
-//! known-*invalid*-minglish constructions structurally (not by token-window
+//! known-*invalid*-angloform constructions structurally (not by token-window
 //! heuristic), so a match carries real certainty, not a guess. Each lives
 //! in its own `.lalrpop` file with its own `extern` token block and shares
-//! no nonterminal with `minglish.lalrpop` or with each other — the same
+//! no nonterminal with `angloform.lalrpop` or with each other — the same
 //! confinement principle ADR 0043–0047 used for words, applied here to
 //! grammars. Evaluates: does that scale (do N independent grammars stay
 //! conflict-free), and can a match be mapped to a fixed repair.

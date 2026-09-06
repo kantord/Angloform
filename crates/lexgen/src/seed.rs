@@ -21,14 +21,14 @@ pub struct SeedEntry {
     #[serde(default)]
     pub advice: String,
     /// Domain-model entries only (ADR 0027): the term's meaning, in
-    /// minglish — self-linted, shown to writers and to the repair model.
+    /// angloform — self-linted, shown to writers and to the repair model.
     #[serde(default)]
     pub definition: String,
     /// Domain-model entries (ADR 0036): "unique" (one thing: Lexgen, the Seed)
     /// or "category" (a kind of thing: Anaphoric Pronoun). Nouns and names.
     #[serde(default)]
     pub kind: String,
-    /// Members or minglish sentences that show the thing; required for a
+    /// Members or angloform sentences that show the thing; required for a
     /// category (imaginability: a beginner sees an example before a rule).
     #[serde(default)]
     pub examples: Vec<String>,

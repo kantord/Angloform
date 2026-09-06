@@ -24,16 +24,16 @@ need `OPENROUTER_API_KEY` and are the user's to trigger).
   one corrected sentence; scored by running the real `diagnose` tool
   on the reply (objective, not a judge call).
 - **Constraint added mid-run**: the candidate prompt itself must be
-  valid minglish — every sentence in it must parse, checked with `just
+  valid angloform — every sentence in it must parse, checked with `just
   lint-file`. v0/v1 were ordinary English prose and were rewritten as
-  minglish from v1 onward.
+  angloform from v1 onward.
 
 ## Fix-rate results
 
 | candidate | words | self-parse | fix-rate (6-sentence core set) |
 |---|---|---|---|
 | v0 (English prose) | 299 | n/a | 4/6 (50% on 8-set) |
-| v1 (minglish, added NP-coordination rule) | 293 | 100% | 4/6 (unchanged — model still tried the banned "repeat the verb" workaround) |
+| v1 (angloform, added NP-coordination rule) | 293 | 100% | 4/6 (unchanged — model still tried the banned "repeat the verb" workaround) |
 | v2 (added "no repeated verb" + "quote every mention") | 283 | 100% | 6/6 (100%) |
 | v3 (strengthened the quoting rule to "every") | 283 | 100% | 6/6 core, 7/8 extended set |
 
@@ -75,19 +75,19 @@ better-worded prompt.
 
 ## Dogfood status, for contrast
 
-`skills/minglish/SKILL.md` (production, 1109 words): **2/51 sentences
-(4%) parse as minglish** — it's ordinary English prose describing the
-rules, not itself minglish. `skills/minglish/repair-prompt.md` (this
+`skills/angloform/SKILL.md` (production, 1109 words): **2/51 sentences
+(4%) parse as angloform** — it's ordinary English prose describing the
+rules, not itself angloform. `skills/angloform/repair-prompt.md` (this
 candidate, 283 words of prose): **35/35 sentences (100%)** — every
-rule is stated as an actual minglish sentence, checked with `just
+rule is stated as an actual angloform sentence, checked with `just
 lint-file`.
 
 ## What changed
 
-- New file `skills/minglish/repair-prompt.md` — the winning ≤300-word,
+- New file `skills/angloform/repair-prompt.md` — the winning ≤300-word,
   100%-dogfooded candidate.
 - `crates/agenttest/src/main.rs`'s `SKILL_PATH` now points at it
-  instead of `skills/minglish/SKILL.md`. **`SKILL.md` itself is
+  instead of `skills/angloform/SKILL.md`. **`SKILL.md` itself is
   untouched** — it stays the general-purpose onboarding doc (used
   interactively, and covers constructions like Conditional and Step
   Block that `repair-prompt.md` deliberately dropped to fit the word

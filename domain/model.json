@@ -152,7 +152,7 @@
   {
     "lemma": "translation pair",
     "category": "NOUN",
-    "definition": "a Translation Pair maps an original sentence of English to a sentence of Minglish. the Linter must parse the translation. the translation must keep every claim of the original sentence. the file \"corpus/pairs.tsv\" holds every Translation Pair with the Declared Losses of the pair.",
+    "definition": "a Translation Pair maps an original sentence of English to a sentence of Angloform. the Linter must parse the translation. the translation must keep every claim of the original sentence. the file \"corpus/pairs.tsv\" holds every Translation Pair with the Declared Losses of the pair.",
     "kind": "category",
     "examples": [
       "\"please delete my report\" → \"delete my report\"",
@@ -237,7 +237,7 @@
   {
     "lemma": "discourse layer",
     "category": "NOUN",
-    "definition": "a Discourse Layer is a mechanism. the mechanism finds the noun of an Anaphoric Pronoun in the prior text. Minglish does not have a Discourse Layer, so the writer repeats the noun.",
+    "definition": "a Discourse Layer is a mechanism. the mechanism finds the noun of an Anaphoric Pronoun in the prior text. Angloform does not have a Discourse Layer, so the writer repeats the noun.",
     "kind": "category",
     "examples": [
       "a Discourse Layer resolves the Pronoun \"it\" in the sentence \"it failed\"."
@@ -267,9 +267,9 @@
     ]
   },
   {
-    "lemma": "minglish",
+    "lemma": "angloform",
     "category": "NAME",
-    "definition": "Minglish is the language of the project and is a subset of English. every sentence of Minglish has one Parse. the sentence \"if the test fails, then the agent retries the request\" is a sentence of Minglish.",
+    "definition": "Angloform is the language of the project and is a subset of English. every sentence of Angloform has one Parse. the sentence \"if the test fails, then the agent retries the request\" is a sentence of Angloform.",
     "kind": "unique",
     "examples": [
       "if the test fails, then the agent retries the request."
@@ -687,7 +687,7 @@
     "definition": "a Language Model is a program. a Language Model reads a text and writes a text. a Language Model reads a sentence in the order of the words. a Language Model holds a small memory, so a long Open Dependency hurts a Language Model.",
     "kind": "category",
     "examples": [
-      "a Language Model wrote the decision \"0006\" in Minglish."
+      "a Language Model wrote the decision \"0006\" in Angloform."
     ]
   },
   {
@@ -706,7 +706,7 @@
     "forms": {
       "name": "English"
     },
-    "definition": "English is the language of the corpus. Minglish is a subset of English. a Translation Pair maps a sentence of English to a sentence of Minglish.",
+    "definition": "English is the language of the corpus. Angloform is a subset of English. a Translation Pair maps a sentence of English to a sentence of Angloform.",
     "kind": "unique",
     "examples": []
   },
@@ -935,7 +935,7 @@
     "forms": {
       "name": "Gherkin"
     },
-    "definition": "Gherkin is a format for a test. a file of Gherkin describes a feature of a program. every scenario of the file is a Step Block. a file of Gherkin is a document of Minglish, so the Linter lints every file in the folder \"features\".",
+    "definition": "Gherkin is a format for a test. a file of Gherkin describes a feature of a program. every scenario of the file is a Step Block. a file of Gherkin is a document of Angloform, so the Linter lints every file in the folder \"features\".",
     "kind": "unique",
     "examples": [
       "Feature: the agent retries a request\nScenario: the test fails\nGiven the test fails\nWhen the agent retries the request\nThen the queue is empty"

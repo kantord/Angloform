@@ -1,4 +1,4 @@
-# Dogfood: ADR 0005 in minglish
+# Dogfood: ADR 0005 in angloform
 
 One model run (cold start, 6 of 9 paragraphs with a valid proposal on the
 first run; all six judged needs-fix), then rewritten by hand 2026-09-02.

@@ -34,7 +34,7 @@ pub fn diagnose(lexicon: &Lexicon, sentence: &str) -> Diagnosis {
     if is_enumeration(sentence) || is_step_block(sentence) || is_mapping(sentence) {
         return match parse_text(lexicon, sentence) {
             Ok(tree) => Diagnosis::Clean(metrics(&tree)),
-            Err(e) if e.contains("not a minglish word") || e.contains("is banned in minglish") => Diagnosis::Word(e),
+            Err(e) if e.contains("not an angloform word") || e.contains("is banned in angloform") => Diagnosis::Word(e),
             Err(e) => Diagnosis::Style(vec![e]),
         };
     }
@@ -51,8 +51,8 @@ pub fn diagnose(lexicon: &Lexicon, sentence: &str) -> Diagnosis {
             }
             return Diagnosis::Clean(metrics(&tree));
         }
-        Err(e) if e.contains("not a minglish word")
-            || e.contains("is banned in minglish")
+        Err(e) if e.contains("not an angloform word")
+            || e.contains("is banned in angloform")
             || e.contains("not yet usable") => {
             return Diagnosis::Word(e)
         }
@@ -90,7 +90,7 @@ pub fn diagnose(lexicon: &Lexicon, sentence: &str) -> Diagnosis {
             if findings.is_empty() {
                 findings.push(
                     "this structure is outside the sanctioned sentence shapes — \
-                     restructure into one of the minglish templates"
+                     restructure into one of the angloform templates"
                         .to_string(),
                 );
             }
@@ -130,7 +130,7 @@ fn antiparser_fallback(lexicon: &Lexicon, toks: &[Tok]) -> Option<String> {
 /// ADR 0048: same-subject VP coordination repeating the identical verb
 /// lemma ("stores a word and stores a message") is banned in favor of the
 /// colon-list construction (ADR 0041) — the sole canonical form for this
-/// meaning now (grilled design: minglish converges to one construction
+/// meaning now (grilled design: angloform converges to one construction
 /// per meaning by default; coexistence needs empirical evidence, and none
 /// exists for this pair — this session's own earlier analysis already
 /// found the repeat form reads worse). This cannot be a grammar rule: a
@@ -322,7 +322,7 @@ fn capitalize(s: &str) -> String {
 
 // ------------------------------------------------------ pattern findings --
 
-/// When a word has a specific "X is a noun in minglish — as a verb use Y"
+/// When a word has a specific "X is a noun in angloform — as a verb use Y"
 /// (or the mirror "is a verb ... as a noun use Y") redirect finding, drop
 /// every other finding that also names that exact quoted word — those are
 /// generic checks re-diagnosing the same token with worse, sometimes
@@ -334,14 +334,14 @@ fn suppress_superseded(findings: &mut Vec<String>) {
     // either way, not just as a fully standalone quoted token.
     let redirected: Vec<String> = findings
         .iter()
-        .filter(|f| f.contains("in minglish — as a "))
+        .filter(|f| f.contains("in angloform — as a "))
         .filter_map(|f| f.split('"').nth(1).map(str::to_string))
         .collect();
     if redirected.is_empty() {
         return;
     }
     findings.retain(|f| {
-        f.contains("in minglish — as a ")
+        f.contains("in angloform — as a ")
             || !redirected.iter().any(|w| {
                 f.contains(&format!("\"{w}\"")) || f.contains(&format!("\"{w} ")) || f.contains(&format!(" {w}\""))
             })
@@ -498,7 +498,7 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
             && matches!(w[1], Tok::VtEd(_) | Tok::ViEd(_))
         {
             out.push(
-                "perfect aspect (\"has <verb>-ed\") is not in minglish — use the simple past \
+                "perfect aspect (\"has <verb>-ed\") is not in angloform — use the simple past \
                  (ADR 0016)"
                     .to_string(),
             );
@@ -507,12 +507,12 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
         if matches!(w[0], Tok::CopSg(_) | Tok::CopPl(_) | Tok::CopSgPast(_) | Tok::CopPlPast(_) | Tok::Cop1Sg(_)) {
             match &w[1] {
                 Tok::VtIng(_) | Tok::ViIng(_) => out.push(
-                    "progressive (\"is <verb>-ing\") is not in minglish — use the simple form \
+                    "progressive (\"is <verb>-ing\") is not in angloform — use the simple form \
                      (ADR 0003)"
                         .to_string(),
                 ),
                 Tok::VtEd(_) => out.push(
-                    "passive (\"is <verb>-ed\") is not in minglish — name the doer and use \
+                    "passive (\"is <verb>-ed\") is not in angloform — name the doer and use \
                      active voice (ADR 0003)"
                         .to_string(),
                 ),
@@ -532,7 +532,7 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
             if let Tok::VtEd(_) | Tok::ViEd(_) = toks[verbs[0]] {
                 if verbs[0] >= 1 && matches!(toks[verbs[0] - 1], Tok::NounSg(_) | Tok::NounPl(_)) {
                     out.push(
-                        "this reads as a reduced relative (\"the file stored …\") — minglish \
+                        "this reads as a reduced relative (\"the file stored …\") — angloform \
                          has no relative clauses yet; split into two sentences (ADR 0010)"
                             .to_string(),
                     );
@@ -783,7 +783,7 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
     for w in toks.windows(2) {
         if is_det(&w[0]) && matches!(w[1], Tok::VtIng(_) | Tok::ViIng(_)) {
             out.push(format!(
-                "\"{}\" is a verb form in minglish and cannot follow a determiner — name the thing with a noun",
+                "\"{}\" is a verb form in angloform and cannot follow a determiner — name the thing with a noun",
                 word(&w[1])
             ));
         }
@@ -917,7 +917,7 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
             let have_like = ["have", "has", "had"].contains(&word(t));
             if !object_start && !have_like && (next.is_none() || matches!(next, Some(Tok::PrepV(_)))) {
                 out.push(format!(
-                    "\"{}\" is transitive in minglish and needs an object",
+                    "\"{}\" is transitive in angloform and needs an object",
                     word(t)
                 ));
             }
@@ -985,8 +985,8 @@ fn slot_findings(lexicon: &Lexicon, toks: &[Tok]) -> Vec<String> {
                 if prev.is_some_and(is_det) =>
             {
                 out.push(match lexicon.redirect(w, "NOUN") {
-                    Some(s) => format!("\"{w}\" is a verb in minglish — as a noun use \"{s}\""),
-                    None => format!("\"{w}\" is a verb in minglish and cannot follow a determiner"),
+                    Some(s) => format!("\"{w}\" is a verb in angloform — as a noun use \"{s}\""),
+                    None => format!("\"{w}\" is a verb in angloform and cannot follow a determiner"),
                 });
             }
             // noun form in a verb slot: after a subject head (plain SVO), or
@@ -1000,7 +1000,7 @@ fn slot_findings(lexicon: &Lexicon, toks: &[Tok]) -> Vec<String> {
                     && next.is_some_and(|n| is_det(n) || matches!(n, Tok::Adj(_) | Tok::AdjLong(_))) =>
             {
                 if let Some(s) = lexicon.redirect(w, "VERB") {
-                    out.push(format!("\"{w}\" is a noun in minglish — as a verb use \"{s}\""));
+                    out.push(format!("\"{w}\" is a noun in angloform — as a verb use \"{s}\""));
                 }
             }
             _ => {}
@@ -1051,7 +1051,7 @@ fn slot_findings(lexicon: &Lexicon, toks: &[Tok]) -> Vec<String> {
                 && lexicon.redirect(b, "VERB").is_some();
             if !verb_slot {
                 out.push(format!(
-                    "\"{a} {b}\" — noun-noun compounds are not minglish; write \"the {b} of the {a}\", \
+                    "\"{a} {b}\" — noun-noun compounds are not angloform; write \"the {b} of the {a}\", \
                      or one transparent word (ADR 0015)"
                 ));
             }

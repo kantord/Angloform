@@ -7,7 +7,7 @@ committed to. Move an item into an ADR when it becomes a real decision.
 
 Raised by the maintainer while discussing ADR 0052 (adding "am"). "I"
 is already a sanctioned Pronoun usable as the subject of any ordinary
-verb everywhere in minglish — the ADR 0052 gap was narrowly "I" +
+verb everywhere in angloform — the ADR 0052 gap was narrowly "I" +
 Copula, an accidental hole, not a deliberate first-person restriction.
 But the maintainer wants a *real* first-person restriction available
 for some registers (ADRs are the concrete example: read through this
@@ -36,17 +36,17 @@ at the same time rather than one at a time.
 
 ## A fully self-hosting language specification (2026-09-05)
 
-Raised by the maintainer. minglish already dogfoods *some* of its own
+Raised by the maintainer. angloform already dogfoods *some* of its own
 description — every ADR since the 2026-09-03 naturalness pass is
-written in minglish itself (`docs/dogfood-sweep.md` tracks the parse
-rate), and today's `skills/minglish/repair-prompt.md` is a first
+written in angloform itself (`docs/dogfood-sweep.md` tracks the parse
+rate), and today's `skills/angloform/repair-prompt.md` is a first
 system-prompt-level example, 100% self-parsing. What's not yet
-self-hosting: `CONTEXT.md`, `README.md`, `skills/minglish/SKILL.md`
+self-hosting: `CONTEXT.md`, `README.md`, `skills/angloform/SKILL.md`
 (the general onboarding doc — confirmed today at only 4% self-parsing,
 see `docs/prompt-ab.md`), and this file itself, `docs/ideas.md`, are
 all plain English. The idea is to push toward the *entire* canonical
 spec — grammar reference, onboarding doc, and the meta-documents that
-describe the project to a newcomer — being written in minglish,
+describe the project to a newcomer — being written in angloform,
 analogous to a self-hosting compiler: the language's own description
 becomes the strongest possible dogfood test of whether the language is
 actually sufficient for real technical writing, not just for content
@@ -54,7 +54,7 @@ someone already chose because it happened to be expressible.
 
 Real tension worth resolving before committing to this, not
 glossed over: `SKILL.md`'s prose is *instructions to a reader who does
-not yet know minglish* — the repair-prompt.md experiment this session
+not yet know angloform* — the repair-prompt.md experiment this session
 showed that writing tight, dogfooded instructional prose is possible,
 but it required real design work per sentence (see the sentence-by-
 sentence rewrite log in this session's transcript) and dropped
@@ -73,7 +73,7 @@ language definition (ADR 0001's check-don't-choose discipline — model weights
 are not auditable data). Candidate uses, ranked:
 
 1. **Meaning-preservation guard for corpus/pairs.tsv** — sentence-embedding
-   cosine between the English and minglish sides; catches silent meaning
+   cosine between the English and angloform sides; catches silent meaning
    loss (e.g. dropped quantifiers) that lexicon-validity checks cannot see.
    Caveat (2026-09-01): pooled embeddings are close to order-blind — a
    subject/object swap lands almost on top of the original — so cosine
@@ -97,7 +97,7 @@ the first pack — same schema as the seed plus definitions; adds, never
 overrides. Other-domain packs remain future work.
 
 Split the seed into a domain-neutral core (function words + general
-vocabulary) and optional domain packs (tech, cooking, …). A minglish text
+vocabulary) and optional domain packs (tech, cooking, …). An angloform text
 declares core + packs; lexgen lints the combined set.
 
 Key principle if/when built: **packs add, never override** — a pack may not
@@ -113,7 +113,7 @@ current vocabulary is effectively a tech pack), not external CNL specs.
 ## Curation phasing (active decision, 2026-09-01)
 
 Initial dogfooding period: curate vocabulary for **our own jargon** (the
-minglish project's ADRs, docs, software/linguistics register). Dogfood
+angloform project's ADRs, docs, software/linguistics register). Dogfood
 coverage is the primary curation metric; EWT/general-register triage stays
 reported but is telemetry, not a target. Later, **re-center** by testing on
 different text types (Simple English Wikipedia, instructions, other
@@ -126,9 +126,9 @@ Mechanical reserialization of the tier-1 parse tree into pseudocode: the
 head-annotated tree already carries subject/verb/object/PP roles, so
 "if the test fails, then the agent retries the request" folds mechanically
 into `if fails(the test): retries(the agent, the request)`. Precedent: the
-ACE→first-order-logic tradition — minglish's version targets code-shaped
+ACE→first-order-logic tradition — angloform's version targets code-shaped
 output instead of DRS/FOL. Motivating use: a self-healing feedback loop for
-coding agents — instructions written in minglish are certified unambiguous,
+coding agents — instructions written in angloform are certified unambiguous,
 then compiled to pseudocode the agent (or a checker) can execute or diff
 against its actual behavior, closing the loop. Cheap to prototype: one
 recursive function over `Tree` in the grammar crate.
@@ -145,9 +145,9 @@ self-healing agent loop (diff stated rules against observed behavior).
 ADR 0018 quotes cover verbatim identifiers only (one opaque thing). True
 quotation — mentioning sentences/phrases as language — is a separate future
 construction: the quoted span is *mentioned*, not used, and could be parsed
-recursively (a quoted minglish sentence validated as minglish; a quoted
+recursively (a quoted angloform sentence validated as angloform; a quoted
 foreign string held opaque). Needed for meta-prose ("the writer types
-\"…\""), error-message docs, and eventually minglish talking about its own
+\"…\""), error-message docs, and eventually angloform talking about its own
 rules. Distinguish delimiters or introduce a marker when designed.
 
 ## Linter advice gaps (found building the showcase, 2026-09-01)
@@ -177,7 +177,7 @@ rules. Distinguish delimiters or introduce a marker when designed.
 "Remove the file" went 0/3 first-try: the sentence-initial-capital error
 says "a name cannot start a sentence", but the writer meant an imperative
 with an OOV verb. The message should offer both readings: "…or if this is a
-command, minglish has no bare imperatives — write 'you must <verb> …' or
+command, angloform has no bare imperatives — write 'you must <verb> …' or
 'do not <verb> …'". Also: whether bare positive imperatives deserve a
 sanctioned form is now a data-backed design question.
 
@@ -199,7 +199,7 @@ project; everything else was considered and dropped.
    unknown word gets any open-class slot. Match the words' tag sets against
    the enumerated structures (permutations of the multiset). Every match is
    parse-valid by construction and names the role each word was playing.
-   Gap messages become "needs a verb here", not "not a minglish word".
+   Gap messages become "needs a verb here", not "not an angloform word".
 3. **Table-driven rewrite with explanation.** With roles known, a word in a
    rejected sense takes the redirect synonym inflected to the slot's form
    from its generated paradigm (*files* in a verb slot → *submits*); a
@@ -220,7 +220,7 @@ project; everything else was considered and dropped.
 
 Working prototype in `crates/antiparse` (isolated, not wired into
 `diagnose` yet). Motivating question: the generic linter fallback
-("restructure into one of the minglish templates") happens because
+("restructure into one of the angloform templates") happens because
 `pattern_findings`/`slot_findings` are token-window heuristics — "if the
 token before looks like X" — which is exactly why the redirect-check bug
 above existed (the guard didn't enumerate every real position) and why it
@@ -311,7 +311,7 @@ Tier-1's actual failure position (`grammar::parse_tokens` +
 uncovered improvement, not just infrastructure: "the mechanism only
 stores the report" (ADR 0047, the free-`only`-position ban) had no
 dedicated pattern check and used to fall through to "restructure into
-one of the minglish templates" — it now gets `[AntiFreeOnly] ambiguous —
+one of the angloform templates" — it now gets `[AntiFreeOnly] ambiguous —
 pick one: move "only" before the subject …; move "only" before the
 object of "stores" …`. `AntiBareCoordObject`/`AntiNounVerbSlot` mostly
 overlap with checks already fixed earlier the same session, so they
@@ -447,7 +447,7 @@ coherence measurement has run:
 The block structures (Enumeration, ADR 0028; Step Block, ADR 0034) and some
 sentence shapes carry structure that written text shows with layout — dashes,
 line breaks, Gherkin keywords, quotes, capitals for terms. Spoken output
-(TTS, screen readers) has no layout. Because every minglish unit is
+(TTS, screen readers) has no layout. Because every angloform unit is
 statically parseable, the conversion can be static too: a renderer walks the
 parse tree and emits the form for a *medium*. Examples: an Enumeration
 becomes "the language allows 4 pronouns: I, you, my, your" with spoken
@@ -489,7 +489,7 @@ examples, or membership.
 
 ## Parseability derives an inter-document semantic graph (2026-09-03)
 
-Every minglish sentence has exactly one parse (ADR 0014's guarantee), and
+Every angloform sentence has exactly one parse (ADR 0014's guarantee), and
 every domain-model term is a named node with a `kind`, `examples`, and a
 `member_of` link (ADR 0036). That combination is more than a linter: a
 document's parse trees are structured data, so a tool could walk every ADR
@@ -508,7 +508,7 @@ new annotation required:
   other in prose ("Extends ADR 0003", "supersedes …") — a fixed sentence
   shape for cross-ADR relations would make this a queryable edge instead
   of free text.
-- **argument structure**: minglish's fixed slot grammar (subject, verb,
+- **argument structure**: angloform's fixed slot grammar (subject, verb,
   object, PP) means a sentence like "the Linter rejects the Rejected
   Sense" is already a (subject, predicate, object) triple with no
   extraction ambiguity — closer to RDF than free English ever gets.
@@ -524,9 +524,9 @@ walks `docs/adr/*.md` and `domain/model.json` through `grammar::parse_text`
 and prints edges, likely as a first cut before any storage or UI question.
 
 
-## minglish as a code-normal-form target (2026-09-03)
+## angloform as a code-normal-form target (2026-09-03)
 
-If a compiler/language AST can be mapped to minglish sentences unambiguously
+If a compiler/language AST can be mapped to angloform sentences unambiguously
 (one AST shape → one sentence shape, invertibly, the same guarantee ADR
 0014 gives natural-language sentences), the language stops being only a
 prose-writing constraint and becomes a normalization target for code
@@ -534,26 +534,117 @@ itself: "the function `parse` takes the argument `text` and returns the
 tree" rather than a lossy free-text comment about the function.
 
 Two distinct uses follow from that mapping, not one:
-- **Linting code structure through the minglish linter.** Once code is
-  projected into minglish sentences, every diagnose() rule (bare-noun
+- **Linting code structure through the angloform linter.** Once code is
+  projected into angloform sentences, every diagnose() rule (bare-noun
   ambiguity, dangling reference, missing quantifier scope) becomes a
   structural check on the code's own shape, not just its prose comments —
-  a naming/structure smell shows up as a minglish STYLE finding on the
+  a naming/structure smell shows up as an angloform STYLE finding on the
   generated sentence for a function or a type.
 - **Generating a normalized form of the code.** The reverse direction: use
-  the mapping to produce canonical, minglish-vocabulary names and
+  the mapping to produce canonical, angloform-vocabulary names and
   descriptions for a codebase's declarations — a forced pass through
-  minglish's per-sense-synonym discipline (ADR 0023) as a naming-quality
+  angloform's per-sense-synonym discipline (ADR 0023) as a naming-quality
   gate, the same discipline this project already applies to its own prose.
 
 Open questions before this is more than a note: which AST shapes actually
-have a natural minglish sentence (a function call maps cleanly to a
+have a natural angloform sentence (a function call maps cleanly to a
 Statement's subject-verb-object; a loop or a closure less obviously so);
 whether the mapping needs to be total (every AST node has a sentence) or
 only covers a useful subset (declarations and signatures, not arbitrary
 expressions); and whether "unambiguous" here means the same thing ADR 0014
 means for parsing prose, or a weaker one-way (AST → sentence) guarantee
 without the reverse. Not sized yet — a research question, not a plan.
+
+## Code+comment redundancy via the code-normal-form round-trip (2026-09-06)
+
+Raised by the maintainer, extending "angloform as a code-normal-form
+target" above. That section covers two uses (lint code structure through
+angloform; generate normalized names/descriptions). A third use follows
+from the same code AST ↔ angloform AST ↔ code AST round-trip: treat the
+generated angloform sentence for a declaration and its **existing
+human-written comment** as two independent descriptions of the same
+thing, and diff them.
+
+The idea: for a function/type with a doc comment, generate the angloform
+sentence from the code AST, then compare it against the comment (also
+reduced to angloform, or judged for overlap directly). Content present in
+both is redundant — the comment is re-stating what the signature already
+says, a real and common code-quality smell. Content only in the comment
+is exactly the information the code cannot carry on its own (why, not
+what — a constraint, a caller assumption, a workaround rationale). Content
+only in the derived sentence but absent from the comment is a gap the
+reviewer might want filled the other way. The round-trip turns "does this
+comment just repeat the function signature" from a subjective review
+judgment into a mechanical diff.
+
+Once redundancy is visible, the natural next step is a repair pass: keep
+the code carrying the *what* (already unambiguous from types/names once
+normalized per the code-normal-form idea) and rewrite the comment to
+carry only the *why*/context that the code genuinely cannot express —
+the same content-distribution problem this project already solves for
+angloform prose itself (ADR 0012's declared-loss discipline, Structured
+Repair's role assignment) applied across the code/comment boundary
+instead of within one text.
+
+Open questions, inherited from the parent idea plus new ones: which AST
+shapes get a natural angloform sentence at all (signatures are the easy
+case); whether "redundant" should be judged by angloform-vs-angloform
+sentence equivalence (cheap, structural) or needs the NLI-based
+faithfulness gate from "Antiparsers" (more expensive, catches paraphrase-
+level redundancy plain string diff would miss); and whether this becomes
+a linter check (flag redundant comments) or a repair tool (rewrite them).
+Not sized — a research question riding on the parent idea's own open
+questions, not yet a plan.
+
+## An algebra of semantics: structured compositional vectors as an alternative to learned embeddings (2026-09-06)
+
+Raised by the maintainer. "Vector embeddings as measurement tooling"
+above already flags a blind spot in *learned* sentence embeddings: pooled
+vectors are close to order-blind, so a subject/object swap lands almost
+on top of the original — useless for judging whether a rewrite changed
+who does what. The idea here is a different kind of vector entirely, not
+a fix to the learned one.
+
+Each word (or each lexicon sense) gets a **structured, auditable basis
+vector** — not learned, not opaque, in the spirit of ADR 0001's
+check-don't-choose discipline ("model weights are not auditable data")
+that already rules out learned embeddings as anything but measurement.
+A one-hot-per-lemma starting point is the simplest version; the real
+design question is whether the coordinates should instead track
+domain-model categories/roles so the arithmetic means something (see
+below). Sentence meaning becomes a combination of its words' vectors
+under some fixed, inspectable combination rule — addition/subtraction
+being the motivating case: given "a big red vehicle crashed into the
+river," subtracting **river** and **red** should land on the same vector
+as "a big vehicle crashed"; adding **wall** and **loud** back should land
+on "a big loud vehicle crashed into the wall." Two syntactically
+different but meaning-equivalent angloform sentences would be required to
+reduce to the identical vector — a mechanizable equivalence check no
+learned embedding gives for free (per the order-blindness caveat above).
+
+Why this might be uniquely tractable *for angloform specifically*, more
+than for general English: angloform already guarantees one parse per
+sentence (ADR 0014) and already extracts argument-structure triples for
+free from that parse (see "Parseability derives an inter-document
+semantic graph" above) — the combination rule could be defined over
+parse-tree roles (subject/verb/object/PP-modifier) rather than a naive
+bag-of-words sum, which is exactly the missing ingredient the pooled-
+embedding order-blindness caveat is missing today.
+
+Open questions, not resolved: what the basis coordinates actually are
+(raw lemmas vs. domain-model categories/roles — the choice determines
+whether "big" and "loud" combine the same way a modifier always does, or
+each needs its own attachment-specific rule); whether addition/subtraction
+needs to be role-aware (removing an object PP is a structurally different
+edit than removing an attributive adjective, even though the example
+above treats them uniformly); and what this buys over directly editing
+the parse tree, which already gives exact compositional structure without
+reducing to vectors at all — the vector algebra's real value would have
+to be in operations tree-editing doesn't give for free (e.g., "does this
+independently-written rewrite denote the same meaning," a comparison
+question, not an editing one). Not sized — a research question, connects
+to the antiparser/repair-mapping faithfulness work as a candidate cheap
+equivalence check, not yet a plan.
 
 ## Property-based testing with proptest (2026-09-03)
 
@@ -578,7 +669,7 @@ is now a dev-dependency of `grammar`, `diagnose`, and `lexgen`.
    char-count mismatch in `doubled()` on non-ASCII input).
 2. **`crates/grammar/tests/fuzz_properties.rs`** — `tokenize`, `units`,
    `is_enumeration`/`is_step_block`, and `parse`/`parse_text` never panic on
-   arbitrary text (not just well-formed minglish); `units` is idempotent on
+   arbitrary text (not just well-formed angloform); `units` is idempotent on
    its own output; the two block classifiers are mutually exclusive. These
    matter because every one of these functions runs on real LLM-repair
    proposals and arbitrary document prose in production use, not just
@@ -661,7 +752,7 @@ judge caught this immediately; the project's own cost metric currently
 cannot, because it never looks past single-token frequency.
 
 **The idea**: a low-order Markov chain (bigram or trigram) trained
-over the existing minglish corpus (`tests/paragraph-cases`,
+over the existing angloform corpus (`tests/paragraph-cases`,
 `tests/agent-cases`, the ADRs themselves — already-collected data, no
 new corpus needed) gives a cheap, local, fully auditable
 per-transition surprisal score, without needing an external LM. Two
@@ -685,7 +776,7 @@ uses:
    a rule that auto-generates one.
 
 Not yet built. Needs: (a) confirm the existing corpus is large enough
-for a stable bigram/trigram model (minglish's whole-corpus vocabulary
+for a stable bigram/trigram model (angloform's whole-corpus vocabulary
 is small and closed, which cuts both ways — sparse data, but also a
 much smaller space to estimate over than open English); (b) decide
 whether surprisal is computed over surface tokens or over the parse

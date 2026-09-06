@@ -57,7 +57,7 @@ Subj: String = {
     <d:"DET"> <a:"ADJ"?> <n:"NOUN_SG"> => join_np(&Some(d), &a, &n),
     <d:"DET_SG"> <a:"ADJ"?> <n:"NOUN_SG"> => join_np(&Some(d), &a, &n),
     <d:"DET"> <a:"ADJ"?> <n:"NOUN_PL"> => join_np(&Some(d), &a, &n),
-    // a bare plural subject is itself a valid minglish NP (ADR 0014,
+    // a bare plural subject is itself a valid angloform NP (ADR 0014,
     // "Pronouns are indexical") — not just an ellipsis to exclude.
     <a:"ADJ"?> <n:"NOUN_PL"> => join_np(&None, &a, &n),
 };

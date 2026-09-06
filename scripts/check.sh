@@ -9,7 +9,7 @@ echo "== data present + checksums =="
 echo "== no conflict-silencing in the grammar =="
 # ADR 0014 §guarantee: the one-parse proof holds only while the grammar has
 # zero precedence/assoc annotations — conflicts must be designed away.
-if grep -nE "#\[precedence|assoc" crates/grammar/src/minglish.lalrpop; then
+if grep -nE "#\[precedence|assoc" crates/grammar/src/angloform.lalrpop; then
     echo "ERROR: precedence annotations found — ambiguity may be silently resolved"
     exit 1
 fi

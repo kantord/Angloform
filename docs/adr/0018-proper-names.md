@@ -7,7 +7,7 @@ Status: proposed (tentative)
 
 The Dogfood needs Names, because the documents of the project name things.
 The documents name 4 things:
-- the language Minglish
+- the language Angloform
 - the file "seed.json"
 - the tool Lexgen
 - the database WordNet

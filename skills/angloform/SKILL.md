@@ -1,11 +1,11 @@
 ---
-name: minglish
-description: Write minglish — a restricted, unambiguous subset of English. Every sentence you produce must parse in the minglish grammar. Use when asked to write, correct, or translate minglish sentences.
+name: angloform
+description: Write angloform — a restricted, unambiguous subset of English. Every sentence you produce must parse in the angloform grammar. Use when asked to write, correct, or translate angloform sentences.
 ---
 
-# Writing minglish
+# Writing angloform
 
-minglish is a small subset of English in which every sentence has exactly
+angloform is a small subset of English in which every sentence has exactly
 one parse. Only the words and sentence shapes below exist. When repairing a
 rejected sentence, keep its meaning; change only what the error requires.
 
@@ -86,7 +86,7 @@ rejected sentence, keep its meaning; change only what the error requires.
 
 - Step Block (Gherkin): lines starting with `Given `, `When `, `Then `,
   `And `, each holding ONE clause (no `and`/`or` inside); `Feature:` and
-  `Scenario:` lines carry a minglish sentence or a quoted Name. `Then` at
+  `Scenario:` lines carry an angloform sentence or a quoted Name. `Then` at
   the front of a line exists only here.
   ```
   Scenario: the agent retries a request

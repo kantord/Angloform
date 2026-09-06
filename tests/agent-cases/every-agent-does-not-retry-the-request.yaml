@@ -100,7 +100,7 @@ runs:
         retries the request.'
       valid: false
       diagnosis: '"If the intended meaning is "no agent retries the request": no agent
-        retries the request": WORD: "intended" is not a minglish word'
+        retries the request": WORD: "intended" is not an angloform word'
     - output: no agent retries the request
       valid: true
 - at_unix: 1788286025

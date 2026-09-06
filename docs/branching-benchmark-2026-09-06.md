@@ -62,8 +62,8 @@ has (subject always precedes its predicate — true in every `Clause`
 production in the grammar, no exception) and there is nothing left to
 pull the ratio down.
 
-**But that 100% is not usable for what minglish is actually for.**
-Minglish's real corpus (ADRs, domain model) is declarative, definitional
+**But that 100% is not usable for what angloform is actually for.**
+Angloform's real corpus (ADRs, domain model) is declarative, definitional
 prose — "X is a Y," "the tool stores an error" — not command lists. The
 moment a sentence needs any of the following, 100% stops being reachable
 *by construction*, independent of how carefully it's phrased:
@@ -276,7 +276,7 @@ real garden path (declined, evidenced, not just asserted).
   demonstrated** — but only for subject-less Imperatives with
   determiner-less complements, a sentence shape the corpus barely uses
   and that can't express "X is a Y" or "the tool stores an error" at all.
-- **Realistic ceiling for minglish's actual job (declarative, definitional,
+- **Realistic ceiling for angloform's actual job (declarative, definitional,
   determiner-bearing prose): roughly 25–33%** for the dominant
   two-determined-NP transitive shape, 0% for any copula/definition
   sentence, and up to 67–80% for the rarer colon-list shape.
@@ -298,6 +298,6 @@ real garden path (declined, evidenced, not just asserted).
 - **Net answer to "how close are we to 100%": not close, and closing that
   gap further would require giving up subjects, determiners, or the
   copula — i.e. giving up declarative definitional prose, which is
-  minglish's actual purpose.** The right frame is not "26% vs. 100%" but
+  angloform's actual purpose.** The right frame is not "26% vs. 100%" but
   "26% vs. a ~25–33% realistic ceiling for the shape actually in use" —
   and by that measure, the corpus is not leaving value on the table.

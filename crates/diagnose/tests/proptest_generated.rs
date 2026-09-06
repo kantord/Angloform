@@ -1,4 +1,4 @@
-//! Property tests over *generated* minglish sentences, built from real
+//! Property tests over *generated* angloform sentences, built from real
 //! lexicon words rather than the fixed corpus. corpus.rs and the
 //! `tier2_is_a_superset_of_tier1` unit test in diagnosis.rs check a curated
 //! list; this generalizes both invariants — "every sentence this shape

@@ -16,4 +16,4 @@ graded) · `snapshot` (latest valid repair)
 corpus) · `runs` (full per-trial logs).
 
 Run: `OPENROUTER_API_KEY=… cargo run -p agenttest`
-(env: MINGLISH_TEST_MODEL, MINGLISH_TEST_TRIALS, MINGLISH_TEST_TEMP)
+(env: ANGLOFORM_TEST_MODEL, ANGLOFORM_TEST_TRIALS, ANGLOFORM_TEST_TEMP)

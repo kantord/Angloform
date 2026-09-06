@@ -1,6 +1,6 @@
 # Resources
 
-Free, well-licensed resources for building minglish — a formalized, minimal,
+Free, well-licensed resources for building angloform — a formalized, minimal,
 unambiguous subset of English. Grouped by what we'd use each for.
 
 License flags: ✅ fine for an MIT project · ⚠️ restriction, read the note
@@ -64,7 +64,7 @@ License flags: ✅ fine for an MIT project · ⚠️ restriction, read the note
   The only free resource with full parse forests, not just one gold tree.
 - **Use here**: (1) Parse-count-per-sentence = empirical ambiguity ranking of
   English constructions → what to ban. (2) Its coverage gaps = adversarial
-  "can minglish paraphrase this?" test set.
+  "can angloform paraphrase this?" test set.
 - **License**: Open source.
 - **Get**: <https://github.com/delph-in/docs/wiki/RedwoodsTop> · tooling:
   pydelphin + ACE parser
@@ -136,7 +136,7 @@ License flags: ✅ fine for an MIT project · ⚠️ restriction, read the note
 ### Non-open controlled-language specifications ⚠️ DO NOT USE
 - **Policy**: Several industrial controlled-language specifications exist
   under proprietary, non-open licenses. Do not copy, consult, cite, or
-  derive from any of them. All minglish design decisions must be grounded
+  derive from any of them. All angloform design decisions must be grounded
   in open resources and our own measurements (triage reports, research
   findings, dogfood cases).
 
@@ -161,7 +161,7 @@ License flags: ✅ fine for an MIT project · ⚠️ restriction, read the note
   the most polysemous verbs in the language (its 18 operators average 19.7
   WordNet senses vs 2.6 for verbs generally — our own measurement of open
   data). The opposite of our strategy. Analysis/citation use only; we do not
-  reproduce its text or word list, and nothing in minglish derives from it.
+  reproduce its text or word list, and nothing in angloform derives from it.
 
 ## Tooling (not data, but identified alongside)
 

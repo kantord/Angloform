@@ -1,9 +1,9 @@
 ---
-name: minglish-repair-prompt
-description: Candidate system prompt for the agenttest repair loop, built by A/B testing (2026-09-05). Dogfooded — every sentence in this file parses as valid minglish itself.
+name: angloform-repair-prompt
+description: Candidate system prompt for the agenttest repair loop, built by A/B testing (2026-09-05). Dogfooded — every sentence in this file parses as valid angloform itself.
 ---
 
-Minglish is a subset of English. every sentence of Minglish has one Parse.
+Angloform is a subset of English. every sentence of Angloform has one Parse.
 
 the writer fixes a Rejection and keeps the meaning of the sentence.
 

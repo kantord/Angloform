@@ -94,7 +94,7 @@ should make the rest of this report read more skeptically, not less.
 
 ## 1. Shipped a real grammar change to the shared Tier-1 grammar
 
-`crates/grammar/src/minglish.lalrpop`'s `CoordClause` rule now accepts
+`crates/grammar/src/angloform.lalrpop`'s `CoordClause` rule now accepts
 3 different-subject clauses (Oxford-comma), not just 2 (ADR 0050).
 This touches the grammar every other crate depends on. It is
 regression-tested (full test suite, `./scripts/check.sh`,
@@ -132,7 +132,7 @@ Specific sub-decisions inside this change, none user-approved:
 ADR 0048 requires *evidence* before the language accepts a second
 shape for one meaning. Earlier in this session, before the `/goal`
 that produced this work, the `grilling` skill was invoked to interview
-the user specifically about **whether minglish should allow multiple
+the user specifically about **whether angloform should allow multiple
 valid surface forms for the same meaning at all** — that conversation
 was cut off mid-question by a context compaction and never resumed.
 
@@ -191,7 +191,7 @@ not transfer to the actual production model. This should be sanity-
 checked with a real (paid) `agenttest` run before trusting the
 fix-rate numbers in `docs/prompt-ab.md` at face value.
 
-## 6. `skills/minglish/repair-prompt.md` deliberately drops Conditional and Step Block coverage
+## 6. `skills/angloform/repair-prompt.md` deliberately drops Conditional and Step Block coverage
 
 To fit the user's 300-word hard cap, the new repair-loop system prompt
 omits 2 of the language's sentence shapes entirely. This is disclosed

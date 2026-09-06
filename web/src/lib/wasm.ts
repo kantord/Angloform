@@ -1,5 +1,5 @@
-import init, { diagnose_sentence, tokenize } from './wasm/minglish_wasm.js'
-import wasmUrl from './wasm/minglish_wasm_bg.wasm?url'
+import init, { diagnose_sentence, tokenize } from './wasm/angloform_wasm.js'
+import wasmUrl from './wasm/angloform_wasm_bg.wasm?url'
 import type { DiagnosisResult, TokenRow } from './types'
 
 let ready: Promise<void> | null = null

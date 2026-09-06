@@ -1,7 +1,7 @@
 """Shared markdown structural parser for the document-lint tools
 (lint-file.py, extract-sentences.py, docjudge.py). Classifies a markdown
 document into typed blocks so each tool applies the right treatment: prose
-paragraphs, Enumeration/Step Block units, and headings get minglish
+paragraphs, Enumeration/Step Block units, and headings get angloform
 linting (headings and image alt text with a lighter, vocabulary-only
 rule — see `docs/markdown-linting.md`); fenced code, tables, horizontal
 rules, YAML frontmatter, raw HTML blocks, and footnote definitions are
@@ -23,7 +23,7 @@ class Block:
     text: str = ""  # de-markdowned content; for "enumeration"/"step_block", lines joined by \n
     level: int = 0  # heading level (1-6)
     raw: str = ""  # "_list" only: items with their "- " marker kept, for
-    # folding into an Enumeration — the minglish grammar's own Enumeration
+    # folding into an Enumeration — the angloform grammar's own Enumeration
     # parser expects the literal bullet syntax, not de-bulleted text
 
 
@@ -52,7 +52,7 @@ def _inline(text: str) -> str:
     """Text-level markdown -> plain prose: links and images resolve to
     their visible text (an image inline in a sentence contributes its alt
     text the same way a link contributes its label), inline code becomes a
-    minglish quoted identifier, bold/italic/strikethrough markers strip,
+    angloform quoted identifier, bold/italic/strikethrough markers strip,
     a footnote marker drops (its content lives in the definition, excluded
     at the block level — see `_FOOTNOTE_DEF`)."""
     text = _FOOTNOTE_MARK.sub("", text)
@@ -178,7 +178,7 @@ def parse_blocks(text: str) -> list[Block]:
                     # a nested sub-list under this item: kept as its own
                     # "- " lines (never concatenated into run-on prose —
                     # each sub-item is its own thought). If the parent's
-                    # text ends in ":" the minglish grammar reads this as
+                    # text ends in ":" the angloform grammar reads this as
                     # an Enumeration; if not, it correctly fails linting
                     # with an actionable reason instead of a garbled one
                     sub_indent = _indent(l)
@@ -229,7 +229,7 @@ def _fold_enumerations(blocks: list[Block]) -> list[Block]:
     is an Enumeration (ADR 0028): the intro's last sentence plus the items
     become one unit. A `_list` with no such intro is a plain bullet list —
     still folded to one unit (each item as a line) so its content is not
-    lost, but not tagged "enumeration" (no minglish Enumeration-block rule
+    lost, but not tagged "enumeration" (no angloform Enumeration-block rule
     applies; the items are linted as an inline-list-shaped prose block)."""
     out: list[Block] = []
     i = 0

@@ -1,4 +1,4 @@
-# minglish Seed corpus — target sentences the language must accept
+# angloform Seed corpus — target sentences the language must accept
 # one sentence per line; lowercase; drives the Lexicon Coverage metric
 the agent reads the file
 the server returns an error

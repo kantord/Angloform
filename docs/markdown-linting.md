@@ -13,7 +13,7 @@ for a genuinely different job — see "What stays untouched" below).
 `mdblocks.parse_blocks(text)` turns a document into typed blocks. Each
 gets one of three treatments:
 
-**Linted as prose** (full minglish sentence grammar applies): plain
+**Linted as prose** (full angloform sentence grammar applies): plain
 paragraphs, blockquote content (the `> ` marker strips; the quoted text is
 linted exactly like an unquoted paragraph), and plain bullet/task-list
 items (each item is its own unit — a bullet holding two sentences splits
@@ -48,7 +48,7 @@ footnote-marker syntax, applied to whatever text a block keeps):
 `[text](url)` becomes `text` — the URL is data, not language, and a
 reader parses what the link says, not where it points; `![alt](url)`
 resolves to `alt` the same way, when it's part of a larger sentence (see
-above for a standalone image); `` `code` `` becomes a minglish quoted
+above for a standalone image); `` `code` `` becomes an angloform quoted
 identifier, matching how this project already treats inline code in its
 own docs; `**bold**`/`*italic*`/`~~strikethrough~~` strip to their inner
 text; an inline footnote marker (`[^1]`) drops — its content lives in the
@@ -63,19 +63,19 @@ sub-list: its items stay separate "- " lines under the parent item, never
 concatenated into one run-on sentence. Whether that parses depends on the
 parent's own text: if it ends in `:`, this is an Enumeration (ADR 0028)
 and the grammar accepts it; if it doesn't, it correctly fails linting
-with an actionable "not a minglish word" reason at the seam, rather than
+with an actionable "not an angloform word" reason at the seam, rather than
 silently mashing three separate bullet points into one nonsense sentence.
 
 ## Headings get a different rule, not the sentence grammar
 
 A heading is a title, not a sentence — real headings are almost never
-grammatical minglish, even in this project's own docs:
+grammatical angloform, even in this project's own docs:
 
     0037 — Full-clause coordination: a comma before "but"/"and"/"or"
     0014 — every / no, and the first-token telegraph principle
 
 Em dashes, colons, slashes, and sentence fragments joined by `and`/`or`
-are the norm, not well-formed subject-verb-object minglish. Requiring a
+are the norm, not well-formed subject-verb-object angloform. Requiring a
 heading to parse as a sentence — or even as a single Noun Phrase — would
 fail on nearly every real heading, making the checker useless on real
 files. Confirmed empirically before deciding this: sampling every `#`/`##`
@@ -102,7 +102,7 @@ structure, stripped before the word check, never treated as vocabulary. A
 Capitalized word is never checked at all — the same convention prose
 already uses (a capitalized word mid-sentence is a name, ADR 0018) — so
 the checker stays usable on markdown that names real-world things
-minglish has no entry for.
+angloform has no entry for.
 
 This is intentionally a much lighter bar than prose linting, and it's the
 right one for a title: it catches real vocabulary problems without
@@ -126,9 +126,9 @@ HTML, footnotes, bold/italic/strikethrough/inline code, and a horizontal
 rule. `scripts/test-mdblocks.py` (`./scripts/check.sh` runs it, so it's a
 real CI gate, not a script someone has to remember to run by hand) checks
 three things against it: every construct lands in the block kind it
-should and none leaks into another block's text; the real minglish
+should and none leaks into another block's text; the real angloform
 sentences the file deliberately includes still parse clean through the
-actual grammar; the deliberately-not-minglish content (an unknown word, a
+actual grammar; the deliberately-not-angloform content (an unknown word, a
 missing Enumeration colon, a bare capitalized word opening a sentence) is
 still correctly rejected with a real reason, proving the linter runs on
 this content rather than everything just being silently excluded.

@@ -31,7 +31,7 @@ proposals:
     words: 14
     terms: 1
     connectives: 0
-  diagnosis: '"The language adds one auxiliary verb": WORD: "auxiliary" is not a minglish word — "Auxiliary" is a defined term — write it capitalized (see CONTEXT.md) | "the auxiliary verb must use one Sentence Shape": WORD: "auxiliary" is not a minglish word — "Auxiliary" is a defined term — write it capitalized (see CONTEXT.md)'
+  diagnosis: '"The language adds one auxiliary verb": WORD: "auxiliary" is not an angloform word — "Auxiliary" is a defined term — write it capitalized (see CONTEXT.md) | "the auxiliary verb must use one Sentence Shape": WORD: "auxiliary" is not an angloform word — "Auxiliary" is a defined term — write it capitalized (see CONTEXT.md)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The language adds one verb. the verb is an auxiliary verb. the verb must use one Sentence Shape.
@@ -46,7 +46,7 @@ proposals:
     words: 18
     terms: 1
     connectives: 0
-  diagnosis: '"the verb is an auxiliary verb": WORD: "auxiliary" is not a minglish word — "Auxiliary" is a defined term — write it capitalized (see CONTEXT.md)'
+  diagnosis: '"the verb is an auxiliary verb": WORD: "auxiliary" is not an angloform word — "Auxiliary" is a defined term — write it capitalized (see CONTEXT.md)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The language adds one verb. the verb uses one Sentence Shape.
@@ -75,7 +75,7 @@ proposals:
     words: 33
     terms: 7
     connectives: 0
-  diagnosis: '"the Function Word does not leave the Copula": WORD: "leave" is not a minglish word | "the Function Word does not leave the Negation": WORD: "leave" is not a minglish word | "the Function Word does not leave the Modal": WORD: "leave" is not a minglish word'
+  diagnosis: '"the Function Word does not leave the Copula": WORD: "leave" is not an angloform word | "the Function Word does not leave the Negation": WORD: "leave" is not an angloform word | "the Function Word does not leave the Modal": WORD: "leave" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The Seed adds one Function Word to the language. the Function Word does not appear in the Copula. the Function Word does not appear in the Negation. the Function Word does not appear in the Modal.
@@ -90,7 +90,7 @@ proposals:
     words: 36
     terms: 7
     connectives: 0
-  diagnosis: '"the Function Word does not appear in the Modal": WORD: "Modal" is not a minglish word — minglish words are lowercase ("modal"); a name that equals a word needs quotes'
+  diagnosis: '"the Function Word does not appear in the Modal": WORD: "Modal" is not an angloform word — angloform words are lowercase ("modal"); a name that equals a word needs quotes'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The Seed adds one Function Word to the language. the Function Word is not in the Copula. the Function Word is not in the Negation. the Function Word is not in the Modal.
@@ -105,7 +105,7 @@ proposals:
     words: 33
     terms: 7
     connectives: 0
-  diagnosis: '"the Function Word is not in the Copula": STYLE: "is in …" — the copula takes an adjective or a noun phrase, not a prepositional phrase; use a verb: "the Lexicon contains the Pronouns" (ADR 0003) | "the Function Word is not in the Negation": STYLE: "is in …" — the copula takes an adjective or a noun phrase, not a prepositional phrase; use a verb: "the Lexicon contains the Pronouns" (ADR 0003) | "the Function Word is not in the Modal": WORD: "Modal" is not a minglish word — minglish words are lowercase ("modal"); a name that equals a word needs quotes'
+  diagnosis: '"the Function Word is not in the Copula": STYLE: "is in …" — the copula takes an adjective or a noun phrase, not a prepositional phrase; use a verb: "the Lexicon contains the Pronouns" (ADR 0003) | "the Function Word is not in the Negation": STYLE: "is in …" — the copula takes an adjective or a noun phrase, not a prepositional phrase; use a verb: "the Lexicon contains the Pronouns" (ADR 0003) | "the Function Word is not in the Modal": WORD: "Modal" is not an angloform word — angloform words are lowercase ("modal"); a name that equals a word needs quotes'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The Grammar adds the word "does" and the word "not". The Grammar adds the word "does" and the word "not" to one Sentence Shape.

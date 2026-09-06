@@ -32,7 +32,7 @@ def main():
             diag = p.get("diagnosis") or ""
             if "not recognizable" in diag:
                 noadvice += 1
-            for m in re.finditer(r'WORD: "([^"]+)" is (?:not a minglish word|banned in minglish)', diag):
+            for m in re.finditer(r'WORD: "([^"]+)" is (?:not an angloform word|banned in angloform)', diag):
                 words[m.group(1).lower()] += 1
             for m in re.finditer(r'\[all unknown words: ([^\]]+)\]', diag):
                 for w in m.group(1).split(", "):

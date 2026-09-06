@@ -1,4 +1,4 @@
-# Dogfood: ADR 0002 in minglish
+# Dogfood: ADR 0002 in angloform
 
 Rewritten in place 2026-09-02 after nine paragraph-repair runs (tests/
 paragraph-cases/, docs/paragraph-report.md). All six model proposals were

@@ -8,7 +8,7 @@ The standard dogfooding flow for our own documents (ADRs, docs):
 3. **If useful → act**: rewrite the source text **in place** (sanctioned for
    ADRs when meaning is preserved). Record the case as `resolution: rewritten`
    with the applied text.
-4. **If it exposes a minglish gap → track it**: `resolution: gap` with the
+4. **If it exposes an angloform gap → track it**: `resolution: gap` with the
    task. A gap claim requires a *well-written* sentence being rejected —
    coverage of badly-written prose is never a goal.
 5. Cases awaiting judgment: `resolution: pending`.

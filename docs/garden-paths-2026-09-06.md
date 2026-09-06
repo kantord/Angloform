@@ -1,4 +1,4 @@
-# Garden paths in minglish: a definition, an audit, and static detection (2026-09-06)
+# Garden paths in angloform: a definition, an audit, and static detection (2026-09-06)
 
 Requested via `/goal`. Every empirical claim below was tested, not
 assumed — either against the real grammar (`cargo build`/`just lint`)
@@ -50,7 +50,7 @@ later (worse when embedded in a Conditional/Causal). Confirmed by the
 user's own direct reaction to real examples this session ("this
 actually weirdly somehow sounds ambiguous") — the single strongest
 piece of evidence in this whole audit, stronger than any LLM-judge
-score gathered all session. Root cause: minglish otherwise **never**
+score gathered all session. Root cause: angloform otherwise **never**
 allows 2 same-category constituents joined by a bare comma with no
 conjunction (NP-coordination is banned outright, colon-list only) — so
 this construction is the *one place* that shape exists, and it
@@ -82,7 +82,7 @@ a fresh agent reading "The safe" → "The safe file" reported the
 adjective reading was *already* its leading hypothesis at "The safe,"
 with the noun reading held only as a weak secondary possibility that
 "file" quietly eliminated — no reanalysis, no cost. Lesson: in
-minglish's rigid `Det (Adj) Noun` template, the position itself
+angloform's rigid `Det (Adj) Noun` template, the position itself
 already biases the reader correctly enough that raw cross-POS
 ambiguity mostly doesn't cascade into real garden-pathing. This
 category is real but much weaker than its list size (~300 words)
@@ -99,7 +99,7 @@ suggests — don't over-flag it wholesale.
   intuition matches this split, so it's eliminated both formally and
   for a human reader, not just formally.
 - **Classic reduced-relative garden path ("the horse raced past the
-  barn fell")**: structurally impossible — minglish bans Reduced
+  barn fell")**: structurally impossible — angloform bans Reduced
   Relatives and the Passive outright (see the `participle` domain
   entry: "the language bans every Reduced Relative, so a Participle
   cannot follow a noun").
@@ -127,7 +127,7 @@ Ranked by how directly they're usable today.
 2. **Mechanical grammar-source scan: "comma-only junction, same
    category, no conjunction until late."** Both confirmed/tested
    findings above (Appositive, N-ary CoordClause) share one precise,
-   textually-searchable shape in `minglish.lalrpop`: a production
+   textually-searchable shape in `angloform.lalrpop`: a production
    where 2+ constituents of the *same broad category* (NP, Clause)
    appear separated only by `LComma`, with the disambiguating `LConj`
    (or other marker) appearing only before the *last* one, not between
@@ -181,7 +181,7 @@ unrepresentable, not merely caught by a linter.
 **`scripts/garden-path-scan.py`** (finding #2, built): a mechanical
 scanner for the confirmed risk shape — 2 same-category constituents
 joined only by a comma, no conjunction between them — searched
-directly against `minglish.lalrpop`'s productions. Validated against
+directly against `angloform.lalrpop`'s productions. Validated against
 both states: run against the *old* (pre-fix) Appositive rule, it
 correctly flags `SubjSG COMMA ApposContent` as unmarked/high-priority;
 run against the *current* grammar, it finds exactly one remaining

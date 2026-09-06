@@ -14,9 +14,9 @@ original_metrics:
   connectives: 1
 verdict: unreviewed
 note: source paragraph changed; stored proposals are replay data only
-best: The document "ADR 0010" added the word "did". The document "ADR 0010" added the word "later". Minglish does not allow the word "doesn't". Minglish does not allow the word "don't".
+best: The document "ADR 0010" added the word "did". The document "ADR 0010" added the word "later". Angloform does not allow the word "doesn't". Angloform does not allow the word "don't".
 proposals:
-- text: The Seed does not enable the word "doesn't". The Seed does not enable the word "don't". The Seed does not enable the word "later". The Seed does not enable the word "by". The Seed does not enable the word "contractions". The Seed does not enable the word "orthography". The Seed does not enable the word "minglish". The Linter does not accept the sentence. The Linter does not parse the sentence. The Linter rejects the sentence. The sentence is a Gap. The sentence says the words do not exist. The sentence says ADR 0010 adds the words. The language does not have the words. The language does not have the contractions. The orthography of the language does not have contractions. The orthography of Minglish does not have contractions. The language does not have the word "minglish". The language is Minglish. Minglish is the name of the language. The name of the language is "Minglish". The sentence cannot say the name. The sentence is a Gap. The maintainers must fix the Gap.
+- text: The Seed does not enable the word "doesn't". The Seed does not enable the word "don't". The Seed does not enable the word "later". The Seed does not enable the word "by". The Seed does not enable the word "contractions". The Seed does not enable the word "orthography". The Seed does not enable the word "angloform". The Linter does not accept the sentence. The Linter does not parse the sentence. The Linter rejects the sentence. The sentence is a Gap. The sentence says the words do not exist. The sentence says ADR 0010 adds the words. The language does not have the words. The language does not have the contractions. The orthography of the language does not have contractions. The orthography of Angloform does not have contractions. The language does not have the word "angloform". The language is Angloform. Angloform is the name of the language. The name of the language is "Angloform". The sentence cannot say the name. The sentence is a Gap. The maintainers must fix the Gap.
   drops: none
   valid: false
   metrics:
@@ -28,10 +28,10 @@ proposals:
     words: 170
     terms: 13
     connectives: 0
-  diagnosis: '"The sentence says the words do not exist": STYLE: "says … exist" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "The sentence says ADR 0010 adds the words": WORD: "0010" is not a minglish word — a number does not start with 0 (ADR 0022) | "Minglish is the name of the language": STYLE: "is … name" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "name" is a verb in minglish and cannot follow a determiner | "The name of the language is "Minglish"": STYLE: "name … is" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "name" is a verb in minglish and cannot follow a determiner | "The sentence cannot say the name": STYLE: "cannot … say" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "name" is a verb in minglish and cannot follow a determiner; "name" is transitive in minglish and needs an object'
+  diagnosis: '"The sentence says the words do not exist": STYLE: "says … exist" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "The sentence says ADR 0010 adds the words": WORD: "0010" is not an angloform word — a number does not start with 0 (ADR 0022) | "Angloform is the name of the language": STYLE: "is … name" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "name" is a verb in angloform and cannot follow a determiner | "The name of the language is "Angloform"": STYLE: "name … is" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "name" is a verb in angloform and cannot follow a determiner | "The sentence cannot say the name": STYLE: "cannot … say" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "name" is a verb in angloform and cannot follow a determiner; "name" is transitive in angloform and needs an object'
   count: 1
   model: deepseek/deepseek-v4-flash
-- text: The Seed does not enable "doesn't". The Seed does not enable "don't". The Seed does not enable "later". The Seed does not enable "by". The Seed does not enable "contractions". The Seed does not enable "orthography". The Seed does not enable "minglish". The Linter does not accept the sentence. The Linter does not parse the sentence. The Linter rejects the sentence. The sentence is a Gap. The sentence says the words do not appear. The sentence says ADR 10 adds the words. The language does not have the words. The language does not have contractions. The orthography of the language does not have contractions. Minglish is a language. Minglish does not have contractions. The language does not have the word "minglish". The language is Minglish. The sentence cannot say Minglish. The sentence is a Gap. The maintainers must fix the Gap.
+- text: The Seed does not enable "doesn't". The Seed does not enable "don't". The Seed does not enable "later". The Seed does not enable "by". The Seed does not enable "contractions". The Seed does not enable "orthography". The Seed does not enable "angloform". The Linter does not accept the sentence. The Linter does not parse the sentence. The Linter rejects the sentence. The sentence is a Gap. The sentence says the words do not appear. The sentence says ADR 10 adds the words. The language does not have the words. The language does not have contractions. The orthography of the language does not have contractions. Angloform is a language. Angloform does not have contractions. The language does not have the word "angloform". The language is Angloform. The sentence cannot say Angloform. The sentence is a Gap. The maintainers must fix the Gap.
   drops: none
   valid: false
   metrics:
@@ -43,10 +43,10 @@ proposals:
     words: 141
     terms: 13
     connectives: 0
-  diagnosis: '"The sentence says the words do not appear": STYLE: "says … appear" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "The sentence says ADR 10 adds the words": STYLE: "adds" is a verb in minglish and cannot follow a determiner; "says … adds" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
+  diagnosis: '"The sentence says the words do not appear": STYLE: "says … appear" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "The sentence says ADR 10 adds the words": STYLE: "adds" is a verb in angloform and cannot follow a determiner; "says … adds" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
   count: 1
   model: deepseek/deepseek-v4-flash
-- text: The Seed does not enable "doesn't". The Seed does not enable "don't". The Seed does not enable "later". The Seed does not enable "by". The Seed does not enable "contractions". The Seed does not enable "orthography". The Seed does not enable "minglish". The Linter does not accept the sentence. The Linter does not parse the sentence. The Linter rejects the sentence. The sentence is a Gap. The sentence makes a claim. The claim says the words do not appear. The sentence makes a claim. The claim says ADR 10 adds the words. The language does not have the words. The language does not use "doesn't". The language does not use "don't". The language does not use "later". The language does not use "by". The language does not use "contractions". The language does not use "orthography". The language does not use "minglish". Minglish is a language. The orthography of the language does not use contractions. The language does not use the word "minglish". The language is Minglish. The sentence cannot name Minglish. The sentence is a Gap. The maintainers must fix the Gap.
+- text: The Seed does not enable "doesn't". The Seed does not enable "don't". The Seed does not enable "later". The Seed does not enable "by". The Seed does not enable "contractions". The Seed does not enable "orthography". The Seed does not enable "angloform". The Linter does not accept the sentence. The Linter does not parse the sentence. The Linter rejects the sentence. The sentence is a Gap. The sentence makes a claim. The claim says the words do not appear. The sentence makes a claim. The claim says ADR 10 adds the words. The language does not have the words. The language does not use "doesn't". The language does not use "don't". The language does not use "later". The language does not use "by". The language does not use "contractions". The language does not use "orthography". The language does not use "angloform". Angloform is a language. The orthography of the language does not use contractions. The language does not use the word "angloform". The language is Angloform. The sentence cannot name Angloform. The sentence is a Gap. The maintainers must fix the Gap.
   drops: none
   valid: false
   metrics:
@@ -58,10 +58,10 @@ proposals:
     words: 182
     terms: 13
     connectives: 0
-  diagnosis: '"The claim says the words do not appear": STYLE: "says … appear" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "The claim says ADR 10 adds the words": STYLE: "adds" is a verb in minglish and cannot follow a determiner; "says … adds" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
+  diagnosis: '"The claim says the words do not appear": STYLE: "says … appear" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "The claim says ADR 10 adds the words": STYLE: "adds" is a verb in angloform and cannot follow a determiner; "says … adds" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
   count: 1
   model: deepseek/deepseek-v4-flash
-- text: The Seed does not enable the contractions "doesn't" and "don't". ADR 0010 adds the rule later. The orthography of Minglish bans every contraction.
+- text: The Seed does not enable the contractions "doesn't" and "don't". ADR 0010 adds the rule later. The orthography of Angloform bans every contraction.
   drops: none
   valid: false
   metrics:
@@ -73,10 +73,10 @@ proposals:
     words: 23
     terms: 1
     connectives: 1
-  diagnosis: '"The Seed does not enable the contractions "doesn''t" and "don''t"": STYLE: "does … enable" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037); noun phrases cannot be coordinated — repeat the verb: "the mechanism stores a word and stores a message", or split the sentence (ADR 0004) | "ADR 0010 adds the rule later": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file")'
+  diagnosis: '"The Seed does not enable the contractions "doesn''t" and "don''t"": STYLE: "does … enable" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; a comma before "and" is mandatory when a new clause follows — "<clause>, and <clause>"; no comma when "and" only joins a predicate under the same subject (ADR 0037); noun phrases cannot be coordinated — repeat the verb: "the mechanism stores a word and stores a message", or split the sentence (ADR 0004) | "ADR 0010 adds the rule later": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file")'
   count: 1
   model: deepseek/deepseek-v4-flash
-- text: The Seed does not enable "doesn't". The Seed does not enable "don't". The rule of Minglish bans every contraction. The later ADR 0010 adds the rule.
+- text: The Seed does not enable "doesn't". The Seed does not enable "don't". The rule of Angloform bans every contraction. The later ADR 0010 adds the rule.
   drops: none
   valid: false
   metrics:
@@ -88,10 +88,10 @@ proposals:
     words: 26
     terms: 2
     connectives: 0
-  diagnosis: '"The later ADR 0010 adds the rule": WORD: "0010" is not a minglish word — a number does not start with 0 (ADR 0022)'
+  diagnosis: '"The later ADR 0010 adds the rule": WORD: "0010" is not an angloform word — a number does not start with 0 (ADR 0022)'
   count: 1
   model: deepseek/deepseek-v4-flash
-- text: The Seed does not enable "doesn't". The Seed does not enable "don't". The Grammar bans "doesn't". The Grammar bans "don't". The Grammar of Minglish bans every Surface Form of "do not". The ADR 0010 adds the rule.
+- text: The Seed does not enable "doesn't". The Seed does not enable "don't". The Grammar bans "doesn't". The Grammar bans "don't". The Grammar of Angloform bans every Surface Form of "do not". The ADR 0010 adds the rule.
   drops: none
   valid: false
   metrics:
@@ -103,10 +103,10 @@ proposals:
     words: 37
     terms: 6
     connectives: 0
-  diagnosis: '"The ADR 0010 adds the rule": WORD: "0010" is not a minglish word — a number does not start with 0 (ADR 0022)'
+  diagnosis: '"The ADR 0010 adds the rule": WORD: "0010" is not an angloform word — a number does not start with 0 (ADR 0022)'
   count: 1
   model: deepseek/deepseek-v4-flash
-- text: The Seed does not enable the word "doesn't". ADR 0010 added the word "did" later. The orthography of Minglish bans every contraction. The word "doesn't" is a contraction. The word "don't" is a contraction.
+- text: The Seed does not enable the word "doesn't". ADR 0010 added the word "did" later. The orthography of Angloform bans every contraction. The word "doesn't" is a contraction. The word "don't" is a contraction.
   drops: none
   valid: false
   metrics:
@@ -118,10 +118,10 @@ proposals:
     words: 34
     terms: 1
     connectives: 0
-  diagnosis: '"ADR 0010 added the word "did" later": WORD: "ADR" is not a minglish word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use a minglish verb in lowercase ("delete the file")'
+  diagnosis: '"ADR 0010 added the word "did" later": WORD: "ADR" is not an angloform word — a name cannot start a sentence — introduce it ("the tool Lexgen …") or quote it; or if this is a command, use an angloform verb in lowercase ("delete the file")'
   count: 1
   model: deepseek/deepseek-v4-flash
-- text: The document "ADR 0010" added the word "did". The document "ADR 0010" added the word "later". The rules of Minglish ban every contraction. The word "doesn't" is a contraction. The word "don't" is a contraction.
+- text: The document "ADR 0010" added the word "did". The document "ADR 0010" added the word "later". The rules of Angloform ban every contraction. The word "doesn't" is a contraction. The word "don't" is a contraction.
   drops: none
   valid: true
   metrics:
@@ -135,7 +135,7 @@ proposals:
     connectives: 0
   count: 1
   model: deepseek/deepseek-v4-flash
-- text: The document "ADR 0010" added the word "did". The document "ADR 0010" added the word "later". Minglish does not allow the word "doesn't". Minglish does not allow the word "don't".
+- text: The document "ADR 0010" added the word "did". The document "ADR 0010" added the word "later". Angloform does not allow the word "doesn't". Angloform does not allow the word "don't".
   drops: none
   valid: true
   metrics:

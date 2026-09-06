@@ -1,7 +1,7 @@
 # 0004 — Coordination: and/or enabled, but deferred
 
 Date: 2026-08-31
-Status: proposed (tentative — same review point as ADR 0002/0003; rewritten in minglish 2026-09-02)
+Status: proposed (tentative — same review point as ADR 0002/0003; rewritten in angloform 2026-09-02)
 
 ## Context
 

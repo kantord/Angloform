@@ -98,7 +98,7 @@ domain model (`scripts/docjudge.py`). Naturalness is scored per paragraph;
 the telephone explainer summarizes the whole document and lists the spans
 it could not settle (*unclear*); the rater compares the summary with the
 ADR's earliest English version when one exists (ADRs 0001–0028). ADRs
-written in minglish from the start have no original, so naturalness and
+written in angloform from the start have no original, so naturalness and
 unclear spans carry the judgement. The domain model gets a third judge,
 *imaginability*: can a competent newcomer picture the thing from the
 definition and its examples (ADR 0036)?

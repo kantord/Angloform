@@ -1,7 +1,7 @@
 # 0002 — Pronouns: third person banned, indexicals allowed
 
 Date: 2026-08-31
-Status: proposed (tentative — revisit once real corpus experience exists; rewritten in minglish 2026-09-02, see docs/dogfood-adr-0002.md)
+Status: proposed (tentative — revisit once real corpus experience exists; rewritten in angloform 2026-09-02, see docs/dogfood-adr-0002.md)
 
 ## Context
 

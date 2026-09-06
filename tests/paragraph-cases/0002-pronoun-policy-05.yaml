@@ -48,7 +48,7 @@ proposals:
     words: 16
     terms: 0
     connectives: 0
-  diagnosis: '"the system has zero reference ambiguity by construction": WORD: "zero" is banned in minglish — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the system has no discourse layer to build": STYLE: "build" is transitive in minglish and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
+  diagnosis: '"the system has zero reference ambiguity by construction": WORD: "zero" is banned in angloform — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the system has no discourse layer to build": STYLE: "build" is transitive in angloform and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: every parser produces zero ambiguities. every parser has one parse. the system builds no discourse layer.
@@ -63,7 +63,7 @@ proposals:
     words: 16
     terms: 0
     connectives: 0
-  diagnosis: '"every parser produces zero ambiguities": WORD: "zero" is banned in minglish — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "every parser has one parse": STYLE: "has … parse" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "parse" is a verb in minglish and cannot follow a determiner; "parse" is transitive in minglish and needs an object | "the system builds no discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
+  diagnosis: '"every parser produces zero ambiguities": WORD: "zero" is banned in angloform — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "every parser has one parse": STYLE: "has … parse" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "parse" is a verb in angloform and cannot follow a determiner; "parse" is transitive in angloform and needs an object | "the system builds no discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the design of the system creates zero reference ambiguities. the system does not have a discourse layer. the team does not build a discourse layer.
@@ -78,7 +78,7 @@ proposals:
     words: 25
     terms: 0
     connectives: 0
-  diagnosis: '"the design of the system creates zero reference ambiguities": WORD: "zero" is banned in minglish — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the system does not have a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … have" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "the team does not build a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
+  diagnosis: '"the design of the system creates zero reference ambiguities": WORD: "zero" is banned in angloform — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the system does not have a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … have" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "the team does not build a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: zero ambiguity does not occur in the design. the design has no discourse layer.
@@ -93,7 +93,7 @@ proposals:
     words: 14
     terms: 0
     connectives: 0
-  diagnosis: '"zero ambiguity does not occur in the design": WORD: "zero" is banned in minglish — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the design has no discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
+  diagnosis: '"zero ambiguity does not occur in the design": WORD: "zero" is banned in angloform — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the design has no discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: no design contains ambiguity. the design does not have a discourse layer.
@@ -183,7 +183,7 @@ proposals:
     words: 15
     terms: 0
     connectives: 0
-  diagnosis: '"the design removes reference ambiguities by construction": STYLE: "construction" — a singular noun needs a determiner: "the construction" (mass nouns take "the"); "reference ambiguities" is a defined term — write "Reference Ambiguities" (see CONTEXT.md); "reference" — a singular noun needs a determiner: "the reference" (mass nouns take "the") | "the system has no discourse layer to build": STYLE: "build" is transitive in minglish and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
+  diagnosis: '"the design removes reference ambiguities by construction": STYLE: "construction" — a singular noun needs a determiner: "the construction" (mass nouns take "the"); "reference ambiguities" is a defined term — write "Reference Ambiguities" (see CONTEXT.md); "reference" — a singular noun needs a determiner: "the reference" (mass nouns take "the") | "the system has no discourse layer to build": STYLE: "build" is transitive in angloform and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the design does not create reference ambiguities. the system does not build a discourse layer.
@@ -272,7 +272,7 @@ proposals:
     words: 20
     terms: 0
     connectives: 1
-  diagnosis: '"the system produces 0 ambiguities in the reference resolution process, so the development team does not build a discourse layer": WORD: "0" is not a minglish word — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022)'
+  diagnosis: '"the system produces 0 ambiguities in the reference resolution process, so the development team does not build a discourse layer": WORD: "0" is not an angloform word — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the system produces no ambiguities in the tag process of the reference, so the team does not build a discourse layer
@@ -287,7 +287,7 @@ proposals:
     words: 21
     terms: 0
     connectives: 1
-  diagnosis: '"the system produces no ambiguities in the tag process of the reference, so the team does not build a discourse layer": WORD: "tag" is not a minglish word'
+  diagnosis: '"the system produces no ambiguities in the tag process of the reference, so the team does not build a discourse layer": WORD: "tag" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the system produces no ambiguities in the tag process of the word, so the team does not build a discourse layer
@@ -302,7 +302,7 @@ proposals:
     words: 21
     terms: 0
     connectives: 1
-  diagnosis: '"the system produces no ambiguities in the tag process of the word, so the team does not build a discourse layer": WORD: "tag" is not a minglish word'
+  diagnosis: '"the system produces no ambiguities in the tag process of the word, so the team does not build a discourse layer": WORD: "tag" is not an angloform word'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the system has no discourse layer. the system has no anaphora. the system produces no reference ambiguity.
@@ -362,7 +362,7 @@ proposals:
     words: 16
     terms: 0
     connectives: 0
-  diagnosis: '"the tool Lexgen guarantees no reference ambiguity": WORD: "guarantees" is not a minglish word | "the tool Lexgen does not build a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
+  diagnosis: '"the tool Lexgen guarantees no reference ambiguity": WORD: "guarantees" is not an angloform word | "the tool Lexgen does not build a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the tool Lexgen produces no reference ambiguity. the tool Lexgen does not build a layer of the discourse.
@@ -406,7 +406,7 @@ proposals:
     words: 21
     terms: 0
     connectives: 1
-  diagnosis: '"the system produces zero reference ambiguities": WORD: "zero" is banned in minglish — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the system has no discourse layer, so the system does not build a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
+  diagnosis: '"the system produces zero reference ambiguities": WORD: "zero" is banned in angloform — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the system has no discourse layer, so the system does not build a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the system produces no reference ambiguities. the system does not have a layer of the discourse, so the system does not build a layer of the discourse.
@@ -450,7 +450,7 @@ proposals:
     words: 14
     terms: 0
     connectives: 0
-  diagnosis: '"the design achieves no reference ambiguity": WORD: "achieves" is not a minglish word | "the design has no discourse layer to build": STYLE: "build" is transitive in minglish and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
+  diagnosis: '"the design achieves no reference ambiguity": WORD: "achieves" is not an angloform word | "the design has no discourse layer to build": STYLE: "build" is transitive in angloform and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the design has no reference ambiguity. the design does not build a layer of the discourse.
@@ -523,7 +523,7 @@ proposals:
     words: 14
     terms: 0
     connectives: 0
-  diagnosis: '"the design has zero reference ambiguity": WORD: "zero" is banned in minglish — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the design has no discourse layer to build": STYLE: "build" is transitive in minglish and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
+  diagnosis: '"the design has zero reference ambiguity": WORD: "zero" is banned in angloform — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the design has no discourse layer to build": STYLE: "build" is transitive in angloform and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: no reference has an ambiguity. no reference has a discourse layer. the tool does not build the discourse layer.
@@ -596,7 +596,7 @@ proposals:
     words: 14
     terms: 0
     connectives: 0
-  diagnosis: '"the design produces no reference ambiguities": STYLE: "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014); "reference ambiguities" is a defined term — write "Reference Ambiguities" (see CONTEXT.md) | "the design has no discourse layer to build": STYLE: "build" is transitive in minglish and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
+  diagnosis: '"the design produces no reference ambiguities": STYLE: "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014); "reference ambiguities" is a defined term — write "Reference Ambiguities" (see CONTEXT.md) | "the design has no discourse layer to build": STYLE: "build" is transitive in angloform and needs an object; "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "has … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014)'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the design does not produce the ambiguities of the reference. the design does not have the layer of the discourse. the design does not build the layer of the discourse.
@@ -625,7 +625,7 @@ proposals:
     words: 14
     terms: 0
     connectives: 0
-  diagnosis: '"the design has zero reference ambiguity": WORD: "zero" is banned in minglish — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the design does not build a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
+  diagnosis: '"the design has zero reference ambiguity": WORD: "zero" is banned in angloform — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the design does not build a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … build" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the design does not have an ambiguity of the reference. the design does not build a layer of the discourse.
@@ -769,7 +769,7 @@ proposals:
     words: 31
     terms: 0
     connectives: 0
-  diagnosis: '"the language has zero reference ambiguity": WORD: "zero" is banned in minglish — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the language does not have a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … have" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "the design of the language removes every reference ambiguity": STYLE: "reference ambiguity" is a defined term — write "Reference Ambiguity" (see CONTEXT.md) | "the language does not have a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … have" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
+  diagnosis: '"the language has zero reference ambiguity": WORD: "zero" is banned in angloform — for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>" (ADR 0022) | "the language does not have a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … have" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result" | "the design of the language removes every reference ambiguity": STYLE: "reference ambiguity" is a defined term — write "Reference Ambiguity" (see CONTEXT.md) | "the language does not have a discourse layer": STYLE: "discourse layer" is a defined term — write "Discourse Layer" (see CONTEXT.md); "does … have" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: the language has no reference ambiguity. the language has no discourse layer. the design of the language removes every reference ambiguity. the language has no discourse layer.
@@ -870,7 +870,7 @@ proposals:
     words: 27
     terms: 3
     connectives: 0
-  diagnosis: '"The team does not plan to build a Discourse Layer": STYLE: "does … plan" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "plan" is transitive in minglish and needs an object'
+  diagnosis: '"The team does not plan to build a Discourse Layer": STYLE: "does … plan" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "plan" is transitive in angloform and needs an object'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The design of the language removes every Reference Ambiguity. The language does not have a Discourse Layer. The team has no plan for a Discourse Layer.
@@ -885,7 +885,7 @@ proposals:
     words: 26
     terms: 3
     connectives: 0
-  diagnosis: '"The team has no plan for a Discourse Layer": STYLE: "has … plan" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014); "plan" is a verb in minglish and cannot follow a determiner; "plan" is transitive in minglish and needs an object'
+  diagnosis: '"The team has no plan for a Discourse Layer": STYLE: "has … plan" — a clause cannot be the object of a verb; state the fact in its own sentence, or name it: "the report shows the result"; "no" is subject-only — write "… does not <verb> <nouns>" instead (ADR 0014); "plan" is a verb in angloform and cannot follow a determiner; "plan" is transitive in angloform and needs an object'
   count: 1
   model: deepseek/deepseek-v4-flash
 - text: The design of the language removes every Reference Ambiguity. The language does not have a Discourse Layer. The team does not plan a Discourse Layer.

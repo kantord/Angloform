@@ -1,4 +1,4 @@
-//! minglish linter CLI: certificate for clean sentences, named red flags
+//! angloform linter CLI: certificate for clean sentences, named red flags
 //! for rejected ones (see CONTEXT.md "Rejection").
 //!
 //! Usage:
@@ -58,7 +58,7 @@ fn main() {
             }
             Diagnosis::Unknown => {
                 flagged += 1;
-                println!("✗ {s}\n  not recognizable as a minglish-like sentence");
+                println!("✗ {s}\n  not recognizable as an angloform-like sentence");
             }
         }
     }

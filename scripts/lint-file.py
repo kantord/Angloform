@@ -8,7 +8,7 @@ For a markdown file: per-sentence verdicts and parse rate; a heading check
 docs/markdown-linting.md); topic continuity (does the subject noun of each
 sentence appear in the sentence before it?); and a relation inventory —
 English coherence connectives in the source, grouped by relation type,
-marked by whether minglish has a form for them.
+marked by whether angloform has a form for them.
 
 Usage: lint-file.py FILE.md [--brief]   (brief: no per-sentence listing)
 """
@@ -19,7 +19,7 @@ import mdblocks
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# relation type -> (connectives, minglish form or None)
+# relation type -> (connectives, angloform form or None)
 RELATIONS = {
     "result":         (["so", "therefore", "thus", "hence", "consequently", "as a result"], ", so"),
     "reason":         (["because", "since", "for"], ", because"),
@@ -124,10 +124,10 @@ def content_lemmas(sent, lemma, tag):
 
 def lint_heading(text, tag, bans, rejects):
     """A heading is a title, not a sentence (docs/markdown-linting.md): no
-    minglish sentence grammar applies. The check is vocabulary-only, and
+    angloform sentence grammar applies. The check is vocabulary-only, and
     only over lowercase words — a Capitalized word is a name/proper noun by
     the same convention prose uses (ADR 0018) and is never checked, so this
-    stays usable on markdown that names real-world things minglish has no
+    stays usable on markdown that names real-world things angloform has no
     entry for (a product, a brand, a person). Returns (banned, wrong_sense,
     unknown) word lists; an empty heading check is a pass."""
     body = _HEADING_MARKER.sub("", text, count=1)
@@ -198,7 +198,7 @@ def main():
     print(f"- Topic continuity: {cont}/{pairs} consecutive pairs share the subject with the sentence before"
           f" ({100*cont/max(1,pairs):.0f}%)")
     inv = relation_inventory(text)
-    print("- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = minglish has a form):")
+    print("- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):")
     for rel, (n, form) in inv.items():
         if n:
             print(f"  - {rel}: {n}" + (f" ✓ {form}" if form else " ✗ no form"))
@@ -214,7 +214,7 @@ def main():
                 for word, cat, sug in w:
                     print(f"  - wrong sense: \"{word}\" is attested as {cat} — {sug}")
                 if u:
-                    print(f"  - not in the minglish vocabulary: {', '.join(sorted(set(u)))}")
+                    print(f"  - not in the angloform vocabulary: {', '.join(sorted(set(u)))}")
         print("\n## Sentences\n")
         for (bi, s), (v, d) in zip(all_sents, verdicts):
             mark = "✓" if v else "✗"
