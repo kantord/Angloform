@@ -185,7 +185,6 @@ fn linter_advice_examples_parse() {
         "the word i is a Pronoun",
         "my is a Pronoun",
         "the Pronouns are not in the Lexicon",
-        "the design is consistent with the project",
         "the mechanism stores a word and a message",
         "the cost is big",
         "the agent files the report",

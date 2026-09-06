@@ -704,12 +704,6 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
             out.push(format!("\"{}\" needs its noun: \"the {} criterion\" (ADR 0029)", word(t), word(t)));
         }
     }
-    // adjective + PP after "be": "must be cheap to the process"
-    for (i, t) in toks.iter().enumerate() {
-        if matches!(t, Tok::Be(_)) && matches!(toks.get(i + 1), Some(Tok::Adj(_) | Tok::AdjLong(_))) && matches!(toks.get(i + 2), Some(Tok::PrepV(_))) {
-            out.push("an adjective cannot take a prepositional phrase yet (\"cheap to …\"); restructure with a verb, or split the sentence (deferred, ADR 0023)".to_string());
-        }
-    }
     // "more" before a noun: a comparative of quantity
     for w in toks.windows(2) {
         if matches!(w[0], Tok::More(_)) && matches!(w[1], Tok::NounSg(_) | Tok::NounPl(_)) {
@@ -863,7 +857,9 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
             }
         }
     }
-    // copula + prepositional phrase / adjective + PP (ADR 0003; ADR 0023 deferral)
+    // copula + prepositional phrase (ADR 0003) — a bare PP still has no
+    // attachment; an adjective + PP is legal now (ADR 0055) so is not
+    // flagged here.
     for (i, t) in toks.iter().enumerate() {
         if !matches!(t, Tok::CopSg(_) | Tok::CopPl(_) | Tok::CopSgPast(_) | Tok::CopPlPast(_) | Tok::Cop1Sg(_)) {
             continue;
@@ -872,17 +868,12 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
         if matches!(toks.get(j), Some(Tok::Neg(_))) {
             j += 1;
         }
-        match (toks.get(j), toks.get(j + 1)) {
-            (Some(Tok::PrepV(p) | Tok::PrepN(p)), _) => out.push(format!(
+        if let Some(Tok::PrepV(p) | Tok::PrepN(p)) = toks.get(j) {
+            out.push(format!(
                 "\"{} {p} …\" — the copula takes an adjective or a noun phrase, not a \
                  prepositional phrase; use a verb: \"the Lexicon contains the Pronouns\" (ADR 0003)",
                 word(t)
-            )),
-            (Some(Tok::Adj(a) | Tok::AdjLong(a)), Some(Tok::PrepV(p))) => out.push(format!(
-                "\"{a} {p} …\" — an adjective cannot take a prepositional phrase yet; \
-                 restructure with a verb, or split the sentence (deferred, ADR 0023)"
-            )),
-            _ => {}
+            ));
         }
     }
     // noun-phrase coordination (ADR 0004: coordinate predicates or clauses)

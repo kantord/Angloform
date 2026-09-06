@@ -631,6 +631,10 @@ Compl: Tree = {
     // ADR 0031: one verb-preposition phrase may follow a noun-phrase
     // complement and attaches to it — the copula has no object to compete
     <np:NPAny> <pp:PPv> => nd("ComplPP", 0, vec![Some(np), Some(pp)]),
+    // ADR 0055: same attachment, an adjective complement instead of a noun
+    // phrase — "the copies are identical to the report" (ADR 0023's
+    // deferred named-standard form).
+    <a:LAdj> <pp:PPv> => nd("ComplPP", 0, vec![Some(a), Some(pp)]),
     <c:LAdjCmp> <t:LThan> <np:NPAny> => nd("Cmp", 0, vec![Some(c), Some(t), Some(np)]),
     <m:LMore> <a:LAdjLong> <t:LThan> <np:NPAny> => nd("Cmp", 1, vec![Some(m), Some(a), Some(t), Some(np)]),
 };

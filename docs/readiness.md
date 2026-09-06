@@ -30,18 +30,25 @@ differently," a much smaller kind of gap.
 
 **Remaining narrow gaps** (all *deferred* in STATUS.md's decision
 queue, not discovered-and-unaddressed): measurement values/decimals/
-thousands separators (ADR 0022), superlatives (ADR 0029), the
-named-standard comparison "identical to X" (ADR 0023), percent-of-mass
+thousands separators (ADR 0022), superlatives (ADR 0029), percent-of-mass
 and percentages-as-predicates (ADR 0024), ambitransitive verbs (no
 case attached yet). These matter specifically for spec-like content
 with numbers, benchmarks, or thresholds — a real technical-writing use
 case, not an edge case.
 
-**To close**: same proven method as this session's ADR 0042–0049 run —
-one deferred item at a time, grammar-first (check for LALR conflicts
-before design lock-in), verified against the full corpus each time.
-Each of the 4 items above closed a comparable-complexity gap in roughly
-one focused session historically. Estimated: 3–5 sessions for all four,
+**2026-09-06 update**: closed the named-standard comparison "identical to
+X" (ADR 0023's deferral) via ADR 0055 — one new grammar alternative
+(an adjective complement can take a PP, reusing ADR 0031's attachment
+argument for a noun-phrase complement), zero LALR(1) conflict, 2 stale
+linter rules removed (they were rejecting a shape the grammar now
+accepts), full corpus + workspace tests green. One session, as estimated
+below. 3 items remain of the original 4.
+
+**To close (the remaining 3)**: same proven method as this session's ADR
+0042–0049 and 0055 runs — one deferred item at a time, grammar-first
+(check for LALR conflicts before design lock-in), verified against the
+full corpus each time. Each item has closed a comparable-complexity gap
+in roughly one focused session historically. Estimated: 2–4 sessions,
 independently parallelizable (no shared grammar position between them).
 
 ## Condition 2: the prose that results is natural, not merely parseable — THE gap

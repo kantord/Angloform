@@ -180,8 +180,9 @@ that is not derivable from the code, ADRs, or git history.
    ("the exit code is 0" — the natural home for a future 0), ordinals,
    units, thousands separators, decimals. Needs a value slot distinct from
    the NUM_PL count slot.
-5. Deferred by ADR 0023 (same): the named-standard form "identical to the
-   report" needs an adjective + PP complement the copula lacks.
+5. ~~Deferred by ADR 0023 (same): the named-standard form "identical to the
+   report".~~ Closed 2026-09-06 by ADR 0055 — an adjective complement can
+   now take a PP, same attachment as ADR 0031's NP complement.
 6. Deferred by ADR 0024 (percent): percent of a singular mass, percentages as
    predicates, decimals. Ambitransitives ("the process stops") remain a
    findings-level gap with no case attached; commit-as-verb (adr0001-05) was
