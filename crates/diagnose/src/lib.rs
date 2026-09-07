@@ -358,7 +358,7 @@ fn word(t: &Tok) -> &str {
         | Tok::DoBase(w) | Tok::Do3(w) | Tok::DoPast(w) | Tok::ModalMust(w)
         | Tok::ModalCan(w) | Tok::ModalCannot(w) | Tok::If(w) | Tok::Then(w)
         | Tok::Every(w) | Tok::No(w) | Tok::Num(w) | Tok::NumPl(w) | Tok::Percent(w)
-        | Tok::Approx(w) | Tok::So(w) | Tok::Because(w) | Tok::Namely(w) | Tok::Some_(w) | Tok::Name(w)
+        | Tok::Approx(w) | Tok::So(w) | Tok::Because(w) | Tok::Namely(w) | Tok::Which(w) | Tok::Who(w) | Tok::Some_(w) | Tok::Name(w)
         | Tok::Ord(w) | Tok::Than(w) | Tok::More(w) | Tok::Scale(w) | Tok::AdjCmp(w) | Tok::AdjLong(w)
         | Tok::AdjSup(w) | Tok::Most(w) | Tok::NumVal(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w) => w,
         Tok::Comma => ",",
@@ -1066,7 +1066,7 @@ fn slot_findings(lexicon: &Lexicon, toks: &[Tok]) -> Vec<String> {
 enum Term {
     Det, DetSg, Poss, Every, No, Some_, Num, Adj, NSg, NPl,
     VAny, PrepN, PrepV, Pron, CopAny, Conj, Neg, TempAdv, DoAny, ModAny, If, Then, Comma,
-    Ing, Ed, NameT, Pct, Approx, So, Because, Namely, Ord, Than,
+    Ing, Ed, NameT, Pct, Approx, So, Because, Namely, Ord, Than, Which, Who,
 }
 
 fn term_of(t: &Tok) -> Vec<Term> {
@@ -1083,6 +1083,12 @@ fn term_of(t: &Tok) -> Vec<Term> {
         Tok::So(_) => vec![Term::So],
         Tok::Because(_) => vec![Term::Because],
         Tok::Namely(_) => vec![Term::Namely],
+        // ADR 0059: no Tier-2 grammar support yet (RelSentence isn't
+        // modeled in this loose parser) — a sentence using "which"/"who"
+        // falls through to the generic fallback advice for now, an
+        // explicit, documented gap rather than a silent one.
+        Tok::Which(_) => vec![Term::Which],
+        Tok::Who(_) => vec![Term::Who],
         Tok::Ord(_) => vec![Term::Ord],
         Tok::Be(_) | Tok::BecomeSg(_) | Tok::BecomePl(_) | Tok::BecomePast(_) => vec![Term::CopAny],
         Tok::Than(_) => vec![Term::Than],

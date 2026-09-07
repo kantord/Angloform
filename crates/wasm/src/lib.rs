@@ -82,7 +82,7 @@ fn word_of(t: &Tok) -> &str {
         | Pron1(w) | Pron2(w) | Poss(w) | CopSg(w) | CopPl(w) | CopSgPast(w)
         | CopPlPast(w) | Cop1Sg(w) | Conj(w) | Neg(w) | TempAdv(w) | TimeAdv(w) | Yet(w) | Focus(w) | Other(w) | DoBase(w) | Do3(w) | DoPast(w)
         | ModalMust(w) | ModalCan(w) | ModalCannot(w) | If(w) | Then(w) | Every(w)
-        | No(w) | Num(w) | NumPl(w) | Percent(w) | Approx(w) | So(w) | Because(w) | Namely(w)
+        | No(w) | Num(w) | NumPl(w) | Percent(w) | Approx(w) | So(w) | Because(w) | Namely(w) | Which(w) | Who(w)
         | Ord(w) | Than(w) | More(w) | Scale(w) | AdjCmp(w) | AdjLong(w) | AdjSup(w) | Most(w) | NumVal(w) | Be(w)
         | BecomeSg(w) | BecomePl(w) | BecomePast(w) | Some_(w) | Name(w) => w,
         Comma => ",",
@@ -141,6 +141,8 @@ fn tag_of(t: &Tok) -> &'static str {
         So(_) => "RESULT",
         Because(_) => "REASON",
         Namely(_) => "NAMELY",
+        Which(_) => "WHICH",
+        Who(_) => "WHO",
         Ord(_) => "ORD",
         Than(_) => "THAN",
         More(_) => "MORE",
@@ -255,6 +257,7 @@ fn label_name(label: &str) -> &str {
         "Cmp" => "Comparative",
         "CoordPred" => "Predicate Coordination",
         "CoordClause" => "Clause Coordination",
+        "RelS" => "Relative Clause",
         "Intro" => "Enumeration Intro",
         "Enum" => "Enumeration",
         "Steps" => "Step Block",

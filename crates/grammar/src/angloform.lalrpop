@@ -192,15 +192,11 @@ LName: Tree = <l:@L> <w:"NAME"> => leaf(l, w);
 // colon right after the verb introduces an inline list of objects
 // (EXPERIMENT: "the mechanism stores: a word and a message").
 //
-// DIAGNOSTIC STATE (ADR 0059 in progress): temporarily testing whether
-// RelClauseSG/PL can reuse this exact nonterminal directly (no depth-1
-// cap at the grammar level yet) to isolate whether a duplicate
-// "VPnPlain" nonterminal was itself the source of the earlier LALR(1)
-// conflict, or whether the conflict has some other cause.
+// Verb predicate for one (transitive, intransitive) agreement pair. A
+// colon right after the verb introduces an inline list of objects
+// (EXPERIMENT: "the mechanism stores: a word and a message").
 VPn<Vt, Vi>: Tree = {
     <v:Vt> <o:NPAny> <p:PPv?> => nd("VP", 0, vec![Some(v), Some(o), p]),
-    <v:Vt> <o:NPi<LDet, LNounSg>> <rc:RelClauseSG> => nd("VP", 0, vec![Some(v), Some(nd("NPRel", 0, vec![Some(o), Some(rc)]))]),
-    <v:Vt> <o:NPi<LDet, LNounPl>> <rc:RelClausePL> => nd("VP", 0, vec![Some(v), Some(nd("NPRel", 0, vec![Some(o), Some(rc)]))]),
     <v:Vt> <c:LColon> <n1:NPAny> <cj:LConj> <n2:NPAnyOrOther> => nd("VP", 0, vec![Some(v), Some(c), Some(n1), Some(cj), Some(n2)]),
     <v:Vi> <p:PPv?> => nd("VP", 0, vec![Some(v), p]),
 };
@@ -273,6 +269,7 @@ pub Sentence: Tree = {
     CoordClause,
     Prohibition,
     Imperative,
+    RelSentence,
 };
 
 Statement: Tree = {
@@ -364,6 +361,21 @@ CoordClause: Tree = {
         nd("CoordClause", 2, vec![Some(c), Some(cm), Some(cj), Some(cl)]),
     <c:Clause> <cm1:LComma> <c2:Clause> <cm2:LComma> <cj:LConj> <cl:Clause> =>
         nd("CoordClause", 4, vec![Some(c), Some(cm1), Some(c2), Some(cm2), Some(cj), Some(cl)]),
+};
+
+// <clause> , which/who <predicate> — a non-restrictive relative clause
+// (ADR 0059, revises ADR 0010), Sentence-level and sharing Causal/
+// Conditional/CoordClause's exact "reduce Clause fully first, then
+// branch on the token right after the comma" mechanism. An earlier
+// attempt embedded this inside the object NP itself (low, inside VPn)
+// and hit a real, confirmed LALR(1) conflict — see
+// docs/relative-clause-design-2026-09-06.md for the full account,
+// including why the grammar cannot verify the antecedent (subject vs.
+// object) or the predicate's number agreement after this move — both
+// routed to a not-yet-built Linter check (diagnose::relative_clause_checks).
+RelSentence: Tree = {
+    <c:Clause> <cm:LComma> <r:LWhich> <p:PredRel> <t:Tailn<PredRel>?> => nd("RelS", 2, vec![Some(c), Some(cm), Some(r), Some(p), t]),
+    <c:Clause> <cm:LComma> <r:LWho> <p:PredRel> <t:Tailn<PredRel>?> => nd("RelS", 2, vec![Some(c), Some(cm), Some(r), Some(p), t]),
 };
 
 // do not <verb …> — prohibition (ADR 0005).
@@ -482,6 +494,40 @@ PredPLCore: Tree = {
     ModalVP,
     CopPredn<LCopPl>,
     CopPredn<LCopPlPast>,
+    CopPredn<LBecomePl>,
+    CopPredn<LBecomePast>,
+};
+
+// ADR 0059: the predicate inside a relative clause (RelSentence, below).
+// The antecedent's number is locked inside an already-reduced, opaque
+// Clause by the time the parser reaches this position, so the grammar
+// cannot choose PredSG vs. PredPL here the way Statement/Clause do via
+// the subject. Offering PredSG and PredPL as direct sibling
+// alternatives was tried and is a genuine reduce/reduce conflict, not a
+// theoretical one: several of their sub-productions are byte-identical
+// regardless of number (past tense, modals, do-support past) and the
+// build caught it. This is their deduplicated union instead — every
+// verb-form alternative once, agreement recoverable from the actual
+// word chosen (PredSGCore's LVt3 vs PredPLCore's LVtBase are always
+// different tokens for a given lexicon entry, so no ambiguity remains
+// inside this union itself). The Linter checks the chosen form actually
+// agrees with the real antecedent's number
+// (diagnose::relative_clause_checks — not yet built), the same
+// Grammar-accepts/Linter-verifies split already used for who/which.
+PredRel: Tree = PredAdv<PredRelCore>;
+PredRelCore: Tree = {
+    VPn<LVt3, LVi3>,
+    VPn<LVtBase, LViBase>,
+    VPn<LVtEd, LViEd>,
+    NegVPn<LDo3>,
+    NegVPn<LDoBase>,
+    NegVPn<LDoPast>,
+    ModalVP,
+    CopPredn<LCopSg>,
+    CopPredn<LCopPl>,
+    CopPredn<LCopSgPast>,
+    CopPredn<LCopPlPast>,
+    CopPredn<LBecomeSg>,
     CopPredn<LBecomePl>,
     CopPredn<LBecomePast>,
 };
@@ -623,24 +669,6 @@ NPNo: Tree = { NPx<LNo, LNounSg> };
 NPSome: Tree = { NPx<LSome, LNounPl> };
 
 NPAny: Tree = { NPSG, NPPL, BarePl, NPEvery };
-
-// ADR 0059 (revises ADR 0010): a non-restrictive relative clause. A
-// mandatory explicit relativizer avoids the Reduced-Relative garden
-// path ADR 0010 banned ("the file stored in the cache"); "who" for a
-// human/agent antecedent, "which" otherwise — Linter-checked
-// (diagnose::relativizer_animacy), not grammar-enforced, since the
-// grammar has no animacy machinery. Subject-relative only (the
-// relativizer plays the subject role inside its own clause — no
-// gap-tracking) and clause-final only (no closing comma needed). See
-// docs/relative-clause-design-2026-09-06.md for the full design record.
-RelClauseSG: Tree = {
-    <c:LComma> <r:LWhich> <p:PredSG> => nd("RelClause", 2, vec![Some(c), Some(r), Some(p)]),
-    <c:LComma> <r:LWho> <p:PredSG> => nd("RelClause", 2, vec![Some(c), Some(r), Some(p)]),
-};
-RelClausePL: Tree = {
-    <c:LComma> <r:LWhich> <p:PredPL> => nd("RelClause", 2, vec![Some(c), Some(r), Some(p)]),
-    <c:LComma> <r:LWho> <p:PredPL> => nd("RelClause", 2, vec![Some(c), Some(r), Some(p)]),
-};
 
 // Bare plural: generic/characterizing reading only, by fiat (ADR 0013).
 BarePl: Tree = {
