@@ -1005,6 +1005,310 @@ subjectless verb phrase, no indefinite pronouns ("something"/
 single word trialed so far has one — they only block certain specific
 phrasings some words would ideally use.
 
+## 25 more in one batch, all first-try (2026-09-08)
+
+Following `skills/lexicon-definitions/SKILL.md`'s process (draft with
+already-real, already-general vocabulary → verify every word exists →
+test): all 25 parsed on the first attempt, no grammar changes needed.
+
+| lemma | kind | definition |
+|---|---|---|
+| event | NOUN | a thing, which comes at a time |
+| feature | NOUN | a part of a system, which helps a person |
+| memory | NOUN | a part of a system, which holds items |
+| message | NOUN | a text, which comes from a person |
+| model | NOUN | a thing, which describes a system |
+| number | NOUN | a thing, which names a value |
+| system | NOUN | a group of parts, which helps a person |
+| sentence | NOUN | a group of words, which has a meaning |
+| test | NOUN | an event, which checks a thing |
+| send | VERB_TRANS | give a thing to a person |
+| receive | VERB_TRANS | take a thing from a person |
+| check | VERB_TRANS | find an error in a thing |
+| open | VERB_TRANS | start a thing |
+| close | VERB_TRANS | stop a thing |
+| accept | VERB_TRANS | allow a thing |
+| reject | VERB_TRANS | ban a thing |
+| fix | VERB_TRANS | remove an error from a thing |
+| update | VERB_TRANS | change a thing |
+| stay | VERB_INTRANS | wait in a place |
+| wait | VERB_INTRANS | stay for a thing |
+| win | VERB_INTRANS | come before a group |
+| conflict | VERB_INTRANS | come against a thing |
+| sharp | ADJ | not blunt |
+| clear | ADJ | not ambiguous |
+| false | ADJ | not correct |
+
+Verified: 13/13 `definition_grammar` tests, `cargo test --workspace`
+clean.
+
+One pair worth flagging rather than presenting as clean: **stay**
+(*"wait in a place"*) and **wait** (*"stay for a thing"*) each use the
+other as their own main verb. Not circular in the sense the headword
+check forbids (different lemma each time, so it's structurally legal),
+but it's the same *kind* of weakness as delete/remove — two words
+leaning on each other instead of each having an independent
+differentia — just with different PPs attached rather than identical
+text, so it slipped past the "check for a collision" step. Left in
+deliberately rather than quietly smoothed over; worth a second look
+before treating either as settled.
+
+60 words trialed total across 10 rounds.
+
+## Round 4 on the 25-word batch: 9 real fixes, and the stay/wait cycle broken (2026-09-08)
+
+**Fixed, using words already checked to exist**:
+- **event**: *"comes at a time"* → *"occurs at a time"* — more precise verb, same already-real `occur`.
+- **feature**: *"which helps a person"* → *"which changes a system"* — the original was an exact predicate collision with `system`'s own definition; this fixes the collision, not just the wording, and is arguably more accurate (a feature modifies the system it belongs to, rather than serving a person directly).
+- **sentence**: *"a group of words"* → *"a sequence of words"* — `sequence` was already real and unused; more accurate than `group` (a sentence's word order matters; a group's doesn't).
+- **test**: *"an event, which checks"* → *"a tool, which checks a thing"* — avoids defining one still-fresh word (`event`) in terms of another, uses the already-real, already-general `tool`.
+- **send**: *"give a thing to a person"* → *"write a message to a person"* — narrower but more accurate, and both `write` and `message` (this session's own earlier definition) were already validated.
+- **update**: *"change a thing"* → *"get a new version of a thing"* — `version` was already real and unused; more specific and more accurate than the generic "change."
+- **stay / wait, the flagged pair, actually broken this round**: `stay` → *"exist in a place"* (an independent differentia, no longer routed through `wait`); `wait` → *"stay until a time"* (now safely one-directional — depends on the newly-independent `stay`, the ordinary way real dictionary definitions build on simpler words, not a mutual cycle). `until` (already `PREP_V`) and `exist`/`time` (already real) did the work; no new vocabulary or grammar needed.
+- **win**: *"come before a group"* → *"come before every group"* — `every` (`NPEvery`, already part of `NPAny`) makes "ahead of absolutely everyone" explicit instead of just "ahead of one unspecified group."
+
+**Kept as-is, proposals checked and rejected for real reasons**:
+- **event** (`"a thing or a gathering, which comes at a time"`): fails twice — `or` at the genus position is Round 3's confirmed gap, and `gathering` only exists as a participle (`VERB_TRANS_ING`), not a noun (the same gerund gap `error` hit).
+- **system** (`"many parts, in one thing"`): `many` **is not an Angloform word at all** — quantification only exists via `every`/digits/`some` (ADR 0014), no vague-quantity words.
+- **receive** (`"take a thing, which a person gives"`): object-gapped relative clause again — same wall `tool`/`output` hit.
+- **check** (`"search for errors in a thing"`): `search` isn't a word, and even if it were, `VBaseP` allows exactly one `PPv` — "for errors in a thing" is two chained PPs, structurally unreachable regardless.
+- **open** (`"make a thing not closed"`): no resultative/small-clause complement exists (`make X ADJ` isn't a `VBaseP` shape) — and moot anyway, since `open`'s own *adjective* sense is separately disabled in the lexicon (redirects to `unlocked`).
+- **accept** (`"do not reject a thing"`): `Prohibition` (`do not V`) is a wholly separate top-level production, unreachable from `VerbTransDef`'s `VBaseP`. Also worth naming even if it had parsed: defining `accept` as "not reject" and (symmetrically) `reject` as "not accept" would trade one circularity (stay/wait) for a worse one — two words with no independent meaning at all, only each other's negation.
+- **false** (`"not true"`): **`true` is not an Angloform word.** Checked directly, not assumed — no entry in the lexicon at all. Possibly deliberate (the project may standardize on `correct`/`valid` throughout rather than `true`/`false` generally), possibly a real gap; noted here rather than guessed at. Kept: `not correct`.
+- **conflict** (`"do not agree in every part"`): fails three ways — subjectless negation (the same gap `depend` hit), and neither `agree` nor bare `all` (`all` is explicitly banned by ADR 0014 in favor of `every` + singular) exist as words.
+
+**message/number, no change needed**: the proposed alternatives (`someone`, `a count`) don't exist — `someone` is the same missing-indefinite-pronoun gap as `something`/`nothing`, and `count`'s noun sense is explicitly disabled in the lexicon (redirects to `value`, which the existing definition already uses).
+
+Verified: 13/13 `definition_grammar` tests, `cargo test --workspace` clean.
+
+## Round 5: two real over-narrowings, one reverted (2026-09-08)
+
+- **feature**: *"which changes a system"* — called horrible, correctly.
+  "Changes" was picked purely to dodge the earlier text collision with
+  `system`'s own definition, not because it's what a feature actually
+  does. Found the real word instead: `ability` (`NOUN_SG`, unused until
+  now). **feature**: → *"a part of a system, which gives an ability"* —
+  accurate on its own terms, and still collision-free with `system`.
+- **send**: last round's *"write a message to a person"* was itself an
+  over-narrowing — flagged directly: sending isn't only messages,
+  parcels get sent too. Reverted to the original, genuinely general
+  form: **send**: → *"give a thing to a person"*. Worth naming as a
+  pattern: this round's fix for `feature` and this round's *un*-fix for
+  `send` are the same lesson from opposite directions — a differentia
+  should narrow toward what's *true*, not toward whatever avoids an
+  unrelated problem (a collision, a vague genus). When a "fix" narrows
+  the meaning itself, that's a sign to look for a different fix, not to
+  keep the narrowing.
+- **win**: *"come before every group"* — flagged for assuming team
+  competition; winning applies to individuals too. `every group` also
+  wasn't reachable in its intended stronger sense anyway (`every other
+  X`-style exhaustive comparison isn't part of `NPAny`, only the
+  narrow colon-list construction has it). Fixed to the more neutral
+  **win**: → *"come before people"* — a bare plural (already
+  established from `society`/`team`), general enough to cover both
+  individual and team contexts without asserting either.
+
+Verified: 13/13 `definition_grammar` tests, `cargo test --workspace`
+clean.
+
+## Round 6: send/win fixed, and 20 random words as a lighter-weight pass (2026-09-08)
+
+**send/win, per direct feedback**:
+- **send**: *"carry a thing to a person"* — "ask to deliver a thing to a
+  person" was proposed and checked; fails on two already-known gaps at
+  once (`ask` doesn't exist, and it's an infinitival complement besides
+  — Round 4's gap again). `carry` (already real) captures the transport
+  nuance without either.
+- **win**: *"beat every person"* — stronger and more accurate than
+  "come before people": `beat` (already `VERB_TRANS_BASE`) is the real
+  verb for it, and this is also proof `VerbIntransDef`'s "identical
+  grammar to `VerbTransDef`" design note (`angloform.lalrpop`) is a
+  real, usable feature, not just a technicality — a transitive-shaped
+  definition (`beat` + object) is exactly the right fit for an
+  intransitive headword here.
+
+**A policy change, not just a word list**: asked directly whether every
+trialed word needs a permanent regression test — no. A `#[test]` earns
+its place when it exercises a grammar edge worth guarding (a new
+production, a boundary case); a word that only reuses already-proven
+shapes and already-real vocabulary doesn't need one. The 25-word suite
+stays (each round changed something structural); this round's 20-word
+batch does not get a matching test function — logged here as a record
+only.
+
+**20 more, sampled at random rather than curated, lower polish
+expected and found**: 18 of 20 landed on a working definition; two
+stayed open as genuine gaps rather than being forced.
+
+| lemma | kind | definition |
+|---|---|---|
+| claim | NOUN | a sentence, which comes from a person |
+| noise | NOUN | a thing, which confuses a person |
+| work | NOUN | a task, which gives a result |
+| note | NOUN | a text, which gives a fact |
+| table | NOUN | a thing, which shows items |
+| algorithm | NOUN | a sequence of steps, which gives a result |
+| author | NOUN | a person, who writes a text |
+| expand | VERB_TRANS | add a part to a thing |
+| weigh | VERB_TRANS | measure a thing |
+| enforce | VERB_TRANS | cause a rule |
+| assert | VERB_TRANS | give a claim |
+| enable | VERB_TRANS | give an ability |
+| coin | VERB_TRANS | make a new word |
+| catch | VERB_TRANS | take a thing |
+| tie | VERB_INTRANS | match a group |
+| drift | VERB_INTRANS | come without a goal |
+| alone | ADJ | single |
+| compound | ADJ | not single |
+
+**Two left open, real gaps, not forced**:
+- **reappear**: `come again` fails — `again` isn't a word. The natural
+  fallback, `come a second time`, fails too, for a sharper reason: a
+  bare temporal NP ("a second time") isn't reachable as a `VBaseP`
+  modifier at all — `PPv` always requires a preposition first, and
+  there is no bare-adverbial-NP slot anywhere in the intransitive
+  branch. A third, different-shaped gap from the `PPv`/`OfPP` family
+  already catalogued.
+  `grow` (already known-open from an earlier session) also stayed
+  open this round — not re-attempted, no new angle found.
+- **deliberate**: no antonym pair exists for intentional/accidental at
+  all — `random`, `accidental`, `intentional`, `careful` are all
+  absent; `planned` exists only as a participle (`VERB_TRANS_ED`), not
+  an adjective. A real vocabulary gap, not a phrasing problem.
+
+Verified: 13/13 `definition_grammar` tests (unchanged — this batch
+added none), `cargo test --workspace` clean.
+
+75 words engaged with total (60 previously fully landed + this
+round's 20, 18 of which landed) across 11 rounds.
+
+## Round 7: a real capability found unused, one added then reverted (2026-09-08)
+
+**Fixed, using an existing capability nobody had combined yet**:
+- **noise**: *"a thing, which confuses a person"* → *"a thing, which
+  confuses a person **or does not have a meaning**"*. `PredRelCore`
+  already lists `NegVPn` (negation) right alongside its plain-verb
+  branches — negation inside a `NounDef` differentia was always legal,
+  just never tried together with `Tailn`'s "or" until this word asked
+  for both at once. Zero grammar change; added a small regression test
+  (`tailn_predicate_may_itself_be_negated`) since this combination is
+  worth guarding now that it's known to work.
+- **tie**: *"match a group"* → *"match a result"* — more accurate
+  (a tie is equal *outcomes*, not equal *groups*); both already real.
+- **note**: *"the smallest part..."* pattern → *"a small document,
+  which holds the information"*. Directly answers a question raised
+  mid-round: Angloform is **not** missing a word for "information" —
+  `information` (`NOUN_SG`) already exists, just unused until now.
+- **table**: → *"a thing, which shows the information"* — same newly-
+  surfaced `information` word, in the already-proven "holds the X"/
+  "shows the X" shape (`the` required — `information` is a mass noun,
+  same bare-noun gap `data` hit).
+- **claim**: → *"a sentence, which names a fact"* — parses, and is the
+  practical answer within this grammar's limits, but flagged as an
+  honest imprecision rather than presented as clean: a claim need not
+  be *true*, while "fact" nominally implies it is. The literal proposal
+  (*"a sentence, which a person says is true"*) fails outright anyway
+  — `true` still isn't a word (Round 4), on top of being an
+  object-gapped relative (Round 3's gap).
+
+**Tried, built, and reverted — a real grammar experiment, not a
+dead end quietly dropped**: extended `AdjDef` with an optional `PPv`
+tail (mirroring every verb/noun definition already having one),
+specifically to fix `alone` ("not in a group" / "separate from a
+group"). Built clean, zero conflicts — but neither phrasing that
+motivated it actually worked once tried: *"not in a group"* has no
+adjective at all for the negation to attach to (`AdjDef` still needs a
+head adjective, tail or not), and *"separate"*'s adjective sense is
+itself disabled in the lexicon (one-sense-per-word — it's a verb only).
+With no word actually needing the tail, it was reverted rather than
+kept as speculative, unused surface area — the original comment's own
+bar (*"add it only once a real word needs it"*) still isn't met. Kept:
+`alone` = *"single"* (still imprecise, still the best available).
+
+**Confirmed real gaps, kept as-is**:
+- **expand** (*"add a part to a thing, which already has parts"*):
+  fails on a **new gap** — an object NP inside a verb definition (or
+  any `VBaseP`) cannot itself carry a relative-clause modifier at all;
+  the comma right after the object has no legal continuation. A
+  distinct wall from the already-catalogued subject-gapped-only
+  relative clauses (Round 3/4) — this one is about where a relative
+  clause can attach at all, not which noun it attaches to. Kept:
+  *"add a part to a thing"*.
+- **enforce** (*"check consistently to prevent a conflict"*): two
+  already-known gaps stacked — no adverb category (`consistently`
+  isn't a word) and the infinitival-purpose-clause gap (Round 4)
+  again. Kept: *"cause a rule"*.
+- **assert** (*"enforce a claim"*): parses, but flagged as a semantic
+  drift rather than adopted — "enforce" carries a compulsion/legal
+  sense (enforcing compliance) that doesn't match "assert" (stating
+  firmly). A case where "it parses" isn't sufficient on its own. Kept:
+  *"give a claim"*.
+- **catch** (*"notice a thing or hold a moving thing in a place"*):
+  `notice` isn't a word, and separately, `moving` (only
+  `VERB_TRANS_ING`) can't function as a prenominal adjective — no
+  general participle-as-adjective mechanism exists (the same class of
+  gap as `error`'s gerund wall, in adjective position instead of noun
+  position). Kept: *"take a thing"*.
+- **drift** (*"move in different directions"* / *"come in different
+  directions"*): `directions` isn't a word — a genuinely missing
+  vocabulary item, not a phrasing problem. Stays open, alongside `grow`
+  and `reappear`, as this design's small but real cluster of
+  motion/change words the current lexicon can't express well.
+
+**Two scope questions, not definition questions**: `coin` and
+`compound` were both flagged as possibly not belonging in a *minimal*
+vocabulary at all. Correct observation, but out of scope for this
+exercise — whether a word should be *in* the lexicon is a curation
+decision for the maintainers, separate from writing the definition of
+a word that's already there. Left both definitions as they stood.
+
+Verified: 14/14 `definition_grammar` tests, `cargo test --workspace`
+clean (grammar crate rebuilt twice this round — once for the AdjDef
+addition, once for its revert).
+
+## Round 8: the lexicon itself gets a new word ("dimension") (2026-09-08)
+
+**note**, redundancy caught correctly: *"a small document, which holds
+the information"* — "holds information" restates what "document"
+already means; the differentia added nothing "small document" didn't
+already say. `NounDef` still can't drop the differentia clause entirely
+(the mandatory-differentia check this whole feature exists to enforce
+— confirmed again: *"a small document, which a person keeps"* fails
+too, object-gapped, same Round 3 wall). Fixed by going back to a
+genuinely independent differentia already validated earlier this
+session: **note**: → *"a small document, which gives a fact"* — real
+content, not a restatement.
+
+**table**, and a real first: this project's vocabulary got a new word.
+`dimension` didn't exist anywhere in Angloform. Added it for real —
+`seed/seed.json` (the hand-curated source of truth, ADR 0001), then
+`cargo run -p lexgen` to regenerate `lexicon.tsv` deterministically —
+not a hand-edit of the generated file. `lexgen` itself caught a real
+issue on the first attempt: `dimension` also has a rare engineering-
+verb sense ("to dimension a drawing") attested in the reference data,
+and refused to proceed without a curator decision on it (`lexgen: 1
+error(s): cross-POS...`). Added an explicit `reject.VERB.advice` entry
+by hand, same as every other disabled-sense entry in the seed — a
+single, reviewed addition, not a bulk sweep, consistent with the
+project's own "a machine does not curate the Seed" principle.
+**table**: → *"a thing, which organizes the information in 2
+dimensions"*.
+
+One real slip caught and fixed before it mattered: a first attempt at
+editing `seed/seed.json` via a Python `json.dump` reformatted the
+*entire* 8000+-line file (267 lines touched for what should've been an
+8-line addition) — reverted immediately (`git checkout --
+seed/seed.json`) before regenerating, and redone as a surgical `Edit`
+matching the file's existing per-entry formatting exactly. A small
+version of the same mistake this whole design has been guarding
+against at the definition level, this time at the tooling level.
+
+Verified: 15/15 `definition_grammar` tests (one new: `table_uses_the_
+newly_added_dimension_word`, since a real vocabulary addition is worth
+guarding), `cargo test --workspace` clean, `cargo run -p lexgen
+--check` confirms `lexicon.tsv`/`docs/lexicon-report.md` are in sync
+with the seed.
+
 ## Open, not decided here
 
 - Exact suggestion ranking when multiple enabled words match a
