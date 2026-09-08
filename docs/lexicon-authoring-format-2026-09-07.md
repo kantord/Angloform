@@ -659,6 +659,352 @@ lint change needed — every fix and every declined fix in this round
 came from either real lexicon words or a real, checked grammar
 limitation, not a guess.
 
+## Round 3: "human" wasn't the point, and the "or" gap resurfaces (2026-09-08)
+
+- **society**: *"a human group, which follows rules"* — missed the
+  point. "human" answers "a group of what," but the flagged nuance was
+  breadth/generality (a society is a broad, general grouping, not any
+  small human group — a family is a human group too). `NPx`'s
+  adjective slot only holds one adjective, so stacking "general" and
+  "human" together wasn't an option. Fixed by changing the genus noun
+  itself instead of the adjective: *"a community, which follows
+  rules"* — `community` already carries the breadth "group" lacked, no
+  adjective needed.
+- **read**: proposed *"get the meaning from a file or a text"* — the
+  same NP-level "or" gap from Round 2 (hold's "position or place")
+  applies here too: no PP can hold a disjunction, so this exact phrase
+  doesn't parse. The underlying ask was fair, though — "a thing" was
+  criticized (correctly) in Round 2 for being too vague to reassure
+  that file-reading is covered, but a genuine two-word disjunction
+  isn't available to fix that. Compromise: *"get the meaning from a
+  document"* — a single word covering written material generally
+  (files included, in the loose sense a computer file is a kind of
+  document) without either the bare vagueness of "a thing" or an
+  ungrammatical "or". Flagged as a compromise, not a confirmed-exact
+  fit — worth a second look before this trial is trusted as final.
+
+Verified: 10/10 tests, `cargo test --workspace` clean.
+
+## A real, simple, uncontroversial gap: "of" + a bare plural (2026-09-08)
+
+Asked directly: is there an uncontroversial *grammar* gap behind
+society being hard to define well, rather than just a wording problem?
+Checked instead of guessing again. Found one.
+
+`OfPP` (the "of ..." modifier every genus NP can carry, e.g. "a group
+of X") routes its object through `NPInner`, which requires a
+determiner on every branch — `NPi<LDet, LNounPl>` demands "the
+people," never bare "people." So "a group of people" (the single most
+natural way to say what a society is made of) was **ungrammatical**,
+not just unwritten — the same missing-bare-plural gap already found
+for `file`'s "holds items," but in a different NP position (`OfPP`'s
+object, not the direct object).
+
+Unlike the adverb/OR gaps (Rounds 2-3), this one was cheap and
+low-risk to actually close: `BarePl` (the bare-plural production
+already used at the top level, e.g. `file`'s "holds items") added as
+one more alternative to `NPInner`. Built clean, zero LALR conflicts;
+full workspace suite (all crates, not just `definition_grammar`) still
+green afterward. This isn't a definitions-only fix — any ordinary
+sentence with an "of"-PP over a generic plural now parses too (a real
+capability gain, not just a definitions-format patch).
+
+With that fixed, **society**: *"a community, which follows rules"* →
+*"a group of people, which has a tradition"* — states what it's made
+of ("of people," now grammatical) and what holds it together over time
+("a tradition"), instead of leaning on a single vague adjective or
+swapping to a near-synonym noun.
+
+Verified: 10/10 `definition_grammar` tests, `cargo test --workspace`
+clean across every crate.
+
+## 10 more words, chosen to stress specific edges (2026-09-08)
+
+Picked deliberately, not at random — each targets something the first
+14 didn't exercise:
+
+| lemma | kind | definition | what it stresses |
+|---|---|---|---|
+| write | VERB_TRANS | make words | plain object, sanity check |
+| compare | VERB_TRANS | find a difference between things | a 2-argument verb, expressed via object + `PPv` |
+| choose | VERB_TRANS | take a thing from things | `PPv` object is a bare plural (already legal at top level) |
+| build | VERB_TRANS | make a thing from parts | **deliberate near-synonym of `produce`** ("make a thing") |
+| avoid | VERB_TRANS | prevent a thing | plain object, sanity check |
+| exist | VERB_INTRANS | stay in the world | **kept in as an honest miss** — see below |
+| arrive | VERB_INTRANS | come to a place | plain intransitive + `PPv` |
+| agent | NOUN | a person, who helps a person | genus/differentia, no domain-jargon leak |
+| output | NOUN | a thing, which comes from a process | genus/differentia via intransitive `PredRel` |
+| different | ADJ | not identical | **antonym via an existing ADR** — ADR 0023 bans "same" outright and names "identical" as the correct substitute for two things matching; this definition is that substitution rule turned directly into an Angloform definition |
+
+All 10 parse; 11/11 `definition_grammar` tests, `cargo test --workspace`
+clean. No grammar or lint change needed for this round.
+
+Two results worth calling out:
+
+- **build vs. produce**: last round's `delete`/`remove` pair collapsed
+  to identical definitions because the real distinguishing feature
+  (permanence) has no expressible mechanism yet. `build`/`produce`
+  don't have that problem — `build` keeps the "from parts" differentia
+  `produce` shed for being over-narrow, and that's *correct* here:
+  "build" really does specifically mean assembly from parts (you build
+  a house from materials, you don't build a decision), where "produce"
+  is the more general verb. Same surface pattern as delete/remove
+  (two near-synonyms, one specific one general), opposite outcome —
+  proof the collapse isn't inevitable, it depends on whether the
+  language actually has an expressible differentia.
+- **exist**: *"stay in the world"* is weak and left in deliberately,
+  not polished. "stay" implies duration/continuation, not existence
+  itself — a real paraphrase gap, not a typo. This is the same failure
+  mode Round 3 named for `read`/`hold`: a definition can be 100%
+  structurally valid (parses, no self-reference, no jargon) and still
+  be a bad definition, and "exist" is arguably a harder case than
+  those — it may be close to a semantic primitive in this lexicon's
+  current vocabulary (no word for "real," "being," or copula-as-content-
+  verb exists to define it non-circularly with). Not fixed here on
+  purpose, so it stays visible as a real open question rather than
+  getting quietly smoothed over.
+
+## Round 4: fixing what's fixable, naming what isn't (2026-09-08)
+
+- **compare**: *"find a difference between things"* → *"find the
+  difference between 2 things"*. Two real corrections: "the
+  difference" (definite — there's exactly one relevant difference
+  between the two things being compared) and, per ADR 0022, counts are
+  written as digits, not number words — "two" is banned outright,
+  "2" is required. Both already-legal.
+- **build**: *"make a thing from parts"* → *"merge parts into a
+  thing"*. The proposed *"combine parts to make a new thing"* doesn't
+  parse — **Angloform has no infinitival purpose clause at all** ("to
+  V ...", the "in order to" sense). Checked the grammar directly: no
+  `LTo`/infinitive production exists anywhere, for any construction,
+  not just definitions. A real, load-bearing gap, not a
+  definition-format limitation — but "combine" also isn't in the
+  lexicon at all, so the phrasing needed to change regardless.
+  `merge` (already real, `VERB_TRANS_BASE`) captures the same
+  differentia — parts becoming one thing — without needing either the
+  missing word or the missing construction.
+- **write**: *"make words"* → *"mark a thing with letters"*. "make
+  words" was too abstract — true of speech, thought, anagram-solving,
+  anything word-shaped. "write" specifically means the *physical
+  marking* act. `mark` and `letters` were both already in the lexicon,
+  unused until now.
+- **exist**: *"stay in the world"* → *"occur in the world"*. Still not
+  a clean fit ("occur" leans toward "happen at a time," "exist" toward
+  "have being") but closer than "stay" (which wrongly implies
+  duration/continuation as the defining trait). Left flagged as
+  imperfect, same as before — this is very plausibly close to a
+  semantic primitive for this lexicon's current vocabulary, not a
+  wording problem waiting for the right synonym.
+- **agent**: the real critique — "an agent is a person *or* thing,
+  that acts" — hit two compounding gaps at once, checked directly
+  rather than guessed around:
+  - **No generic verb for "acts" exists.** No `act`, `perform`,
+    `operate`, or usable `run`/`function` in the lexicon. Plausibly
+    deliberate, not an oversight — this project already refuses vague
+    light verbs elsewhere (`do` is auxiliary-only, `NEG_AUX_BASE`, not
+    a content verb). Adding one just for this definition would cut
+    against that.
+  - **No NP-level "or" exists at the genus/subject position, at all.**
+    Checked `Subj`/`SubjSG`/`SubjPL`: none support coordination. The
+    *only* place two NPs can be joined with "or" anywhere in Angloform
+    is the one narrow colon-marked object-list construction found in
+    Round 2/3 (`V: N1 or N2`) — which only ever appears after a verb,
+    never at a genus/subject position. Unlike the `OfPP`/bare-plural
+    gap fixed for "society," this would mean touching `NPSGCore`
+    itself, which is shared by ordinary sentences project-wide, not a
+    narrow, low-traffic sub-production — a real, broader-impact
+    change, not a "simple" one.
+  - Landed on a compromise for now, not a real fix: *"a thing, which
+    causes a thing"* — drops the explicit person/thing disjunction
+    entirely (accepting that "thing" alone doesn't convey "could be a
+    person or a bot" the way the real definition needs to), but
+    captures the causal-actor core of "agent" with existing vocabulary
+    (`cause`, already `VERB_TRANS_BASE`). **Flagging this one
+    explicitly rather than presenting it as solved** — worth deciding
+    whether genus-level "or" is worth building before trusting this
+    word's definition.
+
+Verified: 11/11 `definition_grammar` tests, `cargo test --workspace`
+clean. No grammar change made this round (unlike Round 4's predecessor
+in the "society" section) — every fix here used only existing
+vocabulary and existing constructions; the two real gaps found
+(infinitival purpose clauses, genus-level "or") were named, not built.
+
+## Round 5: one clean fix, one confirmed dead end (2026-09-08)
+
+- **write**: *"mark a thing with letters"* → *"make a text"*. Simpler
+  and more accurate — a text is, by definition, the kind of thing
+  writing produces; "mark ... with letters" over-specified the
+  mechanism (handwriting on paper) in a way a general "write" (typing,
+  writing code, writing a note) doesn't require. `text` was already in
+  the lexicon (used for `read`'s Round 1 definition too).
+- **exist**: tried *"be in the world"* — doesn't parse, and not for a
+  fixable reason. `be` is lexically tagged `BE`, a distinct token
+  category from ordinary intransitive verbs (`LViBase`) — it's the
+  copula, wired only into copular predicate constructions ("X is Y"),
+  never into `VBaseP`'s bare-intransitive-verb slot. Making it usable
+  there wouldn't be a small grammar tweak like the `OfPP` fix; it would
+  mean giving the copula a second, structurally different role
+  (subjectless bare-verb-phrase), which cuts against what the copula
+  *is* in this grammar. Left as `occur in the world` (Round 4),
+  imperfect but real, rather than force a deeper redesign for one
+  word's definition.
+
+Verified: 11/11 `definition_grammar` tests, `cargo test --workspace`
+clean.
+
+## Round 6: "or" already exists — at the predicate, not the genus (2026-09-08)
+
+Asked directly: is there a practical fix for agent's "acts" problem
+using multiple concrete verbs joined by "or" instead of one abstract
+one? Checked rather than assumed — and yes, partially, using a
+mechanism already built for something else.
+
+`NounDef` already ends in `<t:Tailn<PredRel>?>`, and `Tailn<P>` is
+`<c:LConj> <p:P>` — a *predicate*-level coordination (`LConj` covers
+"and"/"but"/"or"). This is the same tail every `Sentence`/`Statement`
+already uses for same-subject predicate coordination (ADR 0004) — it
+was sitting unused in every `NounDef` definition so far because none
+of them needed a second predicate. **agent**: *"a thing, which causes
+a thing"* → *"a thing, which builds a thing or removes a thing"* —
+approximates "acts" as a disjunction of two concrete, already-real
+verbs instead of one missing abstract one. Parses with zero grammar
+changes; verified 11/11 tests, `cargo test --workspace` clean.
+
+This only partially closes Round 3's finding, and the boundary is
+worth being precise about:
+- **Fixed**: the "acts" verb gap — a concrete two-way disjunction now
+  stands in for the missing abstract verb.
+- **Still open**: the "person or thing" genus gap. `Tailn` coordinates
+  *predicates* sharing one subject/genus — it cannot join two
+  different genus nouns. The `NPSGCore`-level "or" gap named in Round
+  3 is untouched by this fix and remains a separate, bigger question.
+- **Still binary-only, by explicit design (ADR 0004), not oversight**:
+  checked the grammar comment directly — `Tailn`'s predicate
+  coordination is "binary only" by name in the code. A third "or
+  writes a thing" isn't reachable through this mechanism at all;
+  ADR 0050's n-ary coordination is a different, narrower mechanism (a
+  run of 3+ *different-subject* clauses), not applicable here. Two
+  disjuncts is the ceiling this construction offers, not a starting
+  point to extend casually.
+
+## 10 more words, round 2 — 35 total now (2026-09-08)
+
+| lemma | kind | definition | what it stresses |
+|---|---|---|---|
+| error | NOUN | a thing, which is wrong | **copula inside a relative predicate** — `PredRelCore` includes `CopPredn<LCopSg>` ("is") alongside the verb branches; never exercised until now |
+| tool | NOUN | a thing, which helps a person | domain-relevant word (this project's own docs use "a tool" as the canonical vague-subject example — defined cleanly anyway) |
+| word | NOUN | a thing, which has a meaning | Angloform's own meta-vocabulary, defined without circularity or domain-jargon |
+| team | NOUN | a group of people, which has a goal | reuses the `of`-bare-plural fix from the "society" round |
+| create | VERB_TRANS | make a new thing | see below — near-synonym cluster |
+| cause | VERB_TRANS | produce a result | cross-references `produce`, specific object differentiates it |
+| describe | VERB_TRANS | name a thing with words | reuses `name` (from `report`'s definition) plus a PPv |
+| depend | VERB_INTRANS | come from a thing | |
+| belong | VERB_INTRANS | come from a group | |
+| empty | ADJ | not full | clean antonym pair, same pattern as rare/small/different |
+
+All 10 parse; 12/12 `definition_grammar` tests, `cargo test --workspace`
+clean, no grammar change needed.
+
+**create** is the interesting one: first attempt was *"make a thing"* —
+identical, word for word, to `produce`'s own definition. Unlike
+delete/remove (where the missing differentia genuinely doesn't exist
+in the grammar/vocabulary), this collision *was* avoidable: `new`
+(already `ADJ`) slots directly into the object NP's existing optional-
+adjective position, giving *"make a **new** thing"* — distinct from
+`produce` without inventing anything. Checked before accepting the
+collision, rather than accepting the first thing that parsed — the
+same discipline that caught delete/remove, applied one step earlier
+this time.
+
+35 words trialed total across 8 rounds.
+
+## Round 3: a real grammar fix (verb "or"), and 5 new confirmed gaps (2026-09-08)
+
+Checked every proposal against the grammar directly before answering,
+same discipline as every round before this one.
+
+**Fixed — a real, low-risk grammar addition**: `belong`'s proposed
+*"come from a community or stay in a place"* failed for a fixable
+reason: `VerbTransDef`/`VerbIntransDef` (both just `= VBaseP`) had no
+`Tailn` tail at all, unlike `NounDef`. Added the exact same
+`Tailn<VBaseP>?` mechanism `NounDef` already uses (ADR 0004's binary
+same-subject predicate coordination) to both verb-definition entry
+points. Built clean, zero LALR conflicts, full workspace green.
+**belong**: → *"come from a community or stay in a place"* — now
+parses for real, not approximated.
+
+**Landed, using words already checked to exist**:
+- **word**: *"the smallest part of a document, which has a meaning"*
+  — exercises the superlative-NP genus (ADR 0056), unused until now.
+- **cause**: *"give a reason for a thing"* — the proposed *"be the
+  reason of a thing"* hit the same `be`-is-copula-only wall as `exist`
+  (Round 5); `give` + `reason` (both already real) capture the same
+  idea without it.
+- **describe**: *"give a meaning for a thing"* — the proposed *"say
+  how something looks or behaves"* failed for two independent reasons,
+  not one: **"how" isn't an Angloform word at all** (no embedded
+  question/wh-clause vocabulary exists anywhere), and "something" is
+  the same missing-indefinite-pronoun gap from Round 2 (duplicate's
+  "something" question). `say`/`give` both already real; `give a
+  meaning` sidesteps both gaps.
+- **depend**: *"need a thing"* — the proposed *"does not exist without
+  a thing"* doesn't parse: negation on a bare, subjectless `VBaseP`
+  isn't available. Checked why: the only negation production
+  (`NegVPn<D>`) always requires a person/number-agreeing `do`-auxiliary
+  ("does"/"did"/"do") as `D` — which would force every other
+  subjectless definition's whole "no restated subject, no agreement"
+  convention (established across every round so far) to break for this
+  one word. Real, structural, and arguably *correct* to leave alone —
+  a subjectless negated verb phrase isn't a shape English dictionaries
+  use either. `need` (already real, transitive) sidesteps it entirely.
+
+**Confirmed real gaps, left as-is — the working prior definition kept**:
+- **error**: *"the result of failing"* doesn't parse. `failing` exists
+  only as `VERB_INTRANS_ING` (a participle), and no NP position
+  anywhere in the grammar — not `NPAny`, not `OfPP`'s `NPInner` even
+  after this session's earlier fix — accepts a bare `-ing` form as a
+  nominalized gerund. No nominalization mechanism exists in Angloform
+  at all. Kept: *"a thing, which is wrong"*.
+- **tool**: *"a thing, which a person uses or an agent uses"* doesn't
+  parse. `PredRel` (everything after "which"/"who" in a `NounDef`) only
+  supports **subject-gapped** relatives — the genus must be the
+  *subject* of what follows, never the object of a separately-stated
+  subject. This is the same limitation `output` hit in Round 4 ("a
+  thing, which a thing produces" wasn't reachable either — fixed then
+  by flipping to subject-gapped "comes from"). Kept: *"a thing, which
+  helps a person"* (already subject-gapped, already covers the same
+  idea from the other direction).
+- **team**: *"a group of people with a goal"* doesn't parse. Every
+  `NPSGCore`/`NPx` branch's only optional post-modifier is `OfPP`
+  ("of ..."); there's no equivalent `WithPP` (or any other
+  preposition) attachable directly to a genus noun — "with" only
+  exists at the `PPv` (verb-phrase) level, never as an NP modifier.
+  Unlike the earlier `OfPP`/`BarePl` fix, generalizing this would mean
+  touching `NPx` itself, used by ordinary sentences project-wide, not
+  a narrow addition — flagged, not built. Kept: *"a group of people,
+  which has a goal"* (relative-clause form, already correct).
+- **empty**: *"contains nothing"* doesn't parse, for two independent
+  reasons: `nothing` isn't an Angloform word (no negative-indefinite-
+  pronoun vocabulary exists, matching the "something"/"another" gaps
+  already found), and even if it were, `AdjDef` has no mechanism for
+  an embedded verb clause at all — it's adjectival content only, by
+  design (Round 2's simplification). Kept: *"not full"*.
+
+Verified: 12/12 `definition_grammar` tests, `cargo test --workspace`
+clean (grammar crate rebuilt this round, not just the test file).
+
+Running gap tally, all independently confirmed by direct grammar
+checks rather than assumption: no infinitival "to V" (Round 4), no
+NP-level "or" at genus/subject position (Round 3/6), copula (`be`) not
+usable outside its own construction (Round 5), no nominalized gerunds,
+no object-gapped relatives, no NP-attached "with", no negation on a
+subjectless verb phrase, no indefinite pronouns ("something"/
+"nothing"/"another"), no embedded wh-clauses. None of these block the
+25-and-growing word set from having *a* working definition — every
+single word trialed so far has one — they only block certain specific
+phrasings some words would ideally use.
+
 ## Open, not decided here
 
 - Exact suggestion ranking when multiple enabled words match a

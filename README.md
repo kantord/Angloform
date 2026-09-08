@@ -21,7 +21,9 @@ just web                                   # run the browser playground (crates/
 
 An LLM (or a person) writing angloform should start from
 `skills/angloform/SKILL.md` — the onboarding doc, itself proven against a
-real repair-loop harness (see `docs/readiness.md`, Condition 5).
+real repair-loop harness (see `docs/readiness.md`, Condition 5). Writing a
+lexicon *definition* (extending the vocabulary itself, not writing prose)
+is a distinct task — start from `skills/lexicon-definitions/SKILL.md`.
 
 ## Layout
 
