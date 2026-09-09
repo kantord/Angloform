@@ -1,2 +1,10 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: builds
+- tag: VERB_TRANS_ED
+  form: built
 definition: merge parts into a thing
+rejected:
+- category: NOUN
+  advice: a thing, which comes from parts

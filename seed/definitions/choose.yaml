@@ -1,2 +1,11 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: chooses
+- tag: VERB_TRANS_ED
+  form: chose
+- tag: VERB_TRANS_ED
+  form: chosen
+- tag: VERB_TRANS_ING
+  form: choosing
 definition: take a thing from things

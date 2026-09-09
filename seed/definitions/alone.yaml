@@ -1,2 +1,6 @@
 category: ADJ
 definition: single
+rejected:
+- category: ADV
+  advice: only the predicate use is enabled ("I am alone", ADR 0052); the adverbial sense ("leave it alone")
+    is deferred; angloform has no adverb category

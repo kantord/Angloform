@@ -1,2 +1,10 @@
 category: VERB_INTRANS
+forms:
+- tag: VERB_INTRANS_3SG
+  form: waits
+- tag: VERB_INTRANS_ED
+  form: waited
 definition: stay until a time
+rejected:
+- category: NOUN
+  advice: a time, which comes before an event

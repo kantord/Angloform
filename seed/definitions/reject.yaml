@@ -1,2 +1,10 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: rejects
+- tag: VERB_TRANS_ING
+  form: rejecting
 definition: ban a thing
+rejected:
+- category: NOUN
+  advice: a person, who does not belong

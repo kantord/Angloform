@@ -1,2 +1,9 @@
 category: ADJ
 definition: not ambiguous
+rejected:
+- category: NOUN
+  advice: a place, which avoids a problem
+- category: VERB
+  advice: the verb sense ("to clear a table") is not enabled; angloform allows one sense per word
+- category: ADV
+  advice: the adverbial sense ("stand clear") is not enabled; angloform has no adverb category

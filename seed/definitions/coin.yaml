@@ -1,2 +1,12 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: coins
+- tag: VERB_TRANS_ED
+  form: coined
+- tag: VERB_TRANS_ING
+  form: coining
 definition: make a new word
+rejected:
+- category: NOUN
+  advice: a thing, which has a value

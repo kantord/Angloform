@@ -1,2 +1,8 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: compares
 definition: find the difference between 2 things
+rejected:
+- category: NOUN
+  advice: a thing, which matches a thing

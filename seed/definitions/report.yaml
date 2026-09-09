@@ -1,2 +1,9 @@
 category: NOUN
+forms:
+- tag: NOUN_PL
+  form: reports
 definition: a file, which names a result
+rejected:
+- category: VERB
+  redirects:
+  - describe

@@ -1,2 +1,5 @@
 category: VERB_INTRANS
 definition: exist in a place
+rejected:
+- category: NOUN
+  advice: an event, which keeps a person in a place

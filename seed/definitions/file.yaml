@@ -1,2 +1,9 @@
 category: NOUN
+forms:
+- tag: NOUN_PL
+  form: files
 definition: a thing, which holds items
+rejected:
+- category: VERB
+  redirects:
+  - submit

@@ -1,2 +1,10 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: sends
+- tag: VERB_TRANS_ED
+  form: sent
 definition: carry a thing to a person
+rejected:
+- category: NOUN
+  advice: a thing, which moves a system

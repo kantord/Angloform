@@ -1,2 +1,5 @@
 category: NOUN
 definition: a person, who writes a text
+rejected:
+- category: VERB
+  advice: the verb sense ("to author a book") is not enabled; angloform allows one sense per word

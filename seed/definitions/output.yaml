@@ -1,2 +1,8 @@
 category: NOUN
+forms:
+- tag: NOUN_PL
+  form: outputs
 definition: a thing, which comes from a process
+rejected:
+- category: VERB
+  advice: the verb sense ("to output a value") is not enabled; angloform allows one sense per word

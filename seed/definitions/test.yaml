@@ -1,2 +1,9 @@
 category: NOUN
+forms:
+- tag: NOUN_PL
+  form: tests
 definition: a tool, which checks a thing
+rejected:
+- category: VERB
+  redirects:
+  - check

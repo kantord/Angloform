@@ -1,2 +1,6 @@
 category: NOUN
 definition: a small document, which gives a fact
+rejected:
+- category: VERB
+  redirects:
+  - record

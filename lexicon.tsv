@@ -424,7 +424,7 @@ bug	form	NOUN_SG	bug
 bug	reject_advice	VERB	the verb sense ("to bug someone"; "to bug a room", i.e. plant a listening device) is not enabled; angloform allows one sense per word
 bugs	form	NOUN_PL	bug
 build	form	VERB_TRANS_BASE	build
-build	reject	NOUN	compilation
+build	reject_advice	NOUN	a thing, which comes from parts
 building	form	VERB_TRANS_ING	build
 builds	form	VERB_TRANS_3SG	build
 built	form	VERB_TRANS_ED	build
@@ -454,7 +454,7 @@ case	form	NOUN_SG	case
 case	reject_advice	VERB	the verb sense (slang — "to case a joint", i.e. scope it out) is not enabled; angloform allows one sense per word
 cases	form	NOUN_PL	case
 catch	form	VERB_TRANS_BASE	catch
-catch	reject_advice	NOUN	the noun sense (a catch, e.g. "there's a catch") is not enabled; angloform allows one sense per word
+catch	reject_advice	NOUN	a thing, which causes a problem
 catches	form	VERB_TRANS_3SG	catch
 catching	form	VERB_TRANS_ING	catch
 categorical	form	ADJ_LONG	categorical
@@ -463,7 +463,7 @@ category	term	-	Category
 caught	form	VERB_TRANS_ED	catch
 causal	form	ADJ_LONG	causal
 cause	form	VERB_TRANS_BASE	cause
-cause	reject_advice	NOUN	the noun sense (a cause) is not enabled; angloform allows one sense per word
+cause	reject_advice	NOUN	a thing, which produces a result
 caused	form	VERB_TRANS_ED	cause
 causes	form	VERB_TRANS_3SG	cause
 causing	form	VERB_TRANS_ING	cause
@@ -528,8 +528,8 @@ cleaned	form	VERB_TRANS_ED	clean
 cleaning	form	VERB_TRANS_ING	clean
 cleans	form	VERB_TRANS_3SG	clean
 clear	form	ADJ	clear
-clear	reject_advice	ADV	the adverbial sense ("stand clear", "clear across town") is not enabled; angloform has no adverb category
-clear	reject_advice	NOUN	the noun sense ("in the clear") is not enabled; angloform allows one sense per word
+clear	reject_advice	ADV	the adverbial sense ("stand clear") is not enabled; angloform has no adverb category
+clear	reject_advice	NOUN	a place, which avoids a problem
 clear	reject_advice	VERB	the verb sense ("to clear a table") is not enabled; angloform allows one sense per word
 clearer	form	ADJ_CMP	clear
 clearest	form	ADJ_SUP	clear
@@ -541,7 +541,7 @@ cognitive loads	term	-	Cognitive Loads
 coherence	form	NOUN_SG	coherence
 coherences	form	NOUN_PL	coherence
 coin	form	VERB_TRANS_BASE	coin
-coin	reject_advice	NOUN	the noun sense (a coin) is not enabled; angloform allows one sense per word
+coin	reject_advice	NOUN	a thing, which has a value
 coinage	form	NOUN_SG	coinage
 coinages	form	NOUN_PL	coinage
 coined	form	VERB_TRANS_ED	coin
@@ -577,7 +577,7 @@ community	form	NOUN_SG	community
 comparative	term	-	Comparative
 comparatives	term	-	Comparatives
 compare	form	VERB_TRANS_BASE	compare
-compare	reject_advice	NOUN	the noun sense (literary — "beyond compare") is not enabled; angloform allows one sense per word
+compare	reject_advice	NOUN	a thing, which matches a thing
 compared	form	VERB_TRANS_ED	compare
 compares	form	VERB_TRANS_3SG	compare
 comparing	form	VERB_TRANS_ING	compare
@@ -590,7 +590,7 @@ complements	term	-	Complements
 complete	form	ADJ_LONG	complete
 complete	reject_advice	VERB	the verb sense ("to complete a task") is not enabled; angloform allows one sense per word
 compound	form	ADJ_LONG	compound
-compound	reject_advice	NOUN	the noun sense (a compound — chemical, or a walled area) is not enabled; angloform allows one sense per word
+compound	reject_advice	NOUN	a place, which holds things
 compound	reject_advice	VERB	the verb sense ("to compound a problem") is not enabled; angloform allows one sense per word
 compound	term	-	Compound
 compounds	term	-	Compounds
@@ -606,7 +606,7 @@ conditional	term	-	Conditional
 conditionals	term	-	Conditionals
 conditions	form	NOUN_PL	condition
 conflict	form	VERB_INTRANS_BASE	conflict
-conflict	reject_advice	NOUN	the noun sense (a conflict) is not enabled; angloform allows one sense per word
+conflict	reject_advice	NOUN	an event, which causes a problem
 conflicted	form	VERB_INTRANS_ED	conflict
 conflicting	form	VERB_INTRANS_ING	conflict
 conflicts	form	VERB_INTRANS_3SG	conflict
@@ -868,7 +868,7 @@ dogfoods	term	-	Dogfoods
 domain	form	NOUN_SG	domain
 domains	form	NOUN_PL	domain
 drift	form	VERB_INTRANS_BASE	drift
-drift	reject_advice	NOUN	the noun sense (a drift, e.g. a snowdrift) is not enabled; angloform allows one sense per word
+drift	reject_advice	NOUN	a thing, which grows in a place
 drifted	form	VERB_INTRANS_ED	drift
 drifting	form	VERB_INTRANS_ING	drift
 drifts	form	VERB_INTRANS_3SG	drift
@@ -878,8 +878,8 @@ dropped	form	VERB_TRANS_ED	drop
 dropping	form	VERB_TRANS_ING	drop
 drops	form	VERB_TRANS_3SG	drop
 duplicate	form	VERB_TRANS_BASE	duplicate
-duplicate	reject_advice	ADJ	the adjective sense ("a duplicate key") is not enabled; angloform allows one sense per word
-duplicate	reject_advice	NOUN	the noun sense (a duplicate, a copy) is not enabled; angloform allows one sense per word
+duplicate	reject_advice	ADJ	identical
+duplicate	reject_advice	NOUN	a copy, which matches a thing
 duplicated	form	VERB_TRANS_ED	duplicate
 duplicates	form	VERB_TRANS_3SG	duplicate
 duplicating	form	VERB_TRANS_ING	duplicate
@@ -916,8 +916,8 @@ emphatic	reject_advice	NOUN	the reference data attests a noun use of "emphatic";
 emptier	form	ADJ_CMP	empty
 emptiest	form	ADJ_SUP	empty
 empty	form	ADJ	empty
-empty	reject	VERB	drain
-empty	reject_advice	NOUN	the noun sense ("empties"/"an empty", i.e. an empty container) is not enabled; irrelevant to this domain
+empty	reject_advice	NOUN	a thing, which does not hold items
+empty	reject_advice	VERB	the verb sense ("to empty a container") is not enabled; angloform allows one sense per word
 enable	form	VERB_TRANS_BASE	enable
 enabled	form	VERB_TRANS_ED	enable
 enables	form	VERB_TRANS_3SG	enable
@@ -1000,7 +1000,7 @@ extractors	form	NOUN_PL	extractor
 fact	form	NOUN_SG	fact
 facts	form	NOUN_PL	fact
 fail	form	VERB_INTRANS_BASE	fail
-fail	reject	NOUN	failure
+fail	reject_advice	NOUN	an event, which does not give a result
 failed	form	VERB_INTRANS_ED	fail
 failing	form	VERB_INTRANS_ING	fail
 fails	form	VERB_INTRANS_3SG	fail
@@ -1056,7 +1056,7 @@ first token	term	-	First Token
 first tokens	term	-	First Tokens
 five	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
 fix	form	VERB_TRANS_BASE	fix
-fix	reject_advice	NOUN	the noun sense ("in a fix", meaning trouble; also drug slang) is not enabled; angloform allows one sense per word
+fix	reject_advice	NOUN	a thing, which causes a problem
 fixed	form	VERB_TRANS_ED	fix
 fixes	form	VERB_TRANS_3SG	fix
 fixing	form	VERB_TRANS_ING	fix
@@ -1254,7 +1254,7 @@ his	ban	-	third-person reference is banned - repeat the noun you mean (ADR 0002)
 histories	form	NOUN_PL	history
 history	form	NOUN_SG	history
 hold	form	VERB_TRANS_BASE	hold
-hold	reject_advice	NOUN	the noun sense (a ship's hold; a wrestling hold) is not enabled; angloform allows one sense per word
+hold	reject_advice	NOUN	a place, which keeps items
 holding	form	VERB_TRANS_ING	hold
 holds	form	VERB_TRANS_3SG	hold
 hole	form	NOUN_SG	hole
@@ -1590,7 +1590,7 @@ merged	form	VERB_TRANS_ED	merge
 merges	form	VERB_TRANS_3SG	merge
 merging	form	VERB_TRANS_ING	merge
 message	form	NOUN_SG	message
-message	reject	VERB	notify
+message	reject_advice	VERB	the verb sense ("to message a person") is not enabled; angloform allows one sense per word
 messages	form	NOUN_PL	message
 met	form	VERB_TRANS_ED	meet
 method	form	NOUN_SG	method
@@ -1623,7 +1623,7 @@ modal	form	NOUN_SG	modal
 modal	reject_advice	ADJ	the adjective sense ("modal logic", "a modal verb") is not enabled; angloform allows one sense per word
 modals	form	NOUN_PL	modal
 model	form	NOUN_SG	model
-model	reject_advice	ADJ	the adjective sense ("a model student") is not enabled; angloform allows one sense per word
+model	reject_advice	ADJ	not ordinary
 model	reject_advice	VERB	the verb sense ("to model clothing" or "to model behavior") is not enabled; angloform allows one sense per word
 models	form	NOUN_PL	model
 modifier	term	-	Modifier
@@ -1740,8 +1740,8 @@ opaque	form	ADJ_LONG	opaque
 opaque	reject_advice	NOUN	the reference data attests a noun use of "opaque"; no common meaning could be confirmed — not enabled
 opaque	reject_advice	VERB	the verb sense (rare/technical — "to opaque a surface", i.e. make it opaque) is not enabled; angloform allows one sense per word
 open	form	VERB_TRANS_BASE	open
-open	reject	ADJ	unlocked
-open	reject_advice	NOUN	the noun sense ("in the open") is not enabled; irrelevant to this domain
+open	reject_advice	ADJ	not closed
+open	reject_advice	NOUN	a place, which is empty
 open dependencies	term	-	Open Dependencies
 open dependency	term	-	Open Dependency
 opened	form	VERB_TRANS_ED	open
@@ -1774,7 +1774,7 @@ orthography	form	NOUN_SG	orthography
 other	form	OTHER	other
 our	ban	-	name the group - "the maintainers", "the team" - or use an imperative; "we" hides who acts (ADR 0020)
 output	form	NOUN_SG	output
-output	reject	VERB	emit
+output	reject_advice	VERB	the verb sense ("to output a value") is not enabled; angloform allows one sense per word
 outputs	form	NOUN_PL	output
 outrank	form	VERB_TRANS_BASE	outrank
 outranked	form	VERB_TRANS_ED	outrank
@@ -1957,7 +1957,7 @@ process	form	NOUN_SG	process
 process	reject	VERB	handle
 processes	form	NOUN_PL	process
 produce	form	VERB_TRANS_BASE	produce
-produce	reject_advice	NOUN	the noun sense (produce — farm goods) is not enabled; angloform allows one sense per word
+produce	reject_advice	NOUN	a thing, which grows in a place
 produced	form	VERB_TRANS_ED	produce
 produces	form	VERB_TRANS_3SG	produce
 producing	form	VERB_TRANS_ING	produce
@@ -2048,8 +2048,8 @@ rationales	form	NOUN_PL	rationale
 ratios	form	NOUN_PL	ratio
 reactive	form	ADJ_LONG	reactive
 read	form	VERB_TRANS_BASE	read
-read	reject	NOUN	text
-read	reject_advice	ADJ	the adjective sense ("a read book", meaning already read) is too obscure to redirect; not enabled
+read	reject	NOUN	document
+read	reject_advice	ADJ	not new
 readabilities	form	NOUN_PL	readability
 readability	form	NOUN_SG	readability
 readable	form	ADJ_LONG	readable
@@ -2077,6 +2077,10 @@ recast	form	VERB_TRANS_BASE	recast
 recast	reject_advice	NOUN	the noun sense (a recast, e.g. of a cast of actors) is not enabled; angloform allows one sense per word
 recasting	form	VERB_TRANS_ING	recast
 recasts	form	VERB_TRANS_3SG	recast
+receive	form	VERB_TRANS_BASE	receive
+received	form	VERB_TRANS_ED	receive
+receives	form	VERB_TRANS_3SG	receive
+receiving	form	VERB_TRANS_ING	receive
 recognize	form	VERB_TRANS_BASE	recognize
 recognized	form	VERB_TRANS_ED	recognize
 recognizes	form	VERB_TRANS_3SG	recognize
@@ -2124,7 +2128,7 @@ regrets	form	VERB_TRANS_3SG	regret
 regretted	form	VERB_TRANS_ED	regret
 regretting	form	VERB_TRANS_ING	regret
 reject	form	VERB_TRANS_BASE	reject
-reject	reject	NOUN	outcast
+reject	reject_advice	NOUN	a person, who does not belong
 rejected	form	VERB_TRANS_ED	reject
 rejected sense	term	-	Rejected Sense
 rejected senses	term	-	Rejected Senses
@@ -2315,7 +2319,7 @@ seems	ban	-	epistemic hedges are banned - it is a linking verb here; drop it and
 seen	form	VERB_TRANS_ED	see
 sees	form	VERB_TRANS_3SG	see
 send	form	VERB_TRANS_BASE	send
-send	reject_advice	NOUN	the noun sense (nautical — a send, a wave's forward movement) is not enabled; irrelevant to this domain
+send	reject_advice	NOUN	a thing, which moves a system
 sending	form	VERB_TRANS_ING	send
 sends	form	VERB_TRANS_3SG	send
 sense	form	NOUN_SG	sense
@@ -2323,7 +2327,7 @@ sense	reject_advice	VERB	the verb sense ("to sense danger") is not enabled; irre
 senses	form	NOUN_PL	sense
 sent	form	VERB_TRANS_ED	send
 sentence	form	NOUN_SG	sentence
-sentence	reject	VERB	condemn
+sentence	reject_advice	VERB	the verb sense ("to sentence a person", a legal ruling) is not enabled; angloform allows one sense per word
 sentence shape	term	-	Sentence Shape
 sentence shapes	term	-	Sentence Shapes
 sentences	form	NOUN_PL	sentence
@@ -2353,6 +2357,12 @@ shapes	form	NOUN_PL	shape
 share	form	NOUN_SG	share
 share	reject_advice	VERB	the verb sense ("to share something") is not enabled; angloform allows one sense per word
 shares	form	NOUN_PL	share
+sharp	form	ADJ	sharp
+sharp	reject_advice	ADV	the adverbial sense ("turn sharp") is not enabled; angloform has no adverb category
+sharp	reject_advice	NOUN	a thing, which shows a value
+sharp	reject_advice	VERB	the verb sense is rare and not enabled; angloform allows one sense per word
+sharper	form	ADJ_CMP	sharp
+sharpest	form	ADJ_SUP	sharp
 she	ban	-	third-person reference is banned - repeat the noun you mean (ADR 0002)
 short	form	ADJ	short
 short	reject_advice	ADV	the adverbial sense ("fall short", "stop short") is not enabled; angloform has no adverb category
@@ -2407,8 +2417,8 @@ slot	form	NOUN_SG	slot
 slot	reject_advice	VERB	the verb sense ("to slot something into place") is not enabled; angloform allows one sense per word
 slots	form	NOUN_PL	slot
 small	form	ADJ	small
-small	reject_advice	ADV	the adverbial sense ("cut it small", "think small") is not enabled; angloform has no adverb category
-small	reject_advice	NOUN	the noun sense ("the small of the back") is not enabled; angloform allows one sense per word
+small	reject_advice	ADV	the adverbial sense ("cut it small") is not enabled; angloform has no adverb category
+small	reject_advice	NOUN	a part of a thing, which has a shape
 smaller	form	ADJ_CMP	small
 smallest	form	ADJ_SUP	small
 so	form	RESULT	so
@@ -2459,7 +2469,7 @@ states	form	NOUN_PL	state
 status	form	NOUN_SG	status
 statuses	form	NOUN_PL	status
 stay	form	VERB_INTRANS_BASE	stay
-stay	reject_advice	NOUN	the noun sense (a stay, e.g. a hotel stay, or nautical rigging) is not enabled; angloform allows one sense per word
+stay	reject_advice	NOUN	an event, which keeps a person in a place
 stayed	form	VERB_INTRANS_ED	stay
 staying	form	VERB_INTRANS_ING	stay
 stays	form	VERB_INTRANS_3SG	stay
@@ -2503,6 +2513,10 @@ subject	reject_advice	ADJ	the adjective sense ("subject to change") is not enabl
 subject	reject_advice	ADV	the reference data attests an adverbial use of "subject"; no common meaning could be confirmed — angloform has no adverb category regardless
 subject	reject_advice	VERB	the verb sense ("to subject someone to something") is not enabled; angloform allows one sense per word
 subjects	form	NOUN_PL	subject
+submit	form	VERB_TRANS_BASE	submit
+submits	form	VERB_TRANS_3SG	submit
+submitted	form	VERB_TRANS_ED	submit
+submitting	form	VERB_TRANS_ING	submit
 subset	form	NOUN_SG	subset
 subsets	form	NOUN_PL	subset
 subsystem	form	NOUN_SG	subsystem
@@ -2607,7 +2621,7 @@ thousand	form	SCALE	thousand
 three	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
 thus	ban	-	for a cause and its result write "<cause>, so <result>"; for a result and its reason write "<result>, because <reason>" (ADR 0026)
 tie	form	VERB_INTRANS_BASE	tie
-tie	reject_advice	NOUN	the noun sense (a necktie, or a tied game) is not enabled; angloform allows one sense per word
+tie	reject_advice	NOUN	a thing, which joins things
 tied	form	VERB_INTRANS_ED	tie
 ties	form	VERB_INTRANS_3SG	tie
 time	form	NOUN_SG	time
@@ -2707,7 +2721,7 @@ unreadable	form	ADJ_LONG	unreadable
 until	form	PREP_V	until
 unused	form	ADJ_LONG	unused
 update	form	VERB_TRANS_BASE	update
-update	reject_advice	NOUN	the noun sense (an update) is not enabled; angloform allows one sense per word
+update	reject_advice	NOUN	a thing, which gives the information
 updated	form	VERB_TRANS_ED	update
 updates	form	VERB_TRANS_3SG	update
 updating	form	VERB_TRANS_ING	update
@@ -2752,7 +2766,7 @@ vocative	form	NOUN_SG	vocative
 vocative	reject_advice	ADJ	the adjective sense (grammar jargon — "the address is vocative") is not enabled; angloform allows one sense per word
 vocatives	form	NOUN_PL	vocative
 wait	form	VERB_INTRANS_BASE	wait
-wait	reject_advice	NOUN	the noun sense (a wait, e.g. "a long wait") is not enabled; angloform allows one sense per word
+wait	reject_advice	NOUN	a time, which comes before an event
 waited	form	VERB_INTRANS_ED	wait
 waiting	form	VERB_INTRANS_ING	wait
 waits	form	VERB_INTRANS_3SG	wait
@@ -2765,7 +2779,7 @@ way	reject_advice	ADV	the adverbial sense (informal — "way too much", "way bet
 ways	form	NOUN_PL	way
 we	ban	-	name the group - "the maintainers", "the team" - or use an imperative; "we" hides who acts (ADR 0020)
 weigh	form	VERB_TRANS_BASE	weigh
-weigh	reject_advice	NOUN	the reference data attests a noun use of "weigh"; no common meaning could be confirmed — not enabled
+weigh	reject_advice	NOUN	a thing, which has a value
 weighed	form	VERB_TRANS_ED	weigh
 weighing	form	VERB_TRANS_ING	weigh
 weighs	form	VERB_TRANS_3SG	weigh
@@ -2781,7 +2795,7 @@ whole	form	ADJ_LONG	whole
 whole	reject_advice	ADV	the reference data attests an adverbial use of "whole"; no common meaning could be confirmed — angloform has no adverb category regardless
 whole	reject_advice	NOUN	the noun sense ("the whole is greater than its parts") is not enabled; angloform allows one sense per word
 win	form	VERB_INTRANS_BASE	win
-win	reject_advice	NOUN	the noun sense (a win) is not enabled; angloform allows one sense per word
+win	reject_advice	NOUN	an event, which ends with a result
 winning	form	VERB_INTRANS_ING	win
 wins	form	VERB_INTRANS_3SG	win
 with	form	PREP_V	with

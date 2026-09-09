@@ -190,16 +190,6 @@
     }
   },
   {
-    "lemma": "alone",
-    "category": "ADJ",
-    "note": "predicate use only ('I am alone', enabled by ADR 0052); adverbial use deferred",
-    "reject": {
-      "ADV": {
-        "advice": "only the predicate use is enabled (\"I am alone\", ADR 0052); the adverbial sense (\"leave it alone\") is deferred; angloform has no adverb category"
-      }
-    }
-  },
-  {
     "lemma": "house",
     "category": "NOUN",
     "note": "verb sense ('to house') deferred as out of scope for this pack",

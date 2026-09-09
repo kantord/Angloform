@@ -1,2 +1,5 @@
 category: NOUN
+forms:
+- tag: NOUN_PL
+  form: algorithms
 definition: a sequence of steps, which gives a result

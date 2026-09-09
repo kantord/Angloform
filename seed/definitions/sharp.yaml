@@ -1,2 +1,9 @@
 category: ADJ
 definition: not blunt
+rejected:
+- category: NOUN
+  advice: a thing, which shows a value
+- category: ADV
+  advice: the adverbial sense ("turn sharp") is not enabled; angloform has no adverb category
+- category: VERB
+  advice: the verb sense is rare and not enabled; angloform allows one sense per word

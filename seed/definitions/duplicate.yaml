@@ -1,2 +1,10 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: duplicates
 definition: make a second copy of a thing
+rejected:
+- category: NOUN
+  advice: a copy, which matches a thing
+- category: ADJ
+  advice: identical

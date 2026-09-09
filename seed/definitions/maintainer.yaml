@@ -1,2 +1,5 @@
 category: NOUN
+forms:
+- tag: NOUN_PL
+  form: maintainers
 definition: a person, who decides things in a project

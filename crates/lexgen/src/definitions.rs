@@ -11,12 +11,6 @@ use std::collections::BTreeMap;
 pub const DEFINITIONS_DIR: &str = "seed/definitions";
 pub const SCHEMA_PATH: &str = "seed/definitions.schema.json";
 
-/// Loaded and schema/shape-checked already; not yet consulted by paradigm
-/// expansion (`main.rs`'s `expand()` still only reads `seed.json`'s own
-/// `forms` map). Only matters once a word's `seed.json` entry is fully
-/// retired (ADR 0061's "self-contained" file) — not yet, during the
-/// coexistence period.
-#[allow(dead_code)]
 #[derive(Deserialize, Debug)]
 #[serde(deny_unknown_fields)]
 pub struct SurfaceFormOverride {
@@ -38,7 +32,6 @@ pub struct RejectedSense {
 #[serde(deny_unknown_fields)]
 pub struct DefinitionEntry {
     pub category: String,
-    #[allow(dead_code)]
     #[serde(default)]
     pub forms: Vec<SurfaceFormOverride>,
     pub definition: String,
@@ -58,6 +51,77 @@ pub fn def_kind_of(category: &str) -> Option<grammar::DefKind> {
         "ADJ" => Some(grammar::DefKind::Adj),
         _ => None,
     }
+}
+
+/// `SurfaceFormOverride.tag` → the `seed.json`-style slot name
+/// `crate::seed`'s `expand()` already knows how to fill (`Category::slots`).
+/// The one lossy spot: `VERB_..._ED` covers both "past" and "past
+/// participle" (`crate::seed::SeedEntry.forms` keeps them as separate
+/// slots, "past"/"ppart", so two different explicit `..._ED` spellings —
+/// e.g. "wrote" and "written" — need to land in different slots). Order
+/// matters here: the first `..._ED` override seen is "past", a second,
+/// *different*, one is "ppart" (irregular verbs where they coincide, e.g.
+/// "held"/"held", only ever need one entry anyway).
+fn tag_to_slot(tag: &str, seen_ed: &mut Option<String>) -> Option<&'static str> {
+    match tag {
+        "NOUN_PL" => Some("plural"),
+        "ADJ_CMP" => Some("comparative"),
+        "ADJ_SUP" => Some("superlative"),
+        "VERB_TRANS_3SG" | "VERB_INTRANS_3SG" => Some("third"),
+        "VERB_TRANS_ING" | "VERB_INTRANS_ING" => Some("ing"),
+        "VERB_TRANS_ED" | "VERB_INTRANS_ED" => match seen_ed {
+            None => {
+                *seen_ed = Some(tag.to_string());
+                Some("past")
+            }
+            Some(_) => Some("ppart"),
+        },
+        _ => None,
+    }
+}
+
+/// Every `seed/definitions/*.yaml` entry, as a `SeedEntry` — the single
+/// shape the rest of `lexgen` already knows how to expand, cross-check,
+/// and render, regardless of whether a word came from `seed.json` or from
+/// here (ADR 0061 + the follow-up: one loader, one pipeline, for both
+/// sources). Doesn't set `explicit` per surface form the way `seed.json`'s
+/// own loader implicitly does via `expand()` — an override here is always
+/// explicit, same as a `seed.json` `forms` entry always is.
+pub fn to_seed_entries(defs: &BTreeMap<String, DefinitionEntry>) -> Vec<crate::seed::SeedEntry> {
+    defs.iter()
+        .map(|(lemma, entry)| {
+            let mut forms = BTreeMap::new();
+            let mut seen_ed = None;
+            for f in &entry.forms {
+                if let Some(slot) = tag_to_slot(&f.tag, &mut seen_ed) {
+                    forms.insert(slot.to_string(), f.form.clone());
+                }
+            }
+            let mut reject = BTreeMap::new();
+            for r in &entry.rejected {
+                let target = match (&r.redirects, &r.advice) {
+                    (Some(words), _) => crate::seed::RejectTarget::Word(words[0].clone()),
+                    (None, Some(advice)) => crate::seed::RejectTarget::Advice { advice: advice.clone() },
+                    (None, None) => continue, // schema/check already flagged this
+                };
+                reject.insert(r.category.clone(), target);
+            }
+            crate::seed::SeedEntry {
+                lemma: lemma.clone(),
+                category: entry.category.clone(),
+                forms,
+                reject,
+                advice: String::new(),
+                definition: String::new(),
+                kind: String::new(),
+                examples: Vec::new(),
+                member_of: String::new(),
+                domain: false,
+                pack: None,
+                note: String::new(),
+            }
+        })
+        .collect()
 }
 
 /// Every `seed/definitions/*.yaml` file, keyed by lemma (the filename minus

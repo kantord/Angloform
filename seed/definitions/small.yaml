@@ -1,2 +1,7 @@
 category: ADJ
 definition: not big
+rejected:
+- category: NOUN
+  advice: a part of a thing, which has a shape
+- category: ADV
+  advice: the adverbial sense ("cut it small") is not enabled; angloform has no adverb category

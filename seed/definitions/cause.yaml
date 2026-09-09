@@ -1,2 +1,8 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: causes
 definition: give a reason for a thing
+rejected:
+- category: NOUN
+  advice: a thing, which produces a result

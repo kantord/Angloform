@@ -1,2 +1,14 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: catches
+- tag: VERB_TRANS_ED
+  form: caught
+- tag: VERB_TRANS_ED
+  form: caught
+- tag: VERB_TRANS_ING
+  form: catching
 definition: take a thing
+rejected:
+- category: NOUN
+  advice: a thing, which causes a problem

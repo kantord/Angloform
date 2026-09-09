@@ -1,2 +1,5 @@
 category: NOUN
 definition: a task, which gives a result
+rejected:
+- category: VERB
+  advice: the verb sense ("to work a job") is not enabled; angloform allows one sense per word

@@ -27,23 +27,6 @@
     "category": "PREP_V"
   },
   {
-    "lemma": "agent",
-    "category": "NOUN",
-    "forms": {
-      "plural": "agents"
-    }
-  },
-  {
-    "lemma": "file",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "submit"
-    },
-    "forms": {
-      "plural": "files"
-    }
-  },
-  {
     "lemma": "server",
     "category": "NOUN",
     "forms": {
@@ -51,34 +34,10 @@
     }
   },
   {
-    "lemma": "error",
-    "category": "NOUN",
-    "forms": {
-      "plural": "errors"
-    }
-  },
-  {
     "lemma": "user",
     "category": "NOUN",
     "forms": {
       "plural": "users"
-    }
-  },
-  {
-    "lemma": "message",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "notify"
-    },
-    "forms": {
-      "plural": "messages"
-    }
-  },
-  {
-    "lemma": "system",
-    "category": "NOUN",
-    "forms": {
-      "plural": "systems"
     }
   },
   {
@@ -109,16 +68,6 @@
     }
   },
   {
-    "lemma": "report",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "describe"
-    },
-    "forms": {
-      "plural": "reports"
-    }
-  },
-  {
     "lemma": "data",
     "category": "NOUN",
     "forms": {
@@ -131,17 +80,6 @@
     "category": "NOUN",
     "forms": {
       "plural": "parsers"
-    }
-  },
-  {
-    "lemma": "sentence",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "condemn"
-    },
-    "note": "the judicial verb sense is banned",
-    "forms": {
-      "plural": "sentences"
     }
   },
   {
@@ -172,16 +110,6 @@
     }
   },
   {
-    "lemma": "test",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "check"
-    },
-    "forms": {
-      "plural": "tests"
-    }
-  },
-  {
     "lemma": "request",
     "category": "NOUN",
     "reject": {
@@ -206,31 +134,6 @@
     }
   },
   {
-    "lemma": "output",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "emit"
-    },
-    "forms": {
-      "plural": "outputs"
-    }
-  },
-  {
-    "lemma": "read",
-    "category": "VERB_TRANS",
-    "forms": {
-      "past": "read",
-      "third": "reads"
-    },
-    "reject": {
-      "NOUN": "text",
-      "ADJ": {
-        "advice": "the adjective sense (\"a read book\", meaning already read) is too obscure to redirect; not enabled"
-      }
-    },
-    "note": "adjectival sense (a read book) too obscure to redirect"
-  },
-  {
     "lemma": "return",
     "category": "VERB_TRANS",
     "reject": {
@@ -239,20 +142,6 @@
     "forms": {
       "third": "returns",
       "past": "returned"
-    }
-  },
-  {
-    "lemma": "send",
-    "category": "VERB_TRANS",
-    "forms": {
-      "past": "sent",
-      "third": "sends"
-    },
-    "note": "nautical noun sense; irrelevant to domain",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (nautical — a send, a wave's forward movement) is not enabled; irrelevant to this domain"
-      }
     }
   },
   {
@@ -270,24 +159,6 @@
     }
   },
   {
-    "lemma": "create",
-    "category": "VERB_TRANS",
-    "forms": {
-      "third": "creates"
-    }
-  },
-  {
-    "lemma": "reject",
-    "category": "VERB_TRANS",
-    "reject": {
-      "NOUN": "outcast"
-    },
-    "forms": {
-      "third": "rejects",
-      "ing": "rejecting"
-    }
-  },
-  {
     "lemma": "find",
     "category": "VERB_TRANS",
     "forms": {
@@ -296,24 +167,6 @@
     },
     "reject": {
       "NOUN": "discovery"
-    }
-  },
-  {
-    "lemma": "build",
-    "category": "VERB_TRANS",
-    "forms": {
-      "past": "built",
-      "third": "builds"
-    },
-    "reject": {
-      "NOUN": "compilation"
-    }
-  },
-  {
-    "lemma": "delete",
-    "category": "VERB_TRANS",
-    "forms": {
-      "third": "deletes"
     }
   },
   {
@@ -333,33 +186,6 @@
     "forms": {
       "third": "starts",
       "past": "started"
-    }
-  },
-  {
-    "lemma": "write",
-    "category": "VERB_TRANS",
-    "forms": {
-      "past": "wrote",
-      "ppart": "written",
-      "third": "writes"
-    }
-  },
-  {
-    "lemma": "arrive",
-    "category": "VERB_INTRANS",
-    "forms": {
-      "third": "arrives"
-    }
-  },
-  {
-    "lemma": "fail",
-    "category": "VERB_INTRANS",
-    "reject": {
-      "NOUN": "failure"
-    },
-    "forms": {
-      "third": "fails",
-      "past": "failed"
     }
   },
   {
@@ -406,17 +232,6 @@
     "lemma": "are",
     "category": "COPULA_PL",
     "note": "present-only copula (ADR 0003)"
-  },
-  {
-    "lemma": "empty",
-    "category": "ADJ",
-    "reject": {
-      "VERB": "drain",
-      "NOUN": {
-        "advice": "the noun sense (\"empties\"/\"an empty\", i.e. an empty container) is not enabled; irrelevant to this domain"
-      }
-    },
-    "note": "noun sense (empties/an empty) irrelevant to domain"
   },
   {
     "lemma": "big",
@@ -506,42 +321,6 @@
     "category": "PREP_V"
   },
   {
-    "lemma": "copy",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "duplicate"
-    }
-  },
-  {
-    "lemma": "open",
-    "category": "VERB_TRANS",
-    "reject": {
-      "ADJ": "unlocked",
-      "NOUN": {
-        "advice": "the noun sense (\"in the open\") is not enabled; irrelevant to this domain"
-      }
-    },
-    "note": "adverb (break open) and noun (in the open) senses irrelevant to domain",
-    "forms": {
-      "past": "opened",
-      "ing": "opening",
-      "third": "opens"
-    }
-  },
-  {
-    "lemma": "tool",
-    "category": "NOUN",
-    "note": "verb sense (tool around) irrelevant to domain",
-    "forms": {
-      "plural": "tools"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to tool around\") is not enabled; irrelevant to this domain"
-      }
-    }
-  },
-  {
     "lemma": "if",
     "category": "SCONJ_COND",
     "note": "conditional template only: if <clause>, then <clause> (ADR 0007)"
@@ -565,17 +344,6 @@
     "lemma": "cannot",
     "category": "MODAL_CAN_NEG",
     "note": "single-token modal negation (ADR 0009)"
-  },
-  {
-    "lemma": "check",
-    "category": "VERB_TRANS",
-    "reject": {
-      "NOUN": "test"
-    },
-    "forms": {
-      "third": "checks",
-      "ing": "checking"
-    }
   },
   {
     "lemma": "input",
@@ -625,16 +393,6 @@
     "note": "past negation carrier only (ADR 0010)"
   },
   {
-    "lemma": "choose",
-    "category": "VERB_TRANS",
-    "forms": {
-      "past": "chose",
-      "ppart": "chosen",
-      "third": "chooses",
-      "ing": "choosing"
-    }
-  },
-  {
     "lemma": "machine",
     "category": "NOUN",
     "note": "verb sense (machine a part) irrelevant to domain",
@@ -646,14 +404,6 @@
         "advice": "the verb sense (\"to machine a part\", i.e. shape it with tools) is not enabled; irrelevant to this domain"
       }
     }
-  },
-  {
-    "lemma": "word",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "write"
-    },
-    "note": "the dogfood test found angloform could not say 'word'"
   },
   {
     "lemma": "every",
@@ -1015,13 +765,6 @@
     "advice": "name the group - \"the maintainers\", \"the team\" - or use an imperative; \"we\" hides who acts (ADR 0020)"
   },
   {
-    "lemma": "maintainer",
-    "category": "NOUN",
-    "forms": {
-      "plural": "maintainers"
-    }
-  },
-  {
     "lemma": "but",
     "category": "CONJ",
     "note": "adversative coordination; within-sentence only (ADR 0021)"
@@ -1103,14 +846,6 @@
     }
   },
   {
-    "lemma": "algorithm",
-    "category": "NOUN",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "algorithms"
-    }
-  },
-  {
     "lemma": "generator",
     "category": "NOUN",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
@@ -1169,14 +904,6 @@
     }
   },
   {
-    "lemma": "note",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "record"
-    },
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
-  },
-  {
     "lemma": "rationale",
     "category": "NOUN",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
@@ -1214,19 +941,6 @@
     "lemma": "frequency",
     "category": "NOUN",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
-  },
-  {
-    "lemma": "table",
-    "category": "NOUN",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "tables"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (to table a motion — propose or postpone, depending on dialect) is not enabled; angloform allows one sense per word"
-      }
-    }
   },
   {
     "lemma": "history",
@@ -1325,15 +1039,6 @@
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "reduces"
-    }
-  },
-  {
-    "lemma": "expand",
-    "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "third": "expands",
-      "ing": "expanding"
     }
   },
   {
@@ -1475,30 +1180,12 @@
     }
   },
   {
-    "lemma": "rare",
-    "category": "ADJ",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
-  },
-  {
     "lemma": "common",
     "category": "ADJ",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "reject": {
       "NOUN": {
         "advice": "the noun sense (a common, shared public land) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "small",
-    "category": "ADJ",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (\"the small of the back\") is not enabled; angloform allows one sense per word"
-      },
-      "ADV": {
-        "advice": "the adverbial sense (\"cut it small\", \"think small\") is not enabled; angloform has no adverb category"
       }
     }
   },
@@ -1543,14 +1230,6 @@
     "note": "closed-class quantity marker after a digit count: \"43 percent of the swaps\" (ADR 0024)"
   },
   {
-    "lemma": "describe",
-    "category": "VERB_TRANS",
-    "note": "the redirect target of report-as-verb; a redirect must point at an enabled word (ADR 0023)",
-    "forms": {
-      "third": "describes"
-    }
-  },
-  {
     "lemma": "about",
     "category": "APPROX",
     "note": "approximation marker, only before a digit count; \"~\" lexes to the same token (ADR 0025)"
@@ -1570,20 +1249,6 @@
     "reject": {
       "VERB": {
         "advice": "\"hidden\" is the past participle of the verb \"hide\" (not separately enabled); angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "drift",
-    "category": "VERB_INTRANS",
-    "note": "generated files drift from the seed (ADR 0001); noun sense waived (one tag)",
-    "forms": {
-      "third": "drifts",
-      "past": "drifted"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a drift, e.g. a snowdrift) is not enabled; angloform allows one sense per word"
       }
     }
   },
@@ -1732,19 +1397,6 @@
     }
   },
   {
-    "lemma": "team",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "plural": "teams"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to team up\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "example",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
@@ -1832,19 +1484,6 @@
       },
       "ADV": {
         "advice": "the adverbial/interjection sense (\"say, that's a good idea\") is not enabled; angloform has no adverb category"
-      }
-    }
-  },
-  {
-    "lemma": "produce",
-    "category": "VERB_TRANS",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "third": "produces"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (produce — farm goods) is not enabled; angloform allows one sense per word"
       }
     }
   },
@@ -2209,27 +1848,6 @@
     }
   },
   {
-    "lemma": "accept",
-    "category": "VERB_TRANS",
-    "note": "surfaced by the ADR 0002 paragraph run 4 (2026-09-02)",
-    "forms": {
-      "third": "accepts"
-    }
-  },
-  {
-    "lemma": "cause",
-    "category": "VERB_TRANS",
-    "note": "surfaced by the ADR 0002 paragraph run 4 (2026-09-02)",
-    "forms": {
-      "third": "causes"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a cause) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "text",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 4 (2026-09-02)",
@@ -2429,19 +2047,6 @@
     }
   },
   {
-    "lemma": "claim",
-    "category": "NOUN",
-    "note": "needed by domain-model definitions (ADR 0027)",
-    "forms": {
-      "plural": "claims"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to claim something\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "define",
     "category": "VERB_TRANS",
     "note": "needed by domain-model definitions (ADR 0027)",
@@ -2505,19 +2110,6 @@
     "reject": {
       "NOUN": {
         "advice": "the noun sense (a measure, e.g. \"take measures\", or a musical bar) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "fix",
-    "category": "VERB_TRANS",
-    "note": "needed by domain-model definitions (ADR 0027)",
-    "forms": {
-      "third": "fixes"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (\"in a fix\", meaning trouble; also drug slang) is not enabled; angloform allows one sense per word"
       }
     }
   },
@@ -2593,14 +2185,6 @@
     "note": "needed by domain-model definitions (ADR 0027)",
     "forms": {
       "third": "decides"
-    }
-  },
-  {
-    "lemma": "enable",
-    "category": "VERB_TRANS",
-    "note": "needed by domain-model definitions (ADR 0027)",
-    "forms": {
-      "third": "enables"
     }
   },
   {
@@ -2921,14 +2505,6 @@
     }
   },
   {
-    "lemma": "enforce",
-    "category": "VERB_TRANS",
-    "note": "ADR 0003 rewrite",
-    "forms": {
-      "third": "enforces"
-    }
-  },
-  {
     "lemma": "see",
     "category": "VERB_TRANS",
     "forms": {
@@ -3042,11 +2618,6 @@
     }
   },
   {
-    "lemma": "different",
-    "category": "ADJ",
-    "note": "ADR 0004 rewrite"
-  },
-  {
     "lemma": "contrast",
     "category": "NOUN",
     "note": "ADR 0004 rewrite",
@@ -3076,19 +2647,6 @@
     "reject": {
       "NOUN": {
         "advice": "the noun sense (a cover, e.g. of a book) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "compound",
-    "category": "ADJ",
-    "note": "ADR 0004 rewrite",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a compound — chemical, or a walled area) is not enabled; angloform allows one sense per word"
-      },
-      "VERB": {
-        "advice": "the verb sense (\"to compound a problem\") is not enabled; angloform allows one sense per word"
       }
     }
   },
@@ -3145,22 +2703,6 @@
     "category": "NOUN",
     "note": "ADR 0004 rewrite",
     "reject": {}
-  },
-  {
-    "lemma": "clear",
-    "category": "ADJ",
-    "note": "ADR 0004 rewrite",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (\"in the clear\") is not enabled; angloform allows one sense per word"
-      },
-      "VERB": {
-        "advice": "the verb sense (\"to clear a table\") is not enabled; angloform allows one sense per word"
-      },
-      "ADV": {
-        "advice": "the adverbial sense (\"stand clear\", \"clear across town\") is not enabled; angloform has no adverb category"
-      }
-    }
   },
   {
     "lemma": "command",
@@ -3259,16 +2801,6 @@
       "NOUN": {
         "advice": "the noun sense (help, e.g. domestic help) is not enabled; angloform allows one sense per word"
       }
-    }
-  },
-  {
-    "lemma": "avoid",
-    "category": "VERB_TRANS",
-    "note": "ADR 0005 rewrite",
-    "forms": {
-      "third": "avoids",
-      "past": "avoided",
-      "ing": "avoiding"
     }
   },
   {
@@ -3475,30 +3007,6 @@
     }
   },
   {
-    "lemma": "memory",
-    "category": "NOUN",
-    "note": "ADR 0006 rewrite",
-    "forms": {
-      "plural": "memories"
-    }
-  },
-  {
-    "lemma": "model",
-    "category": "NOUN",
-    "note": "ADR 0006 rewrite",
-    "forms": {
-      "plural": "models"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to model clothing\" or \"to model behavior\") is not enabled; angloform allows one sense per word"
-      },
-      "ADJ": {
-        "advice": "the adjective sense (\"a model student\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "familiarity",
     "category": "NOUN",
     "note": "ADR 0006 rewrite"
@@ -3576,19 +3084,6 @@
     "note": "ADR 0006 rewrite"
   },
   {
-    "lemma": "noise",
-    "category": "NOUN",
-    "note": "ADR 0006 rewrite",
-    "forms": {
-      "plural": "noises"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (dated — \"to noise something abroad\", meaning to spread word of) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "earn",
     "category": "VERB_TRANS",
     "note": "ADR 0006 rewrite",
@@ -3613,19 +3108,6 @@
     "lemma": "robotic",
     "category": "ADJ",
     "note": "ADR 0006 rewrite"
-  },
-  {
-    "lemma": "tie",
-    "category": "VERB_INTRANS",
-    "note": "ADR 0006 rewrite",
-    "forms": {
-      "ing": "tying"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a necktie, or a tied game) is not enabled; angloform allows one sense per word"
-      }
-    }
   },
   {
     "lemma": "expressive",
@@ -3817,20 +3299,6 @@
     }
   },
   {
-    "lemma": "conflict",
-    "category": "VERB_INTRANS",
-    "note": "ADR 0006 rewrite",
-    "forms": {
-      "third": "conflicts",
-      "past": "conflicted"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a conflict) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "formulation",
     "category": "NOUN",
     "note": "ADR 0006 rewrite",
@@ -3844,20 +3312,6 @@
     "note": "ADR 0006 rewrite",
     "forms": {
       "plural": "lengths"
-    }
-  },
-  {
-    "lemma": "weigh",
-    "category": "VERB_TRANS",
-    "note": "ADR 0006 rewrite",
-    "forms": {
-      "third": "weighs",
-      "past": "weighed"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the reference data attests a noun use of \"weigh\"; no common meaning could be confirmed — not enabled"
-      }
     }
   },
   {
@@ -4046,31 +3500,6 @@
     "note": "ADR 0006 rewrite"
   },
   {
-    "lemma": "work",
-    "category": "NOUN",
-    "note": "ADR 0006 rewrite",
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to work a job\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "hold",
-    "category": "VERB_TRANS",
-    "forms": {
-      "past": "held",
-      "ppart": "held",
-      "third": "holds"
-    },
-    "note": "ADR 0006 rewrite",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a ship's hold; a wrestling hold) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "long",
     "category": "ADJ",
     "note": "ADR 0006 rewrite",
@@ -4095,22 +3524,6 @@
     "lemma": "inside",
     "category": "PREP_V",
     "note": "ADR 0006 rewrite"
-  },
-  {
-    "lemma": "win",
-    "category": "VERB_INTRANS",
-    "forms": {
-      "past": "won",
-      "ppart": "won",
-      "ing": "winning",
-      "third": "wins"
-    },
-    "note": "ADR 0006 rewrite",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a win) is not enabled; angloform allows one sense per word"
-      }
-    }
   },
   {
     "lemma": "branching",
@@ -4176,15 +3589,6 @@
     "note": "ADR 0006 rewrite",
     "forms": {
       "plural": "embeddings"
-    }
-  },
-  {
-    "lemma": "exist",
-    "category": "VERB_INTRANS",
-    "note": "ADR 0006 rewrite",
-    "forms": {
-      "third": "exists",
-      "past": "existed"
     }
   },
   {
@@ -4509,16 +3913,6 @@
     }
   },
   {
-    "lemma": "number",
-    "category": "NOUN",
-    "note": "ADR 0008 rewrite",
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to number the pages\"; \"his days are numbered\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "trust",
     "category": "VERB_TRANS",
     "note": "ADR 0008 rewrite",
@@ -4694,16 +4088,6 @@
     }
   },
   {
-    "lemma": "depend",
-    "category": "VERB_INTRANS",
-    "note": "ADR 0010-0013 rewrite",
-    "forms": {
-      "third": "depends",
-      "past": "depended",
-      "ing": "depending"
-    }
-  },
-  {
     "lemma": "attachment",
     "category": "NOUN",
     "note": "ADR 0010-0013 rewrite",
@@ -4858,22 +4242,6 @@
     }
   },
   {
-    "lemma": "catch",
-    "category": "VERB_TRANS",
-    "note": "ADR 0010-0013 rewrite",
-    "forms": {
-      "past": "caught",
-      "ppart": "caught",
-      "ing": "catching",
-      "third": "catches"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a catch, e.g. \"there's a catch\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "regret",
     "category": "VERB_TRANS",
     "note": "ADR 0010-0013 rewrite",
@@ -4951,16 +4319,6 @@
     "note": "ADR 0010-0013 rewrite",
     "forms": {
       "plural": "renderings"
-    }
-  },
-  {
-    "lemma": "false",
-    "category": "ADJ",
-    "note": "ADR 0010-0013 rewrite",
-    "reject": {
-      "ADV": {
-        "advice": "the adverbial sense (\"play someone false\", \"sing false\") is not enabled; angloform has no adverb category"
-      }
     }
   },
   {
@@ -5187,22 +4545,6 @@
     "reject": {
       "NOUN": {
         "advice": "the noun sense (film jargon — \"a silent\", a silent film) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "update",
-    "category": "VERB_TRANS",
-    "note": "ADR 0010-0013 rewrite",
-    "forms": {
-      "third": "updates",
-      "past": "updated",
-      "ppart": "updated",
-      "ing": "updating"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (an update) is not enabled; angloform allows one sense per word"
       }
     }
   },
@@ -5482,21 +4824,6 @@
       },
       "ADJ": {
         "advice": "the adjective sense (formal/literary — \"a signal achievement\", meaning notable) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "coin",
-    "category": "VERB_TRANS",
-    "note": "ADR 0014-0017 rewrite",
-    "forms": {
-      "third": "coins",
-      "past": "coined",
-      "ing": "coining"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a coin) is not enabled; angloform allows one sense per word"
       }
     }
   },
@@ -5813,17 +5140,6 @@
     }
   },
   {
-    "lemma": "sit",
-    "category": "VERB_INTRANS",
-    "forms": {
-      "past": "sat",
-      "ppart": "sat",
-      "ing": "sitting",
-      "third": "sits"
-    },
-    "note": "ADR 0014-0017 rewrite"
-  },
-  {
     "lemma": "home",
     "category": "NOUN",
     "note": "ADR 0014-0017 rewrite",
@@ -5839,16 +5155,6 @@
       },
       "ADJ": {
         "advice": "the adjective (attributive) sense (\"the home team\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "stay",
-    "category": "VERB_INTRANS",
-    "note": "ADR 0014-0017 rewrite",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a stay, e.g. a hotel stay, or nautical rigging) is not enabled; angloform allows one sense per word"
       }
     }
   },
@@ -5998,22 +5304,6 @@
     }
   },
   {
-    "lemma": "duplicate",
-    "category": "VERB_TRANS",
-    "note": "ADR 0014",
-    "forms": {
-      "third": "duplicates"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a duplicate, a copy) is not enabled; angloform allows one sense per word"
-      },
-      "ADJ": {
-        "advice": "the adjective sense (\"a duplicate key\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "digit",
     "category": "NOUN",
     "note": "ADR 0016",
@@ -6153,20 +5443,6 @@
     }
   },
   {
-    "lemma": "wait",
-    "category": "VERB_INTRANS",
-    "note": "ADR 0018-0021 rewrite",
-    "forms": {
-      "third": "waits",
-      "past": "waited"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a wait, e.g. \"a long wait\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "blocker",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
@@ -6196,16 +5472,6 @@
     "note": "ADR 0018-0021 rewrite",
     "forms": {
       "plural": "extents"
-    }
-  },
-  {
-    "lemma": "author",
-    "category": "NOUN",
-    "note": "ADR 0018-0021 rewrite",
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to author a book\") is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -6485,15 +5751,6 @@
     "forms": {
       "third": "inflects",
       "ing": "inflecting"
-    }
-  },
-  {
-    "lemma": "belong",
-    "category": "VERB_INTRANS",
-    "note": "ADR 0018-0021 rewrite",
-    "forms": {
-      "third": "belongs",
-      "past": "belonged"
     }
   },
   {
@@ -7087,14 +6344,6 @@
     }
   },
   {
-    "lemma": "assert",
-    "category": "VERB_TRANS",
-    "note": "ADR 0026-0028 rewrite",
-    "forms": {
-      "third": "asserts"
-    }
-  },
-  {
     "lemma": "connective",
     "category": "NOUN",
     "note": "ADR 0026-0028 rewrite",
@@ -7656,19 +6905,6 @@
     "note": "ADR 0029-0030 rewrite"
   },
   {
-    "lemma": "compare",
-    "category": "VERB_TRANS",
-    "note": "ADR 0029-0030 rewrite",
-    "forms": {
-      "third": "compares"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (literary — \"beyond compare\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "comparison",
     "category": "NOUN",
     "note": "ADR 0030",
@@ -7780,14 +7016,6 @@
     "note": "ADR 0033"
   },
   {
-    "lemma": "event",
-    "category": "NOUN",
-    "note": "ADR 0033",
-    "forms": {
-      "plural": "events"
-    }
-  },
-  {
     "lemma": "keyword",
     "category": "NOUN",
     "note": "ADR 0034",
@@ -7801,19 +7029,6 @@
     "note": "ADR 0034",
     "forms": {
       "plural": "scenarioes"
-    }
-  },
-  {
-    "lemma": "feature",
-    "category": "NOUN",
-    "note": "ADR 0034",
-    "forms": {
-      "plural": "features"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"the movie features an actor\") is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -8052,11 +7267,6 @@
     "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
   },
   {
-    "lemma": "society",
-    "category": "NOUN",
-    "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
-  },
-  {
     "lemma": "explanation",
     "category": "NOUN",
     "note": "needed by the Angloform Wiki translation of Wikipedia's Science article intro (2026-09-06)"
@@ -8130,6 +7340,15 @@
     "note": "needed by ADR 0061 (per-word definition file) to name its own \"antonym\" field",
     "forms": {
       "plural": "antonyms"
+    }
+  },
+  {
+    "lemma": "submit",
+    "category": "VERB_TRANS",
+    "note": "already the redirect target of \"file\"'s rejected VERB sense (predates this note) — added for real once the per-word definition format's redirect-existence check caught it was never actually a registered word",
+    "forms": {
+      "past": "submitted",
+      "ing": "submitting"
     }
   }
 ]

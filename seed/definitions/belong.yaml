@@ -1,2 +1,7 @@
 category: VERB_INTRANS
+forms:
+- tag: VERB_INTRANS_3SG
+  form: belongs
+- tag: VERB_INTRANS_ED
+  form: belonged
 definition: come from a community or stay in a place

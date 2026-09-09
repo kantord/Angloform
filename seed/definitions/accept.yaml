@@ -1,2 +1,5 @@
 category: VERB_TRANS
+forms:
+- tag: VERB_TRANS_3SG
+  form: accepts
 definition: allow a thing

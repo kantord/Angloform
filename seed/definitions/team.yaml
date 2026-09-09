@@ -1,2 +1,8 @@
 category: NOUN
+forms:
+- tag: NOUN_PL
+  form: teams
 definition: a group of people, which has a goal
+rejected:
+- category: VERB
+  advice: the verb sense ("to team up") is not enabled; angloform allows one sense per word

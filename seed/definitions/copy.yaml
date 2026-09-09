@@ -1,2 +1,6 @@
 category: NOUN
 definition: a file, which matches a file
+rejected:
+- category: VERB
+  redirects:
+  - duplicate

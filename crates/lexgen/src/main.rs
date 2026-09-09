@@ -74,6 +74,20 @@ fn main() {
             }
         }
     }
+
+    // `seed/definitions/*.yaml` (ADR 0061, and the follow-up "one loader"
+    // decision): schema-shape check first (pure, no Lexicon needed), then
+    // folded into `entries` as ordinary `SeedEntry`s — from here on, every
+    // lint block below (duplicate lemma+category, cross-POS, paradigm
+    // expansion, lexicon.tsv rendering) treats a `seed.json` word and a
+    // `seed/definitions/` word identically. That also means a lemma+
+    // category defined in BOTH places is now caught for free, by the
+    // existing "duplicate seed entry" check just below — not a new rule,
+    // the natural consequence of there being exactly one `entries` list.
+    let mut errors: Vec<String> = Vec::new();
+    let defs = definitions::load(definitions::DEFINITIONS_DIR, definitions::SCHEMA_PATH, &mut errors);
+    entries.extend(definitions::to_seed_entries(&defs));
+
     let refdata = match RefData::load("data") {
         Ok(r) => r,
         Err(e) => {
@@ -81,8 +95,6 @@ fn main() {
             exit(1);
         }
     };
-
-    let mut errors: Vec<String> = Vec::new();
 
     // -- duplicate lemma+category check ------------------------------------
     let mut seen = BTreeSet::new();
@@ -253,13 +265,12 @@ fn main() {
         }
     }
 
-    // `seed/definitions/*.yaml` (ADR 0061) — schema-shape check first (pure,
-    // no Lexicon needed), then the deeper grammar check once `lexicon` (a
-    // plain in-memory string — `render_lexicon` doesn't touch disk) exists
-    // for `parse_definition`'s self-reference/domain-term checks to see
-    // every word, not just this file's own.
+    // `seed/definitions/*.yaml`'s deeper grammar check (ADR 0061) —
+    // `parse_definition` on `definition`/`rejected[].advice`, needing the
+    // fully-built `Lexicon` (self-reference/domain-term checks must see
+    // every word, not just this file's own) — `lexicon` is a plain
+    // in-memory string; `render_lexicon` doesn't touch disk.
     let lexicon = render_lexicon(&forms, &entries);
-    let defs = definitions::load(definitions::DEFINITIONS_DIR, definitions::SCHEMA_PATH, &mut errors);
     match grammar::Lexicon::from_tsv(&lexicon) {
         Ok(built) => definitions::check(&defs, &built, &mut errors),
         Err(e) => errors.push(format!("internal: the just-built lexicon failed to parse back: {e}")),

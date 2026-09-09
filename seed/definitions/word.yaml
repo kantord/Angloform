@@ -1,2 +1,6 @@
 category: NOUN
 definition: the smallest part of a document, which has a meaning
+rejected:
+- category: VERB
+  redirects:
+  - write
