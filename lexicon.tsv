@@ -173,8 +173,6 @@ Triage	name	-	Triage
 Verb Preposition	form	NOUN_SG	verb preposition
 Verb Preposition	member_of	-	Function Word
 Verb Prepositions	form	NOUN_PL	verb preposition
-Waiver	form	NOUN_SG	waiver
-Waivers	form	NOUN_PL	waiver
 WordNet	name	-	WordNet
 a	form	DET_SG	a
 abilities	form	NOUN_PL	ability
@@ -266,6 +264,8 @@ answer	reject_advice	NOUN	the noun sense (an answer) is not enabled; angloform a
 answered	form	VERB_TRANS_ED	answer
 answering	form	VERB_TRANS_ING	answer
 answers	form	VERB_TRANS_3SG	answer
+antonym	form	NOUN_SG	antonym
+antonyms	form	NOUN_PL	antonym
 apparent	form	ADJ_LONG	apparent
 apparently	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
 appear	form	VERB_INTRANS_BASE	appear
@@ -834,6 +834,9 @@ difficulty	form	NOUN_SG	difficulty
 diffs	form	NOUN_PL	diff
 digit	form	NOUN_SG	digit
 digits	form	NOUN_PL	digit
+dimension	form	NOUN_SG	dimension
+dimension	reject_advice	VERB	the verb sense (engineering jargon — "to dimension a drawing", meaning to add measurements to it) is not enabled; angloform allows one sense per word
+dimensions	form	NOUN_PL	dimension
 directed	form	ADJ_LONG	directed
 disagree	form	VERB_INTRANS_BASE	disagree
 disagreed	form	VERB_INTRANS_ED	disagree
@@ -2753,12 +2756,6 @@ wait	reject_advice	NOUN	the noun sense (a wait, e.g. "a long wait") is not enabl
 waited	form	VERB_INTRANS_ED	wait
 waiting	form	VERB_INTRANS_ING	wait
 waits	form	VERB_INTRANS_3SG	wait
-waive	form	VERB_TRANS_BASE	waive
-waived	form	VERB_TRANS_ED	waive
-waiver	term	-	Waiver
-waivers	term	-	Waivers
-waives	form	VERB_TRANS_3SG	waive
-waiving	form	VERB_TRANS_ING	waive
 warning	form	NOUN_SG	warning
 warning	reject_advice	ADJ	the adjective (attributive) sense ("a warning sign") is not enabled; angloform allows one sense per word
 warnings	form	NOUN_PL	warning

@@ -254,7 +254,7 @@ examples); "a X" after the tag is the category the term belongs to
 **Register Loss** (noun, category) · a Declared Loss — a Register Loss is a Declared Loss. a Register Loss drops the affect of the original sentence but keeps every claim. the politeness of a request is one example. a Translation Pair declares every Register Loss.
   Examples: `politeness` · `emphasis` · `an emoji`
 
-**Rejected Sense** (noun, category) — a Rejected Sense is a sense of a word. the Seed does not enable the sense, so the Linter rejects the sense. the Seed names a Redirect for the sense or records a Waiver. the verb "file" is a Rejected Sense, so the Linter shows the Redirect "submit".
+**Rejected Sense** (noun, category) — a Rejected Sense is a sense of a word. the Seed does not enable the sense, so the Linter rejects the sense. the entry of the word names the Redirect of the sense or writes the advice of the sense. the verb "file" is a Rejected Sense, so the Linter shows the Redirect "submit".
   Examples: `the noun "present" is a Rejected Sense.` · `the verb "file" is a Rejected Sense.`
 
 **Rejection** (noun, category) — if the Linter does not parse a sentence, then the sentence is a Rejection. a Rejection is a Ban or is a Gap. the Linter must explain every Rejection and must name the kind of the Rejection.
@@ -301,12 +301,6 @@ examples); "a X" after the tag is the category the term belongs to
 
 **Verb Preposition** (noun, category) · a Function Word — a Verb Preposition is a Function Word. a Verb Preposition attaches to the verb of the clause. the word "in" is a Verb Preposition. a clause cannot have 2 Verb Prepositions, because the order of 2 Verb Prepositions is ambiguous.
   Examples: `in` · `from` · `to` · `with` · `on` · `at` · `for`
-
-**waive** (verb trans) — the maintainers waive the Redirect of a Rejected Sense, because a writer does not need the sense. the Linter rejects the sense and does not show a replacement. the Waiver records the choice.
-  Examples: `the maintainers waived the Redirect of the noun "curate".`
-
-**Waiver** (noun, category) — a Waiver is a choice of the maintainers. the maintainers waive the Redirect of a Rejected Sense, because a writer does not need the sense. the Linter rejects the sense and does not show a replacement. the entry of the Seed records the Waiver in the field "waive".
-  Examples: `the noun "send" has a Waiver.` · `the maintainers waived the Redirect of the noun "curate".`
 
 **WordNet** (name, unique) — WordNet is a database of English. WordNet holds every sense of a word. the repository stores WordNet, so Lexgen checks every Lemma of the Seed against WordNet.
 

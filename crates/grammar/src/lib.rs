@@ -1075,6 +1075,79 @@ pub fn parse(lexicon: &Lexicon, sentence: &str) -> Result<Tree, String> {
         .map_err(|e| format_parse_error(&e))
 }
 
+/// Which per-category shape a lexicon entry's `definition` field must
+/// match (lexicon-authoring-format design, 2026-09-07/08) — a `Category`
+/// maps to exactly one of these; not every `Category` has one yet.
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub enum DefKind {
+    Noun,
+    VerbTrans,
+    VerbIntrans,
+    Adj,
+}
+
+/// Parse a lexicon entry's `definition` field against its category's
+/// required shape — a dedicated, tooling-only entry point (never used for
+/// ordinary prose), distinct from `parse`/`pub Sentence`. Answers "is this
+/// an adequate *definition*," not just "is this valid angloform." `lemma`
+/// is the word being defined — enforced structurally, not left to author
+/// discipline (2026-09-08): a trailing period is rejected (dictionary
+/// style, no restated sentence punctuation — `NounDef`/`VerbTransDef`/
+/// `VerbIntransDef`/`AdjDef` are all fragments, not sentences); a
+/// definition that uses its own headword (directly, e.g. "sit in a
+/// position" defining "sit") is rejected as self-referential — a real
+/// mistake found in this design's own trial examples, not hypothetical;
+/// and a definition that references a domain-model term (e.g. "Name",
+/// "Redirect", "Category" — Angloform's own self-describing meta-
+/// vocabulary) is rejected too — another real trial mistake ("a file is
+/// a Name, which holds the data", defining the ordinary word "file"
+/// using the project's own internal jargon for an unquoted identifier, a
+/// category error, not a stylistic nitpick).
+pub fn parse_definition(lexicon: &Lexicon, kind: DefKind, lemma: &str, text: &str) -> Result<Tree, String> {
+    if text.trim_end().ends_with('.') {
+        return Err(format!(
+            "a definition is a fragment, not a sentence — remove the trailing period: \"{}\"",
+            text.trim_end().trim_end_matches('.')
+        ));
+    }
+    let tokens = lexicon.tokenize(text).map_err(|e| e.to_string())?;
+    for word in text.split_whitespace() {
+        let bare = word.trim_matches(|c: char| !c.is_alphanumeric());
+        if bare.is_empty() {
+            continue;
+        }
+        if lexicon.lemma_of(bare) == Some(lemma) || bare.eq_ignore_ascii_case(lemma) {
+            return Err(format!(
+                "a definition cannot use its own headword \"{lemma}\" — found \"{bare}\" in \"{text}\""
+            ));
+        }
+        if let Some(term) = lexicon.term(&bare.to_lowercase()) {
+            if bare == term {
+                return Err(format!(
+                    "a definition cannot reference the domain-model term \"{term}\" — found in \"{text}\""
+                ));
+            }
+        }
+    }
+    let iter = tokens
+        .into_iter()
+        .map(|(i, t)| Ok::<(usize, Tok, usize), LexError>((i, t, i + 1)));
+    match kind {
+        DefKind::Noun => angloform::NounDefParser::new()
+            .parse(iter)
+            .map_err(|e| format_parse_error(&e)),
+        DefKind::VerbTrans => angloform::VerbTransDefParser::new()
+            .parse(iter)
+            .map_err(|e| format_parse_error(&e)),
+        DefKind::VerbIntrans => angloform::VerbIntransDefParser::new()
+            .parse(iter)
+            .map_err(|e| format_parse_error(&e)),
+        DefKind::Adj => angloform::AdjDefParser::new()
+            .parse(iter)
+            .map_err(|e| format_parse_error(&e)),
+    }
+}
+
 /// Parse an already-tokenized stream, keeping the raw `ParseError` (with
 /// its failure position) rather than formatting it to a string — used by
 /// `diagnose` to rank antiparser matches by proximity to where Tier-1

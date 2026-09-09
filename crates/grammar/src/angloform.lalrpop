@@ -378,6 +378,102 @@ RelSentence: Tree = {
     <c:Clause> <cm:LComma> <r:LWho> <p:PredRel> <t:Tailn<PredRel>?> => nd("RelS", 2, vec![Some(c), Some(cm), Some(r), Some(p), t]),
 };
 
+// -------------------------------------------------- definition grammar --
+//
+// Dedicated, tooling-only entry points (lexgen's future `definition`-field
+// validator, per the lexicon-authoring-format design, 2026-09-07/08) — not
+// reachable from `pub Sentence`, never used by ordinary prose. Same
+// pattern already used for `pub Intro`/`pub Step`/`pub Item`: a separate
+// `pub` start symbol, not a new architectural concept.
+//
+// NounDef: genus + MANDATORY differentia. Reuses RelSentence's own
+// comma-then-which/who-then-PredRel tail, narrowed to require the
+// preceding Clause be specifically a copula ("Subj is a Genus"), not any
+// Clause — a bare "a group." with nothing after it is a grammar-level
+// rejection, not a judgment call. SubjSG/LCopSg only for now (singular
+// definitions) — every real trial definition was singular; SubjPL/LCopPl
+// is a natural, low-risk future extension once evidenced.
+pub NounDef: Tree = {
+    <genus:NPSGCore> <cm:LComma> <r:LWhich> <p:PredRel> <t:Tailn<PredRel>?> =>
+        nd("NounDef", 0, vec![Some(genus), Some(cm), Some(r), Some(p), t]),
+    <genus:NPSGCore> <cm:LComma> <r:LWho> <p:PredRel> <t:Tailn<PredRel>?> =>
+        nd("NounDef", 0, vec![Some(genus), Some(cm), Some(r), Some(p), t]),
+};
+
+// VerbTransDef: a bare verb phrase, no subject — re-exposes the exact
+// nonterminal `Imperative` already uses (`VBaseP`, ADR 0019: "the verb
+// is the signature"), zero new grammar. REVISED TWICE (2026-09-08):
+// first required a mandatory Causal purpose/result tail — found
+// gameable ("a tool builds a thing, so a new thing exists" satisfies it
+// while staying just as vague) and too strict (rejected "a tool builds
+// a file from parts," a genuinely better, concrete definition, purely
+// for lacking a purpose clause it didn't need). Dropping the subject
+// entirely is a stronger fix than either: real dictionary entries never
+// restate a placeholder subject ("to build a file from parts," not "a
+// tool builds a file from parts"), and removing the subject slot
+// structurally disallows the vague-filler-subject pattern ("a tool
+// does…", "a person does…") by construction — not a Linter judgment
+// call catching it after the fact, the same "just don't allow the
+// construction if there's a way to" principle already established in
+// docs/garden-paths-2026-09-06.md. A vague *object* ("a thing") is
+// still only lexically detectable, so that half stays a
+// `diagnose::vague_appositive`-style Linter check, per ADR 0054's own
+// precedent for exactly that kind of gap.
+// Both defs carry an optional `Tailn<VBaseP>` tail (2026-09-08): the same
+// binary same-subject "or"/"and"/"but" predicate coordination NounDef
+// already uses (ADR 0004), reused as-is — not new grammar, just
+// exercised here for the first time. Lets a definition approximate a
+// missing abstract verb as a disjunction of concrete ones ("belong":
+// "come from a community or stay in a place") instead of forcing one
+// word to do work the lexicon has no word for.
+pub VerbTransDef: Tree = {
+    <b:VBaseP> <t:Tailn<VBaseP>?> => match t {
+        None => b,
+        Some(tail) => nd("DefOr", 0, vec![Some(b), Some(tail)]),
+    },
+};
+
+// VerbIntransDef: identical grammar to VerbTransDef, not a mistake — the
+// transitive/intransitive distinction doesn't need a second nonterminal
+// here, because it's already enforced elsewhere: a word's Form Tag is
+// fixed (one category per word), so VBaseP's transitive branch is simply
+// unreachable for a word whose own head verb lexes as intransitive, and
+// vice versa. A distinctly-named `pub` symbol purely for lexgen's
+// dispatch-by-category clarity (VERB_INTRANS -> VerbIntransDefParser).
+pub VerbIntransDef: Tree = {
+    <b:VBaseP> <t:Tailn<VBaseP>?> => match t {
+        None => b,
+        Some(tail) => nd("DefOr", 0, vec![Some(b), Some(tail)]),
+    },
+};
+
+// AdjDef: a bare, optionally-negated adjective phrase — no subject, no
+// copula. REVISED (2026-09-08): originally wrapped in a full predicative
+// clause ("a rare word is not common"), which forced picking an arbitrary
+// (and often wrong-domain) subject noun ("word") just to have somewhere
+// to attach the copula — the exact same over-narrowing problem the verb
+// definitions had with "a tool"/"a file". Matches the same simplification
+// already applied to NounDef (dropped the copula wrapper) and
+// VerbTransDef (dropped the subject): real dictionary style is just the
+// adjectival content itself ("not common"), nothing else. Covers plain
+// ("small") and the negated-contrast shape the `antonym` field is meant
+// to feed ("not common") — a comparative/PP-standard form ("bigger than
+// X") is not yet supported; add it only once a real word needs it.
+//
+// TRIED AND REVERTED (2026-09-08): added an optional `PPv` tail
+// (mirroring every verb definition) to try to fix "alone" ("not in a
+// group" / "separate from a group") — neither phrasing actually worked
+// once tried ("not in a group" has no adjective at all to attach the
+// negation to; "separate"'s adjective sense is itself disabled in the
+// lexicon, one-sense-per-word). No word ended up needing the tail, so
+// it was reverted rather than kept as unused, speculative surface area
+// — the same bar this comment already set ("only once a real word
+// needs it") still hasn't been met.
+pub AdjDef: Tree = {
+    LAdj,
+    <n:LNeg> <a:LAdj> => nd("AdjDef", 1, vec![Some(n), Some(a)]),
+};
+
 // do not <verb …> — prohibition (ADR 0005).
 Prohibition: Tree = {
     <d:LDoBase> <n:LNeg> <v:VBaseP> => nd("Prohib", 2, vec![Some(d), Some(n), Some(v)]),
@@ -683,6 +779,13 @@ OfPP: Tree = {
 NPInner: Tree = {
     // a defined or quoted name inside an of-PP: "every sentence of Angloform"
     <nm:LName> => nm,
+    // a bare plural inside an of-PP (2026-09-08, lexicon-authoring-format
+    // trial): "a group of people", "a box of items" — the same bare-plural
+    // NP already used at the top level (NPAny's BarePl) was previously
+    // unreachable here, forcing an ungrammatical "of the people" or
+    // dropping the of-PP genus pattern entirely just to name a generic
+    // plural constituent.
+    BarePl,
     // appositive name inside an of-PP: "every form of the file "lexicon.tsv""
     <d:LDet> <a:LAdj?> <n:LNounSg> <nm:LName> =>
         nd("NPAppos", 2, vec![Some(d), a, Some(n), Some(nm)]),

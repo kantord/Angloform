@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kantord/minglish/seed/definitions.schema.json",
+  "title": "Angloform word definition (ADR 0061)",
+  "description": "One file per lemma, seed/definitions/<lemma>.yaml. Shape-only — parse_definition (crates/grammar) separately checks that \"definition\", every \"rejected[].advice\", and every \"antonym\"/\"rejected[].redirects\" reference resolve to real Angloform/real words. lexgen runs both checks (ADR 0061).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["category", "definition"],
+  "properties": {
+    "category": {
+      "description": "The Category of the Lemma (ADR 0001) — which grammar entry point checks \"definition\".",
+      "type": "string",
+      "enum": ["NOUN", "VERB_TRANS", "VERB_INTRANS", "ADJ"]
+    },
+    "forms": {
+      "description": "Irregular Surface Forms only (ADR 0001) — a word whose regular-rule form is wrong or identical to its own lemma (e.g. \"sheep\"). Never list a regular form.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/surfaceForm" }
+    },
+    "definition": {
+      "description": "A genus/differentia fragment (NOUN), a bare verb phrase (VERB_TRANS/VERB_INTRANS), or a bare adjective phrase (ADJ) — never a full sentence. Checked by parse_definition against \"category\".",
+      "type": "string",
+      "minLength": 1
+    },
+    "antonym": {
+      "description": "One lemma with (roughly) the opposite meaning. Curated by a person, not derived. Must resolve to an existing word; not required to be reciprocal.",
+      "type": "string",
+      "minLength": 1
+    },
+    "rejected": {
+      "description": "Every attested-but-disabled sense of this lemma, replacing the old free-text seed.json \"reject\"/\"reject_advice\".",
+      "type": "array",
+      "items": { "$ref": "#/$defs/rejectedSense" }
+    }
+  },
+  "$defs": {
+    "surfaceForm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tag", "form"],
+      "properties": {
+        "tag": {
+          "description": "The Form Tag this Surface Form gets (the same tag strings lexicon.tsv already uses, e.g. \"NOUN_PL\", \"VERB_TRANS_ED\").",
+          "type": "string"
+        },
+        "form": {
+          "description": "The literal spelling — the Surface Form itself.",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "rejectedSense": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["category"],
+      "properties": {
+        "category": {
+          "description": "The disabled sense's own Category (e.g. this lemma is enabled as NOUN but attested and rejected as VERB).",
+          "type": "string"
+        },
+        "redirects": {
+          "description": "1+ substitute words. Each one's meaning is looked up from ITS OWN definition file — never restated here.",
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "advice": {
+          "description": "Only when no substitute word exists (redirects absent). A parse_definition-checked Angloform micro-definition of the disabled sense, using the same shape \"category\" implies.",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "oneOf": [
+        { "required": ["redirects"] },
+        { "required": ["advice"] }
+      ]
+    }
+  }
+}
