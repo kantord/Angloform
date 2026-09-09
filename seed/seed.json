@@ -8110,5 +8110,26 @@
     "lemma": "less",
     "category": "BANNED",
     "advice": "comparatives of a quantity are deferred (ADR 0030) - write \"a small <noun>\", or a Comparative of an adjective with \"than\""
+  },
+  {
+    "lemma": "dimension",
+    "category": "NOUN",
+    "note": "needed by the lexicon-authoring-format definition trial's \"table\" definition (2026-09-08)",
+    "forms": {
+      "plural": "dimensions"
+    },
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (engineering jargon — \"to dimension a drawing\", meaning to add measurements to it) is not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
+    "lemma": "antonym",
+    "category": "NOUN",
+    "note": "needed by ADR 0061 (per-word definition file) to name its own \"antonym\" field",
+    "forms": {
+      "plural": "antonyms"
+    }
   }
 ]

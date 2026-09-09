@@ -99,16 +99,6 @@
     ]
   },
   {
-    "lemma": "waiver",
-    "category": "NOUN",
-    "definition": "a Waiver is a choice of the maintainers. the maintainers waive the Redirect of a Rejected Sense, because a writer does not need the sense. the Linter rejects the sense and does not show a replacement. the entry of the Seed records the Waiver in the field \"waive\".",
-    "kind": "category",
-    "examples": [
-      "the noun \"send\" has a Waiver.",
-      "the maintainers waived the Redirect of the noun \"curate\"."
-    ]
-  },
-  {
     "lemma": "coverage",
     "category": "NOUN",
     "definition": "the Coverage is a share of a corpus. the corpus is the file \"data/ud/en_ewt-ud-test.conllu\". the file holds sentences of English. if the Lexicon contains every word of a sentence, then the Lexicon covers the sentence. Triage counts the sentences of the corpus and measures the Coverage. the Coverage is a proxy, because Triage does not parse the sentences. the Coverage does not measure the quality of the Redirects.",
@@ -348,17 +338,6 @@
     "reject": {}
   },
   {
-    "lemma": "waive",
-    "category": "VERB_TRANS",
-    "definition": "the maintainers waive the Redirect of a Rejected Sense, because a writer does not need the sense. the Linter rejects the sense and does not show a replacement. the Waiver records the choice.",
-    "forms": {
-      "third": "waives"
-    },
-    "examples": [
-      "the maintainers waived the Redirect of the noun \"curate\"."
-    ]
-  },
-  {
     "lemma": "attest",
     "category": "VERB_TRANS",
     "definition": "if a database attests a word, then the database contains the word. the database WordNet attests the senses of a word. the file \"mobypos\" attests the Categories of a word. the rules of Lexgen can produce a wrong spelling, so Lexgen checks every Surface Form against the data. if the data does not attest a Surface Form, then Lexgen rejects the Surface Form.",
@@ -411,7 +390,7 @@
   {
     "lemma": "rejected sense",
     "category": "NOUN",
-    "definition": "a Rejected Sense is a sense of a word. the Seed does not enable the sense, so the Linter rejects the sense. the Seed names a Redirect for the sense or records a Waiver. the verb \"file\" is a Rejected Sense, so the Linter shows the Redirect \"submit\".",
+    "definition": "a Rejected Sense is a sense of a word. the Seed does not enable the sense, so the Linter rejects the sense. the entry of the word names the Redirect of the sense or writes the advice of the sense. the verb \"file\" is a Rejected Sense, so the Linter shows the Redirect \"submit\".",
     "kind": "category",
     "examples": [
       "the noun \"present\" is a Rejected Sense.",

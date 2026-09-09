@@ -8,6 +8,7 @@
 use std::collections::{BTreeMap, BTreeSet};
 use std::process::exit;
 
+mod definitions;
 mod morph;
 mod refdata;
 mod seed;
@@ -252,6 +253,18 @@ fn main() {
         }
     }
 
+    // `seed/definitions/*.yaml` (ADR 0061) — schema-shape check first (pure,
+    // no Lexicon needed), then the deeper grammar check once `lexicon` (a
+    // plain in-memory string — `render_lexicon` doesn't touch disk) exists
+    // for `parse_definition`'s self-reference/domain-term checks to see
+    // every word, not just this file's own.
+    let lexicon = render_lexicon(&forms, &entries);
+    let defs = definitions::load(definitions::DEFINITIONS_DIR, definitions::SCHEMA_PATH, &mut errors);
+    match grammar::Lexicon::from_tsv(&lexicon) {
+        Ok(built) => definitions::check(&defs, &built, &mut errors),
+        Err(e) => errors.push(format!("internal: the just-built lexicon failed to parse back: {e}")),
+    }
+
     if !errors.is_empty() {
         eprintln!("lexgen: {} error(s):\n", errors.len());
         for e in &errors {
@@ -261,7 +274,6 @@ fn main() {
     }
 
     // -- outputs -----------------------------------------------------------
-    let lexicon = render_lexicon(&forms, &entries);
     let report = render_report(&forms, &entries, &refdata);
     let context = render_context(&entries);
 

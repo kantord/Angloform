@@ -4,14 +4,14 @@
 
 ## Summary
 
-- 982 lemmas, 2071 surface forms, 502 redirects (41 word substitute, 461 advice-only)
-- Domain model: 89 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 150, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 475, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 178, WHICH 1, WHO 1, YET 1
+- 982 lemmas, 2069 surface forms, 503 redirects (41 word substitute, 462 advice-only)
+- Domain model: 87 terms with definitions (ADR 0027)
+- Lemmas per category: ADJ 150, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 476, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 177, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
 - Mean zipf: 4.12 (higher = more common; everyday words sit at 4.5+)
-- Rarest 5: adversative (0.00), anaphora (0.00), anaphoric (0.00), anaphoric pronoun (0.00), appositive (0.00)
+- Rarest 5: adversative (0.00), anaphora (0.00), anaphoric (0.00), anaphoric pronoun (0.00), antonym (0.00)
 
 ## Residual polysemy (WordNet senses within the enabled POS)
 
@@ -487,6 +487,7 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - corollary (ADJ): the adjective (attributive) sense ("a corollary benefit") is not enabled; angloform allows one sense per word
 - discipline (VERB): the verb sense ("to discipline someone") is not enabled; angloform allows one sense per word
 - challenge (NOUN): the noun sense (a challenge) is not enabled; angloform allows one sense per word
+- dimension (VERB): the verb sense (engineering jargon — "to dimension a drawing", meaning to add measurements to it) is not enabled; angloform allows one sense per word
 - curate (NOUN): the noun sense (an assistant to a vicar or rector, ecclesiastical) is not enabled; angloform allows one sense per word
 - lint (NOUN): the noun sense (lint — fluff, fiber debris) is not enabled; angloform allows one sense per word
 - transitive (NOUN): the reference data attests a noun use of "transitive"; no common meaning could be confirmed — not enabled
