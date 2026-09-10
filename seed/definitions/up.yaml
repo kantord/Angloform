@@ -1,0 +1,14 @@
+category: VERB_TRANS
+forms:
+  - tag: VERB_TRANS_ED
+    form: upped
+  - tag: VERB_TRANS_ING
+    form: upping
+definition: add a value
+rejected:
+  - category: ADJ
+    gap: true
+  - category: ADV
+    gap: true
+  - category: NOUN
+    gap: true

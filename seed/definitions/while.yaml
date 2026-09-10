@@ -1,0 +1,5 @@
+category: NOUN
+definition: a time, which is short
+rejected:
+  - category: VERB
+    gap: true

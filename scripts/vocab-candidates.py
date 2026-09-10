@@ -16,6 +16,11 @@ genuinely new lemmas and leaves every existing entry (including its
 `rejected` reason) untouched; a lemma that falls out of the candidate set
 (promoted into the real vocabulary, or outside a smaller N) is dropped from
 the ledger — its fate is tracked by the real vocabulary from then on.
+
+Also writes docs/.vocab-ratchet-n (the last-run N, one integer) — the
+vocab-ratchet skill's source of truth for how far the candidate pool has
+grown, so it can step N up deliberately rather than jumping to a large
+value and creating an unreviewable backlog.
 """
 import re
 import sys
@@ -210,6 +215,9 @@ with open(f"{ROOT}/docs/vocabulary-candidates-pilot-2026-09-09.md", "w") as f:
 
 print(f"strong={len(strong)} weak={len(weak)} tied={len(tied)} none={len(none_)}", file=sys.stderr)
 print("wrote docs/vocabulary-candidates-pilot-2026-09-09.md", file=sys.stderr)
+
+with open(f"{ROOT}/docs/.vocab-ratchet-n", "w") as f:
+    f.write(f"{PILOT_SIZE}\n")
 
 # -- reproducible ledger --------------------------------------------------
 # Only "admit-eligible" words (strong + weak) go in the ledger — tied/none

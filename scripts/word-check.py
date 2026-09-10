@@ -154,7 +154,7 @@ def load_yaml(lemma):
         return None
 
 
-def update_provenance(lemma, category, gloss, redirect):
+def update_provenance(lemma, category, gloss, redirect=None, gap=False):
     import yaml
     path = f"{ROOT}/docs/word-sense-provenance.yaml"
     try:
@@ -165,6 +165,7 @@ def update_provenance(lemma, category, gloss, redirect):
     data.setdefault(lemma, {})[category] = {
         "gloss": gloss if gloss else None,
         "redirect": redirect,
+        "gap": gap,
     }
     with open(path, "w") as f:
         f.write(
@@ -184,9 +185,17 @@ def check_one_category(lemma, cat, entry):
     print(f"\n=== {lemma} / {cat} (attested, not the enabled sense) ===")
 
     if cat == "ADV":
-        print("  Angloform has no open adverb category — no redirect can ever")
-        print("  exist for this. This word cannot be admitted as-is.")
-        return False
+        print("  Angloform has no open adverb category — no redirect can ever exist for this.")
+        if entry is not None:
+            rejected = entry.get("rejected") or []
+            if any(r["category"] == "ADV" and r.get("gap") for r in rejected):
+                print("  GAP: acknowledged — this is the only valid way to reject ADV.")
+                update_provenance(lemma, "ADV", None, gap=True)
+                return True
+            print("  FAIL: needs \"gap: true\" (never a redirect, never advice)")
+            return False
+        print("  Only \"gap: true\" can ever satisfy this category.")
+        return None
 
     wn_glosses = glosses_for(lemma, cat)
     if wn_glosses:
@@ -205,25 +214,28 @@ def check_one_category(lemma, cat, entry):
     if entry is None:
         return None  # exploration mode: nothing authored yet, nothing to judge
 
-    existing_redirects = {
-        r["category"]: r["redirects"][0]
-        for r in (entry.get("rejected") or [])
-        if r.get("redirects")
-    }
+    rejected = entry.get("rejected") or []
+    existing_redirects = {r["category"]: r["redirects"][0] for r in rejected if r.get("redirects")}
+    existing_gaps = {r["category"] for r in rejected if r.get("gap")}
+
     chosen = existing_redirects.get(cat)
     if chosen:
         if chosen not in candidates:
             print(f"  FAIL: rejected[].redirects points to \"{chosen}\", which is not an enabled {cat} word")
             return False
         print(f"  OK: redirects to \"{chosen}\" (already enabled)")
-        update_provenance(lemma, cat, gloss_for_log, chosen)
+        update_provenance(lemma, cat, gloss_for_log, redirect=chosen)
         return True
 
-    uses_advice = any(
-        r["category"] == cat and r.get("advice") for r in (entry.get("rejected") or [])
-    )
+    if cat in existing_gaps:
+        print("  GAP: acknowledged as a real, structural absence — no redirect exists yet.")
+        print("  Not a failure, but re-check with word-check.py as the vocabulary grows.")
+        update_provenance(lemma, cat, gloss_for_log, gap=True)
+        return True
+
+    uses_advice = any(r["category"] == cat and r.get("advice") for r in rejected)
     if uses_advice:
-        print("  FAIL: uses \"advice\" (a hand-written micro-definition) instead of \"redirects\"")
+        print("  FAIL: uses \"advice\" (a hand-written micro-definition) instead of \"redirects\"/\"gap\"")
     else:
         print("  FAIL: no rejected[] entry for this category at all")
     return False
@@ -255,7 +267,7 @@ def main():
         ok = all(check_one_category(lemma, cat, entry) for cat in other)
         print()
         if ok:
-            print(f"{lemma}: PASS — every attested-but-not-own category has a real redirect")
+            print(f"{lemma}: PASS — every attested-but-not-own category has a real redirect or an acknowledged gap")
             sys.exit(0)
         print(f"{lemma}: FAIL — not ready to admit as-is (see above)")
         sys.exit(1)

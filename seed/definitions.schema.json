@@ -69,11 +69,16 @@
           "description": "Only when no substitute word exists (redirects absent). A parse_definition-checked Angloform micro-definition of the disabled sense, using the same shape \"category\" implies.",
           "type": "string",
           "minLength": 1
+        },
+        "gap": {
+          "description": "A real, nameable absence: no already-enabled word covers this attested sense (checked with scripts/word-check.py, not asserted). Renders as a fixed, templated message, never hand-authored prose — the structural alternative to \"advice\" for words still mid-bootstrap (docs/lexicon-authoring-format-2026-09-07.md's \"Gap\" concept). Not a permanent verdict: re-check with word-check.py as the enabled vocabulary grows.",
+          "const": true
         }
       },
       "oneOf": [
         { "required": ["redirects"] },
-        { "required": ["advice"] }
+        { "required": ["advice"] },
+        { "required": ["gap"] }
       ]
     }
   }

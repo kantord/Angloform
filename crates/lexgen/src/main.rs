@@ -504,6 +504,14 @@ fn render_lexicon(forms: &[Form], entries: &[SeedEntry]) -> String {
                 RejectTarget::Advice { advice } => {
                     rows.push((e.lemma.clone(), "reject_advice", pos.clone(), advice.clone()));
                 }
+                RejectTarget::Gap => {
+                    rows.push((
+                        e.lemma.clone(),
+                        "reject_gap",
+                        pos.clone(),
+                        "no already-enabled word covers this sense yet".to_string(),
+                    ));
+                }
             }
         }
         if matches!(e.cat(), Category::Banned) {
@@ -532,23 +540,24 @@ fn render_report(forms: &[Form], entries: &[SeedEntry], refdata: &RefData) -> St
     for e in entries {
         *per_cat.entry(e.category.as_str()).or_default() += 1;
     }
-    let (word_redirects, advice_redirects): (usize, usize) = entries.iter().fold(
-        (0, 0),
-        |(w, a), e| {
-            let (ew, ea) = e.reject.values().fold((0, 0), |(w, a), t| match t {
-                RejectTarget::Word(_) => (w + 1, a),
-                RejectTarget::Advice { .. } => (w, a + 1),
+    let (word_redirects, advice_redirects, gaps): (usize, usize, usize) = entries.iter().fold(
+        (0, 0, 0),
+        |(w, a, g), e| {
+            let (ew, ea, eg) = e.reject.values().fold((0, 0, 0), |(w, a, g), t| match t {
+                RejectTarget::Word(_) => (w + 1, a, g),
+                RejectTarget::Advice { .. } => (w, a + 1, g),
+                RejectTarget::Gap => (w, a, g + 1),
             });
-            (w + ew, a + ea)
+            (w + ew, a + ea, g + eg)
         },
     );
     out.push_str("## Summary\n\n");
     out.push_str(&format!(
         "- {} lemmas, {} surface forms, {} redirects ({word_redirects} word substitute, \
-         {advice_redirects} advice-only)\n",
+         {advice_redirects} advice-only, {gaps} gap)\n",
         entries.len(),
         forms.len(),
-        word_redirects + advice_redirects,
+        word_redirects + advice_redirects + gaps,
     ));
     out.push_str(&format!(
         "- Domain model: {} terms with definitions (ADR 0027)\n",
@@ -677,13 +686,35 @@ fn render_report(forms: &[Form], entries: &[SeedEntry], refdata: &RefData) -> St
         .flat_map(|e| {
             e.reject.iter().filter_map(move |(pos, target)| match target {
                 RejectTarget::Advice { advice } => Some(format!("{} ({pos}): {advice}", e.lemma)),
-                RejectTarget::Word(_) => None,
+                RejectTarget::Word(_) | RejectTarget::Gap => None,
             })
         })
         .collect();
     if !advice_only.is_empty() {
         out.push_str("## Advice-only rejections (attested senses with no word substitute)\n\n");
         for w in &advice_only {
+            out.push_str(&format!("- {w}\n"));
+        }
+        out.push('\n');
+    }
+
+    // Gaps: a real, structural absence, not an authored waiver — re-check
+    // with `just word-check <lemma>` as the enabled vocabulary grows,
+    // these are not meant to be permanent.
+    let gap_only: Vec<String> = entries
+        .iter()
+        .flat_map(|e| {
+            e.reject.iter().filter_map(move |(pos, target)| match target {
+                RejectTarget::Gap => Some(format!("{} ({pos})", e.lemma)),
+                RejectTarget::Word(_) | RejectTarget::Advice { .. } => None,
+            })
+        })
+        .collect();
+    if !gap_only.is_empty() {
+        out.push_str(
+            "## Gaps (attested senses with no already-enabled substitute yet)\n\n",
+        );
+        for w in &gap_only {
             out.push_str(&format!("- {w}\n"));
         }
         out.push('\n');

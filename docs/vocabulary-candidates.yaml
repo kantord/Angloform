@@ -3,16 +3,125 @@
 # field means accepted by default. Re-running with a larger word count
 # preserves every existing entry (including its `rejected` reason)
 # untouched; only genuinely new lemmas get a fresh, unreviewed entry.
+academic:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
+achieve:
+  category: verb
+  bucket: strong
+  counts:
+    verb: 1
+  rejected: no single-word transitive verb synonym exists (VerbTransDef only allows a bare verb+object,
+    not a compound description); "complete" turned out to be ADJ-only, not a verb
+actress:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: gendered role noun needs "act"/"perform" vocabulary, which doesn't exist yet
+additional:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: ADJ has no existing synonym/antonym — AdjDef only allows a bare synonym/antonym
+administrative:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: too narrow/domain-specific; no existing ADJ synonym or antonym
+advantage:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+adventure:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+africa:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+ag:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 again:
   category: adv
   bucket: strong
   counts:
     adv: 1
+  rejected: winning category is ADV — Angloform has no open adverb category, structurally impossible
+ahead:
+  category: adj
+  bucket: weak
+  counts:
+    adj: 1
+    adv: 7
+aircraft:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no aviation vocabulary (fly/plane/air) exists to distinguish it from any other vehicle
+airport:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: same aviation-vocabulary gap as "aircraft"
 almost:
   category: adv
   bucket: strong
   counts:
     adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+alongside:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+alright:
+  category: adj
+  bucket: weak
+  counts:
+    adj: 1
+    adv: 3
+andrew:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+android:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: ambiguous between "robot" and "phone OS" senses, neither definable cleanly; too narrow/tech-specific
+    for core vocabulary
+anniversary:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no commemoration/repetition vocabulary exists to distinguish it from plain "a day"
 another:
   category: adj
   bucket: strong
@@ -20,32 +129,112 @@ another:
     adj: 1
   rejected: really a determiner — confirmed elsewhere this session that Angloform currently has no general
     "another" determiner; admitting it as ADJ would give it the wrong grammatical shape
+anymore:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+anywhere:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+apartment:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+appropriate:
+  category: adj
+  bucket: weak
+  counts:
+    verb: 2
+    adj: 1
+approximately:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 april:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 article:
   category: verb
   bucket: weak
   counts:
     noun: 4
     verb: 1
+artist:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+asset:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+associate:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 3
+    adj: 1
+attorney:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 august:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 2
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+australian:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+auto:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: an informal clipped form of "automobile", not the canonical word
+awesome:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: near-synonym of the already-enabled "good" — redundant, no distinct meaning to add
+awful:
+  category: adv
+  bucket: weak
+  counts:
+    adj: 6
+    adv: 1
 baby:
   category: verb
   bucket: weak
   counts:
     noun: 7
+    verb: 1
+background:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 8
     verb: 1
 ball:
   category: verb
@@ -53,12 +242,92 @@ ball:
   counts:
     noun: 12
     verb: 1
+basically:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+bath:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 6
+    verb: 1
+battle:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+bay:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 2
+    adj: 1
+bc:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+bedroom:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: needs "room", which isn't enabled yet (dominated-elsewhere, never admitted)
+beer:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "drink" verb/vocabulary exists yet
 begin:
   category: noun
   bucket: weak
   counts:
     noun: 1
     verb: 10
+bell:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 10
+    verb: 1
+ben:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+bike:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+bind:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 10
+bird:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
+birth:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
 black:
   category: verb
   bucket: weak
@@ -66,6 +335,13 @@ black:
     noun: 7
     verb: 1
     adj: 14
+blame:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 3
+    adj: 1
 blood:
   category: verb
   bucket: weak
@@ -79,18 +355,95 @@ blue:
     noun: 7
     verb: 1
     adj: 8
+boat:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
 body:
   category: verb
   bucket: weak
   counts:
     noun: 11
     verb: 1
+bone:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 2
+    adj: 1
+boston:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 both:
   category: adj
   bucket: strong
   counts:
     adj: 1
   rejected: really a quantifier (like the existing every/some/no), not an ordinary adjective
+boyfriend:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: '"love" is only enabled as NOUN — its verb sense is explicitly disabled, blocking any relationship-based
+    definition'
+bread:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+breakfast:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+brief:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+    adj: 3
+bright:
+  category: adv
+  bucket: weak
+  counts:
+    adj: 10
+    adv: 1
+britain:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+broad:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 8
+budget:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+busy:
+  category: verb
+  bucket: weak
+  counts:
+    verb: 1
+    adj: 5
 buy:
   category: noun
   bucket: weak
@@ -103,18 +456,107 @@ c:
   counts:
     noun: 12
     adj: 1
+cake:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+california:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+camp:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 8
+    verb: 3
+    adj: 1
+campus:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "school" vocabulary exists yet
+canada:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+canadian:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+captain:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
 career:
   category: verb
   bucket: weak
   counts:
     noun: 2
     verb: 1
+carolina:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+cash:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+castle:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+catholic:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
 central:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 2
+ceo:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+certainly:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+chamber:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
 chance:
   category: adj
   bucket: weak
@@ -127,25 +569,172 @@ chang:
   bucket: strong
   counts:
     noun: 1
-  rejected: proper-noun folding — a surname, not a common word
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+chat:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+chemical:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+chicken:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 4
+    adj: 1
 chief:
   category: adj
   bucket: weak
   counts:
     noun: 3
     adj: 1
+christian:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
 church:
   category: verb
   bucket: weak
   counts:
     noun: 4
     verb: 1
+circuit:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
+citizen:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+closer:
+  category: adv
+  bucket: weak
+  counts:
+    noun: 2
+    adv: 1
+cloth:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+coast:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+colonel:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+color:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 8
+    verb: 6
+    adj: 1
+colour:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 8
+    verb: 6
+    adj: 1
+combat:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+comic:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+commercial:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
 company:
   category: verb
   bucket: weak
   counts:
     noun: 9
     verb: 1
+complex:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 4
+    adj: 1
+concert:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+concrete:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+    adj: 2
+consumer:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+contemporary:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
+content:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 2
+    adj: 1
+contest:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+conversation:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "talk"/"speak" vocabulary exists yet
+cop:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
 course:
   category: adv
   bucket: weak
@@ -153,12 +742,38 @@ course:
     noun: 9
     verb: 3
     adv: 1
+cousin:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no vocabulary distinguishes this specific relative relation (same family-vocabulary gap as
+    wife/daughter/mom)
+crack:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 10
+    verb: 13
+    adj: 1
 crazy:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 5
+crew:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+criminal:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
 culture:
   category: verb
   bucket: weak
@@ -170,12 +785,37 @@ currently:
   bucket: strong
   counts:
     adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+custom:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 4
+    adj: 1
+customer:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
 d:
   category: adj
   bucket: weak
   counts:
     noun: 3
     adj: 1
+da:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+dad:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: near-synonym of the already-enabled legacy word "father" — redundant
 daily:
   category: noun
   bucket: weak
@@ -183,12 +823,27 @@ daily:
     noun: 1
     adj: 2
     adv: 2
+dallas:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+dat:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 datum:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: irregular plural "data" collides with the existing "data" mass noun
+  rejected: irregular plural "data" collides with the existing "data" mass noun (same finding as earlier
+    this session)
 daughter:
   category: noun
   bucket: strong
@@ -200,21 +855,100 @@ de:
   bucket: strong
   counts:
     noun: 1
-  rejected: frequency-list corpus noise / foreign-language fragment, coincidentally matching an obscure
-    WordNet lemma
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 december:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+definitely:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+deserve:
+  category: verb
+  bucket: strong
+  counts:
+    verb: 1
+  rejected: no single-word verb synonym exists close enough in meaning to avoid being misleading
+desk:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no clean distinguishing vocabulary; redundant risk with the already-enabled "table"
+direct:
+  category: adv
+  bucket: weak
+  counts:
+    verb: 13
+    adj: 10
+    adv: 1
+dirty:
+  category: verb
+  bucket: weak
+  counts:
+    verb: 1
+    adj: 12
+disappoint:
+  category: verb
+  bucket: strong
+  counts:
+    verb: 1
+  rejected: no single-word transitive verb synonym exists (VerbTransDef only allows a bare verb+object)
+disease:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "sick"/"health" vocabulary exists yet
+dna:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 dog:
   category: verb
   bucket: weak
   counts:
     noun: 7
     verb: 1
+domestic:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 5
+don:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 6
+    verb: 1
+download:
+  category: verb
+  bucket: strong
+  counts:
+    verb: 1
+drug:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+dry:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+    adj: 16
 due:
   category: adv
   bucket: weak
@@ -222,24 +956,125 @@ due:
     noun: 2
     adj: 4
     adv: 1
+dutch:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+dy:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+ed:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 either:
   category: adv
   bucket: strong
   counts:
     adv: 1
-  rejected: really a coordinator/determiner ("either...or"), not an ordinary adverb
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+elect:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+    adj: 2
+electric:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
+elsewhere:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+employ:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+employee:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+en:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+enforcement:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: abstract nominalization; no clean law/force vocabulary to build a definition from
 england:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: proper-noun folding — a place name
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+entertainment:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "fun"/"enjoy"/"play" vocabulary exists yet
 entire:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 4
+equal:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 3
+    adj: 2
+equipment:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: near-synonym of the already-enabled "tool" — redundant, no distinct meaning to add
+equivalent:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+essential:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 5
+essentially:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 even:
   category: noun
   bucket: weak
@@ -248,11 +1083,100 @@ even:
     verb: 3
     adj: 6
     adv: 4
+  rejected: no real standalone noun sense in ordinary English ("an even" isn't a word) — function word,
+    not content
+eventually:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+everywhere:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+ex:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 3
+    adj: 1
+excellent:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: near-synonym of the already-enabled "good" — redundant, no distinct meaning to add
+exclusive:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
+executive:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 3
+    adj: 1
+expert:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+expose:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 9
+external:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 4
+extra:
+  category: adv
+  bucket: weak
+  counts:
+    noun: 3
+    adj: 3
+    adv: 1
 eye:
   category: verb
   bucket: weak
   counts:
     noun: 5
+    verb: 1
+factory:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+fair:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+    adj: 10
+    adv: 2
+famous:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: ADJ has no existing synonym/antonym ("known" turned out to be a verb participle, not a standalone
+    adjective)
+fantasy:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
     verb: 1
 far:
   category: noun
@@ -261,6 +1185,18 @@ far:
     noun: 1
     adj: 4
     adv: 5
+farm:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 3
+fashion:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
 fast:
   category: noun
   bucket: weak
@@ -269,24 +1205,115 @@ fast:
     verb: 2
     adj: 10
     adv: 2
+faster:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+fat:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+    adj: 5
 father:
   category: verb
   bucket: weak
   counts:
     noun: 8
     verb: 1
+fault:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
+fbi:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+fe:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 february:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+fee:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+feed:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 11
+fifth:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 4
+    adj: 1
 financial:
   category: adj
   bucket: strong
   counts:
     adj: 1
+  rejected: ADJ has no existing synonym/antonym (no money/economic vocabulary exists yet) — AdjDef only
+    allows a bare synonym/antonym
+flash:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 10
+    verb: 8
+    adj: 1
+florida:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+flower:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+fly:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 14
+    adj: 1
+ford:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 8
+    verb: 1
+forest:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
 former:
   category: noun
   bucket: weak
@@ -301,6 +1328,43 @@ forward:
     verb: 1
     adj: 4
     adv: 5
+frequently:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+fresh:
+  category: adv
+  bucket: weak
+  counts:
+    adj: 12
+    adv: 1
+friday:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+friendly:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 4
+ft:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+fuel:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 4
 funny:
   category: noun
   bucket: weak
@@ -312,7 +1376,8 @@ gam:
   bucket: strong
   counts:
     noun: 1
-  rejected: frequency-list corpus noise, coincidentally matching an obscure WordNet lemma
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 game:
   category: verb
   bucket: weak
@@ -320,12 +1385,95 @@ game:
     noun: 11
     verb: 1
     adj: 2
+  rejected: the verb sense ("place a bet on") is obscure/dated; noun dominates 11:1 and is the real meaning
+gang:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+gap:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 6
+    verb: 1
+garden:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+gay:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 6
+gear:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+german:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+germany:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+giant:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 7
+    adj: 1
+glad:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 4
+graduate:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 3
+    adj: 1
 great:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 6
+  rejected: no real standalone noun sense ("a great" isn't ordinary English) — overwhelmingly an adjective
+    (6 senses)
+greater:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: comparative inflection of an existing/rejected adjective, not a base lemma
+greatest:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: superlative inflection of an existing/rejected adjective, not a base lemma
+greek:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
 green:
   category: verb
   bucket: weak
@@ -333,6 +1481,69 @@ green:
     noun: 8
     verb: 1
     adj: 5
+gross:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+    adj: 7
+guitar:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no music/instrument vocabulary exists yet
+gun:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
+gym:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no exercise/body-training vocabulary exists yet that cleanly distinguishes it from other buildings
+ha:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+handle:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 6
+harm:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+healthcare:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: abstract; would collapse to the same shape already used for "military" ("a group, which protects
+    a person") — redundant, and no health vocabulary to differentiate properly
+hello:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: an interjection, not an ordinary content word
+helpful:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: ADJ has no existing synonym/antonym
 here:
   category: adj
   bucket: weak
@@ -340,46 +1551,286 @@ here:
     noun: 2
     adj: 1
     adv: 4
-human:
+  rejected: no real predicative ADJ sense in ordinary English — deictic function word, not content vocabulary
+highway:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no road/travel vocabulary exists yet
+hill:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
+hip:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 5
+    adj: 1
+holiday:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+horrible:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: ADJ has no existing synonym/antonym close enough in meaning
+horse:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
+host:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 10
+    verb: 1
+hotel:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: collapses to the same "place, which holds a group" shape as the already-admitted "stadium"
+    — redundant, and no "stay the night" vocabulary to differentiate properly
+household:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+http:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+ill:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 5
+    adv: 3
+illegal:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+illness:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "sick"/"health" vocabulary exists yet (same gap as "disease")
+impossible:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 3
-  rejected: ADJ sense ("human nature", "human error") has no genuine existing-word redirect — verified with scripts/word-check.py against all 151 enabled ADJ words, none fit
+inc:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+inch:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+income:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+incredible:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: near-synonym of the already-enabled "good" — redundant, no distinct meaning to add
 india:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: proper-noun folding — a place name
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+info:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: near-synonym of the already-enabled "information" — redundant
+initially:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+innocent:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 7
+instance:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+institute:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
 international:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 2
+invite:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 8
+iran:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+iraq:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+irish:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 3
+    adj: 1
+islamic:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: a narrow religious/ethnic identity term, not foundational vocabulary
+italian:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+italy:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+jan:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 january:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+japan:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+japanese:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+jason:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+jesus:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+jew:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: a narrow religious/ethnic identity term, not foundational vocabulary
+jewish:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: a narrow religious/ethnic identity term, not foundational vocabulary
+journey:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+jr:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 july:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 june:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — WordNet
-    folds it into an ordinary lowercase noun, which misrepresents how it needs to be handled
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+k:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 7
+    adj: 1
 key:
   category: adj
   bucket: weak
@@ -387,12 +1838,55 @@ key:
     noun: 15
     verb: 5
     adj: 1
+kinda:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+kit:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+kitchen:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no cook/food vocabulary exists yet
+knife:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+korea:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+korean:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
 l:
   category: adj
   bucket: weak
   counts:
     noun: 4
     adj: 1
+lab:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: an informal clipped form (of "laboratory", which isn't enabled either), not a canonical word
 large:
   category: noun
   bucket: weak
@@ -400,11 +1894,67 @@ large:
     noun: 1
     adj: 7
     adv: 3
+larger:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: comparative inflection ("large" itself already rejected earlier this session), not a base
+    lemma
+lately:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+latest:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+laugh:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+lawyer:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "practice law"/"represent"/"argue" verb exists yet
+le:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 league:
   category: verb
   bucket: weak
   counts:
     noun: 3
+    verb: 1
+lee:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 8
+    adj: 1
+li:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+license:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
     verb: 1
 light:
   category: adv
@@ -414,6 +1964,13 @@ light:
     verb: 6
     adj: 25
     adv: 1
+lin:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 live:
   category: adv
   bucket: weak
@@ -421,24 +1978,75 @@ live:
     verb: 7
     adj: 11
     adv: 1
+liverpool:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+loan:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
 lord:
   category: verb
   bucket: weak
   counts:
     noun: 3
     verb: 1
+louis:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+lovely:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
 lower:
   category: noun
   bucket: weak
   counts:
     noun: 1
     verb: 5
+lunch:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
 m:
   category: adj
   bucket: weak
   counts:
     noun: 6
     adj: 1
+mac:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+magic:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+mainly:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 major:
   category: verb
   bucket: weak
@@ -451,24 +2059,59 @@ mak:
   bucket: strong
   counts:
     noun: 1
-  rejected: frequency-list corpus noise (own row in en_zipf.tsv, not derived from "making") coincidentally
-    matching an obscure WordNet lemma
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 many:
   category: adj
   bucket: strong
   counts:
     adj: 1
+  rejected: a quantifier, not an ordinary adjective — same class as the already-rejected "both"/"either"
+mary:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+master:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 10
+    verb: 4
+    adj: 1
+math:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
 matter:
   category: verb
   bucket: weak
   counts:
     noun: 6
     verb: 1
+max:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+mayor:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 me:
   category: noun
   bucket: strong
   counts:
     noun: 1
+  rejected: a pronoun, not an ordinary noun — same class as the already-rejected "both"/"either" quantifiers
 mean:
   category: noun
   bucket: weak
@@ -476,20 +2119,50 @@ mean:
     noun: 1
     verb: 7
     adj: 8
-  rejected: definition text ("a value, which a group has") fails to parse; needs a real rewrite, not just
-    cross-POS rejects
+meanwhile:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adv: 2
 medical:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 3
+medicine:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+men's:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: a possessive inflection of "man", not a base lemma
+mexico:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 michael:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: proper-noun folding — a first name
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+mid:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: a clipped/prefix-like form ("mid-air"), not a real standalone adjective
 middle:
   category: verb
   bucket: weak
@@ -497,14 +2170,32 @@ middle:
     noun: 4
     verb: 1
     adj: 4
+mike:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 military:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 3
-  rejected: noun sense is fine, but its real ADJ collision has no accurate rejection word (no civilian/war-adjacent
-    adjective exists) — same wall as "national"
+minor:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 10
+mm:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 mom:
   category: noun
   bucket: strong
@@ -512,19 +2203,86 @@ mom:
     noun: 1
   rejected: cannot be defined accurately without son/daughter-neutral "child" vocabulary, which doesn't
     exist
+monday:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+moral:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+moscow:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+motion:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
+motor:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+    adj: 2
 mr:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: proper-noun-adjacent folding — a title, not a common word
+  rejected: a title/honorific abbreviation, not an ordinary content word
+mum:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 3
+    adj: 1
+murder:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+muscle:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
+museum:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+musical:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 4
+na:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 national:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 7
-  rejected: ADJ sense needs "country"/"nation" as advice text, neither exists yet
 near:
   category: verb
   bucket: weak
@@ -532,49 +2290,126 @@ near:
     verb: 1
     adj: 6
     adv: 2
+necessary:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+neck:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
+neither:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
+    "both"/"either"/"another"
 network:
   category: verb
   bucket: weak
   counts:
     noun: 5
     verb: 1
+newly:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 next:
   category: adv
   bucket: weak
   counts:
     adj: 3
     adv: 1
+  rejected: winning category is ADV — Angloform has no open adverb category, structurally impossible
 nice:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 5
+nobody:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
+    "both"/"either"/"another"
 non:
   category: adv
   bucket: strong
   counts:
     adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+normal:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 4
+normally:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+northern:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 4
 november:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 now:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adv: 7
+  rejected: no real standalone noun sense in ordinary English ("a now" isn't a word) — function word
+numerous:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: a quantifier, not an ordinary adjective — same class as the already-rejected "many"
+ny:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+obvious:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: near-synonym of the already-enabled "clear"/"apparent" — redundant, no distinct meaning to
+    add
+obviously:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 october:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 'off':
   category: verb
   bucket: weak
@@ -582,6 +2417,13 @@ october:
     verb: 1
     adj: 5
     adv: 3
+  rejected: the verb sense ("kill intentionally") is criminal slang, not defensible general vocabulary
+offensive:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 7
 officer:
   category: verb
   bucket: weak
@@ -593,6 +2435,31 @@ oh:
   bucket: strong
   counts:
     noun: 1
+  rejected: an interjection, not an ordinary content word
+opportunity:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+opposite:
+  category: adv
+  bucket: weak
+  counts:
+    noun: 4
+    adj: 6
+    adv: 1
+orange:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 5
+    adj: 1
+otherwise:
+  category: adj
+  bucket: weak
+  counts:
+    adj: 1
+    adv: 2
 out:
   category: noun
   bucket: weak
@@ -601,6 +2468,27 @@ out:
     verb: 3
     adj: 10
     adv: 3
+  rejected: the verb sense ("be disclosed"/"reveal sexual identity") is narrow and culturally specific,
+    not foundational vocabulary
+pacific:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
+package:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+pakistan:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 parent:
   category: verb
   bucket: weak
@@ -620,42 +2508,258 @@ pass:
     noun: 16
     verb: 25
     adj: 1
+patient:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+pc:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+peak:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
 personal:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 5
+pet:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 2
+    adj: 1
+philadelphia:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+phon:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 phone:
   category: verb
   bucket: weak
   counts:
     noun: 3
     verb: 1
+photo:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+pink:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 3
+    adj: 1
+pizza:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no food vocabulary exists yet
+plane:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 3
+    adj: 1
+plate:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 15
+    verb: 1
+plenty:
+  category: adv
+  bucket: weak
+  counts:
+    noun: 2
+    adv: 1
 poor:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 6
+porn:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: not appropriate content for a core minimal vocabulary
+port:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 8
+    adj: 1
+portion:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
+poverty:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
 power:
   category: verb
   bucket: weak
   counts:
     noun: 9
     verb: 1
+powerful:
+  category: adv
+  bucket: weak
+  counts:
+    adj: 5
+    adv: 1
 pretty:
   category: adv
   bucket: weak
   counts:
     adj: 2
     adv: 1
+previously:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+pride:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
+prince:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+princess:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: gendered royal-title noun needs "royal"/"king"/"queen" vocabulary, which doesn't exist yet
+principal:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 6
+    adj: 1
 private:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 4
+prize:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 3
+    adj: 1
+professor:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+proof:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 6
+    verb: 5
+    adj: 1
+protein:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no food/chemistry vocabulary exists yet
+purchase:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+q:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+quiet:
+  category: adv
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 2
+    adj: 6
+    adv: 1
+racist:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+rain:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+random:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: ADJ has no existing synonym/antonym
+rarely:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+raw:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 13
 ready:
   category: noun
   bucket: weak
@@ -663,6 +2767,13 @@ ready:
     noun: 1
     verb: 2
     adj: 5
+rear:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 5
+    adj: 1
 recent:
   category: noun
   bucket: weak
@@ -674,6 +2785,81 @@ recently:
   bucket: strong
   counts:
     adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+regulation:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 6
+    adj: 1
+relatively:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+relevant:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: ADJ has no existing synonym/antonym
+religious:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 4
+rend:
+  category: verb
+  bucket: strong
+  counts:
+    verb: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+reply:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+rescue:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+respectively:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+restaurant:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no food vocabulary exists yet
+rice:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+rich:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 12
+rid:
+  category: verb
+  bucket: strong
+  counts:
+    verb: 1
+  rejected: collapses to the same definition as the already-enabled "remove"/"delete" ("remove a thing")
+    — redundant
 river:
   category: noun
   bucket: strong
@@ -681,25 +2867,168 @@ river:
     noun: 1
   rejected: no water/geography vocabulary (water, flow, stream, lake) exists yet to distinguish it from
     any other "thing from a place"
+robert:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+roof:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
 room:
   category: verb
   bucket: weak
   counts:
     noun: 4
     verb: 1
+russian:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+salt:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 4
+    adj: 1
+sam:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+sample:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+sand:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+santa:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+sarah:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+saturday:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+scientist:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+scotland:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+section:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 14
+    verb: 1
+seek:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 5
+select:
+  category: verb
+  bucket: weak
+  counts:
+    verb: 1
+    adj: 2
 self:
   category: adj
   bucket: weak
   counts:
     noun: 2
     adj: 1
+sell:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 8
+senator:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+sensitive:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 5
 september:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: a real, useful concept, but conventionally a capitalized/Name-like term in English — same
-    as "june"
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+serve:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 15
+settle:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 22
+ship:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 5
+shoe:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+shot:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 17
+    adj: 1
 sign:
   category: adj
   bucket: weak
@@ -713,31 +3042,119 @@ site:
   counts:
     noun: 3
     verb: 1
-social:
+smaller:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: comparative inflection of the already-enabled "small", not a base lemma
+smile:
   category: noun
   bucket: weak
   counts:
     noun: 1
-    adj: 6
-  rejected: ADJ sense ("a social club/event") has no genuine existing-word redirect — verified with scripts/word-check.py against all 151 enabled ADJ words, none fit
+    verb: 2
+soccer:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no sport/game vocabulary exists yet
+soft:
+  category: adv
+  bucket: weak
+  counts:
+    adj: 19
+    adv: 1
+software:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no way to express "used by a machine" without an object-gapped relative clause, which PredRel
+    doesn't support (same limitation "tool" hit in the original design-doc trial); redundant risk with
+    the already-enabled "program"
+soil:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+solar:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: too narrow/domain-specific; no existing ADJ synonym or antonym
+soldier:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+somebody:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
+    "both"/"either"/"another"
 someone:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: really a pronoun (you can't say "a someone"), not an ordinary noun — a real, previously-identified
-    vocabulary gap, but this mechanism would give it the wrong grammatical shape
+  rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
+    "both"/"either"/"another"
 soon:
   category: adv
   bucket: strong
   counts:
     adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 space:
   category: verb
   bucket: weak
   counts:
     noun: 9
     verb: 1
+spain:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+spanish:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+specie:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+specifically:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+spirit:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 8
+    verb: 1
+stadium:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
 star:
   category: adj
   bucket: weak
@@ -745,6 +3162,73 @@ star:
     noun: 8
     verb: 3
     adj: 1
+station:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
+statistic:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+steam:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 6
+stephen:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+stone:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 13
+    verb: 2
+    adj: 1
+stupid:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
+sub:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
+successful:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: ADJ has no existing synonym/antonym
+successfully:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+suck:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 7
+sugar:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
 summer:
   category: verb
   bucket: weak
@@ -757,41 +3241,171 @@ sure:
   counts:
     adj: 9
     adv: 1
+surely:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+surface:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 6
+    verb: 3
+    adj: 1
+surround:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 4
+suspect:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 3
+    adj: 1
+swim:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 5
+sydney:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+tall:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 4
 tax:
   category: noun
   bucket: weak
   counts:
     noun: 1
     verb: 4
+teach:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+tech:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: an informal clipped form (of "technology", which isn't enabled either), not a canonical word
+temporary:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+texas:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
 thank:
   category: verb
   bucket: strong
   counts:
     verb: 1
+  rejected: no single-word verb expressing gratitude exists to build a non-circular definition from
+theme:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
+therapy:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no treat/heal/medicine vocabulary exists yet
 there:
   category: noun
   bucket: weak
   counts:
     noun: 1
     adv: 3
+  rejected: no real standalone noun sense in ordinary English ("a there" isn't a word) — function word
+thick:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 10
+    adv: 2
+thin:
+  category: adv
+  bucket: weak
+  counts:
+    verb: 4
+    adj: 8
+    adv: 1
 think:
   category: noun
   bucket: weak
   counts:
     noun: 1
     verb: 13
+  rejected: the noun sense ("a think") is informal/dialectal; verb dominates 13:1 and is the real meaning
+    of the word
 though:
   category: adv
   bucket: strong
   counts:
     adv: 1
-  rejected: really a subordinating conjunction, not an ordinary adverb
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+thursday:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+till:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+tiny:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: near-synonym of the already-enabled "small" — redundant, no distinct meaning to add
+tire:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 4
 together:
   category: adj
   bucket: weak
   counts:
     adj: 1
     adv: 6
+tomorrow:
+  category: adv
+  bucket: weak
+  counts:
+    noun: 2
+    adv: 1
 top:
   category: adj
   bucket: weak
@@ -799,42 +3413,161 @@ top:
     noun: 11
     verb: 10
     adj: 1
+toronto:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+totally:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+tour:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+tower:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 3
+    verb: 1
+trend:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 4
+    verb: 1
+trick:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
+truck:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 1
 try:
   category: noun
   bucket: weak
   counts:
     noun: 1
     verb: 9
+tuesday:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+twenty:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    adj: 1
+typically:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 u:
   category: adj
   bucket: weak
   counts:
     noun: 3
     adj: 1
+  rejected: single-letter frequency-list noise (matches the c/d/l/m/v/x pattern found earlier this session)
 uk:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: proper-noun/acronym folding — country abbreviation
-up:
-  category: verb
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+ultimate:
+  category: noun
   bucket: weak
   counts:
-    verb: 1
-    adj: 8
-    adv: 5
+    noun: 1
+    adj: 2
+ultimately:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+un:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+unfortunately:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 usually:
   category: adv
   bucket: strong
   counts:
     adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 v:
   category: adj
   bucket: weak
   counts:
     noun: 4
     adj: 1
+valley:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no geography vocabulary (land/hill/mountain) exists yet — same gap as "river"
+valuable:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+vast:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: near-synonym of the already-enabled "huge"/"big" — redundant, no distinct meaning to add
+victory:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no fight/game/competition vocabulary exists yet that fits the subject-gapped relative-clause
+    constraint
+visitor:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "visit" verb exists yet
+voter:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: no "vote"/"elect" verb exists yet
 wall:
   category: verb
   bucket: weak
@@ -847,6 +3580,45 @@ war:
   counts:
     noun: 4
     verb: 1
+warm:
+  category: adv
+  bucket: weak
+  counts:
+    verb: 2
+    adj: 10
+    adv: 1
+waste:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 10
+    adj: 1
+web:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 7
+    verb: 1
+wednesday:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: conventionally a capitalized/Name-like term in English, same as "june"
+weird:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 2
+welcome:
+  category: adj
+  bucket: weak
+  counts:
+    noun: 2
+    verb: 3
+    adj: 1
 well:
   category: verb
   bucket: weak
@@ -855,17 +3627,21 @@ well:
     verb: 1
     adj: 3
     adv: 13
+  rejected: the verb sense ("come up, as of a liquid") is too narrow; the word's real common use is adverb/adjective
+wet:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    verb: 2
+    adj: 6
 whatever:
   category: adj
   bucket: strong
   counts:
     adj: 1
-while:
-  category: noun
-  bucket: strong
-  counts:
-    noun: 1
-  rejected: VERB sense ("to while away time", moby-attested only, no WordNet gloss) has no genuine existing-word redirect — verified with scripts/word-check.py against all 208 enabled VERB words, none fit
+  rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
+    "both"/"either"/"another"
 white:
   category: verb
   bucket: weak
@@ -887,19 +3663,33 @@ wife:
     noun: 1
   rejected: no existing word distinguishes wife from other female relatives (no marry/spouse vocabulary
     yet)
+wing:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 11
+    verb: 1
 within:
   category: adv
   bucket: strong
   counts:
     adv: 1
-  rejected: really a preposition — WordNet has no preposition category, so only a marginal adverbial sense
-    surfaces
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
+wonderful:
+  category: adj
+  bucket: strong
+  counts:
+    adj: 1
+  rejected: near-synonym of the already-enabled "good" — redundant, no distinct meaning to add
 world:
   category: adj
   bucket: weak
   counts:
     noun: 8
     adj: 1
+  rejected: ADJ sense ("global", verified via WordNet gloss) is real and legitimate, but AdjDef only allows
+    a bare synonym/antonym and no existing ADJ word (e.g. "local"/"international") fills that role yet
+    — same wall as "national"
 x:
   category: adj
   bucket: weak
@@ -911,9 +3701,18 @@ yeah:
   bucket: strong
   counts:
     adv: 1
+  rejected: ADV — Angloform has no open adverb category, structurally impossible
 york:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: proper-noun folding — a place name (York/New York)
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word
+zealand:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
+    a common word

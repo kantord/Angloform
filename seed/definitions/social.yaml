@@ -1,0 +1,5 @@
+category: NOUN
+definition: an event, which gathers friends
+rejected:
+  - category: ADJ
+    gap: true

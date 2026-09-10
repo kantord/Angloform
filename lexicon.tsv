@@ -266,6 +266,8 @@ answering	form	VERB_TRANS_ING	answer
 answers	form	VERB_TRANS_3SG	answer
 antonym	form	NOUN_SG	antonym
 antonyms	form	NOUN_PL	antonym
+apartment	form	NOUN_SG	apartment
+apartments	form	NOUN_PL	apartment
 apparent	form	ADJ_LONG	apparent
 apparently	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
 appear	form	VERB_INTRANS_BASE	appear
@@ -293,6 +295,8 @@ arrive	form	VERB_INTRANS_BASE	arrive
 arrived	form	VERB_INTRANS_ED	arrive
 arrives	form	VERB_INTRANS_3SG	arrive
 arriving	form	VERB_INTRANS_ING	arrive
+artist	form	NOUN_SG	artist
+artists	form	NOUN_PL	artist
 as	ban	-	"as" has too many senses - for a reason write "<result>, because <reason>" (ADR 0026); for a comparison write "is <adjective>er than <noun phrase>" (ADR 0030)
 aspect	form	NOUN_SG	aspect
 aspects	form	NOUN_PL	aspect
@@ -300,6 +304,8 @@ assert	form	VERB_TRANS_BASE	assert
 asserted	form	VERB_TRANS_ED	assert
 asserting	form	VERB_TRANS_ING	assert
 asserts	form	VERB_TRANS_3SG	assert
+asset	form	NOUN_SG	asset
+assets	form	NOUN_PL	asset
 assume	form	VERB_TRANS_BASE	assume
 assumed	form	VERB_TRANS_ED	assume
 assumes	form	VERB_TRANS_3SG	assume
@@ -508,6 +514,8 @@ chooses	form	VERB_TRANS_3SG	choose
 choosing	form	VERB_TRANS_ING	choose
 chose	form	VERB_TRANS_ED	choose
 chosen	form	VERB_TRANS_ED	choose
+citizen	form	NOUN_SG	citizen
+citizens	form	NOUN_PL	citizen
 claim	form	NOUN_SG	claim
 claim	reject_advice	VERB	the verb sense ("to claim something") is not enabled; angloform allows one sense per word
 claims	form	NOUN_PL	claim
@@ -536,6 +544,8 @@ clearest	form	ADJ_SUP	clear
 closed	form	ADJ_LONG	closed
 closed class	term	-	Closed Class
 closed classes	term	-	Closed Classes
+cloth	form	NOUN_SG	cloth
+cloths	form	NOUN_PL	cloth
 cognitive load	term	-	Cognitive Load
 cognitive loads	term	-	Cognitive Loads
 coherence	form	NOUN_SG	coherence
@@ -635,6 +645,8 @@ constraint	form	NOUN_SG	constraint
 constraints	form	NOUN_PL	constraint
 construction	form	NOUN_SG	construction
 constructions	form	NOUN_PL	construction
+consumer	form	NOUN_SG	consumer
+consumers	form	NOUN_PL	consumer
 contain	form	VERB_TRANS_BASE	contain
 contained	form	VERB_TRANS_ED	contain
 containing	form	VERB_TRANS_ING	contain
@@ -718,6 +730,8 @@ curation	form	NOUN_SG	curation
 curations	form	NOUN_PL	curation
 current	form	ADJ_LONG	current
 current	reject_advice	NOUN	the noun sense (a current, e.g. electrical or oceanic) is not enabled; angloform allows one sense per word
+customer	form	NOUN_SG	customer
+customers	form	NOUN_PL	customer
 danger	form	NOUN_SG	danger
 dangerous	form	ADJ_LONG	dangerous
 dangers	form	NOUN_PL	danger
@@ -867,6 +881,10 @@ dogfood	term	-	Dogfood
 dogfoods	term	-	Dogfoods
 domain	form	NOUN_SG	domain
 domains	form	NOUN_PL	domain
+download	form	VERB_TRANS_BASE	download
+downloaded	form	VERB_TRANS_ED	download
+downloading	form	VERB_TRANS_ING	download
+downloads	form	VERB_TRANS_3SG	download
 drift	form	VERB_INTRANS_BASE	drift
 drift	reject_advice	NOUN	a thing, which grows in a place
 drifted	form	VERB_INTRANS_ED	drift
@@ -913,6 +931,8 @@ emphasis	form	NOUN_SG	emphasis
 emphasises	form	NOUN_PL	emphasis
 emphatic	form	ADJ_LONG	emphatic
 emphatic	reject_advice	NOUN	the reference data attests a noun use of "emphatic"; no common meaning could be confirmed — not enabled
+employee	form	NOUN_SG	employee
+employees	form	NOUN_PL	employee
 emptier	form	ADJ_CMP	empty
 emptiest	form	ADJ_SUP	empty
 empty	form	ADJ	empty
@@ -998,6 +1018,8 @@ extents	form	NOUN_PL	extent
 extractor	form	NOUN_SG	extractor
 extractors	form	NOUN_PL	extractor
 fact	form	NOUN_SG	fact
+factories	form	NOUN_PL	factory
+factory	form	NOUN_SG	factory
 facts	form	NOUN_PL	fact
 fail	form	VERB_INTRANS_BASE	fail
 fail	reject_advice	NOUN	an event, which does not give a result
@@ -1275,8 +1297,13 @@ horror	form	NOUN_SG	horror
 horrors	form	NOUN_PL	horror
 house	form	NOUN_SG	house
 house	reject_advice	VERB	the verb sense ("to house someone") is deferred, out of scope for this pack
+household	form	NOUN_SG	household
+households	form	NOUN_PL	household
 houses	form	NOUN_PL	house
 huge	form	ADJ_LONG	huge
+human	form	NOUN_SG	human
+human	reject_gap	ADJ	no already-enabled word covers this sense yet
+humans	form	NOUN_PL	human
 hurt	form	VERB_TRANS_BASE	hurt
 hurt	reject_advice	ADJ	the adjective (participial) sense ("hurt feelings") is not separately enabled; angloform allows one sense per word
 hurt	reject_advice	NOUN	the noun sense ("nurse a hurt") is not enabled; angloform allows one sense per word
@@ -1304,6 +1331,7 @@ ignore	form	VERB_TRANS_BASE	ignore
 ignored	form	VERB_TRANS_ED	ignore
 ignores	form	VERB_TRANS_3SG	ignore
 ignoring	form	VERB_TRANS_ING	ignore
+illegal	form	ADJ_LONG	illegal
 imperative	term	-	Imperative
 imperatives	term	-	Imperatives
 implicit	form	ADJ_LONG	implicit
@@ -1314,6 +1342,8 @@ include	form	VERB_TRANS_BASE	include
 included	form	VERB_TRANS_ED	include
 includes	form	VERB_TRANS_3SG	include
 including	form	VERB_TRANS_ING	include
+income	form	NOUN_SG	income
+incomes	form	NOUN_PL	income
 indexical	form	ADJ_LONG	indexical
 indexical pronoun	term	-	Indexical Pronoun
 indexical pronouns	term	-	Indexical Pronouns
@@ -1551,6 +1581,8 @@ match	reject_advice	NOUN	the noun sense (a match — a contest, or a matchstick)
 matched	form	VERB_TRANS_ED	match
 matches	form	VERB_TRANS_3SG	match
 matching	form	VERB_TRANS_ING	match
+math	form	NOUN_SG	math
+maths	form	NOUN_PL	math
 maximum	form	NOUN_SG	maximum
 maximum	reject_advice	ADJ	the adjective sense ("maximum speed") is not enabled; angloform allows one sense per word
 maximums	form	NOUN_PL	maximum
@@ -1643,6 +1675,8 @@ moves	form	VERB_TRANS_3SG	move
 movie	form	NOUN_SG	movie
 movies	form	NOUN_PL	movie
 moving	form	VERB_TRANS_ING	move
+museum	form	NOUN_SG	museum
+museums	form	NOUN_PL	museum
 must	form	MODAL_MUST	must
 my	form	POSS_1SG	my
 name	form	VERB_TRANS_BASE	name
@@ -1750,6 +1784,8 @@ open dependency	term	-	Open Dependency
 opened	form	VERB_TRANS_ED	open
 opening	form	VERB_TRANS_ING	open
 opens	form	VERB_TRANS_3SG	open
+opportunities	form	NOUN_PL	opportunity
+opportunity	form	NOUN_SG	opportunity
 optimize	form	VERB_TRANS_BASE	optimize
 optimized	form	VERB_TRANS_ED	optimize
 optimizes	form	VERB_TRANS_3SG	optimize
@@ -1853,6 +1889,8 @@ permissions	form	NOUN_PL	permission
 permit	ban	-	write "allow" ("the Grammar allows the word")
 permits	ban	-	write "allows"
 person	form	NOUN_SG	person
+photo	form	NOUN_SG	photo
+photos	form	NOUN_PL	photo
 phrase	form	NOUN_SG	phrase
 phrase	reject_advice	VERB	the verb sense ("how you phrase something") is not enabled; angloform allows one sense per word
 phrases	form	NOUN_PL	phrase
@@ -1903,6 +1941,8 @@ possessive	reject_advice	NOUN	the noun sense (a possessive, the grammatical case
 possibilities	form	NOUN_PL	possibility
 possibility	form	NOUN_SG	possibility
 possibly	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
+poverties	form	NOUN_PL	poverty
+poverty	form	NOUN_SG	poverty
 precede	form	VERB_TRANS_BASE	precede
 preceded	form	VERB_TRANS_ED	precede
 precedent	form	NOUN_SG	precedent
@@ -2295,6 +2335,8 @@ scenario	form	NOUN_SG	scenario
 scenarioes	form	NOUN_PL	scenario
 science	form	NOUN_SG	science
 sciences	form	NOUN_PL	science
+scientist	form	NOUN_SG	scientist
+scientists	form	NOUN_PL	scientist
 scope	form	NOUN_SG	scope
 scope ambiguities	term	-	Scope Ambiguities
 scope ambiguity	term	-	Scope Ambiguity
@@ -2425,6 +2467,9 @@ small	reject_advice	NOUN	a part of a thing, which has a shape
 smaller	form	ADJ_CMP	small
 smallest	form	ADJ_SUP	small
 so	form	RESULT	so
+social	form	NOUN_SG	social
+social	reject_gap	ADJ	no already-enabled word covers this sense yet
+socials	form	NOUN_PL	social
 societies	form	NOUN_PL	society
 society	form	NOUN_SG	society
 some	form	QUANT_EXIST	some
@@ -2451,6 +2496,8 @@ square	reject_advice	ADJ	the adjective sense ("a square deal", "a square meal") 
 square	reject_advice	ADV	the adverbial sense ("hit it square in the face") is not enabled; angloform has no adverb category
 square	reject_advice	VERB	the verb sense ("to square a debt"; math "to square a number") is not enabled; angloform allows one sense per word
 squares	form	NOUN_PL	square
+stadium	form	NOUN_SG	stadium
+stadiums	form	NOUN_PL	stadium
 stall	form	VERB_INTRANS_BASE	stall
 stall	reject_advice	NOUN	the noun sense (a stall, e.g. a market stall) is not enabled; angloform allows one sense per word
 stalled	form	VERB_INTRANS_ED	stall
@@ -2469,6 +2516,8 @@ state	reject_advice	VERB	the verb sense ("to state a fact") is not enabled; angl
 statement	form	NOUN_SG	statement
 statements	form	NOUN_PL	statement
 states	form	NOUN_PL	state
+statistic	form	NOUN_SG	statistic
+statistics	form	NOUN_PL	statistic
 status	form	NOUN_SG	status
 statuses	form	NOUN_PL	status
 stay	form	VERB_INTRANS_BASE	stay
@@ -2723,11 +2772,18 @@ unquoted	form	ADJ_LONG	unquoted
 unreadable	form	ADJ_LONG	unreadable
 until	form	PREP_V	until
 unused	form	ADJ_LONG	unused
+up	form	VERB_TRANS_BASE	up
+up	reject_gap	ADJ	no already-enabled word covers this sense yet
+up	reject_gap	ADV	no already-enabled word covers this sense yet
+up	reject_gap	NOUN	no already-enabled word covers this sense yet
 update	form	VERB_TRANS_BASE	update
 update	reject_advice	NOUN	a thing, which gives the information
 updated	form	VERB_TRANS_ED	update
 updates	form	VERB_TRANS_3SG	update
 updating	form	VERB_TRANS_ING	update
+upped	form	VERB_TRANS_ED	up
+upping	form	VERB_TRANS_ING	up
+ups	form	VERB_TRANS_3SG	up
 us	ban	-	name the group - "the maintainers", "the team" - or use an imperative; "we" hides who acts (ADR 0020)
 usage	form	NOUN_SG	usage
 usages	form	NOUN_PL	usage
@@ -2795,6 +2851,9 @@ were	form	COPULA_PL_PAST	were
 when	ban	-	"when" is not in the language - write "if <clause>, then <clause>" (ADR 0007), or name the event: "after the split" (ADR 0033)
 where	ban	-	no relative clauses - split the sentence and repeat the noun (ADR 0010)
 which	form	WHICH	which
+while	form	NOUN_SG	while
+while	reject_gap	VERB	no already-enabled word covers this sense yet
+whiles	form	NOUN_PL	while
 who	form	WHO	who
 whole	form	ADJ_LONG	whole
 whole	reject_advice	ADV	the reference data attests an adverbial use of "whole"; no common meaning could be confirmed — angloform has no adverb category regardless

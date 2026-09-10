@@ -14,6 +14,13 @@ pub enum RejectTarget {
     Word(String),
     /// Free-text advice, shown verbatim by the Linter.
     Advice { advice: String },
+    /// A real, structural absence — no already-enabled word covers this
+    /// attested sense yet (docs/lexicon-authoring-format-2026-09-07.md's
+    /// "Gap" concept). Renders as a fixed, templated message, never
+    /// hand-authored prose. Only ever constructed from
+    /// seed/definitions/*.yaml's `gap: true` (definitions::to_seed_entries)
+    /// — seed.json has no equivalent field and never deserializes to this.
+    Gap,
 }
 
 #[derive(Deserialize)]

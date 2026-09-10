@@ -26,6 +26,8 @@ pub struct RejectedSense {
     pub redirects: Option<Vec<String>>,
     #[serde(default)]
     pub advice: Option<String>,
+    #[serde(default)]
+    pub gap: Option<bool>,
 }
 
 #[derive(Deserialize, Debug)]
@@ -99,10 +101,11 @@ pub fn to_seed_entries(defs: &BTreeMap<String, DefinitionEntry>) -> Vec<crate::s
             }
             let mut reject = BTreeMap::new();
             for r in &entry.rejected {
-                let target = match (&r.redirects, &r.advice) {
-                    (Some(words), _) => crate::seed::RejectTarget::Word(words[0].clone()),
-                    (None, Some(advice)) => crate::seed::RejectTarget::Advice { advice: advice.clone() },
-                    (None, None) => continue, // schema/check already flagged this
+                let target = match (&r.redirects, &r.advice, r.gap) {
+                    (Some(words), _, _) => crate::seed::RejectTarget::Word(words[0].clone()),
+                    (None, Some(advice), _) => crate::seed::RejectTarget::Advice { advice: advice.clone() },
+                    (None, None, Some(true)) => crate::seed::RejectTarget::Gap,
+                    (None, None, _) => continue, // schema/check already flagged this
                 };
                 reject.insert(r.category.clone(), target);
             }
@@ -233,8 +236,8 @@ pub fn check(defs: &BTreeMap<String, DefinitionEntry>, lexicon: &grammar::Lexico
         }
 
         for (i, r) in entry.rejected.iter().enumerate() {
-            match (&r.redirects, &r.advice) {
-                (Some(redirects), None) => {
+            match (&r.redirects, &r.advice, r.gap) {
+                (Some(redirects), None, None) => {
                     for word in redirects {
                         if lexicon.lemma_of(word).is_none() && !defs.contains_key(word) {
                             errors.push(format!(
@@ -243,7 +246,7 @@ pub fn check(defs: &BTreeMap<String, DefinitionEntry>, lexicon: &grammar::Lexico
                         }
                     }
                 }
-                (None, Some(advice)) => {
+                (None, Some(advice), None) => {
                     if let Some(rkind) = def_kind_of(&r.category) {
                         if let Err(e) = grammar::parse_definition(lexicon, rkind, lemma, advice) {
                             errors.push(format!("{path}: rejected[{i}].advice: {e}"));
@@ -252,9 +255,14 @@ pub fn check(defs: &BTreeMap<String, DefinitionEntry>, lexicon: &grammar::Lexico
                     // a rejected category with no definition shape (e.g. ADV)
                     // still gets free advice text — nothing further to check.
                 }
-                (Some(_), Some(_)) | (None, None) => errors.push(format!(
-                    "{path}: rejected[{i}] must name exactly one of `redirects` or `advice` \
-                     (the schema should already have caught this)"
+                (None, None, Some(true)) => {
+                    // Gap: a fixed, non-authored template — nothing to
+                    // check, that's the point (docs/lexicon-authoring-
+                    // format-2026-09-07.md's "Gap" concept).
+                }
+                _ => errors.push(format!(
+                    "{path}: rejected[{i}] must name exactly one of `redirects`, `advice`, or \
+                     `gap` (the schema should already have caught this)"
                 )),
             }
         }
