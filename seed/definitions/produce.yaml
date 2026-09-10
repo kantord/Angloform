@@ -1,8 +1,0 @@
-category: VERB_TRANS
-forms:
-- tag: VERB_TRANS_3SG
-  form: produces
-definition: make a thing
-rejected:
-- category: NOUN
-  advice: a thing, which grows in a place

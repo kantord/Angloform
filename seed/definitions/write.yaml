@@ -1,9 +1,0 @@
-category: VERB_TRANS
-forms:
-- tag: VERB_TRANS_3SG
-  form: writes
-- tag: VERB_TRANS_ED
-  form: wrote
-- tag: VERB_TRANS_ED
-  form: written
-definition: make a text

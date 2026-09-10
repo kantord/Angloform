@@ -1276,8 +1276,10 @@ horrors	form	NOUN_PL	horror
 house	form	NOUN_SG	house
 house	reject_advice	VERB	the verb sense ("to house someone") is deferred, out of scope for this pack
 houses	form	NOUN_PL	house
-human	form	ADJ_LONG	human
-human	reject_advice	NOUN	the noun sense ("a human") is deferred; write "man" or "creature" instead
+huge	form	ADJ_LONG	huge
+human	form	NOUN_SG	human
+human	reject_advice	ADJ	not mechanical
+humans	form	NOUN_PL	human
 hurt	form	VERB_TRANS_BASE	hurt
 hurt	reject_advice	ADJ	the adjective (participial) sense ("hurt feelings") is not separately enabled; angloform allows one sense per word
 hurt	reject_advice	NOUN	the noun sense ("nurse a hurt") is not enabled; angloform allows one sense per word
@@ -1347,6 +1349,8 @@ integrate	reject_advice	ADJ	the reference data attests an adjectival use of "int
 integrated	form	VERB_TRANS_ED	integrate
 integrates	form	VERB_TRANS_3SG	integrate
 integrating	form	VERB_TRANS_ING	integrate
+internet	form	NOUN_SG	internet
+internets	form	NOUN_PL	internet
 interrogative	ban	-	the language has no questions yet - write "a question" as a noun, or restructure
 into	form	PREP_V	into
 intransitive	form	ADJ_LONG	intransitive
@@ -1639,6 +1643,8 @@ move	form	VERB_TRANS_BASE	move
 move	reject_advice	NOUN	the noun sense (a move, e.g. in chess or a relocation) is not enabled; angloform allows one sense per word
 moved	form	VERB_TRANS_ED	move
 moves	form	VERB_TRANS_3SG	move
+movie	form	NOUN_SG	movie
+movies	form	NOUN_PL	movie
 moving	form	VERB_TRANS_ING	move
 must	form	MODAL_MUST	must
 my	form	POSS_1SG	my
@@ -2422,6 +2428,9 @@ small	reject_advice	NOUN	a part of a thing, which has a shape
 smaller	form	ADJ_CMP	small
 smallest	form	ADJ_SUP	small
 so	form	RESULT	so
+social	form	NOUN_SG	social
+social	reject_advice	ADJ	not alone
+socials	form	NOUN_PL	social
 societies	form	NOUN_PL	society
 society	form	NOUN_SG	society
 some	form	QUANT_EXIST	some
@@ -2778,6 +2787,8 @@ way	form	NOUN_SG	way
 way	reject_advice	ADV	the adverbial sense (informal — "way too much", "way better") is not enabled; angloform has no adverb category
 ways	form	NOUN_PL	way
 we	ban	-	name the group - "the maintainers", "the team" - or use an imperative; "we" hides who acts (ADR 0020)
+website	form	NOUN_SG	website
+websites	form	NOUN_PL	website
 weigh	form	VERB_TRANS_BASE	weigh
 weigh	reject_advice	NOUN	a thing, which has a value
 weighed	form	VERB_TRANS_ED	weigh
@@ -2790,6 +2801,9 @@ were	form	COPULA_PL_PAST	were
 when	ban	-	"when" is not in the language - write "if <clause>, then <clause>" (ADR 0007), or name the event: "after the split" (ADR 0033)
 where	ban	-	no relative clauses - split the sentence and repeat the noun (ADR 0010)
 which	form	WHICH	which
+while	form	NOUN_SG	while
+while	reject_advice	VERB	the verb sense ("to while away time") is not enabled; angloform allows one sense per word
+whiles	form	NOUN_PL	while
 who	form	WHO	who
 whole	form	ADJ_LONG	whole
 whole	reject_advice	ADV	the reference data attests an adverbial use of "whole"; no common meaning could be confirmed — angloform has no adverb category regardless

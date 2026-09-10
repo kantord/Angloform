@@ -1,9 +1,0 @@
-category: NOUN
-forms:
-- tag: NOUN_PL
-  form: features
-definition: a part of a system, which gives an ability
-rejected:
-- category: VERB
-  advice: the verb sense ("the movie features an actor") is not enabled; angloform allows one sense per
-    word

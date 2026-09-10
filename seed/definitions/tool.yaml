@@ -1,8 +1,0 @@
-category: NOUN
-forms:
-- tag: NOUN_PL
-  form: tools
-definition: a thing, which helps a person
-rejected:
-- category: VERB
-  advice: the verb sense ("to tool around") is not enabled; irrelevant to this domain

@@ -159,16 +159,6 @@
     "note": "Frankenstein Letter 1 pilot gap"
   },
   {
-    "lemma": "human",
-    "category": "ADJ",
-    "note": "noun sense ('a human') deferred; use 'man' or 'creature' instead",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (\"a human\") is deferred; write \"man\" or \"creature\" instead"
-      }
-    }
-  },
-  {
     "lemma": "creature",
     "category": "NOUN",
     "note": "Frankenstein Letter 1 pilot gap"

@@ -1,8 +1,0 @@
-category: NOUN
-forms:
-- tag: NOUN_PL
-  form: claims
-definition: a sentence, which names a fact
-rejected:
-- category: VERB
-  advice: the verb sense ("to claim something") is not enabled; angloform allows one sense per word

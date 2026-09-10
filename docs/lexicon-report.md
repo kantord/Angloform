@@ -4,18 +4,18 @@
 
 ## Summary
 
-- 985 lemmas, 2080 surface forms, 506 redirects (33 word substitute, 473 advice-only)
+- 991 lemmas, 2092 surface forms, 508 redirects (33 word substitute, 475 advice-only)
 - Domain model: 87 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 151, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 476, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 179, WHICH 1, WHO 1, YET 1
+- Lemmas per category: ADJ 151, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 482, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 179, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
-- Mean zipf: 4.12 (higher = more common; everyday words sit at 4.5+)
+- Mean zipf: 4.13 (higher = more common; everyday words sit at 4.5+)
 - Rarest 5: adversative (0.00), anaphora (0.00), anaphoric (0.00), anaphoric pronoun (0.00), antonym (0.00)
 
 ## Residual polysemy (WordNet senses within the enabled POS)
 
-- Mean senses: 5.3 (upper bound — WordNet oversplits)
+- Mean senses: 5.2 (upper bound — WordNet oversplits)
 - Top 5: break (59), make (49), give (44), take (42), carry (40)
 
 ## Redirect findability guard (floor: zipf 3.5)
@@ -438,29 +438,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - discipline (VERB): the verb sense ("to discipline someone") is not enabled; angloform allows one sense per word
 - challenge (NOUN): the noun sense (a challenge) is not enabled; angloform allows one sense per word
 - dimension (VERB): the verb sense (engineering jargon — "to dimension a drawing", meaning to add measurements to it) is not enabled; angloform allows one sense per word
-- curate (NOUN): the noun sense (an assistant to a vicar or rector, ecclesiastical) is not enabled; angloform allows one sense per word
-- lint (NOUN): the noun sense (lint — fluff, fiber debris) is not enabled; angloform allows one sense per word
-- transitive (NOUN): the reference data attests a noun use of "transitive"; no common meaning could be confirmed — not enabled
-- intransitive (NOUN): the reference data attests a noun use of "intransitive"; no common meaning could be confirmed — not enabled
-- breeze (VERB): the verb sense ("to breeze through an exam", "she breezed in") is not enabled; angloform allows one sense per word
-- delight (VERB): the verb sense ("this delights me") is not enabled; angloform allows one sense per word
-- heart (VERB): the verb sense (informal — "I heart New York"; archaically, to encourage) is not enabled; angloform allows one sense per word
-- joy (VERB): the verb sense (archaic/literary — "to joy in something", meaning to rejoice) is not enabled; angloform allows one sense per word
-- fear (VERB): the verb sense ("to fear something") is deferred; write "X is filled with fear" instead
-- hope (VERB): the verb sense ("to hope") is deferred; write "X is filled with hope" instead (same as "fear")
-- despair (VERB): the verb sense ("to despair") is deferred; write "X is filled with despair" instead (same as "fear")
-- thought (VERB): "thought" is independently attested as a rare verb form ("to thought"), though the base verb "think" is not enabled; not enabled here either — "thought" is a bare noun in this pack
-- father (VERB): the verb sense ("to father a child") is not enabled; angloform allows one sense per word
-- friend (VERB): the verb sense (modern — "to friend someone", on social media) is not enabled; angloform allows one sense per word
-- love (VERB): the verb sense ("to love") is deferred; write "X is filled with love" instead
-- human (NOUN): the noun sense ("a human") is deferred; write "man" or "creature" instead
-- man (ADJ): the adjective sense ("man enough") is deferred; not enabled
-- man (VERB): the verb sense ("to man a post") is deferred; not enabled
-- house (VERB): the verb sense ("to house someone") is deferred, out of scope for this pack
-- sun (VERB): the verb sense ("to sun oneself", i.e. to sunbathe) is not enabled; angloform allows one sense per word
-- ice (VERB): the verb sense ("to ice a cake" or "to ice a drink") is not enabled; angloform allows one sense per word
-- world (ADJ): the adjective (attributive) sense ("a world record", "world class") is not enabled; angloform allows one sense per word
-- task (VERB): the verb sense ("to task someone with a job") is not enabled; angloform allows one sense per word
 - alone (ADV): only the predicate use is enabled ("I am alone", ADR 0052); the adverbial sense ("leave it alone") is deferred; angloform has no adverb category
 - author (VERB): the verb sense ("to author a book") is not enabled; angloform allows one sense per word
 - build (NOUN): a thing, which comes from parts
@@ -513,6 +490,31 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - weigh (NOUN): a thing, which has a value
 - win (NOUN): an event, which ends with a result
 - work (VERB): the verb sense ("to work a job") is not enabled; angloform allows one sense per word
+- curate (NOUN): the noun sense (an assistant to a vicar or rector, ecclesiastical) is not enabled; angloform allows one sense per word
+- lint (NOUN): the noun sense (lint — fluff, fiber debris) is not enabled; angloform allows one sense per word
+- transitive (NOUN): the reference data attests a noun use of "transitive"; no common meaning could be confirmed — not enabled
+- intransitive (NOUN): the reference data attests a noun use of "intransitive"; no common meaning could be confirmed — not enabled
+- breeze (VERB): the verb sense ("to breeze through an exam", "she breezed in") is not enabled; angloform allows one sense per word
+- delight (VERB): the verb sense ("this delights me") is not enabled; angloform allows one sense per word
+- heart (VERB): the verb sense (informal — "I heart New York"; archaically, to encourage) is not enabled; angloform allows one sense per word
+- joy (VERB): the verb sense (archaic/literary — "to joy in something", meaning to rejoice) is not enabled; angloform allows one sense per word
+- fear (VERB): the verb sense ("to fear something") is deferred; write "X is filled with fear" instead
+- hope (VERB): the verb sense ("to hope") is deferred; write "X is filled with hope" instead (same as "fear")
+- despair (VERB): the verb sense ("to despair") is deferred; write "X is filled with despair" instead (same as "fear")
+- thought (VERB): "thought" is independently attested as a rare verb form ("to thought"), though the base verb "think" is not enabled; not enabled here either — "thought" is a bare noun in this pack
+- father (VERB): the verb sense ("to father a child") is not enabled; angloform allows one sense per word
+- friend (VERB): the verb sense (modern — "to friend someone", on social media) is not enabled; angloform allows one sense per word
+- love (VERB): the verb sense ("to love") is deferred; write "X is filled with love" instead
+- man (ADJ): the adjective sense ("man enough") is deferred; not enabled
+- man (VERB): the verb sense ("to man a post") is deferred; not enabled
+- house (VERB): the verb sense ("to house someone") is deferred, out of scope for this pack
+- sun (VERB): the verb sense ("to sun oneself", i.e. to sunbathe) is not enabled; angloform allows one sense per word
+- ice (VERB): the verb sense ("to ice a cake" or "to ice a drink") is not enabled; angloform allows one sense per word
+- world (ADJ): the adjective (attributive) sense ("a world record", "world class") is not enabled; angloform allows one sense per word
+- task (VERB): the verb sense ("to task someone with a job") is not enabled; angloform allows one sense per word
+- human (ADJ): not mechanical
+- social (ADJ): not alone
+- while (VERB): the verb sense ("to while away time") is not enabled; angloform allows one sense per word
 
 ## Corpus coverage
 

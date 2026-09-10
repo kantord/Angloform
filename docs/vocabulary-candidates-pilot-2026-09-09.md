@@ -1,9 +1,9 @@
-# Vocabulary candidate pilot (500 new lemmas, top 1010 frequency rows walked)
+# Vocabulary candidate pilot (500 new lemmas, top 1023 frequency rows walked)
 
-- strong clean admits: 49
+- strong clean admits: 45
 - weak-margin clean admits: 97
 - tied at 1: 35
-- no clean winner: 319
+- no clean winner: 323
 
 ## Clean admits, strong
 
@@ -12,7 +12,6 @@
 | me | noun | noun=1 |
 | why | noun | noun=1 |
 | many | adj | adj=1 |
-| while | noun | noun=1 |
 | both | adj | adj=1 |
 | another | adj | adj=1 |
 | again | adv | adv=1 |
@@ -36,7 +35,6 @@
 | june | noun | noun=1 |
 | april | noun | noun=1 |
 | july | noun | noun=1 |
-| movie | noun | noun=1 |
 | september | noun | noun=1 |
 | usually | adv | adv=1 |
 | whatever | adj | adj=1 |
@@ -47,17 +45,15 @@
 | october | noun | noun=1 |
 | november | noun | noun=1 |
 | january | noun | noun=1 |
-| website | noun | noun=1 |
 | currently | adv | adv=1 |
 | financial | adj | adj=1 |
 | michael | noun | noun=1 |
 | daughter | noun | noun=1 |
 | december | noun | noun=1 |
-| huge | adj | adj=1 |
-| internet | noun | noun=1 |
 | india | noun | noun=1 |
 | february | noun | noun=1 |
 | river | noun | noun=1 |
+| recently | adv | adv=1 |
 
 ## Clean admits, weak margin
 
@@ -93,7 +89,6 @@
 | together | adj | adj=1, adv=6 |
 | war | verb | noun=4, verb=1 |
 | course | adv | noun=9, verb=3, adv=1 |
-| social | noun | noun=1, adj=6 |
 | body | verb | noun=11, verb=1 |
 | large | noun | noun=1, adj=7, adv=3 |
 | m | adj | noun=6, adj=1 |
@@ -103,7 +98,6 @@
 | nice | noun | noun=1, adj=5 |
 | international | noun | noun=1, adj=2 |
 | due | adv | noun=2, adj=4, adv=1 |
-| human | noun | noun=1, adj=3 |
 | c | adj | noun=12, adj=1 |
 | light | adv | noun=15, verb=6, adj=25, adv=1 |
 | buy | noun | noun=1, verb=5 |
@@ -160,6 +154,8 @@
 | culture | verb | noun=7, verb=1 |
 | officer | verb | noun=4, verb=1 |
 | funny | noun | noun=1, adj=4 |
+| network | verb | noun=5, verb=1 |
+| tomorrow | adv | noun=2, adv=1 |
 
 ## Deferred: tied at 1
 

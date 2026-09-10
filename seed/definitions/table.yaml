@@ -1,9 +1,0 @@
-category: NOUN
-forms:
-- tag: NOUN_PL
-  form: tables
-definition: a thing, which organizes the information in 2 dimensions
-rejected:
-- category: VERB
-  advice: the verb sense (to table a motion — propose or postpone, depending on dialect) is not enabled;
-    angloform allows one sense per word

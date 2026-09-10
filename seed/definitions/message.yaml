@@ -1,8 +1,0 @@
-category: NOUN
-forms:
-- tag: NOUN_PL
-  form: messages
-definition: a text, which comes from a person
-rejected:
-- category: VERB
-  advice: the verb sense ("to message a person") is not enabled; angloform allows one sense per word

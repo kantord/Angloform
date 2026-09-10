@@ -1,9 +1,0 @@
-category: VERB_TRANS
-forms:
-- tag: VERB_TRANS_3SG
-  form: avoids
-- tag: VERB_TRANS_ED
-  form: avoided
-- tag: VERB_TRANS_ING
-  form: avoiding
-definition: prevent a thing

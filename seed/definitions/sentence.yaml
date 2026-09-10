@@ -1,9 +1,0 @@
-category: NOUN
-forms:
-- tag: NOUN_PL
-  form: sentences
-definition: a sequence of words, which has a meaning
-rejected:
-- category: VERB
-  advice: the verb sense ("to sentence a person", a legal ruling) is not enabled; angloform allows one
-    sense per word

@@ -7350,5 +7350,785 @@
       "past": "submitted",
       "ing": "submitting"
     }
+  },
+  {
+    "lemma": "accept",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "accepts"
+    }
+  },
+  {
+    "lemma": "agent",
+    "category": "NOUN",
+    "forms": {
+      "plural": "agents"
+    }
+  },
+  {
+    "lemma": "algorithm",
+    "category": "NOUN",
+    "forms": {
+      "plural": "algorithms"
+    }
+  },
+  {
+    "lemma": "alone",
+    "category": "ADJ",
+    "reject": {
+      "ADV": {
+        "advice": "only the predicate use is enabled (\"I am alone\", ADR 0052); the adverbial sense (\"leave it alone\") is deferred; angloform has no adverb category"
+      }
+    }
+  },
+  {
+    "lemma": "arrive",
+    "category": "VERB_INTRANS",
+    "forms": {
+      "third": "arrives"
+    }
+  },
+  {
+    "lemma": "assert",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "asserts"
+    }
+  },
+  {
+    "lemma": "author",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to author a book\") is not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
+    "lemma": "avoid",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "avoids",
+      "past": "avoided",
+      "ing": "avoiding"
+    }
+  },
+  {
+    "lemma": "belong",
+    "category": "VERB_INTRANS",
+    "forms": {
+      "third": "belongs",
+      "past": "belonged"
+    }
+  },
+  {
+    "lemma": "build",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which comes from parts"
+      }
+    },
+    "forms": {
+      "third": "builds",
+      "past": "built"
+    }
+  },
+  {
+    "lemma": "catch",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which causes a problem"
+      }
+    },
+    "forms": {
+      "third": "catches",
+      "past": "caught",
+      "ppart": "caught",
+      "ing": "catching"
+    }
+  },
+  {
+    "lemma": "cause",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which produces a result"
+      }
+    },
+    "forms": {
+      "third": "causes"
+    }
+  },
+  {
+    "lemma": "check",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": "test"
+    },
+    "forms": {
+      "third": "checks",
+      "ing": "checking"
+    }
+  },
+  {
+    "lemma": "choose",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "chooses",
+      "past": "chose",
+      "ppart": "chosen",
+      "ing": "choosing"
+    }
+  },
+  {
+    "lemma": "claim",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to claim something\") is not enabled; angloform allows one sense per word"
+      }
+    },
+    "forms": {
+      "plural": "claims"
+    }
+  },
+  {
+    "lemma": "clear",
+    "category": "ADJ",
+    "reject": {
+      "NOUN": {
+        "advice": "a place, which avoids a problem"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to clear a table\") is not enabled; angloform allows one sense per word"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"stand clear\") is not enabled; angloform has no adverb category"
+      }
+    }
+  },
+  {
+    "lemma": "coin",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which has a value"
+      }
+    },
+    "forms": {
+      "third": "coins",
+      "past": "coined",
+      "ing": "coining"
+    }
+  },
+  {
+    "lemma": "compare",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which matches a thing"
+      }
+    },
+    "forms": {
+      "third": "compares"
+    }
+  },
+  {
+    "lemma": "compound",
+    "category": "ADJ",
+    "reject": {
+      "NOUN": {
+        "advice": "a place, which holds things"
+      },
+      "VERB": {
+        "advice": "the verb sense (\"to compound a problem\") is not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
+    "lemma": "conflict",
+    "category": "VERB_INTRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "an event, which causes a problem"
+      }
+    },
+    "forms": {
+      "third": "conflicts",
+      "past": "conflicted"
+    }
+  },
+  {
+    "lemma": "copy",
+    "category": "NOUN",
+    "reject": {
+      "VERB": "duplicate"
+    }
+  },
+  {
+    "lemma": "create",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "creates"
+    }
+  },
+  {
+    "lemma": "delete",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "deletes"
+    }
+  },
+  {
+    "lemma": "depend",
+    "category": "VERB_INTRANS",
+    "forms": {
+      "third": "depends",
+      "past": "depended",
+      "ing": "depending"
+    }
+  },
+  {
+    "lemma": "describe",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "describes"
+    }
+  },
+  {
+    "lemma": "different",
+    "category": "ADJ"
+  },
+  {
+    "lemma": "drift",
+    "category": "VERB_INTRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which grows in a place"
+      }
+    },
+    "forms": {
+      "third": "drifts",
+      "past": "drifted"
+    }
+  },
+  {
+    "lemma": "duplicate",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a copy, which matches a thing"
+      },
+      "ADJ": {
+        "advice": "identical"
+      }
+    },
+    "forms": {
+      "third": "duplicates"
+    }
+  },
+  {
+    "lemma": "empty",
+    "category": "ADJ",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to empty a container\") is not enabled; angloform allows one sense per word"
+      },
+      "NOUN": {
+        "advice": "a thing, which does not hold items"
+      }
+    }
+  },
+  {
+    "lemma": "enable",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "enables"
+    }
+  },
+  {
+    "lemma": "enforce",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "enforces"
+    }
+  },
+  {
+    "lemma": "error",
+    "category": "NOUN",
+    "forms": {
+      "plural": "errors"
+    }
+  },
+  {
+    "lemma": "event",
+    "category": "NOUN",
+    "forms": {
+      "plural": "events"
+    }
+  },
+  {
+    "lemma": "exist",
+    "category": "VERB_INTRANS",
+    "forms": {
+      "third": "exists",
+      "past": "existed"
+    }
+  },
+  {
+    "lemma": "expand",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "expands",
+      "ing": "expanding"
+    }
+  },
+  {
+    "lemma": "fail",
+    "category": "VERB_INTRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "an event, which does not give a result"
+      }
+    },
+    "forms": {
+      "third": "fails",
+      "past": "failed"
+    }
+  },
+  {
+    "lemma": "false",
+    "category": "ADJ",
+    "reject": {
+      "ADV": {
+        "advice": "the adverbial sense (\"play someone false\", \"sing false\") is not enabled; angloform has no adverb category"
+      }
+    }
+  },
+  {
+    "lemma": "feature",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"the movie features an actor\") is not enabled; angloform allows one sense per word"
+      }
+    },
+    "forms": {
+      "plural": "features"
+    }
+  },
+  {
+    "lemma": "file",
+    "category": "NOUN",
+    "reject": {
+      "VERB": "submit"
+    },
+    "forms": {
+      "plural": "files"
+    }
+  },
+  {
+    "lemma": "fix",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which causes a problem"
+      }
+    },
+    "forms": {
+      "third": "fixes"
+    }
+  },
+  {
+    "lemma": "hold",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a place, which keeps items"
+      }
+    },
+    "forms": {
+      "third": "holds",
+      "past": "held",
+      "ppart": "held"
+    }
+  },
+  {
+    "lemma": "maintainer",
+    "category": "NOUN",
+    "forms": {
+      "plural": "maintainers"
+    }
+  },
+  {
+    "lemma": "memory",
+    "category": "NOUN",
+    "forms": {
+      "plural": "memories"
+    }
+  },
+  {
+    "lemma": "message",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to message a person\") is not enabled; angloform allows one sense per word"
+      }
+    },
+    "forms": {
+      "plural": "messages"
+    }
+  },
+  {
+    "lemma": "model",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to model clothing\" or \"to model behavior\") is not enabled; angloform allows one sense per word"
+      },
+      "ADJ": {
+        "advice": "not ordinary"
+      }
+    },
+    "forms": {
+      "plural": "models"
+    }
+  },
+  {
+    "lemma": "noise",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (dated — \"to noise something abroad\", meaning to spread word of) is not enabled; angloform allows one sense per word"
+      }
+    },
+    "forms": {
+      "plural": "noises"
+    }
+  },
+  {
+    "lemma": "note",
+    "category": "NOUN",
+    "reject": {
+      "VERB": "record"
+    }
+  },
+  {
+    "lemma": "number",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to number the pages\"; \"his days are numbered\") is not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
+    "lemma": "open",
+    "category": "VERB_TRANS",
+    "reject": {
+      "ADJ": {
+        "advice": "not closed"
+      },
+      "NOUN": {
+        "advice": "a place, which is empty"
+      }
+    },
+    "forms": {
+      "third": "opens",
+      "past": "opened",
+      "ing": "opening"
+    }
+  },
+  {
+    "lemma": "output",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to output a value\") is not enabled; angloform allows one sense per word"
+      }
+    },
+    "forms": {
+      "plural": "outputs"
+    }
+  },
+  {
+    "lemma": "produce",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which grows in a place"
+      }
+    },
+    "forms": {
+      "third": "produces"
+    }
+  },
+  {
+    "lemma": "rare",
+    "category": "ADJ"
+  },
+  {
+    "lemma": "read",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": "document",
+      "ADJ": {
+        "advice": "not new"
+      }
+    },
+    "forms": {
+      "third": "reads",
+      "past": "read"
+    }
+  },
+  {
+    "lemma": "receive",
+    "category": "VERB_TRANS"
+  },
+  {
+    "lemma": "reject",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a person, who does not belong"
+      }
+    },
+    "forms": {
+      "third": "rejects",
+      "ing": "rejecting"
+    }
+  },
+  {
+    "lemma": "report",
+    "category": "NOUN",
+    "reject": {
+      "VERB": "describe"
+    },
+    "forms": {
+      "plural": "reports"
+    }
+  },
+  {
+    "lemma": "send",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which moves a system"
+      }
+    },
+    "forms": {
+      "third": "sends",
+      "past": "sent"
+    }
+  },
+  {
+    "lemma": "sentence",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to sentence a person\", a legal ruling) is not enabled; angloform allows one sense per word"
+      }
+    },
+    "forms": {
+      "plural": "sentences"
+    }
+  },
+  {
+    "lemma": "sharp",
+    "category": "ADJ",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which shows a value"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"turn sharp\") is not enabled; angloform has no adverb category"
+      },
+      "VERB": {
+        "advice": "the verb sense is rare and not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
+    "lemma": "sit",
+    "category": "VERB_INTRANS",
+    "forms": {
+      "third": "sits",
+      "past": "sat",
+      "ppart": "sat",
+      "ing": "sitting"
+    }
+  },
+  {
+    "lemma": "small",
+    "category": "ADJ",
+    "reject": {
+      "NOUN": {
+        "advice": "a part of a thing, which has a shape"
+      },
+      "ADV": {
+        "advice": "the adverbial sense (\"cut it small\") is not enabled; angloform has no adverb category"
+      }
+    }
+  },
+  {
+    "lemma": "society",
+    "category": "NOUN"
+  },
+  {
+    "lemma": "stay",
+    "category": "VERB_INTRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "an event, which keeps a person in a place"
+      }
+    }
+  },
+  {
+    "lemma": "system",
+    "category": "NOUN",
+    "forms": {
+      "plural": "systems"
+    }
+  },
+  {
+    "lemma": "table",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (to table a motion — propose or postpone, depending on dialect) is not enabled; angloform allows one sense per word"
+      }
+    },
+    "forms": {
+      "plural": "tables"
+    }
+  },
+  {
+    "lemma": "team",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to team up\") is not enabled; angloform allows one sense per word"
+      }
+    },
+    "forms": {
+      "plural": "teams"
+    }
+  },
+  {
+    "lemma": "test",
+    "category": "NOUN",
+    "reject": {
+      "VERB": "check"
+    },
+    "forms": {
+      "plural": "tests"
+    }
+  },
+  {
+    "lemma": "tie",
+    "category": "VERB_INTRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which joins things"
+      }
+    },
+    "forms": {
+      "ing": "tying"
+    }
+  },
+  {
+    "lemma": "tool",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to tool around\") is not enabled; irrelevant to this domain"
+      }
+    },
+    "forms": {
+      "plural": "tools"
+    }
+  },
+  {
+    "lemma": "update",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which gives the information"
+      }
+    },
+    "forms": {
+      "third": "updates",
+      "past": "updated",
+      "ppart": "updated",
+      "ing": "updating"
+    }
+  },
+  {
+    "lemma": "wait",
+    "category": "VERB_INTRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a time, which comes before an event"
+      }
+    },
+    "forms": {
+      "third": "waits",
+      "past": "waited"
+    }
+  },
+  {
+    "lemma": "weigh",
+    "category": "VERB_TRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "a thing, which has a value"
+      }
+    },
+    "forms": {
+      "third": "weighs",
+      "past": "weighed"
+    }
+  },
+  {
+    "lemma": "win",
+    "category": "VERB_INTRANS",
+    "reject": {
+      "NOUN": {
+        "advice": "an event, which ends with a result"
+      }
+    },
+    "forms": {
+      "third": "wins",
+      "past": "won",
+      "ppart": "won",
+      "ing": "winning"
+    }
+  },
+  {
+    "lemma": "word",
+    "category": "NOUN",
+    "reject": {
+      "VERB": "write"
+    }
+  },
+  {
+    "lemma": "work",
+    "category": "NOUN",
+    "reject": {
+      "VERB": {
+        "advice": "the verb sense (\"to work a job\") is not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
+    "lemma": "write",
+    "category": "VERB_TRANS",
+    "forms": {
+      "third": "writes",
+      "past": "wrote",
+      "ppart": "written"
+    }
   }
 ]

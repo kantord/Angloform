@@ -1,7 +1,0 @@
-category: ADJ
-definition: not single
-rejected:
-- category: NOUN
-  advice: a place, which holds things
-- category: VERB
-  advice: the verb sense ("to compound a problem") is not enabled; angloform allows one sense per word

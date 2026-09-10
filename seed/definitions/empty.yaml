@@ -1,7 +1,0 @@
-category: ADJ
-definition: not full
-rejected:
-- category: VERB
-  advice: the verb sense ("to empty a container") is not enabled; angloform allows one sense per word
-- category: NOUN
-  advice: a thing, which does not hold items

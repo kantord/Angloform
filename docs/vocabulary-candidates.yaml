@@ -188,11 +188,13 @@ datum:
   bucket: strong
   counts:
     noun: 1
+  rejected: irregular plural "data" collides with the existing "data" mass noun
 daughter:
   category: noun
   bucket: strong
   counts:
     noun: 1
+  rejected: no existing word distinguishes daughter from son (child/gender vocabulary doesn't exist yet)
 de:
   category: noun
   bucket: strong
@@ -338,17 +340,6 @@ here:
     noun: 2
     adj: 1
     adv: 4
-huge:
-  category: adj
-  bucket: strong
-  counts:
-    adj: 1
-human:
-  category: noun
-  bucket: weak
-  counts:
-    noun: 1
-    adj: 3
 india:
   category: noun
   bucket: strong
@@ -361,11 +352,6 @@ international:
   counts:
     noun: 1
     adj: 2
-internet:
-  category: noun
-  bucket: strong
-  counts:
-    noun: 1
 january:
   category: noun
   bucket: strong
@@ -483,6 +469,8 @@ mean:
     noun: 1
     verb: 7
     adj: 8
+  rejected: definition text ("a value, which a group has") fails to parse; needs a real rewrite, not just
+    cross-POS rejects
 medical:
   category: noun
   bucket: weak
@@ -508,16 +496,13 @@ military:
   counts:
     noun: 1
     adj: 3
+  rejected: noun sense is fine, but its real ADJ collision has no accurate rejection word (no civilian/war-adjacent adjective exists) — same wall as "national"
 mom:
   category: noun
   bucket: strong
   counts:
     noun: 1
-movie:
-  category: noun
-  bucket: strong
-  counts:
-    noun: 1
+  rejected: cannot be defined accurately without son/daughter-neutral "child" vocabulary, which doesn't exist
 mr:
   category: noun
   bucket: strong
@@ -530,6 +515,7 @@ national:
   counts:
     noun: 1
     adj: 7
+  rejected: ADJ sense needs "country"/"nation" as advice text, neither exists yet
 near:
   category: verb
   bucket: weak
@@ -537,6 +523,12 @@ near:
     verb: 1
     adj: 6
     adv: 2
+network:
+  category: verb
+  bucket: weak
+  counts:
+    noun: 5
+    verb: 1
 next:
   category: adv
   bucket: weak
@@ -668,11 +660,17 @@ recent:
   counts:
     noun: 1
     adj: 2
+recently:
+  category: adv
+  bucket: strong
+  counts:
+    adv: 1
 river:
   category: noun
   bucket: strong
   counts:
     noun: 1
+  rejected: no water/geography vocabulary (water, flow, stream, lake) exists yet to distinguish it from any other "thing from a place"
 room:
   category: verb
   bucket: weak
@@ -705,12 +703,6 @@ site:
   counts:
     noun: 3
     verb: 1
-social:
-  category: noun
-  bucket: weak
-  counts:
-    noun: 1
-    adj: 6
 someone:
   category: noun
   bucket: strong
@@ -783,6 +775,12 @@ together:
   counts:
     adj: 1
     adv: 6
+tomorrow:
+  category: adv
+  bucket: weak
+  counts:
+    noun: 2
+    adv: 1
 top:
   category: adj
   bucket: weak
@@ -838,11 +836,6 @@ war:
   counts:
     noun: 4
     verb: 1
-website:
-  category: noun
-  bucket: strong
-  counts:
-    noun: 1
 well:
   category: verb
   bucket: weak
@@ -856,11 +849,6 @@ whatever:
   bucket: strong
   counts:
     adj: 1
-while:
-  category: noun
-  bucket: strong
-  counts:
-    noun: 1
 white:
   category: verb
   bucket: weak
@@ -880,6 +868,7 @@ wife:
   bucket: strong
   counts:
     noun: 1
+  rejected: no existing word distinguishes wife from other female relatives (no marry/spouse vocabulary yet)
 within:
   category: adv
   bucket: strong

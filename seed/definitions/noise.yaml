@@ -1,9 +1,0 @@
-category: NOUN
-forms:
-- tag: NOUN_PL
-  form: noises
-definition: a thing, which confuses a person or does not have a meaning
-rejected:
-- category: VERB
-  advice: the verb sense (dated — "to noise something abroad", meaning to spread word of) is not enabled;
-    angloform allows one sense per word
