@@ -340,6 +340,13 @@ here:
     noun: 2
     adj: 1
     adv: 4
+human:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 3
+  rejected: ADJ sense ("human nature", "human error") has no genuine existing-word redirect — verified with scripts/word-check.py against all 151 enabled ADJ words, none fit
 india:
   category: noun
   bucket: strong
@@ -496,13 +503,15 @@ military:
   counts:
     noun: 1
     adj: 3
-  rejected: noun sense is fine, but its real ADJ collision has no accurate rejection word (no civilian/war-adjacent adjective exists) — same wall as "national"
+  rejected: noun sense is fine, but its real ADJ collision has no accurate rejection word (no civilian/war-adjacent
+    adjective exists) — same wall as "national"
 mom:
   category: noun
   bucket: strong
   counts:
     noun: 1
-  rejected: cannot be defined accurately without son/daughter-neutral "child" vocabulary, which doesn't exist
+  rejected: cannot be defined accurately without son/daughter-neutral "child" vocabulary, which doesn't
+    exist
 mr:
   category: noun
   bucket: strong
@@ -670,7 +679,8 @@ river:
   bucket: strong
   counts:
     noun: 1
-  rejected: no water/geography vocabulary (water, flow, stream, lake) exists yet to distinguish it from any other "thing from a place"
+  rejected: no water/geography vocabulary (water, flow, stream, lake) exists yet to distinguish it from
+    any other "thing from a place"
 room:
   category: verb
   bucket: weak
@@ -703,6 +713,13 @@ site:
   counts:
     noun: 3
     verb: 1
+social:
+  category: noun
+  bucket: weak
+  counts:
+    noun: 1
+    adj: 6
+  rejected: ADJ sense ("a social club/event") has no genuine existing-word redirect — verified with scripts/word-check.py against all 151 enabled ADJ words, none fit
 someone:
   category: noun
   bucket: strong
@@ -775,12 +792,6 @@ together:
   counts:
     adj: 1
     adv: 6
-tomorrow:
-  category: adv
-  bucket: weak
-  counts:
-    noun: 2
-    adv: 1
 top:
   category: adj
   bucket: weak
@@ -849,6 +860,12 @@ whatever:
   bucket: strong
   counts:
     adj: 1
+while:
+  category: noun
+  bucket: strong
+  counts:
+    noun: 1
+  rejected: VERB sense ("to while away time", moby-attested only, no WordNet gloss) has no genuine existing-word redirect — verified with scripts/word-check.py against all 208 enabled VERB words, none fit
 white:
   category: verb
   bucket: weak
@@ -868,7 +885,8 @@ wife:
   bucket: strong
   counts:
     noun: 1
-  rejected: no existing word distinguishes wife from other female relatives (no marry/spouse vocabulary yet)
+  rejected: no existing word distinguishes wife from other female relatives (no marry/spouse vocabulary
+    yet)
 within:
   category: adv
   bucket: strong

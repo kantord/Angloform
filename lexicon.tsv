@@ -1277,9 +1277,6 @@ house	form	NOUN_SG	house
 house	reject_advice	VERB	the verb sense ("to house someone") is deferred, out of scope for this pack
 houses	form	NOUN_PL	house
 huge	form	ADJ_LONG	huge
-human	form	NOUN_SG	human
-human	reject_advice	ADJ	not mechanical
-humans	form	NOUN_PL	human
 hurt	form	VERB_TRANS_BASE	hurt
 hurt	reject_advice	ADJ	the adjective (participial) sense ("hurt feelings") is not separately enabled; angloform allows one sense per word
 hurt	reject_advice	NOUN	the noun sense ("nurse a hurt") is not enabled; angloform allows one sense per word
@@ -2428,9 +2425,6 @@ small	reject_advice	NOUN	a part of a thing, which has a shape
 smaller	form	ADJ_CMP	small
 smallest	form	ADJ_SUP	small
 so	form	RESULT	so
-social	form	NOUN_SG	social
-social	reject_advice	ADJ	not alone
-socials	form	NOUN_PL	social
 societies	form	NOUN_PL	society
 society	form	NOUN_SG	society
 some	form	QUANT_EXIST	some
@@ -2801,9 +2795,6 @@ were	form	COPULA_PL_PAST	were
 when	ban	-	"when" is not in the language - write "if <clause>, then <clause>" (ADR 0007), or name the event: "after the split" (ADR 0033)
 where	ban	-	no relative clauses - split the sentence and repeat the noun (ADR 0010)
 which	form	WHICH	which
-while	form	NOUN_SG	while
-while	reject_advice	VERB	the verb sense ("to while away time") is not enabled; angloform allows one sense per word
-whiles	form	NOUN_PL	while
 who	form	WHO	who
 whole	form	ADJ_LONG	whole
 whole	reject_advice	ADV	the reference data attests an adverbial use of "whole"; no common meaning could be confirmed — angloform has no adverb category regardless

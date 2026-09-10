@@ -1,9 +1,9 @@
-# Vocabulary candidate pilot (500 new lemmas, top 1023 frequency rows walked)
+# Vocabulary candidate pilot (500 new lemmas, top 1018 frequency rows walked)
 
-- strong clean admits: 45
-- weak-margin clean admits: 97
+- strong clean admits: 46
+- weak-margin clean admits: 98
 - tied at 1: 35
-- no clean winner: 323
+- no clean winner: 321
 
 ## Clean admits, strong
 
@@ -12,6 +12,7 @@
 | me | noun | noun=1 |
 | why | noun | noun=1 |
 | many | adj | adj=1 |
+| while | noun | noun=1 |
 | both | adj | adj=1 |
 | another | adj | adj=1 |
 | again | adv | adv=1 |
@@ -89,6 +90,7 @@
 | together | adj | adj=1, adv=6 |
 | war | verb | noun=4, verb=1 |
 | course | adv | noun=9, verb=3, adv=1 |
+| social | noun | noun=1, adj=6 |
 | body | verb | noun=11, verb=1 |
 | large | noun | noun=1, adj=7, adv=3 |
 | m | adj | noun=6, adj=1 |
@@ -98,6 +100,7 @@
 | nice | noun | noun=1, adj=5 |
 | international | noun | noun=1, adj=2 |
 | due | adv | noun=2, adj=4, adv=1 |
+| human | noun | noun=1, adj=3 |
 | c | adj | noun=12, adj=1 |
 | light | adv | noun=15, verb=6, adj=25, adv=1 |
 | buy | noun | noun=1, verb=5 |
@@ -155,7 +158,6 @@
 | officer | verb | noun=4, verb=1 |
 | funny | noun | noun=1, adj=4 |
 | network | verb | noun=5, verb=1 |
-| tomorrow | adv | noun=2, adv=1 |
 
 ## Deferred: tied at 1
 

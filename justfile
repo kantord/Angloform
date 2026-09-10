@@ -56,6 +56,21 @@ autofix-paragraphs file out="docs/paragraph-report.md" *FLAGS:
 define +TERM:
     python3 scripts/define.py {{TERM}}
 
+# pre-authoring check for a word already in seed/definitions/: every
+# attested-but-not-own category must have a real "redirects" entry (no
+# "advice"); shows the WordNet gloss + already-enabled candidates for each
+word-check LEMMA:
+    python3 scripts/word-check.py {{LEMMA}}
+
+# review pending word definitions: diffs of changed seed/definitions/*.yaml,
+# then the full content of any new (untracked) ones — colored, syntax-highlighted
+word-review:
+    git diff --color=always -- seed/definitions/*.yaml
+    @echo "=== new (untracked) definitions ==="
+    @git status --porcelain --untracked-files=all -- seed/definitions/ \
+        | awk '$1 == "??" {print $2}' \
+        | while read -r f; do bat --language=yaml --style=header --color=always "$f"; done
+
 # no-LLM proxy: re-validate every stored paragraph proposal against the current
 # linter and report valid counts, no-advice rejections, blocking words (seconds)
 replay:
