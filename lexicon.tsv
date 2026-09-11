@@ -1157,6 +1157,7 @@ found	form	VERB_TRANS_ED	find
 four	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
 fraction	form	NOUN_SG	fraction
 fraction	reject_advice	VERB	the verb sense (chemistry jargon — to separate into fractions) is not enabled; angloform allows one sense per word
+fractional	form	ADJ_LONG	fractional
 fractions	form	NOUN_PL	fraction
 frame	form	NOUN_SG	frame
 frame	reject_advice	VERB	the verb sense ("to frame a picture"; "to frame someone for a crime") is not enabled; angloform allows one sense per word
@@ -1380,6 +1381,7 @@ illegal	form	ADJ_LONG	illegal
 imperative	term	-	Imperative
 imperatives	term	-	Imperatives
 implicit	form	ADJ_LONG	implicit
+imprecise	form	ADJ_LONG	imprecise
 improvement	form	NOUN_SG	improvement
 improvements	form	NOUN_PL	improvement
 in	form	PREP_V	in
@@ -1393,6 +1395,8 @@ incomes	form	NOUN_PL	income
 indexical	form	ADJ_LONG	indexical
 indexical pronoun	term	-	Indexical Pronoun
 indexical pronouns	term	-	Indexical Pronouns
+indistinct	form	ADJ_LONG	indistinct
+inexact	form	ADJ_LONG	inexact
 infinitive	form	NOUN_SG	infinitive
 infinitives	form	NOUN_PL	infinitive
 inflect	form	VERB_INTRANS_BASE	inflect
@@ -2861,6 +2865,7 @@ unknown	form	ADJ_LONG	unknown
 unknown	reject_advice	NOUN	the noun sense (an unknown, e.g. in mathematics, or "the unknown") is not enabled; angloform allows one sense per word
 unlikely	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
 unnatural	form	ADJ_LONG	unnatural
+unoriginal	form	ADJ_LONG	unoriginal
 unpleasant	form	ADJ_LONG	unpleasant
 unquoted	form	ADJ_LONG	unquoted
 unreadable	form	ADJ_LONG	unreadable
