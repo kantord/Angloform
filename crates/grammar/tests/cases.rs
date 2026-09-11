@@ -54,11 +54,11 @@ fn subject_and_object() {
 #[test]
 fn of_pp_is_genitive() {
     let lex = lexicon();
-    let got = tagged(&lex, "the writer of the report reads the file.");
+    let got = tagged(&lex, "the author of the report reads the file.");
     assert_eq!(
         got,
         vec![
-            ("writer".to_string(), Case::Nominative),
+            ("author".to_string(), Case::Nominative),
             ("report".to_string(), Case::Genitive),
             ("file".to_string(), Case::Accusative),
         ]

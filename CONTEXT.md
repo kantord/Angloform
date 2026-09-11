@@ -15,7 +15,7 @@ examples); "a X" after the tag is the category the term belongs to
 
 **anaphoric** (adj) — an anaphoric word refers to a noun of a prior sentence.
 
-**Anaphoric Pronoun** (noun, category) · a Pronoun — an Anaphoric Pronoun is a Pronoun for a noun of a prior sentence. the reader must find the noun, so the language bans every Anaphoric Pronoun. the writer repeats the noun.
+**Anaphoric Pronoun** (noun, category) · a Pronoun — an Anaphoric Pronoun is a Pronoun for a noun of a prior sentence. the reader must find the noun, so the language bans every Anaphoric Pronoun. the author repeats the noun.
   Examples: `it` · `they` · `this`
 
 **Angloform** (name, unique) — Angloform is the language of the project and is a subset of English. every sentence of Angloform has one Parse. the sentence "if the test fails, then the agent retries the request" is a sentence of Angloform.
@@ -27,7 +27,7 @@ examples); "a X" after the tag is the category the term belongs to
 **Auxiliary** (noun, category) · a Function Word — an Auxiliary is a Function Word and helps a verb. the word "do" is the Auxiliary of the language. a Negation uses the Auxiliary, and a Prohibition uses the Auxiliary. a plain statement does not use the Auxiliary. the word "is" is a Copula and is not an Auxiliary.
   Examples: `do`
 
-**Ban** (noun, category) · a Rejection — a Ban is a Rejection of an ambiguous structure. a Ban is permanent, so the writer restructures the sentence. the Linter explains the Ban and names the structure. if a Ban covers every sense of a word, then the word is a Ban.
+**Ban** (noun, category) · a Rejection — a Ban is a Rejection of an ambiguous structure. a Ban is permanent, so the author restructures the sentence. the Linter explains the Ban and names the structure. if a Ban covers every sense of a word, then the word is a Ban.
   Examples: `the word "it" is a Ban.` · `the phrase "retries no request" is a Ban.`
 
 **Bare Plural** (noun, category) · a Noun Phrase — a Bare Plural is a Noun Phrase. the Noun Phrase is a plural noun and does not have a determiner. a Bare Plural names a kind, so the claim tolerates an exception. the sentence "machines find collisions" has a Bare Plural.
@@ -60,19 +60,19 @@ examples); "a X" after the tag is the category the term belongs to
 **Complement** (noun, category) — a Complement follows a Copula and names a property of the subject. a Complement is an adjective or is a Noun Phrase. a Participle cannot be a Complement, because the language bans every Passive.
   Examples: `the queue is empty.` · `the parser is a program.` · `the Complement of "the queue is empty" is the adjective "empty".`
 
-**Compound** (noun, category) — a Compound joins 2 nouns. a determiner does not separate the 2 nouns. the phrase "seed list" is a Compound. the language bans every Compound, because the relation of the 2 nouns is unknown. if the model has a term for the thing, then the writer writes the term with a capital. if the model does not have a term, then the writer unfolds the Compound into a paraphrase. the paraphrase "the initial words" replaces the Compound "seed list".
+**Compound** (noun, category) — a Compound joins 2 nouns. a determiner does not separate the 2 nouns. the phrase "seed list" is a Compound. the language bans every Compound, because the relation of the 2 nouns is unknown. if the model has a term for the thing, then the author writes the term with a capital. if the model does not have a term, then the author unfolds the Compound into a paraphrase. the paraphrase "the initial words" replaces the Compound "seed list".
   Examples: `seed list` · `build output` · `the paraphrase "the initial words" replaces the Compound "seed list".`
 
 **Conditional** (noun, category) · a Sentence Shape — a Conditional is a Sentence Shape. a Conditional has: a condition and a consequent. the word "if" opens the condition. the word "then" opens the consequent.
   Examples: `if the test fails, then the agent retries the request.`
 
-**Conjunct** (noun, category) — a Conjunct is one part of a Coordination. a Modifier describes one Conjunct, so the writer repeats the Modifier in the second Conjunct. a Prepositional Phrase attaches to one Conjunct.
+**Conjunct** (noun, category) — a Conjunct is one part of a Coordination. a Modifier describes one Conjunct, so the author repeats the Modifier in the second Conjunct. a Prepositional Phrase attaches to one Conjunct.
   Examples: `the predicate "stores the message" is a Conjunct of "stores the message and returns the result".`
 
 **Constituent** (noun, category) — a Constituent is one part of a Parse. the Grammar builds the Parse from Constituents. a Noun Phrase is a Constituent, and a Prepositional Phrase is a Constituent. the subject "the agent" is a Constituent of the sentence "the agent reads the file".
   Examples: `the subject` · `the object` · `a Prepositional Phrase` · `the subject "the agent" is a Constituent of the sentence "the agent reads the file".`
 
-**Context Need** (noun, unique) — the Context Need is a quantity. the Context Need of a sentence measures the prior text, because the reader needs the prior text for the meaning of the sentence. the sentence "it failed" has a big Context Need, because the reader must find the referent of "it" in the prior text. a good sentence has a small Context Need.
+**Context Need** (noun, unique) — the Context Need is a quantity. the Context Need of a sentence measures the prior text, because the reader requires the prior text for the meaning of the sentence. the sentence "it failed" has a big Context Need, because the reader must find the referent of "it" in the prior text. a good sentence has a small Context Need.
   Examples: `the sentence "it failed" has a big Context Need.`
 
 **Coordination** (noun, category) — a Coordination joins 2 clauses or joins 2 predicates with a conjunction. the 2 Conjuncts have one kind, so a Noun Phrase cannot join a Noun Phrase. a Coordination has 2 Conjuncts.
@@ -97,7 +97,7 @@ examples); "a X" after the tag is the category the term belongs to
 **Dependency Length** (noun, unique) — the Dependency Length of a relation counts the words between the 2 words of the relation. a long Dependency Length hurts the reader, because the reader holds the first word until the second word.
   Examples: `the Dependency Length of the sentence "the agent reads the file" is 2 words.`
 
-**Discourse Layer** (noun, category) — a Discourse Layer is a mechanism. the mechanism finds the noun of an Anaphoric Pronoun in the prior text. Angloform does not have a Discourse Layer, so the writer repeats the noun.
+**Discourse Layer** (noun, category) — a Discourse Layer is a mechanism. the mechanism finds the noun of an Anaphoric Pronoun in the prior text. Angloform does not have a Discourse Layer, so the author repeats the noun.
   Examples: `a Discourse Layer resolves the Pronoun "it" in the sentence "it failed".`
 
 **Dogfood** (noun, unique) — the Dogfood is a test of the language. the maintainers lint the documents of the project, so the Rejections show the Gaps of the language. the decisions of the project are the main Dogfood, so the Linter parses every decision.
@@ -123,7 +123,7 @@ examples); "a X" after the tag is the category the term belongs to
 **Form Tag** (noun, category) — a Form Tag names the class of one Surface Form. every Surface Form has one Form Tag. the Category of the Lemma decides the Form Tag. the Surface Form "deleted" has the Form Tag "VERB_TRANS_ED", because the Lemma "delete" is a transitive verb.
   Examples: `NOUN_SG` · `VERB_TRANS_ED` · `COPULA_SG` · `the Surface Form "deleted" has the Form Tag "VERB_TRANS_ED".`
 
-**Function Word** (noun, category) — a Function Word is a word of a Closed Class. a Function Word marks the structure of a sentence. the Grammar gives one meaning to every Function Word, so a writer cannot add a sense.
+**Function Word** (noun, category) — a Function Word is a word of a Closed Class. a Function Word marks the structure of a sentence. the Grammar gives one meaning to every Function Word, so a author cannot add a sense.
   Examples: `the` · `not` · `if`
 
 **Gap** (noun, category) · a Rejection — a Gap is a Rejection of a good sentence. the language cannot say the sentence, so the maintainers fix the Gap with a decision. the folder "docs/adr" holds every decision.
@@ -151,12 +151,12 @@ examples); "a X" after the tag is the category the term belongs to
 **Imperative** (noun, category) · a Sentence Shape — an Imperative is a Sentence Shape. a verb opens an Imperative. the sentence "delete the file" is an Imperative. the reader is the addressee of an Imperative.
   Examples: `delete the file`
 
-**indexical** (adj) — an indexical word refers to the writer or refers to the reader.
+**indexical** (adj) — an indexical word refers to the author or refers to the reader.
 
-**Indexical Pronoun** (noun, category) · a Pronoun — an Indexical Pronoun is a Pronoun. the Pronoun "I" names the writer. the Pronoun "you" names the reader. the language allows every Indexical Pronoun, because the reader knows the referent.
+**Indexical Pronoun** (noun, category) · a Pronoun — an Indexical Pronoun is a Pronoun. the Pronoun "I" names the author. the Pronoun "you" names the reader. the language allows every Indexical Pronoun, because the reader knows the referent.
   Examples: `I` · `you`
 
-**intransitive** (adj) — an intransitive verb does not need an object.
+**intransitive** (adj) — an intransitive verb does not require an object.
   Examples: `the verb "fail" is intransitive.`
 
 **Language Model** (noun, category) — a Language Model is a program. a Language Model reads a text and writes a text. a Language Model reads a sentence in the order of the words. a Language Model holds a small memory, so a long Open Dependency hurts a Language Model.
@@ -181,10 +181,10 @@ examples); "a X" after the tag is the category the term belongs to
 
 **Markdown** (name, unique) — Markdown is a format for a text. the documents of the project use Markdown. Markdown turns the string "- " into a bullet, so an Enumeration is a list in Markdown.
 
-**Modifier** (noun, category) — a Modifier is an adjective or is a Prepositional Phrase. a Modifier describes one Noun Phrase, so the writer repeats the Modifier in every Conjunct.
+**Modifier** (noun, category) — a Modifier is an adjective or is a Prepositional Phrase. a Modifier describes one Noun Phrase, so the author repeats the Modifier in every Conjunct.
   Examples: `old` · `empty` · `of the report` · `the phrase "the old files" has the Modifier "old".`
 
-**Name** (noun, category) · a Noun Phrase — a Name is a Noun Phrase. a Name is a capitalized word or is a quoted span. if a capitalized word follows a capitalized word, then the Linter merges the 2 words into one Name. a Name does not inflect. the language bans every Anaphoric Pronoun, so the writer repeats the Name.
+**Name** (noun, category) · a Noun Phrase — a Name is a Noun Phrase. a Name is a capitalized word or is a quoted span. if a capitalized word follows a capitalized word, then the Linter merges the 2 words into one Name. a Name does not inflect. the language bans every Anaphoric Pronoun, so the author repeats the Name.
   Examples: `Lexgen` · `"seed.json"` · `Visual Studio Code (a name with 3 words)`
 
 **Negation** (noun, category) · a Sentence Shape — a Negation is a Sentence Shape. a Negation is a statement with the word "not". the language puts "does not" before a verb and puts "is not" before a Complement.
@@ -196,7 +196,7 @@ examples); "a X" after the tag is the category the term belongs to
 **Noun Preposition** (noun, unique) · a Function Word — the Noun Preposition is a Function Word. a Noun Preposition attaches to the prior noun. the word "of" is the Noun Preposition of the language. the phrase "a copy of the report" is one example. the word "of" attaches to the noun "copy".
   Examples: `of` · `a copy of the report`
 
-**Number Word** (noun, category) — a Number Word names a number with letters. the word "three" is a Number Word. the language bans every Number Word, so a writer writes the digit "3".
+**Number Word** (noun, category) — a Number Word names a number with letters. the word "three" is a Number Word. the language bans every Number Word, so a author writes the digit "3".
   Examples: `three`
 
 **Open Dependency** (noun, category) — an Open Dependency is a relation between 2 words of a sentence. the reader sees the first word and waits for the second word. the reader holds the first word in the memory of the reader, so the comfortable bound is 4 Open Dependencies.
@@ -230,7 +230,7 @@ examples); "a X" after the tag is the category the term belongs to
 **Prepositional Phrase** (noun, category) · a Constituent — a Prepositional Phrase is a Constituent. a preposition opens a Prepositional Phrase, and a Noun Phrase follows the preposition. the preposition decides the attachment. the phrase "of the report" attaches to the prior noun, because "of" is the Noun Preposition. the phrase "in the database" attaches to the verb, because "in" is a Verb Preposition.
   Examples: `in the database` · `of the report` · `the sentence "the agent stores the report in the database" has one Prepositional Phrase.`
 
-**Progressive** (noun, category) — a Progressive marks an ongoing action. the word "is" precedes a Participle in a Progressive. the language bans every Progressive, so the writer uses the present Tense.
+**Progressive** (noun, category) — a Progressive marks an ongoing action. the word "is" precedes a Participle in a Progressive. the language bans every Progressive, so the author uses the present Tense.
   Examples: `the agent is running` · `the sentence "the agent is running" is a Progressive.`
 
 **Prohibition** (noun, category) · a Sentence Shape — a Prohibition is a Sentence Shape for a command. the phrase "do not" opens a Prohibition and bans an action. the reader is the addressee of a Prohibition.
@@ -242,10 +242,10 @@ examples); "a X" after the tag is the category the term belongs to
 **Propositional Loss** (noun, category) — a Propositional Loss changes a claim of the original sentence. if a translation drops a quantifier, then the translation has a Propositional Loss. if a translation invents a doer, then the translation has a Propositional Loss. a Translation Pair must not have a Propositional Loss, so the maintainers fix the pair. if the maintainers cannot fix the pair, then the maintainers move the pair into the file "corpus/untranslatable.tsv".
   Examples: `a dropped quantifier` · `an invented doer` · `the translation dropped the word "all", so the pair has a Propositional Loss.`
 
-**Redirect** (noun, category) — a Redirect names a replacement for a Rejected Sense of a word. the entry of the word names the Redirect in the Seed. the Lexicon stores the Redirect. if a writer uses the Rejected Sense, then the Linter shows the Redirect.
+**Redirect** (noun, category) — a Redirect names a replacement for a Rejected Sense of a word. the entry of the word names the Redirect in the Seed. the Lexicon stores the Redirect. if a author uses the Rejected Sense, then the Linter shows the Redirect.
   Examples: `the Redirect of "file" names the word "submit".` · `the Redirect of "report" names the word "describe".`
 
-**Reduced Relative** (noun, category) — if a Participle follows a noun, then the Noun Phrase is a Reduced Relative. no word separates the noun from the Participle. the sentence "the file stored in the database fails" has a Reduced Relative. the language bans every Reduced Relative, so the writer splits the sentence into 2 sentences.
+**Reduced Relative** (noun, category) — if a Participle follows a noun, then the Noun Phrase is a Reduced Relative. no word separates the noun from the Participle. the sentence "the file stored in the database fails" has a Reduced Relative. the language bans every Reduced Relative, so the author splits the sentence into 2 sentences.
   Examples: `the file stored in the database fails`
 
 **Reference Ambiguity** (noun, category) — if a reader cannot find the referent of a Pronoun, then the sentence has a Reference Ambiguity. the design of the language removes every Reference Ambiguity.
@@ -260,7 +260,7 @@ examples); "a X" after the tag is the category the term belongs to
 **Rejection** (noun, category) — if the Linter does not parse a sentence, then the sentence is a Rejection. a Rejection is a Ban or is a Gap. the Linter must explain every Rejection and must name the kind of the Rejection.
   Examples: `the sentence "it fails" is a Rejection.` · `the sentence "the file stored in the database fails" is a Rejection.`
 
-**Scale Word** (noun, category) · a Function Word — a Scale Word is a Function Word. a Scale Word follows a number, so a writer can say a big number with 2 digits. the word "million" is a Scale Word. the phrase "20 million files" has a Scale Word.
+**Scale Word** (noun, category) · a Function Word — a Scale Word is a Function Word. a Scale Word follows a number, so a author can say a big number with 2 digits. the word "million" is a Scale Word. the phrase "20 million files" has a Scale Word.
   Examples: `million` · `thousand` · `20 million files`
 
 **Scope Ambiguity** (noun, category) — if a word can attach to 2 Constituents, then the sentence has a Scope Ambiguity. the reader cannot tell the attachment, so the reader guesses the meaning. the word "not" causes a Scope Ambiguity in English. the sentence "every agent does not retry the request" has 2 Parses in English. one Parse is "no agent retries the request". the second Parse is "some agents do not retry the request".
@@ -291,7 +291,7 @@ examples); "a X" after the tag is the category the term belongs to
 **Tense** (noun, category) — the Tense of a verb marks the time of the action. the language has 2 Tenses. the verb "deletes" has the present Tense. the verb "deleted" has the past Tense.
   Examples: `present` · `past` · `the verb "deleted" has the past Tense.`
 
-**transitive** (adj) — a transitive verb needs an object.
+**transitive** (adj) — a transitive verb requires an object.
   Examples: `the verb "delete" is transitive.`
 
 **Translation Pair** (noun, category) — a Translation Pair maps an original sentence of English to a sentence of Angloform. the Linter must parse the translation. the translation must keep every claim of the original sentence. the file "corpus/pairs.tsv" holds every Translation Pair with the Declared Losses of the pair.

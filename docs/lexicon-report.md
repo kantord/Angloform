@@ -4,9 +4,9 @@
 
 ## Summary
 
-- 1068 lemmas, 2240 surface forms, 515 redirects (33 word substitute, 472 advice-only, 10 gap)
+- 1058 lemmas, 2218 surface forms, 511 redirects (32 word substitute, 469 advice-only, 10 gap)
 - Domain model: 87 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 167, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 539, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 183, WHICH 1, WHO 1, YET 1
+- Lemmas per category: ADJ 165, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 533, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 181, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
@@ -34,7 +34,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - find (NOUN) → "discovery"
 - start (NOUN) → "beginning"
 - sweet (NOUN) → "candy"
-- need (NOUN) → "necessity"
 - edit (NOUN) → "revision"
 - show (NOUN) → "display"
 
@@ -151,7 +150,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - contrast (VERB): the verb sense ("to contrast two things") is not enabled; angloform allows one sense per word
 - correct (VERB): the verb sense ("to correct a mistake") is not enabled; angloform allows one sense per word
 - cover (NOUN): the noun sense (a cover, e.g. of a book) is not enabled; angloform allows one sense per word
-- alternative (ADJ): the adjective sense ("an alternative route") is not enabled; angloform allows one sense per word
 - attach (NOUN): the reference data attests a noun use of "attach"; no common meaning could be confirmed — not enabled
 - join (NOUN): the noun sense (a join, e.g. in carpentry or a database) is not enabled; angloform allows one sense per word
 - command (VERB): the verb sense ("to command an army") is not enabled; angloform allows one sense per word
@@ -262,7 +260,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - narrow (ADJ): the adjective sense ("a narrow path") is not enabled; angloform allows one sense per word
 - narrow (NOUN): the noun sense (a narrow — a narrow strait or passage) is not enabled; angloform allows one sense per word
 - generic (NOUN): the noun sense (a generic — an unbranded product or drug) is not enabled; angloform allows one sense per word
-- universal (NOUN): the noun sense (philosophy jargon — a universal, as opposed to a particular) is not enabled; angloform allows one sense per word
 - purpose (VERB): the verb sense (formal/archaic — "I purpose to do something") is not enabled; angloform allows one sense per word
 - position (VERB): the verb sense ("to position something") is not enabled; angloform allows one sense per word
 - cache (VERB): the verb sense (computing — "to cache a value") is not enabled; angloform allows one sense per word
@@ -418,7 +415,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - fraction (VERB): the verb sense (chemistry jargon — to separate into fractions) is not enabled; angloform allows one sense per word
 - range (VERB): the verb sense ("prices range from X to Y") is not enabled; angloform allows one sense per word
 - superlative (ADJ): the adjective sense ("superlative skill", meaning excellent) is not enabled; angloform allows one sense per word
-- revert (NOUN): the noun sense (rare — property, or a person, that reverts) is not enabled; angloform allows one sense per word
 - suffix (VERB): the verb sense (linguistics — "to suffix a letter to a word") is not enabled; angloform allows one sense per word
 - standard (ADJ): the adjective sense ("standard procedure") is not enabled; angloform allows one sense per word
 - later (ADV): the adverbial sense ("see you later") is not enabled; angloform has no adverb category

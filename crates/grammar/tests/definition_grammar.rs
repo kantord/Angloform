@@ -188,7 +188,7 @@ fn ten_more_words_round_2() {
     ok(DefKind::VerbTrans, "create", "make a new thing");
     ok(DefKind::VerbTrans, "cause", "give a reason for a thing");
     ok(DefKind::VerbTrans, "describe", "give a meaning for a thing");
-    ok(DefKind::VerbIntrans, "depend", "need a thing");
+    ok(DefKind::VerbIntrans, "depend", "require a thing");
     ok(DefKind::VerbIntrans, "belong", "come from a community or stay in a place");
     ok(DefKind::Adj, "empty", "not full");
 }

@@ -698,10 +698,10 @@ fn pattern_findings(toks: &[Tok]) -> Vec<String> {
             out.push("\"one\" is not a Pronoun — repeat the noun: \"the expressive formulation\" (ADR 0016)".to_string());
         }
     }
-    // an ordinal alone: "the criterion is first"
+    // an ordinal alone: "the standard is first"
     for (i, t) in toks.iter().enumerate() {
         if matches!(t, Tok::Ord(_)) && !matches!(toks.get(i + 1), Some(Tok::NounSg(_) | Tok::Adj(_) | Tok::AdjLong(_))) {
-            out.push(format!("\"{}\" needs its noun: \"the {} criterion\" (ADR 0029)", word(t), word(t)));
+            out.push(format!("\"{}\" needs its noun: \"the {} standard\" (ADR 0029)", word(t), word(t)));
         }
     }
     // "more" before a noun: a comparative of quantity

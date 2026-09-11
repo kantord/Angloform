@@ -91,7 +91,7 @@
   {
     "lemma": "redirect",
     "category": "NOUN",
-    "definition": "a Redirect names a replacement for a Rejected Sense of a word. the entry of the word names the Redirect in the Seed. the Lexicon stores the Redirect. if a writer uses the Rejected Sense, then the Linter shows the Redirect.",
+    "definition": "a Redirect names a replacement for a Rejected Sense of a word. the entry of the word names the Redirect in the Seed. the Lexicon stores the Redirect. if a author uses the Rejected Sense, then the Linter shows the Redirect.",
     "kind": "category",
     "examples": [
       "the Redirect of \"file\" names the word \"submit\".",
@@ -118,7 +118,7 @@
   {
     "lemma": "ban",
     "category": "NOUN",
-    "definition": "a Ban is a Rejection of an ambiguous structure. a Ban is permanent, so the writer restructures the sentence. the Linter explains the Ban and names the structure. if a Ban covers every sense of a word, then the word is a Ban.",
+    "definition": "a Ban is a Rejection of an ambiguous structure. a Ban is permanent, so the author restructures the sentence. the Linter explains the Ban and names the structure. if a Ban covers every sense of a word, then the word is a Ban.",
     "kind": "category",
     "examples": [
       "the word \"it\" is a Ban.",
@@ -204,7 +204,7 @@
   {
     "lemma": "anaphoric pronoun",
     "category": "NOUN",
-    "definition": "an Anaphoric Pronoun is a Pronoun for a noun of a prior sentence. the reader must find the noun, so the language bans every Anaphoric Pronoun. the writer repeats the noun.",
+    "definition": "an Anaphoric Pronoun is a Pronoun for a noun of a prior sentence. the reader must find the noun, so the language bans every Anaphoric Pronoun. the author repeats the noun.",
     "kind": "category",
     "examples": [
       "it",
@@ -216,7 +216,7 @@
   {
     "lemma": "indexical pronoun",
     "category": "NOUN",
-    "definition": "an Indexical Pronoun is a Pronoun. the Pronoun \"I\" names the writer. the Pronoun \"you\" names the reader. the language allows every Indexical Pronoun, because the reader knows the referent.",
+    "definition": "an Indexical Pronoun is a Pronoun. the Pronoun \"I\" names the author. the Pronoun \"you\" names the reader. the language allows every Indexical Pronoun, because the reader knows the referent.",
     "kind": "category",
     "examples": [
       "I",
@@ -227,7 +227,7 @@
   {
     "lemma": "discourse layer",
     "category": "NOUN",
-    "definition": "a Discourse Layer is a mechanism. the mechanism finds the noun of an Anaphoric Pronoun in the prior text. Angloform does not have a Discourse Layer, so the writer repeats the noun.",
+    "definition": "a Discourse Layer is a mechanism. the mechanism finds the noun of an Anaphoric Pronoun in the prior text. Angloform does not have a Discourse Layer, so the author repeats the noun.",
     "kind": "category",
     "examples": [
       "a Discourse Layer resolves the Pronoun \"it\" in the sentence \"it failed\"."
@@ -248,7 +248,7 @@
   {
     "lemma": "function word",
     "category": "NOUN",
-    "definition": "a Function Word is a word of a Closed Class. a Function Word marks the structure of a sentence. the Grammar gives one meaning to every Function Word, so a writer cannot add a sense.",
+    "definition": "a Function Word is a word of a Closed Class. a Function Word marks the structure of a sentence. the Grammar gives one meaning to every Function Word, so a author cannot add a sense.",
     "kind": "category",
     "examples": [
       "the",
@@ -358,13 +358,13 @@
   {
     "lemma": "indexical",
     "category": "ADJ",
-    "definition": "an indexical word refers to the writer or refers to the reader.",
+    "definition": "an indexical word refers to the author or refers to the reader.",
     "examples": []
   },
   {
     "lemma": "transitive",
     "category": "ADJ",
-    "definition": "a transitive verb needs an object.",
+    "definition": "a transitive verb requires an object.",
     "examples": [
       "the verb \"delete\" is transitive."
     ],
@@ -377,7 +377,7 @@
   {
     "lemma": "intransitive",
     "category": "ADJ",
-    "definition": "an intransitive verb does not need an object.",
+    "definition": "an intransitive verb does not require an object.",
     "examples": [
       "the verb \"fail\" is intransitive."
     ],
@@ -489,7 +489,7 @@
   {
     "lemma": "progressive",
     "category": "NOUN",
-    "definition": "a Progressive marks an ongoing action. the word \"is\" precedes a Participle in a Progressive. the language bans every Progressive, so the writer uses the present Tense.",
+    "definition": "a Progressive marks an ongoing action. the word \"is\" precedes a Participle in a Progressive. the language bans every Progressive, so the author uses the present Tense.",
     "kind": "category",
     "examples": [
       "the agent is running",
@@ -510,7 +510,7 @@
   {
     "lemma": "reduced relative",
     "category": "NOUN",
-    "definition": "if a Participle follows a noun, then the Noun Phrase is a Reduced Relative. no word separates the noun from the Participle. the sentence \"the file stored in the database fails\" has a Reduced Relative. the language bans every Reduced Relative, so the writer splits the sentence into 2 sentences.",
+    "definition": "if a Participle follows a noun, then the Noun Phrase is a Reduced Relative. no word separates the noun from the Participle. the sentence \"the file stored in the database fails\" has a Reduced Relative. the language bans every Reduced Relative, so the author splits the sentence into 2 sentences.",
     "kind": "category",
     "examples": [
       "the file stored in the database fails"
@@ -530,7 +530,7 @@
   {
     "lemma": "conjunct",
     "category": "NOUN",
-    "definition": "a Conjunct is one part of a Coordination. a Modifier describes one Conjunct, so the writer repeats the Modifier in the second Conjunct. a Prepositional Phrase attaches to one Conjunct.",
+    "definition": "a Conjunct is one part of a Coordination. a Modifier describes one Conjunct, so the author repeats the Modifier in the second Conjunct. a Prepositional Phrase attaches to one Conjunct.",
     "kind": "category",
     "examples": [
       "the predicate \"stores the message\" is a Conjunct of \"stores the message and returns the result\"."
@@ -539,7 +539,7 @@
   {
     "lemma": "modifier",
     "category": "NOUN",
-    "definition": "a Modifier is an adjective or is a Prepositional Phrase. a Modifier describes one Noun Phrase, so the writer repeats the Modifier in every Conjunct.",
+    "definition": "a Modifier is an adjective or is a Prepositional Phrase. a Modifier describes one Noun Phrase, so the author repeats the Modifier in every Conjunct.",
     "kind": "category",
     "examples": [
       "old",
@@ -660,7 +660,7 @@
   {
     "lemma": "context need",
     "category": "NOUN",
-    "definition": "the Context Need is a quantity. the Context Need of a sentence measures the prior text, because the reader needs the prior text for the meaning of the sentence. the sentence \"it failed\" has a big Context Need, because the reader must find the referent of \"it\" in the prior text. a good sentence has a small Context Need.",
+    "definition": "the Context Need is a quantity. the Context Need of a sentence measures the prior text, because the reader requires the prior text for the meaning of the sentence. the sentence \"it failed\" has a big Context Need, because the reader must find the referent of \"it\" in the prior text. a good sentence has a small Context Need.",
     "kind": "unique",
     "examples": [
       "the sentence \"it failed\" has a big Context Need."
@@ -787,7 +787,7 @@
   {
     "lemma": "compound",
     "category": "NOUN",
-    "definition": "a Compound joins 2 nouns. a determiner does not separate the 2 nouns. the phrase \"seed list\" is a Compound. the language bans every Compound, because the relation of the 2 nouns is unknown. if the model has a term for the thing, then the writer writes the term with a capital. if the model does not have a term, then the writer unfolds the Compound into a paraphrase. the paraphrase \"the initial words\" replaces the Compound \"seed list\".",
+    "definition": "a Compound joins 2 nouns. a determiner does not separate the 2 nouns. the phrase \"seed list\" is a Compound. the language bans every Compound, because the relation of the 2 nouns is unknown. if the model has a term for the thing, then the author writes the term with a capital. if the model does not have a term, then the author unfolds the Compound into a paraphrase. the paraphrase \"the initial words\" replaces the Compound \"seed list\".",
     "kind": "category",
     "examples": [
       "seed list",
@@ -820,7 +820,7 @@
   {
     "lemma": "name",
     "category": "NOUN",
-    "definition": "a Name is a Noun Phrase. a Name is a capitalized word or is a quoted span. if a capitalized word follows a capitalized word, then the Linter merges the 2 words into one Name. a Name does not inflect. the language bans every Anaphoric Pronoun, so the writer repeats the Name.",
+    "definition": "a Name is a Noun Phrase. a Name is a capitalized word or is a quoted span. if a capitalized word follows a capitalized word, then the Linter merges the 2 words into one Name. a Name does not inflect. the language bans every Anaphoric Pronoun, so the author repeats the Name.",
     "kind": "category",
     "examples": [
       "Lexgen",
@@ -881,7 +881,7 @@
   },
   {
     "lemma": "scale word",
-    "definition": "a Scale Word is a Function Word. a Scale Word follows a number, so a writer can say a big number with 2 digits. the word \"million\" is a Scale Word. the phrase \"20 million files\" has a Scale Word.",
+    "definition": "a Scale Word is a Function Word. a Scale Word follows a number, so a author can say a big number with 2 digits. the word \"million\" is a Scale Word. the phrase \"20 million files\" has a Scale Word.",
     "category": "NOUN",
     "kind": "category",
     "examples": [
@@ -893,7 +893,7 @@
   },
   {
     "lemma": "number word",
-    "definition": "a Number Word names a number with letters. the word \"three\" is a Number Word. the language bans every Number Word, so a writer writes the digit \"3\".",
+    "definition": "a Number Word names a number with letters. the word \"three\" is a Number Word. the language bans every Number Word, so a author writes the digit \"3\".",
     "category": "NOUN",
     "kind": "category",
     "examples": [

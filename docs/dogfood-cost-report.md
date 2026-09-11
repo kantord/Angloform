@@ -16,8 +16,8 @@ original.
 | 5 | 13 | 49.3 | 13 | 42.8 | 0.87 |
 | 6 | 16 | 62.9 | 18 | 59.0 | 0.94 |
 | 7 | 11 | 36.1 | 15 | 46.7 | 1.29 |
-| 8 | 18 | 77.2 | 38 | 124.7 | 1.62 |
-| 9 | 7 | 21.6 | 5 | 19.3 | 0.89 |
+| 8 | 18 | 77.2 | 38 | 125.4 | 1.62 |
+| 9 | 7 | 21.6 | 5 | 19.5 | 0.91 |
 | 10 | 33 | 137.7 | 53 | 184.8 | 1.34 |
 | 11 | 23 | 94.3 | 30 | 106.6 | 1.13 |
 | 12 | 30 | 169.3 | 66 | 268.4 | 1.59 |
@@ -25,12 +25,12 @@ original.
 | 14 | 26 | 108.5 | 32 | 123.5 | 1.14 |
 | 15 | 28 | 114.5 | 20 | 68.2 | 0.60 |
 | 16 | 16 | 89.2 | 23 | 86.1 | 0.97 |
-| 17 | 28 | 121.4 | 53 | 182.6 | 1.50 |
-| 18 | 19 | 90.5 | 33 | 143.2 | 1.58 |
+| 17 | 28 | 121.4 | 53 | 183.3 | 1.51 |
+| 18 | 19 | 90.5 | 33 | 142.9 | 1.58 |
 | 19 | 9 | 38.8 | 20 | 64.0 | 1.65 |
 | 20 | 10 | 38.6 | 26 | 85.5 | 2.22 |
 | 21 | 18 | 86.3 | 25 | 82.4 | 0.95 |
-| 22 | 24 | 98.7 | 36 | 119.4 | 1.21 |
+| 22 | 24 | 98.7 | 36 | 120.8 | 1.22 |
 | 23 | 28 | 124.8 | 51 | 154.8 | 1.24 |
 | 24 | 13 | 54.5 | 14 | 51.9 | 0.95 |
 | 25 | 27 | 122.4 | 32 | 110.8 | 0.91 |
@@ -40,13 +40,13 @@ original.
 | 29 | 17 | 87.7 | 25 | 81.7 | 0.93 |
 | 30 | 26 | 97.3 | 36 | 116.1 | 1.19 |
 | 31 | 18 | 77.5 | 25 | 77.4 | 1.00 |
-| 32 | 16 | 58.8 | 25 | 88.7 | 1.51 |
-| 33 | 26 | 115.7 | 52 | 164.5 | 1.42 |
+| 32 | 16 | 58.8 | 25 | 89.9 | 1.53 |
+| 33 | 26 | 115.7 | 52 | 165.2 | 1.43 |
 | 34 | 34 | 143.8 | 62 | 202.5 | 1.41 |
 | 35 | 25 | 101.9 | 50 | 148.9 | 1.46 |
 | 36 | 11 | 37.0 | 14 | 47.9 | 1.30 |
 
-**Aggregate:** 36 pairs — words 689 → 1039 (+51%), cost 2898.5 → 3539.5 (**ratio 1.22**)
+**Aggregate:** 36 pairs — words 689 → 1039 (+51%), cost 2898.5 → 3544.1 (**ratio 1.22**)
 
 ## Before → after
 
@@ -109,16 +109,16 @@ Declared loss: nominalization
 **8.** BEFORE (18 words, cost 77.2)
 > angloform needs a lexicon: every allowed surface form, each with exactly one form-tag, plus redirects for rejected uses.
 
-AFTER (38 words, cost 124.7, **162%** of original) — 5 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 23%
-> The language needs a Lexicon. The Lexicon contains every Surface Form of the words. Every Surface Form has one Form Tag. A word can have an unused sense. The Lexicon can contain a replacement for the unused sense.
+AFTER (38 words, cost 125.4, **162%** of original) — 5 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 23%
+> The language requires a Lexicon. The Lexicon contains every Surface Form of the words. Every Surface Form has one Form Tag. A word can have an unused sense. The Lexicon can contain a replacement for the unused sense.
 
 Declared loss: terminology
 
 **9.** BEFORE (7 words, cost 21.6)
 > Three ways to produce it were considered.
 
-AFTER (5 words, cost 19.3, **89%** of original) — 1 sentence(s), each parses uniquely ✓, peak-open 2, right-branching 25%
-> The maintainers considered 3 options.
+AFTER (5 words, cost 19.5, **91%** of original) — 1 sentence(s), each parses uniquely ✓, peak-open 2, right-branching 25%
+> The maintainers considered 3 choices.
 
 Declared loss: topic-structure
 
@@ -181,16 +181,16 @@ Declared loss: ranking,citation
 **17.** BEFORE (28 words, cost 121.4)
 > But third-person pronouns are anaphoric: resolving "it failed" requires a discourse layer, and our research findings identify cross-sentence reference as exactly where ambiguity reappears after sentences are split.
 
-AFTER (53 words, cost 182.6, **150%** of original) — 5 sentence(s), each parses uniquely ✓, peak-open 5, right-branching 28%
-> An Anaphoric Pronoun refers to a noun of a prior sentence. The reader must find the noun. The sentence "it failed" needs a Discourse Layer. The file "docs/research/cnl-design-findings.md" describes the results of the research. If a tool splits a sentence into 2 sentences, then the ambiguity reappears in the Pronouns of the sentences.
+AFTER (53 words, cost 183.3, **151%** of original) — 5 sentence(s), each parses uniquely ✓, peak-open 5, right-branching 28%
+> An Anaphoric Pronoun refers to a noun of a prior sentence. The reader must find the noun. The sentence "it failed" requires a Discourse Layer. The file "docs/research/cnl-design-findings.md" describes the results of the research. If a tool splits a sentence into 2 sentences, then the ambiguity reappears in the Pronouns of the sentences.
 
 Declared loss: emphasis,discourse-link
 
 **18.** BEFORE (19 words, cost 90.5)
 > First- and second-person pronouns are indexical (speaker/hearer), never anaphoric, and carry no reference ambiguity; instructional text uses them constantly.
 
-AFTER (33 words, cost 143.2, **158%** of original) — 4 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 24%
-> An Indexical Pronoun refers to the writer or refers to the reader. An Indexical Pronoun is not an Anaphoric Pronoun. An Indexical Pronoun does not cause a Reference Ambiguity. Instructions use Indexical Pronouns.
+AFTER (33 words, cost 142.9, **158%** of original) — 4 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 24%
+> An Indexical Pronoun refers to the author or refers to the reader. An Indexical Pronoun is not an Anaphoric Pronoun. An Indexical Pronoun does not cause a Reference Ambiguity. Instructions use Indexical Pronouns.
 
 Declared loss: emphasis
 
@@ -221,8 +221,8 @@ Declared loss: example,register
 **22.** BEFORE (24 words, cost 98.7)
 > be is the single largest missing lemma in triage (~850 AUX tokens in UD-EWT). Predication ("the file is old") is unavoidable for general text.
 
-AFTER (36 words, cost 119.4, **121%** of original) — 4 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 34%
-> Triage counts about 850 tokens of the word "be" in the corpus. The word "be" makes a big hole in the Coverage. Every text needs the Copula. The sentence "the file is old" needs the Copula.
+AFTER (36 words, cost 120.8, **122%** of original) — 4 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 34%
+> Triage counts about 850 tokens of the word "be" in the corpus. The word "be" makes a big hole in the Coverage. Every text requires the Copula. The sentence "the file is old" requires the Copula.
 
 Declared loss: ranking
 
@@ -301,16 +301,16 @@ Declared loss: comparative
 **32.** BEFORE (16 words, cost 58.8)
 > not is ×204 in triage; prohibition ("do not delete the file") is core to instructional text.
 
-AFTER (25 words, cost 88.7, **151%** of original) — 3 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 35%
-> Triage counts about 204 tokens of the word "not" in the corpus. Instructions need Prohibitions. The sentence "do not delete the file" is a Prohibition.
+AFTER (25 words, cost 89.9, **153%** of original) — 3 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 35%
+> Triage counts about 204 tokens of the word "not" in the corpus. Instructions require Prohibitions. The sentence "do not delete the file" is a Prohibition.
 
 Declared loss: emphasis
 
 **33.** BEFORE (26 words, cost 115.7)
 > English verbal negation requires do-support, and do is an auxiliary — a category v0 otherwise avoids. Constituent negation ("not all users", "not old") introduces scope ambiguity.
 
-AFTER (52 words, cost 164.5, **142%** of original) — 7 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 28%
-> A Negation of a verb needs the word "do" in English. The word "do" is an Auxiliary. The language avoids Auxiliaries. The word "not" can change one Constituent. The phrase "not all users" is one example. The phrase "not old" is one example. A Negation of a Constituent causes a Scope Ambiguity.
+AFTER (52 words, cost 165.2, **143%** of original) — 7 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 28%
+> A Negation of a verb requires the word "do" in English. The word "do" is an Auxiliary. The language avoids Auxiliaries. The word "not" can change one Constituent. The phrase "not all users" is one example. The phrase "not old" is one example. A Negation of a Constituent causes a Scope Ambiguity.
 
 Declared loss: none (lossless per ADR 0012)
 

@@ -35,7 +35,7 @@ fn scopes_the_subject() {
 
 #[test]
 fn scopes_a_pp_object() {
-    ok("the agent gives only the report to the writer.");
+    ok("the agent gives only the report to the author.");
 }
 
 #[test]

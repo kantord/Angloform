@@ -30,7 +30,7 @@ fn rejects(s: &str) {
 
 #[test]
 fn a_relative_clause_can_follow_a_transitive_clause() {
-    ok("the Lexer produces the token, which helps the writer.");
+    ok("the Lexer produces the token, which helps the author.");
 }
 
 #[test]
@@ -45,7 +45,7 @@ fn who_and_which_are_grammar_interchangeable() {
     // accepts either relativizer regardless of the real antecedent's
     // animacy. This test documents today's true behavior, not the
     // eventual naturalness-correct one.
-    ok("the Lexer produces the token, who helps the writer.");
+    ok("the Lexer produces the token, who helps the author.");
     ok("the tool trusts the maintainers, which write the report.");
 }
 
@@ -58,12 +58,12 @@ fn a_relative_clause_can_follow_an_intransitive_clause() {
     // is really subject-attachment slipping in through the back door —
     // v2's territory, gated on testing, per the design doc. Grammar
     // accepts it today; a Linter check would need to reject it.
-    ok("the Lexer sits, which helps the writer.");
+    ok("the Lexer sits, which helps the author.");
 }
 
 #[test]
 fn that_stays_banned_as_a_relativizer() {
-    rejects("the Lexer produces the token, that helps the writer.");
+    rejects("the Lexer produces the token, that helps the author.");
 }
 
 #[test]
@@ -83,7 +83,7 @@ fn a_bare_relative_clause_cannot_open_a_sentence() {
     // never reaches a state where a relative clause could attach
     // directly to the subject mid-sentence (the shape the original,
     // embedded design would have needed to explicitly forbid).
-    rejects("the Lexer, which produces the token, helps the writer.");
+    rejects("the Lexer, which produces the token, helps the author.");
 }
 
 #[test]

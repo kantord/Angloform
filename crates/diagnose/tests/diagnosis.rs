@@ -77,11 +77,11 @@ fn rejections_get_named_diagnoses() {
         ("the Triage checks the tokens", "takes no determiner"),
         ("the file be old", "exists only after a modal"),
         ("Then the queue is empty", "inside a Step Block"),
-        ("every decision about a structure uses 3 criteria", "exists only before digits"),
+        ("every decision about a structure uses 3 standards", "exists only before digits"),
         ("the rule keeps the loss small", "carries the result"),
-        ("every Grammar ADR uses the 3 criteria", "only after"),
-        ("the writer prefers the more expressive one", "not a Pronoun"),
-        ("the criterion of the Cognitive Load is first", "needs its noun"),
+        ("every Grammar ADR uses the 3 standards", "only after"),
+        ("the author prefers the more expressive one", "not a Pronoun"),
+        ("the standard of the Cognitive Load is first", "needs its noun"),
         ("if the test fails and the agent retries the request, then the queue is empty", "comma before"),
         ("the Grammar gives every sentence one Parse", "one object"),
         ("the rule keeps the Cognitive Load of the sentence small", "carries the result"),
@@ -193,7 +193,7 @@ fn same_verb_coordination_is_banned_but_only_the_plain_shape() {
         other => panic!("expected STYLE, got {other:?}"),
     }
     // nested inside a Conditional's Clause, not just top-level S
-    match diagnose(&lexicon, "if the agent saves the report and saves the file, then the writer reads the report") {
+    match diagnose(&lexicon, "if the agent saves the report and saves the file, then the author reads the report") {
         Diagnosis::Style(findings) => {
             assert!(findings.iter().any(|f| f.contains("repeats across the coordination")), "{findings:?}");
         }
@@ -285,7 +285,7 @@ fn other_also_verifies_same_noun_complements() {
         matches!(diagnose(&lexicon, "the mechanism names: the report and some other reports"), Diagnosis::Clean(_)),
         "same head noun, plural, should verify without any domain relationship"
     );
-    match diagnose(&lexicon, "the mechanism names: the writer and every other agent") {
+    match diagnose(&lexicon, "the mechanism names: the author and every other agent") {
         Diagnosis::Style(findings) => {
             assert!(findings.iter().any(|f| f.contains("neither holds")), "{findings:?}");
         }

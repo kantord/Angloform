@@ -243,9 +243,6 @@ alone	form	ADJ_LONG	alone
 alone	reject_advice	ADV	only the predicate use is enabled ("I am alone", ADR 0052); the adverbial sense ("leave it alone") is deferred; angloform has no adverb category
 already	form	TEMP_ADV	already
 also	ban	-	"also" adds a second claim - write the claim as its own sentence; the reader keeps both
-alternative	form	NOUN_SG	alternative
-alternative	reject_advice	ADJ	the adjective sense ("an alternative route") is not enabled; angloform allows one sense per word
-alternatives	form	NOUN_PL	alternative
 am	form	COPULA_1SG	am
 ambiguities	form	NOUN_PL	ambiguity
 ambiguity	form	NOUN_SG	ambiguity
@@ -411,8 +408,6 @@ bluntest	form	ADJ_SUP	blunt
 bound	form	NOUN_SG	bound
 bound	reject_advice	ADJ	the adjective sense ("bound for home", meaning destined) is not enabled; angloform allows one sense per word
 bound	reject_advice	VERB	the verb sense ("to bound across the field", meaning to leap) is not enabled; angloform allows one sense per word
-boundaries	form	NOUN_PL	boundary
-boundary	form	NOUN_SG	boundary
 bounds	form	NOUN_PL	bound
 bracketing	form	NOUN_SG	bracketing
 bracketings	form	NOUN_PL	bracketing
@@ -740,8 +735,6 @@ creates	form	VERB_TRANS_3SG	create
 creating	form	VERB_TRANS_ING	create
 creature	form	NOUN_SG	creature
 creatures	form	NOUN_PL	creature
-criteria	form	NOUN_PL	criterion
-criterion	form	NOUN_SG	criterion
 curate	form	VERB_TRANS_BASE	curate
 curate	reject_advice	NOUN	the noun sense (an assistant to a vicar or rector, ecclesiastical) is not enabled; angloform allows one sense per word
 curated	form	VERB_TRANS_ED	curate
@@ -1762,11 +1755,6 @@ naturalness	form	NOUN_SG	naturalness
 naturalnesses	form	NOUN_PL	naturalness
 nature	form	NOUN_SG	nature
 natures	form	NOUN_PL	nature
-need	form	VERB_TRANS_BASE	need
-need	reject	NOUN	necessity
-needed	form	VERB_TRANS_ED	need
-needing	form	VERB_TRANS_ING	need
-needs	form	VERB_TRANS_3SG	need
 negated	ban	-	"negated" cannot modify a noun - write "a statement with \"not\"" or "a Negation"
 negation	term	-	Negation
 negations	term	-	Negations
@@ -1854,9 +1842,7 @@ optimize	form	VERB_TRANS_BASE	optimize
 optimized	form	VERB_TRANS_ED	optimize
 optimizes	form	VERB_TRANS_3SG	optimize
 optimizing	form	VERB_TRANS_ING	optimize
-option	form	NOUN_SG	option
 optional	form	ADJ_LONG	optional
-options	form	NOUN_PL	option
 or	form	CONJ	or
 order	form	NOUN_SG	order
 order	reject_advice	VERB	the verb sense ("to order food") is not enabled; angloform allows one sense per word
@@ -2020,7 +2006,6 @@ precedent	reject_advice	ADJ	the adjective sense (formal/legal — "precedent" me
 precedents	form	NOUN_PL	precedent
 precedes	form	VERB_TRANS_3SG	precede
 preceding	form	VERB_TRANS_ING	precede
-precise	form	ADJ_LONG	precise
 precision	form	NOUN_SG	precision
 precisions	form	NOUN_PL	precision
 precondition	form	NOUN_SG	precondition
@@ -2337,11 +2322,6 @@ returning	form	VERB_TRANS_ING	return
 returns	form	VERB_TRANS_3SG	return
 reversal	form	NOUN_SG	reversal
 reversals	form	NOUN_PL	reversal
-revert	form	VERB_TRANS_BASE	revert
-revert	reject_advice	NOUN	the noun sense (rare — property, or a person, that reverts) is not enabled; angloform allows one sense per word
-reverted	form	VERB_TRANS_ED	revert
-reverting	form	VERB_TRANS_ING	revert
-reverts	form	VERB_TRANS_3SG	revert
 review	form	VERB_TRANS_BASE	review
 review	reject_advice	NOUN	the noun sense (a review) is not enabled; angloform allows one sense per word
 reviewed	form	VERB_TRANS_ED	review
@@ -2786,8 +2766,6 @@ took	form	VERB_TRANS_ED	take
 tool	form	NOUN_SG	tool
 tool	reject_advice	VERB	the verb sense ("to tool around") is not enabled; irrelevant to this domain
 tools	form	NOUN_PL	tool
-topic	form	NOUN_SG	topic
-topics	form	NOUN_PL	topic
 touch	form	VERB_TRANS_BASE	touch
 touch	reject_advice	NOUN	the noun sense ("a personal touch"; rugby "touch") is not enabled; angloform allows one sense per word
 touched	form	VERB_TRANS_ED	touch
@@ -2857,8 +2835,6 @@ unfolding	form	VERB_TRANS_ING	unfold
 unfolds	form	VERB_TRANS_3SG	unfold
 unit	form	NOUN_SG	unit
 units	form	NOUN_PL	unit
-universal	form	ADJ_LONG	universal
-universal	reject_advice	NOUN	the noun sense (philosophy jargon — a universal, as opposed to a particular) is not enabled; angloform allows one sense per word
 unknown	form	ADJ_LONG	unknown
 unknown	reject_advice	NOUN	the noun sense (an unknown, e.g. in mathematics, or "the unknown") is not enabled; angloform allows one sense per word
 unlikely	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
@@ -2982,8 +2958,6 @@ world	form	NOUN_SG	world
 world	reject_advice	ADJ	the adjective (attributive) sense ("a world record", "world class") is not enabled; angloform allows one sense per word
 worlds	form	NOUN_PL	world
 write	form	VERB_TRANS_BASE	write
-writer	form	NOUN_SG	writer
-writers	form	NOUN_PL	writer
 writes	form	VERB_TRANS_3SG	write
 writing	form	VERB_TRANS_ING	write
 written	form	VERB_TRANS_ED	write

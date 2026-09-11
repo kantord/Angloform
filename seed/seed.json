@@ -477,17 +477,6 @@
     }
   },
   {
-    "lemma": "need",
-    "category": "VERB_TRANS",
-    "reject": {
-      "NOUN": "necessity"
-    },
-    "note": "frequency guard will flag necessity; kept — rephrase advice acceptable (ADR 0008 review)",
-    "forms": {
-      "ing": "needing"
-    }
-  },
-  {
     "lemma": "source",
     "category": "NOUN",
     "reject": {
@@ -835,14 +824,6 @@
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "languages"
-    }
-  },
-  {
-    "lemma": "option",
-    "category": "NOUN",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "options"
     }
   },
   {
@@ -1370,14 +1351,6 @@
       "VERB": {
         "advice": "the verb sense (to project, e.g. an image or a plan) is not enabled; angloform allows one sense per word"
       }
-    }
-  },
-  {
-    "lemma": "writer",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "plural": "writers"
     }
   },
   {
@@ -2651,19 +2624,6 @@
     }
   },
   {
-    "lemma": "alternative",
-    "category": "NOUN",
-    "note": "ADR 0004 rewrite",
-    "forms": {
-      "plural": "alternatives"
-    },
-    "reject": {
-      "ADJ": {
-        "advice": "the adjective sense (\"an alternative route\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "preposition",
     "category": "NOUN",
     "note": "ADR 0004 rewrite",
@@ -2855,14 +2815,6 @@
       "NOUN": {
         "advice": "the noun sense (a limit) is not enabled; angloform allows one sense per word"
       }
-    }
-  },
-  {
-    "lemma": "criterion",
-    "category": "NOUN",
-    "note": "ADR 0006 rewrite",
-    "forms": {
-      "plural": "criteria"
     }
   },
   {
@@ -3432,11 +3384,6 @@
     "note": "ADR 0006 rewrite"
   },
   {
-    "lemma": "precise",
-    "category": "ADJ",
-    "note": "ADR 0006 rewrite"
-  },
-  {
     "lemma": "verbose",
     "category": "ADJ",
     "note": "ADR 0006 rewrite"
@@ -3648,14 +3595,6 @@
     "forms": {
       "plural": "markers"
     }
-  },
-  {
-    "lemma": "boundary",
-    "category": "NOUN",
-    "forms": {
-      "plural": "boundaries"
-    },
-    "note": "ADR 0007 rewrite"
   },
   {
     "lemma": "consequent",
@@ -4353,16 +4292,6 @@
     "note": "ADR 0010-0013 rewrite",
     "forms": {
       "plural": "exceptions"
-    }
-  },
-  {
-    "lemma": "universal",
-    "category": "ADJ",
-    "note": "ADR 0010-0013 rewrite",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (philosophy jargon — a universal, as opposed to a particular) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -6618,14 +6547,6 @@
     }
   },
   {
-    "lemma": "topic",
-    "category": "NOUN",
-    "note": "ADR 0026",
-    "forms": {
-      "plural": "topics"
-    }
-  },
-  {
     "lemma": "orthography",
     "category": "NOUN",
     "note": "ADR 0027"
@@ -6825,20 +6746,6 @@
     "note": "ADR 0029-0030 rewrite",
     "forms": {
       "plural": "durations"
-    }
-  },
-  {
-    "lemma": "revert",
-    "category": "VERB_TRANS",
-    "note": "ADR 0029-0030 rewrite",
-    "forms": {
-      "third": "reverts",
-      "past": "reverted"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (rare — property, or a person, that reverts) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
