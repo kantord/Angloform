@@ -10,14 +10,15 @@ low-frequency words, but silently unresolved among the words people
 actually use most is a real gap (found 2026-09-11: 62 of the top 100
 words by frequency were neither enabled nor rejected).
 
-This gates only the highest-frequency slice (--top, default 100): each of
+This gates only the highest-frequency slice (--top, default 250, raised
+from 100 on 2026-09-11 once the first 100 were fully resolved): each of
 those candidates must be enabled (seed/definitions, seed.json, or a
 vocabulary pack) or carry a `rejected` reason. Lower-frequency candidates
 stay an honest, unenforced backlog — same policy as the vocab-ratchet
 process's own "automated only, skip manual review at the tail" call.
 
 Usage:
-  python3 scripts/candidate-coverage-check.py            # gate, top 100
+  python3 scripts/candidate-coverage-check.py            # gate, top 250
   python3 scripts/candidate-coverage-check.py --top 500  # gate, top 500
 """
 import argparse
@@ -58,7 +59,7 @@ def load_freq_rank():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--top", type=int, default=100)
+    ap.add_argument("--top", type=int, default=250)
     args = ap.parse_args()
 
     cands = yaml.safe_load((ROOT / "docs" / "vocabulary-candidates.yaml").read_text())

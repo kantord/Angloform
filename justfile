@@ -22,8 +22,8 @@ redundancy:
     python3 scripts/redundancy-check.py
 
 # candidate-coverage report at any N (`just check` runs it at the enforced
-# default of 100)
-candidate-coverage N="100":
+# default of 250)
+candidate-coverage N="250":
     python3 scripts/candidate-coverage-check.py --top {{N}}
 
 # regenerate web/src/lib/dictionary-data.json from seed/definitions/*.yaml
