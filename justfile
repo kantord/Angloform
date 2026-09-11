@@ -1,12 +1,24 @@
 # angloform task runner — `just <target>`
 
-# run every repo invariant (tests, regeneration, drift check)
+# THE single entry point: every validation in the repo, Rust and web
+# alike (tests, regeneration, drift check, homophones, web typecheck/
+# unit/e2e). Run before every commit; CI runs exactly this, nothing else.
 check:
     ./scripts/check.sh
 
 # fetch/derive the non-vendored reference data
 fetch-data:
     ./scripts/fetch-data.sh
+
+# full homophone report across the whole enabled lexicon (informational —
+# needs espeak-ng; `just check` runs the enforced seed/definitions-only gate)
+homophones:
+    python3 scripts/homophone-check.py
+
+# regenerate web/src/lib/dictionary-data.json from seed/definitions/*.yaml
+# (web/package.json's build/dev scripts already run this automatically)
+dictionary-data:
+    python3 scripts/build-dictionary-data.py
 
 # regenerate the linter showcase
 showcase:
@@ -37,7 +49,8 @@ web:
 web-build:
     cd web && pnpm build
 
-# unit + e2e tests of the playground
+# unit + e2e tests of the playground only — a fast subset for iterating
+# on web/ alone; `just check` is the full gate and already includes this
 web-test:
     cd web && pnpm build && pnpm test && pnpm test:e2e
 

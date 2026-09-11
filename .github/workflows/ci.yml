@@ -10,40 +10,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
       - uses: Swatinem/rust-cache@v2
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: ./scripts/check.sh
-
-  web:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: pnpm
           cache-dependency-path: web/pnpm-lock.yaml
-      - uses: dtolnay/rust-toolchain@stable
-        with:
-          targets: wasm32-unknown-unknown
-      - name: Install deps
+      - run: sudo apt-get update && sudo apt-get install -y espeak-ng
+      - name: Install playwright OS dependencies
         working-directory: web
-        run: pnpm install --frozen-lockfile
-      - name: Build wasm
-        working-directory: web
-        run: bash scripts/build-wasm.sh
-      - name: Typecheck
-        working-directory: web
-        run: pnpm typecheck
-      - name: Unit tests
-        working-directory: web
-        run: pnpm test
-      - name: Install playwright browsers
-        working-directory: web
-        run: pnpm exec playwright install --with-deps chromium
-      - name: E2E tests
-        working-directory: web
-        run: pnpm test:e2e
+        run: pnpm install --frozen-lockfile && pnpm exec playwright install --with-deps chromium
+      - run: ./scripts/check.sh

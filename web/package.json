@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "bash scripts/build-wasm.sh && vite build",
-    "dev": "bash scripts/build-wasm.sh && vite",
+    "build": "bash scripts/build-wasm.sh && python3 ../scripts/build-dictionary-data.py && vite build",
+    "dev": "bash scripts/build-wasm.sh && python3 ../scripts/build-dictionary-data.py && vite",
     "preview": "vite preview",
     "test": "vitest run",
     "test:e2e": "playwright test",

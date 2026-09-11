@@ -1343,8 +1343,6 @@ horror	form	NOUN_SG	horror
 horrors	form	NOUN_PL	horror
 house	form	NOUN_SG	house
 house	reject_advice	VERB	the verb sense ("to house someone") is deferred, out of scope for this pack
-household	form	NOUN_SG	household
-households	form	NOUN_PL	household
 houses	form	NOUN_PL	house
 huge	form	ADJ_LONG	huge
 human	form	NOUN_SG	human

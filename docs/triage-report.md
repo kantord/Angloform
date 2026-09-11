@@ -9,38 +9,38 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 ## Sentence buckets
 
 - **Perfect** (every token usable as-is): 7 (0.3%)
-- **Close** (1–2 problem tokens): 512 (25.1%)
-- **Far** (3+ problem tokens): 1518 (74.5%)
+- **Close** (1–2 problem tokens): 520 (25.5%)
+- **Far** (3+ problem tokens): 1510 (74.1%)
 
 ## Token verdicts
 
 | verdict | tokens | share |
 |---|---|---|
-| OK | 8235 | 37.7% |
+| OK | 8303 | 38.0% |
 | REDIRECT (designed rejection with suggestion) | 305 | 1.4% |
-| MISMATCH (enabled word, uncovered POS) | 1981 | 9.1% |
+| MISMATCH (enabled word, uncovered POS) | 2053 | 9.4% |
 | PROPN (out of scope) | 2075 | 9.5% |
-| OOV | 9251 | 42.3% |
+| OOV | 9111 | 41.7% |
 
 ## OOV by gold UPOS
 
-- NOUN: 3121
-- ADJ: 1275
-- VERB: 1131
+- NOUN: 3056
+- ADJ: 1271
+- VERB: 1122
 - PRON: 1084
-- ADV: 931
+- ADV: 923
 - NUM: 495
 - AUX: 319
 - DET: 264
-- ADP: 250
-- SCONJ: 173
+- ADP: 204
+- SCONJ: 165
 - INTJ: 112
 - PART: 70
 - CCONJ: 26
 
 ## Top missing lemmas (curation candidates — human decides)
 
-it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET (×111), that/PRON (×105), would/AUX (×91), he/PRON (×82), that/SCONJ (×81), great/ADJ (×72), 's/PART (×70), service/NOUN (×67), what/PRON (×59), just/ADV (×57), very/ADV (×57), want/VERB (×53), our/PRON (×50), thanks/NOUN (×49), this/PRON (×49), there/PRON (×48), all/DET (×46), up/ADP (×46), any/DET (×45), could/AUX (×44), his/PRON (×40), food/NOUN (×39), look/VERB (×38), as/ADP (×36), as/SCONJ (×35), here/ADV (×35), please/INTJ (×34), now/ADV (×33), out/ADP (×33), should/AUX (×33), think/VERB (×32), year/NOUN (×31), there/ADV (×30), when/ADV (×30), their/PRON (×29), try/VERB (×29)
+it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET (×111), that/PRON (×105), would/AUX (×91), he/PRON (×82), that/SCONJ (×81), great/ADJ (×72), 's/PART (×70), service/NOUN (×67), what/PRON (×59), just/ADV (×57), very/ADV (×57), want/VERB (×53), our/PRON (×50), thanks/NOUN (×49), this/PRON (×49), there/PRON (×48), all/DET (×46), any/DET (×45), could/AUX (×44), his/PRON (×40), food/NOUN (×39), look/VERB (×38), as/ADP (×36), as/SCONJ (×35), here/ADV (×35), please/INTJ (×34), now/ADV (×33), out/ADP (×33), should/AUX (×33), think/VERB (×32), year/NOUN (×31), there/ADV (×30), when/ADV (×30), their/PRON (×29), try/VERB (×29), call/VERB (×28)
 
 ## Redirect hits (the rejection rules doing their job)
 
@@ -70,13 +70,13 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 - I used as PRON ×70
 - so used as ADV ×61
 - be used as VERB ×48
+- up used as ADP ×46
 - do used as VERB ×45
 - one used as NUM ×34
 - which used as PRON ×33
 - who used as PRON ×30
 - about used as ADP ×26
 - for used as SCONJ ×24
-- other used as ADJ ×22
 
 ## Samples for manual review
 

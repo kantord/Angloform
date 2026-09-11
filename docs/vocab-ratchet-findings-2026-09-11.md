@@ -350,3 +350,37 @@ though only 34,674 candidates actually exist at that request) — worth
 fixing in `scripts/vocab-candidates.py` at some point to record the real
 ceiling reached, not the requested value, so a future run doesn't
 mistakenly think there's more headroom than there is.
+
+## Retroactive audit: pointing the redundancy checker at the existing lexicon (2026-09-11)
+
+Ran the same same-synset checker in a new direction — not "does this new
+candidate duplicate something enabled," but "do two *already-enabled*
+words duplicate each other" — across the whole merged lexicon
+(`seed.json` + `seed/definitions/`). 303 raw pairs came back.
+
+**Most are not real findings.** This check is much higher-risk than the
+candidate-vs-enabled direction: rejecting an unintegrated new candidate
+costs nothing if wrong, but flagging an *already-live* word for removal
+risks breaking real dogfooded content or re-litigating a decision the
+original design-doc trial already made deliberately (`create`/`build`
+vs. `make` collide in this synset data too — but the design doc
+explicitly checked and fixed that exact collision on purpose, using
+`new`/`from parts` differentiae; re-flagging it here would just be
+noise). Spot-checked real usage counts (`grep -rwoc` across `docs/*.md` +
+`corpus/*.tsv`) for a sample before drawing any conclusion — e.g.
+`human`(170)/`man`(6): the shared synset is an obscure "mankind" sense of
+`man`, unrelated to how either word is actually curated here.
+
+**One real, actionable finding**: `household` (admitted this session, in
+the manual N=5000 NOUN batch, *before* the redundancy checker existed) is
+a genuine duplicate of `home`/`house` — WordNet synset `08078020`
+literally lists `family, household, house, home, menage` together as "a
+social unit living together." Confirmed via real usage counts: `household`
+had ~0 uses anywhere (brand new), so removing it was free. Fixed —
+`household.yaml` deleted, ledger updated with the real reason.
+
+**Conclusion, not acted on further**: the other ~300 pairs are a real
+but much slower, higher-judgment cleanup task — needs the same
+per-pair usage-count check as `household`/`delete`/`remove` before any
+action, not a mechanical sweep. Left as a named, deferred task rather
+than either ignored or rushed.

@@ -50,7 +50,15 @@ export default function App() {
   return (
     <div className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-8">
       <header className="flex flex-col gap-1">
-        <h1 className="font-heading text-3xl font-semibold tracking-tight">angloform</h1>
+        <div className="flex items-center justify-between gap-3">
+          <h1 className="font-heading text-3xl font-semibold tracking-tight">angloform</h1>
+          <a
+            href="./dictionary.html"
+            className="text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+          >
+            dictionary &rarr;
+          </a>
+        </div>
         <p className="text-sm text-muted-foreground">
           the linter of the project, compiled to wasm — type a sentence, pick an example,
           and see the Parse and the Rejections of the Linter.

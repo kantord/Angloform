@@ -4,9 +4,9 @@
 
 ## docs/adr/0001-generated-lexicon-from-curated-seed.md
 
-- Sentences: 54; parse: 54/54 (100%)
+- Sentences: 56; parse: 52/56 (93%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 7/37 consecutive pairs share the subject with the sentence before (19%)
+- Topic continuity: 9/39 consecutive pairs share the subject with the sentence before (23%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 7 ✓ , so
   - reason: 1 ✓ , because
@@ -16,20 +16,22 @@
 
 ## docs/adr/0002-pronoun-policy.md
 
-- Sentences: 25; parse: 25/25 (100%)
+- Sentences: 23; parse: 23/23 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 3/14 consecutive pairs share the subject with the sentence before (21%)
+- Topic continuity: 2/12 consecutive pairs share the subject with the sentence before (17%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
-  - result: 7 ✓ , so
-  - reason: 1 ✓ , because
-  - condition: 2 ✓ if …, then
+  - result: 5 ✓ , so
+  - reason: 2 ✓ , because
+  - contrast: 2 ✓ but
+  - concession: 1 ✗ no form
+  - condition: 1 ✓ if …, then
   - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
 
 ## docs/adr/0003-copula.md
 
-- Sentences: 28; parse: 28/28 (100%)
-- Headings: 4; with a banned or wrong-sense word: 1
-- Topic continuity: 2/15 consecutive pairs share the subject with the sentence before (13%)
+- Sentences: 30; parse: 29/30 (97%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 3/17 consecutive pairs share the subject with the sentence before (18%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 3 ✓ , so
   - contrast: 1 ✓ but
@@ -38,7 +40,7 @@
 
 ## docs/adr/0004-coordination.md
 
-- Sentences: 24; parse: 24/24 (100%)
+- Sentences: 24; parse: 23/24 (96%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 4/13 consecutive pairs share the subject with the sentence before (31%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -51,7 +53,7 @@
 
 - Sentences: 24; parse: 24/24 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 4/12 consecutive pairs share the subject with the sentence before (33%)
+- Topic continuity: 5/12 consecutive pairs share the subject with the sentence before (42%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 5 ✓ , so
   - reason: 1 ✓ , because
@@ -60,9 +62,9 @@
 
 ## docs/adr/0006-comprehension-first-syntax.md
 
-- Sentences: 58; parse: 58/58 (100%)
+- Sentences: 59; parse: 58/59 (98%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 9/40 consecutive pairs share the subject with the sentence before (22%)
+- Topic continuity: 10/41 consecutive pairs share the subject with the sentence before (24%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 4 ✓ , so
   - reason: 3 ✓ , because
@@ -72,7 +74,7 @@
 
 ## docs/adr/0007-conditionals.md
 
-- Sentences: 21; parse: 21/21 (100%)
+- Sentences: 21; parse: 19/21 (90%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 4/10 consecutive pairs share the subject with the sentence before (40%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -83,7 +85,7 @@
 
 ## docs/adr/0008-redirect-vs-ban.md
 
-- Sentences: 37; parse: 37/37 (100%)
+- Sentences: 37; parse: 35/37 (95%)
 - Headings: 4; with a banned or wrong-sense word: 1
 - Topic continuity: 13/26 consecutive pairs share the subject with the sentence before (50%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -94,7 +96,7 @@
 
 ## docs/adr/0009-modals.md
 
-- Sentences: 38; parse: 38/38 (100%)
+- Sentences: 38; parse: 33/38 (87%)
 - Headings: 4; with a banned or wrong-sense word: 1
 - Topic continuity: 9/26 consecutive pairs share the subject with the sentence before (35%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -105,7 +107,7 @@
 
 ## docs/adr/0010-simple-past.md
 
-- Sentences: 31; parse: 31/31 (100%)
+- Sentences: 31; parse: 29/31 (94%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 3/19 consecutive pairs share the subject with the sentence before (16%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -116,7 +118,7 @@
 
 ## docs/adr/0011-pp-attachment.md
 
-- Sentences: 33; parse: 33/33 (100%)
+- Sentences: 33; parse: 32/33 (97%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 5/23 consecutive pairs share the subject with the sentence before (22%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -139,9 +141,9 @@
 
 ## docs/adr/0013-generic-bare-plurals.md
 
-- Sentences: 39; parse: 39/39 (100%)
+- Sentences: 40; parse: 40/40 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 5/25 consecutive pairs share the subject with the sentence before (20%)
+- Topic continuity: 6/26 consecutive pairs share the subject with the sentence before (23%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 6 ✓ , so
   - reason: 3 ✓ , because
@@ -150,18 +152,18 @@
 
 ## docs/adr/0014-universal-and-no.md
 
-- Sentences: 45; parse: 45/45 (100%)
+- Sentences: 43; parse: 41/43 (95%)
 - Headings: 5; with a banned or wrong-sense word: 0
-- Topic continuity: 10/31 consecutive pairs share the subject with the sentence before (32%)
+- Topic continuity: 8/27 consecutive pairs share the subject with the sentence before (30%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
-  - result: 9 ✓ , so
+  - result: 8 ✓ , so
   - reason: 5 ✓ , because
   - condition: 3 ✓ if …, then
   - sequence: 7 ✓ after/before/until + noun phrase (ADR 0033)
 
 ## docs/adr/0015-compounds-transparency.md
 
-- Sentences: 61; parse: 61/61 (100%)
+- Sentences: 61; parse: 59/61 (97%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 13/44 consecutive pairs share the subject with the sentence before (30%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -172,7 +174,7 @@
 
 ## docs/adr/0016-have-and-one.md
 
-- Sentences: 35; parse: 35/35 (100%)
+- Sentences: 35; parse: 34/35 (97%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 7/28 consecutive pairs share the subject with the sentence before (25%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -184,9 +186,9 @@
 
 ## docs/adr/0017-existential-some.md
 
-- Sentences: 21; parse: 21/21 (100%)
+- Sentences: 23; parse: 22/23 (96%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 5/14 consecutive pairs share the subject with the sentence before (36%)
+- Topic continuity: 7/16 consecutive pairs share the subject with the sentence before (44%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 2 ✓ , so
   - reason: 3 ✓ , because
@@ -195,9 +197,9 @@
 
 ## docs/adr/0018-proper-names.md
 
-- Sentences: 43; parse: 43/43 (100%)
+- Sentences: 44; parse: 41/44 (93%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 14/32 consecutive pairs share the subject with the sentence before (44%)
+- Topic continuity: 15/33 consecutive pairs share the subject with the sentence before (45%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 4 ✓ , so
   - reason: 3 ✓ , because
@@ -206,7 +208,7 @@
 
 ## docs/adr/0019-imperatives.md
 
-- Sentences: 31; parse: 31/31 (100%)
+- Sentences: 31; parse: 30/31 (97%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 7/22 consecutive pairs share the subject with the sentence before (32%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -218,9 +220,9 @@
 
 ## docs/adr/0020-no-first-person-plural.md
 
-- Sentences: 27; parse: 27/27 (100%)
+- Sentences: 28; parse: 27/28 (96%)
 - Headings: 4; with a banned or wrong-sense word: 1
-- Topic continuity: 7/13 consecutive pairs share the subject with the sentence before (54%)
+- Topic continuity: 8/14 consecutive pairs share the subject with the sentence before (57%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 3 ✓ , so
   - reason: 3 ✓ , because
@@ -229,7 +231,7 @@
 
 ## docs/adr/0021-but.md
 
-- Sentences: 25; parse: 25/25 (100%)
+- Sentences: 25; parse: 24/25 (96%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 8/19 consecutive pairs share the subject with the sentence before (42%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -240,7 +242,7 @@
 
 ## docs/adr/0022-digits.md
 
-- Sentences: 52; parse: 52/52 (100%)
+- Sentences: 52; parse: 51/52 (98%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 17/38 consecutive pairs share the subject with the sentence before (45%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -252,9 +254,9 @@
 
 ## docs/adr/0023-per-sense-synonyms.md
 
-- Sentences: 61; parse: 61/61 (100%)
+- Sentences: 62; parse: 62/62 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 11/48 consecutive pairs share the subject with the sentence before (23%)
+- Topic continuity: 12/49 consecutive pairs share the subject with the sentence before (24%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 13 ✓ , so
   - reason: 4 ✓ , because
@@ -276,17 +278,17 @@
 
 - Sentences: 20; parse: 20/20 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 0/11 consecutive pairs share the subject with the sentence before (0%)
+- Topic continuity: 1/11 consecutive pairs share the subject with the sentence before (9%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 8 ✓ , so
-  - reason: 2 ✓ , because
+  - reason: 3 ✓ , because
   - sequence: 3 ✓ after/before/until + noun phrase (ADR 0033)
 
 ## docs/adr/0026-causal-connectives.md
 
-- Sentences: 52; parse: 52/52 (100%)
+- Sentences: 53; parse: 51/53 (96%)
 - Headings: 4; with a banned or wrong-sense word: 1
-- Topic continuity: 13/39 consecutive pairs share the subject with the sentence before (33%)
+- Topic continuity: 13/40 consecutive pairs share the subject with the sentence before (32%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 25 ✓ , so
   - reason: 15 ✓ , because
@@ -296,7 +298,7 @@
 
 ## docs/adr/0027-domain-model.md
 
-- Sentences: 57; parse: 57/57 (100%)
+- Sentences: 57; parse: 54/57 (95%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 13/35 consecutive pairs share the subject with the sentence before (37%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -308,18 +310,18 @@
 
 ## docs/adr/0028-enumeration.md
 
-- Sentences: 37; parse: 37/37 (100%)
+- Sentences: 38; parse: 38/38 (100%)
 - Headings: 4; with a banned or wrong-sense word: 1
-- Topic continuity: 5/23 consecutive pairs share the subject with the sentence before (22%)
+- Topic continuity: 5/24 consecutive pairs share the subject with the sentence before (21%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
-  - result: 4 ✓ , so
+  - result: 6 ✓ , so
   - contrast: 2 ✓ but
   - condition: 1 ✓ if …, then
   - sequence: 3 ✓ after/before/until + noun phrase (ADR 0033)
 
 ## docs/adr/0029-ordinals-and-scales.md
 
-- Sentences: 29; parse: 29/29 (100%)
+- Sentences: 29; parse: 28/29 (97%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 4/14 consecutive pairs share the subject with the sentence before (29%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
@@ -339,11 +341,11 @@
 
 ## docs/adr/0031-complement-phrases.md
 
-- Sentences: 20; parse: 20/20 (100%)
+- Sentences: 21; parse: 21/21 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 6/13 consecutive pairs share the subject with the sentence before (46%)
+- Topic continuity: 5/14 consecutive pairs share the subject with the sentence before (36%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
-  - result: 3 ✓ , so
+  - result: 2 ✓ , so
   - reason: 2 ✓ , because
   - contrast: 2 ✓ but
   - condition: 2 ✓ if …, then
@@ -351,9 +353,9 @@
 
 ## docs/adr/0032-modal-be.md
 
-- Sentences: 21; parse: 21/21 (100%)
+- Sentences: 23; parse: 22/23 (96%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 6/12 consecutive pairs share the subject with the sentence before (50%)
+- Topic continuity: 8/14 consecutive pairs share the subject with the sentence before (57%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - reason: 2 ✓ , because
   - condition: 2 ✓ if …, then
@@ -361,20 +363,20 @@
 
 ## docs/adr/0033-time-prepositions.md
 
-- Sentences: 15; parse: 15/15 (100%)
+- Sentences: 19; parse: 19/19 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 1/8 consecutive pairs share the subject with the sentence before (12%)
+- Topic continuity: 5/12 consecutive pairs share the subject with the sentence before (42%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 3 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 1 ✓ but
-  - sequence: 8 ✓ after/before/until + noun phrase (ADR 0033)
+  - sequence: 9 ✓ after/before/until + noun phrase (ADR 0033)
 
 ## docs/adr/0034-step-block.md
 
-- Sentences: 31; parse: 31/31 (100%)
+- Sentences: 32; parse: 32/32 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 7/16 consecutive pairs share the subject with the sentence before (44%)
+- Topic continuity: 8/17 consecutive pairs share the subject with the sentence before (47%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 6 ✓ , so
   - reason: 1 ✓ , because
@@ -386,7 +388,7 @@
 
 - Sentences: 18; parse: 18/18 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 5/11 consecutive pairs share the subject with the sentence before (45%)
+- Topic continuity: 4/10 consecutive pairs share the subject with the sentence before (40%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 1 ✓ , so
   - contrast: 1 ✓ but
@@ -406,13 +408,233 @@
 
 ## docs/adr/0037-full-clause-coordination.md
 
-- Sentences: 27; parse: 27/27 (100%)
+- Sentences: 28; parse: 28/28 (100%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 6/18 consecutive pairs share the subject with the sentence before (33%)
+- Topic continuity: 6/19 consecutive pairs share the subject with the sentence before (32%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 2 ✓ , so
   - reason: 1 ✓ , because
   - contrast: 6 ✓ but
   - condition: 1 ✓ if …, then
   - sequence: 5 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0038-coordination-inside-clauses.md
+
+- Sentences: 24; parse: 24/24 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 8/17 consecutive pairs share the subject with the sentence before (47%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 4 ✓ , so
+  - reason: 3 ✓ , because
+  - contrast: 1 ✓ but
+  - sequence: 4 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0039-without.md
+
+- Sentences: 8; parse: 8/8 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 4/5 consecutive pairs share the subject with the sentence before (80%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - reason: 1 ✓ , because
+
+## docs/adr/0040-coordinated-noun-phrases.md
+
+- Sentences: 19; parse: 17/19 (89%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 7/12 consecutive pairs share the subject with the sentence before (58%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 1 ✓ , so
+  - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0041-colon-list.md
+
+- Sentences: 21; parse: 21/21 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 3/13 consecutive pairs share the subject with the sentence before (23%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 2 ✓ , so
+
+## docs/adr/0042-epistemic-hedges-banned.md
+
+- Sentences: 14; parse: 14/14 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 4/5 consecutive pairs share the subject with the sentence before (80%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 1 ✓ , so
+
+## docs/adr/0043-idiomatic-structure-never.md
+
+- Sentences: 21; parse: 20/21 (95%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 9/12 consecutive pairs share the subject with the sentence before (75%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 2 ✓ , so
+  - reason: 1 ✓ , because
+  - contrast: 1 ✓ but
+  - concession: 1 ✗ no form
+  - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0044-medial-temporal-adverbs.md
+
+- Sentences: 15; parse: 15/15 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 7/8 consecutive pairs share the subject with the sentence before (88%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - contrast: 1 ✓ but
+  - concession: 4 ✗ no form
+  - condition: 1 ✓ if …, then
+  - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0045-afterward.md
+
+- Sentences: 15; parse: 15/15 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 8/8 consecutive pairs share the subject with the sentence before (100%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - contrast: 2 ✓ but
+  - sequence: 8 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0046-yet.md
+
+- Sentences: 11; parse: 10/11 (91%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 3/6 consecutive pairs share the subject with the sentence before (50%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - reason: 1 ✓ , because
+  - contrast: 9 ✓ but
+
+## docs/adr/0047-only.md
+
+- Sentences: 17; parse: 17/17 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 8/9 consecutive pairs share the subject with the sentence before (89%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - reason: 1 ✓ , because
+  - sequence: 1 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0048-one-shape-per-meaning.md
+
+- Sentences: 20; parse: 20/20 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 5/12 consecutive pairs share the subject with the sentence before (42%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 1 ✓ , so
+  - reason: 1 ✓ , because
+  - sequence: 8 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0049-other.md
+
+- Sentences: 30; parse: 30/30 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 9/20 consecutive pairs share the subject with the sentence before (45%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0050-nary-clause-coordination.md
+
+- Sentences: 23; parse: 23/23 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 9/14 consecutive pairs share the subject with the sentence before (64%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 2 ✓ , so
+  - concession: 1 ✗ no form
+  - condition: 1 ✓ if …, then
+  - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0051-mapping-table.md
+
+- Sentences: 18; parse: 18/18 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 4/11 consecutive pairs share the subject with the sentence before (36%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - sequence: 1 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0052-first-person-copula.md
+
+- Sentences: 12; parse: 12/12 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 4/6 consecutive pairs share the subject with the sentence before (67%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0053-vocabulary-packs.md
+
+- Sentences: 34; parse: 33/34 (97%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 14/24 consecutive pairs share the subject with the sentence before (58%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - contrast: 1 ✓ but
+  - sequence: 1 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0054-appositive.md
+
+- Sentences: 54; parse: 54/54 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 13/39 consecutive pairs share the subject with the sentence before (33%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - reason: 1 ✓ , because
+  - contrast: 2 ✓ but
+  - sequence: 7 ✓ after/before/until + noun phrase (ADR 0033)
+  - elaboration: 3 ✗ no form
+
+## docs/adr/0055-adjective-prepositional-phrase.md
+
+- Sentences: 22; parse: 22/22 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 4/14 consecutive pairs share the subject with the sentence before (29%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 3 ✓ , so
+  - reason: 2 ✓ , because
+  - contrast: 1 ✓ but
+  - sequence: 3 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0056-superlatives.md
+
+- Sentences: 27; parse: 27/27 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 11/17 consecutive pairs share the subject with the sentence before (65%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - reason: 1 ✓ , because
+  - sequence: 1 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0057-percent-mass-and-complement.md
+
+- Sentences: 21; parse: 21/21 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 6/12 consecutive pairs share the subject with the sentence before (50%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 1 ✓ , so
+  - sequence: 3 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0058-measurement-value.md
+
+- Sentences: 24; parse: 24/24 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 8/15 consecutive pairs share the subject with the sentence before (53%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - reason: 3 ✓ , because
+
+## docs/adr/0059-relative-clause.md
+
+- Sentences: 37; parse: 8/37 (22%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 14/26 consecutive pairs share the subject with the sentence before (54%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - sequence: 12 ✓ after/before/until + noun phrase (ADR 0033)
+
+## docs/adr/0060-no-silent-rejected-sense.md
+
+- Sentences: 14; parse: 14/14 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 4/9 consecutive pairs share the subject with the sentence before (44%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+
+## docs/adr/0061-per-word-definition-file.md
+
+- Sentences: 32; parse: 32/32 (100%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 9/23 consecutive pairs share the subject with the sentence before (39%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 1 ✓ , so
+  - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
 

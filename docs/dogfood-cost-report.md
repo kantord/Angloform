@@ -20,7 +20,7 @@ original.
 | 9 | 7 | 21.6 | 5 | 19.3 | 0.89 |
 | 10 | 33 | 137.7 | 53 | 184.8 | 1.34 |
 | 11 | 23 | 94.3 | 30 | 106.6 | 1.13 |
-| 12 | 30 | 169.3 | 67 | 271.6 | 1.60 |
+| 12 | 30 | 169.3 | 66 | 268.4 | 1.59 |
 | 13 | 6 | 23.1 | 9 | 30.9 | 1.34 |
 | 14 | 26 | 108.5 | 32 | 123.5 | 1.14 |
 | 15 | 28 | 114.5 | 20 | 68.2 | 0.60 |
@@ -46,7 +46,7 @@ original.
 | 35 | 25 | 101.9 | 50 | 148.9 | 1.46 |
 | 36 | 11 | 37.0 | 14 | 47.9 | 1.30 |
 
-**Aggregate:** 36 pairs — words 689 → 1040 (+51%), cost 2898.5 → 3542.6 (**ratio 1.22**)
+**Aggregate:** 36 pairs — words 689 → 1039 (+51%), cost 2898.5 → 3539.5 (**ratio 1.22**)
 
 ## Before → after
 
@@ -141,8 +141,8 @@ Declared loss: affect
 **12.** BEFORE (30 words, cost 169.3)
 > A Rust tool (crates/lexgen) expands paradigms with ~10 regular-morphology rules, enforces the linter invariants (collision-free, cross-POS completeness, no unattested forms) as hard build errors, and deterministically emits lexicon.tsv and docs/lexicon-report.md.
 
-AFTER (67 words, cost 271.6, **160%** of original) — 8 sentence(s), each parses uniquely ✓, peak-open 6, right-branching 32%
-> The tool Lexgen expands the Paradigms with about 10 rules. The tool Lexgen checks the invariants. No Surface Form has 2 Form Tags. An unused sense has a replacement or has a Waiver. The data attests every Surface Form. If a test fails, then the tool Lexgen returns an error. The tool Lexgen writes the file "lexicon.tsv" and writes the file "docs/lexicon-report.md". The tool Lexgen is deterministic.
+AFTER (66 words, cost 268.4, **159%** of original) — 8 sentence(s), each parses uniquely ✓, peak-open 6, right-branching 33%
+> The tool Lexgen expands the Paradigms with about 10 rules. The tool Lexgen checks the invariants. No Surface Form has 2 Form Tags. An unused sense has: a Redirect or the advice. The data attests every Surface Form. If a test fails, then the tool Lexgen returns an error. The tool Lexgen writes the file "lexicon.tsv" and writes the file "docs/lexicon-report.md". The tool Lexgen is deterministic.
 
 Declared loss: detail
 
