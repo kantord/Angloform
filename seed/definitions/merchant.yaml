@@ -1,0 +1,5 @@
+category: NOUN
+definition: a person, who trades a thing
+rejected:
+  - category: VERB
+    gap: true

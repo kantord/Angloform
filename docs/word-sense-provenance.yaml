@@ -2,11 +2,21 @@
 # Not part of the checked schema, never shown to a word's own
 # definition consumer (e.g. `just define`) — couples each redirect
 # decision back to the WordNet gloss that justified it, for audit.
+guardian:
+  ADJ:
+    gap: true
+    gloss: null
+    redirect: null
 human:
   ADJ:
     gap: true
     gloss: having human form or attributes as opposed to those of animals or divine beings; "human beings";
       "the human body"; "human kindness"; "human frailty"
+    redirect: null
+merchant:
+  VERB:
+    gap: true
+    gloss: null
     redirect: null
 social:
   ADJ:

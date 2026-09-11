@@ -1,0 +1,5 @@
+category: NOUN
+definition: a person, who protects a person
+rejected:
+  - category: ADJ
+    gap: true

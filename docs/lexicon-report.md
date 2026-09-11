@@ -4,9 +4,9 @@
 
 ## Summary
 
-- 1013 lemmas, 2139 surface forms, 511 redirects (33 word substitute, 472 advice-only, 6 gap)
+- 1045 lemmas, 2203 surface forms, 514 redirects (33 word substitute, 472 advice-only, 9 gap)
 - Domain model: 87 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 152, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 501, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 181, WHICH 1, WHO 1, YET 1
+- Lemmas per category: ADJ 156, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 527, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 183, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
@@ -15,7 +15,7 @@
 
 ## Residual polysemy (WordNet senses within the enabled POS)
 
-- Mean senses: 5.1 (upper bound — WordNet oversplits)
+- Mean senses: 5.0 (upper bound — WordNet oversplits)
 - Top 5: break (59), make (49), give (44), take (42), carry (40)
 
 ## Redirect findability guard (floor: zipf 3.5)
@@ -515,7 +515,10 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 
 ## Gaps (attested senses with no already-enabled substitute yet)
 
+- compute (NOUN)
+- guardian (ADJ)
 - human (ADJ)
+- merchant (VERB)
 - social (ADJ)
 - up (ADJ)
 - up (ADV)

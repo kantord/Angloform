@@ -155,3 +155,102 @@ candidates) is untouched and will show up as backlog the next time
 `vocab-ratchet` runs. That's intentional, not an oversight: weak-bucket
 words additionally need a redirect/gap decision per collision, a
 different, slower kind of batch than this one.
+
+## How far is "too far"? Checked against real frequency data (2026-09-11)
+
+`N=2000` reaches raw frequency row 3560 (zipf 4.41) — still comfortably
+inside common vocabulary (the frequency file runs to 100,000 rows). Tried
+`N=20000` as a probe: raw row 39,673 (zipf 2.75), and the *newly*
+unreviewed strong-bucket candidates beyond N=2000 have median zipf 3.12
+(rarest 10%: 2.77) — visibly rarer (`punchy`, `quagmire`, `quaid`, `r.j`)
+than anything processed so far. Rows-walked-per-candidate barely moved
+(1.78 → 1.98), so the extra noise isn't proper-nouns/inflections eating a
+growing share of the list — the newly-reached words themselves are
+genuinely less common. **Verdict: N=20000 opens a large, low-yield
+backlog (7,589 candidates) too early. N=5000-8000 (zipf ~4.0+) is the
+better next step** — reset to N=5000 for the next batch rather than
+committing to N=20000's ledger state.
+
+## A much better proper-noun detector, found by accident (2026-09-11)
+
+The original proper-noun screen was a hand-maintained set of known
+names/places — doesn't scale. Investigating a gloss-lookup miss for known
+proper nouns (`michael`, `boston`, `canada` all returned **zero** glosses
+from `data.noun`) surfaced the real mechanism: `index.noun` folds
+capitalization (confirmed earlier this session — "zero capitalized
+entries"), but **`data.noun`/`data.verb`/`data.adj`/`data.adv` do not** —
+the actual synset headword is still `Michael`, `Boston`, `Canada`,
+capitalized. Checked directly: `data.noun` has `09539517 ... Michael 0 ...
+| (Old Testament) the guardian archangel of the Jews`.
+
+**This gives a precise, mechanical detector, not a hand list**: for a
+lemma, collect every exact-case spelling attested anywhere in
+`data.{noun,verb,adj,adv}`; if the lemma's lowercase form is never among
+them (only a capitalized/titlecased variant is), its sole WordNet
+attestation is a folded proper noun. Zero false positives found across a
+706-candidate strong-bucket run (215 caught cleanly: countries, cities,
+first names, brands/orgs like `nasa`/`toyota`/`linux`, abbreviations like
+`cia`/`gdp`/`dvd`). This should be folded into the reusable rejection
+taxonomy above and (eventually) into `scripts/vocab-candidates.py` itself
+rather than re-derived by hand each batch.
+
+## N=5000 strong-bucket triage, automated pass only (2026-09-11)
+
+Combined the new proper-noun detector with the established categories
+(ADV, months/days, pronoun/quantifier/interjection list, length≤2 noise)
+as one automated pass over the 706 unreviewed strong-bucket candidates at
+N=5000:
+
+```
+706 unreviewed strong-bucket candidates
+293 auto-rejected (proper nouns, ADV, months/days, function words, short noise)
+413 survivors — still need the same per-word review as the N=2000 batch
+    (redundant near-synonyms, building-block checks, subject-gapped
+    PredRel constraint, real definitions written and validated)
+```
+
+413 is too large to clear in one sitting without the same rigor slipping
+— consistent with the whole point of ratcheting. **Left as backlog for
+the next batch(es)**, not rushed through. The automated 293 are applied to
+the ledger already; the 413 survivors are listed, frequency-sorted, ready
+to pick up from.
+
+## The full N=5000 strong-bucket backlog, cleared (2026-09-11)
+
+Picked back up and cleared completely, per explicit instruction. Two more
+automated signals found the rest of the mechanical yield before falling
+back to per-word review:
+
+- **Same-synset redundancy check**: for each ADJ/VERB/NOUN survivor,
+  checked whether any *already-enabled* word of the same category shares
+  a WordNet synset with it — a true synonym, not a guess. Caught 30 real
+  duplicates (`affection`~`heart`, `exam`~`test`, `mathematics`~`math`,
+  `password`~`word` — verified directly against `data.noun`'s actual
+  synset line, not assumed).
+- **Antonym-pointer check**: same idea via WordNet's `!` antonym pointer.
+  Sparse (only 5 hits, confirming the original design doc's own finding
+  that antonym pointers are unreliable) but precise where it fires —
+  `meaningful` = "not meaningless", `upload` ~ `download`'s inverse
+  (`"give a program"`).
+
+Remaining ADJ/VERB survivors got a manual gloss scan (73 ADJ, 17 VERB) —
+yield was low as expected (`AdjDef`'s bare-synonym-only constraint is
+still the dominant wall): `toxic`/`pending`/`optional` (all "not
+already-enabled-word"), `compute` (`"use a number"`). Remaining 288 NOUN
+survivors got full per-word review — building blocks checked, subject-
+gapped `PredRel` respected, determiners fixed empirically against real
+`lexgen` errors (`"a value"` not `"value"`, irregular plurals like
+`"logos"` not `"logoes"`) — yielding 24 more real words.
+
+**Final result: 33 admitted this batch** (7 ADJ/VERB automated +
+`compute`/`toxic`/`pending`/`optional` + 24 NOUN), out of 413 survivors —
+an 8% yield from the *survivor* pool (already filtered from the raw
+strong bucket), or **~5% of the raw 706-candidate strong bucket at
+N=5000**. Confirms the earlier N=2000 finding (~8% raw yield) held at
+this larger, slightly rarer N — no cliff, gradual decline as expected.
+
+`seed/definitions/` went from 29 to 61 words this batch. Full strong
+bucket at N=5000 is now completely resolved — zero backlog. Next
+`vocab-ratchet` invocation starts clean: either grow N again (weak bucket
+still fully untouched at this N, a separate slower pass) or step N up
+further for another strong-only round.
