@@ -3228,11 +3228,6 @@
     }
   },
   {
-    "lemma": "readable",
-    "category": "ADJ",
-    "note": "ADR 0006 rewrite"
-  },
-  {
     "lemma": "justify",
     "category": "VERB_TRANS",
     "note": "ADR 0006 rewrite",
@@ -4815,19 +4810,6 @@
       "plural": "infinitives"
     },
     "reject": {}
-  },
-  {
-    "lemma": "numeral",
-    "category": "NOUN",
-    "note": "ADR 0014-0017 rewrite",
-    "forms": {
-      "plural": "numerals"
-    },
-    "reject": {
-      "ADJ": {
-        "advice": "the reference data attests an adjectival use of \"numeral\"; no common meaning could be confirmed — not enabled"
-      }
-    }
   },
   {
     "lemma": "glossary",

@@ -1853,9 +1853,6 @@ number	reject_advice	VERB	the verb sense ("to number the pages"; "his days are n
 number word	term	-	Number Word
 number words	term	-	Number Words
 numbers	form	NOUN_PL	number
-numeral	form	NOUN_SG	numeral
-numeral	reject_advice	ADJ	the reference data attests an adjectival use of "numeral"; no common meaning could be confirmed — not enabled
-numerals	form	NOUN_PL	numeral
 object	form	NOUN_SG	object
 object	reject_advice	VERB	the verb sense ("to object to something") is not enabled; angloform allows one sense per word
 objects	form	NOUN_PL	object
@@ -2224,7 +2221,6 @@ read	reject	NOUN	document
 read	reject_advice	ADJ	not new
 readabilities	form	NOUN_PL	readability
 readability	form	NOUN_SG	readability
-readable	form	ADJ_LONG	readable
 reader	form	NOUN_SG	reader
 readers	form	NOUN_PL	reader
 reading	form	VERB_TRANS_ING	read

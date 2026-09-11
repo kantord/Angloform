@@ -174,9 +174,9 @@
 
 ## docs/adr/0016-have-and-one.md
 
-- Sentences: 35; parse: 30/35 (86%)
+- Sentences: 35; parse: 25/35 (71%)
 - Headings: 4; with a banned or wrong-sense word: 0
-- Topic continuity: 7/28 consecutive pairs share the subject with the sentence before (25%)
+- Topic continuity: 6/28 consecutive pairs share the subject with the sentence before (21%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 5 ✓ , so
   - reason: 4 ✓ , because
@@ -242,7 +242,7 @@
 
 ## docs/adr/0022-digits.md
 
-- Sentences: 52; parse: 45/52 (87%)
+- Sentences: 52; parse: 44/52 (85%)
 - Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 16/38 consecutive pairs share the subject with the sentence before (42%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):

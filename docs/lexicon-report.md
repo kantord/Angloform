@@ -4,9 +4,9 @@
 
 ## Summary
 
-- 1098 lemmas, 2286 surface forms, 546 redirects (32 word substitute, 469 advice-only, 45 gap)
+- 1096 lemmas, 2283 surface forms, 545 redirects (32 word substitute, 468 advice-only, 45 gap)
 - Domain model: 87 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 165, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 561, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 181, WHICH 1, WHO 1, YET 1
+- Lemmas per category: ADJ 164, APPROX 1, BANNED 69, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 560, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 181, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
@@ -15,7 +15,7 @@
 
 ## Residual polysemy (WordNet senses within the enabled POS)
 
-- Mean senses: 4.8 (upper bound — WordNet oversplits)
+- Mean senses: 4.9 (upper bound — WordNet oversplits)
 - Top 5: break (59), make (49), give (44), take (42), carry (40)
 
 ## Redirect findability guard (floor: zipf 3.5)
@@ -289,7 +289,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - signal (ADJ): the adjective sense (formal/literary — "a signal achievement", meaning notable) is not enabled; angloform allows one sense per word
 - signal (VERB): the verb sense ("to signal a turn") is not enabled; angloform allows one sense per word
 - jargon (VERB): the reference data attests a verb use of "jargon"; no common meaning could be confirmed — not enabled
-- numeral (ADJ): the reference data attests an adjectival use of "numeral"; no common meaning could be confirmed — not enabled
 - approximate (VERB): the verb sense ("to approximate a value") is not enabled; angloform allows one sense per word
 - minimum (ADJ): the adjective sense ("minimum wage") is not enabled; angloform allows one sense per word
 - square (ADJ): the adjective sense ("a square deal", "a square meal") is not enabled; angloform allows one sense per word
