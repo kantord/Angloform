@@ -342,6 +342,8 @@ audits	form	VERB_TRANS_3SG	audit
 author	form	NOUN_SG	author
 author	reject_advice	VERB	the verb sense ("to author a book") is not enabled; angloform allows one sense per word
 authors	form	NOUN_PL	author
+autobiographies	form	NOUN_PL	autobiography
+autobiography	form	NOUN_SG	autobiography
 auxiliaries	term	-	Auxiliaries
 auxiliary	term	-	Auxiliary
 available	form	ADJ_LONG	available
@@ -707,6 +709,8 @@ corollaries	form	NOUN_PL	corollary
 corollary	form	NOUN_SG	corollary
 corollary	reject_advice	ADJ	the adjective (attributive) sense ("a corollary benefit") is not enabled; angloform allows one sense per word
 corpora	form	NOUN_PL	corpus
+corpse	form	NOUN_SG	corpse
+corpses	form	NOUN_PL	corpse
 corpus	form	NOUN_SG	corpus
 correct	form	ADJ_LONG	correct
 correct	reject_advice	VERB	the verb sense ("to correct a mistake") is not enabled; angloform allows one sense per word
@@ -885,6 +889,8 @@ discourse	reject_advice	VERB	the verb sense ("to discourse upon a subject", form
 discourse layer	term	-	Discourse Layer
 discourse layers	term	-	Discourse Layers
 discourses	form	NOUN_PL	discourse
+dissertation	form	NOUN_SG	dissertation
+dissertations	form	NOUN_PL	dissertation
 distance	form	NOUN_SG	distance
 distance	reject_advice	VERB	the verb sense ("to distance oneself from something") is not enabled; angloform allows one sense per word
 distances	form	NOUN_PL	distance
@@ -1144,6 +1150,9 @@ format	reject_advice	VERB	the verb sense ("to format a document") is not enabled
 formats	form	NOUN_PL	format
 formulation	form	NOUN_SG	formulation
 formulations	form	NOUN_PL	formulation
+fortress	form	NOUN_SG	fortress
+fortress	reject_gap	VERB	no already-enabled word covers this sense yet
+fortresses	form	NOUN_PL	fortress
 found	form	VERB_TRANS_ED	find
 four	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
 fraction	form	NOUN_SG	fraction
@@ -1266,6 +1275,8 @@ half	form	NOUN_SG	half
 half	reject_advice	ADJ	the adjective sense ("a half measure", "half price") is not enabled; angloform allows one sense per word
 half	reject_advice	ADV	the adverbial sense ("half finished", "half asleep") is not enabled; angloform has no adverb category
 halves	form	NOUN_PL	half
+handbook	form	NOUN_SG	handbook
+handbooks	form	NOUN_PL	handbook
 handwritten	form	ADJ_LONG	handwritten
 happiness	form	NOUN_SG	happiness
 has	form	VERB_TRANS_3SG	have
@@ -1372,6 +1383,7 @@ implicit	form	ADJ_LONG	implicit
 improvement	form	NOUN_SG	improvement
 improvements	form	NOUN_PL	improvement
 in	form	PREP_V	in
+inaccurate	form	ADJ_LONG	inaccurate
 include	form	VERB_TRANS_BASE	include
 included	form	VERB_TRANS_ED	include
 includes	form	VERB_TRANS_3SG	include
@@ -1671,6 +1683,9 @@ message	reject_advice	VERB	the verb sense ("to message a person") is not enabled
 messages	form	NOUN_PL	message
 messenger	form	NOUN_SG	messenger
 messengers	form	NOUN_PL	messenger
+messier	form	ADJ_CMP	messy
+messiest	form	ADJ_SUP	messy
+messy	form	ADJ	messy
 met	form	VERB_TRANS_ED	meet
 method	form	NOUN_SG	method
 methods	form	NOUN_PL	method
@@ -1801,6 +1816,7 @@ obligation	form	NOUN_SG	obligation
 obligations	form	NOUN_PL	obligation
 observation	form	NOUN_SG	observation
 observations	form	NOUN_PL	observation
+obsolete	form	ADJ_LONG	obsolete
 occur	form	VERB_INTRANS_BASE	occur
 occurred	form	VERB_INTRANS_ED	occur
 occurring	form	VERB_INTRANS_ING	occur
@@ -1921,6 +1937,8 @@ pattern	reject_advice	VERB	the verb sense ("to pattern oneself after someone") i
 patterns	form	NOUN_PL	pattern
 pay	form	VERB_TRANS_BASE	pay
 pay	reject_advice	NOUN	the noun sense (pay, i.e. a salary) is not enabled; angloform allows one sense per word
+payday	form	NOUN_SG	payday
+paydays	form	NOUN_PL	payday
 paying	form	VERB_TRANS_ING	pay
 pays	form	VERB_TRANS_3SG	pay
 pending	form	ADJ_LONG	pending
@@ -2061,6 +2079,8 @@ profile	reject_advice	VERB	the verb sense ("to profile a suspect"; software "to 
 profiles	form	NOUN_PL	profile
 program	form	NOUN_SG	program
 program	reject	VERB	write
+programmer	form	NOUN_SG	programmer
+programmers	form	NOUN_PL	programmer
 programs	form	NOUN_PL	program
 progressive	term	-	Progressive
 progressives	term	-	Progressives
@@ -2091,6 +2111,8 @@ protect	form	VERB_TRANS_BASE	protect
 protected	form	VERB_TRANS_ED	protect
 protecting	form	VERB_TRANS_ING	protect
 protects	form	VERB_TRANS_3SG	protect
+prototype	form	NOUN_SG	prototype
+prototypes	form	NOUN_PL	prototype
 provisional	form	ADJ_LONG	provisional
 provisional	reject_advice	NOUN	the noun sense (historical/political — "the Provisionals", a faction name) is not enabled; angloform allows one sense per word
 proxies	form	NOUN_PL	proxy
@@ -2344,6 +2366,8 @@ rights	form	NOUN_PL	right
 robotic	form	ADJ_LONG	robotic
 role	form	NOUN_SG	role
 roles	form	NOUN_PL	role
+roommate	form	NOUN_SG	roommate
+roommates	form	NOUN_PL	roommate
 round	form	ADJ	round
 round	reject_advice	ADV	the adverbial sense (British — "come round", "all year round") is not enabled; angloform has no adverb category
 round	reject_advice	NOUN	the noun sense (a round, e.g. of drinks, or a boxing round) is not enabled; angloform allows one sense per word
@@ -2526,6 +2550,8 @@ social	reject_gap	ADJ	no already-enabled word covers this sense yet
 socials	form	NOUN_PL	social
 societies	form	NOUN_PL	society
 society	form	NOUN_SG	society
+sociologies	form	NOUN_PL	sociology
+sociology	form	NOUN_SG	sociology
 some	form	QUANT_EXIST	some
 somewhat	ban	-	epistemic hedges are banned - state the claim directly, or drop the qualifier (ADR 0042)
 source	form	NOUN_SG	source
@@ -2640,6 +2666,8 @@ suns	form	NOUN_PL	sun
 superlative	form	NOUN_SG	superlative
 superlative	reject_advice	ADJ	the adjective sense ("superlative skill", meaning excellent) is not enabled; angloform allows one sense per word
 superlatives	form	NOUN_PL	superlative
+supermarket	form	NOUN_SG	supermarket
+supermarkets	form	NOUN_PL	supermarket
 supplier	form	NOUN_SG	supplier
 suppliers	form	NOUN_PL	supplier
 surface form	term	-	Surface Form
@@ -2698,6 +2726,8 @@ tell	form	VERB_TRANS_BASE	tell
 tell	reject_advice	NOUN	the noun sense (poker jargon "a tell"; archaeology "a tell", a mound) is not enabled; angloform allows one sense per word
 telling	form	VERB_TRANS_ING	tell
 tells	form	VERB_TRANS_3SG	tell
+template	form	NOUN_SG	template
+templates	form	NOUN_PL	template
 ten	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
 tense	term	-	Tense
 tenses	term	-	Tenses
@@ -2809,6 +2839,7 @@ tying	form	VERB_INTRANS_ING	tie
 typo	form	NOUN_SG	typo
 typos	form	NOUN_PL	typo
 unambiguous	form	ADJ_LONG	unambiguous
+unavailable	form	ADJ_LONG	unavailable
 unblock	form	VERB_TRANS_BASE	unblock
 unblocked	form	VERB_TRANS_ED	unblock
 unblocking	form	VERB_TRANS_ING	unblock
@@ -2817,6 +2848,7 @@ underrate	form	VERB_TRANS_BASE	underrate
 underrated	form	VERB_TRANS_ED	underrate
 underrates	form	VERB_TRANS_3SG	underrate
 underrating	form	VERB_TRANS_ING	underrate
+unfamiliar	form	ADJ_LONG	unfamiliar
 unfold	form	VERB_TRANS_BASE	unfold
 unfolded	form	VERB_TRANS_ED	unfold
 unfolding	form	VERB_TRANS_ING	unfold
@@ -2829,6 +2861,7 @@ unknown	form	ADJ_LONG	unknown
 unknown	reject_advice	NOUN	the noun sense (an unknown, e.g. in mathematics, or "the unknown") is not enabled; angloform allows one sense per word
 unlikely	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
 unnatural	form	ADJ_LONG	unnatural
+unpleasant	form	ADJ_LONG	unpleasant
 unquoted	form	ADJ_LONG	unquoted
 unreadable	form	ADJ_LONG	unreadable
 until	form	PREP_V	until
@@ -2915,6 +2948,8 @@ weight	ban	-	write "load" (Cognitive Load) or "size"
 welfare	form	NOUN_SG	welfare
 went	form	VERB_INTRANS_ED	go
 were	form	COPULA_PL_PAST	were
+wheelchair	form	NOUN_SG	wheelchair
+wheelchairs	form	NOUN_PL	wheelchair
 when	ban	-	"when" is not in the language - write "if <clause>, then <clause>" (ADR 0007), or name the event: "after the split" (ADR 0033)
 where	ban	-	no relative clauses - split the sentence and repeat the noun (ADR 0010)
 which	form	WHICH	which

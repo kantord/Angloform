@@ -1,0 +1,5 @@
+category: NOUN
+definition: a place, which protects a group
+rejected:
+  - category: VERB
+    gap: true

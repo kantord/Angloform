@@ -1,9 +1,9 @@
-# Vocabulary candidate pilot (5000 new lemmas, top 8649 frequency rows walked)
+# Vocabulary candidate pilot (8000 new lemmas, top 14132 frequency rows walked)
 
-- strong clean admits: 935
-- weak-margin clean admits: 734
-- tied at 1: 235
-- no clean winner: 3096
+- strong clean admits: 1922
+- weak-margin clean admits: 1048
+- tied at 1: 406
+- no clean winner: 4624
 
 ## Clean admits, strong
 
@@ -248,7 +248,6 @@
 | syria | noun | noun=1 |
 | compete | verb | verb=1 |
 | disney | noun | noun=1 |
-| friendship | noun | noun=1 |
 | gary | noun | noun=1 |
 | idiot | noun | noun=1 |
 | lifetime | noun | noun=1 |
@@ -266,7 +265,6 @@
 | allege | verb | verb=1 |
 | anna | noun | noun=1 |
 | emotion | noun | noun=1 |
-| funeral | noun | noun=1 |
 | immigrant | noun | noun=1 |
 | km | noun | noun=1 |
 | legacy | noun | noun=1 |
@@ -276,7 +274,6 @@
 | prisoner | noun | noun=1 |
 | scary | adj | adj=1 |
 | sword | noun | noun=1 |
-| achievement | noun | noun=1 |
 | austin | noun | noun=1 |
 | daddy | noun | noun=1 |
 | gene | noun | noun=1 |
@@ -332,11 +329,9 @@
 | lifestyle | noun | noun=1 |
 | rely | verb | verb=1 |
 | edinburgh | noun | noun=1 |
-| logo | noun | noun=1 |
 | malaysia | noun | noun=1 |
 | netherlands | noun | noun=1 |
 | philip | noun | noun=1 |
-| photographer | noun | noun=1 |
 | prevention | noun | noun=1 |
 | tourism | noun | noun=1 |
 | corp | noun | noun=1 |
@@ -349,14 +344,12 @@
 | controversy | noun | noun=1 |
 | exam | noun | noun=1 |
 | fiscal | adj | adj=1 |
-| guardian | noun | noun=1 |
 | jerry | noun | noun=1 |
 | mainstream | noun | noun=1 |
 | ted | noun | noun=1 |
 | brooklyn | noun | noun=1 |
 | considerable | adj | adj=1 |
 | dvd | noun | noun=1 |
-| employer | noun | noun=1 |
 | enormous | adj | adj=1 |
 | indonesia | noun | noun=1 |
 | nevertheless | adv | adv=1 |
@@ -375,7 +368,6 @@
 | popularity | noun | noun=1 |
 | robot | noun | noun=1 |
 | terrorism | noun | noun=1 |
-| toxic | adj | adj=1 |
 | actively | adv | adv=1 |
 | afghanistan | noun | noun=1 |
 | barcelona | noun | noun=1 |
@@ -408,7 +400,6 @@
 | ron | noun | noun=1 |
 | safely | adv | adv=1 |
 | thailand | noun | noun=1 |
-| transaction | noun | noun=1 |
 | unemployment | noun | noun=1 |
 | cia | noun | noun=1 |
 | closest | adv | adv=1 |
@@ -482,10 +473,7 @@
 | salad | noun | noun=1 |
 | timeline | noun | noun=1 |
 | urgent | adj | adj=1 |
-| wallet | noun | noun=1 |
 | grandmother | noun | noun=1 |
-| inspection | noun | noun=1 |
-| meaningful | adj | adj=1 |
 | motivate | verb | verb=1 |
 | nancy | noun | noun=1 |
 | stair | noun | noun=1 |
@@ -494,7 +482,6 @@
 | zoo | noun | noun=1 |
 | applicable | adj | adj=1 |
 | availability | noun | noun=1 |
-| consultant | noun | noun=1 |
 | helicopter | noun | noun=1 |
 | homework | noun | noun=1 |
 | hp | noun | noun=1 |
@@ -558,22 +545,18 @@
 | teenager | noun | noun=1 |
 | wi | noun | noun=1 |
 | wont | noun | noun=1 |
-| architect | noun | noun=1 |
 | beneficial | adj | adj=1 |
 | broadway | noun | noun=1 |
 | dubai | noun | noun=1 |
 | dublin | noun | noun=1 |
 | kg | noun | noun=1 |
-| merchant | noun | noun=1 |
 | micro | adj | adj=1 |
 | myth | noun | noun=1 |
 | permanently | adv | adv=1 |
 | separately | adv | adv=1 |
 | viral | adj | adj=1 |
 | austria | noun | noun=1 |
-| compute | verb | verb=1 |
 | freely | adv | adv=1 |
-| inhabitant | noun | noun=1 |
 | inn | noun | noun=1 |
 | lucy | noun | noun=1 |
 | montreal | noun | noun=1 |
@@ -630,7 +613,6 @@
 | amsterdam | noun | noun=1 |
 | bennett | noun | noun=1 |
 | bristol | noun | noun=1 |
-| container | noun | noun=1 |
 | gps | noun | noun=1 |
 | kidney | noun | noun=1 |
 | lloyd | noun | noun=1 |
@@ -646,14 +628,12 @@
 | bernard | noun | noun=1 |
 | bizarre | adj | adj=1 |
 | complexity | noun | noun=1 |
-| dictionary | noun | noun=1 |
 | duncan | noun | noun=1 |
 | fridge | noun | noun=1 |
 | inning | noun | noun=1 |
 | instructor | noun | noun=1 |
 | liar | noun | noun=1 |
 | palmer | noun | noun=1 |
-| pending | adj | adj=1 |
 | platinum | noun | noun=1 |
 | ta | noun | noun=1 |
 | tl | noun | noun=1 |
@@ -705,7 +685,6 @@
 | prohibit | verb | verb=1 |
 | reid | noun | noun=1 |
 | reynolds | noun | noun=1 |
-| upload | verb | verb=1 |
 | whatsoever | adj | adj=1 |
 | abraham | noun | noun=1 |
 | ancestor | noun | noun=1 |
@@ -714,7 +693,6 @@
 | defendant | noun | noun=1 |
 | doctrine | noun | noun=1 |
 | financially | adv | adv=1 |
-| geography | noun | noun=1 |
 | habitat | noun | noun=1 |
 | hydrogen | noun | noun=1 |
 | irrelevant | adj | adj=1 |
@@ -726,7 +704,6 @@
 | refugee | noun | noun=1 |
 | sander | noun | noun=1 |
 | slower | adv | adv=1 |
-| teammate | noun | noun=1 |
 | township | noun | noun=1 |
 | vienna | noun | noun=1 |
 | ankle | noun | noun=1 |
@@ -779,7 +756,6 @@
 | internationally | adv | adv=1 |
 | lily | noun | noun=1 |
 | mainland | noun | noun=1 |
-| messenger | noun | noun=1 |
 | munich | noun | noun=1 |
 | pierre | noun | noun=1 |
 | reagan | noun | noun=1 |
@@ -799,7 +775,6 @@
 | prep | noun | noun=1 |
 | prosecutor | noun | noun=1 |
 | sep | noun | noun=1 |
-| shareholder | noun | noun=1 |
 | supervision | noun | noun=1 |
 | terrain | noun | noun=1 |
 | vibe | noun | noun=1 |
@@ -819,7 +794,6 @@
 | perth | noun | noun=1 |
 | pistol | noun | noun=1 |
 | satan | noun | noun=1 |
-| sensor | noun | noun=1 |
 | seoul | noun | noun=1 |
 | siege | noun | noun=1 |
 | soundtrack | noun | noun=1 |
@@ -854,7 +828,6 @@
 | accountability | noun | noun=1 |
 | automate | verb | verb=1 |
 | continually | adv | adv=1 |
-| coordinator | noun | noun=1 |
 | deployment | noun | noun=1 |
 | enjoyable | adj | adj=1 |
 | firearm | noun | noun=1 |
@@ -865,12 +838,10 @@
 | likelihood | noun | noun=1 |
 | meme | noun | noun=1 |
 | nixon | noun | noun=1 |
-| optional | adj | adj=1 |
 | papa | noun | noun=1 |
 | prescribe | verb | verb=1 |
 | sheffield | noun | noun=1 |
 | suburban | adj | adj=1 |
-| supplier | noun | noun=1 |
 | thriller | noun | noun=1 |
 | transgender | adj | adj=1 |
 | ur | noun | noun=1 |
@@ -881,7 +852,6 @@
 | epa | noun | noun=1 |
 | ghana | noun | noun=1 |
 | griffin | noun | noun=1 |
-| historian | noun | noun=1 |
 | hospitality | noun | noun=1 |
 | hostage | noun | noun=1 |
 | individually | adv | adv=1 |
@@ -917,7 +887,6 @@
 | corridor | noun | noun=1 |
 | credibility | noun | noun=1 |
 | critically | adv | adv=1 |
-| geometry | noun | noun=1 |
 | gp | noun | noun=1 |
 | grandparent | noun | noun=1 |
 | headphone | noun | noun=1 |
@@ -935,7 +904,6 @@
 | undoubtedly | adv | adv=1 |
 | yemen | noun | noun=1 |
 | appetite | noun | noun=1 |
-| backyard | noun | noun=1 |
 | beth | noun | noun=1 |
 | billboard | noun | noun=1 |
 | dynasty | noun | noun=1 |
@@ -944,6 +912,1025 @@
 | fda | noun | noun=1 |
 | glen | noun | noun=1 |
 | illegally | adv | adv=1 |
+| messy | adj | adj=1 |
+| minneapolis | noun | noun=1 |
+| molly | noun | noun=1 |
+| owl | noun | noun=1 |
+| prospective | adj | adj=1 |
+| psychiatric | adj | adj=1 |
+| robertson | noun | noun=1 |
+| saga | noun | noun=1 |
+| sodium | noun | noun=1 |
+| unaware | adj | adj=1 |
+| underway | adj | adj=1 |
+| upstair | adj | adj=1 |
+| alberta | noun | noun=1 |
+| ant | noun | noun=1 |
+| baptist | noun | noun=1 |
+| behavioral | adj | adj=1 |
+| commodity | noun | noun=1 |
+| congressman | noun | noun=1 |
+| dentist | noun | noun=1 |
+| handbook | noun | noun=1 |
+| joyce | noun | noun=1 |
+| lethal | adj | adj=1 |
+| logistic | adj | adj=1 |
+| mickey | noun | noun=1 |
+| mindset | noun | noun=1 |
+| nsa | noun | noun=1 |
+| sacramento | noun | noun=1 |
+| sunlight | noun | noun=1 |
+| sync | verb | verb=1 |
+| taxpayer | noun | noun=1 |
+| trilogy | noun | noun=1 |
+| url | noun | noun=1 |
+| wheelchair | noun | noun=1 |
+| arbitrary | adj | adj=1 |
+| blogger | noun | noun=1 |
+| bra | noun | noun=1 |
+| brighton | noun | noun=1 |
+| comp | noun | noun=1 |
+| composer | noun | noun=1 |
+| gasoline | noun | noun=1 |
+| governmental | adj | adj=1 |
+| grandson | noun | noun=1 |
+| herbert | noun | noun=1 |
+| kirk | noun | noun=1 |
+| lengthy | adj | adj=1 |
+| lp | noun | noun=1 |
+| necklace | noun | noun=1 |
+| nina | noun | noun=1 |
+| o'brien | noun | noun=1 |
+| porch | noun | noun=1 |
+| richards | noun | noun=1 |
+| secondly | adv | adv=1 |
+| successive | adj | adj=1 |
+| undergraduate | noun | noun=1 |
+| uranium | noun | noun=1 |
+| advertisement | noun | noun=1 |
+| atmospheric | adj | adj=1 |
+| bangkok | noun | noun=1 |
+| bb | noun | noun=1 |
+| cardiac | adj | adj=1 |
+| donna | noun | noun=1 |
+| enthusiastic | adj | adj=1 |
+| louisville | noun | noun=1 |
+| marina | noun | noun=1 |
+| melissa | noun | noun=1 |
+| milton | noun | noun=1 |
+| ml | noun | noun=1 |
+| nash | noun | noun=1 |
+| nobel | noun | noun=1 |
+| norfolk | noun | noun=1 |
+| paperwork | noun | noun=1 |
+| sperm | noun | noun=1 |
+| tasty | adj | adj=1 |
+| traveler | noun | noun=1 |
+| urine | noun | noun=1 |
+| vermont | noun | noun=1 |
+| allocate | verb | verb=1 |
+| applause | noun | noun=1 |
+| calif | noun | noun=1 |
+| cyrus | noun | noun=1 |
+| dessert | noun | noun=1 |
+| firework | noun | noun=1 |
+| freeman | noun | noun=1 |
+| gateway | noun | noun=1 |
+| humidity | noun | noun=1 |
+| imagery | noun | noun=1 |
+| isle | noun | noun=1 |
+| ivy | noun | noun=1 |
+| ka | noun | noun=1 |
+| lego | noun | noun=1 |
+| livestock | noun | noun=1 |
+| mick | noun | noun=1 |
+| nepal | noun | noun=1 |
+| notify | verb | verb=1 |
+| notorious | adj | adj=1 |
+| obey | verb | verb=1 |
+| organizational | adj | adj=1 |
+| overly | adv | adv=1 |
+| prototype | noun | noun=1 |
+| superstar | noun | noun=1 |
+| toddler | noun | noun=1 |
+| viking | noun | noun=1 |
+| vodka | noun | noun=1 |
+| wholly | adv | adv=1 |
+| apollo | noun | noun=1 |
+| archbishop | noun | noun=1 |
+| bibliography | noun | noun=1 |
+| bot | noun | noun=1 |
+| calcium | noun | noun=1 |
+| collectively | adv | adv=1 |
+| dana | noun | noun=1 |
+| educator | noun | noun=1 |
+| electron | noun | noun=1 |
+| enzyme | noun | noun=1 |
+| evolutionary | adj | adj=1 |
+| geological | adj | adj=1 |
+| globally | adv | adv=1 |
+| hm | noun | noun=1 |
+| hormone | noun | noun=1 |
+| indianapolis | noun | noun=1 |
+| infinity | noun | noun=1 |
+| intentionally | adv | adv=1 |
+| kilometer | noun | noun=1 |
+| libya | noun | noun=1 |
+| murderer | noun | noun=1 |
+| niece | noun | noun=1 |
+| rainfall | noun | noun=1 |
+| stimulus | noun | noun=1 |
+| tracy | noun | noun=1 |
+| tun | noun | noun=1 |
+| unprecedented | adj | adj=1 |
+| vagina | noun | noun=1 |
+| willingness | noun | noun=1 |
+| alt | noun | noun=1 |
+| alternatively | adv | adv=1 |
+| asap | adv | adv=1 |
+| chester | noun | noun=1 |
+| cuisine | noun | noun=1 |
+| dioxide | noun | noun=1 |
+| ea | noun | noun=1 |
+| fundraise | verb | verb=1 |
+| homemade | adj | adj=1 |
+| insulin | noun | noun=1 |
+| memo | noun | noun=1 |
+| myanmar | noun | noun=1 |
+| narrator | noun | noun=1 |
+| nsw | noun | noun=1 |
+| obesity | noun | noun=1 |
+| respiratory | adj | adj=1 |
+| rodgers | noun | noun=1 |
+| roommate | noun | noun=1 |
+| shah | noun | noun=1 |
+| shawn | noun | noun=1 |
+| shotgun | noun | noun=1 |
+| sofa | noun | noun=1 |
+| solomon | noun | noun=1 |
+| undergo | verb | verb=1 |
+| wu | noun | noun=1 |
+| afl | noun | noun=1 |
+| bronco | noun | noun=1 |
+| carroll | noun | noun=1 |
+| combo | noun | noun=1 |
+| decorative | adj | adj=1 |
+| fletcher | noun | noun=1 |
+| freestyle | noun | noun=1 |
+| grandpa | noun | noun=1 |
+| homicide | noun | noun=1 |
+| luggage | noun | noun=1 |
+| lyon | noun | noun=1 |
+| madame | noun | noun=1 |
+| midwest | noun | noun=1 |
+| ops | noun | noun=1 |
+| practitioner | noun | noun=1 |
+| predominantly | adv | adv=1 |
+| psychologist | noun | noun=1 |
+| reproductive | adj | adj=1 |
+| rivalry | noun | noun=1 |
+| rosa | noun | noun=1 |
+| sufficiently | adv | adv=1 |
+| unpleasant | adj | adj=1 |
+| ussr | noun | noun=1 |
+| vicinity | noun | noun=1 |
+| belle | noun | noun=1 |
+| cooperate | verb | verb=1 |
+| edgar | noun | noun=1 |
+| efficiently | adv | adv=1 |
+| grandchild | noun | noun=1 |
+| harmless | adj | adj=1 |
+| johnston | noun | noun=1 |
+| kindergarten | noun | noun=1 |
+| offender | noun | noun=1 |
+| patriotic | adj | adj=1 |
+| spokesman | noun | noun=1 |
+| surrounding | adj | adj=1 |
+| swinge | verb | verb=1 |
+| vatican | noun | noun=1 |
+| vendor | noun | noun=1 |
+| yr | noun | noun=1 |
+| avenger | noun | noun=1 |
+| bliss | noun | noun=1 |
+| calgary | noun | noun=1 |
+| collaborative | adj | adj=1 |
+| daisy | noun | noun=1 |
+| developmental | adj | adj=1 |
+| ecosystem | noun | noun=1 |
+| elvis | noun | noun=1 |
+| finn | noun | noun=1 |
+| jung | noun | noun=1 |
+| penguin | noun | noun=1 |
+| prevalent | adj | adj=1 |
+| prom | noun | noun=1 |
+| romania | noun | noun=1 |
+| sociology | noun | noun=1 |
+| supermarket | noun | noun=1 |
+| uganda | noun | noun=1 |
+| vegetarian | noun | noun=1 |
+| whiskey | noun | noun=1 |
+| wyoming | noun | noun=1 |
+| aaa | noun | noun=1 |
+| abundant | adj | adj=1 |
+| algebra | noun | noun=1 |
+| cody | noun | noun=1 |
+| cornwall | noun | noun=1 |
+| delightful | adj | adj=1 |
+| dinosaur | noun | noun=1 |
+| drainage | noun | noun=1 |
+| felony | noun | noun=1 |
+| fortress | noun | noun=1 |
+| fundamentally | adv | adv=1 |
+| insider | noun | noun=1 |
+| insufficient | adj | adj=1 |
+| kilometre | noun | noun=1 |
+| ky | noun | noun=1 |
+| lunar | adj | adj=1 |
+| registry | noun | noun=1 |
+| sanchez | noun | noun=1 |
+| silva | noun | noun=1 |
+| sustainability | noun | noun=1 |
+| theological | adj | adj=1 |
+| undercover | adj | adj=1 |
+| accountant | noun | noun=1 |
+| behold | verb | verb=1 |
+| billionaire | noun | noun=1 |
+| brooke | noun | noun=1 |
+| corpse | noun | noun=1 |
+| dawson | noun | noun=1 |
+| dementia | noun | noun=1 |
+| diploma | noun | noun=1 |
+| duchess | noun | noun=1 |
+| geology | noun | noun=1 |
+| greene | noun | noun=1 |
+| hugo | noun | noun=1 |
+| newsletter | noun | noun=1 |
+| nitrogen | noun | noun=1 |
+| ooh | verb | verb=1 |
+| predictable | adj | adj=1 |
+| professionally | adv | adv=1 |
+| shannon | noun | noun=1 |
+| spatial | adj | adj=1 |
+| stockholm | noun | noun=1 |
+| sussex | noun | noun=1 |
+| syrup | noun | noun=1 |
+| unusually | adv | adv=1 |
+| vip | noun | noun=1 |
+| warmer | noun | noun=1 |
+| await | verb | verb=1 |
+| bradford | noun | noun=1 |
+| eligibility | noun | noun=1 |
+| eyebrow | noun | noun=1 |
+| fcc | noun | noun=1 |
+| glucose | noun | noun=1 |
+| ideally | adv | adv=1 |
+| infamous | adj | adj=1 |
+| inspirational | adj | adj=1 |
+| internally | adv | adv=1 |
+| kashmir | noun | noun=1 |
+| knox | noun | noun=1 |
+| leigh | noun | noun=1 |
+| lifelong | adj | adj=1 |
+| limestone | noun | noun=1 |
+| mem | noun | noun=1 |
+| mohammed | noun | noun=1 |
+| nt | noun | noun=1 |
+| prestige | noun | noun=1 |
+| relevance | noun | noun=1 |
+| rom | noun | noun=1 |
+| spacecraft | noun | noun=1 |
+| temp | noun | noun=1 |
+| tray | noun | noun=1 |
+| villager | noun | noun=1 |
+| appropriately | adv | adv=1 |
+| arrogant | adj | adj=1 |
+| canterbury | noun | noun=1 |
+| challenger | noun | noun=1 |
+| clergy | noun | noun=1 |
+| credential | noun | noun=1 |
+| croatia | noun | noun=1 |
+| exceptionally | adv | adv=1 |
+| homosexuality | noun | noun=1 |
+| istanbul | noun | noun=1 |
+| jewellery | noun | noun=1 |
+| medicaid | noun | noun=1 |
+| mit | noun | noun=1 |
+| newark | noun | noun=1 |
+| pneumonia | noun | noun=1 |
+| policeman | noun | noun=1 |
+| postpone | verb | verb=1 |
+| psycho | noun | noun=1 |
+| rainy | adj | adj=1 |
+| scot | noun | noun=1 |
+| serum | noun | noun=1 |
+| sofia | noun | noun=1 |
+| storyline | noun | noun=1 |
+| subsidy | noun | noun=1 |
+| systemic | adj | adj=1 |
+| understandable | adj | adj=1 |
+| violin | noun | noun=1 |
+| worthwhile | adj | adj=1 |
+| aerospace | noun | noun=1 |
+| ak | noun | noun=1 |
+| aluminium | noun | noun=1 |
+| arlington | noun | noun=1 |
+| asthma | noun | noun=1 |
+| bacterial | adj | adj=1 |
+| castro | noun | noun=1 |
+| childish | adj | adj=1 |
+| dilemma | noun | noun=1 |
+| dis | noun | noun=1 |
+| emmy | noun | noun=1 |
+| ethiopia | noun | noun=1 |
+| ethnicity | noun | noun=1 |
+| eventual | adj | adj=1 |
+| excel | verb | verb=1 |
+| firstly | adv | adv=1 |
+| franco | noun | noun=1 |
+| hank | noun | noun=1 |
+| hq | noun | noun=1 |
+| ko | noun | noun=1 |
+| lava | noun | noun=1 |
+| longtime | adj | adj=1 |
+| metaphor | noun | noun=1 |
+| millionaire | noun | noun=1 |
+| pact | noun | noun=1 |
+| paramount | adj | adj=1 |
+| resemble | verb | verb=1 |
+| rightly | adv | adv=1 |
+| schmidt | noun | noun=1 |
+| sherlock | noun | noun=1 |
+| sniper | noun | noun=1 |
+| stoke | verb | verb=1 |
+| thames | noun | noun=1 |
+| vine | noun | noun=1 |
+| warranty | noun | noun=1 |
+| zimbabwe | noun | noun=1 |
+| artifact | noun | noun=1 |
+| ashton | noun | noun=1 |
+| auburn | adj | adj=1 |
+| cholesterol | noun | noun=1 |
+| classy | adj | adj=1 |
+| clyde | noun | noun=1 |
+| cpu | noun | noun=1 |
+| damon | noun | noun=1 |
+| downstair | adj | adj=1 |
+| empathy | noun | noun=1 |
+| feasible | adj | adj=1 |
+| hallway | noun | noun=1 |
+| insanity | noun | noun=1 |
+| jeep | noun | noun=1 |
+| mayo | noun | noun=1 |
+| microphone | noun | noun=1 |
+| motto | noun | noun=1 |
+| nw | noun | noun=1 |
+| occupational | adj | adj=1 |
+| pe | noun | noun=1 |
+| persecution | noun | noun=1 |
+| petrol | noun | noun=1 |
+| pixel | noun | noun=1 |
+| prostitution | noun | noun=1 |
+| radioactive | adj | adj=1 |
+| rug | noun | noun=1 |
+| salvador | noun | noun=1 |
+| slogan | noun | noun=1 |
+| sponsorship | noun | noun=1 |
+| sunglass | noun | noun=1 |
+| tate | noun | noun=1 |
+| tonne | noun | noun=1 |
+| unarm | verb | verb=1 |
+| unpopular | adj | adj=1 |
+| vanessa | noun | noun=1 |
+| voluntarily | adv | adv=1 |
+| ada | noun | noun=1 |
+| beck | noun | noun=1 |
+| bingo | noun | noun=1 |
+| cambodia | noun | noun=1 |
+| clarence | noun | noun=1 |
+| cubic | adj | adj=1 |
+| hazardous | adj | adj=1 |
+| imo | noun | noun=1 |
+| indirectly | adv | adv=1 |
+| jong | noun | noun=1 |
+| listener | noun | noun=1 |
+| mag | noun | noun=1 |
+| magistrate | noun | noun=1 |
+| neuron | noun | noun=1 |
+| preferably | adv | adv=1 |
+| proudly | adv | adv=1 |
+| romeo | noun | noun=1 |
+| routinely | adv | adv=1 |
+| serbia | noun | noun=1 |
+| template | noun | noun=1 |
+| teresa | noun | noun=1 |
+| theresa | noun | noun=1 |
+| tn | noun | noun=1 |
+| vista | noun | noun=1 |
+| adore | verb | verb=1 |
+| auckland | noun | noun=1 |
+| beware | verb | verb=1 |
+| boulevard | noun | noun=1 |
+| christie | noun | noun=1 |
+| compulsory | adj | adj=1 |
+| dissertation | noun | noun=1 |
+| ec | noun | noun=1 |
+| franc | noun | noun=1 |
+| functionality | noun | noun=1 |
+| genome | noun | noun=1 |
+| haired | adj | adj=1 |
+| ia | noun | noun=1 |
+| mack | noun | noun=1 |
+| mammal | noun | noun=1 |
+| manually | adv | adv=1 |
+| misunderstand | verb | verb=1 |
+| pd | noun | noun=1 |
+| prairie | noun | noun=1 |
+| psychiatrist | noun | noun=1 |
+| rb | noun | noun=1 |
+| santos | noun | noun=1 |
+| sidney | noun | noun=1 |
+| songwriter | noun | noun=1 |
+| stella | noun | noun=1 |
+| sur | noun | noun=1 |
+| tidal | adj | adj=1 |
+| uruguay | noun | noun=1 |
+| utc | noun | noun=1 |
+| bali | noun | noun=1 |
+| bangalore | noun | noun=1 |
+| beverage | noun | noun=1 |
+| brent | noun | noun=1 |
+| constituency | noun | noun=1 |
+| councillor | noun | noun=1 |
+| cyclist | noun | noun=1 |
+| entirety | noun | noun=1 |
+| fishery | noun | noun=1 |
+| footballer | noun | noun=1 |
+| forestry | noun | noun=1 |
+| ipod | noun | noun=1 |
+| iq | noun | noun=1 |
+| lastly | adv | adv=1 |
+| mart | noun | noun=1 |
+| moist | adj | adj=1 |
+| monte | noun | noun=1 |
+| mu | noun | noun=1 |
+| nissan | noun | noun=1 |
+| plymouth | noun | noun=1 |
+| punjab | noun | noun=1 |
+| ri | noun | noun=1 |
+| shale | noun | noun=1 |
+| simplify | verb | verb=1 |
+| stalin | noun | noun=1 |
+| taliban | noun | noun=1 |
+| thor | noun | noun=1 |
+| tinder | noun | noun=1 |
+| willis | noun | noun=1 |
+| ale | noun | noun=1 |
+| archaeological | adj | adj=1 |
+| bengal | noun | noun=1 |
+| byron | noun | noun=1 |
+| cardiovascular | adj | adj=1 |
+| consortium | noun | noun=1 |
+| countdown | noun | noun=1 |
+| courier | noun | noun=1 |
+| dd | noun | noun=1 |
+| disastrous | adj | adj=1 |
+| drummer | noun | noun=1 |
+| efficacy | noun | noun=1 |
+| erin | noun | noun=1 |
+| investigative | adj | adj=1 |
+| leonardo | noun | noun=1 |
+| mutually | adv | adv=1 |
+| o'neill | noun | noun=1 |
+| obese | adj | adj=1 |
+| outreach | noun | noun=1 |
+| preacher | noun | noun=1 |
+| procurement | noun | noun=1 |
+| protector | noun | noun=1 |
+| rna | noun | noun=1 |
+| sidewalk | noun | noun=1 |
+| sleepy | adj | adj=1 |
+| sushi | noun | noun=1 |
+| sw | noun | noun=1 |
+| terminology | noun | noun=1 |
+| traveller | noun | noun=1 |
+| vengeance | noun | noun=1 |
+| visually | adv | adv=1 |
+| acc | noun | noun=1 |
+| activism | noun | noun=1 |
+| airborne | adj | adj=1 |
+| astonish | verb | verb=1 |
+| bakery | noun | noun=1 |
+| bart | noun | noun=1 |
+| caffeine | noun | noun=1 |
+| commercially | adv | adv=1 |
+| copenhagen | noun | noun=1 |
+| dell | noun | noun=1 |
+| dl | noun | noun=1 |
+| gala | noun | noun=1 |
+| gladly | adv | adv=1 |
+| greeting | noun | noun=1 |
+| imminent | adj | adj=1 |
+| irresponsible | adj | adj=1 |
+| jakarta | noun | noun=1 |
+| johannesburg | noun | noun=1 |
+| lender | noun | noun=1 |
+| locality | noun | noun=1 |
+| malicious | adj | adj=1 |
+| mattress | noun | noun=1 |
+| monarchy | noun | noun=1 |
+| orgasm | noun | noun=1 |
+| panty | noun | noun=1 |
+| replica | noun | noun=1 |
+| somalia | noun | noun=1 |
+| statistically | adv | adv=1 |
+| strangely | adv | adv=1 |
+| toby | noun | noun=1 |
+| torr | noun | noun=1 |
+| acne | noun | noun=1 |
+| alzheimer's | noun | noun=1 |
+| bonnie | adj | adj=1 |
+| brewery | noun | noun=1 |
+| creditor | noun | noun=1 |
+| daytime | noun | noun=1 |
+| disciple | noun | noun=1 |
+| drunken | adj | adj=1 |
+| freezer | noun | noun=1 |
+| genetically | adv | adv=1 |
+| herein | adv | adv=1 |
+| honorary | adj | adj=1 |
+| jerome | noun | noun=1 |
+| needless | adj | adj=1 |
+| optimization | noun | noun=1 |
+| outdated | adj | adj=1 |
+| oxide | noun | noun=1 |
+| pornography | noun | noun=1 |
+| tara | noun | noun=1 |
+| turk | noun | noun=1 |
+| warsaw | noun | noun=1 |
+| yi | noun | noun=1 |
+| anthropology | noun | noun=1 |
+| bombay | noun | noun=1 |
+| bronx | noun | noun=1 |
+| cellphone | noun | noun=1 |
+| courtyard | noun | noun=1 |
+| cynthia | noun | noun=1 |
+| decor | noun | noun=1 |
+| drastically | adv | adv=1 |
+| driveway | noun | noun=1 |
+| edwin | noun | noun=1 |
+| ev | noun | noun=1 |
+| fo | noun | noun=1 |
+| gibbs | noun | noun=1 |
+| gmt | noun | noun=1 |
+| graffito | noun | noun=1 |
+| grenade | noun | noun=1 |
+| hampton | noun | noun=1 |
+| herman | noun | noun=1 |
+| html | noun | noun=1 |
+| hugely | adv | adv=1 |
+| inaccurate | adj | adj=1 |
+| inception | noun | noun=1 |
+| indefinitely | adv | adv=1 |
+| kobe | noun | noun=1 |
+| kris | noun | noun=1 |
+| legislator | noun | noun=1 |
+| malaria | noun | noun=1 |
+| manifesto | noun | noun=1 |
+| monaco | noun | noun=1 |
+| monastery | noun | noun=1 |
+| naomi | noun | noun=1 |
+| narrowly | adv | adv=1 |
+| nightclub | noun | noun=1 |
+| obsolete | adj | adj=1 |
+| prague | noun | noun=1 |
+| preseason | noun | noun=1 |
+| qaeda | noun | noun=1 |
+| ruthless | adj | adj=1 |
+| satire | noun | noun=1 |
+| seafood | noun | noun=1 |
+| standpoint | noun | noun=1 |
+| torque | noun | noun=1 |
+| trinidad | noun | noun=1 |
+| unconstitutional | adj | adj=1 |
+| var | noun | noun=1 |
+| vocational | adj | adj=1 |
+| woodland | noun | noun=1 |
+| accustom | verb | verb=1 |
+| adequately | adv | adv=1 |
+| amazingly | adv | adv=1 |
+| baghdad | noun | noun=1 |
+| camel | noun | noun=1 |
+| canberra | noun | noun=1 |
+| classmate | noun | noun=1 |
+| comet | noun | noun=1 |
+| culturally | adv | adv=1 |
+| dictatorship | noun | noun=1 |
+| ecuador | noun | noun=1 |
+| edmonton | noun | noun=1 |
+| electorate | noun | noun=1 |
+| expo | noun | noun=1 |
+| handmade | adj | adj=1 |
+| hartford | noun | noun=1 |
+| icc | noun | noun=1 |
+| kat | noun | noun=1 |
+| koch | noun | noun=1 |
+| lagos | noun | noun=1 |
+| leone | noun | noun=1 |
+| lisbon | noun | noun=1 |
+| lu | noun | noun=1 |
+| morton | noun | noun=1 |
+| neon | noun | noun=1 |
+| nile | noun | noun=1 |
+| nutritional | adj | adj=1 |
+| polymer | noun | noun=1 |
+| salesman | noun | noun=1 |
+| sonny | noun | noun=1 |
+| spokesperson | noun | noun=1 |
+| sultan | noun | noun=1 |
+| supremacy | noun | noun=1 |
+| transitional | adj | adj=1 |
+| aggressively | adv | adv=1 |
+| allergy | noun | noun=1 |
+| astronomy | noun | noun=1 |
+| atop | adv | adv=1 |
+| autobiography | noun | noun=1 |
+| av | noun | noun=1 |
+| comfy | adj | adj=1 |
+| condo | noun | noun=1 |
+| conrad | noun | noun=1 |
+| drastic | adj | adj=1 |
+| emerson | noun | noun=1 |
+| enhancement | noun | noun=1 |
+| firefighter | noun | noun=1 |
+| gigantic | adj | adj=1 |
+| guitarist | noun | noun=1 |
+| halftime | noun | noun=1 |
+| hamas | noun | noun=1 |
+| helena | noun | noun=1 |
+| ig | noun | noun=1 |
+| naples | noun | noun=1 |
+| nigga | noun | noun=1 |
+| noel | noun | noun=1 |
+| paradox | noun | noun=1 |
+| peacefully | adv | adv=1 |
+| podium | noun | noun=1 |
+| redskin | noun | noun=1 |
+| safari | noun | noun=1 |
+| seldom | adv | adv=1 |
+| statewide | adj | adj=1 |
+| sunderland | noun | noun=1 |
+| tracker | noun | noun=1 |
+| turbine | noun | noun=1 |
+| tyson | noun | noun=1 |
+| unavailable | adj | adj=1 |
+| universally | adv | adv=1 |
+| uv | noun | noun=1 |
+| warden | noun | noun=1 |
+| whisky | noun | noun=1 |
+| womb | noun | noun=1 |
+| yogurt | noun | noun=1 |
+| abolish | verb | verb=1 |
+| algeria | noun | noun=1 |
+| ambient | adj | adj=1 |
+| bandwidth | noun | noun=1 |
+| clive | noun | noun=1 |
+| computational | adj | adj=1 |
+| conceptual | adj | adj=1 |
+| earring | noun | noun=1 |
+| ebola | noun | noun=1 |
+| filmmaker | noun | noun=1 |
+| frankfurt | noun | noun=1 |
+| furnace | noun | noun=1 |
+| gale | noun | noun=1 |
+| gluten | noun | noun=1 |
+| goodman | noun | noun=1 |
+| gorilla | noun | noun=1 |
+| guatemala | noun | noun=1 |
+| hamburg | noun | noun=1 |
+| inflict | verb | verb=1 |
+| lawmaker | noun | noun=1 |
+| lena | noun | noun=1 |
+| luna | noun | noun=1 |
+| malik | noun | noun=1 |
+| mascot | noun | noun=1 |
+| meth | noun | noun=1 |
+| mf | noun | noun=1 |
+| midfield | noun | noun=1 |
+| mohammad | noun | noun=1 |
+| nostalgia | noun | noun=1 |
+| pavilion | noun | noun=1 |
+| rapist | noun | noun=1 |
+| ro | noun | noun=1 |
+| sarcasm | noun | noun=1 |
+| shutdown | noun | noun=1 |
+| snp | noun | noun=1 |
+| swansea | noun | noun=1 |
+| tehran | noun | noun=1 |
+| tm | noun | noun=1 |
+| unanimously | adv | adv=1 |
+| undefeated | adj | adj=1 |
+| unfamiliar | adj | adj=1 |
+| vale | noun | noun=1 |
+| vastly | adv | adv=1 |
+| violently | adv | adv=1 |
+| wisely | adv | adv=1 |
+| adaptive | adj | adj=1 |
+| addictive | adj | adj=1 |
+| apartheid | noun | noun=1 |
+| arthritis | noun | noun=1 |
+| dante | noun | noun=1 |
+| dominic | noun | noun=1 |
+| ee | noun | noun=1 |
+| fiji | noun | noun=1 |
+| fraudulent | adj | adj=1 |
+| freeway | noun | noun=1 |
+| homage | noun | noun=1 |
+| internship | noun | noun=1 |
+| jacksonville | noun | noun=1 |
+| jasmine | noun | noun=1 |
+| lantern | noun | noun=1 |
+| moose | noun | noun=1 |
+| mosquito | noun | noun=1 |
+| motel | noun | noun=1 |
+| motherfucker | noun | noun=1 |
+| novelist | noun | noun=1 |
+| payday | noun | noun=1 |
+| pigeon | noun | noun=1 |
+| plateau | noun | noun=1 |
+| playlist | noun | noun=1 |
+| precinct | noun | noun=1 |
+| premiership | noun | noun=1 |
+| refrigerator | noun | noun=1 |
+| regina | noun | noun=1 |
+| reminiscent | adj | adj=1 |
+| resentment | noun | noun=1 |
+| resin | noun | noun=1 |
+| rupert | noun | noun=1 |
+| simulator | noun | noun=1 |
+| sl | noun | noun=1 |
+| storey | noun | noun=1 |
+| suicidal | adj | adj=1 |
+| suv | noun | noun=1 |
+| symposium | noun | noun=1 |
+| trajectory | noun | noun=1 |
+| wimbledon | noun | noun=1 |
+| astronaut | noun | noun=1 |
+| authenticity | noun | noun=1 |
+| benghazi | noun | noun=1 |
+| bloc | noun | noun=1 |
+| breathtaking | adj | adj=1 |
+| cinematic | adj | adj=1 |
+| condom | noun | noun=1 |
+| consul | noun | noun=1 |
+| contender | noun | noun=1 |
+| curly | adj | adj=1 |
+| dexter | adj | adj=1 |
+| europa | noun | noun=1 |
+| evidently | adv | adv=1 |
+| famed | adj | adj=1 |
+| fargo | noun | noun=1 |
+| fetus | noun | noun=1 |
+| flawless | adj | adj=1 |
+| granddaughter | noun | noun=1 |
+| hereby | adv | adv=1 |
+| honduras | noun | noun=1 |
+| humorous | adj | adj=1 |
+| interestingly | adv | adv=1 |
+| kendall | noun | noun=1 |
+| lancashire | noun | noun=1 |
+| meadow | noun | noun=1 |
+| ness | noun | noun=1 |
+| norris | noun | noun=1 |
+| o'connor | noun | noun=1 |
+| osborne | noun | noun=1 |
+| parson | noun | noun=1 |
+| presbyterian | noun | noun=1 |
+| sarcastic | adj | adj=1 |
+| scholarly | adj | adj=1 |
+| seymour | noun | noun=1 |
+| sheikh | noun | noun=1 |
+| testosterone | noun | noun=1 |
+| attacker | noun | noun=1 |
+| booty | noun | noun=1 |
+| brutally | adv | adv=1 |
+| cdc | noun | noun=1 |
+| courageous | adj | adj=1 |
+| cynical | adj | adj=1 |
+| damascus | noun | noun=1 |
+| fluffy | adj | adj=1 |
+| gadget | noun | noun=1 |
+| goldman | noun | noun=1 |
+| halifax | noun | noun=1 |
+| impeachment | noun | noun=1 |
+| inherently | adv | adv=1 |
+| inventor | noun | noun=1 |
+| jasper | noun | noun=1 |
+| karachi | noun | noun=1 |
+| librarian | noun | noun=1 |
+| lydia | noun | noun=1 |
+| marital | adj | adj=1 |
+| pancake | noun | noun=1 |
+| patriotism | noun | noun=1 |
+| periodically | adv | adv=1 |
+| poppy | noun | noun=1 |
+| resemblance | noun | noun=1 |
+| roth | noun | noun=1 |
+| societal | adj | adj=1 |
+| spec | noun | noun=1 |
+| steele | noun | noun=1 |
+| tiffany | noun | noun=1 |
+| titanic | adj | adj=1 |
+| typhoon | noun | noun=1 |
+| wartime | noun | noun=1 |
+| zurich | noun | noun=1 |
+| advertiser | noun | noun=1 |
+| baba | noun | noun=1 |
+| backdrop | noun | noun=1 |
+| bollywood | noun | noun=1 |
+| cartel | noun | noun=1 |
+| catastrophic | adj | adj=1 |
+| cheesy | adj | adj=1 |
+| columnist | noun | noun=1 |
+| competence | noun | noun=1 |
+| condolence | noun | noun=1 |
+| conveniently | adv | adv=1 |
+| courtroom | noun | noun=1 |
+| diaz | noun | noun=1 |
+| dorm | noun | noun=1 |
+| electromagnetic | adj | adj=1 |
+| ew | noun | noun=1 |
+| fascism | noun | noun=1 |
+| festive | adj | adj=1 |
+| glacier | noun | noun=1 |
+| influx | noun | noun=1 |
+| keller | noun | noun=1 |
+| larva | noun | noun=1 |
+| lima | noun | noun=1 |
+| mustang | noun | noun=1 |
+| plaintiff | noun | noun=1 |
+| potassium | noun | noun=1 |
+| priceless | adj | adj=1 |
+| scissor | verb | verb=1 |
+| seaside | noun | noun=1 |
+| silently | adv | adv=1 |
+| staircase | noun | noun=1 |
+| telecom | noun | noun=1 |
+| tuberculosis | noun | noun=1 |
+| willingly | adv | adv=1 |
+| youthful | adj | adj=1 |
+| archaeology | noun | noun=1 |
+| burma | noun | noun=1 |
+| cigar | noun | noun=1 |
+| dover | noun | noun=1 |
+| dumbass | noun | noun=1 |
+| edison | noun | noun=1 |
+| finalist | noun | noun=1 |
+| gc | noun | noun=1 |
+| hancock | noun | noun=1 |
+| handwrite | verb | verb=1 |
+| heartbreaking | adj | adj=1 |
+| homeowner | noun | noun=1 |
+| ibrahim | noun | noun=1 |
+| immensely | adv | adv=1 |
+| inexpensive | adj | adj=1 |
+| kazakhstan | noun | noun=1 |
+| mariner | noun | noun=1 |
+| orchard | noun | noun=1 |
+| overdose | verb | verb=1 |
+| rhino | noun | noun=1 |
+| sandstone | noun | noun=1 |
+| sweetie | noun | noun=1 |
+| tanzania | noun | noun=1 |
+| transformer | noun | noun=1 |
+| tunisia | noun | noun=1 |
+| unnamed | adj | adj=1 |
+| wellness | noun | noun=1 |
+| winger | noun | noun=1 |
+| youngster | noun | noun=1 |
+| abruptly | adv | adv=1 |
+| aleppo | noun | noun=1 |
+| alp | noun | noun=1 |
+| antibody | noun | noun=1 |
+| aquarium | noun | noun=1 |
+| armenia | noun | noun=1 |
+| aspire | verb | verb=1 |
+| bedtime | noun | noun=1 |
+| belonging | noun | noun=1 |
+| bun | noun | noun=1 |
+| businessmen | noun | noun=1 |
+| chemotherapy | noun | noun=1 |
+| connectivity | noun | noun=1 |
+| consulate | noun | noun=1 |
+| culinary | adj | adj=1 |
+| discrete | adj | adj=1 |
+| encryption | noun | noun=1 |
+| erica | noun | noun=1 |
+| furry | adj | adj=1 |
+| graveyard | noun | noun=1 |
+| harlem | noun | noun=1 |
+| lennon | noun | noun=1 |
+| lithium | noun | noun=1 |
+| lucrative | adj | adj=1 |
+| malone | noun | noun=1 |
+| managerial | adj | adj=1 |
+| milo | noun | noun=1 |
+| mister | noun | noun=1 |
+| mri | noun | noun=1 |
+| multimedia | noun | noun=1 |
+| multinational | adj | adj=1 |
+| osaka | noun | noun=1 |
+| outskirt | noun | noun=1 |
+| playboy | noun | noun=1 |
+| porcelain | noun | noun=1 |
+| programmer | noun | noun=1 |
+| psychiatry | noun | noun=1 |
+| pursuant | adj | adj=1 |
+| schizophrenia | noun | noun=1 |
+| stakeholder | noun | noun=1 |
+| thug | noun | noun=1 |
+| truman | noun | noun=1 |
+| veronica | noun | noun=1 |
+| waterfront | noun | noun=1 |
+| wembley | noun | noun=1 |
+| witty | adj | adj=1 |
+| amelia | noun | noun=1 |
+| arrogance | noun | noun=1 |
+| attendee | noun | noun=1 |
+| aussie | noun | noun=1 |
+| baptism | noun | noun=1 |
+| beirut | noun | noun=1 |
+| bloke | noun | noun=1 |
+| booker | noun | noun=1 |
+| bowel | noun | noun=1 |
+| budapest | noun | noun=1 |
+| cu | noun | noun=1 |
+| cumulative | adj | adj=1 |
+| curator | noun | noun=1 |
+| deity | noun | noun=1 |
+| detrimental | adj | adj=1 |
+| diarrhea | noun | noun=1 |
+| doctoral | adj | adj=1 |
+| entitlement | noun | noun=1 |
+| esp | noun | noun=1 |
+| faux | adj | adj=1 |
+| finch | noun | noun=1 |
+| gangster | noun | noun=1 |
+| intricate | adj | adj=1 |
+| jensen | noun | noun=1 |
+| karate | noun | noun=1 |
+| kc | noun | noun=1 |
+| lighthouse | noun | noun=1 |
+| lore | noun | noun=1 |
+| mba | noun | noun=1 |
+| meg | noun | noun=1 |
+| nu | noun | noun=1 |
+| phi | noun | noun=1 |
+| poe | noun | noun=1 |
+| raj | noun | noun=1 |
+| retaliation | noun | noun=1 |
+| rooftop | noun | noun=1 |
+| rv | noun | noun=1 |
+| sewage | noun | noun=1 |
+| suitcase | noun | noun=1 |
+| tavern | noun | noun=1 |
+| telegram | noun | noun=1 |
+| titanium | noun | noun=1 |
+| unesco | noun | noun=1 |
+| wonderfully | adv | adv=1 |
+| academia | noun | noun=1 |
+| accreditation | noun | noun=1 |
+| admittedly | adv | adv=1 |
+| aforementioned | adj | adj=1 |
+| algae | noun | noun=1 |
+| asbestos | noun | noun=1 |
+| avoidance | noun | noun=1 |
+| babylon | noun | noun=1 |
+| boutique | noun | noun=1 |
+| bowie | noun | noun=1 |
+| cain | noun | noun=1 |
+| chore | noun | noun=1 |
+| crosby | noun | noun=1 |
+| cunningham | noun | noun=1 |
+| dialect | noun | noun=1 |
+| downside | noun | noun=1 |
+| elijah | noun | noun=1 |
+| empowerment | noun | noun=1 |
+| ensue | verb | verb=1 |
+| fireplace | noun | noun=1 |
+| gpa | noun | noun=1 |
+| greenwich | noun | noun=1 |
+| headset | noun | noun=1 |
+| invaluable | adj | adj=1 |
+| kaiser | noun | noun=1 |
+| kylie | noun | noun=1 |
+| levi | noun | noun=1 |
+| methane | noun | noun=1 |
+| ming | noun | noun=1 |
+| mona | noun | noun=1 |
+| nairobi | noun | noun=1 |
+| neurological | adj | adj=1 |
+| overwhelmingly | adv | adv=1 |
+| ptsd | noun | noun=1 |
 
 ## Clean admits, weak margin
 
@@ -1683,6 +2670,320 @@
 | tenant | verb | noun=3, verb=1 |
 | dissolve | noun | noun=1, verb=11 |
 | haunt | noun | noun=1, verb=3 |
+| roast | adj | noun=2, verb=2, adj=1 |
+| rubbish | verb | noun=2, verb=1 |
+| coral | adj | noun=4, adj=1 |
+| correspondent | adj | noun=2, adj=1 |
+| curtain | verb | noun=2, verb=1 |
+| legion | adj | noun=4, adj=1 |
+| mortal | noun | noun=1, adj=4 |
+| scroll | verb | noun=2, verb=1 |
+| surf | noun | noun=1, verb=3 |
+| whore | noun | noun=1, verb=3 |
+| allowance | verb | noun=6, verb=1 |
+| cf | adv | noun=2, adv=1 |
+| cl | adj | noun=2, adj=1 |
+| flaw | verb | noun=3, verb=1 |
+| interrupt | noun | noun=1, verb=4 |
+| proposition | verb | noun=5, verb=1 |
+| spiral | adj | noun=6, verb=3, adj=1 |
+| therapeutic | noun | noun=1, adj=2 |
+| timely | adv | adj=2, adv=1 |
+| vietnamese | adj | noun=2, adj=1 |
+| exile | verb | noun=3, verb=1 |
+| heroic | noun | noun=1, adj=5 |
+| malaysian | adj | noun=2, adj=1 |
+| skate | verb | noun=2, verb=1 |
+| swan | noun | noun=1, verb=3 |
+| violet | adj | noun=2, adj=1 |
+| afghan | adj | noun=5, adj=1 |
+| bald | verb | verb=1, adj=3 |
+| cone | verb | noun=4, verb=1 |
+| critique | verb | noun=2, verb=1 |
+| exploit | noun | noun=1, verb=3 |
+| humour | verb | noun=6, verb=1 |
+| missionary | adj | noun=2, adj=1 |
+| outright | adj | adj=1, adv=3 |
+| persian | adj | noun=2, adj=1 |
+| reset | noun | noun=1, verb=3 |
+| shave | noun | noun=1, verb=6 |
+| addict | verb | noun=2, verb=1 |
+| decree | noun | noun=1, verb=2 |
+| despair | verb | noun=2, verb=1 |
+| fragment | verb | noun=3, verb=1 |
+| maiden | adj | noun=2, adj=1 |
+| metallic | adj | noun=2, adj=1 |
+| nap | verb | noun=5, verb=1 |
+| nickel | verb | noun=3, verb=1 |
+| overlook | noun | noun=1, verb=5 |
+| sunrise | adj | noun=3, adj=1 |
+| twilight | adj | noun=3, adj=1 |
+| barber | verb | noun=2, verb=1 |
+| bash | verb | noun=2, verb=1 |
+| bulgarian | adj | noun=2, adj=1 |
+| doom | noun | noun=1, verb=3 |
+| dub | noun | noun=1, verb=3 |
+| eclipse | noun | noun=1, verb=2 |
+| glimpse | verb | noun=3, verb=1 |
+| partisan | adj | noun=3, adj=1 |
+| submarine | adj | noun=2, verb=5, adj=1 |
+| awe | verb | noun=2, verb=1 |
+| glue | noun | noun=1, verb=2 |
+| microwave | verb | noun=2, verb=1 |
+| picnic | verb | noun=3, verb=1 |
+| psychic | noun | noun=1, adj=2 |
+| axe | noun | noun=1, verb=2 |
+| cautious | noun | noun=1, adj=2 |
+| hearing | adj | noun=6, adj=1 |
+| hopeful | noun | noun=1, adj=2 |
+| hungarian | adj | noun=2, adj=1 |
+| latino | adj | noun=2, adj=1 |
+| prejudice | noun | noun=1, verb=2 |
+| probable | noun | noun=1, adj=2 |
+| raven | noun | noun=1, verb=4 |
+| shrimp | verb | noun=3, verb=1 |
+| tucker | verb | noun=4, verb=1 |
+| bodily | adv | adj=3, adv=1 |
+| disco | verb | noun=2, verb=1 |
+| foam | verb | noun=2, verb=1 |
+| invalid | noun | noun=1, verb=2, adj=2 |
+| jade | adj | noun=4, verb=2, adj=1 |
+| newborn | noun | noun=1, adj=2 |
+| parole | verb | noun=3, verb=1 |
+| phantom | adj | noun=2, adj=1 |
+| respondent | adj | noun=2, adj=1 |
+| worm | verb | noun=4, verb=1 |
+| audition | verb | noun=2, verb=1 |
+| bravo | verb | noun=2, verb=1 |
+| charleston | verb | noun=3, verb=1 |
+| comparative | noun | noun=1, adj=2 |
+| complement | verb | noun=6, verb=1 |
+| defect | verb | noun=4, verb=1 |
+| flint | adj | noun=3, adj=1 |
+| immortal | adj | noun=2, adj=1 |
+| incumbent | noun | noun=1, adj=3 |
+| jelly | verb | noun=3, verb=1 |
+| literal | noun | noun=1, adj=4 |
+| peach | verb | noun=4, verb=1 |
+| prop | verb | noun=3, verb=1 |
+| scar | verb | noun=2, verb=1 |
+| stereo | adj | noun=2, adj=1 |
+| vein | verb | noun=5, verb=1 |
+| velvet | noun | noun=1, adj=2 |
+| brew | noun | noun=1, verb=2 |
+| bypass | verb | noun=3, verb=1 |
+| cane | verb | noun=3, verb=1 |
+| dice | noun | noun=1, verb=2 |
+| queer | noun | noun=1, verb=2, adj=2 |
+| tamil | adj | noun=2, adj=1 |
+| turf | verb | noun=3, verb=1 |
+| twitch | noun | noun=1, verb=5 |
+| armour | verb | noun=3, verb=1 |
+| bum | adj | noun=4, verb=2, adj=1 |
+| butcher | verb | noun=4, verb=1 |
+| cue | verb | noun=4, verb=1 |
+| gown | verb | noun=5, verb=1 |
+| lateral | noun | noun=1, adj=2 |
+| mortar | verb | noun=3, verb=1 |
+| telescope | noun | noun=1, verb=2 |
+| auxiliary | noun | noun=1, adj=2 |
+| cereal | adj | noun=3, adj=1 |
+| reverend | adj | noun=2, adj=1 |
+| rust | adj | noun=4, verb=3, adj=1 |
+| stray | noun | noun=1, verb=3, adj=2 |
+| sweetheart | adj | noun=3, adj=1 |
+| torch | verb | noun=4, verb=1 |
+| whisper | verb | noun=2, verb=1 |
+| xx | adj | noun=2, adj=1 |
+| blink | noun | noun=1, verb=3 |
+| constituent | adj | noun=5, adj=1 |
+| disgrace | noun | noun=1, verb=3 |
+| flavour | verb | noun=3, verb=1 |
+| flex | noun | noun=1, verb=5 |
+| hose | verb | noun=3, verb=1 |
+| retard | noun | noun=1, verb=4 |
+| revolt | noun | noun=1, verb=3 |
+| shrink | noun | noun=1, verb=5 |
+| sorrow | verb | noun=4, verb=1 |
+| xxx | adj | noun=2, adj=1 |
+| yen | verb | noun=2, verb=1 |
+| caption | verb | noun=3, verb=1 |
+| disguise | verb | noun=3, verb=1 |
+| grease | verb | noun=2, verb=1 |
+| hulk | verb | noun=2, verb=1 |
+| lust | verb | noun=2, verb=1 |
+| miniature | adj | noun=2, adj=1 |
+| tile | verb | noun=3, verb=1 |
+| volatile | noun | noun=1, adj=4 |
+| convoy | verb | noun=3, verb=1 |
+| cosmetic | noun | noun=1, adj=2 |
+| descendant | noun | noun=1, adj=2 |
+| downward | adv | adj=2, adv=1 |
+| funk | verb | noun=3, verb=1 |
+| infrared | adj | noun=2, adj=1 |
+| masculine | noun | noun=1, adj=3 |
+| mug | verb | noun=4, verb=1 |
+| nutrient | adj | noun=2, adj=1 |
+| opening | adj | noun=13, adj=1 |
+| scum | verb | noun=2, verb=1 |
+| acclaim | noun | noun=1, verb=2 |
+| bisexual | noun | noun=1, adj=2 |
+| crisp | noun | noun=1, verb=2, adj=6 |
+| crust | verb | noun=3, verb=1 |
+| gravel | noun | noun=1, verb=3 |
+| idle | noun | noun=1, verb=2, adj=7 |
+| vow | noun | noun=1, verb=2 |
+| chalk | verb | noun=4, verb=1 |
+| inconvenience | verb | noun=3, verb=1 |
+| killing | adj | noun=3, adj=1 |
+| lipstick | noun | noun=1, verb=2 |
+| midland | adj | noun=2, adj=1 |
+| scrub | adj | noun=2, verb=3, adj=1 |
+| shin | verb | noun=4, verb=1 |
+| underestimate | noun | noun=1, verb=3 |
+| bathe | noun | noun=1, verb=3 |
+| clone | verb | noun=3, verb=1 |
+| filipino | adj | noun=2, adj=1 |
+| hawaiian | adj | noun=2, adj=1 |
+| honeymoon | verb | noun=2, verb=1 |
+| jewel | verb | noun=2, verb=1 |
+| pandemic | noun | noun=1, adj=2 |
+| ransom | verb | noun=3, verb=1 |
+| swell | adj | noun=4, verb=6, adj=1 |
+| theatrical | noun | noun=1, adj=2 |
+| barrack | noun | noun=1, verb=3 |
+| dent | verb | noun=3, verb=1 |
+| garrison | verb | noun=3, verb=1 |
+| gradual | noun | noun=1, adj=2 |
+| intern | noun | noun=1, verb=2 |
+| lure | verb | noun=3, verb=1 |
+| mist | noun | noun=1, verb=3 |
+| mormon | adj | noun=2, adj=1 |
+| rant | verb | noun=2, verb=1 |
+| snail | verb | noun=2, verb=1 |
+| tutor | noun | noun=1, verb=2 |
+| verge | verb | noun=4, verb=1 |
+| backlash | verb | noun=2, verb=1 |
+| chew | verb | noun=2, verb=1 |
+| collateral | noun | noun=1, adj=4 |
+| downhill | adj | noun=2, adj=1, adv=2 |
+| earnest | noun | noun=1, adj=3 |
+| hare | verb | noun=2, verb=1 |
+| manly | adv | adj=2, adv=1 |
+| mute | verb | noun=2, verb=1, adj=2 |
+| peripheral | noun | noun=1, adj=2 |
+| shove | noun | noun=1, verb=3 |
+| blackberry | verb | noun=2, verb=1 |
+| corporal | noun | noun=1, adj=2 |
+| derivative | adj | noun=4, adj=1 |
+| duel | verb | noun=2, verb=1 |
+| helm | verb | noun=2, verb=1 |
+| incompetent | noun | noun=1, adj=5 |
+| kin | adj | noun=2, adj=1 |
+| optic | noun | noun=1, adj=2 |
+| beginning | adj | noun=5, adj=1 |
+| bulldog | noun | noun=1, verb=2 |
+| cozy | noun | noun=1, adj=3 |
+| flank | verb | noun=4, verb=1 |
+| lever | verb | noun=3, verb=1 |
+| mutant | adj | noun=2, adj=1 |
+| pedal | adj | noun=2, verb=2, adj=1 |
+| pup | verb | noun=2, verb=1 |
+| quarantine | verb | noun=2, verb=1 |
+| smack | adv | noun=6, verb=5, adv=1 |
+| southwestern | noun | noun=1, adj=2 |
+| stitch | verb | noun=2, verb=1 |
+| amnesty | verb | noun=3, verb=1 |
+| attic | adj | noun=4, adj=1 |
+| crook | verb | noun=3, verb=1 |
+| ding | verb | noun=2, verb=1 |
+| gee | noun | noun=1, verb=2 |
+| hash | verb | noun=2, verb=1 |
+| refrain | noun | noun=1, verb=2 |
+| rum | adj | noun=2, adj=1 |
+| squash | verb | noun=3, verb=1 |
+| tar | verb | noun=2, verb=1 |
+| temporal | noun | noun=1, adj=5 |
+| vomit | verb | noun=3, verb=1 |
+| aquatic | noun | noun=1, adj=2 |
+| barbecue | verb | noun=3, verb=1 |
+| caravan | verb | noun=2, verb=1 |
+| chant | noun | noun=1, verb=2 |
+| compress | noun | noun=1, verb=2 |
+| militant | noun | noun=1, adj=3 |
+| ottoman | adj | noun=4, adj=1 |
+| bale | verb | noun=2, verb=1 |
+| beaver | verb | noun=7, verb=1 |
+| boast | noun | noun=1, verb=2 |
+| chap | verb | noun=4, verb=1 |
+| crank | adj | noun=4, verb=5, adj=1 |
+| darn | verb | noun=2, verb=1 |
+| hymn | noun | noun=1, verb=2 |
+| knockout | adj | noun=2, adj=1 |
+| tailor | noun | noun=1, verb=3 |
+| utmost | noun | noun=1, adj=3 |
+| weary | adj | verb=2, adj=1 |
+| armenian | adj | noun=3, adj=1 |
+| binge | verb | noun=2, verb=1 |
+| climax | verb | noun=5, verb=1 |
+| hale | adj | noun=3, verb=2, adj=1 |
+| marxist | adj | noun=2, adj=1 |
+| mound | verb | noun=5, verb=1 |
+| mystic | noun | noun=1, adj=3 |
+| nominal | noun | noun=1, adj=6 |
+| proportional | noun | noun=1, adj=2 |
+| quarry | verb | noun=3, verb=1 |
+| strait | adj | noun=2, adj=1 |
+| yarn | verb | noun=2, verb=1 |
+| authoritarian | noun | noun=1, adj=2 |
+| avail | noun | noun=1, verb=3 |
+| buff | adj | noun=5, verb=2, adj=1 |
+| discard | verb | noun=3, verb=1 |
+| muse | verb | noun=2, verb=1 |
+| adolescent | noun | noun=1, adj=4 |
+| cushion | verb | noun=3, verb=1 |
+| mosaic | adj | noun=6, adj=1 |
+| needy | noun | noun=1, adj=2 |
+| orphan | verb | noun=4, verb=1 |
+| romanian | adj | noun=2, adj=1 |
+| semitic | noun | noun=1, adj=2 |
+| shampoo | verb | noun=2, verb=1 |
+| swipe | noun | noun=1, verb=2 |
+| tango | verb | noun=2, verb=1 |
+| trumpet | noun | noun=1, verb=3 |
+| affirmative | noun | noun=1, adj=3 |
+| blitz | verb | noun=2, verb=1 |
+| disposable | noun | noun=1, adj=2 |
+| hassle | verb | noun=2, verb=1 |
+| hog | verb | noun=3, verb=1 |
+| indicative | noun | noun=1, adj=2 |
+| intercept | noun | noun=1, verb=2 |
+| commute | noun | noun=1, verb=5 |
+| complementary | noun | noun=1, adj=2 |
+| endeavor | verb | noun=2, verb=1 |
+| glitter | verb | noun=2, verb=1 |
+| hoover | verb | noun=4, verb=1 |
+| irrational | noun | noun=1, adj=2 |
+| pagan | adj | noun=3, adj=1 |
+| psalm | verb | noun=2, verb=1 |
+| rue | verb | noun=4, verb=1 |
+| weave | noun | noun=1, verb=4 |
+| ambush | noun | noun=1, verb=2 |
+| blond | adj | noun=2, adj=1 |
+| blur | noun | noun=1, verb=6 |
+| cabbage | verb | noun=3, verb=1 |
+| garner | noun | noun=1, verb=3 |
+| lush | noun | noun=1, adj=3 |
+| puff | adj | noun=8, verb=8, adj=1 |
+| ware | verb | noun=2, verb=1 |
+| whine | noun | noun=1, verb=4 |
+| bearing | adj | noun=6, adj=1 |
+| dunk | noun | noun=1, verb=3 |
+| fugitive | adj | noun=2, adj=1 |
+| hazel | adj | noun=4, adj=1 |
+| hurdle | verb | noun=3, verb=1 |
+| misuse | noun | noun=1, verb=2 |
+| oyster | verb | noun=3, verb=1 |
 
 ## Deferred: tied at 1
 
@@ -1923,3 +3224,174 @@
 | thirteen | noun, adj | noun=1, adj=1 |
 | fourteen | noun, adj | noun=1, adj=1 |
 | yearly | noun, adj, adv | noun=1, adj=1, adv=1 |
+| repeal | noun, verb | noun=1, verb=1 |
+| seventeen | noun, adj | noun=1, adj=1 |
+| surplus | noun, adj | noun=1, adj=1 |
+| wee | noun, verb | noun=1, verb=1, adj=2 |
+| instinct | noun, adj | noun=1, adj=1 |
+| nonprofit | noun, adj | noun=1, adj=1 |
+| buddhist | noun, adj | noun=1, adj=1 |
+| diagram | noun, verb | noun=1, verb=1 |
+| mock | noun, adj | noun=1, verb=2, adj=1 |
+| spinal | noun, adj | noun=1, adj=1 |
+| vii | noun, adj | noun=1, adj=1 |
+| ce | noun, adv | noun=1, adv=1 |
+| inland | adj, adv | adj=1, adv=1 |
+| statute | noun, adj | noun=1, adj=1 |
+| accidental | noun, adj | noun=1, adj=1 |
+| belgian | noun, adj | noun=1, adj=1 |
+| coordinate | noun, adj | noun=1, verb=4, adj=1 |
+| dye | noun, verb | noun=1, verb=1 |
+| hindi | noun, adj | noun=1, adj=1 |
+| quiz | noun, verb | noun=1, verb=1 |
+| yacht | noun, verb | noun=1, verb=1 |
+| boycott | noun, verb | noun=1, verb=1 |
+| carpenter | noun, verb | noun=1, verb=1 |
+| eighteen | noun, adj | noun=1, adj=1 |
+| austrian | noun, adj | noun=1, adj=1 |
+| coffin | noun, verb | noun=1, verb=1 |
+| epidemic | noun, adj | noun=1, adj=1 |
+| fatty | noun, adj | noun=1, adj=1 |
+| ie | noun, adv | noun=1, adv=1 |
+| tutorial | noun, adj | noun=1, adj=1 |
+| twentieth | noun, adj | noun=1, adj=1 |
+| wan | noun, verb | noun=1, verb=1, adj=3 |
+| bulletin | noun, verb | noun=1, verb=1 |
+| dong | noun, verb | noun=1, verb=1 |
+| fascist | noun, adj | noun=1, adj=1 |
+| imaginary | noun, adj | noun=1, adj=1 |
+| remake | noun, verb | noun=1, verb=1 |
+| backpack | noun, verb | noun=1, verb=1 |
+| faint | noun, verb | noun=1, verb=1, adj=6 |
+| greenhouse | noun, adj | noun=1, adj=1 |
+| seventy | noun, adj | noun=1, adj=1 |
+| textbook | noun, adj | noun=1, adj=1 |
+| nineteenth | noun, adj | noun=1, adj=1 |
+| stainless | noun, adj | noun=1, adj=1 |
+| eighty | noun, adj | noun=1, adj=1 |
+| textile | noun, adj | noun=1, adj=1 |
+| veterinary | noun, adj | noun=1, adj=1 |
+| antibiotic | noun, adj | noun=1, adj=1 |
+| ceramic | noun, adj | noun=1, adj=1 |
+| erotic | noun, adj | noun=1, adj=1 |
+| falcon | noun, verb | noun=1, verb=1 |
+| overweight | noun, adj | noun=1, adj=1 |
+| analog | noun, adj | noun=1, adj=1 |
+| bankrupt | noun, verb, adj | noun=1, verb=1, adj=1 |
+| negro | noun, adj | noun=1, adj=1 |
+| null | noun, adj | noun=1, adj=1 |
+| oriental | noun, adj | noun=1, adj=1 |
+| paranoid | noun, adj | noun=1, adj=1 |
+| retro | noun, adj | noun=1, adj=1 |
+| shrine | noun, verb | noun=1, verb=1 |
+| almighty | noun, adj | noun=1, adj=1 |
+| amino | noun, adj | noun=1, adj=1 |
+| apparel | noun, verb | noun=1, verb=1 |
+| gi | noun, verb, adj | noun=1, verb=1, adj=1 |
+| homosexual | noun, adj | noun=1, adj=1 |
+| lebanese | noun, adj | noun=1, adj=1 |
+| razor | noun, verb | noun=1, verb=1 |
+| tow | noun, verb | noun=1, verb=1 |
+| viii | noun, adj | noun=1, adj=1 |
+| directive | noun, adj | noun=1, adj=1 |
+| disadvantage | noun, verb | noun=1, verb=1 |
+| hourly | adj, adv | adj=1, adv=1 |
+| ninety | noun, adj | noun=1, adj=1 |
+| pedestrian | noun, adj | noun=1, adj=1 |
+| apprentice | noun, verb | noun=1, verb=1 |
+| chronicle | noun, verb | noun=1, verb=1 |
+| dietary | noun, adj | noun=1, adj=1 |
+| gaze | noun, verb | noun=1, verb=1 |
+| highland | noun, adj | noun=1, adj=1 |
+| peek | noun, verb | noun=1, verb=1 |
+| eldest | noun, adj | noun=1, adj=1 |
+| ix | noun, adj | noun=1, adj=1 |
+| midway | adj, adv | noun=2, adj=1, adv=1 |
+| sophomore | noun, adj | noun=1, adj=1 |
+| wallpaper | noun, verb | noun=1, verb=1 |
+| chic | noun, adj | noun=1, adj=1 |
+| freelance | noun, verb | noun=1, verb=1, adj=2 |
+| manifest | noun, adj | noun=1, verb=3, adj=1 |
+| staple | verb, adj | noun=5, verb=1, adj=1 |
+| stereotype | noun, verb | noun=1, verb=1 |
+| xl | noun, adj | noun=1, adj=1 |
+| finnish | noun, adj | noun=1, adj=1 |
+| proprietary | noun, adj | noun=1, adj=1 |
+| prostate | noun, adj | noun=1, adj=1 |
+| sip | noun, verb | noun=1, verb=1 |
+| cardboard | noun, adj | noun=1, adj=1 |
+| demise | noun, verb | noun=1, verb=1 |
+| rouge | noun, verb | noun=1, verb=1 |
+| rumour | noun, verb | noun=1, verb=1 |
+| booze | noun, verb | noun=1, verb=1 |
+| methodist | noun, adj | noun=1, adj=1 |
+| zinc | noun, verb | noun=1, verb=1 |
+| dread | noun, verb, adj | noun=1, verb=1, adj=1 |
+| dummy | verb, adj | noun=4, verb=1, adj=1 |
+| gu | noun, adj | noun=1, adj=1 |
+| kitten | noun, verb | noun=1, verb=1 |
+| query | noun, verb | noun=1, verb=1 |
+| scarlet | noun, adj | noun=1, adj=1 |
+| edible | noun, adj | noun=1, adj=1 |
+| fax | noun, verb | noun=1, verb=1 |
+| leftist | noun, adj | noun=1, adj=1 |
+| tariff | noun, verb | noun=1, verb=1 |
+| argentine | noun, adj | noun=1, adj=1 |
+| atheist | noun, adj | noun=1, adj=1 |
+| beforehand | adj, adv | adj=1, adv=1 |
+| damp | noun, adj | noun=1, verb=4, adj=1 |
+| debit | noun, verb | noun=1, verb=1 |
+| downstream | adj, adv | adj=1, adv=1 |
+| feud | noun, verb | noun=1, verb=1 |
+| paperback | noun, adj | noun=1, adj=1 |
+| pave | noun, verb | noun=1, verb=1 |
+| perk | noun, verb | noun=1, verb=1 |
+| sabotage | noun, verb | noun=1, verb=1 |
+| sexist | noun, adj | noun=1, adj=1 |
+| sic | verb, adv | verb=1, adv=1 |
+| cv | noun, adj | noun=1, adj=1 |
+| gazette | noun, verb | noun=1, verb=1 |
+| hypothetical | noun, adj | noun=1, adj=1 |
+| moonlight | noun, verb | noun=1, verb=1 |
+| pseudo | noun, adj | noun=1, adj=1 |
+| scarce | adj, adv | adj=1, adv=1 |
+| unseen | noun, adj | noun=1, adj=1 |
+| backstage | noun, adj | noun=1, adj=1, adv=2 |
+| crimson | noun, verb | noun=1, verb=1, adj=3 |
+| ci | noun, adj | noun=1, adj=1 |
+| dynamite | noun, verb | noun=1, verb=1 |
+| fart | noun, verb | noun=1, verb=1 |
+| garment | noun, verb | noun=1, verb=1 |
+| grin | noun, verb | noun=1, verb=1 |
+| kurdish | noun, adj | noun=1, adj=1 |
+| nineteen | noun, adj | noun=1, adj=1 |
+| outgo | noun, verb | noun=1, verb=1 |
+| plumb | noun, adj | noun=1, verb=4, adj=1, adv=3 |
+| abdominal | noun, adj | noun=1, adj=1 |
+| caucus | noun, verb | noun=1, verb=1 |
+| charcoal | verb, adj | noun=4, verb=1, adj=1 |
+| prostitute | noun, verb | noun=1, verb=1 |
+| saxon | noun, adj | noun=1, adj=1 |
+| autopsy | noun, verb | noun=1, verb=1 |
+| colombian | noun, adj | noun=1, adj=1 |
+| crescent | noun, adj | noun=1, adj=1 |
+| goofy | noun, adj | noun=1, adj=1 |
+| hector | noun, verb | noun=1, verb=1 |
+| hick | noun, adj | noun=1, adj=1 |
+| jamaican | noun, adj | noun=1, adj=1 |
+| jolly | verb, adj, adv | noun=2, verb=1, adj=1, adv=1 |
+| kenyan | noun, adj | noun=1, adj=1 |
+| antarctic | noun, adj | noun=1, adj=1 |
+| asteroid | noun, adj | noun=1, adj=1 |
+| savvy | noun, verb | noun=1, verb=1 |
+| spree | noun, verb | noun=1, verb=1 |
+| sup | noun, verb | noun=1, verb=1 |
+| upstream | adj, adv | adj=1, adv=1 |
+| waitress | noun, verb | noun=1, verb=1 |
+| boogie | noun, verb | noun=1, verb=1 |
+| compassionate | verb, adj | verb=1, adj=1 |
+| ic | noun, adj | noun=1, adj=1 |
+| pun | noun, verb | noun=1, verb=1 |
+| spic | noun, adj | noun=1, adj=1 |
+| waterproof | verb, adj | noun=2, verb=1, adj=1 |
+| optimum | noun, adj | noun=1, adj=1 |

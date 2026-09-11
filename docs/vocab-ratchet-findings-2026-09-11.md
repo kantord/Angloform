@@ -254,3 +254,50 @@ bucket at N=5000 is now completely resolved — zero backlog. Next
 `vocab-ratchet` invocation starts clean: either grow N again (weak bucket
 still fully untouched at this N, a separate slower pass) or step N up
 further for another strong-only round.
+
+## N=8000: pushed past the zipf-4.0 comfort zone deliberately, full clear (2026-09-11)
+
+Confirmed the zipf trade-off before committing: N=8000 reaches raw row
+14,132 (zipf 3.54, past the earlier "4.0+" recommendation — junk like
+`cain`/`casa`/`cathy` already visible at this depth) and opens 1,019 new
+strong-bucket candidates (vs. 706 at N=5000, a 44% bigger batch). Chose to
+proceed anyway rather than step down, since 3.5 isn't junk-tier (that was
+closer to 2.7-3.1 at N=20000) — just a real, expected quality dip, not a
+cliff.
+
+Same pipeline, same order: category-1 auto-reject (374: proper nouns via
+the capitalization detector, ADV, months/days, function words) → same-
+synset redundancy check (21 hits: `chore`~`task`, `postpone`~`defer`,
+`storey`~`floor`...) → antonym-pointer check (3 hits: `unavailable`,
+`unfamiliar`, `unpleasant`, all clean "not X" ADJ defs) → manual ADJ scan
+(135 candidates, only 3 more admits: `inaccurate`="not correct",
+`obsolete`="not new", `messy`="not ordered" — `AdjDef`'s bare-synonym
+wall still dominates) → manual VERN scan (27 candidates, **zero** admits
+this round, all redundant or blocked) → manual NOUN scan (459 candidates,
+13 admits after fixing the usual determiner/plural/cross-POS issues
+empirically against real `lexgen` errors).
+
+New failure classes surfaced at this depth, not seen at N=5000:
+- **Vague/misleading genericity**: several plausible-looking definitions
+  were rejected not for lacking vocabulary but because the only
+  expressible shape loses the word's actual defining feature and becomes
+  misleading — `millionaire`/`billionaire` as `"a person, who has a
+  value"` describes literally anyone with any possessions, not
+  specifically a rich person. Same failure class as `kidnap`/`theft` from
+  the N=5000 batch, recurring predictably at scale.
+- **Content-appropriateness rejections** (slurs, weapons, drugs, hard
+  medical/political topics) became a real, recurring category for the
+  first time at this size — 18 words, not appropriate for a mechanical
+  process to wave through even where a technically-valid definition might
+  be constructible.
+
+**Result: 19 admitted this batch** (6 ADJ + 13 NOUN), out of 1,019 raw
+strong candidates — **~1.9% yield**, down sharply from N=5000's ~5% and
+N=2000's ~8%. This is the real cost of the zipf tradeoff made explicit
+earlier: yield drops roughly in proportion to how far past the "common
+word" zone a batch reaches, not a cliff but a steady, predictable decline
+worth weighing before the next `N` bump.
+
+`seed/definitions/` went from 61 to 80 words. Full strong bucket at
+N=8000 completely resolved — zero backlog, `lexgen` clean, full test
+suite green.
