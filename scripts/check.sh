@@ -32,6 +32,9 @@ python3 scripts/test-mdblocks.py
 echo "== no homophone collisions among seed/definitions words (real IPA, sampled dialects) =="
 python3 scripts/homophone-check.py --seed-def-only
 
+echo "== no same-synset redundancy among seed/definitions words (real WordNet synsets) =="
+python3 scripts/redundancy-check.py --curated-only
+
 echo "== web playground (wasm, typecheck, unit + e2e tests) =="
 (
     cd web

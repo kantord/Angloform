@@ -1,8 +1,9 @@
 # angloform task runner — `just <target>`
 
 # THE single entry point: every validation in the repo, Rust and web
-# alike (tests, regeneration, drift check, homophones, web typecheck/
-# unit/e2e). Run before every commit; CI runs exactly this, nothing else.
+# alike (tests, regeneration, drift check, homophones, redundancy, web
+# typecheck/unit/e2e). Run before every commit; CI runs exactly this,
+# nothing else.
 check:
     ./scripts/check.sh
 
@@ -14,6 +15,11 @@ fetch-data:
 # needs espeak-ng; `just check` runs the enforced seed/definitions-only gate)
 homophones:
     python3 scripts/homophone-check.py
+
+# full redundancy report across the whole enabled lexicon (informational —
+# `just check` runs the enforced curated-words-only gate)
+redundancy:
+    python3 scripts/redundancy-check.py
 
 # regenerate web/src/lib/dictionary-data.json from seed/definitions/*.yaml
 # (web/package.json's build/dev scripts already run this automatically)
