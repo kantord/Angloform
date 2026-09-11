@@ -1202,6 +1202,10 @@ gain	reject_advice	NOUN	the noun sense (a gain) is not enabled; angloform allows
 gained	form	VERB_TRANS_ED	gain
 gaining	form	VERB_TRANS_ING	gain
 gains	form	VERB_TRANS_3SG	gain
+game	form	NOUN_SG	game
+game	reject_gap	ADJ	no already-enabled word covers this sense yet
+game	reject_gap	VERB	no already-enabled word covers this sense yet
+games	form	NOUN_PL	game
 gap	term	-	Gap
 gaps	term	-	Gaps
 gather	form	VERB_TRANS_BASE	gather

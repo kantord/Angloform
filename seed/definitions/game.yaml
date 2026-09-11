@@ -1,0 +1,7 @@
+category: NOUN
+definition: an event, which has rules
+rejected:
+  - category: ADJ
+    gap: true
+  - category: VERB
+    gap: true

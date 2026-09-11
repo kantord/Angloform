@@ -985,6 +985,7 @@ additional:
   counts:
     adj: 1
   rejected: ADJ has no existing synonym/antonym — AdjDef only allows a bare synonym/antonym
+  redirect: "more"
 additionally:
   category: adv
   bucket: strong
@@ -1650,6 +1651,7 @@ africa:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 afro:
   category: noun
   bucket: strong
@@ -1703,6 +1705,7 @@ again:
   counts:
     adv: 1
   rejected: winning category is ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "repeat"
 agama:
   category: noun
   bucket: strong
@@ -1917,6 +1920,7 @@ ahead:
     adj: 1
     adv: 7
   rejected: "weak-bucket signal (WordNet sense-count split {'adj': 1, 'adv': 7}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 ahem:
   category: noun
   bucket: strong
@@ -2088,6 +2092,7 @@ airport:
   counts:
     noun: 1
   rejected: same aviation-vocabulary gap as "aircraft"
+  gap: true
 airship:
   category: noun
   bucket: strong
@@ -2730,6 +2735,7 @@ almost:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "approximate"
 alms:
   category: noun
   bucket: strong
@@ -4006,6 +4012,7 @@ another:
     adj: 1
   rejected: really a determiner — confirmed elsewhere this session that Angloform currently has no general
     "another" determiner; admitting it as ADJ would give it the wrong grammatical shape
+  redirect: "different"
 anova:
   category: noun
   bucket: strong
@@ -4394,6 +4401,7 @@ anymore:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  gap: true
 anyplace:
   category: adv
   bucket: strong
@@ -5453,6 +5461,7 @@ article:
     noun: 4
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "document"
 articular:
   category: adj
   bucket: strong
@@ -6535,6 +6544,7 @@ australian:
     noun: 2
     adj: 1
   rejected: "a nationality demonym — conventionally capitalized (\"Australian\"), same proper-noun-folding class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
 australopithecus:
   category: noun
   bucket: strong
@@ -6853,6 +6863,7 @@ awesome:
   counts:
     adj: 1
   rejected: near-synonym of the already-enabled "good" — redundant, no distinct meaning to add
+  redirect: "good"
 awestruck:
   category: adj
   bucket: strong
@@ -7057,6 +7068,7 @@ baby:
     noun: 7
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 7, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 babylon:
   category: noun
   bucket: strong
@@ -7522,6 +7534,7 @@ ball:
     noun: 12
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 12, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 ballast:
   category: verb
   bucket: weak
@@ -8274,6 +8287,7 @@ battle:
     noun: 3
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "conflict"
 battlefield:
   category: noun
   bucket: strong
@@ -8771,6 +8785,7 @@ begin:
     noun: 1
     verb: 10
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 10}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "start"
 beginning:
   category: adj
   bucket: weak
@@ -8778,6 +8793,7 @@ beginning:
     noun: 5
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "initial"
 begonia:
   category: noun
   bucket: strong
@@ -10244,6 +10260,7 @@ black:
     verb: 1
     adj: 14
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 7, 'verb': 1, 'adj': 14}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 blackball:
   category: noun
   bucket: weak
@@ -10626,6 +10643,7 @@ blood:
     noun: 5
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 bloodbath:
   category: noun
   bucket: strong
@@ -10751,6 +10769,7 @@ blue:
     verb: 1
     adj: 8
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 7, 'verb': 1, 'adj': 8}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 bluebeard:
   category: noun
   bucket: strong
@@ -10967,6 +10986,7 @@ body:
     noun: 11
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 11, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 bodybuilder:
   category: noun
   bucket: strong
@@ -11454,6 +11474,7 @@ born:
     noun: 1
     adj: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 borneo:
   category: noun
   bucket: strong
@@ -11563,6 +11584,7 @@ both:
   counts:
     adj: 1
   rejected: really a quantifier (like the existing every/some/no), not an ordinary adjective
+  redirect: "every"
 bothersome:
   category: adj
   bucket: strong
@@ -12834,6 +12856,7 @@ budget:
     noun: 2
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 2, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 budgetary:
   category: adj
   bucket: strong
@@ -13474,6 +13497,7 @@ buy:
     noun: 1
     verb: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 buyback:
   category: noun
   bucket: strong
@@ -13556,6 +13580,7 @@ c:
     noun: 12
     adj: 1
   rejected: "a single letter, not an ordinary word — frequency-corpus tokenization artifact (grades, list markers, or abbreviations like \"PhD\"/\"3D\")"
+  exempt: "garbage"
 cab:
   category: verb
   bucket: weak
@@ -13897,6 +13922,7 @@ california:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 caligula:
   category: noun
   bucket: strong
@@ -13943,6 +13969,7 @@ calling:
   counts:
     noun: 1
   rejected: "the NOUN sense (\"a calling\", vocation) is real, but \"calling\" is also the natural -ing form of the very common verb \"call\" (not yet enabled) — same forward-compatibility risk as \"led\"/\"lead\". Deferred until \"call\" itself is decided (2026-09-11)"
+  gap: true
 callisto:
   category: noun
   bucket: strong
@@ -14207,6 +14234,7 @@ canada:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 canadian:
   category: adj
   bucket: weak
@@ -14546,6 +14574,7 @@ captain:
     noun: 7
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 7, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 captaincy:
   category: noun
   bucket: strong
@@ -14773,6 +14802,7 @@ career:
     noun: 2
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 2, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 carew:
   category: noun
   bucket: strong
@@ -15075,6 +15105,7 @@ cash:
     noun: 3
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "asset"
 casket:
   category: verb
   bucket: weak
@@ -15713,6 +15744,7 @@ central:
     noun: 1
     adj: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "main"
 centralise:
   category: verb
   bucket: strong
@@ -15847,6 +15879,7 @@ certainly:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect_note: "an epistemic hedge/emphasis marker — Angloform already bans this class (ADR 0042: state the claim directly, don't mark your own certainty)"
 certiorari:
   category: noun
   bucket: strong
@@ -16053,6 +16086,7 @@ chance:
     verb: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'verb': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "possibility"
 chancel:
   category: noun
   bucket: strong
@@ -16625,6 +16659,7 @@ chief:
     noun: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 chiefly:
   category: adv
   bucket: strong
@@ -16961,6 +16996,7 @@ christian:
     noun: 1
     adj: 2
   rejected: "a religious demonym — conventionally capitalized (\"Christian\"), same proper-noun-folding class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
 christiania:
   category: noun
   bucket: strong
@@ -17098,6 +17134,7 @@ church:
     noun: 4
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 churchgoer:
   category: noun
   bucket: strong
@@ -18030,6 +18067,7 @@ coast:
     noun: 4
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 coastguard:
   category: noun
   bucket: strong
@@ -18605,6 +18643,7 @@ color:
     verb: 6
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 8, 'verb': 6, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 colorectal:
   category: adj
   bucket: strong
@@ -18787,6 +18826,7 @@ commercial:
     noun: 1
     adj: 3
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 3}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 commercialisation:
   category: noun
   bucket: strong
@@ -18942,6 +18982,7 @@ company:
     noun: 9
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 9, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 comparability:
   category: noun
   bucket: strong
@@ -19055,6 +19096,7 @@ complex:
     noun: 4
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 complexion:
   category: verb
   bucket: weak
@@ -20075,6 +20117,7 @@ content:
     verb: 2
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 7, 'verb': 2, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 contentedly:
   category: adv
   bucket: strong
@@ -21269,6 +21312,7 @@ course:
     verb: 3
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 9, 'verb': 3, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 coursework:
   category: noun
   bucket: strong
@@ -21655,6 +21699,7 @@ crazy:
     noun: 1
     adj: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 creamer:
   category: noun
   bucket: strong
@@ -22468,6 +22513,7 @@ culture:
     noun: 7
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 7, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "society"
 cultus:
   category: noun
   bucket: strong
@@ -22602,6 +22648,7 @@ currently:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "current"
 curricular:
   category: adj
   bucket: strong
@@ -23010,6 +23057,7 @@ d:
     noun: 3
     adj: 1
   rejected: "a single letter, not an ordinary word — frequency-corpus tokenization artifact (grades, list markers, or abbreviations like \"PhD\"/\"3D\")"
+  exempt: "garbage"
 da:
   category: noun
   bucket: strong
@@ -23053,6 +23101,7 @@ dad:
   counts:
     noun: 1
   rejected: near-synonym of the already-enabled legacy word "father" — redundant
+  redirect: "father"
 daddy:
   category: noun
   bucket: strong
@@ -23127,6 +23176,7 @@ daily:
     adj: 2
     adv: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 2, 'adv': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 daimler:
   category: noun
   bucket: strong
@@ -23497,6 +23547,7 @@ daughter:
   counts:
     noun: 1
   rejected: no existing word distinguishes daughter from son (child/gender vocabulary doesn't exist yet)
+  gap: true
 daunt:
   category: verb
   bucket: strong
@@ -23623,6 +23674,7 @@ de:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 dea:
   category: noun
   bucket: strong
@@ -24173,6 +24225,7 @@ definitely:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect_note: "an epistemic hedge/emphasis marker — Angloform already bans this class (ADR 0042: state the claim directly, don't mark your own certainty)"
 deflationary:
   category: adj
   bucket: strong
@@ -25884,6 +25937,7 @@ direct:
     adj: 10
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'verb': 13, 'adj': 10, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 directionless:
   category: adj
   bucket: strong
@@ -26172,6 +26226,7 @@ disease:
   counts:
     noun: 1
   rejected: no "sick"/"health" vocabulary exists yet
+  gap: true
 diseased:
   category: adj
   bucket: strong
@@ -26960,6 +27015,7 @@ dog:
     noun: 7
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 7, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 doge:
   category: noun
   bucket: strong
@@ -27902,6 +27958,7 @@ drug:
     noun: 1
     verb: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 druggist:
   category: noun
   bucket: strong
@@ -28096,6 +28153,7 @@ due:
     adj: 4
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 2, 'adj': 4, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 duel:
   category: verb
   bucket: weak
@@ -29279,6 +29337,7 @@ either:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "some"
 ejaculate:
   category: noun
   bucket: weak
@@ -30271,6 +30330,7 @@ england:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 englishman:
   category: noun
   bucket: strong
@@ -30465,6 +30525,7 @@ entire:
     noun: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "whole"
 entirety:
   category: noun
   bucket: strong
@@ -30875,6 +30936,7 @@ equipment:
   counts:
     noun: 1
   rejected: near-synonym of the already-enabled "tool" — redundant, no distinct meaning to add
+  redirect: "tool"
 equitable:
   category: adj
   bucket: strong
@@ -31672,6 +31734,7 @@ even:
     adv: 4
   rejected: no real standalone noun sense in ordinary English ("an even" isn't a word) — function word,
     not content
+  gap: true
 eventide:
   category: noun
   bucket: strong
@@ -31694,6 +31757,7 @@ eventually:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "later"
 eventuate:
   category: verb
   bucket: strong
@@ -31803,6 +31867,7 @@ ex:
     noun: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  exempt: "garbage"
 exactness:
   category: noun
   bucket: strong
@@ -31958,6 +32023,7 @@ executive:
     noun: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 executor:
   category: noun
   bucket: strong
@@ -32360,6 +32426,7 @@ extra:
     adj: 3
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'adj': 3, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "more"
 extracellular:
   category: adj
   bucket: strong
@@ -32462,6 +32529,7 @@ eye:
     noun: 5
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 eyebrow:
   category: noun
   bucket: strong
@@ -32671,6 +32739,7 @@ fair:
     adj: 10
     adv: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1, 'adj': 10, 'adv': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 fairground:
   category: noun
   bucket: strong
@@ -32816,6 +32885,7 @@ famous:
     adj: 1
   rejected: ADJ has no existing synonym/antonym ("known" turned out to be a verb participle, not a standalone
     adjective)
+  gap: true
 fanatical:
   category: adj
   bucket: strong
@@ -32897,6 +32967,7 @@ far:
     adj: 4
     adv: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4, 'adv': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "distance"
 faraday:
   category: noun
   bucket: strong
@@ -33010,6 +33081,7 @@ fashion:
     noun: 4
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 fashionably:
   category: adv
   bucket: strong
@@ -33024,6 +33096,7 @@ fast:
     adj: 10
     adv: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 2, 'adj': 10, 'adv': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 fastball:
   category: noun
   bucket: strong
@@ -33049,6 +33122,7 @@ fat:
     verb: 1
     adj: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'verb': 1, 'adj': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 fatah:
   category: noun
   bucket: strong
@@ -33422,6 +33496,7 @@ felt:
     noun: 1
     verb: 3
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 3}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 fema:
   category: noun
   bucket: strong
@@ -33969,6 +34044,7 @@ financial:
     adj: 1
   rejected: ADJ has no existing synonym/antonym (no money/economic vocabulary exists yet) — AdjDef only
     allows a bare synonym/antonym
+  redirect: "income"
 financially:
   category: adv
   bucket: strong
@@ -35231,6 +35307,7 @@ former:
     noun: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "prior"
 formerly:
   category: adv
   bucket: strong
@@ -35308,6 +35385,7 @@ forward:
     adj: 4
     adv: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 2, 'verb': 1, 'adj': 4, 'adv': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 fosse:
   category: noun
   bucket: strong
@@ -35719,6 +35797,7 @@ fresh:
     adj: 12
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'adj': 12, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "new"
 freshener:
   category: noun
   bucket: strong
@@ -35815,7 +35894,6 @@ friday:
   bucket: strong
   counts:
     noun: 1
-  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 fridge:
   category: noun
   bucket: strong
@@ -36243,6 +36321,7 @@ funny:
     noun: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 furlong:
   category: noun
   bucket: strong
@@ -36290,6 +36369,7 @@ further:
     adj: 1
     adv: 3
   rejected: "weak-bucket signal (WordNet sense-count split {'verb': 2, 'adj': 1, 'adv': 3}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "more"
 furthermore:
   category: adv
   bucket: strong
@@ -36705,7 +36785,6 @@ game:
     noun: 11
     verb: 1
     adj: 2
-  rejected: the verb sense ("place a bet on") is obscure/dated; noun dominates 11:1 and is the real meaning
 gamekeeper:
   category: noun
   bucket: strong
@@ -37189,6 +37268,7 @@ gay:
     noun: 1
     adj: 6
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 6}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 gayness:
   category: noun
   bucket: strong
@@ -37647,6 +37727,7 @@ german:
     noun: 2
     adj: 1
   rejected: "a nationality demonym — conventionally capitalized (\"German\"), same proper-noun-folding class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
 germane:
   category: adj
   bucket: strong
@@ -37670,6 +37751,7 @@ germany:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 geronimo:
   category: noun
   bucket: strong
@@ -38055,6 +38137,7 @@ glad:
     noun: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "happiness"
 glade:
   category: noun
   bucket: strong
@@ -39507,12 +39590,14 @@ great:
     adj: 6
   rejected: no real standalone noun sense ("a great" isn't ordinary English) — overwhelmingly an adjective
     (6 senses)
+  redirect: "good"
 greater:
   category: adj
   bucket: strong
   counts:
     adj: 1
   rejected: comparative inflection of an existing/rejected adjective, not a base lemma
+  redirect: "good"
 greatest:
   category: adj
   bucket: strong
@@ -39564,6 +39649,7 @@ green:
     verb: 1
     adj: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 8, 'verb': 1, 'adj': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 greenback:
   category: noun
   bucket: strong
@@ -40238,6 +40324,7 @@ gun:
     noun: 7
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 7, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 gunboat:
   category: noun
   bucket: strong
@@ -41185,6 +41272,7 @@ happening:
   counts:
     noun: 1
   rejected: "the NOUN sense (\"a happening\", an event) is real, but \"happening\" is also the natural -ing form of the very common verb \"happen\" (not yet enabled) — same forward-compatibility risk as \"led\"/\"lead\". Deferred until \"happen\" itself is decided (2026-09-11)"
+  gap: true
 happenstance:
   category: noun
   bucket: strong
@@ -42401,6 +42489,7 @@ here:
     adj: 1
     adv: 4
   rejected: no real predicative ADJ sense in ordinary English — deictic function word, not content vocabulary
+  redirect: "place"
 hereabout:
   category: adv
   bucket: strong
@@ -42802,6 +42891,7 @@ hill:
     noun: 5
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 hillary:
   category: noun
   bucket: strong
@@ -43990,6 +44080,7 @@ hotel:
     noun: 1
   rejected: collapses to the same "place, which holds a group" shape as the already-admitted "stadium"
     — redundant, and no "stay the night" vocabulary to differentiate properly
+  gap: true
 hotelier:
   category: noun
   bucket: strong
@@ -44200,6 +44291,7 @@ http:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 hua:
   category: noun
   bucket: strong
@@ -46502,6 +46594,7 @@ india:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 indianapolis:
   category: noun
   bucket: strong
@@ -47568,6 +47661,7 @@ institute:
     noun: 1
     verb: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 institutionalise:
   category: verb
   bucket: strong
@@ -47993,6 +48087,7 @@ international:
     noun: 1
     adj: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "general"
 internationale:
   category: noun
   bucket: strong
@@ -49368,6 +49463,7 @@ japan:
     noun: 4
     verb: 1
   rejected: "a country name — proper-noun folding, same class as the already-rejected \"york\""
+  exempt: "proper-noun"
 japanese:
   category: adj
   bucket: weak
@@ -49375,6 +49471,7 @@ japanese:
     noun: 2
     adj: 1
   rejected: "a nationality demonym — conventionally capitalized (\"Japanese\"), same proper-noun-folding class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
 japheth:
   category: noun
   bucket: strong
@@ -49560,6 +49657,7 @@ jesus:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 jet:
   category: adj
   bucket: weak
@@ -50151,6 +50249,7 @@ k:
     noun: 7
     adj: 1
   rejected: "a single letter, not an ordinary word — frequency-corpus tokenization artifact (thousand/Kelvin abbreviations)"
+  exempt: "garbage"
 ka:
   category: noun
   bucket: strong
@@ -50680,6 +50779,7 @@ key:
     verb: 5
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 15, 'verb': 5, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 keyboardist:
   category: noun
   bucket: strong
@@ -50891,6 +50991,7 @@ killing:
     noun: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 killjoy:
   category: noun
   bucket: strong
@@ -51763,6 +51864,7 @@ l:
     noun: 4
     adj: 1
   rejected: "a single letter, not an ordinary word — frequency-corpus tokenization artifact (grades, list markers, or abbreviations like \"PhD\"/\"3D\")"
+  exempt: "garbage"
 lab:
   category: noun
   bucket: strong
@@ -52298,6 +52400,7 @@ large:
     adj: 7
     adv: 3
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 7, 'adv': 3}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "huge"
 largemouth:
   category: noun
   bucket: strong
@@ -52310,6 +52413,7 @@ larger:
     adj: 1
   rejected: comparative inflection ("large" itself already rejected earlier this session), not a base
     lemma
+  redirect: "huge"
 lariat:
   category: noun
   bucket: strong
@@ -52456,6 +52560,7 @@ latest:
     noun: 1
     adj: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 lath:
   category: noun
   bucket: strong
@@ -52772,6 +52877,7 @@ league:
     noun: 3
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 leakage:
   category: noun
   bucket: strong
@@ -52905,6 +53011,7 @@ led:
   counts:
     noun: 1
   rejected: "WordNet-attested only as the LED acronym-noun (light-emitting diode), but \"led\" is overwhelmingly the past tense of the verb \"lead\" in real text — \"lead\" isn't enabled yet; claiming this surface form for the rare technical sense would block \"lead\" from ever using its natural past-tense spelling. Deferred until \"lead\" itself is decided (2026-09-11)"
+  gap: true
 leda:
   category: noun
   bucket: strong
@@ -53771,6 +53878,7 @@ light:
     adj: 25
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 15, 'verb': 6, 'adj': 25, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 lightbulb:
   category: noun
   bucket: strong
@@ -54318,6 +54426,7 @@ live:
     adj: 11
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'verb': 7, 'adj': 11, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 liveable:
   category: adj
   bucket: strong
@@ -54843,6 +54952,7 @@ lord:
     noun: 3
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 lore:
   category: noun
   bucket: strong
@@ -54926,6 +55036,7 @@ louis:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 louisiana:
   category: noun
   bucket: strong
@@ -55018,6 +55129,7 @@ lower:
     noun: 1
     verb: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 lowlife:
   category: noun
   bucket: strong
@@ -55577,6 +55689,7 @@ m:
     noun: 6
     adj: 1
   rejected: "a single letter, not an ordinary word — frequency-corpus tokenization artifact (grades, list markers, or abbreviations like \"PhD\"/\"3D\")"
+  exempt: "garbage"
 maar:
   category: noun
   bucket: strong
@@ -56121,6 +56234,7 @@ major:
     verb: 1
     adj: 8
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1, 'adj': 8}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 majorca:
   category: noun
   bucket: strong
@@ -56813,6 +56927,7 @@ many:
   counts:
     adj: 1
   rejected: a quantifier, not an ordinary adjective — same class as the already-rejected "both"/"either"
+  gap: true
 manzoni:
   category: noun
   bucket: strong
@@ -57397,6 +57512,7 @@ master:
     verb: 4
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 10, 'verb': 4, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 masterful:
   category: adj
   bucket: strong
@@ -57603,6 +57719,7 @@ matter:
     noun: 6
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 6, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 matterhorn:
   category: noun
   bucket: strong
@@ -57881,6 +57998,7 @@ me:
   counts:
     noun: 1
   rejected: a pronoun, not an ordinary noun — same class as the already-rejected "both"/"either" quantifiers
+  redirect: "i"
 meadow:
   category: noun
   bucket: strong
@@ -57920,6 +58038,7 @@ mean:
     verb: 7
     adj: 8
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 7, 'adj': 8}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 meander:
   category: verb
   bucket: weak
@@ -58066,6 +58185,7 @@ medical:
     noun: 1
     adj: 3
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 3}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 medically:
   category: adv
   bucket: strong
@@ -59021,6 +59141,7 @@ michael:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 michaelmas:
   category: noun
   bucket: strong
@@ -59209,6 +59330,7 @@ mid:
   counts:
     adj: 1
   rejected: a clipped/prefix-like form ("mid-air"), not a real standalone adjective
+  gap: true
 midair:
   category: noun
   bucket: strong
@@ -59242,6 +59364,7 @@ middle:
     verb: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 middleton:
   category: noun
   bucket: strong
@@ -59382,6 +59505,7 @@ mike:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 milady:
   category: noun
   bucket: strong
@@ -59463,6 +59587,7 @@ military:
     noun: 1
     adj: 3
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 3}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 milkmaid:
   category: noun
   bucket: strong
@@ -60668,6 +60793,7 @@ mom:
     noun: 1
   rejected: cannot be defined accurately without son/daughter-neutral "child" vocabulary, which doesn't
     exist
+  gap: true
 mombasa:
   category: noun
   bucket: strong
@@ -60741,7 +60867,6 @@ monday:
   bucket: strong
   counts:
     noun: 1
-  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 mondrian:
   category: noun
   bucket: strong
@@ -61670,6 +61795,7 @@ mr:
   counts:
     noun: 1
   rejected: a title/honorific abbreviation, not an ordinary content word
+  exempt: "proper-noun"
 mrd:
   category: noun
   bucket: strong
@@ -62078,6 +62204,7 @@ murder:
     noun: 1
     verb: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 murderer:
   category: noun
   bucket: strong
@@ -62903,6 +63030,7 @@ national:
     noun: 1
     adj: 7
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 7}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 nationalist:
   category: adj
   bucket: weak
@@ -63039,6 +63167,7 @@ near:
     adj: 6
     adv: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'verb': 1, 'adj': 6, 'adv': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 nearer:
   category: adv
   bucket: strong
@@ -63094,6 +63223,7 @@ necessary:
     noun: 1
     adj: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "mandatory"
 neck:
   category: verb
   bucket: weak
@@ -63454,6 +63584,7 @@ network:
     noun: 5
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "system"
 neumann:
   category: noun
   bucket: strong
@@ -63825,6 +63956,7 @@ next:
     adj: 3
     adv: 1
   rejected: winning category is ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "follow"
 ney:
   category: noun
   bucket: strong
@@ -63887,6 +64019,7 @@ nice:
     noun: 1
     adj: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "good"
 nicely:
   category: adv
   bucket: strong
@@ -64369,6 +64502,7 @@ nobody:
     noun: 1
   rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
     "both"/"either"/"another"
+  redirect: "person"
 noc:
   category: noun
   bucket: strong
@@ -64465,6 +64599,7 @@ non:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "not"
 nonalcoholic:
   category: adj
   bucket: strong
@@ -64700,6 +64835,7 @@ normal:
     noun: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "ordinary"
 normalisation:
   category: noun
   bucket: strong
@@ -64777,6 +64913,7 @@ northern:
     noun: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 northernmost:
   category: adj
   bucket: strong
@@ -65013,6 +65150,7 @@ now:
     noun: 1
     adv: 7
   rejected: no real standalone noun sense in ordinary English ("a now" isn't a word) — function word
+  redirect: "current"
 nox:
   category: noun
   bucket: strong
@@ -65656,6 +65794,7 @@ obviously:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect_note: "an epistemic hedge/emphasis marker — Angloform already bans this class (ADR 0042: state the claim directly, don't mark your own certainty)"
 obviousness:
   category: noun
   bucket: strong
@@ -65913,6 +66052,7 @@ oeuvre:
     adj: 5
     adv: 3
   rejected: the verb sense ("kill intentionally") is criminal slang, not defensible general vocabulary
+  gap: true
 offal:
   category: noun
   bucket: strong
@@ -65942,6 +66082,7 @@ officer:
     noun: 4
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "agent"
 officialdom:
   category: noun
   bucket: strong
@@ -66001,6 +66142,7 @@ oh:
   counts:
     noun: 1
   rejected: an interjection, not an ordinary content word
+  redirect_note: "a discourse particle with no lexical content — restate the proposition as a full sentence instead of a bare interjection"
 ohioan:
   category: noun
   bucket: strong
@@ -67174,6 +67316,7 @@ otherwise:
     adj: 1
     adv: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'adj': 1, 'adv': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "different"
 otherworld:
   category: noun
   bucket: strong
@@ -67235,6 +67378,7 @@ out:
     adv: 3
   rejected: the verb sense ("be disclosed"/"reveal sexual identity") is narrow and culturally specific,
     not foundational vocabulary
+  gap: true
 outboard:
   category: adj
   bucket: weak
@@ -68995,6 +69139,7 @@ party:
     noun: 5
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "social"
 partygoer:
   category: noun
   bucket: strong
@@ -69043,6 +69188,7 @@ pass:
     verb: 25
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 16, 'verb': 25, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 passant:
   category: adj
   bucket: strong
@@ -70485,6 +70631,7 @@ personal:
     noun: 1
     adj: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 personalise:
   category: verb
   bucket: strong
@@ -71049,6 +71196,7 @@ phone:
     noun: 3
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 phonebook:
   category: noun
   bucket: strong
@@ -73001,6 +73149,7 @@ poor:
     noun: 1
     adj: 6
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 6}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "poverty"
 poorhouse:
   category: noun
   bucket: strong
@@ -73461,6 +73610,7 @@ power:
     noun: 9
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 9, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "ability"
 powerboat:
   category: noun
   bucket: strong
@@ -73473,6 +73623,7 @@ powerful:
     adj: 5
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'adj': 5, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 powerless:
   category: adj
   bucket: strong
@@ -74174,6 +74325,7 @@ pretty:
     adj: 2
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'adj': 2, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 pretzel:
   category: noun
   bucket: strong
@@ -74208,6 +74360,7 @@ previously:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "prior"
 prewar:
   category: adj
   bucket: strong
@@ -74388,6 +74541,7 @@ private:
     noun: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 privatisation:
   category: noun
   bucket: strong
@@ -74549,6 +74703,7 @@ professor:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 professorial:
   category: adj
   bucket: strong
@@ -77282,6 +77437,7 @@ ready:
     verb: 2
     adj: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 2, 'adj': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 reaffirm:
   category: verb
   bucket: strong
@@ -77506,12 +77662,14 @@ recent:
     noun: 1
     adj: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 recently:
   category: adv
   bucket: strong
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  gap: true
 receptionist:
   category: noun
   bucket: strong
@@ -78406,6 +78564,7 @@ religious:
     noun: 1
     adj: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 reliquary:
   category: noun
   bucket: strong
@@ -79715,6 +79874,7 @@ rich:
     noun: 1
     adj: 12
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 12}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 richards:
   category: noun
   bucket: strong
@@ -80034,6 +80194,7 @@ river:
     noun: 1
   rejected: no water/geography vocabulary (water, flow, stream, lake) exists yet to distinguish it from
     any other "thing from a place"
+  gap: true
 rivera:
   category: noun
   bucket: strong
@@ -80153,6 +80314,7 @@ robert:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 robertson:
   category: noun
   bucket: strong
@@ -80417,6 +80579,7 @@ room:
     noun: 4
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 roomful:
   category: noun
   bucket: strong
@@ -80486,6 +80649,7 @@ rose:
     noun: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 roseau:
   category: noun
   bucket: strong
@@ -80969,6 +81133,7 @@ russian:
     noun: 2
     adj: 1
   rejected: "a nationality demonym — conventionally capitalized (\"Russian\"), same proper-noun-folding class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
 rust:
   category: adj
   bucket: weak
@@ -82114,7 +82279,6 @@ saturday:
   bucket: strong
   counts:
     noun: 1
-  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 satyagraha:
   category: noun
   bucket: strong
@@ -83310,6 +83474,7 @@ section:
     noun: 14
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 14, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "part"
 sectional:
   category: noun
   bucket: weak
@@ -83548,6 +83713,7 @@ self:
     noun: 2
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 2, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 selfish:
   category: adj
   bucket: strong
@@ -83586,6 +83752,7 @@ sell:
     noun: 1
     verb: 8
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 8}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "trade"
 sellable:
   category: adj
   bucket: strong
@@ -84100,6 +84267,7 @@ serve:
     noun: 1
     verb: 15
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 15}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 serviceability:
   category: noun
   bucket: strong
@@ -84703,6 +84871,7 @@ ship:
     noun: 1
     verb: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 shipboard:
   category: adj
   bucket: strong
@@ -84914,6 +85083,7 @@ shot:
     noun: 17
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 17, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 shotgun:
   category: noun
   bucket: strong
@@ -85299,6 +85469,7 @@ sign:
     verb: 8
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 11, 'verb': 8, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 signage:
   category: noun
   bucket: strong
@@ -85674,6 +85845,7 @@ site:
     noun: 3
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 sitka:
   category: noun
   bucket: strong
@@ -86334,6 +86506,7 @@ smaller:
   counts:
     adj: 1
   rejected: comparative inflection of the already-enabled "small", not a base lemma
+  redirect: "small"
 smalley:
   category: noun
   bucket: strong
@@ -87123,6 +87296,7 @@ somebody:
     noun: 1
   rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
     "both"/"either"/"another"
+  redirect: "person"
 someday:
   category: adv
   bucket: strong
@@ -87136,6 +87310,7 @@ someone:
     noun: 1
   rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
     "both"/"either"/"another"
+  redirect: "person"
 someplace:
   category: adv
   bucket: strong
@@ -87240,6 +87415,7 @@ soon:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  gap: true
 sooner:
   category: noun
   bucket: weak
@@ -87511,6 +87687,7 @@ space:
     noun: 9
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 9, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 spacecraft:
   category: noun
   bucket: strong
@@ -88656,6 +88833,7 @@ star:
     verb: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 8, 'verb': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 starch:
   category: verb
   bucket: weak
@@ -88778,6 +88956,7 @@ station:
     noun: 5
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 stationer:
   category: noun
   bucket: strong
@@ -89406,6 +89585,7 @@ stone:
     verb: 2
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 13, 'verb': 2, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 stonehenge:
   category: noun
   bucket: strong
@@ -89887,6 +90067,7 @@ stupid:
     noun: 1
     adj: 3
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 3}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 stupidly:
   category: adv
   bucket: strong
@@ -90287,6 +90468,7 @@ successful:
   counts:
     adj: 1
   rejected: ADJ has no existing synonym/antonym
+  redirect: "achievement"
 successfully:
   category: adv
   bucket: strong
@@ -90566,6 +90748,7 @@ summer:
     noun: 2
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 2, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 summerhouse:
   category: noun
   bucket: strong
@@ -90987,6 +91170,7 @@ sure:
     adj: 9
     adv: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'adj': 9, 'adv': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 surely:
   category: adv
   bucket: strong
@@ -91007,6 +91191,7 @@ surface:
     verb: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 6, 'verb': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 surfactant:
   category: noun
   bucket: strong
@@ -92677,6 +92862,7 @@ tax:
     noun: 1
     verb: 4
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 4}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 taxable:
   category: adj
   bucket: strong
@@ -93578,6 +93764,7 @@ texas:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 textual:
   category: adj
   bucket: strong
@@ -93643,6 +93830,7 @@ thank:
   counts:
     verb: 1
   rejected: no single-word verb expressing gratitude exists to build a non-circular definition from
+  redirect: "acknowledge"
 thankful:
   category: adj
   bucket: strong
@@ -93845,6 +94033,7 @@ there:
     noun: 1
     adv: 3
   rejected: no real standalone noun sense in ordinary English ("a there" isn't a word) — function word
+  redirect: "exist"
 thereafter:
   category: adv
   bucket: strong
@@ -94058,6 +94247,7 @@ think:
     verb: 13
   rejected: the noun sense ("a think") is informal/dialectal; verb dominates 13:1 and is the real meaning
     of the word
+  redirect: "consider"
 thinner:
   category: noun
   bucket: strong
@@ -94165,6 +94355,7 @@ though:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "but"
 thousandth:
   category: adj
   bucket: weak
@@ -94339,7 +94530,6 @@ thursday:
   bucket: strong
   counts:
     noun: 1
-  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 thusly:
   category: adv
   bucket: strong
@@ -94964,6 +95154,7 @@ together:
     adj: 1
     adv: 6
   rejected: "ADV — Angloform has no open adverb category, structurally impossible (adv:6 vs adj:1)"
+  redirect: "join"
 togetherness:
   category: noun
   bucket: strong
@@ -95095,6 +95286,7 @@ tomorrow:
     noun: 2
     adv: 1
   rejected: "a temporal deictic adverb; Angloform's TIME_ADV/TEMP_ADV slots (afterward/already/still) are a hand-curated closed grammatical class, not open vocabulary — adding \"tomorrow\" there is a grammar-design decision, not a lexicon addition; out of scope here"
+  gap: true
 tonality:
   category: noun
   bucket: strong
@@ -95181,6 +95373,7 @@ top:
     verb: 10
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 11, 'verb': 10, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 topcoat:
   category: noun
   bucket: strong
@@ -95380,6 +95573,7 @@ totally:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "complete"
 totemic:
   category: adj
   bucket: strong
@@ -95437,6 +95631,7 @@ tour:
     noun: 3
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 3, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 tourette:
   category: noun
   bucket: strong
@@ -96608,6 +96803,7 @@ try:
     noun: 1
     verb: 9
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'verb': 9}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 trypsin:
   category: noun
   bucket: strong
@@ -96736,7 +96932,6 @@ tuesday:
   bucket: strong
   counts:
     noun: 1
-  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 tuff:
   category: noun
   bucket: strong
@@ -97296,6 +97491,7 @@ u:
     noun: 3
     adj: 1
   rejected: single-letter frequency-list noise (matches the c/d/l/m/v/x pattern found earlier this session)
+  exempt: "garbage"
 ubiquitous:
   category: adj
   bucket: strong
@@ -97355,6 +97551,7 @@ uk:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 uke:
   category: noun
   bucket: strong
@@ -98328,6 +98525,7 @@ understanding:
     noun: 4
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "comprehension"
 understate:
   category: verb
   bucket: strong
@@ -100333,6 +100531,7 @@ usually:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "frequency"
 usurper:
   category: noun
   bucket: strong
@@ -100466,6 +100665,7 @@ v:
     noun: 4
     adj: 1
   rejected: "a single letter, not an ordinary word — frequency-corpus tokenization artifact (versus/volt/roman-numeral abbreviations)"
+  exempt: "garbage"
 vac:
   category: noun
   bucket: strong
@@ -102395,6 +102595,7 @@ wall:
     noun: 8
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 8, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 wallaby:
   category: noun
   bucket: strong
@@ -102484,6 +102685,7 @@ war:
     noun: 4
     verb: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 4, 'verb': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  redirect: "conflict"
 warble:
   category: noun
   bucket: weak
@@ -102649,6 +102851,7 @@ waste:
     verb: 10
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 5, 'verb': 10, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 wastebasket:
   category: noun
   bucket: strong
@@ -102953,7 +103156,6 @@ wednesday:
   bucket: strong
   counts:
     noun: 1
-  rejected: conventionally a capitalized/Name-like term in English, same as "june"
 weed:
   category: verb
   bucket: weak
@@ -103052,6 +103254,7 @@ weird:
     noun: 1
     adj: 2
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 2}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 weirdly:
   category: adv
   bucket: strong
@@ -103080,6 +103283,7 @@ welcome:
     verb: 3
     adj: 1
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 2, 'verb': 3, 'adj': 1}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 welder:
   category: noun
   bucket: strong
@@ -103094,6 +103298,7 @@ well:
     adj: 3
     adv: 13
   rejected: the verb sense ("come up, as of a liquid") is too narrow; the word's real common use is adverb/adjective
+  redirect: "good"
 wellbeing:
   category: noun
   bucket: strong
@@ -103264,6 +103469,7 @@ whatever:
     adj: 1
   rejected: a pronoun/determiner/function word, not an ordinary content word — same class as the already-rejected
     "both"/"either"/"another"
+  redirect: "which"
 whatnot:
   category: noun
   bucket: strong
@@ -103452,6 +103658,7 @@ white:
     verb: 1
     adj: 12
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 12, 'verb': 1, 'adj': 12}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 whitecap:
   category: noun
   bucket: strong
@@ -103586,6 +103793,7 @@ why:
     noun: 1
   rejected: really a wh-word (like the existing who/which), not an ordinary noun — WordNet has no interrogative
     category, so only a marginal noun sense ("the whys") surfaces
+  redirect: "reason"
 wi:
   category: noun
   bucket: strong
@@ -103641,6 +103849,7 @@ wife:
     noun: 1
   rejected: no existing word distinguishes wife from other female relatives (no marry/spouse vocabulary
     yet)
+  gap: true
 wiffle:
   category: noun
   bucket: strong
@@ -103989,6 +104198,7 @@ within:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect: "inside"
 witless:
   category: adj
   bucket: strong
@@ -104160,6 +104370,7 @@ wonderful:
   counts:
     adj: 1
   rejected: near-synonym of the already-enabled "good" — redundant, no distinct meaning to add
+  redirect: "good"
 wonderfully:
   category: adv
   bucket: strong
@@ -104356,6 +104567,7 @@ working:
     noun: 1
     adj: 5
   rejected: "weak-bucket signal (WordNet sense-count split {'noun': 1, 'adj': 5}) doesn't reliably indicate real-world dominant meaning on its own — needs the same manual gloss-verification and redirect-check authoring pass as the rest of the curated vocabulary; deferred, not yet reviewed at that depth (2026-09-11)"
+  gap: true
 workload:
   category: noun
   bucket: strong
@@ -104432,6 +104644,7 @@ world:
   rejected: ADJ sense ("global", verified via WordNet gloss) is real and legitimate, but AdjDef only allows
     a bare synonym/antonym and no existing ADJ word (e.g. "local"/"international") fills that role yet
     — same wall as "national"
+  redirect: "general"
 worm:
   category: verb
   bucket: weak
@@ -104719,6 +104932,7 @@ x:
     noun: 3
     adj: 1
   rejected: "a single letter, not an ordinary word — frequency-corpus tokenization artifact (grades, list markers, or abbreviations like \"PhD\"/\"3D\")"
+  exempt: "garbage"
 xanax:
   category: noun
   bucket: strong
@@ -105043,6 +105257,7 @@ yeah:
   counts:
     adv: 1
   rejected: ADV — Angloform has no open adverb category, structurally impossible
+  redirect_note: "a discourse particle with no lexical content — restate the proposition as a full sentence instead of a bare interjection"
 yearlong:
   category: adj
   bucket: strong
@@ -105112,6 +105327,7 @@ yerkes:
   counts:
     noun: 1
   rejected: "a discourse particle/interjection (affirmation), not an ordinary content word — same class as the already-rejected \"oh\""
+  redirect_note: "a discourse particle with no lexical content — restate the proposition as a full sentence instead of a bare interjection"
 yeshiva:
   category: noun
   bucket: strong
@@ -105202,6 +105418,7 @@ york:
     noun: 1
   rejected: proper-noun folding (WordNet has zero capitalized entries) — a name/place/abbreviation, not
     a common word
+  exempt: "proper-noun"
 yorkshire:
   category: noun
   bucket: strong
