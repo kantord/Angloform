@@ -21,6 +21,11 @@ homophones:
 redundancy:
     python3 scripts/redundancy-check.py
 
+# candidate-coverage report at any N (`just check` runs it at the enforced
+# default of 100)
+candidate-coverage N="100":
+    python3 scripts/candidate-coverage-check.py --top {{N}}
+
 # regenerate web/src/lib/dictionary-data.json from seed/definitions/*.yaml
 # (web/package.json's build/dev scripts already run this automatically)
 dictionary-data:

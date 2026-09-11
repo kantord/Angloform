@@ -284,6 +284,8 @@ approximate	form	ADJ_LONG	approximate
 approximate	reject_advice	VERB	the verb sense ("to approximate a value") is not enabled; angloform allows one sense per word
 approximation	form	NOUN_SG	approximation
 approximations	form	NOUN_PL	approximation
+april	form	NOUN_SG	april
+aprils	form	NOUN_PL	april
 archetype	form	NOUN_SG	archetype
 archetypes	form	NOUN_PL	archetype
 architect	form	NOUN_SG	architect
@@ -336,6 +338,9 @@ audit	reject_advice	NOUN	the noun sense (an audit) is not enabled; angloform all
 audited	form	VERB_TRANS_ED	audit
 auditing	form	VERB_TRANS_ING	audit
 audits	form	VERB_TRANS_3SG	audit
+august	form	NOUN_SG	august
+august	reject_gap	ADJ	no already-enabled word covers this sense yet
+augusts	form	NOUN_PL	august
 author	form	NOUN_SG	author
 author	reject_advice	VERB	the verb sense ("to author a book") is not enabled; angloform allows one sense per word
 authors	form	NOUN_PL	author
@@ -763,6 +768,8 @@ death	form	NOUN_SG	death
 deaths	form	NOUN_PL	death
 debt	form	NOUN_SG	debt
 debts	form	NOUN_PL	debt
+december	form	NOUN_SG	december
+decembers	form	NOUN_PL	december
 decide	form	VERB_TRANS_BASE	decide
 decided	form	VERB_TRANS_ED	decide
 decides	form	VERB_TRANS_3SG	decide
@@ -1066,6 +1073,8 @@ fears	form	NOUN_PL	fear
 feature	form	NOUN_SG	feature
 feature	reject_advice	VERB	the verb sense ("the movie features an actor") is not enabled; angloform allows one sense per word
 features	form	NOUN_PL	feature
+februaries	form	NOUN_PL	february
+february	form	NOUN_SG	february
 fell	form	VERB_INTRANS_ED	fall
 fence	form	NOUN_SG	fence
 fence	reject_advice	VERB	the verb sense ("to fence a yard"; the sport of fencing; slang "to fence stolen goods") is not enabled; angloform allows one sense per word
@@ -1163,6 +1172,8 @@ freer	form	ADJ_CMP	free
 freest	form	ADJ_SUP	free
 frequencies	form	NOUN_PL	frequency
 frequency	form	NOUN_SG	frequency
+friday	form	NOUN_SG	friday
+fridays	form	NOUN_PL	friday
 friend	form	NOUN_SG	friend
 friend	reject_advice	VERB	the verb sense (modern — "to friend someone", on social media) is not enabled; angloform allows one sense per word
 friends	form	NOUN_PL	friend
@@ -1449,6 +1460,8 @@ item	reject_advice	ADV	the adverbial sense (archaic — "item" used to introduce
 item	reject_advice	VERB	the reference data attests a verb use of "item"; no common meaning could be confirmed — not enabled
 items	form	NOUN_PL	item
 its	ban	-	third-person reference is banned - repeat the noun you mean (ADR 0002)
+januaries	form	NOUN_PL	january
+january	form	NOUN_SG	january
 jargon	form	NOUN_SG	jargon
 jargon	reject_advice	VERB	the reference data attests a verb use of "jargon"; no common meaning could be confirmed — not enabled
 jargons	form	NOUN_PL	jargon
@@ -1465,6 +1478,10 @@ judge	reject_advice	NOUN	the noun sense (a judge) is not enabled; angloform allo
 judged	form	VERB_TRANS_ED	judge
 judges	form	VERB_TRANS_3SG	judge
 judging	form	VERB_TRANS_ING	judge
+julies	form	NOUN_PL	july
+july	form	NOUN_SG	july
+june	form	NOUN_SG	june
+junes	form	NOUN_PL	june
 justified	form	VERB_TRANS_ED	justify
 justifies	form	VERB_TRANS_3SG	justify
 justify	form	VERB_TRANS_BASE	justify
@@ -1616,6 +1633,9 @@ map	reject_advice	NOUN	the noun sense (a map) is not enabled; angloform allows o
 mapped	form	VERB_TRANS_ED	map
 mapping	form	VERB_TRANS_ING	map
 maps	form	VERB_TRANS_3SG	map
+march	form	NOUN_SG	march
+march	reject_gap	VERB	no already-enabled word covers this sense yet
+marches	form	NOUN_PL	march
 mark	form	VERB_TRANS_BASE	mark
 mark	reject_advice	NOUN	the noun sense (a mark — a grade, a stain, or a former currency) is not enabled; angloform allows one sense per word
 marked	form	VERB_TRANS_ED	mark
@@ -1717,11 +1737,15 @@ model	reject_advice	VERB	the verb sense ("to model clothing" or "to model behavi
 models	form	NOUN_PL	model
 modifier	term	-	Modifier
 modifiers	term	-	Modifiers
+monday	form	NOUN_SG	monday
+mondays	form	NOUN_PL	monday
 monitor	form	VERB_TRANS_BASE	monitor
 monitor	reject_advice	NOUN	the noun sense (a monitor, e.g. a computer screen) is not enabled; angloform allows one sense per word
 monitored	form	VERB_TRANS_ED	monitor
 monitoring	form	VERB_TRANS_ING	monitor
 monitors	form	VERB_TRANS_3SG	monitor
+month	form	NOUN_SG	month
+months	form	NOUN_PL	month
 more	form	MORE	more
 most	form	MOST	most
 move	form	VERB_TRANS_BASE	move
@@ -1791,6 +1815,8 @@ noun phrases	term	-	Noun Phrases
 noun preposition	term	-	Noun Preposition
 noun prepositions	term	-	Noun Prepositions
 nouns	form	NOUN_PL	noun
+november	form	NOUN_SG	november
+novembers	form	NOUN_PL	november
 number	form	NOUN_SG	number
 number	reject_advice	VERB	the verb sense ("to number the pages"; "his days are numbered") is not enabled; angloform allows one sense per word
 number word	term	-	Number Word
@@ -1811,6 +1837,8 @@ occur	form	VERB_INTRANS_BASE	occur
 occurred	form	VERB_INTRANS_ED	occur
 occurring	form	VERB_INTRANS_ING	occur
 occurs	form	VERB_INTRANS_3SG	occur
+october	form	NOUN_SG	october
+octobers	form	NOUN_PL	october
 of	form	PREP_N	of
 offer	form	VERB_TRANS_BASE	offer
 offer	reject_advice	NOUN	the noun sense (an offer) is not enabled; angloform allows one sense per word
@@ -2371,6 +2399,8 @@ safe	reject_advice	NOUN	the noun sense (a safe, for storing valuables) is not en
 said	form	VERB_TRANS_ED	say
 same	ban	-	"same" has two meanings - for that very thing, repeat the noun with "the" ("the file", not "the same file"); for two things that match, write "identical" ("the copies are identical") (ADR 0023)
 sat	form	VERB_INTRANS_ED	sit
+saturday	form	NOUN_SG	saturday
+saturdays	form	NOUN_PL	saturday
 save	form	VERB_TRANS_BASE	save
 save	reject_advice	NOUN	the noun sense (a save, e.g. in sports or computing) is not enabled; angloform allows one sense per word
 saved	form	VERB_TRANS_ED	save
@@ -2442,6 +2472,8 @@ separates	form	VERB_TRANS_3SG	separate
 separating	form	VERB_TRANS_ING	separate
 separator	form	NOUN_SG	separator
 separators	form	NOUN_PL	separator
+september	form	NOUN_SG	september
+septembers	form	NOUN_PL	september
 sequence	form	NOUN_SG	sequence
 sequence	reject_advice	VERB	the verb sense (biology — "to sequence DNA") is not enabled; angloform allows one sense per word
 sequences	form	NOUN_PL	sequence
@@ -2644,6 +2676,8 @@ suggesting	form	VERB_TRANS_ING	suggest
 suggests	form	VERB_TRANS_3SG	suggest
 sun	form	NOUN_SG	sun
 sun	reject_advice	VERB	the verb sense ("to sun oneself", i.e. to sunbathe) is not enabled; angloform allows one sense per word
+sunday	form	NOUN_SG	sunday
+sundays	form	NOUN_PL	sunday
 suns	form	NOUN_PL	sun
 superlative	form	NOUN_SG	superlative
 superlative	reject_advice	ADJ	the adjective sense ("superlative skill", meaning excellent) is not enabled; angloform allows one sense per word
@@ -2741,6 +2775,8 @@ thought	reject_advice	VERB	"thought" is independently attested as a rare verb fo
 thoughts	form	NOUN_PL	thought
 thousand	form	SCALE	thousand
 three	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
+thursday	form	NOUN_SG	thursday
+thursdays	form	NOUN_PL	thursday
 thus	ban	-	for a cause and its result write "<cause>, so <result>"; for a result and its reason write "<result>, because <reason>" (ADR 0026)
 tie	form	VERB_INTRANS_BASE	tie
 tie	reject_advice	NOUN	a thing, which joins things
@@ -2805,6 +2841,8 @@ trusting	form	VERB_TRANS_ING	trust
 trusts	form	VERB_TRANS_3SG	trust
 truth	form	NOUN_SG	truth
 truths	form	NOUN_PL	truth
+tuesday	form	NOUN_SG	tuesday
+tuesdays	form	NOUN_PL	tuesday
 turn	form	VERB_TRANS_BASE	turn
 turn	reject_advice	NOUN	the noun sense (a turn) is not enabled; angloform allows one sense per word
 turned	form	VERB_TRANS_ED	turn
@@ -2918,6 +2956,8 @@ ways	form	NOUN_PL	way
 we	ban	-	name the group - "the maintainers", "the team" - or use an imperative; "we" hides who acts (ADR 0020)
 website	form	NOUN_SG	website
 websites	form	NOUN_PL	website
+wednesday	form	NOUN_SG	wednesday
+wednesdays	form	NOUN_PL	wednesday
 weigh	form	VERB_TRANS_BASE	weigh
 weigh	reject_advice	NOUN	a thing, which has a value
 weighed	form	VERB_TRANS_ED	weigh

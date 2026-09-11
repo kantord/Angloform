@@ -14,10 +14,12 @@ if grep -nE "#\[precedence|assoc" crates/grammar/src/angloform.lalrpop; then
     exit 1
 fi
 
-echo "== tests (morphology, corpus snapshots, banned structures) =="
-cargo test --workspace --quiet
-
 echo "== regenerate everything =="
+# runs before the tests below: cargo test loads lexicon.tsv from disk, not
+# from seed.json/domain-model.json directly, so a hand-edit to either one
+# must land in a fresh lexicon.tsv before the tests can see it (footgun
+# found 2026-09-11: editing seed data and running check.sh once tested
+# against the stale lexicon and passed for the wrong reason).
 cargo run -q -p lexgen
 cargo run -q -p grammar
 cargo run -q -p textcost
@@ -25,6 +27,9 @@ cargo run -q -p textcost -- corpus/dogfood-pairs.tsv docs/dogfood-cost-report.md
 cargo run -q -p triage
 ./scripts/showcase.sh > /dev/null
 ./scripts/coherence.sh > /dev/null
+
+echo "== tests (morphology, corpus snapshots, banned structures) =="
+cargo test --workspace --quiet
 
 echo "== markdown block parser (docs/markdown-linting.md) =="
 python3 scripts/test-mdblocks.py
@@ -34,6 +39,9 @@ python3 scripts/homophone-check.py --seed-def-only
 
 echo "== no same-synset redundancy among seed/definitions words (real WordNet synsets) =="
 python3 scripts/redundancy-check.py --curated-only
+
+echo "== every top-100-by-frequency vocabulary candidate has a documented fate =="
+python3 scripts/candidate-coverage-check.py
 
 echo "== web playground (wasm, typecheck, unit + e2e tests) =="
 (

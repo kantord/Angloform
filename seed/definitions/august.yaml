@@ -1,0 +1,8 @@
+category: NOUN
+forms:
+  - tag: NOUN_PL
+    form: augusts
+definition: a month, which follows a july
+rejected:
+  - category: ADJ
+    gap: true

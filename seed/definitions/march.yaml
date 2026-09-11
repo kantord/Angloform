@@ -1,0 +1,5 @@
+category: NOUN
+definition: a month, which follows a february
+rejected:
+  - category: VERB
+    gap: true
