@@ -1,0 +1,7 @@
+category: COLOR_ADJ
+definition: the color of a grape
+rejected:
+  - category: NOUN
+    gap: true
+  - category: VERB
+    gap: true

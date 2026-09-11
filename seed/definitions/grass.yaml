@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which covers a world
+rejected:
+  - category: VERB
+    gap: true

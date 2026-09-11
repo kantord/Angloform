@@ -6897,6 +6897,11 @@
     "note": "time relative to an event noun; attaches to the verb (ADR 0033)"
   },
   {
+    "lemma": "color",
+    "category": "COLOR",
+    "note": "ADR 0062: dedicated single-purpose head noun for \"the color <word>\" — not a general noun (no plural, no other NP context); \"the color\" alone and \"the color of <NP>\" (of-PP) both parse too, the color-adjective slot is optional."
+  },
+  {
     "lemma": "coherence",
     "category": "NOUN",
     "note": "ADR 0033",

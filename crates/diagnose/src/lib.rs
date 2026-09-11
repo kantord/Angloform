@@ -360,7 +360,8 @@ fn word(t: &Tok) -> &str {
         | Tok::Every(w) | Tok::No(w) | Tok::Num(w) | Tok::NumPl(w) | Tok::Percent(w)
         | Tok::Approx(w) | Tok::So(w) | Tok::Because(w) | Tok::Namely(w) | Tok::Which(w) | Tok::Who(w) | Tok::Some_(w) | Tok::Name(w)
         | Tok::Ord(w) | Tok::Than(w) | Tok::More(w) | Tok::Scale(w) | Tok::AdjCmp(w) | Tok::AdjLong(w)
-        | Tok::AdjSup(w) | Tok::Most(w) | Tok::NumVal(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w) => w,
+        | Tok::AdjSup(w) | Tok::Most(w) | Tok::NumVal(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w)
+        | Tok::Color(w) | Tok::ColorAdj(w) => w,
         Tok::Comma => ",",
         Tok::Colon => ":",
     }
@@ -1093,7 +1094,12 @@ fn term_of(t: &Tok) -> Vec<Term> {
         Tok::Be(_) | Tok::BecomeSg(_) | Tok::BecomePl(_) | Tok::BecomePast(_) => vec![Term::CopAny],
         Tok::Than(_) => vec![Term::Than],
         Tok::More(_) | Tok::Scale(_) | Tok::AdjCmp(_) | Tok::AdjLong(_) | Tok::Adj(_)
-        | Tok::AdjSup(_) | Tok::Most(_) => vec![Term::Adj],
+        | Tok::AdjSup(_) | Tok::Most(_) | Tok::ColorAdj(_) => vec![Term::Adj],
+        // ADR 0062: "color" is its own dedicated Form Tag (COLOR), not a
+        // NounSg — this loose Tier-2 model treats it as an ordinary
+        // singular noun anyway, a reasonable approximation for advice
+        // purposes (same documented-gap style as Which/Who above).
+        Tok::Color(_) => vec![Term::NSg],
         Tok::NounSg(_) => vec![Term::NSg],
         Tok::NounPl(_) => vec![Term::NPl],
         Tok::VtBase(_) | Tok::Vt3(_) | Tok::ViBase(_) | Tok::Vi3(_) => vec![Term::VAny],

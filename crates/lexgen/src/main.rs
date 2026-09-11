@@ -421,6 +421,10 @@ fn expand(e: &SeedEntry, errors: &mut Vec<String>) -> Vec<Form> {
                 None => push(lemma.into(), "ADJ_LONG".into(), true, &mut out),
             }
         }
+        // ADR 0062: a color adjective is its own Form Tag (COLOR_ADJ), not
+        // ADJ — so "the color <word>" can require one syntactically. No
+        // comparative/superlative (colors aren't graded in this grammar).
+        Category::ColorAdj => push(lemma.into(), "COLOR_ADJ".into(), true, &mut out),
         Category::Prep => push(lemma.into(), "PREP".into(), true, &mut out),
         Category::Det => push(lemma.into(), "DET".into(), true, &mut out),
         Category::Closed(tag) => push(lemma.into(), tag, true, &mut out),

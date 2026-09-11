@@ -1,0 +1,7 @@
+category: NOUN
+definition: a thing, which comes from a tree
+rejected:
+  - category: ADJ
+    gap: true
+  - category: VERB
+    gap: true

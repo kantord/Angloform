@@ -638,3 +638,15 @@
   - result: 1 ✓ , so
   - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
 
+## docs/adr/0062-color-adjectives.md
+
+- Sentences: 14; parse: 0/14 (0%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 2/9 consecutive pairs share the subject with the sentence before (22%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 1 ✓ , so
+  - reason: 1 ✓ , because
+  - contrast: 5 ✓ but
+  - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
+  - elaboration: 2 ✗ no form
+

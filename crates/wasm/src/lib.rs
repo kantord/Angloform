@@ -84,7 +84,8 @@ fn word_of(t: &Tok) -> &str {
         | ModalMust(w) | ModalCan(w) | ModalCannot(w) | If(w) | Then(w) | Every(w)
         | No(w) | Num(w) | NumPl(w) | Percent(w) | Approx(w) | So(w) | Because(w) | Namely(w) | Which(w) | Who(w)
         | Ord(w) | Than(w) | More(w) | Scale(w) | AdjCmp(w) | AdjLong(w) | AdjSup(w) | Most(w) | NumVal(w) | Be(w)
-        | BecomeSg(w) | BecomePl(w) | BecomePast(w) | Some_(w) | Name(w) => w,
+        | BecomeSg(w) | BecomePl(w) | BecomePast(w) | Some_(w) | Name(w)
+        | Color(w) | ColorAdj(w) => w,
         Comma => ",",
         Colon => ":",
     }
@@ -158,6 +159,8 @@ fn tag_of(t: &Tok) -> &'static str {
         BecomePast(_) => "BECOME_PAST",
         Some_(_) => "QUANT_EXIST",
         Name(_) => "NAME",
+        Color(_) => "COLOR",
+        ColorAdj(_) => "COLOR_ADJ",
         Comma => "COMMA",
         Colon => "COLON",
     }

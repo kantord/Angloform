@@ -402,10 +402,19 @@ billion	form	SCALE	billion
 binaries	form	NOUN_PL	binary
 binary	form	NOUN_SG	binary
 binary	reject_advice	ADJ	the adjective sense ("binary code") is unused in this domain; not enabled
+black	form	COLOR_ADJ	black
+black	reject_gap	NOUN	no already-enabled word covers this sense yet
+black	reject_gap	VERB	no already-enabled word covers this sense yet
 block	term	-	Block
 blocker	form	NOUN_SG	blocker
 blockers	form	NOUN_PL	blocker
 blocks	term	-	Blocks
+blood	form	NOUN_SG	blood
+blood	reject_gap	VERB	no already-enabled word covers this sense yet
+bloods	form	NOUN_PL	blood
+blue	form	COLOR_ADJ	blue
+blue	reject_gap	NOUN	no already-enabled word covers this sense yet
+blue	reject_gap	VERB	no already-enabled word covers this sense yet
 blunt	form	ADJ	blunt
 blunt	reject_advice	VERB	the verb sense ("to blunt an edge" or "to blunt criticism") is not enabled; angloform allows one sense per word
 blunter	form	ADJ_CMP	blunt
@@ -434,6 +443,9 @@ breeze	reject_advice	VERB	the verb sense ("to breeze through an exam", "she bree
 breezes	form	NOUN_PL	breeze
 broke	form	VERB_TRANS_ED	break
 broken	form	VERB_TRANS_ED	break
+brown	form	COLOR_ADJ	brown
+brown	reject_gap	NOUN	no already-enabled word covers this sense yet
+brown	reject_gap	VERB	no already-enabled word covers this sense yet
 bug	form	NOUN_SG	bug
 bug	reject_advice	VERB	the verb sense ("to bug someone"; "to bug a room", i.e. plant a listening device) is not enabled; angloform allows one sense per word
 bugs	form	NOUN_PL	bug
@@ -573,6 +585,7 @@ collision	term	-	Collision
 collisions	term	-	Collisions
 colon	form	NOUN_SG	colon
 colons	form	NOUN_PL	colon
+color	form	COLOR	color
 column	form	NOUN_SG	column
 columns	form	NOUN_PL	column
 come	form	VERB_INTRANS_BASE	come
@@ -1102,6 +1115,9 @@ findabilitys	form	NOUN_PL	findability
 finding	form	VERB_TRANS_ING	find
 findings	ban	-	write "results" ("the file describes the results")
 finds	form	VERB_TRANS_3SG	find
+fire	form	NOUN_SG	fire
+fire	reject_gap	VERB	no already-enabled word covers this sense yet
+fires	form	NOUN_PL	fire
 first	form	ORD	first
 first token	term	-	First Token
 first tokens	term	-	First Tokens
@@ -1252,6 +1268,17 @@ good	reject_advice	NOUN	the noun sense ("for the greater good") is not enabled; 
 got	form	VERB_TRANS_ED	get
 grammar	term	-	Grammar
 grammars	term	-	Grammars
+grape	form	NOUN_SG	grape
+grapes	form	NOUN_PL	grape
+grass	form	NOUN_SG	grass
+grass	reject_gap	VERB	no already-enabled word covers this sense yet
+grasses	form	NOUN_PL	grass
+gray	form	COLOR_ADJ	gray
+gray	reject_gap	NOUN	no already-enabled word covers this sense yet
+gray	reject_gap	VERB	no already-enabled word covers this sense yet
+green	form	COLOR_ADJ	green
+green	reject_gap	NOUN	no already-enabled word covers this sense yet
+green	reject_gap	VERB	no already-enabled word covers this sense yet
 grew	form	VERB_INTRANS_ED	grow
 ground	form	VERB_TRANS_BASE	ground
 ground	reject_advice	ADJ	"ground" is also the past participle of the verb "grind" ("ground beef"), used adjectivally; not separately enabled
@@ -1876,6 +1903,8 @@ optimizes	form	VERB_TRANS_3SG	optimize
 optimizing	form	VERB_TRANS_ING	optimize
 optional	form	ADJ_LONG	optional
 or	form	CONJ	or
+orange	form	COLOR_ADJ	orange
+orange	reject_gap	NOUN	no already-enabled word covers this sense yet
 order	form	NOUN_SG	order
 order	reject_advice	VERB	the verb sense ("to order food") is not enabled; angloform allows one sense per word
 ordered	form	ADJ_LONG	ordered
@@ -1989,6 +2018,9 @@ picking	form	VERB_TRANS_ING	pick
 picks	form	VERB_TRANS_3SG	pick
 pin	form	VERB_TRANS_BASE	pin
 pin	reject_advice	NOUN	the noun sense (a pin, a fastener) is not enabled; angloform allows one sense per word
+pink	form	COLOR_ADJ	pink
+pink	reject_gap	NOUN	no already-enabled word covers this sense yet
+pink	reject_gap	VERB	no already-enabled word covers this sense yet
 pinned	form	VERB_TRANS_ED	pin
 pinning	form	VERB_TRANS_ING	pin
 pins	form	VERB_TRANS_3SG	pin
@@ -2006,6 +2038,9 @@ plan	reject_advice	NOUN	the noun sense (a plan) is not enabled; angloform allows
 planned	form	VERB_TRANS_ED	plan
 planning	form	VERB_TRANS_ING	plan
 plans	form	VERB_TRANS_3SG	plan
+plant	form	NOUN_SG	plant
+plant	reject_gap	VERB	no already-enabled word covers this sense yet
+plants	form	NOUN_PL	plant
 pleasant	form	ADJ_LONG	pleasant
 please	ban	-	politeness markers are not angloform - state the instruction directly or write "you must ..."
 plural	form	ADJ_LONG	plural
@@ -2136,6 +2171,9 @@ provisional	form	ADJ_LONG	provisional
 provisional	reject_advice	NOUN	the noun sense (historical/political — "the Provisionals", a faction name) is not enabled; angloform allows one sense per word
 proxies	form	NOUN_PL	proxy
 proxy	form	NOUN_SG	proxy
+purple	form	COLOR_ADJ	purple
+purple	reject_gap	NOUN	no already-enabled word covers this sense yet
+purple	reject_gap	VERB	no already-enabled word covers this sense yet
 purpose	form	NOUN_SG	purpose
 purpose	reject_advice	VERB	the verb sense (formal/archaic — "I purpose to do something") is not enabled; angloform allows one sense per word
 purposes	form	NOUN_PL	purpose
@@ -2224,6 +2262,9 @@ record	reject_advice	NOUN	the noun sense (a record) is not enabled; angloform al
 recorded	form	VERB_TRANS_ED	record
 recording	form	VERB_TRANS_ING	record
 records	form	VERB_TRANS_3SG	record
+red	form	COLOR_ADJ	red
+red	reject_gap	NOUN	no already-enabled word covers this sense yet
+red	reject_gap	VERB	no already-enabled word covers this sense yet
 redirect	term	-	Redirect
 redirects	term	-	Redirects
 reduce	form	VERB_TRANS_BASE	reduce
@@ -2547,6 +2588,7 @@ size	form	NOUN_SG	size
 size	reject_advice	ADJ	the reference data attests an adjectival use of "size"; no common meaning could be confirmed — not enabled
 size	reject_advice	VERB	the verb sense ("to size something up") is not enabled; angloform allows one sense per word
 sizes	form	NOUN_PL	size
+skies	form	NOUN_PL	sky
 skill	form	NOUN_SG	skill
 skills	form	NOUN_PL	skill
 skip	form	VERB_TRANS_BASE	skip
@@ -2554,6 +2596,8 @@ skip	reject_advice	NOUN	the noun sense (a skip — a jump, or British "a skip", 
 skipped	form	VERB_TRANS_ED	skip
 skipping	form	VERB_TRANS_ING	skip
 skips	form	VERB_TRANS_3SG	skip
+sky	form	NOUN_SG	sky
+sky	reject_gap	VERB	no already-enabled word covers this sense yet
 slot	form	NOUN_SG	slot
 slot	reject_advice	VERB	the verb sense ("to slot something into place") is not enabled; angloform allows one sense per word
 slots	form	NOUN_PL	slot
@@ -2629,6 +2673,11 @@ step block	term	-	Step Block
 step blocks	term	-	Step Blocks
 steps	form	NOUN_PL	step
 still	form	TEMP_ADV	still
+stone	form	NOUN_SG	stone
+stone	reject_gap	ADJ	no already-enabled word covers this sense yet
+stone	reject_gap	ADV	no already-enabled word covers this sense yet
+stone	reject_gap	VERB	no already-enabled word covers this sense yet
+stones	form	NOUN_PL	stone
 stop	form	VERB_TRANS_BASE	stop
 stop	reject	NOUN	halt
 stopped	form	VERB_TRANS_ED	stop
@@ -2979,6 +3028,9 @@ which	form	WHICH	which
 while	form	NOUN_SG	while
 while	reject_gap	VERB	no already-enabled word covers this sense yet
 whiles	form	NOUN_PL	while
+white	form	COLOR_ADJ	white
+white	reject_gap	NOUN	no already-enabled word covers this sense yet
+white	reject_gap	VERB	no already-enabled word covers this sense yet
 who	form	WHO	who
 whole	form	ADJ_LONG	whole
 whole	reject_advice	ADV	the reference data attests an adverbial use of "whole"; no common meaning could be confirmed — angloform has no adverb category regardless
@@ -2990,6 +3042,10 @@ wins	form	VERB_INTRANS_3SG	win
 with	form	PREP_V	with
 without	form	PREP_V	without
 won	form	VERB_INTRANS_ED	win
+wood	form	NOUN_SG	wood
+wood	reject_gap	ADJ	no already-enabled word covers this sense yet
+wood	reject_gap	VERB	no already-enabled word covers this sense yet
+woods	form	NOUN_PL	wood
 word	form	NOUN_SG	word
 word	reject	VERB	write
 wording	form	NOUN_SG	wording
@@ -3012,6 +3068,9 @@ wrong	reject_advice	VERB	the verb sense ("to wrong someone") is not enabled; ang
 wronger	form	ADJ_CMP	wrong
 wrongest	form	ADJ_SUP	wrong
 wrote	form	VERB_TRANS_ED	write
+yellow	form	COLOR_ADJ	yellow
+yellow	reject_gap	NOUN	no already-enabled word covers this sense yet
+yellow	reject_gap	VERB	no already-enabled word covers this sense yet
 yet	form	YET	yet
 you	form	PRON_2	you
 your	form	POSS_2	your

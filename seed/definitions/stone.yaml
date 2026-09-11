@@ -1,0 +1,9 @@
+category: NOUN
+definition: a thing, which comes from a world
+rejected:
+  - category: ADJ
+    gap: true
+  - category: ADV
+    gap: true
+  - category: VERB
+    gap: true

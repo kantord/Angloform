@@ -1,0 +1,7 @@
+category: COLOR_ADJ
+definition: red
+rejected:
+  - category: NOUN
+    gap: true
+  - category: VERB
+    gap: true

@@ -71,6 +71,10 @@ pub enum Category {
     VerbTrans,
     VerbIntrans,
     Adj,
+    /// A color adjective (ADR 0062): grammatically an adjective (composes
+    /// wherever ADJ does) but its own Form Tag, so "the color <word>" can
+    /// require one syntactically instead of accepting any adjective.
+    ColorAdj,
     Prep,
     Det,
     /// A banned surface form with writer-facing advice (ADR 0008).
@@ -89,6 +93,7 @@ impl SeedEntry {
             "VERB_TRANS" => Category::VerbTrans,
             "VERB_INTRANS" => Category::VerbIntrans,
             "ADJ" => Category::Adj,
+            "COLOR_ADJ" => Category::ColorAdj,
             "PREP" => Category::Prep,
             "DET" => Category::Det,
             "BANNED" => Category::Banned,
@@ -104,7 +109,7 @@ impl Category {
         match self {
             Category::Noun => Some('n'),
             Category::VerbTrans | Category::VerbIntrans => Some('v'),
-            Category::Adj => Some('a'),
+            Category::Adj | Category::ColorAdj => Some('a'),
             _ => None,
         }
     }

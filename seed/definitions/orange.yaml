@@ -1,0 +1,5 @@
+category: COLOR_ADJ
+definition: the color of a fire
+rejected:
+  - category: NOUN
+    gap: true

@@ -10,7 +10,7 @@
     "category": {
       "description": "The Category of the Lemma (ADR 0001) — which grammar entry point checks \"definition\".",
       "type": "string",
-      "enum": ["NOUN", "VERB_TRANS", "VERB_INTRANS", "ADJ"]
+      "enum": ["NOUN", "VERB_TRANS", "VERB_INTRANS", "ADJ", "COLOR_ADJ"]
     },
     "forms": {
       "description": "Irregular Surface Forms only (ADR 0001) — a word whose regular-rule form is wrong or identical to its own lemma (e.g. \"sheep\"). Never list a regular form.",

@@ -1,0 +1,5 @@
+category: NOUN
+definition: a process, which changes a thing
+rejected:
+  - category: VERB
+    gap: true

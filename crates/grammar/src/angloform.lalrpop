@@ -79,6 +79,8 @@ extern {
         "BECOME_PAST" => Tok::BecomePast(<String>),
         "SOME" => Tok::Some_(<String>),
         "NAME" => Tok::Name(<String>),
+        "COLOR" => Tok::Color(<String>),
+        "COLOR_ADJ" => Tok::ColorAdj(<String>),
         "COMMA" => Tok::Comma,
         "COLON" => Tok::Colon,
     }
@@ -89,9 +91,15 @@ extern {
 LDet: Tree = <l:@L> <w:"DET"> => leaf(l, w);
 LDetSg: Tree = <l:@L> <w:"DET_SG"> => leaf(l, w);
 LDetAny: Tree = { LDet, LDetSg };
-// any adjective: short (inflecting) or long (ADR 0030)
-LAdj: Tree = { <l:@L> <w:"ADJ"> => leaf(l, w), <l:@L> <w:"ADJ_LONG"> => leaf(l, w) };
+// any adjective: short (inflecting), long (ADR 0030), or a color (ADR 0062)
+LAdj: Tree = {
+    <l:@L> <w:"ADJ"> => leaf(l, w),
+    <l:@L> <w:"ADJ_LONG"> => leaf(l, w),
+    <l:@L> <w:"COLOR_ADJ"> => leaf(l, w),
+};
 LAdjLong: Tree = <l:@L> <w:"ADJ_LONG"> => leaf(l, w);
+LColor: Tree = <l:@L> <w:"COLOR"> => leaf(l, w);
+LColorAdj: Tree = <l:@L> <w:"COLOR_ADJ"> => leaf(l, w);
 LBe: Tree = <l:@L> <w:"BE"> => leaf(l, w);
 LBecomeSg: Tree = <l:@L> <w:"BECOME_SG"> => leaf(l, w);
 LBecomePl: Tree = <l:@L> <w:"BECOME_PL"> => leaf(l, w);
@@ -472,6 +480,12 @@ pub VerbIntransDef: Tree = {
 pub AdjDef: Tree = {
     LAdj,
     <n:LNeg> <a:LAdj> => nd("AdjDef", 1, vec![Some(n), Some(a)]),
+    // ADR 0062: a primitive color has no adjective synonym to point to
+    // ("huge: big" has nothing color words can borrow) — "the color of
+    // <NP>" names it by its prototype instead ("red: the color of
+    // blood"), reusing the color-NP construction rather than inventing
+    // a second one just for definitions.
+    <d:LDetAny> <c:LColor> <of:OfPP> => nd("AdjDef", 2, vec![Some(d), Some(c), Some(of)]),
 };
 
 // do not <verb …> — prohibition (ADR 0005).
@@ -722,6 +736,12 @@ NPSGCore: Tree = {
     <d:LDet> <a:LAdj?> <n:LNounSg> <nm:LName> <o:OfPP?> =>
         nd("NPAppos", 2, vec![Some(d), a, Some(n), Some(nm), o]),
     NPPctSg,
+    // "the color red" (ADR 0062): a dedicated head noun, named by a color
+    // adjective instead of modified by one — "the color" alone and "the
+    // color of the sky" (of-PP) both still work, the color-adjective is
+    // optional like every other NP modifier here.
+    <d:LDetAny> <c:LColor> <a:LColorAdj?> <of:OfPP?> =>
+        nd("NPColor", 1, vec![Some(d), Some(c), a, of]),
 };
 // digits count plural nouns (ADR 0022); *one* + singular is NPSG (ADR 0016)
 NPPL: Tree = {
@@ -789,6 +809,10 @@ NPInner: Tree = {
     // appositive name inside an of-PP: "every form of the file "lexicon.tsv""
     <d:LDet> <a:LAdj?> <n:LNounSg> <nm:LName> =>
         nd("NPAppos", 2, vec![Some(d), a, Some(n), Some(nm)]),
+    // "the color red" inside an of-PP (no further of-PP chain here, same
+    // restriction as every other NPInner alternative — ADR 0062).
+    <d:LDetAny> <c:LColor> <a:LColorAdj?> =>
+        nd("NPColor", 1, vec![Some(d), Some(c), a]),
     NPi<LNum, LNounSg>,
     <d:LDetAny> <o:LOrd> <a:LAdj?> <n:LNounSg> =>
         nd("NP", 3, vec![Some(d), Some(o), a, Some(n)]),

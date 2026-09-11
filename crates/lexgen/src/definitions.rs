@@ -51,6 +51,10 @@ pub fn def_kind_of(category: &str) -> Option<grammar::DefKind> {
         "VERB_TRANS" => Some(grammar::DefKind::VerbTrans),
         "VERB_INTRANS" => Some(grammar::DefKind::VerbIntrans),
         "ADJ" => Some(grammar::DefKind::Adj),
+        // ADR 0062: a color adjective's own definition is adjective-shaped
+        // too (grammatically it composes like ADJ everywhere) — only its
+        // Form Tag differs, not the definition text's grammar.
+        "COLOR_ADJ" => Some(grammar::DefKind::Adj),
         _ => None,
     }
 }

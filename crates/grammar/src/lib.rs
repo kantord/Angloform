@@ -80,6 +80,8 @@ pub enum Tok {
     BecomePast(String),
     Some_(String),
     Name(String),
+    Color(String),
+    ColorAdj(String),
     Comma,
     Colon,
 }
@@ -673,6 +675,8 @@ fn tag_to_tok(tag: &str, word: &str) -> Option<Tok> {
         "BECOME_SG" => Tok::BecomeSg(w),
         "BECOME_PL" => Tok::BecomePl(w),
         "BECOME_PAST" => Tok::BecomePast(w),
+        "COLOR" => Tok::Color(w),
+        "COLOR_ADJ" => Tok::ColorAdj(w),
         // NAME is produced directly by the tokenizer, never from the lexicon
         _ => return None,
     })
