@@ -568,11 +568,6 @@
     "advice": "third-person reference is banned - repeat the noun you mean (ADR 0002)"
   },
   {
-    "lemma": "may",
-    "category": "BANNED",
-    "advice": "for permission write \"can\"; for possibility rephrase the sentence (ADR 0009)"
-  },
-  {
     "lemma": "might",
     "category": "BANNED",
     "advice": "for possibility rephrase the sentence, or state the fact plainly (ADR 0009, ADR 0042)"

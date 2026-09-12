@@ -126,7 +126,9 @@ the advice:
   parses uniquely — peak-open 1, max-dep 1, depth 1, right-branching 0%
 
 ✗ the agent may fail
-  WORD: "may" is banned in angloform — for permission write "can"; for possibility rephrase the sentence (ADR 0009)
+  STYLE:
+    - "agent may" — noun-noun compounds are not angloform; write "the may of the agent", or one transparent word (ADR 0015)
+    - "may" is a noun in angloform — for permission write "can"; for possibility rephrase the sentence (ADR 0009)
 ✓ the agent can fail
   parses uniquely — peak-open 2, max-dep 2, depth 1, right-branching 0%
 

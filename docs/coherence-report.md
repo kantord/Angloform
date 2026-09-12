@@ -97,7 +97,7 @@
 ## docs/adr/0009-modals.md
 
 - Sentences: 38; parse: 29/38 (76%)
-- Headings: 4; with a banned or wrong-sense word: 1
+- Headings: 4; with a banned or wrong-sense word: 0
 - Topic continuity: 9/26 consecutive pairs share the subject with the sentence before (35%)
 - Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
   - result: 7 ✓ , so

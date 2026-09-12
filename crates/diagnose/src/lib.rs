@@ -1004,6 +1004,22 @@ fn slot_findings(lexicon: &Lexicon, toks: &[Tok]) -> Vec<String> {
                     out.push(format!("\"{w}\" is a noun in angloform — {}", r.render("verb")));
                 }
             }
+            // noun in a modal slot: right after a subject head, right before
+            // a bare verb form ("the agent may leave" once "may" is the
+            // month, not the banned modal) — the same advice-gap-2 pattern
+            // as the noun/verb case above and the same "VERB" reject
+            // category (moby has no separate MODAL tag; "may" is itself
+            // only verb-attested there, ADR 0062's may/can redirect) — but
+            // a distinct trigger shape, so it doesn't collide with the
+            // noun/verb case's own "VERB" redirects.
+            Tok::NounSg(w) | Tok::NounPl(w)
+                if prev.is_some_and(is_noun_head)
+                    && next.is_some_and(|n| matches!(n, Tok::VtBase(_) | Tok::ViBase(_))) =>
+            {
+                if let Some(r) = lexicon.redirect(w, "VERB") {
+                    out.push(format!("\"{w}\" is a noun in angloform — {}", r.render("modal")));
+                }
+            }
             _ => {}
         }
     }

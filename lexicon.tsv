@@ -1684,8 +1684,10 @@ maths	form	NOUN_PL	math
 maximum	form	NOUN_SG	maximum
 maximum	reject_advice	ADJ	the adjective sense ("maximum speed") is not enabled; angloform allows one sense per word
 maximums	form	NOUN_PL	maximum
-may	ban	-	for permission write "can"; for possibility rephrase the sentence (ADR 0009)
+may	form	NOUN_SG	may
+may	reject_advice	VERB	for permission write "can"; for possibility rephrase the sentence (ADR 0009)
 maybe	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
+mays	form	NOUN_PL	may
 meaning	form	NOUN_SG	meaning
 meaning	reject_advice	ADJ	the adjective (participial) sense ("a meaning look", i.e. significant) is not enabled; angloform allows one sense per word
 meaningful	form	ADJ_LONG	meaningful
