@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00031899"
+        gloss: used as intensifiers; "very good"; "she was very much interested"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00510749"
+        gloss: precisely so; "on the very next page"; "he expected the very opposite"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,85 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00098625"
+        gloss: the performance of duties by a waiter or servant; "that restaurant has excellent service"
+        angloform:
+          status: gap
+          note: restaurant/dining vocabulary doesn't exist yet either
+      - wordnet: "00268112"
+        gloss: periodic maintenance on a car or machine; "it was time for an overhaul"
+        angloform:
+          status: gap
+      - wordnet: "00318391"
+        gloss: the act of delivering a writ or summons upon someone
+        angloform:
+          status: gap
+      - wordnet: "00568430"
+        gloss: (sports) a stroke that puts the ball in play
+        angloform:
+          status: gap
+      - wordnet: "00577525"
+        gloss: work done by one person or group that benefits another; "budget for goods and services"
+        angloform:
+          status: redirect
+          word: work
+          category: NOUN
+      - wordnet: "00579564"
+        gloss: (law) the acts performed by an English feudal tenant for the benefit of his lord
+        angloform:
+          status: gap
+      - wordnet: "00584891"
+        gloss: employment in or work for another; "he retired after 30 years of service"
+        angloform:
+          status: redirect
+          word: work
+          category: NOUN
+      - wordnet: "00853649"
+        gloss: the act of mating by male animals
+        angloform:
+          status: gap
+      - wordnet: "01032040"
+        gloss: the act of public worship following prescribed rules; "the Sunday service"
+        angloform:
+          status: gap
+      - wordnet: "01209576"
+        gloss: an act of help or assistance; "he did them a service"
+        angloform:
+          status: gap
+          note: '"help" (already enabled) is only a verb here, not a noun — no noun-shaped equivalent exists yet'
+      - wordnet: "04175380"
+        gloss: tableware consisting of a complete set of articles for use at table
+        angloform:
+          status: gap
+      - wordnet: "05149832"
+        gloss: a means of serving
+        angloform:
+          status: gap
+      - wordnet: "08186047"
+        gloss: a company or agency that performs a public service, subject to government regulation
+        angloform:
+          status: gap
+      - wordnet: "08198137"
+        gloss: a force that is a branch of the armed forces
+        angloform:
+          status: gap
+      - wordnet: "11293636"
+        gloss: Canadian writer (born in England) who wrote about life in the Yukon Territory
+        angloform:
+          status: gap
+          note: a named-individual sense (a proper noun in substance, though the lemma itself is common) — out of scope regardless of vocabulary state
+  VERB:
+    senses:
+      - wordnet: "00456937"
+        gloss: make fit for use; "service my truck"; "the washing machine needs to be serviced"
+        angloform:
+          status: gap
+      - wordnet: "01428011"
+        gloss: mate with; "male animals serve the females for breeding purposes"
+        angloform:
+          status: gap
+      - wordnet: "02541251"
+        gloss: be used by, as of a utility; "the sewage plant served the neighboring communities"
+        angloform:
+          status: gap

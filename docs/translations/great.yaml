@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01123879"
+        gloss: very good; "he did a bully job"; "had a great time at the party"
+        angloform:
+          status: redirect
+          word: good
+          category: ADJ
+      - wordnet: "01278818"
+        gloss: of major significance or importance; "a great work of art"
+        angloform:
+          status: gap
+      - wordnet: "01386883"
+        gloss: relatively large in size or number or extent; larger than others of its kind
+        angloform:
+          status: redirect
+          word: huge
+          category: ADJ
+      - wordnet: "01467919"
+        gloss: uppercase; "capital A"; "great A"
+        angloform:
+          status: gap
+      - wordnet: "01677433"
+        gloss: remarkable or out of the ordinary in degree or magnitude or effect; "a great crisis"
+        angloform:
+          status: gap
+  NOUN:
+    senses:
+      - wordnet: "10145081"
+        gloss: a person who has achieved distinction and honor in some field; "one of the greats"
+        angloform:
+          status: gap

@@ -32,6 +32,7 @@ ANSWER_REQUIRED = {
     "redirect": {"word", "category"},
     "construction": {"pattern", "note"},
     "gap": set(),
+    "excluded": {"reason"},
 }
 
 
@@ -101,7 +102,7 @@ def check_shape(path, data):
                 continue
             astatus = ans["status"]
             if astatus not in ANSWER_REQUIRED:
-                errs.append(f"{tag}.angloform: unknown status {astatus!r} (redirect/construction/gap)")
+                errs.append(f"{tag}.angloform: unknown status {astatus!r} (redirect/construction/gap/excluded)")
                 continue
             missing = ANSWER_REQUIRED[astatus] - set(ans)
             if missing:

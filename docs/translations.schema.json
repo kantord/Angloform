@@ -67,7 +67,8 @@
       "oneOf": [
         { "$ref": "#/$defs/answerRedirect" },
         { "$ref": "#/$defs/answerConstruction" },
-        { "$ref": "#/$defs/answerGap" }
+        { "$ref": "#/$defs/answerGap" },
+        { "$ref": "#/$defs/answerExcluded" }
       ]
     },
     "answerRedirect": {
@@ -97,6 +98,15 @@
       "properties": {
         "status": { "const": "gap" },
         "note": { "type": "string", "description": "Optional: why no redirect/construction was found, if not obvious." }
+      }
+    },
+    "answerExcluded": {
+      "description": "Not a temporary absence — this specific sense cannot be expressed by permanent, deliberate design (e.g. an adverbial sense: Angloform has no open adverb category at all, a grammar-level fact, not a missing word). The per-sense counterpart to a whole-lemma `excluded` verdict.",
+      "additionalProperties": false,
+      "required": ["status", "reason"],
+      "properties": {
+        "status": { "const": "excluded" },
+        "reason": { "type": "string", "minLength": 1 }
       }
     }
   }

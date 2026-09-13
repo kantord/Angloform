@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00709205"
+        gloss: wish or demand the presence of; "I want you here at noon!"
+        angloform:
+          status: gap
+      - wordnet: "01188725"
+        gloss: have need of; "This piano wants the attention of a competent tuner"
+        angloform:
+          status: redirect
+          word: require
+          category: VERB_TRANS
+      - wordnet: "01317064"
+        gloss: hunt or look for, for a particular reason; "he is wanted by the FBI"
+        angloform:
+          status: gap
+      - wordnet: "01825237"
+        gloss: feel or have a desire for; want strongly; "I want to go home now"
+        angloform:
+          status: redirect
+          word: desire
+          category: VERB_TRANS
+      - wordnet: "02632567"
+        gloss: be without, lack; be deficient in; "want courtesy"; "the strength to go on living"
+        angloform:
+          status: gap
+  NOUN:
+    senses:
+      - wordnet: "07486229"
+        gloss: a specific feeling of desire; "he got his wish"
+        angloform:
+          status: gap
+      - wordnet: "09367991"
+        gloss: anything that is necessary but lacking; "I tried to supply his wants"
+        angloform:
+          status: gap
+      - wordnet: "14449405"
+        gloss: the state of needing something that is absent or unavailable
+        angloform:
+          status: gap
+      - wordnet: "14493426"
+        gloss: a state of extreme poverty
+        angloform:
+          status: redirect
+          word: poverty
+          category: NOUN

@@ -861,6 +861,11 @@ describing	form	VERB_TRANS_ING	describe
 design	form	NOUN_SG	design
 design	reject	VERB	plan
 designs	form	NOUN_PL	design
+desire	form	VERB_TRANS_BASE	desire
+desire	reject_gap	NOUN	no already-enabled word covers this sense yet
+desired	form	VERB_TRANS_ED	desire
+desires	form	VERB_TRANS_3SG	desire
+desiring	form	VERB_TRANS_ING	desire
 despair	form	NOUN_SG	despair
 despair	reject_advice	VERB	the verb sense ("to despair") is deferred; write "X is filled with despair" instead (same as "fear")
 despairs	form	NOUN_PL	despair

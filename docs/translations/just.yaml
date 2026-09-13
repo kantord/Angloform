@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00002621"
+        gloss: only a very short time before; "they had just left"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00002950"
+        gloss: exactly at this moment or the moment described; "we've just finished"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00004722"
+        gloss: and nothing more; "I was merely asking"; "just a scratch"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00033308"
+        gloss: only a moment ago; "he has just arrived"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00158309"
+        gloss: indicating exactness or preciseness; "doing precisely what she had told him"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00246296"
+        gloss: absolutely; "I just can't take it anymore"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+  ADJ:
+    senses:
+      - wordnet: "00956131"
+        gloss: free from favoritism or self-interest or bias or deception; conforming with established standards
+        angloform:
+          status: gap
+      - wordnet: "00958151"
+        gloss: fair to all parties as dictated by reason and conscience; "equitable treatment"
+        angloform:
+          status: gap
+      - wordnet: "01369663"
+        gloss: used especially of what is legally or ethically right or proper or fitting; "a just and lasting peace"
+        angloform:
+          status: redirect
+          word: legal
+          category: ADJ
+      - wordnet: "02036934"
+        gloss: of moral excellence; "a just cause"; "an upright and respectable man"
+        angloform:
+          status: redirect
+          word: good
+          category: ADJ
