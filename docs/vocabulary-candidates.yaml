@@ -13401,11 +13401,13 @@ busty:
   counts:
     adj: 1
 busy:
+  rejected: "weak-bucket signal, searched for an equivalent, none found via UD-EWT triage (2026-09-12)"
   category: verb
   bucket: weak
   counts:
     verb: 1
     adj: 5
+  gap: true
 busybody:
   category: noun
   bucket: strong
@@ -13724,10 +13726,12 @@ cafe:
     noun: 1
   rejected: no clean building-block vocabulary exists yet for an accurate, non-vague definition
 cafeteria:
+  rejected: "strong bucket, real word, but no food/building vocabulary exists yet"
   category: noun
   bucket: strong
   counts:
     noun: 1
+  gap: true
 caffeine:
   category: noun
   bucket: strong
@@ -31901,6 +31905,7 @@ excellent:
   counts:
     adj: 1
   rejected: near-synonym of the already-enabled "good" — redundant, no distinct meaning to add
+  redirect: "good"
 excellently:
   category: adv
   bucket: strong
@@ -35916,11 +35921,13 @@ friendless:
   counts:
     adj: 1
 friendly:
+  rejected: "weak-bucket signal, searched for an equivalent, none found via UD-EWT triage (2026-09-12)"
   category: noun
   bucket: weak
   counts:
     noun: 1
     adj: 4
+  gap: true
 friesian:
   category: noun
   bucket: strong
@@ -40162,10 +40169,12 @@ guarantor:
   counts:
     noun: 1
 guaranty:
+  rejected: "strong bucket, real word, but a moderate-value legal/business term — not yet authored"
   category: noun
   bucket: strong
   counts:
     noun: 1
+  gap: true
 guardhouse:
   category: noun
   bucket: strong
@@ -42229,6 +42238,7 @@ helpful:
   counts:
     adj: 1
   rejected: ADJ has no existing synonym/antonym
+  gap: true
 helpfully:
   category: adv
   bucket: strong
@@ -42832,6 +42842,7 @@ highway:
   counts:
     noun: 1
   rejected: no road/travel vocabulary exists yet
+  gap: true
 highwayman:
   category: noun
   bucket: strong
@@ -79237,6 +79248,7 @@ restaurant:
   counts:
     noun: 1
   rejected: no food vocabulary exists yet
+  gap: true
 restaurateur:
   category: noun
   bucket: strong
@@ -85272,11 +85284,13 @@ shutter:
     noun: 2
     verb: 1
 shuttle:
+  rejected: "weak-bucket signal, searched for an equivalent, none found via UD-EWT triage (2026-09-12)"
   category: verb
   bucket: weak
   counts:
     noun: 3
     verb: 1
+  gap: true
 shy:
   category: noun
   bucket: weak
@@ -86377,6 +86391,7 @@ slogan:
   counts:
     noun: 1
   rejected: no clean building-block vocabulary exists yet for an accurate, non-vague definition
+  gap: true
 sloop:
   category: noun
   bucket: strong
@@ -88990,6 +89005,7 @@ statue:
   counts:
     noun: 1
   rejected: no clean building-block vocabulary exists yet for an accurate, non-vague definition
+  gap: true
 statuette:
   category: noun
   bucket: strong
@@ -91325,12 +91341,14 @@ sushi:
     noun: 1
   rejected: no clean building-block vocabulary exists yet for an accurate, non-vague definition
 suspect:
+  rejected: "weak-bucket signal, searched for an equivalent, none found via UD-EWT triage (2026-09-12)"
   category: adj
   bucket: weak
   counts:
     noun: 2
     verb: 3
     adj: 1
+  gap: true
 suspender:
   category: noun
   bucket: strong
@@ -93222,11 +93240,13 @@ telepathy:
   counts:
     noun: 1
 telephone:
+  rejected: "weak-bucket signal, searched for an equivalent, none found via UD-EWT triage (2026-09-12)"
   category: verb
   bucket: weak
   counts:
     noun: 2
     verb: 1
+  gap: true
 telephonic:
   category: adj
   bucket: strong
@@ -93641,6 +93661,7 @@ terrorist:
   counts:
     noun: 1
   rejected: no clean building-block vocabulary exists yet for an accurate, non-vague definition
+  gap: true
 terse:
   category: adj
   bucket: strong
@@ -103116,11 +103137,13 @@ weave:
     noun: 1
     verb: 4
 web:
+  rejected: "already covered by the already-enabled \"website\""
   category: verb
   bucket: weak
   counts:
     noun: 7
     verb: 1
+  redirect: "website"
 webby:
   category: adj
   bucket: strong
@@ -105894,3 +105917,571 @@ zygote:
   bucket: strong
   counts:
     noun: 1
+
+"01-Feb-02":
+  rejected: "a date/unit/single-letter abbreviation artifact from the UD-EWT corpus tokenization, not an ordinary word"
+  exempt: "garbage"
+American:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+Chinese:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+DPR:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+Holy:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+Indian:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+Iraqi:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+Irish:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+Islamic:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+Muslim:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+P:
+  rejected: "a date/unit/single-letter abbreviation artifact from the UD-EWT corpus tokenization, not an ordinary word"
+  exempt: "garbage"
+Pakistani:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+Sunni:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+United:
+  rejected: "a nationality/political demonym or proper name — conventionally capitalized, same class as the already-rejected \"york\"/\"de\""
+  exempt: "proper-noun"
+able:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+accord:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+account:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+actually:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+address:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+advise:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "advice"
+ago:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "prior"
+agree:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+all:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "every"
+also:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+always:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+amazing:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+area:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+around:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+art:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+as:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+ask:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+attack:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "conflict"
+away:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+back:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+bar:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+believe:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "consider"
+below:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+blow:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+book:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+boy:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+bring:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+burger:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+business:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+call:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+camera:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+car:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+care:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+charge:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+child:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+city:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+computer:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "machine"
+control:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+cool:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "good"
+country:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+couple:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "pair"
+cream:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+credit:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+date:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+deal:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+deliver:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+dinner:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+discuss:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+down:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+draft:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "prototype"
+e-mail:
+  rejected: "a date/unit/single-letter abbreviation artifact from the UD-EWT corpus tokenization, not an ordinary word"
+  exempt: "garbage"
+early:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "prior"
+eat:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+else:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+email:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+enjoy:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "happiness"
+enough:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+ever:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+experience:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+extremely:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+fax:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+feel:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+few:
+  rejected: "a vague quantifier, not an ordinary word"
+  redirect_note: "a vague quantifier, not an ordinary word — Angloform prefers a digit (NUM_PL) or an existing quantifier (every/some/no) to a vague amount word"
+fine:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "good"
+firm:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+food:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+form:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "document"
+fun:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "happiness"
+gas:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+gift:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+girl:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+government:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+guy:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "person"
+hand:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+happen:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+happy:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "happiness"
+hi:
+  rejected: "a discourse particle/interjection, not an ordinary content word"
+  redirect_note: "a discourse particle with no lexical content — restate the proposition as a full sentence instead of a bare interjection"
+high:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+highly:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+hour:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+how:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+however:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+id:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+interested:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+involved:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+issue:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+job:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+just:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+launch:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "start"
+let:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+level:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "degree"
+like:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+little:
+  rejected: "a vague quantifier, not an ordinary word"
+  redirect_note: "a vague quantifier, not an ordinary word — Angloform prefers a digit (NUM_PL) or an existing quantifier (every/some/no) to a vague amount word"
+local:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+location:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+look:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+lot:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+mad:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+management:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+market:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+mmbtu:
+  rejected: "a date/unit/single-letter abbreviation artifact from the UD-EWT corpus tokenization, not an ordinary word"
+  exempt: "garbage"
+money:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "asset"
+morning:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+much:
+  rejected: "a vague quantifier, not an ordinary word"
+  redirect_note: "a vague quantifier, not an ordinary word — Angloform prefers a digit (NUM_PL) or an existing quantifier (every/some/no) to a vague amount word"
+need:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "require"
+nuclear:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+often:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+operation:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "process"
+opinion:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+own:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+p.m.:
+  rejected: "a date/unit/single-letter abbreviation artifact from the UD-EWT corpus tokenization, not an ordinary word"
+  exempt: "garbage"
+page:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+paper:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+performance:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "achievement"
+picture:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "photo"
+pint:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+play:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "game"
+please:
+  rejected: "a discourse particle/interjection, not an ordinary content word"
+  redirect_note: "a discourse particle with no lexical content — restate the proposition as a full sentence instead of a bare interjection"
+pleased:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "happiness"
+police:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+possible:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "possibility"
+post:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+price:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+probably:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+professional:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "consultant"
+provide:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "give"
+quick:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+radical:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+rate:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "ratio"
+rather:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+really:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+recommend:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+regard:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+remember:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "memory"
+respect:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+risk:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+rocket:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+rude:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+same:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "identical"
+schedule:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "plan"
+school:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+search:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "find"
+seem:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+service:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+several:
+  rejected: "a vague quantifier, not an ordinary word"
+  redirect_note: "a vague quantifier, not an ordinary word — Angloform prefers a digit (NUM_PL) or an existing quantifier (every/some/no) to a vague amount word"
+shop:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+slow:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+sound:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "noise"
+staff:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+stuff:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "thing"
+such:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+suggestion:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "advice"
+support:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+talk:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+terrible:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "bad"
+thanks:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+ticket:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+today:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+too:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+town:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+tragedy:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+travel:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+very:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+video:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+view:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+visit:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+want:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+week:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+weekend:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+when:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+where:
+  rejected: "winning category is ADV — Angloform has no open adverb category, structurally impossible"
+  redirect_note: "ADV — Angloform has no open adverb category, structurally impossible"
+wish:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+wonder:
+  rejected: "a near-synonym of an already-enabled word — redundant, no distinct meaning to add"
+  redirect: "surprise"
+year:
+  rejected: "found via UD-EWT triage (real corpus need, 2026-09-12) — searched the current lexicon for an equivalent, none found; not yet authored"
+  gap: true
+dozen:
+  rejected: "a non-decimal count word — against the language's own digits-only counting philosophy (ADR 0022), a deliberate permanent exclusion, not a temporary gap (confirmed 2026-09-11)"
+  excluded: true

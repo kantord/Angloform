@@ -40,8 +40,11 @@ python3 scripts/homophone-check.py --seed-def-only
 echo "== no same-synset redundancy among seed/definitions words (real WordNet synsets) =="
 python3 scripts/redundancy-check.py --curated-only
 
-echo "== every top-250-by-frequency vocabulary candidate has a documented fate =="
+echo "== every top-250-by-real-translation-need vocabulary candidate has a documented fate =="
 python3 scripts/candidate-coverage-check.py
+
+echo "== English->Angloform per-sense translation dictionary (docs/translations/) is well-formed =="
+python3 scripts/translation-check.py
 
 echo "== web playground (wasm, typecheck, unit + e2e tests) =="
 (

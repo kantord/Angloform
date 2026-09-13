@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kantord/minglish/docs/translations.schema.json",
+  "title": "English -> Angloform per-sense translation guidance",
+  "description": "One file per rejected/not-yet-enabled English lemma, docs/translations/<lemma>.yaml. A whole-lemma verdict (exempt/excluded) needs no senses; a real word needs one entry per distinct WordNet sense, since a rejected lemma is usually polysemous and each sense can need a completely different Angloform answer.",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/wholeLemma" },
+    { "$ref": "#/$defs/senseBreakdown" }
+  ],
+  "$defs": {
+    "wholeLemma": {
+      "additionalProperties": false,
+      "required": ["status", "reason"],
+      "properties": {
+        "status": { "enum": ["exempt", "excluded"] },
+        "reason": { "type": "string", "minLength": 1 },
+        "exempt_kind": {
+          "description": "Required when status is exempt.",
+          "enum": ["garbage", "proper-noun"]
+        }
+      }
+    },
+    "senseBreakdown": {
+      "description": "One lemma, one file — but a lemma is not restricted to one syntactic category the way an enabled word is (ADR 0001's \"one sense per word\" doesn't apply until something is actually admitted). \"look\" alone is attested as both VERB (10 senses) and NOUN (4 senses): by_upos keys on the gold UPOS, each value its own senses list.",
+      "additionalProperties": false,
+      "required": ["by_upos"],
+      "properties": {
+        "by_upos": {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": { "type": "string", "minLength": 1 },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["senses"],
+            "properties": {
+              "senses": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "$ref": "#/$defs/sense" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sense": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gloss", "angloform"],
+      "properties": {
+        "wordnet": {
+          "description": "The WordNet synset offset this sense came from — traceability back to the data source. Omit only when the sense came from moby (no gloss available there either) or real corpus usage with no WordNet entry.",
+          "type": "string"
+        },
+        "gloss": {
+          "description": "The sense's own meaning, in plain English (WordNet's gloss, or a real corpus example if WordNet has none).",
+          "type": "string",
+          "minLength": 1
+        },
+        "angloform": { "$ref": "#/$defs/angloformAnswer" }
+      }
+    },
+    "angloformAnswer": {
+      "type": "object",
+      "oneOf": [
+        { "$ref": "#/$defs/answerRedirect" },
+        { "$ref": "#/$defs/answerConstruction" },
+        { "$ref": "#/$defs/answerGap" }
+      ]
+    },
+    "answerRedirect": {
+      "description": "A single already-enabled Angloform word covers this sense.",
+      "additionalProperties": false,
+      "required": ["status", "word", "category"],
+      "properties": {
+        "status": { "const": "redirect" },
+        "word": { "type": "string", "minLength": 1, "description": "Must resolve to an enabled Angloform lemma." },
+        "category": { "type": "string", "description": "The redirect word's own Angloform Category (NOUN, VERB_TRANS, ADJ, ...) — its syntactic value, so it's used correctly." }
+      }
+    },
+    "answerConstruction": {
+      "description": "No single word covers this sense, but a real Angloform sentence pattern does — a paraphrase, not a word.",
+      "additionalProperties": false,
+      "required": ["status", "pattern", "note"],
+      "properties": {
+        "status": { "const": "construction" },
+        "pattern": { "type": "string", "minLength": 1, "description": "An example Angloform sentence/phrase using the pattern, or a shape description (\"SUBJ is ADJ\")." },
+        "note": { "type": "string", "minLength": 1, "description": "Why this pattern, and its syntactic value (what kind of constituent it produces: NP, VP, CopPred, ...)." }
+      }
+    },
+    "answerGap": {
+      "description": "Genuinely searched, no existing word or construction covers this sense — an honest, recorded absence, not a permanent verdict.",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "const": "gap" },
+        "note": { "type": "string", "description": "Optional: why no redirect/construction was found, if not obvious." }
+      }
+    }
+  }
+}
