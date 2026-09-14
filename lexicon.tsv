@@ -189,10 +189,6 @@ accepting	form	VERB_TRANS_ING	accept
 accepts	form	VERB_TRANS_3SG	accept
 achievement	form	NOUN_SG	achievement
 achievements	form	NOUN_PL	achievement
-acknowledge	form	VERB_TRANS_BASE	acknowledge
-acknowledged	form	VERB_TRANS_ED	acknowledge
-acknowledges	form	VERB_TRANS_3SG	acknowledge
-acknowledging	form	VERB_TRANS_ING	acknowledge
 across	form	PREP_V	across
 action	form	NOUN_SG	action
 action	reject_advice	VERB	the verb sense (business jargon — "let's action this") is not enabled; angloform allows one sense per word
@@ -201,8 +197,6 @@ add	form	VERB_TRANS_BASE	add
 add	reject_advice	NOUN	the reference data attests a noun use of "add"; no common meaning could be confirmed — not enabled
 added	form	VERB_TRANS_ED	add
 adding	form	VERB_TRANS_ING	add
-addition	form	NOUN_SG	addition
-additions	form	NOUN_PL	addition
 addressee	form	NOUN_SG	addressee
 addressees	form	NOUN_PL	addressee
 adds	form	VERB_TRANS_3SG	add
@@ -2260,11 +2254,6 @@ referent	reject_advice	ADJ	the adjective sense (e.g. "referent power" in social-
 referents	form	NOUN_PL	referent
 refering	form	VERB_INTRANS_ING	refer
 refers	form	VERB_INTRANS_3SG	refer
-refuse	form	VERB_TRANS_BASE	refuse
-refuse	reject_advice	NOUN	the noun sense (refuse, meaning garbage — a different word, same spelling) is not enabled; angloform allows one sense per word
-refused	form	VERB_TRANS_ED	refuse
-refuses	form	VERB_TRANS_3SG	refuse
-refusing	form	VERB_TRANS_ING	refuse
 register	form	NOUN_SG	register
 register	reject_advice	VERB	the verb sense ("to register a car") is not enabled; angloform allows one sense per word
 register loss	term	-	Register Loss

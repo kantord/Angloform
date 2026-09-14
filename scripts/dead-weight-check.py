@@ -30,8 +30,26 @@ as a whole word in one of:
     plain-English process logs discussing the translation effort, not
     Angloform prose themselves (checked directly: their "debt"/"recast"
     hits are ordinary English project-jargon, not real usage).
+  - tests/agent-cases/*.yaml ("snapshot" field only — the canonical
+    accepted output; "unique_outputs"/"runs" are raw LLM trial logs)
+  - tests/dogfood-cases/*.yaml ("rewrite" field only — the accepted
+    Angloform rewrite; "sentence" is the pre-rewrite English source)
+  - features/*.feature (hand-authored Gherkin scenarios, all real)
   - crates/**/tests/*.rs and crates/**/src/*.rs (string literals — the
     Rust test suite is real, load-bearing coverage of the grammar)
+
+NOT scanned, deliberately: tests/paragraph-cases/*.yaml. Each file holds
+many LLM-generated candidate proposals, mostly invalid (verified directly
+2026-09-14: every "corollary"/"demonstrative"/"size"/"addition" hit there
+was on a valid:false draft, not real content). None of tests/paragraph-
+cases, tests/agent-cases, tests/dogfood-cases, or features/*.feature are
+wired into check.sh — agenttest is a plain fn main(), not #[test]
+(milestone-only, per docs/STATUS.md's "user runs all API-spending runs"
+policy) — so a stale reference there is a metrics blip on the next manual
+`just replay`/agenttest run, not a CI break. agent-cases/dogfood-cases/
+features are scanned anyway since they're cheap and store real accepted
+content; paragraph-cases is skipped because safely scoping it to only
+valid:true/best text is real parsing work for low payoff.
 
 A word here is NOT necessarily wrong to remove — many exist precisely to
 be available for future prose, not because something already needs them
@@ -89,6 +107,34 @@ def load_usage_text():
     accept_path = ROOT / "corpus" / "accept.txt"
     if accept_path.exists():
         chunks.append(("corpus/accept.txt", accept_path.read_text(encoding="utf-8", errors="ignore")))
+
+    # tests/agent-cases/*.yaml — the "snapshot" field is the canonical
+    # accepted Angloform text (unique_outputs/runs are raw LLM trial logs,
+    # not confirmed content, so only "snapshot" is scanned).
+    for p in glob.glob(str(ROOT / "tests" / "agent-cases" / "*.yaml")):
+        y = yaml.safe_load(Path(p).read_text())
+        if isinstance(y, dict) and y.get("snapshot"):
+            chunks.append((f"tests/agent-cases/{Path(p).name}", y["snapshot"]))
+
+    # tests/dogfood-cases/*.yaml — the "rewrite" field is the accepted
+    # Angloform rewrite ("sentence" is the pre-rewrite English source).
+    for p in glob.glob(str(ROOT / "tests" / "dogfood-cases" / "*.yaml")):
+        y = yaml.safe_load(Path(p).read_text())
+        if isinstance(y, dict) and y.get("rewrite"):
+            chunks.append((f"tests/dogfood-cases/{Path(p).name}", y["rewrite"]))
+
+    # features/*.feature — hand-authored Gherkin scenarios, all real.
+    for p in glob.glob(str(ROOT / "features" / "*.feature")):
+        chunks.append((f"features/{Path(p).name}", Path(p).read_text(encoding="utf-8", errors="ignore")))
+
+    # tests/paragraph-cases/*.yaml is deliberately NOT scanned: each file
+    # holds many LLM-generated candidate proposals, most invalid (checked
+    # directly 2026-09-14 — every "corollary"/"demonstrative"/"size"/
+    # "addition" hit there was on a valid:false draft); properly scoping
+    # this to only valid:true/best text is real parsing work with low
+    # payoff, since none of these files are wired into check.sh anyway
+    # (agenttest is a plain fn main(), not #[test] — milestone-only,
+    # per docs/STATUS.md's "user runs all API-spending runs" policy).
 
     model = json.loads((ROOT / "domain" / "model.json").read_text())
     for e in model:
@@ -152,7 +198,8 @@ def main():
         (unused_curated if lemma in curated_lemmas else unused_legacy).append(lemma)
 
     print(f"{len(curated_lemmas)} curated + {len(legacy_lemmas)} legacy lemmas checked "
-          f"against corpus, domain model, definitions, redirects, the ADRs, and the Rust test suite\n")
+          f"against corpus, domain model, definitions, redirects, the ADRs, the wiki, "
+          f"accepted test-case snapshots, and the Rust test suite\n")
     print(f"{len(unused_curated)} curated word(s) with zero usage anywhere:")
     for w in unused_curated:
         print(f"  {w}")

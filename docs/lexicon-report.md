@@ -4,9 +4,9 @@
 
 ## Summary
 
-- 1087 lemmas, 2261 surface forms, 541 redirects (32 word substitute, 463 advice-only, 46 gap)
+- 1084 lemmas, 2251 surface forms, 540 redirects (32 word substitute, 462 advice-only, 46 gap)
 - Domain model: 87 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 163, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 556, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 178, WHICH 1, WHO 1, YET 1
+- Lemmas per category: ADJ 163, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 555, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 176, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
@@ -367,7 +367,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - absent (VERB): the verb sense (formal — "to absent oneself from a meeting") is not enabled; angloform allows one sense per word
 - map (NOUN): the noun sense (a map) is not enabled; angloform allows one sense per word
 - symbol (VERB): the verb sense (rare — to symbolize) is not enabled; angloform allows one sense per word
-- refuse (NOUN): the noun sense (refuse, meaning garbage — a different word, same spelling) is not enabled; angloform allows one sense per word
 - ordinary (NOUN): the noun sense (heraldry/legal jargon — "an ordinary") is not enabled; angloform allows one sense per word
 - meet (ADJ): the adjective sense (archaic — "meet and right", meaning fitting) is not enabled; angloform allows one sense per word
 - meet (NOUN): the noun sense (a meet, e.g. a track meet) is not enabled; angloform allows one sense per word
