@@ -32,8 +32,9 @@ by_upos:
       - wordnet: "00891170"
         gloss: equal in degree or extent or amount; or equally matched or balanced; "on even terms"
         angloform:
-          status: gap
-          note: no equal vocabulary exists yet
+          status: redirect
+          word: equal
+          category: ADJ
       - wordnet: "00909545"
         gloss: being level or straight or regular and without variation, or in the same plane as something else; "an even floor"
         angloform:

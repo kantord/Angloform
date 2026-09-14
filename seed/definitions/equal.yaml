@@ -1,0 +1,7 @@
+category: ADJ
+definition: not different
+rejected:
+  - category: NOUN
+    gap: true
+  - category: VERB
+    redirects: [match]

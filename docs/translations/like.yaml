@@ -52,8 +52,9 @@ by_upos:
       - wordnet: "01411065"
         gloss: equal in amount or value; "like amounts"; "the same amount"
         angloform:
-          status: gap
-          note: '"same" is a permanent Ban (ADR 0023); no equal/equivalent vocabulary exists yet'
+          status: redirect
+          word: equal
+          category: ADJ
       - wordnet: "01410606"
         gloss: having the same or similar characteristics; "all politicians are alike"
         angloform:

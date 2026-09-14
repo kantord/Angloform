@@ -16,15 +16,15 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 
 | verdict | tokens | share |
 |---|---|---|
-| OK | 8268 | 37.8% |
+| OK | 8299 | 38.0% |
 | REDIRECT (designed rejection with suggestion) | 297 | 1.4% |
 | MISMATCH (enabled word, uncovered POS) | 2104 | 9.6% |
 | PROPN (out of scope) | 2075 | 9.5% |
-| OOV | 9103 | 41.7% |
+| OOV | 9072 | 41.5% |
 
 ## OOV by gold UPOS
 
-- NOUN: 3043
+- NOUN: 3012
 - ADJ: 1247
 - VERB: 1173
 - PRON: 1084
@@ -40,7 +40,7 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 
 ## Top missing lemmas (curation candidates — human decides)
 
-it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET (×111), that/PRON (×105), would/AUX (×91), he/PRON (×82), that/SCONJ (×81), great/ADJ (×72), 's/PART (×70), service/NOUN (×67), what/PRON (×59), just/ADV (×57), very/ADV (×57), want/VERB (×53), our/PRON (×50), thanks/NOUN (×49), this/PRON (×49), there/PRON (×48), all/DET (×46), any/DET (×45), could/AUX (×44), need/VERB (×43), his/PRON (×40), food/NOUN (×39), look/VERB (×38), as/ADP (×36), as/SCONJ (×35), here/ADV (×35), please/INTJ (×34), now/ADV (×33), out/ADP (×33), should/AUX (×33), think/VERB (×32), year/NOUN (×31), there/ADV (×30), when/ADV (×30), their/PRON (×29), try/VERB (×29)
+it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET (×111), that/PRON (×105), would/AUX (×91), he/PRON (×82), that/SCONJ (×81), great/ADJ (×72), 's/PART (×70), service/NOUN (×67), what/PRON (×59), just/ADV (×57), very/ADV (×57), want/VERB (×53), our/PRON (×50), thanks/NOUN (×49), this/PRON (×49), there/PRON (×48), all/DET (×46), any/DET (×45), could/AUX (×44), need/VERB (×43), his/PRON (×40), food/NOUN (×39), look/VERB (×38), as/ADP (×36), as/SCONJ (×35), here/ADV (×35), please/INTJ (×34), now/ADV (×33), out/ADP (×33), should/AUX (×33), think/VERB (×32), there/ADV (×30), when/ADV (×30), their/PRON (×29), try/VERB (×29), call/VERB (×28)
 
 ## Redirect hits (the rejection rules doing their job)
 

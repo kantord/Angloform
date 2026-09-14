@@ -986,6 +986,9 @@ enumerates	form	VERB_TRANS_3SG	enumerate
 enumerating	form	VERB_TRANS_ING	enumerate
 enumeration	term	-	Enumeration
 enumerations	term	-	Enumerations
+equal	form	ADJ_LONG	equal
+equal	reject	VERB	match
+equal	reject_gap	NOUN	no already-enabled word covers this sense yet
 error	form	NOUN_SG	error
 errors	form	NOUN_PL	error
 event	form	NOUN_SG	event
@@ -3026,6 +3029,8 @@ wrong	reject_advice	VERB	the verb sense ("to wrong someone") is not enabled; ang
 wronger	form	ADJ_CMP	wrong
 wrongest	form	ADJ_SUP	wrong
 wrote	form	VERB_TRANS_ED	write
+year	form	NOUN_SG	year
+years	form	NOUN_PL	year
 yellow	form	COLOR_ADJ	yellow
 yellow	reject_gap	NOUN	no already-enabled word covers this sense yet
 yellow	reject_gap	VERB	no already-enabled word covers this sense yet
