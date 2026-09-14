@@ -1,0 +1,51 @@
+# English -> Angloform per-sense translation guidance (2026-09-14).
+# "assume" was removed from seed/seed.json (2026-09-14, seed.json shrink
+# batch) — fully unused anywhere in the project, but real UD-EWT corpus
+# need still ranks it, so its senses are recorded here.
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00632236"
+        gloss: take to be the case or to be true; accept without verification or proof; "I assume his train was late"
+        angloform:
+          status: gap
+          note: the core sense — no enabled word covers "believe without proof" specifically
+      - wordnet: "02381726"
+        gloss: take on titles, offices, duties, responsibilities; "When will the new President assume office?"
+        angloform:
+          status: gap
+      - wordnet: "00524682"
+        gloss: take on a certain form, attribute, or aspect; "She assumed strange manners"
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "02301825"
+        gloss: take on as one's own the expenses or debts of another person; "I'll accept the charges"
+        angloform:
+          status: gap
+      - wordnet: "01982395"
+        gloss: occupy or take on; "He assumes the lotus position"
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "02274482"
+        gloss: seize and take control without authority and possibly with force; "he usurped my rights"
+        angloform:
+          status: gap
+      - wordnet: "01721754"
+        gloss: make a pretence of; "She assumed indifference, even though she was seething with anger"
+        angloform:
+          status: gap
+          note: no pretend/feign vocabulary exists yet
+      - wordnet: "01470856"
+        gloss: take up someone's soul into heaven; "This is the day when May was assumed into heaven"
+        angloform:
+          status: gap
+          note: archaic/religious sense
+      - wordnet: "00050652"
+        gloss: put clothing on one's body; "The queen assumed the stately robes"
+        angloform:
+          status: gap
+          note: no clothing-wearing vocabulary exists yet

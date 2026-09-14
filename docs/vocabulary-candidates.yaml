@@ -106485,3 +106485,6 @@ year:
 dozen:
   rejected: "a non-decimal count word — against the language's own digits-only counting philosophy (ADR 0022), a deliberate permanent exclusion, not a temporary gap (confirmed 2026-09-11)"
   excluded: true
+assume:
+  rejected: "removed from seed.json (2026-09-14) — fully unused anywhere in the project despite being enabled; 9 real WordNet senses, only 2 redirect cleanly (to \"take\"), the rest are honest gaps — see docs/translations/assume.yaml for the full per-sense breakdown"
+  redirect_note: "for \"take on a form/attribute\" or \"occupy/take on\" senses, write \"take\"; for the core \"believe without proof\" sense and most others, no equivalent exists yet"
