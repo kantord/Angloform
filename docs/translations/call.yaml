@@ -1,0 +1,202 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06272803"
+        gloss: a telephone connection; "she reported several anonymous calls"
+        angloform:
+          status: gap
+          note: no phone/telephone vocabulary exists yet
+      - wordnet: "06198505"
+        gloss: a special disposition (as if from a divine source) to pursue a particular course; "he had not heard the Call"
+        angloform:
+          status: gap
+      - wordnet: "07120524"
+        gloss: a loud utterance; often in protest or opposition; "the speaker was interrupted by loud cries"
+        angloform:
+          status: gap
+          note: no shout/cry vocabulary exists yet
+      - wordnet: "07192129"
+        gloss: a demand especially in the phrase "the call of duty"
+        angloform:
+          status: gap
+          note: idiomatic; "demand" itself isn't enabled either
+      - wordnet: "06796642"
+        gloss: the characteristic sound produced by a bird
+        angloform:
+          status: gap
+      - wordnet: "01055954"
+        gloss: a brief social visit; "senior professors' wives no longer make afternoon calls"
+        angloform:
+          status: gap
+          note: no visit vocabulary exists yet
+      - wordnet: "07192661"
+        gloss: a demand by a broker that a customer deposit enough to bring his margin up to the minimum requirement
+        angloform:
+          status: gap
+          note: finance jargon
+      - wordnet: "07192511"
+        gloss: a demand for a show of hands in a card game; "after two raises there was a call"
+        angloform:
+          status: gap
+          note: card-game jargon
+      - wordnet: "07190693"
+        gloss: a request; "many calls for Christmas stories"
+        angloform:
+          status: redirect
+          word: request
+          category: NOUN
+      - wordnet: "06582761"
+        gloss: an instruction that interrupts the program being executed
+        angloform:
+          status: gap
+          note: computing jargon
+      - wordnet: "01055493"
+        gloss: a visit in an official or professional capacity; "the pastor's calls on his parishioners"
+        angloform:
+          status: gap
+      - wordnet: "00164801"
+        gloss: (sports) the decision made by an umpire or referee; "he was ejected for protesting the call"
+        angloform:
+          status: gap
+          note: sports jargon
+      - wordnet: "00080743"
+        gloss: the option to buy a given stock (or stock index or commodity future) at a given price before a given date
+        angloform:
+          status: gap
+          note: finance jargon
+  VERB:
+    senses:
+      - wordnet: "01028748"
+        gloss: assign a specified (usually proper) proper name to; "They named their son David"
+        angloform:
+          status: redirect
+          word: name
+          category: VERB_TRANS
+      - wordnet: "00971015"
+        gloss: ascribe a quality to or give a name of a common noun that reflects a quality; "He called me a bastard"
+        angloform:
+          status: redirect
+          word: name
+          category: VERB_TRANS
+      - wordnet: "00789448"
+        gloss: get or try to get into communication (with someone) by telephone; "I tried to call you all night"
+        angloform:
+          status: gap
+          note: no phone/telephone vocabulary exists yet
+      - wordnet: "00913065"
+        gloss: utter a sudden loud cry; "she cried with pain"
+        angloform:
+          status: gap
+          note: no shout/cry vocabulary exists yet
+      - wordnet: "00792471"
+        gloss: order, request, or command to come; "She was called into the director's office"
+        angloform:
+          status: gap
+          note: '"order" and "request" are only enabled as NOUN, not as a verb of summoning'
+      - wordnet: "02487573"
+        gloss: pay a brief visit; "The mayor likes to call on some of the prominent citizens"
+        angloform:
+          status: gap
+      - wordnet: "02429810"
+        gloss: call a meeting; invite or command to meet; "The new dean calls meetings every week"
+        angloform:
+          status: gap
+      - wordnet: "01067995"
+        gloss: read aloud to check for omissions or absentees; "Call roll"
+        angloform:
+          status: gap
+      - wordnet: "01062739"
+        gloss: send a message or attempt to reach someone by radio, phone, etc.; "Hawaii is calling!"
+        angloform:
+          status: gap
+      - wordnet: "00975036"
+        gloss: utter a characteristic note or cry; "bluejays called to one another"
+        angloform:
+          status: gap
+      - wordnet: "02643421"
+        gloss: stop or postpone because of adverse conditions, such as bad weather; "call a football game"
+        angloform:
+          status: gap
+      - wordnet: "02601456"
+        gloss: greet, as with a prescribed form, title, or name; "Call me Mister"
+        angloform:
+          status: redirect
+          word: name
+          category: VERB_TRANS
+      - wordnet: "02487901"
+        gloss: make a stop in a harbour; "The ship will call in Honolulu tomorrow"
+        angloform:
+          status: gap
+      - wordnet: "02359061"
+        gloss: demand payment of (a loan); "Call a loan"
+        angloform:
+          status: gap
+          note: finance jargon
+      - wordnet: "02300060"
+        gloss: make a demand, as for a card or a suit or a show of hands; "He called his trump"
+        angloform:
+          status: gap
+          note: card-game jargon
+      - wordnet: "01899017"
+        gloss: give the calls (to the dancers) for a square dance
+        angloform:
+          status: gap
+      - wordnet: "01068793"
+        gloss: indicate a decision in regard to; "call balls and strikes behind the plate"
+        angloform:
+          status: gap
+          note: sports jargon
+      - wordnet: "00917772"
+        gloss: make a prediction about; tell in advance; "Call the outcome of an election"
+        angloform:
+          status: gap
+          note: no predict vocabulary exists yet
+      - wordnet: "00874002"
+        gloss: require the presentation of for redemption before maturation; "Call a bond"
+        angloform:
+          status: gap
+          note: finance jargon
+      - wordnet: "00869393"
+        gloss: challenge (somebody) to make good on a statement; charge with or censure for an offense; "He deserves to be called on that"
+        angloform:
+          status: gap
+      - wordnet: "00822746"
+        gloss: declare in the capacity of an umpire or referee; "call a runner out"
+        angloform:
+          status: redirect
+          word: declare
+          category: VERB_TRANS
+      - wordnet: "00783523"
+        gloss: lure by imitating the characteristic call of an animal; "Call ducks"
+        angloform:
+          status: gap
+      - wordnet: "00754156"
+        gloss: order or request or give a command for; "The unions called a general strike for Sunday"
+        angloform:
+          status: gap
+          note: '"order" and "request" are only enabled as NOUN, not as a verb of commanding'
+      - wordnet: "00753881"
+        gloss: order, summon, or request for a specific duty or activity, work, role; "He was already called 4 times for jury duty"
+        angloform:
+          status: gap
+      - wordnet: "00738747"
+        gloss: utter in a loud voice or announce; "He called my name"; "The auctioneer called the bids"
+        angloform:
+          status: redirect
+          word: announce
+          category: VERB_TRANS
+      - wordnet: "00738583"
+        gloss: challenge the sincerity or truthfulness of; "call the speaker on a question of fact"
+        angloform:
+          status: gap
+      - wordnet: "00691516"
+        gloss: consider or regard as being; "I would not call her beautiful"
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "00107231"
+        gloss: rouse somebody from sleep with a call; "I was called at 5 A.M. this morning"
+        angloform:
+          status: gap

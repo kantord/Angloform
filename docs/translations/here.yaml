@@ -1,0 +1,45 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08489497"
+        gloss: the present location; this place; "where do we go from here?"
+        angloform:
+          status: redirect
+          word: place
+          category: NOUN
+      - wordnet: "09563183"
+        gloss: queen of the Olympian gods in ancient Greek mythology; sister and wife of Zeus
+        angloform:
+          status: gap
+          note: a named-individual sense (a proper noun in substance) — out of scope regardless of vocabulary state
+  ADJ:
+    senses:
+      - wordnet: "01847242"
+        gloss: being here now; "is everyone here?"
+        angloform:
+          status: redirect
+          word: present
+          category: ADJ
+  ADV:
+    senses:
+      - wordnet: "00108479"
+        gloss: in or at this place; where the speaker or writer is; "I work here"; "turn here"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00108773"
+        gloss: in this circumstance or respect or on this point or detail; "what do we have here?"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00108647"
+        gloss: to this place (especially toward the speaker); "come here, please"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00109021"
+        gloss: at this time; now; "we'll adjourn here for lunch"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

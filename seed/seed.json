@@ -1057,20 +1057,6 @@
     }
   },
   {
-    "lemma": "fetch",
-    "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "third": "fetches",
-      "past": "fetched"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a fetch, e.g. a memory fetch in computing, or archaically a trick) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "migrate",
     "category": "VERB_TRANS",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
@@ -1502,19 +1488,6 @@
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
     "forms": {
       "plural": "hearers"
-    }
-  },
-  {
-    "lemma": "demonstrative",
-    "category": "NOUN",
-    "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "forms": {
-      "plural": "demonstratives"
-    },
-    "reject": {
-      "ADJ": {
-        "advice": "the adjective sense (a demonstrative person, or \"demonstrative pronoun\") is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -3511,11 +3484,6 @@
     }
   },
   {
-    "lemma": "noisy",
-    "category": "ADJ",
-    "note": "ADR 0006 rewrite"
-  },
-  {
     "lemma": "relation",
     "category": "NOUN",
     "note": "ADR 0006 rewrite"
@@ -4128,22 +4096,6 @@
     "note": "ADR 0010-0013 rewrite",
     "forms": {
       "plural": "quantifiers"
-    }
-  },
-  {
-    "lemma": "recast",
-    "category": "VERB_TRANS",
-    "note": "ADR 0010-0013 rewrite",
-    "forms": {
-      "third": "recasts",
-      "past": "recast",
-      "ppart": "recast",
-      "ing": "recasting"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a recast, e.g. of a cast of actors) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -5263,14 +5215,6 @@
     }
   },
   {
-    "lemma": "assume",
-    "category": "VERB_TRANS",
-    "note": "ADR 0018-0021 rewrite",
-    "forms": {
-      "third": "assumes"
-    }
-  },
-  {
     "lemma": "mention",
     "category": "VERB_TRANS",
     "note": "ADR 0018-0021 rewrite",
@@ -5389,16 +5333,6 @@
     }
   },
   {
-    "lemma": "contradict",
-    "category": "VERB_TRANS",
-    "note": "ADR 0018-0021 rewrite",
-    "forms": {
-      "third": "contradicts",
-      "past": "contradicted",
-      "ing": "contradicting"
-    }
-  },
-  {
     "lemma": "decoration",
     "category": "NOUN",
     "note": "ADR 0018-0021 rewrite",
@@ -5424,14 +5358,6 @@
       "NOUN": {
         "advice": "the noun sense (an adversative — a contrastive conjunction, linguistics jargon) is not enabled; angloform allows one sense per word"
       }
-    }
-  },
-  {
-    "lemma": "guidance",
-    "category": "NOUN",
-    "note": "ADR 0018-0021 rewrite",
-    "forms": {
-      "plural": "guidances"
     }
   },
   {
@@ -6199,22 +6125,6 @@
     }
   },
   {
-    "lemma": "size",
-    "category": "NOUN",
-    "note": "ADR 0022",
-    "forms": {
-      "plural": "sizes"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to size something up\") is not enabled; angloform allows one sense per word"
-      },
-      "ADJ": {
-        "advice": "the reference data attests an adjectival use of \"size\"; no common meaning could be confirmed — not enabled"
-      }
-    }
-  },
-  {
     "lemma": "gain",
     "category": "VERB_TRANS",
     "note": "ADR 0026-0028 rewrite",
@@ -6260,14 +6170,6 @@
       "ADJ": {
         "advice": "the adjective sense (\"connective tissue\") is not enabled; angloform allows one sense per word"
       }
-    }
-  },
-  {
-    "lemma": "debt",
-    "category": "NOUN",
-    "note": "ADR 0026-0028 rewrite",
-    "forms": {
-      "plural": "debts"
     }
   },
   {
@@ -7116,19 +7018,6 @@
       },
       "VERB": {
         "advice": "\"left\" is also the past tense of the verb \"leave\" (\"she left early\"); not separately enabled"
-      }
-    }
-  },
-  {
-    "lemma": "corollary",
-    "category": "NOUN",
-    "forms": {
-      "plural": "corollaries"
-    },
-    "note": "ADR 0006 run",
-    "reject": {
-      "ADJ": {
-        "advice": "the adjective (attributive) sense (\"a corollary benefit\") is not enabled; angloform allows one sense per word"
       }
     }
   },

@@ -1,0 +1,41 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+# also tagged ADV once in the corpus; WordNet has no adverbial sense of
+# "friendly" at all (a case of corpus mistagging or an ADJ used adverbially
+# — either way the ADV rule applies identically).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08397489"
+        gloss: troops belonging to or allied with your own military forces; "friendlies came to their rescue"
+        angloform:
+          status: gap
+          note: military jargon
+  ADJ:
+    senses:
+      - wordnet: "01074650"
+        gloss: characteristic of or befitting a friend; "friendly advice"; "a friendly host and hostess"
+        angloform:
+          status: construction
+          pattern: advice from a friend.
+          note: '"friend" is enabled (packs/narrative.json, not seed.json — easy to miss); reframes the ADJ as a possessive/source-PP naming the friend relation, NP-shaped'
+      - wordnet: "01246801"
+        gloss: inclined to help or support; not antagonistic or hostile; "a government friendly to our interests"
+        angloform:
+          status: gap
+          note: '"kind" is enabled only as NOUN; its own adjective sense is explicitly not enabled'
+      - wordnet: "01077995"
+        gloss: easy to understand or use; "user-friendly computers"
+        angloform:
+          status: gap
+          note: compound/jargon sense
+      - wordnet: "01077638"
+        gloss: of or belonging to your own country's forces or those of an ally; "friendly fire"
+        angloform:
+          status: gap
+          note: military jargon
+  ADV:
+    senses:
+      - gloss: attested once in the corpus as an ADV tag; WordNet has no adverbial sense of "friendly" — likely a mistagged predicate ADJ use
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

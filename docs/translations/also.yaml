@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+# "also" is already a permanent Ban in seed/seed.json with real advice —
+# this file records that existing verdict in the per-sense format.
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00047534"
+        gloss: in addition; "he has a Mercedes, also"
+        angloform:
+          status: construction
+          pattern: she left. she took the file.
+          note: 'matches seed.json''s existing BANNED advice for this lemma: "also" adds a second claim — write the claim as its own sentence; the reader keeps both, with no "also" needed'

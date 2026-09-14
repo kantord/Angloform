@@ -1,0 +1,113 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01110274"
+        gloss: a particular instance of buying or selling; "it was a package deal"
+        angloform:
+          status: gap
+          note: '"trade" is enabled only as a verb; its own noun sense is explicitly not enabled'
+      - wordnet: "06771159"
+        gloss: an agreement between parties (usually arrived at after discussion) fixing obligations of each; "he rose to prominence through a series of shady deals"
+        angloform:
+          status: gap
+          note: no agreement/bargain vocabulary exists yet
+      - wordnet: "13774404"
+        gloss: (often followed by "of") a large number or amount or extent; "a deal of trouble"
+        angloform:
+          status: gap
+          note: quantifier idiom
+      - wordnet: "15102622"
+        gloss: a plank of softwood (fir or pine board)
+        angloform:
+          status: gap
+          note: lumber-trade jargon, narrower than the generic "wood" already enabled
+      - wordnet: "15100257"
+        gloss: wood that is easy to saw (from conifers such as pine or fir)
+        angloform:
+          status: gap
+          note: near-duplicate of 15102622
+      - wordnet: "07956887"
+        gloss: the cards held in a card game by a given player at any given time; "he kept trying to see my hand"
+        angloform:
+          status: gap
+          note: no card-game vocabulary exists yet
+      - wordnet: "07293180"
+        gloss: the type of treatment received (especially as the result of an agreement); "he got a good deal on his car"
+        angloform:
+          status: gap
+      - wordnet: "01085337"
+        gloss: the act of distributing playing cards; "the deal was passed around the table clockwise"
+        angloform:
+          status: gap
+      - wordnet: "01084637"
+        gloss: the act of apportioning or distributing something; "the captain was entrusted with the deal of provisions"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01033527"
+        gloss: act on verbally or in some form of artistic expression; "This book deals with incest"
+        angloform:
+          status: gap
+          note: no discuss/cover vocabulary exists yet
+      - wordnet: "00734054"
+        gloss: take into consideration for exemplifying purposes; "Consider the following case"
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "02370987"
+        gloss: take action with respect to (someone or something); "How are we going to deal with this problem?"
+        angloform:
+          status: gap
+          note: no handle/manage/address vocabulary exists yet — the core sense
+      - wordnet: "02587532"
+        gloss: come to terms with; "We got by on just a gallon of gas"
+        angloform:
+          status: gap
+      - wordnet: "02294436"
+        gloss: administer or bestow, as in small portions; "deal a blow to someone"
+        angloform:
+          status: gap
+      - wordnet: "02244956"
+        gloss: do business; offer for sale as for one's livelihood; "She deals in gold"
+        angloform:
+          status: redirect
+          word: trade
+          category: VERB_TRANS
+      - wordnet: "02436349"
+        gloss: be in charge of, act on, or dispose of; "I can deal with this crew of workers"
+        angloform:
+          status: gap
+      - wordnet: "02377764"
+        gloss: behave in a certain way towards others; "He deals fairly with his employees"
+        angloform:
+          status: gap
+      - wordnet: "02246456"
+        gloss: distribute cards to the players in a game; "Who's dealing?"
+        angloform:
+          status: gap
+          note: no card-game vocabulary exists yet
+      - wordnet: "02445509"
+        gloss: direct the course of; manage or control; "You cannot conduct business like this"
+        angloform:
+          status: gap
+          note: near-duplicate of 02436349
+      - wordnet: "02294179"
+        gloss: give out as one's portion or share
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "02246686"
+        gloss: give (a specific card) to a player; "He dealt me the Queen of Spades"
+        angloform:
+          status: gap
+          note: card-game specific, narrower than plain "give"
+      - wordnet: "02245993"
+        gloss: sell; "deal hashish"
+        angloform:
+          status: redirect
+          word: trade
+          category: VERB_TRANS

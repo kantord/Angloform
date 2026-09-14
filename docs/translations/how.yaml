@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+# "how" has zero WordNet senses (a pure wh-word). Unlike "when" (ADR
+# 0007 already bans it with a real workaround), Angloform has no
+# interrogative-manner construction at all yet — a genuine, unresolved
+# grammar gap, not a vocabulary gap.
+by_upos:
+  ADV:
+    senses:
+      - gloss: wh-question word asking for manner or method; "how did you fix it?"; "how does it work?"
+        angloform:
+          status: gap
+          note: no interrogative-"how" construction exists in Angloform's grammar yet — a sentence-level gap, not a single-word one

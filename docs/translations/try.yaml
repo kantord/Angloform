@@ -1,0 +1,53 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00786195"
+        gloss: earnest and conscientious activity intended to do or accomplish something; "she gave it a good try"
+        angloform:
+          status: gap
+          note: no effort/attempt vocabulary exists yet
+  VERB:
+    senses:
+      - wordnet: "02530167"
+        gloss: make an effort or attempt; "He tried to shake off his fears"
+        angloform:
+          status: gap
+          note: no attempt vocabulary exists yet — the core sense
+      - wordnet: "02531625"
+        gloss: put to the test, as for its quality, or give experimental use to; "This approach has been tried with good results"
+        angloform:
+          status: redirect
+          word: check
+          category: VERB_TRANS
+      - wordnet: "02501278"
+        gloss: put on trial or hear a case and sit as the judge at the trial of; "The football star was tried for the murder of his wife"
+        angloform:
+          status: gap
+          note: legal jargon
+      - wordnet: "01195299"
+        gloss: take a sample of; "Try these new crackers"
+        angloform:
+          status: gap
+      - wordnet: "02500902"
+        gloss: examine or hear (evidence or a case) by judicial process; "The case will be tried in California"
+        angloform:
+          status: gap
+          note: legal jargon, near-duplicate of 02501278
+      - wordnet: "01798782"
+        gloss: give pain or trouble to; "I've been sorely tried by these students"
+        angloform:
+          status: gap
+      - wordnet: "01798452"
+        gloss: test the limits of; "You are trying my patience!"
+        angloform:
+          status: gap
+      - wordnet: "00444975"
+        gloss: melt (fat or lard) in order to separate out impurities; "try the yak butter"
+        angloform:
+          status: gap
+          note: cooking jargon
+      - wordnet: "00047317"
+        gloss: put on a garment in order to see whether it fits and looks nice; "Try on this sweater"
+        angloform:
+          status: gap

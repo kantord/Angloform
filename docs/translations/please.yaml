@@ -1,0 +1,33 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+# the lemma "please" is also already a permanent Ban in seed/seed.json
+# (category BANNED bans the surface form outright, in every syntactic
+# position, not just the politeness-marker use its advice text names) —
+# the per-sense answers below still stand: a translator needs the real
+# Angloform equivalent for each MEANING, regardless of whether the word
+# "please" itself may ever be written.
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01815628"
+        gloss: give pleasure to or be pleasing to; "These colors please the senses"; "a pleasing sensation"
+        angloform:
+          status: construction
+          pattern: the colors are pleasant to her.
+          note: reframes the transitive "please X" as a copula + ADJ predicate ("pleasant", already enabled); CopPred-shaped, not a verb
+      - wordnet: "01824958"
+        gloss: be the will of or have the will (to); "he could do many things if he pleased"
+        angloform:
+          status: gap
+          note: archaic "as you please" sense — no clean fit
+      - wordnet: "01816054"
+        gloss: give satisfaction; "The waiters around her aim to please"
+        angloform:
+          status: gap
+          note: broader than the pleasant-construction sense (01815628) — serving well in general, not one specific pleasing act
+  ADV:
+    senses:
+      - wordnet: "00009966"
+        gloss: used in polite request; "please pay attention"
+        angloform:
+          status: excluded
+          reason: 'ADV — Angloform has no open adverb category, structurally impossible; also matches seed.json''s BANNED advice for this lemma: "politeness markers are not angloform — state the instruction directly or write ''you must ...'''

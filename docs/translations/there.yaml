@@ -1,0 +1,37 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+# "there" is also the majority PRON tag in the corpus (existential "there
+# is/are X") — WordNet has no entry for that use (not a lexical sense, a
+# grammatical construction), so it's recorded here without a wordnet offset.
+by_upos:
+  PRON:
+    senses:
+      - gloss: existential "there is/are X" — asserts that X exists; "there are apples on the table"
+        angloform:
+          status: construction
+          pattern: some apples exist.
+          note: maps onto the existential quantifier "some" (QUANT_EXIST, ADR 0017) plus the already-enabled intransitive verb "exist"; VP-shaped
+  NOUN:
+    senses:
+      - wordnet: "08489627"
+        gloss: a location other than here; that place; "you can take it from there"
+        angloform:
+          status: redirect
+          word: place
+          category: NOUN
+  ADV:
+    senses:
+      - wordnet: "00109151"
+        gloss: in or at that place; "they have lived there for years"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00109461"
+        gloss: in that matter; "I agree with you there"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00109328"
+        gloss: to or toward that place; away from the speaker; "go there around noon!"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

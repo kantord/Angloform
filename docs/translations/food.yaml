@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00021265"
+        gloss: any substance that can be metabolized by an animal to give energy and build tissue
+        angloform:
+          status: gap
+          note: no food/nourishment/meal/eat vocabulary exists yet
+      - wordnet: "07555863"
+        gloss: any solid substance (as opposed to liquid) that is used as a source of nourishment; "food and drink"
+        angloform:
+          status: gap
+      - wordnet: "05811214"
+        gloss: anything that provides mental stimulus for thinking; "food for thought"
+        angloform:
+          status: gap
+          note: idiomatic, not the core sense

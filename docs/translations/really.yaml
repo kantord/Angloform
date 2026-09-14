@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00037226"
+        gloss: in accordance with truth or fact or reality; "they don't really listen to us"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00149510"
+        gloss: in actual fact; "no one actually saw the shark"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00038013"
+        gloss: in fact (used as intensifiers or sentence modifiers); "really, you shouldn't have done it"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00031899"
+        gloss: used as intensifiers; "a really enjoyable evening"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

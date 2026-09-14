@@ -1,0 +1,64 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05845888"
+        gloss: a similar kind; "dogs, foxes, and the like"
+        angloform:
+          status: gap
+      - wordnet: "05845419"
+        gloss: a kind of person; "We'll not see his like again"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01824736"
+        gloss: prefer or wish to do something; "Would you like to come along to the movies?"
+        angloform:
+          status: redirect
+          word: prefer
+          category: VERB_TRANS
+      - wordnet: "01777210"
+        gloss: find enjoyable or agreeable; "I like jogging"
+        angloform:
+          status: construction
+          pattern: she is filled with affection for jogging.
+          note: '"affection" is enabled (packs/narrative.json, not seed.json — easy to miss); its verb sense is deferred with the prescribed construction "X is filled with affection"; CopPred-shaped'
+      - wordnet: "01776952"
+        gloss: be fond of; "I like my nephews"
+        angloform:
+          status: construction
+          pattern: she is filled with affection for her nephews.
+          note: same "affection" construction as 01777210 — a closer fit here
+      - wordnet: "00691665"
+        gloss: feel about or towards; consider, evaluate, or regard; "How did you like the President's speech last night?"
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "01825962"
+        gloss: want to have; "I'd like a beer now!"
+        angloform:
+          status: redirect
+          word: desire
+          category: VERB_TRANS
+  ADJ:
+    senses:
+      - wordnet: "01409581"
+        gloss: resembling or similar; having the same or some of the same characteristics; "suits of like design"
+        angloform:
+          status: gap
+          note: no similar/resembling vocabulary exists yet
+      - wordnet: "01411065"
+        gloss: equal in amount or value; "like amounts"; "the same amount"
+        angloform:
+          status: gap
+          note: '"same" is a permanent Ban (ADR 0023); no equal/equivalent vocabulary exists yet'
+      - wordnet: "01410606"
+        gloss: having the same or similar characteristics; "all politicians are alike"
+        angloform:
+          status: gap
+      - wordnet: "02063554"
+        gloss: conforming in every respect; "boxes with corresponding dimensions"
+        angloform:
+          status: gap

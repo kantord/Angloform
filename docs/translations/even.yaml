@@ -1,0 +1,75 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15166462"
+        gloss: the latter part of the day (the period of decreasing daylight from late afternoon until nightfall); "he enjoyed the evening light"
+        angloform:
+          status: gap
+          note: no evening/afternoon vocabulary exists yet
+  VERB:
+    senses:
+      - wordnet: "01307142"
+        gloss: make level or straight; "level the ground"
+        angloform:
+          status: gap
+          note: no level vocabulary exists yet
+      - wordnet: "00416880"
+        gloss: become even or more even; "even out the surface"
+        angloform:
+          status: gap
+      - wordnet: "00416705"
+        gloss: make even or more even
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00913387"
+        gloss: divisible by two
+        angloform:
+          status: gap
+          note: no math-parity vocabulary exists yet
+      - wordnet: "00891170"
+        gloss: equal in degree or extent or amount; or equally matched or balanced; "on even terms"
+        angloform:
+          status: gap
+          note: no equal vocabulary exists yet
+      - wordnet: "00909545"
+        gloss: being level or straight or regular and without variation, or in the same plane as something else; "an even floor"
+        angloform:
+          status: gap
+      - wordnet: "02372520"
+        gloss: symmetrically arranged; "even features"; "a regular polygon"
+        angloform:
+          status: gap
+      - wordnet: "02302187"
+        gloss: occurring at fixed intervals; "the even rhythm of his breathing"
+        angloform:
+          status: gap
+      - wordnet: "00892243"
+        gloss: of the score in a contest; "the score is tied"
+        angloform:
+          status: gap
+          note: no tied vocabulary exists yet
+  ADV:
+    senses:
+      - wordnet: "00017445"
+        gloss: used as an intensive especially to indicate something unexpected; "even an idiot knows that"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00018043"
+        gloss: in spite of; notwithstanding; "even when he is sick, he works"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00017639"
+        gloss: to a greater degree or extent; used with comparisons; "looked sick and felt even worse"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00018189"
+        gloss: to the full extent; "loyal even unto death"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

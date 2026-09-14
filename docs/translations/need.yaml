@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14449126"
+        gloss: a condition requiring relief; "she satisfied his need for affection"; "God has no need of men to accomplish His work"; "there is a demand for jobs"
+        angloform:
+          status: gap
+      - wordnet: "09367991"
+        gloss: anything that is necessary but lacking; "he had sufficient means to meet his simple needs"; "I tried to supply his wants"
+        angloform:
+          status: gap
+      - wordnet: "00023773"
+        gloss: the psychological feature that arouses an organism to action toward a desired goal; the reason for the action
+        angloform:
+          status: redirect
+          word: reason
+          category: NOUN
+      - wordnet: "14493716"
+        gloss: a state of extreme poverty or destitution; "a general state of need exists among the homeless"
+        angloform:
+          status: redirect
+          word: poverty
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "02627934"
+        gloss: require as useful, just, or proper; "success usually requires hard work"
+        angloform:
+          status: redirect
+          word: require
+          category: VERB_TRANS
+      - wordnet: "01188725"
+        gloss: have need of; "This piano wants the attention of a competent tuner"
+        angloform:
+          status: redirect
+          word: require
+          category: VERB_TRANS
+      - wordnet: "01189113"
+        gloss: have or feel a need for; "always needing friends and money"
+        angloform:
+          status: redirect
+          word: desire
+          category: VERB_TRANS

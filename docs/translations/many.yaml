@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01551633"
+        gloss: a quantifier that can be used with count nouns; amounting to a large but indefinite number; "many temptations"; "take as many apples as you like"
+        angloform:
+          status: gap
+          note: no scalar-quantity vocabulary exists yet (distinct from the logical quantifiers every/no/some already enabled) — same gap as "much" (ADJ, 01553629)

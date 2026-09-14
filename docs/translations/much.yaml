@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13776621"
+        gloss: a great amount or extent; "they did much for humanity"
+        angloform:
+          status: gap
+          note: no scalar-quantity vocabulary exists yet (distinct from the logical quantifiers every/no/some already enabled)
+  ADJ:
+    senses:
+      - wordnet: "01553629"
+        gloss: (quantifier used with mass nouns) great in quantity or degree or extent; "not much rain"
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00059086"
+        gloss: to a great degree or extent; "she's much better now"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00032803"
+        gloss: very; "he was much annoyed"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00059171"
+        gloss: to a very great degree or extent; "we enjoyed ourselves very much"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00022829"
+        gloss: (degree adverb used before a noun phrase) for all practical purposes but not completely; "much the same thing happened every time"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00059413"
+        gloss: frequently or in great quantities; "I don't drink much"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

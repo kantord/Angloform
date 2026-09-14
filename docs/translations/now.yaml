@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15119919"
+        gloss: the momentary present; "Now is a good time to do it"
+        angloform:
+          status: gap
+          note: no noun word for "the present moment" exists yet
+  ADV:
+    senses:
+      - wordnet: "00049433"
+        gloss: in the historical present; at this point in the narration of a series of past events; "Washington now decides to cross the Delaware"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00048475"
+        gloss: in these times; "today almost every home has television"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00049102"
+        gloss: used to preface a command or reproof or request; "now hear this!"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00049220"
+        gloss: at the present moment; "goods now on sale"; "it could happen any time now"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00048739"
+        gloss: without delay or hesitation; with no time intervening; "Come here now!"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00049758"
+        gloss: (prefatory or transitional) indicates a change of subject or activity; "Now the next problem is..."
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00049685"
+        gloss: in the immediate past; "told me just now"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

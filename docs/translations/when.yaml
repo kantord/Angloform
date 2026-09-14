@@ -1,0 +1,13 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+# "when" has zero WordNet senses (a pure wh-word, not open-class content
+# vocabulary) and is already a permanent Ban in seed/seed.json with real
+# advice (ADR 0007/0033) — this file records that existing verdict in the
+# new per-sense format rather than leaving it undocumented here.
+by_upos:
+  ADV:
+    senses:
+      - gloss: subordinating/question word introducing a temporal clause or question; "when did you leave?"; "when he arrives, call me"
+        angloform:
+          status: construction
+          pattern: if he arrives, then call me.
+          note: 'ADR 0007: "when" is banned outright; temporal/conditional clauses are written via "if <clause>, then <clause>", or by naming the event directly (ADR 0033) — matches seed.json''s existing BANNED advice for this lemma'

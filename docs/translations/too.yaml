@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00047392"
+        gloss: to a degree exceeding normal or proper limits; "too big"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00047534"
+        gloss: in addition; "he has a Mercedes, too"
+        angloform:
+          status: construction
+          pattern: she left. she took the file.
+          note: same synset as "also" (already BANNED, seed.json) — write the second claim as its own sentence instead of marking it with a particle

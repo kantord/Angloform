@@ -11,9 +11,25 @@ definitions, or test suite ever needed it.
 "Used" means: at least one of the word's enabled Surface Forms appears
 as a whole word in one of:
   - corpus/*.tsv (the Angloform column specifically, not the English source)
+  - corpus/accept.txt (one Angloform sentence per line — no English column)
   - domain/model.json (definition text, examples)
   - seed/definitions/*.yaml (definition, antonym, redirects text)
   - seed/seed.json (another word's reject/redirect target)
+  - docs/adr/*.md — the self-hosted ADRs themselves (real Angloform prose,
+    exactly the set scripts/coherence.sh treats as load-bearing content;
+    this is the single biggest source of genuine usage in the project and
+    its absence here was a real bug — caught 2026-09-13 when "separator"
+    looked fully unused by every other source but is actually used in
+    docs/adr/0022-digits.md and docs/adr/0058-measurement-value.md)
+  - wiki/articles/*.md — the Angloform-Wiki submodule (real translated
+    Angloform prose, e.g. the "Science" article's Introduction section);
+    also missing until 2026-09-13, caught the same day as the ADR gap,
+    when "nature"/"testable"/"method"/"observation"/"conclusion"/
+    "challenge" all looked unused but are live in wiki/articles/science.md.
+    Note: docs/dogfood-adr-*.md is deliberately NOT scanned — those are
+    plain-English process logs discussing the translation effort, not
+    Angloform prose themselves (checked directly: their "debt"/"recast"
+    hits are ordinary English project-jargon, not real usage).
   - crates/**/tests/*.rs and crates/**/src/*.rs (string literals — the
     Rust test suite is real, load-bearing coverage of the grammar)
 
@@ -64,6 +80,16 @@ def load_usage_text():
                 if len(parts) >= 2:
                     chunks.append((f"corpus:{Path(p).name}", parts[1]))
 
+    # corpus/accept.txt — one Angloform sentence per line, no tab-separated
+    # English column at all (unlike the *.tsv files above); missed until
+    # 2026-09-13 because the glob above only matched *.tsv. Real bug: it
+    # drives crates/grammar/tests/corpus.rs and crates/diagnose/tests/
+    # diagnosis.rs directly, and "the compiler builds the program" in it
+    # is exactly what caught "compiler" looking falsely unused.
+    accept_path = ROOT / "corpus" / "accept.txt"
+    if accept_path.exists():
+        chunks.append(("corpus/accept.txt", accept_path.read_text(encoding="utf-8", errors="ignore")))
+
     model = json.loads((ROOT / "domain" / "model.json").read_text())
     for e in model:
         chunks.append(("domain/model.json", e.get("definition", "")))
@@ -89,6 +115,12 @@ def load_usage_text():
             for v in reject.values():
                 if isinstance(v, str):
                     chunks.append(("seed/seed.json (redirect)", v))
+
+    for p in glob.glob(str(ROOT / "docs" / "adr" / "*.md")):
+        chunks.append((f"docs/adr/{Path(p).name}", Path(p).read_text(encoding="utf-8", errors="ignore")))
+
+    for p in glob.glob(str(ROOT / "wiki" / "articles" / "*.md")):
+        chunks.append((f"wiki/articles/{Path(p).name}", Path(p).read_text(encoding="utf-8", errors="ignore")))
 
     for pattern in ("crates/**/tests/*.rs", "crates/**/src/*.rs"):
         for p in glob.glob(str(ROOT / pattern), recursive=True):
@@ -120,7 +152,7 @@ def main():
         (unused_curated if lemma in curated_lemmas else unused_legacy).append(lemma)
 
     print(f"{len(curated_lemmas)} curated + {len(legacy_lemmas)} legacy lemmas checked "
-          f"against corpus, domain model, definitions, redirects, and the Rust test suite\n")
+          f"against corpus, domain model, definitions, redirects, the ADRs, and the Rust test suite\n")
     print(f"{len(unused_curated)} curated word(s) with zero usage anywhere:")
     for w in unused_curated:
         print(f"  {w}")

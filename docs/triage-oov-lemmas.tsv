@@ -294,6 +294,7 @@ Holy	ADJ	5
 Pakistani	ADJ	5
 account	NOUN	5
 advise	VERB	5
+assume	VERB	5
 begin	VERB	5
 boy	NOUN	5
 cafeteria	NOUN	5
@@ -1091,6 +1092,7 @@ similar	ADJ	2
 simply	ADV	2
 since	ADP	2
 sink	VERB	2
+size	NOUN	2
 sleek	ADJ	2
 sleep	NOUN	2
 slide	NOUN	2
@@ -1717,6 +1719,7 @@ contact	VERB	1
 contemplate	VERB	1
 contemporary	ADJ	1
 contest	NOUN	1
+contradict	VERB	1
 convenience	NOUN	1
 convergence	NOUN	1
 convince	VERB	1
@@ -2274,6 +2277,7 @@ net	NOUN	1
 newspaper	NOUN	1
 nine	NUM	1
 nocturnal	ADJ	1
+noisy	ADJ	1
 normal	ADJ	1
 normally	ADV	1
 north	NOUN	1

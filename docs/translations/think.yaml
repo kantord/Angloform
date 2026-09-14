@@ -1,0 +1,76 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05786372"
+        gloss: an instance of deliberate thinking; "I need to give it a good think"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00689344"
+        gloss: judge or regard; look upon; "I think he is very smart"
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "00631737"
+        gloss: expect, believe, or suppose; "I imagine she earned a lot of money"
+        angloform:
+          status: redirect
+          word: expect
+          category: VERB_TRANS
+      - wordnet: "00628491"
+        gloss: use or exercise the mind or one's power of reason to make inferences, decisions, or arrive at a solution; "I've been thinking all day"
+        angloform:
+          status: gap
+          note: the bare cognitive-process sense itself — no single enabled word covers it
+      - wordnet: "00607780"
+        gloss: recall knowledge from memory; have a recollection; "I can't think what her last name was"
+        angloform:
+          status: gap
+          note: no remember/recall vocabulary exists yet
+      - wordnet: "01637166"
+        gloss: imagine or visualize; "Just think--you could be rich one day!"
+        angloform:
+          status: gap
+          note: no imagine/visualize vocabulary exists yet
+      - wordnet: "00723056"
+        gloss: focus one's attention on a certain state; "Think big"
+        angloform:
+          status: gap
+      - wordnet: "00708538"
+        gloss: have in mind as a purpose; "I mean no harm"; "We thought to return early that night"
+        angloform:
+          status: gap
+          note: no mean/intend vocabulary exists yet
+      - wordnet: "00739340"
+        gloss: decide by pondering, reasoning, or reflecting; "Can you think what to do next?"
+        angloform:
+          status: redirect
+          word: decide
+          category: VERB_TRANS
+      - wordnet: "00739082"
+        gloss: ponder; reflect on, or reason about; "Think the matter through"
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "00689809"
+        gloss: dispose the mind in a certain way; "Do you really think so?"
+        angloform:
+          status: gap
+      - wordnet: "00629738"
+        gloss: have or formulate in the mind; "think good thoughts"
+        angloform:
+          status: gap
+      - wordnet: "00608808"
+        gloss: be capable of conscious thought; "Man is the only creature that thinks"
+        angloform:
+          status: gap
+          note: a capacity/state sense, not an act
+      - wordnet: "00561887"
+        gloss: bring into a given condition by mental preoccupation; "She thought herself into a state of panic"
+        angloform:
+          status: gap
+          note: rare, literary

@@ -309,10 +309,6 @@ asserting	form	VERB_TRANS_ING	assert
 asserts	form	VERB_TRANS_3SG	assert
 asset	form	NOUN_SG	asset
 assets	form	NOUN_PL	asset
-assume	form	VERB_TRANS_BASE	assume
-assumed	form	VERB_TRANS_ED	assume
-assumes	form	VERB_TRANS_3SG	assume
-assuming	form	VERB_TRANS_ING	assume
 assure	form	VERB_TRANS_BASE	assure
 assured	form	VERB_TRANS_ED	assure
 assures	form	VERB_TRANS_3SG	assure
@@ -691,10 +687,6 @@ continuities	form	NOUN_PL	continuity
 continuity	form	NOUN_SG	continuity
 contraction	form	NOUN_SG	contraction
 contractions	form	NOUN_PL	contraction
-contradict	form	VERB_TRANS_BASE	contradict
-contradicted	form	VERB_TRANS_ED	contradict
-contradicting	form	VERB_TRANS_ING	contradict
-contradicts	form	VERB_TRANS_3SG	contradict
 contrast	form	NOUN_SG	contrast
 contrast	reject_advice	VERB	the verb sense ("to contrast two things") is not enabled; angloform allows one sense per word
 contrasts	form	NOUN_PL	contrast
@@ -718,9 +710,6 @@ core	reject_advice	VERB	the verb sense ("to core an apple") is not enabled; angl
 corner	form	NOUN_SG	corner
 corner	reject_advice	VERB	the verb sense ("to corner the market"; "to corner an animal") is not enabled; angloform allows one sense per word
 corners	form	NOUN_PL	corner
-corollaries	form	NOUN_PL	corollary
-corollary	form	NOUN_SG	corollary
-corollary	reject_advice	ADJ	the adjective (attributive) sense ("a corollary benefit") is not enabled; angloform allows one sense per word
 corpora	form	NOUN_PL	corpus
 corpse	form	NOUN_SG	corpse
 corpses	form	NOUN_PL	corpse
@@ -779,8 +768,6 @@ day	form	NOUN_SG	day
 days	form	NOUN_PL	day
 death	form	NOUN_SG	death
 deaths	form	NOUN_PL	death
-debt	form	NOUN_SG	debt
-debts	form	NOUN_PL	debt
 december	form	NOUN_SG	december
 decembers	form	NOUN_PL	december
 decide	form	VERB_TRANS_BASE	decide
@@ -838,9 +825,6 @@ deliberate	reject_advice	VERB	the verb sense ("to deliberate over a decision") i
 delight	form	NOUN_SG	delight
 delight	reject_advice	VERB	the verb sense ("this delights me") is not enabled; angloform allows one sense per word
 delights	form	NOUN_PL	delight
-demonstrative	form	NOUN_SG	demonstrative
-demonstrative	reject_advice	ADJ	the adjective sense (a demonstrative person, or "demonstrative pronoun") is not enabled; angloform allows one sense per word
-demonstratives	form	NOUN_PL	demonstrative
 dense	form	ADJ_LONG	dense
 densities	form	NOUN_PL	density
 density	form	NOUN_SG	density
@@ -1097,11 +1081,6 @@ fell	form	VERB_INTRANS_ED	fall
 fence	form	NOUN_SG	fence
 fence	reject_advice	VERB	the verb sense ("to fence a yard"; the sport of fencing; slang "to fence stolen goods") is not enabled; angloform allows one sense per word
 fences	form	NOUN_PL	fence
-fetch	form	VERB_TRANS_BASE	fetch
-fetch	reject_advice	NOUN	the noun sense (a fetch, e.g. a memory fetch in computing, or archaically a trick) is not enabled; angloform allows one sense per word
-fetched	form	VERB_TRANS_ED	fetch
-fetches	form	VERB_TRANS_3SG	fetch
-fetching	form	VERB_TRANS_ING	fetch
 fewer	ban	-	comparatives of a quantity are deferred (ADR 0030) - write "a small number of <nouns>", or a Comparative of an adjective with "than"
 fiat	form	ADJ	fiat
 fiat	reject_advice	NOUN	the noun sense (a fiat, a decree) is not enabled; angloform allows one sense per word
@@ -1309,8 +1288,6 @@ guess	reject_advice	NOUN	the noun sense (a guess) is not enabled; angloform allo
 guessed	form	VERB_TRANS_ED	guess
 guesses	form	VERB_TRANS_3SG	guess
 guessing	form	VERB_TRANS_ING	guess
-guidance	form	NOUN_SG	guidance
-guidances	form	NOUN_PL	guidance
 had	form	VERB_TRANS_ED	have
 half	form	NOUN_SG	half
 half	reject_advice	ADJ	the adjective sense ("a half measure", "half price") is not enabled; angloform allows one sense per word
@@ -1837,9 +1814,6 @@ no	form	QUANT_NEG	no
 noise	form	NOUN_SG	noise
 noise	reject_advice	VERB	the verb sense (dated — "to noise something abroad", meaning to spread word of) is not enabled; angloform allows one sense per word
 noises	form	NOUN_PL	noise
-noisier	form	ADJ_CMP	noisy
-noisiest	form	ADJ_SUP	noisy
-noisy	form	ADJ	noisy
 normative	form	ADJ_LONG	normative
 not	form	NEG	not
 notation	form	NOUN_SG	notation
@@ -2248,10 +2222,6 @@ rebuild	form	VERB_TRANS_BASE	rebuild
 rebuilding	form	VERB_TRANS_ING	rebuild
 rebuilds	form	VERB_TRANS_3SG	rebuild
 rebuilt	form	VERB_TRANS_ED	rebuild
-recast	form	VERB_TRANS_BASE	recast
-recast	reject_advice	NOUN	the noun sense (a recast, e.g. of a cast of actors) is not enabled; angloform allows one sense per word
-recasting	form	VERB_TRANS_ING	recast
-recasts	form	VERB_TRANS_3SG	recast
 receive	form	VERB_TRANS_BASE	receive
 received	form	VERB_TRANS_ED	receive
 receives	form	VERB_TRANS_3SG	receive
@@ -2587,10 +2557,6 @@ sitting	form	VERB_INTRANS_ING	sit
 situation	form	NOUN_SG	situation
 situations	form	NOUN_PL	situation
 six	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
-size	form	NOUN_SG	size
-size	reject_advice	ADJ	the reference data attests an adjectival use of "size"; no common meaning could be confirmed — not enabled
-size	reject_advice	VERB	the verb sense ("to size something up") is not enabled; angloform allows one sense per word
-sizes	form	NOUN_PL	size
 skies	form	NOUN_PL	sky
 skill	form	NOUN_SG	skill
 skills	form	NOUN_PL	skill

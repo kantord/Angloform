@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07228971"
+        gloss: an acknowledgment of appreciation
+        angloform:
+          status: gap
+          note: no gratitude/appreciation vocabulary exists yet (grateful/thankful/appreciate all absent)
+      - wordnet: "01208797"
+        gloss: with the help of or owing to; "thanks to hard work it was a great success"
+        angloform:
+          status: construction
+          pattern: because of the hard work, it was a great success.
+          note: 'the fixed phrase "thanks to X" is causal, not a real noun use of "thanks" — "because" (REASON connective, ADR-enabled) already covers this ground; PP-shaped, wraps a cause clause/NP'

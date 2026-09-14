@@ -1,0 +1,37 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08937251"
+        gloss: a city in southeastern France on the Mediterranean; the leading resort on the French Riviera
+        angloform:
+          status: gap
+          note: a named-place sense (a proper noun in substance) — out of scope regardless of vocabulary state
+  ADJ:
+    senses:
+      - wordnet: "01586342"
+        gloss: pleasant or pleasing or agreeable in nature or appearance; "a nice day"; "had a nice time at the party"
+        angloform:
+          status: redirect
+          word: pleasant
+          category: ADJ
+      - wordnet: "01993408"
+        gloss: socially or conventionally correct; refined or virtuous; "a nice girl"
+        angloform:
+          status: gap
+          note: no decent/virtuous vocabulary exists yet
+      - wordnet: "01838916"
+        gloss: done with delicacy and skill; "a nice shot"
+        angloform:
+          status: gap
+          note: no skill/precision vocabulary exists yet
+      - wordnet: "00984333"
+        gloss: excessively fastidious and easily disgusted; "too nice about his food to take to camp cooking"
+        angloform:
+          status: gap
+          note: rare, archaic sense
+      - wordnet: "00641460"
+        gloss: exhibiting courtesy and politeness; "a nice gesture"
+        angloform:
+          status: gap
+          note: no polite/courteous vocabulary exists yet

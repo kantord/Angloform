@@ -214,6 +214,12 @@ that is not derivable from the code, ADRs, or git history.
 - Dogfood flow: lint own docs → useful flag → rewrite in place (English
   quality first — parse-validity is NEVER the rewrite target; well-written
   but unparseable = gap evidence) → else file gap case.
+- Whenever a word is added to `seed/definitions/`, skim `seed/seed.json`
+  (by lemma AND by meaning — near-synonyms, not just the exact lemma) for
+  entries the new word now makes redundant, and retire them, even if that
+  means rewriting other definitions that referenced the old word. The goal
+  is `seed.json` shrinking every time `seed/definitions/` grows, not two
+  vocabularies drifting apart in parallel.
 
 ## Metrics snapshot (2026-09-01)
 

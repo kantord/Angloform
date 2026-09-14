@@ -4,9 +4,9 @@
 
 ## Summary
 
-- 1097 lemmas, 2289 surface forms, 547 redirects (32 word substitute, 469 advice-only, 46 gap)
+- 1087 lemmas, 2261 surface forms, 541 redirects (32 word substitute, 463 advice-only, 46 gap)
 - Domain model: 87 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 164, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 561, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 182, WHICH 1, WHO 1, YET 1
+- Lemmas per category: ADJ 163, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 556, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 178, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
@@ -56,7 +56,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - record (NOUN): the noun sense (a record) is not enabled; angloform allows one sense per word
 - match (NOUN): the noun sense (a match — a contest, or a matchstick) is not enabled; angloform allows one sense per word
 - pin (NOUN): the noun sense (a pin, a fastener) is not enabled; angloform allows one sense per word
-- fetch (NOUN): the noun sense (a fetch, e.g. a memory fetch in computing, or archaically a trick) is not enabled; angloform allows one sense per word
 - save (NOUN): the noun sense (a save, e.g. in sports or computing) is not enabled; angloform allows one sense per word
 - come (NOUN): the noun sense is vulgar slang and not enabled; angloform allows one sense per word
 - prior (NOUN): the noun sense (a prior, the head of a religious house) is not enabled; angloform allows one sense per word
@@ -75,7 +74,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - say (NOUN): the noun sense ("to have a say") is not enabled; angloform allows one sense per word
 - future (NOUN): the noun sense (the future; also a financial "future") is not enabled; angloform allows one sense per word
 - reference (VERB): the verb sense ("to reference a source") is not enabled; angloform allows one sense per word
-- demonstrative (ADJ): the adjective sense (a demonstrative person, or "demonstrative pronoun") is not enabled; angloform allows one sense per word
 - object (VERB): the verb sense ("to object to something") is not enabled; angloform allows one sense per word
 - ban (NOUN): the noun sense (a ban) is not enabled; angloform allows one sense per word
 - carry (NOUN): the noun sense (a carry, e.g. in arithmetic or golf) is not enabled; angloform allows one sense per word
@@ -252,7 +250,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - break (NOUN): the noun sense (a break) is not enabled; angloform allows one sense per word
 - violate (ADJ): the reference data attests an adjectival use of "violate"; no common meaning could be confirmed — not enabled
 - audit (NOUN): the noun sense (an audit) is not enabled; angloform allows one sense per word
-- recast (NOUN): the noun sense (a recast, e.g. of a cast of actors) is not enabled; angloform allows one sense per word
 - reward (NOUN): the noun sense (a reward) is not enabled; angloform allows one sense per word
 - regret (NOUN): the noun sense (a regret) is not enabled; angloform allows one sense per word
 - bug (VERB): the verb sense ("to bug someone"; "to bug a room", i.e. plant a listening device) is not enabled; angloform allows one sense per word
@@ -381,8 +378,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - repair (VERB): the verb sense ("to repair something") is not enabled; angloform allows one sense per word
 - run (VERB): the verb sense ("to run") is not enabled; angloform allows one sense per word
 - warning (ADJ): the adjective (attributive) sense ("a warning sign") is not enabled; angloform allows one sense per word
-- size (ADJ): the reference data attests an adjectival use of "size"; no common meaning could be confirmed — not enabled
-- size (VERB): the verb sense ("to size something up") is not enabled; angloform allows one sense per word
 - gain (NOUN): the noun sense (a gain) is not enabled; angloform allows one sense per word
 - precedent (ADJ): the adjective sense (formal/legal — "precedent" meaning preceding) is not enabled; angloform allows one sense per word
 - connective (ADJ): the adjective sense ("connective tissue") is not enabled; angloform allows one sense per word
@@ -429,7 +424,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - left (ADV): the adverbial sense ("turn left") is not enabled; angloform has no adverb category
 - left (NOUN): the noun sense ("the left", directional or political) is not enabled; angloform allows one sense per word
 - left (VERB): "left" is also the past tense of the verb "leave" ("she left early"); not separately enabled
-- corollary (ADJ): the adjective (attributive) sense ("a corollary benefit") is not enabled; angloform allows one sense per word
 - discipline (VERB): the verb sense ("to discipline someone") is not enabled; angloform allows one sense per word
 - challenge (NOUN): the noun sense (a challenge) is not enabled; angloform allows one sense per word
 - dimension (VERB): the verb sense (engineering jargon — "to dimension a drawing", meaning to add measurements to it) is not enabled; angloform allows one sense per word

@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-13).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00875141"
+        gloss: push for something; "The travel agent recommended strongly that we not travel on Thanksgiving Day"
+        angloform:
+          status: redirect
+          word: suggest
+          category: VERB_TRANS
+      - wordnet: "00882948"
+        gloss: express a good opinion of
+        angloform:
+          status: gap
+      - wordnet: "00578733"
+        gloss: make attractive or acceptable; "Honesty recommends any person"
+        angloform:
+          status: gap
+          note: rare, literary
