@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# also tagged INTJ once in the corpus ("Sure." as a standalone reply) —
+# WordNet has no interjection sense; recorded here without a wordnet offset.
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00336831"
+        gloss: having or feeling no doubt or uncertainty; confident and assured; "was sure of her friends"
+        angloform:
+          status: gap
+          note: no certainty/confidence vocabulary exists yet — the core sense
+      - wordnet: "00309740"
+        gloss: exercising or taking care great enough to bring assurance; "be sure to lock the doors"
+        angloform:
+          status: gap
+      - wordnet: "00340239"
+        gloss: certain to occur; destined or inevitable; "he is sure to win"
+        angloform:
+          status: gap
+      - wordnet: "02094633"
+        gloss: physically secure or dependable; "a sure footing"
+        angloform:
+          status: gap
+      - wordnet: "00724397"
+        gloss: reliable in operation or effect; "a sure way to distinguish the two"
+        angloform:
+          status: gap
+      - wordnet: "02465978"
+        gloss: (of persons) worthy of trust or confidence; "a sure (or trusted) friend"
+        angloform:
+          status: gap
+      - wordnet: "02461586"
+        gloss: infallible or unfailing; "a sure (or true) sign of one's commitment"
+        angloform:
+          status: gap
+      - wordnet: "02302822"
+        gloss: certain not to fail; "a sure hand on the throttle"
+        angloform:
+          status: gap
+      - wordnet: "00335895"
+        gloss: impossible to doubt or dispute; "indisputable (or sure) proof"
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00144722"
+        gloss: definitely or positively; "the results are surely encouraging"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+  INTJ:
+    senses:
+      - gloss: standalone affirmative reply; "Sure." meaning "yes, I agree"
+        angloform:
+          status: gap
+          note: no affirmative-reply vocabulary exists yet

@@ -1,0 +1,151 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00103834"
+        gloss: the act of applying force to propel something; "after reaching the desired velocity the drive is cut off"
+        angloform:
+          status: gap
+      - wordnet: "03242995"
+        gloss: a mechanism by which force or power is transmitted in a machine
+        angloform:
+          status: gap
+          note: engineering jargon
+      - wordnet: "00798245"
+        gloss: a series of actions advancing a principle or tending toward a particular end; "the movement to end slavery"
+        angloform:
+          status: gap
+      - wordnet: "03244388"
+        gloss: a road leading up to a private house; "they parked in the driveway"
+        angloform:
+          status: gap
+      - wordnet: "04835724"
+        gloss: the trait of being highly motivated; "his drive and energy exhausted his co-workers"
+        angloform:
+          status: gap
+      - wordnet: "00572489"
+        gloss: hitting a golf ball off of a tee with a driver
+        angloform:
+          status: gap
+          note: sports jargon
+      - wordnet: "00317594"
+        gloss: the act of driving a herd of animals overland
+        angloform:
+          status: gap
+      - wordnet: "00307631"
+        gloss: a journey in a vehicle; "he took the family for a drive in his new car"
+        angloform:
+          status: gap
+          note: no vehicle/car vocabulary exists yet
+      - wordnet: "14035298"
+        gloss: a physiological state corresponding to a strong need or desire
+        angloform:
+          status: gap
+      - wordnet: "03243218"
+        gloss: (computer science) a device that writes data onto or reads data from a storage medium
+        angloform:
+          status: gap
+          note: computing jargon
+      - wordnet: "03242713"
+        gloss: a wide scenic road planted with trees
+        angloform:
+          status: gap
+      - wordnet: "00567044"
+        gloss: (sports) a hard straight return (as in tennis or squash)
+        angloform:
+          status: gap
+          note: sports jargon
+  VERB:
+    senses:
+      - wordnet: "01930874"
+        gloss: operate or control a vehicle; "drive a car or bus"
+        angloform:
+          status: gap
+          note: no vehicle/operate vocabulary exists yet — the core corpus-attested sense
+      - wordnet: "01930117"
+        gloss: travel or be transported in a vehicle; "We drove to the university every morning"
+        angloform:
+          status: gap
+      - wordnet: "02056971"
+        gloss: cause someone or something to move by driving; "She drove me to school every day"
+        angloform:
+          status: redirect
+          word: move
+          category: VERB_TRANS
+      - wordnet: "01516534"
+        gloss: force into or from an action or state; "He drives me mad"
+        angloform:
+          status: gap
+      - wordnet: "02505358"
+        gloss: to compel or force or urge relentlessly; "She is driven by her passion"
+        angloform:
+          status: gap
+      - wordnet: "01506157"
+        gloss: cause to move back by force or influence; "repel the enemy"
+        angloform:
+          status: gap
+      - wordnet: "01646300"
+        gloss: compel somebody to do something, often against his own will; "She finally drove him to change jobs"
+        angloform:
+          status: gap
+      - wordnet: "01512259"
+        gloss: push, propel, or press with force; "Drive a nail into the wall"
+        angloform:
+          status: gap
+      - wordnet: "01509584"
+        gloss: cause to move rapidly by striking or throwing with force; "drive the ball far out into the field"
+        angloform:
+          status: gap
+      - wordnet: "02406916"
+        gloss: strive and make an effort to reach a goal; "We have to push a little to make the deadline!"
+        angloform:
+          status: gap
+      - wordnet: "01026975"
+        gloss: move into a desired direction of discourse; "What are you driving at?"
+        angloform:
+          status: gap
+      - wordnet: "02742232"
+        gloss: have certain properties when driven; "My new truck drives well"
+        angloform:
+          status: gap
+      - wordnet: "02408281"
+        gloss: work as a driver; "He drives a bread truck"
+        angloform:
+          status: gap
+      - wordnet: "02057656"
+        gloss: move by being propelled by a force; "The car drove around the corner"
+        angloform:
+          status: gap
+      - wordnet: "01939553"
+        gloss: urge forward; "drive the cows into the barn"
+        angloform:
+          status: gap
+      - wordnet: "01930482"
+        gloss: proceed along in a vehicle; "We drive the turnpike to work"
+        angloform:
+          status: gap
+      - wordnet: "01407904"
+        gloss: strike with a driver, as in teeing off; "drive a golf ball"
+        angloform:
+          status: gap
+          note: sports jargon
+      - wordnet: "01407722"
+        gloss: hit very hard, as by swinging a bat horizontally; "drive a ball"
+        angloform:
+          status: gap
+      - wordnet: "01310964"
+        gloss: excavate horizontally; "drive a tunnel"
+        angloform:
+          status: gap
+      - wordnet: "01181741"
+        gloss: cause to function by supplying the force or power for; "steam drives the engines"
+        angloform:
+          status: gap
+      - wordnet: "01142636"
+        gloss: 'hunting: search for game; "drive the forest"'
+        angloform:
+          status: gap
+      - wordnet: "01142490"
+        gloss: 'hunting: chase from cover into more open ground; "drive the game"'
+        angloform:
+          status: gap

@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00146387"
+        gloss: at any time; "did you ever smoke?"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00019339"
+        gloss: at all times; all the time and on every occasion; "I will always be there to help you"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00212604"
+        gloss: (intensifier for adjectives) very; "she was ever so friendly"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,25 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# the dominant real corpus usage of "as" is ADP/SCONJ (closed-class
+# preposition/subordinator — 71 of 87 tagged occurrences), out of scope
+# for the open-class translation-ratchet entirely; only the ADV sense is
+# recorded here.
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14629149"
+        gloss: a very poisonous metallic element (arsenic)
+        angloform:
+          status: gap
+          note: chemistry jargon
+      - wordnet: "08991878"
+        gloss: a United States territory on the eastern part of the island of Samoa (American Samoa)
+        angloform:
+          status: gap
+          note: a named-place sense (a proper noun in substance) — out of scope regardless of vocabulary state
+  ADV:
+    senses:
+      - wordnet: "00022131"
+        gloss: to the same degree (often followed by "as"); "sang as sweetly as a nightingale"
+        angloform:
+          status: gap
+          note: 'a comparative-degree construction; "equal" (enabled) names the endpoint but not this comparison pattern itself — needs real construction design, not forced'

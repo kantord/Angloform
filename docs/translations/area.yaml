@@ -1,0 +1,31 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08497294"
+        gloss: a particular geographical region of indefinite boundary; "it was a mountainous area"
+        angloform:
+          status: gap
+          note: no region/zone vocabulary exists yet; "place" is too generic a fit to force
+      - wordnet: "05815517"
+        gloss: a subject of study; "it was his area of specialization"
+        angloform:
+          status: gap
+      - wordnet: "05221895"
+        gloss: a part of an animal that has a special function or is supplied by a given artery or nerve; "in the abdominal region"
+        angloform:
+          status: gap
+          note: anatomy jargon
+      - wordnet: "14514039"
+        gloss: a particular environment or walk of life; "his social sphere is limited"
+        angloform:
+          status: gap
+      - wordnet: "02735688"
+        gloss: a part of a structure having some specific characteristic or function; "the spacious cooking area"
+        angloform:
+          status: gap
+      - wordnet: "05128519"
+        gloss: the extent of a 2-dimensional surface enclosed within a boundary; "the area of a rectangle"
+        angloform:
+          status: gap
+          note: math/geometry jargon, a distinct sense from the geographical one

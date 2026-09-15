@@ -1,0 +1,51 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05145118"
+        gloss: the property of having material worth (often indicated by the amount of money something would bring if sold); "the fluctuating monetary value of gold"
+        angloform:
+          status: redirect
+          word: value
+          category: NOUN
+      - wordnet: "13303315"
+        gloss: the amount of money needed to purchase something; "the price of gasoline"
+        angloform:
+          status: redirect
+          word: value
+          category: NOUN
+      - wordnet: "05163807"
+        gloss: value measured by what must be given or done or undergone to obtain something; "the price of success is hard work"
+        angloform:
+          status: redirect
+          word: value
+          category: NOUN
+      - wordnet: "05141683"
+        gloss: the high value or worth of something; "her price is far above rubies"
+        angloform:
+          status: redirect
+          word: value
+          category: NOUN
+      - wordnet: "07167041"
+        gloss: a monetary reward for helping to catch a criminal; "the cattle thief has a price on his head"
+        angloform:
+          status: gap
+      - wordnet: "13303759"
+        gloss: cost of bribing someone; "they say that every politician has a price"
+        angloform:
+          status: gap
+      - wordnet: "11246408"
+        gloss: United States operatic soprano (born 1927)
+        angloform:
+          status: gap
+          note: a named-individual sense (a proper noun in substance) — out of scope regardless of vocabulary state
+  VERB:
+    senses:
+      - wordnet: "02351010"
+        gloss: determine the price of; "The grocer priced his wares high"
+        angloform:
+          status: gap
+      - wordnet: "00721889"
+        gloss: ascertain or learn the price of; "Have you priced personal computers lately?"
+        angloform:
+          status: gap

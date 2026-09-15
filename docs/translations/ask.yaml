@@ -1,0 +1,37 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00784342"
+        gloss: inquire about; "I asked about their special today"
+        angloform:
+          status: gap
+          note: no inquire/question-as-verb vocabulary exists yet — the core sense
+      - wordnet: "00752493"
+        gloss: make a request or demand for something to somebody; "She asked him for a loan"
+        angloform:
+          status: gap
+      - wordnet: "00784727"
+        gloss: direct or put; seek an answer to; "ask a question"
+        angloform:
+          status: gap
+      - wordnet: "00755745"
+        gloss: consider obligatory; request and expect; "We require our secretary to be on time"
+        angloform:
+          status: redirect
+          word: require
+          category: VERB_TRANS
+      - wordnet: "00897746"
+        gloss: address a question to and expect an answer from; "Ask your teacher about trigonometry"
+        angloform:
+          status: gap
+      - wordnet: "02627934"
+        gloss: require as useful, just, or proper; "success usually requires hard work"
+        angloform:
+          status: redirect
+          word: require
+          category: VERB_TRANS
+      - wordnet: "01068565"
+        gloss: require or ask for as a price or condition; "He is asking $200 for the table"
+        angloform:
+          status: gap

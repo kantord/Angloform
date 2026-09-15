@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15262921"
+        gloss: the present time or age; "the world of today"
+        angloform:
+          status: gap
+          note: no noun word for "the present era" exists yet
+      - wordnet: "15156001"
+        gloss: the day that includes the present moment (as opposed to yesterday or tomorrow); "Today is beautiful"
+        angloform:
+          status: gap
+          note: deictic "this day" sense — no noun word for it exists yet (distinct from the enabled generic "day")
+  ADV:
+    senses:
+      - wordnet: "00048475"
+        gloss: in these times; "today almost every home has television"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00207366"
+        gloss: on this day as distinct from yesterday or tomorrow; "I can't meet with you today"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

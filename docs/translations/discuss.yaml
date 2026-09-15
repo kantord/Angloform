@@ -1,0 +1,13 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01034312"
+        gloss: to consider or examine in speech or writing; "The class discussed Dante's 'Inferno'"
+        angloform:
+          status: gap
+          note: no general talk/speak/converse vocabulary exists yet — "consider" (enabled) is introspective judgment, not conversation, too different a fit to force
+      - wordnet: "00813978"
+        gloss: speak with others about (something); talk (something) over in detail; "We discussed our household budget"
+        angloform:
+          status: gap

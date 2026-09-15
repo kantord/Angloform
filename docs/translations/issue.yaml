@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05814650"
+        gloss: an important question that is in dispute and must be settled; "politicians never discuss the real issues"
+        angloform:
+          status: redirect
+          word: problem
+          category: NOUN
+      - wordnet: "06596978"
+        gloss: one of a series published periodically; "she found an old issue of the magazine"
+        angloform:
+          status: gap
+      - wordnet: "05814291"
+        gloss: some situation or event that is thought about; "he kept drifting off the topic"
+        angloform:
+          status: gap
+      - wordnet: "01060234"
+        gloss: the act of providing an item for general use or for official purposes; "a new issue of stamps"
+        angloform:
+          status: gap
+      - wordnet: "13367593"
+        gloss: supplies (as food or clothing or ammunition) issued by the government
+        angloform:
+          status: gap
+      - wordnet: "13260190"
+        gloss: the income or profit arising from such transactions as the sale of land or other property
+        angloform:
+          status: gap
+          note: finance jargon
+      - wordnet: "11410625"
+        gloss: a phenomenon that follows and is caused by some previous phenomenon; "depressing consequences for business"
+        angloform:
+          status: gap
+      - wordnet: "10373998"
+        gloss: the immediate descendants of a person; "she died without issue"
+        angloform:
+          status: gap
+          note: archaic/legal
+      - wordnet: "07319909"
+        gloss: the becoming visible; "the emergence of the andrenas"
+        angloform:
+          status: gap
+      - wordnet: "03303965"
+        gloss: an opening that permits escape or release; "he blocked the way out"
+        angloform:
+          status: gap
+      - wordnet: "01103614"
+        gloss: the act of issuing printed materials
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00967625"
+        gloss: prepare and issue for public distribution or sale; "publish a magazine or newspaper"
+        angloform:
+          status: gap
+      - wordnet: "02479323"
+        gloss: circulate or distribute or equip with; "issue a new uniform to the children"
+        angloform:
+          status: gap
+      - wordnet: "01063049"
+        gloss: bring out an official document (such as a warrant)
+        angloform:
+          status: gap
+      - wordnet: "00528990"
+        gloss: come out of; "Water issued from the hole in the wall"
+        angloform:
+          status: gap
+      - wordnet: "01064799"
+        gloss: make out and issue; "write out a check"
+        angloform:
+          status: gap

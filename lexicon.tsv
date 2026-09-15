@@ -2972,6 +2972,9 @@ website	form	NOUN_SG	website
 websites	form	NOUN_PL	website
 wednesday	form	NOUN_SG	wednesday
 wednesdays	form	NOUN_PL	wednesday
+week	form	NOUN_SG	week
+week	reject_advice	ADV	ADV — Angloform has no open adverb category, structurally impossible
+weeks	form	NOUN_PL	week
 weigh	form	VERB_TRANS_BASE	weigh
 weigh	reject_advice	NOUN	a thing, which has a value
 weighed	form	VERB_TRANS_ED	weigh

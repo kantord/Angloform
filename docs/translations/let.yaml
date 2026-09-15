@@ -1,0 +1,45 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08031020"
+        gloss: a brutal terrorist group active in Kashmir
+        angloform:
+          status: gap
+          note: a named-organization sense (a proper noun in substance) — out of scope regardless of vocabulary state
+      - wordnet: "00569073"
+        gloss: (tennis) a serve that strikes the net before falling into the receiver's court
+        angloform:
+          status: gap
+          note: sports jargon
+  VERB:
+    senses:
+      - wordnet: "02423183"
+        gloss: make it possible through a specific action or lack of action for something to happen; "This permits the water to rush in"
+        angloform:
+          status: redirect
+          word: allow
+          category: VERB_TRANS
+      - wordnet: "00771490"
+        gloss: actively cause something to happen; "I let it be known that I was not interested"
+        angloform:
+          status: gap
+      - wordnet: "00802318"
+        gloss: consent to, give permission; "She permitted her son to visit her estranged husband"
+        angloform:
+          status: redirect
+          word: allow
+          category: VERB_TRANS
+      - wordnet: "00120796"
+        gloss: cause to move; cause to be in a certain position or condition; "This let me in for a big surprise"
+        angloform:
+          status: gap
+      - wordnet: "00496673"
+        gloss: leave unchanged; "let it be"
+        angloform:
+          status: gap
+      - wordnet: "02208903"
+        gloss: grant use or occupation of under a term of contract; "I am leasing my country estate"
+        angloform:
+          status: gap
+          note: legal/property jargon

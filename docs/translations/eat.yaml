@@ -1,0 +1,29 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01168468"
+        gloss: take in solid food; "She was eating a banana"
+        angloform:
+          status: gap
+          note: no food/eat vocabulary exists yet — needs joint design with "food" (which also depends on this word)
+      - wordnet: "01166351"
+        gloss: eat a meal; take a meal; "We did not eat until 10 P.M."
+        angloform:
+          status: gap
+      - wordnet: "01179865"
+        gloss: take in food; used of animals only; "What do whales eat?"
+        angloform:
+          status: gap
+      - wordnet: "01766273"
+        gloss: worry or cause anxiety in a persistent way; "What's eating you?"
+        angloform:
+          status: gap
+      - wordnet: "01157517"
+        gloss: use up (resources or materials); "this car consumes a lot of gas"
+        angloform:
+          status: gap
+      - wordnet: "00274283"
+        gloss: cause to deteriorate due to the action of water, air, or an acid; "The acid corroded the metal"
+        angloform:
+          status: gap

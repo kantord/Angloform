@@ -1,0 +1,84 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00582388"
+        gloss: the principal activity in your life that you do to earn money; "he's not in my line of business"
+        angloform:
+          status: redirect
+          word: work
+          category: NOUN
+      - wordnet: "00719705"
+        gloss: a specific piece of work required to be done as a duty or for a specific fee; "the job of repairing the engine"
+        angloform:
+          status: redirect
+          word: work
+          category: NOUN
+      - wordnet: "03599628"
+        gloss: a workplace; as in the expression "on the job"
+        angloform:
+          status: gap
+      - wordnet: "03599761"
+        gloss: an object worked on; a result produced by working; "he held the job in his left hand"
+        angloform:
+          status: gap
+      - wordnet: "00584769"
+        gloss: the responsibility to do something; "it is their job to print the truth"
+        angloform:
+          status: gap
+      - wordnet: "00576877"
+        gloss: the performance of a piece of work; "she did an outstanding job as Ophelia"
+        angloform:
+          status: gap
+      - wordnet: "00576717"
+        gloss: a damaging piece of work; "the barber did a real job on my hair"
+        angloform:
+          status: gap
+      - wordnet: "14410605"
+        gloss: a state of difficulty that needs to be resolved; "it is always a job to contact him"
+        angloform:
+          status: redirect
+          word: problem
+          category: NOUN
+      - wordnet: "11085402"
+        gloss: a Jewish hero in the Old Testament who maintained his faith in God in spite of afflictions
+        angloform:
+          status: gap
+          note: a named-individual sense (a proper noun in substance) — out of scope regardless of vocabulary state
+      - wordnet: "10222949"
+        gloss: any long-suffering person who withstands affliction without despairing
+        angloform:
+          status: gap
+      - wordnet: "06572482"
+        gloss: (computer science) a program application that may consist of several steps but is a single logical unit
+        angloform:
+          status: gap
+          note: computing jargon
+      - wordnet: "06436939"
+        gloss: a book in the Old Testament containing Job's pleas to God about his afflictions
+        angloform:
+          status: gap
+          note: a named-work sense (a proper noun in substance) — out of scope regardless of vocabulary state
+      - wordnet: "00782792"
+        gloss: a crime (especially a robbery); "the gang pulled off a bank job in St. Louis"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02572913"
+        gloss: profit privately from public office and official business
+        angloform:
+          status: gap
+      - wordnet: "02461063"
+        gloss: arranged for contracted work to be done by others
+        angloform:
+          status: gap
+      - wordnet: "02420789"
+        gloss: work occasionally; "As a student I jobbed during the semester breaks"
+        angloform:
+          status: gap
+      - wordnet: "02272090"
+        gloss: invest at a risk; "I am speculating"
+        angloform:
+          status: gap
+          note: finance jargon

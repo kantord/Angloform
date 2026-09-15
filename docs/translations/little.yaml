@@ -1,0 +1,57 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13762717"
+        gloss: a small amount or duration; "he accepted the little they gave him"
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01391351"
+        gloss: limited or below average in number or quantity or magnitude or extent; "a little house"; "a small car"
+        angloform:
+          status: redirect
+          word: small
+          category: ADJ
+      - wordnet: "01554510"
+        gloss: (quantifier used with mass nouns) small in quantity or degree; "little rain fell in May"
+        angloform:
+          status: gap
+          note: no scalar-quantity vocabulary exists yet (same gap as "many"/"much", opposite polarity)
+      - wordnet: "01649031"
+        gloss: (of children and animals) young, immature; "what a big little boy you are"
+        angloform:
+          status: gap
+          note: no young/immature vocabulary exists yet
+      - wordnet: "01280908"
+        gloss: (informal) small and of little importance; "a fiddling sum of money"
+        angloform:
+          status: gap
+      - wordnet: "01455732"
+        gloss: (of a voice) faint; "a little voice"
+        angloform:
+          status: gap
+      - wordnet: "02386612"
+        gloss: low in stature; not tall; "he was short and stocky"
+        angloform:
+          status: gap
+          note: no short/tall vocabulary exists yet
+      - wordnet: "01467534"
+        gloss: lowercase; "little a"; "small a"
+        angloform:
+          status: redirect
+          word: small
+          category: ADJ
+      - wordnet: "00855670"
+        gloss: small in a way that arouses feelings of tenderness or its opposite; "bless your little heart"
+        angloform:
+          status: gap
+          note: affective/connotative use, not literal size
+  ADV:
+    senses:
+      - wordnet: "00100002"
+        gloss: not much; "he talked little about his family"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

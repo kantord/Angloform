@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04081281"
+        gloss: a building where people go to eat
+        angloform:
+          status: gap
+          note: depends on both "building" and "eat" vocabulary, neither of which exists yet

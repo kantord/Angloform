@@ -1,0 +1,133 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05558717"
+        gloss: the posterior part of a human (or animal) body from the neck to the end of the spine; "his back was nicely tanned"
+        angloform:
+          status: gap
+          note: no body-part vocabulary exists yet
+      - wordnet: "04059701"
+        gloss: the side that goes last or is not normally seen; "he wrote the date on the back of the photograph"
+        angloform:
+          status: gap
+      - wordnet: "08625846"
+        gloss: the part of something that is furthest from the normal viewer; "he stood at the back of the stage"
+        angloform:
+          status: gap
+      - wordnet: "09830194"
+        gloss: (football) a person who plays in the backfield
+        angloform:
+          status: gap
+          note: sports jargon
+      - wordnet: "05588174"
+        gloss: the series of vertebrae forming the axis of the skeleton and protecting the spinal cord; "the fall broke his back"
+        angloform:
+          status: gap
+          note: anatomy jargon
+      - wordnet: "02840619"
+        gloss: the protective covering on the front, back, and spine of a book; "the book had a leather binding"
+        angloform:
+          status: gap
+      - wordnet: "02767665"
+        gloss: the part of a garment that covers the back of your body; "they pinned a 'kick me' sign on his back"
+        angloform:
+          status: gap
+      - wordnet: "02767433"
+        gloss: a support that you can lean against while sitting; "the back of the dental chair was adjustable"
+        angloform:
+          status: gap
+      - wordnet: "00725775"
+        gloss: (American football) the position of a player stationed behind the line of scrimmage
+        angloform:
+          status: gap
+          note: sports jargon
+  VERB:
+    senses:
+      - wordnet: "02453889"
+        gloss: be behind; approve of; "I backed Kennedy in 1960"
+        angloform:
+          status: gap
+      - wordnet: "01997119"
+        gloss: travel backward; "back into the driveway"
+        angloform:
+          status: gap
+      - wordnet: "02556817"
+        gloss: give support or one's approval to; "I can't back this plan"
+        angloform:
+          status: gap
+      - wordnet: "01997512"
+        gloss: cause to travel backward; "back the car into the parking spot"
+        angloform:
+          status: gap
+      - wordnet: "02217695"
+        gloss: support financial backing for; "back this enterprise"
+        angloform:
+          status: gap
+      - wordnet: "02693965"
+        gloss: be in back of; "My garage backs their yard"
+        angloform:
+          status: gap
+      - wordnet: "01139104"
+        gloss: place a bet on; "Which horse are you backing?"
+        angloform:
+          status: gap
+      - wordnet: "00560628"
+        gloss: shift to a counterclockwise direction; "the wind backed"
+        angloform:
+          status: gap
+          note: sailing/meteorology jargon
+      - wordnet: "00223109"
+        gloss: establish as valid or genuine; "Can you back up your claims?"
+        angloform:
+          status: gap
+      - wordnet: "00185857"
+        gloss: strengthen by providing with a back or backing
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00197576"
+        gloss: related to or located at the back; "the back yard"
+        angloform:
+          status: gap
+      - wordnet: "00131692"
+        gloss: located at or near the back of an animal; "back (or hind) legs"
+        angloform:
+          status: gap
+      - wordnet: "00668816"
+        gloss: of an earlier date; "back issues of the magazine"
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00075161"
+        gloss: in or to or toward a former location; "she went back to her parents' house"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00074407"
+        gloss: at or to or toward the back or rear; "he moved back"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00075269"
+        gloss: in or to or toward an original condition; "he went back to sleep"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00074201"
+        gloss: in or to or toward a past time; "set the clocks back an hour"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00075367"
+        gloss: in reply; "he wrote back three days later"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00074964"
+        gloss: in repayment or retaliation; "we paid back everything we had borrowed"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

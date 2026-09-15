@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08388074"
+        gloss: a small elite group; "it was designed for the discriminating few"
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01552885"
+        gloss: a quantifier used with count nouns; a small but indefinite number; "a few weeks ago"
+        angloform:
+          status: gap
+          note: no scalar-quantity vocabulary exists yet (same gap as "many"/"much", opposite polarity)
