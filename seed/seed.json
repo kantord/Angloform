@@ -3810,6 +3810,16 @@
     }
   },
   {
+    "lemma": "try",
+    "category": "VERB_INF",
+    "note": "ADR 0063 (tentative): first real member of the new closed VERB_INF category — \"try to read the file\"",
+    "reject": {
+      "NOUN": {
+        "advice": "the noun sense (an attempt) is not enabled; angloform allows one sense per word"
+      }
+    }
+  },
+  {
     "lemma": "trust",
     "category": "VERB_TRANS",
     "note": "ADR 0008 rewrite",

@@ -1,7 +1,8 @@
 # 0063 — A closed class of verbs before the infinitive
 
 Date: 2026-09-15
-Status: proposed (tentative). Needs a real test before a final decision.
+Status: accepted. The Grammar has the Category "VERB_INF" and one real
+member, the word "try". A broader review of real sentences stays open.
 
 ## Context
 
@@ -41,10 +42,16 @@ A bare verb after the word "to" cannot belong to the Category
 
 ## Consequences
 
-- A person gains a pattern for a desire or a plan before a fact.
+- A person gains a pattern for an attempt before a fact: "the agent
+  tries to read the file".
 - The Category "VERB_INF" stays closed, so the Grammar avoids a
   general rule for every verb.
+- The build found no conflict of the tool "LALRPOP". The decision "0059"
+  found a real conflict on a first version; the decision "0063" did not
+  repeat the problem.
 - The maintainers must review every future member of the Category
-  "VERB_INF".
-- The decision requires a real test before a status change. The
-  decision "0059" sets a precedent for the test.
+  "VERB_INF" with the care of a new word.
+- The Grammar accepts a word of the category "PREP_V" before the bare
+  verb, not only the word "to". A future Linter check must narrow the
+  slot to the word "to" specifically, the same Grammar-accepts, Linter-
+  verifies split the decision "0059" already uses for "who" and "which".

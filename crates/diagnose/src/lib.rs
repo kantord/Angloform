@@ -361,7 +361,8 @@ fn word(t: &Tok) -> &str {
         | Tok::Approx(w) | Tok::So(w) | Tok::Because(w) | Tok::Namely(w) | Tok::Which(w) | Tok::Who(w) | Tok::Some_(w) | Tok::Name(w)
         | Tok::Ord(w) | Tok::Than(w) | Tok::More(w) | Tok::Scale(w) | Tok::AdjCmp(w) | Tok::AdjLong(w)
         | Tok::AdjSup(w) | Tok::Most(w) | Tok::NumVal(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w)
-        | Tok::Color(w) | Tok::ColorAdj(w) => w,
+        | Tok::Color(w) | Tok::ColorAdj(w)
+        | Tok::VInfBase(w) | Tok::VInf3(w) | Tok::VInfEd(w) => w,
         Tok::Comma => ",",
         Tok::Colon => ":",
     }
@@ -370,7 +371,15 @@ fn word(t: &Tok) -> &str {
 fn is_finite_verb(t: &Tok) -> bool {
     matches!(
         t,
-        Tok::VtBase(_) | Tok::Vt3(_) | Tok::VtEd(_) | Tok::ViBase(_) | Tok::Vi3(_) | Tok::ViEd(_)
+        Tok::VtBase(_)
+            | Tok::Vt3(_)
+            | Tok::VtEd(_)
+            | Tok::ViBase(_)
+            | Tok::Vi3(_)
+            | Tok::ViEd(_)
+            | Tok::VInfBase(_)
+            | Tok::VInf3(_)
+            | Tok::VInfEd(_)
     )
 }
 
@@ -1118,8 +1127,9 @@ fn term_of(t: &Tok) -> Vec<Term> {
         Tok::Color(_) => vec![Term::NSg],
         Tok::NounSg(_) => vec![Term::NSg],
         Tok::NounPl(_) => vec![Term::NPl],
-        Tok::VtBase(_) | Tok::Vt3(_) | Tok::ViBase(_) | Tok::Vi3(_) => vec![Term::VAny],
-        Tok::VtEd(_) | Tok::ViEd(_) => vec![Term::VAny, Term::Ed],
+        Tok::VtBase(_) | Tok::Vt3(_) | Tok::ViBase(_) | Tok::Vi3(_)
+        | Tok::VInfBase(_) | Tok::VInf3(_) => vec![Term::VAny],
+        Tok::VtEd(_) | Tok::ViEd(_) | Tok::VInfEd(_) => vec![Term::VAny, Term::Ed],
         Tok::VtIng(_) | Tok::ViIng(_) => vec![Term::Ing],
         Tok::PrepN(_) => vec![Term::PrepN],
         Tok::PrepV(_) => vec![Term::PrepV],

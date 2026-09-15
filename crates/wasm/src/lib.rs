@@ -85,7 +85,7 @@ fn word_of(t: &Tok) -> &str {
         | No(w) | Num(w) | NumPl(w) | Percent(w) | Approx(w) | So(w) | Because(w) | Namely(w) | Which(w) | Who(w)
         | Ord(w) | Than(w) | More(w) | Scale(w) | AdjCmp(w) | AdjLong(w) | AdjSup(w) | Most(w) | NumVal(w) | Be(w)
         | BecomeSg(w) | BecomePl(w) | BecomePast(w) | Some_(w) | Name(w)
-        | Color(w) | ColorAdj(w) => w,
+        | Color(w) | ColorAdj(w) | VInfBase(w) | VInf3(w) | VInfEd(w) => w,
         Comma => ",",
         Colon => ":",
     }
@@ -163,6 +163,9 @@ fn tag_of(t: &Tok) -> &'static str {
         ColorAdj(_) => "COLOR_ADJ",
         Comma => "COMMA",
         Colon => "COLON",
+        VInfBase(_) => "VERB_INF_BASE",
+        VInf3(_) => "VERB_INF_3SG",
+        VInfEd(_) => "VERB_INF_ED",
     }
 }
 

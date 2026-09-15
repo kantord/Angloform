@@ -9,24 +9,24 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 ## Sentence buckets
 
 - **Perfect** (every token usable as-is): 7 (0.3%)
-- **Close** (1–2 problem tokens): 521 (25.6%)
-- **Far** (3+ problem tokens): 1509 (74.1%)
+- **Close** (1–2 problem tokens): 522 (25.6%)
+- **Far** (3+ problem tokens): 1508 (74.0%)
 
 ## Token verdicts
 
 | verdict | tokens | share |
 |---|---|---|
-| OK | 8317 | 38.1% |
-| REDIRECT (designed rejection with suggestion) | 297 | 1.4% |
-| MISMATCH (enabled word, uncovered POS) | 2104 | 9.6% |
+| OK | 8341 | 38.2% |
+| REDIRECT (designed rejection with suggestion) | 298 | 1.4% |
+| MISMATCH (enabled word, uncovered POS) | 2109 | 9.7% |
 | PROPN (out of scope) | 2075 | 9.5% |
-| OOV | 9054 | 41.4% |
+| OOV | 9024 | 41.3% |
 
 ## OOV by gold UPOS
 
-- NOUN: 2994
+- NOUN: 2993
 - ADJ: 1247
-- VERB: 1173
+- VERB: 1144
 - PRON: 1084
 - ADV: 923
 - NUM: 495
@@ -40,7 +40,7 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 
 ## Top missing lemmas (curation candidates — human decides)
 
-it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET (×111), that/PRON (×105), would/AUX (×91), he/PRON (×82), that/SCONJ (×81), great/ADJ (×72), 's/PART (×70), service/NOUN (×67), what/PRON (×59), just/ADV (×57), very/ADV (×57), want/VERB (×53), our/PRON (×50), thanks/NOUN (×49), this/PRON (×49), there/PRON (×48), all/DET (×46), any/DET (×45), could/AUX (×44), need/VERB (×43), his/PRON (×40), food/NOUN (×39), look/VERB (×38), as/ADP (×36), as/SCONJ (×35), here/ADV (×35), please/INTJ (×34), now/ADV (×33), out/ADP (×33), should/AUX (×33), think/VERB (×32), there/ADV (×30), when/ADV (×30), their/PRON (×29), try/VERB (×29), call/VERB (×28)
+it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET (×111), that/PRON (×105), would/AUX (×91), he/PRON (×82), that/SCONJ (×81), great/ADJ (×72), 's/PART (×70), service/NOUN (×67), what/PRON (×59), just/ADV (×57), very/ADV (×57), want/VERB (×53), our/PRON (×50), thanks/NOUN (×49), this/PRON (×49), there/PRON (×48), all/DET (×46), any/DET (×45), could/AUX (×44), need/VERB (×43), his/PRON (×40), food/NOUN (×39), look/VERB (×38), as/ADP (×36), as/SCONJ (×35), here/ADV (×35), please/INTJ (×34), now/ADV (×33), out/ADP (×33), should/AUX (×33), think/VERB (×32), there/ADV (×30), when/ADV (×30), their/PRON (×29), call/VERB (×28), how/ADV (×28)
 
 ## Redirect hits (the rejection rules doing their job)
 
@@ -98,8 +98,8 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 - WASHINGTON (Reuters) - — *WASHINGTON (proper noun); Reuters (proper noun)*
 - The answer is, "Yes!" — *answer as NOUN → "the noun sense (an answer) is not enabled; angloform allows one sense per word"; Yes (INTJ, OOV)*
 - (On what evidence? — *what (DET, OOV)*
+- Clinton tried, and tried hard. — *Clinton (proper noun); hard (ADV, OOV)*
 - i'm the king — *'m as AUX (no redirect); king (NOUN, OOV)*
 - yeah — *yeah (INTJ, OOV)*
 - sounds exciting. — *sounds (VERB, OOV); exciting (ADJ, OOV)*
-- you know, whatever. — *whatever (INTJ, OOV)*
 

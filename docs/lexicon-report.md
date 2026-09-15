@@ -4,9 +4,9 @@
 
 ## Summary
 
-- 1087 lemmas, 2256 surface forms, 543 redirects (33 word substitute, 463 advice-only, 47 gap)
+- 1088 lemmas, 2259 surface forms, 544 redirects (33 word substitute, 464 advice-only, 47 gap)
 - Domain model: 87 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 164, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 557, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INTRANS 29, VERB_TRANS 176, WHICH 1, WHO 1, YET 1
+- Lemmas per category: ADJ 164, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 557, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INF 1, VERB_INTRANS 29, VERB_TRANS 176, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
@@ -237,6 +237,7 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - review (NOUN): the noun sense (a review) is not enabled; angloform allows one sense per word
 - whole (ADV): the reference data attests an adverbial use of "whole"; no common meaning could be confirmed — angloform has no adverb category regardless
 - whole (NOUN): the noun sense ("the whole is greater than its parts") is not enabled; angloform allows one sense per word
+- try (NOUN): the noun sense (an attempt) is not enabled; angloform allows one sense per word
 - trust (NOUN): the noun sense (a trust, financial or legal) is not enabled; angloform allows one sense per word
 - modal (ADJ): the adjective sense ("modal logic", "a modal verb") is not enabled; angloform allows one sense per word
 - force (VERB): the verb sense ("to force a door open") is not enabled; angloform allows one sense per word

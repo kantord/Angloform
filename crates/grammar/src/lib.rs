@@ -29,6 +29,11 @@ pub enum Tok {
     Vi3(String),
     ViEd(String),
     ViIng(String),
+    /// ADR 0063: a closed, curated class of verbs taking "to" + a bare
+    /// verb instead of a Noun Phrase object ("desires to read the file").
+    VInfBase(String),
+    VInf3(String),
+    VInfEd(String),
     PrepN(String),
     PrepV(String),
     Pron1(String),
@@ -627,6 +632,9 @@ fn tag_to_tok(tag: &str, word: &str) -> Option<Tok> {
         "VERB_INTRANS_3SG" => Tok::Vi3(w),
         "VERB_INTRANS_ED" => Tok::ViEd(w),
         "VERB_INTRANS_ING" => Tok::ViIng(w),
+        "VERB_INF_BASE" => Tok::VInfBase(w),
+        "VERB_INF_3SG" => Tok::VInf3(w),
+        "VERB_INF_ED" => Tok::VInfEd(w),
         "PREP_N" => Tok::PrepN(w),
         "PREP_V" => Tok::PrepV(w),
         "PRON_1SG" => Tok::Pron1(w),

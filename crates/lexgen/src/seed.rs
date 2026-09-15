@@ -70,6 +70,9 @@ pub enum Category {
     Noun,
     VerbTrans,
     VerbIntrans,
+    /// ADR 0063 (tentative): a closed, curated class of verbs taking
+    /// "to" + a bare verb instead of a Noun Phrase object.
+    VerbInf,
     Adj,
     /// A color adjective (ADR 0062): grammatically an adjective (composes
     /// wherever ADJ does) but its own Form Tag, so "the color <word>" can
@@ -92,6 +95,7 @@ impl SeedEntry {
             "NOUN" => Category::Noun,
             "VERB_TRANS" => Category::VerbTrans,
             "VERB_INTRANS" => Category::VerbIntrans,
+            "VERB_INF" => Category::VerbInf,
             "ADJ" => Category::Adj,
             "COLOR_ADJ" => Category::ColorAdj,
             "PREP" => Category::Prep,
@@ -108,7 +112,7 @@ impl Category {
     pub fn wordnet_pos(&self) -> Option<char> {
         match self {
             Category::Noun => Some('n'),
-            Category::VerbTrans | Category::VerbIntrans => Some('v'),
+            Category::VerbTrans | Category::VerbIntrans | Category::VerbInf => Some('v'),
             Category::Adj | Category::ColorAdj => Some('a'),
             _ => None,
         }
@@ -123,6 +127,10 @@ impl Category {
             Category::VerbTrans | Category::VerbIntrans => {
                 &["third", "past", "ppart", "ing"]
             }
+            // ADR 0063 (tentative): only base/3sg/past are wired into the
+            // Grammar's InfVPn production so far — no ppart/ing slot to
+            // offer an override for yet.
+            Category::VerbInf => &["third", "past"],
             // a NAME may spell its capitalization ("WordNet")
             Category::Name => &["name"],
             _ => &[],

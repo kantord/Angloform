@@ -393,6 +393,21 @@ fn expand(e: &SeedEntry, errors: &mut Vec<String>) -> Vec<Form> {
             };
             push(ing, format!("{base_tag}_ING"), exi, &mut out);
         }
+        // ADR 0063 (tentative): base/3sg/past only — no ppart/ing slot,
+        // since the Grammar's InfVPn production doesn't use them yet.
+        Category::VerbInf => {
+            push(lemma.into(), "VERB_INF_BASE".into(), true, &mut out);
+            let (third, ex3) = match over("third") {
+                Some(t) => (t, true),
+                None => (morph::third_singular(lemma), false),
+            };
+            push(third, "VERB_INF_3SG".into(), ex3, &mut out);
+            let (past, exp) = match over("past") {
+                Some(p) => (p, true),
+                None => (morph::past(lemma), false),
+            };
+            push(past, "VERB_INF_ED".into(), exp, &mut out);
+        }
         Category::Banned => {} // no forms; emitted as a ban row
         Category::Adj => {
             // ADR 0030: a short adjective has an inflected comparative (ADJ);

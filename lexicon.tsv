@@ -2848,6 +2848,8 @@ treadmills	form	NOUN_PL	treadmill
 tree	form	NOUN_SG	tree
 tree	reject_advice	VERB	the verb sense ("the dog treed the raccoon", meaning chased up a tree) is not enabled; angloform allows one sense per word
 trees	form	NOUN_PL	tree
+tried	form	VERB_INF_ED	try
+tries	form	VERB_INF_3SG	try
 trust	form	VERB_TRANS_BASE	trust
 trust	reject_advice	NOUN	the noun sense (a trust, financial or legal) is not enabled; angloform allows one sense per word
 trusted	form	VERB_TRANS_ED	trust
@@ -2855,6 +2857,8 @@ trusting	form	VERB_TRANS_ING	trust
 trusts	form	VERB_TRANS_3SG	trust
 truth	form	NOUN_SG	truth
 truths	form	NOUN_PL	truth
+try	form	VERB_INF_BASE	try
+try	reject_advice	NOUN	the noun sense (an attempt) is not enabled; angloform allows one sense per word
 tuesday	form	NOUN_SG	tuesday
 tuesdays	form	NOUN_PL	tuesday
 turn	form	VERB_TRANS_BASE	turn

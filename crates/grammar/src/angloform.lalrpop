@@ -28,6 +28,9 @@ extern {
         "VI_3SG" => Tok::Vi3(<String>),
         "VI_ED" => Tok::ViEd(<String>),
         "VI_ING" => Tok::ViIng(<String>),
+        "VINF_BASE" => Tok::VInfBase(<String>),
+        "VINF_3SG" => Tok::VInf3(<String>),
+        "VINF_ED" => Tok::VInfEd(<String>),
         "PREP_N" => Tok::PrepN(<String>),
         "PREP_V" => Tok::PrepV(<String>),
         "PRON_1" => Tok::Pron1(<String>),
@@ -109,6 +112,9 @@ LNounPl: Tree = <l:@L> <w:"NOUN_PL"> => leaf(l, w);
 LVtBase: Tree = <l:@L> <w:"VT_BASE"> => leaf(l, w);
 LVt3: Tree = <l:@L> <w:"VT_3SG"> => leaf(l, w);
 LVtEd: Tree = <l:@L> <w:"VT_ED"> => leaf(l, w);
+LVInfBase: Tree = <l:@L> <w:"VINF_BASE"> => leaf(l, w);
+LVInf3: Tree = <l:@L> <w:"VINF_3SG"> => leaf(l, w);
+LVInfEd: Tree = <l:@L> <w:"VINF_ED"> => leaf(l, w);
 LViBase: Tree = <l:@L> <w:"VI_BASE"> => leaf(l, w);
 LVi3: Tree = <l:@L> <w:"VI_3SG"> => leaf(l, w);
 LViEd: Tree = <l:@L> <w:"VI_ED"> => leaf(l, w);
@@ -193,6 +199,18 @@ LMost: Tree = <l:@L> <w:"MOST"> => leaf(l, w);
 LNumVal: Tree = <l:@L> <w:"NUM_VAL"> => leaf(l, w);
 LSome: Tree = <l:@L> <w:"SOME"> => leaf(l, w);
 LName: Tree = <l:@L> <w:"NAME"> => leaf(l, w);
+
+// ADR 0063: a verb of the closed VERB_INF category takes "to" + a bare
+// verb instead of a Noun Phrase object. The Grammar accepts any PREP_V
+// word here, not only "to" — a LALRPOP terminal can't test a specific
+// lexeme's string value, so (matching the Grammar-accepts/Linter-
+// verifies split PredRel already uses for who/which agreement) a future
+// Linter check narrows this to "to" specifically; VERB_INF has exactly
+// one member during the ADR's tentative/unconfirmed period, so nothing
+// today can actually exercise the gap.
+InfVPn<V>: Tree = {
+    <v:V> <p:LPrepV> <b:VBaseP> => nd("InfVP", 0, vec![Some(v), Some(p), Some(b)]),
+};
 
 // ----------------------------------------------------------------- macros
 
@@ -585,6 +603,8 @@ PredSG: Tree = PredAdv<PredSGCore>;
 PredSGCore: Tree = {
     VPn<LVt3, LVi3>,
     VPn<LVtEd, LViEd>,
+    InfVPn<LVInf3>,
+    InfVPn<LVInfEd>,
     NegVPn<LDo3>,
     NegVPn<LDoPast>,
     ModalVP,
@@ -599,6 +619,8 @@ PredPL: Tree = PredAdv<PredPLCore>;
 PredPLCore: Tree = {
     VPn<LVtBase, LViBase>,
     VPn<LVtEd, LViEd>,
+    InfVPn<LVInfBase>,
+    InfVPn<LVInfEd>,
     NegVPn<LDoBase>,
     NegVPn<LDoPast>,
     ModalVP,
@@ -629,6 +651,9 @@ PredRelCore: Tree = {
     VPn<LVt3, LVi3>,
     VPn<LVtBase, LViBase>,
     VPn<LVtEd, LViEd>,
+    InfVPn<LVInf3>,
+    InfVPn<LVInfBase>,
+    InfVPn<LVInfEd>,
     NegVPn<LDo3>,
     NegVPn<LDoBase>,
     NegVPn<LDoPast>,
@@ -652,6 +677,8 @@ Pred1: Tree = PredAdv<Pred1Core>;
 Pred1Core: Tree = {
     VPn<LVtBase, LViBase>,
     VPn<LVtEd, LViEd>,
+    InfVPn<LVInfBase>,
+    InfVPn<LVInfEd>,
     NegVPn<LDoBase>,
     NegVPn<LDoPast>,
     ModalVP,

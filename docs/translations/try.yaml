@@ -12,8 +12,12 @@ by_upos:
       - wordnet: "02530167"
         gloss: make an effort or attempt; "He tried to shake off his fears"
         angloform:
-          status: gap
-          note: no attempt vocabulary exists yet — the core sense
+          status: redirect
+          word: try
+          category: VERB_INF
+          # the core sense — resolved 2026-09-15 by ADR 0063 (tentative):
+          # "try" is now real vocabulary, the first member of the new
+          # closed VERB_INF category ("the agent tries to read the file")
       - wordnet: "02531625"
         gloss: put to the test, as for its quality, or give experimental use to; "This approach has been tried with good results"
         angloform:
