@@ -1,0 +1,126 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01173038"
+        gloss: "a powerful stroke with the fist or a weapon; \"a blow on the head\""
+        angloform:
+          status: gap
+      - wordnet: "07338681"
+        gloss: "an impact (as from a collision); \"the bump threw him off the bicycle\""
+        angloform:
+          status: gap
+      - wordnet: "07475870"
+        gloss: an unfortunate happening that hinders or impedes; something that is thwarting or frustrating
+        angloform:
+          status: redirect
+          word: reversal
+          category: NOUN
+      - wordnet: "07298982"
+        gloss: "an unpleasant or disappointing surprise; \"it came as a shock to learn that he was injured\""
+        angloform:
+          status: gap
+      - wordnet: "11465017"
+        gloss: "a strong current of air; \"the tree was bent almost double by the gust\""
+        angloform:
+          status: gap
+      - wordnet: "03066743"
+        gloss: street names for cocaine
+        angloform:
+          status: gap
+      - wordnet: "00835501"
+        gloss: "forceful exhalation through the nose or mouth; \"he gave his nose a loud blow\"; \"he blew out all the candles with a single puff\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00007012"
+        gloss: "exhale hard; \"blow on the soup to cool it down\""
+        angloform:
+          status: gap
+      - wordnet: "02769241"
+        gloss: "be blowing or storming; \"The wind blew from the West\""
+        angloform:
+          status: gap
+      - wordnet: "00034948"
+        gloss: "free of obstruction by blowing air through; \"blow one's nose\""
+        angloform:
+          status: gap
+      - wordnet: "01902783"
+        gloss: "be in motion due to some air or water current; \"The leaves were blowing in the wind\"; \"the boat drifted on the lake\"; \"The sailboat was adrift on the open sea\"; \"the shipwrecked boat drifted away from the shore\""
+        angloform:
+          status: redirect
+          word: drift
+          category: VERB_INTRANS
+      - wordnet: "02135877"
+        gloss: "make a sound as if blown; \"The whistle blew\""
+        angloform:
+          status: gap
+      - wordnet: "00477247"
+        gloss: "shape by blowing; \"Blow a glass vase\""
+        angloform:
+          status: gap
+      - wordnet: "02527651"
+        gloss: "make a mess of, destroy or ruin; \"I botched the dinner and we had to eat out\"; \"the pianist screwed up the difficult passage in the second movement\""
+        angloform:
+          status: gap
+      - wordnet: "02268351"
+        gloss: "spend thoughtlessly; throw away; \"He wasted his inheritance on his insincere friends\"; \"You squandered the opportunity to get and advanced degree\""
+        angloform:
+          status: gap
+      - wordnet: "02266148"
+        gloss: "spend lavishly or wastefully on; \"He blew a lot of money on his new home theater\""
+        angloform:
+          status: gap
+      - wordnet: "02178340"
+        gloss: "sound by having air expelled through a tube; \"The trumpets blew\""
+        angloform:
+          status: gap
+      - wordnet: "02135727"
+        gloss: "play or sound a wind instrument; \"She blew the horn\""
+        angloform:
+          status: gap
+      - wordnet: "02117170"
+        gloss: provide sexual gratification through oral stimulation
+        angloform:
+          status: gap
+      - wordnet: "02101046"
+        gloss: "cause air to go in, on, or through; \"Blow my hair dry\""
+        angloform:
+          status: gap
+      - wordnet: "02100632"
+        gloss: "cause to move by means of an air current; \"The wind blew the leaves around in the yard\""
+        angloform:
+          status: gap
+      - wordnet: "02068745"
+        gloss: "spout moist air from the blowhole; \"The whales blew\""
+        angloform:
+          status: gap
+      - wordnet: "01849054"
+        gloss: "leave; informal or rude; \"shove off!\"; \"The children shoved along\"; \"Blow now!\""
+        angloform:
+          status: gap
+      - wordnet: "01545208"
+        gloss: "lay eggs; \"certain insects are said to blow\""
+        angloform:
+          status: gap
+      - wordnet: "00934965"
+        gloss: "cause to be revealed and jeopardized; \"The story blew their cover\"; \"The double agent was blown by the other side\""
+        angloform:
+          status: gap
+      - wordnet: "00883226"
+        gloss: show off
+        angloform:
+          status: gap
+      - wordnet: "00779804"
+        gloss: "allow to regain its breath; \"blow a horse\""
+        angloform:
+          status: gap
+      - wordnet: "00435294"
+        gloss: "melt, break, or become otherwise unusable; \"The lightbulbs blew out\"; \"The fuse blew\""
+        angloform:
+          status: gap
+      - wordnet: "00310155"
+        gloss: "burst suddenly; \"The tire blew\"; \"We blew a tire\""
+        angloform:
+          status: gap

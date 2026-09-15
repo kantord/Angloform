@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  INTJ:
+    senses:
+      - gloss: office/email abbreviation, "for your information"
+        angloform:
+          status: excluded
+          reason: informal abbreviation slang, incompatible with Angloform's formal, unambiguous prose register by design — permanent, not a missing word

@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08649345"
+        gloss: "a place within a region identified relative to a center or reference location; \"they always sat on the right side of the church\"; \"he never left my side\""
+        angloform:
+          status: gap
+      - wordnet: "08408709"
+        gloss: "one of two or more contesting groups; \"the Confederate side was prepared to attack\""
+        angloform:
+          status: gap
+      - wordnet: "05551318"
+        gloss: "either the left or right half of a body; \"he had a pain in his side\""
+        angloform:
+          status: gap
+      - wordnet: "08510666"
+        gloss: "a surface forming part of the outside of an object; \"he examined all sides of the crystal\"; \"dew dripped from the face of the leaf\""
+        angloform:
+          status: gap
+      - wordnet: "04213626"
+        gloss: "an extended outer surface of an object; \"he turned the box over to examine the bottom side\"; \"they painted all four sides of the house\""
+        angloform:
+          status: gap
+      - wordnet: "05852553"
+        gloss: "an aspect of something (as contrasted with some other implied aspect); \"he was on the heavy side\"; \"he is on the purchasing side of the business\"; \"it brought out his better side\""
+        angloform:
+          status: gap
+      - wordnet: "08649167"
+        gloss: "a line segment forming part of the perimeter of a plane figure; \"the hypotenuse of a right triangle is always the longest side\""
+        angloform:
+          status: gap
+      - wordnet: "08102282"
+        gloss: "a family line of descent; \"he gets his brains from his father's side\""
+        angloform:
+          status: gap
+      - wordnet: "07655626"
+        gloss: "a lengthwise dressed half of an animal's carcass used for food"
+        angloform:
+          status: gap
+      - wordnet: "06783265"
+        gloss: "an opinion that is held in opposition to another in an argument or dispute; \"there are two sides to every question\""
+        angloform:
+          status: redirect
+          word: position
+          category: NOUN
+      - wordnet: "09437454"
+        gloss: "an elevated geological formation; \"he climbed the steep slope\"; \"the house was built on the side of a mountain\""
+        angloform:
+          status: gap
+      - wordnet: "07442569"
+        gloss: (sports) the spin given to a ball by striking it on one side or releasing it with a sharp twist
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01148961"
+        gloss: "take sides for or against; \"Who are you widing with?\"; \"I\"m siding against the current candidate\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02441215"
+        gloss: "located on a side; \"side fences\"; \"the side porch\""
+        angloform:
+          status: gap

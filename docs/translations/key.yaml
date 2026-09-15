@@ -1,0 +1,94 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03613294"
+        gloss: "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated"
+        angloform:
+          status: gap
+      - wordnet: "05794057"
+        gloss: "something crucial for explaining; \"the key to development is economic integration\""
+        angloform:
+          status: gap
+      - wordnet: "04986147"
+        gloss: "pitch of the voice; \"he spoke in a low key\""
+        angloform:
+          status: gap
+      - wordnet: "06863751"
+        gloss: any of 24 major or minor diatonic scales that provide the tonal framework for a piece of music
+        angloform:
+          status: gap
+      - wordnet: "13724838"
+        gloss: "a kilogram of a narcotic drug; \"they were carrying two keys of heroin\""
+        angloform:
+          status: gap
+      - wordnet: "12036226"
+        gloss: a winged often one-seed indehiscent fruit as of the ash or elm or maple
+        angloform:
+          status: gap
+      - wordnet: "11103104"
+        gloss: "United States lawyer and poet who wrote a poem after witnessing the British attack on Baltimore during the War of 1812; the poem was later set to music and entitled `The Star-Spangled Banner' (1779-1843)"
+        angloform:
+          status: gap
+      - wordnet: "09325395"
+        gloss: a coral reef off the southern coast of Florida
+        angloform:
+          status: gap
+      - wordnet: "08590909"
+        gloss: "(basketball) a space (including the foul line) in front of the basket at each end of a basketball court; usually painted a different color from the rest of the court; \"he hit a jump shot from the top of the key\"; \"he dominates play in the paint\""
+        angloform:
+          status: gap
+      - wordnet: "06492438"
+        gloss: "a list of answers to a test; \"some students had stolen the key to the final exam\""
+        angloform:
+          status: gap
+      - wordnet: "06492188"
+        gloss: a list of words or phrases that explain symbols or abbreviations
+        angloform:
+          status: gap
+      - wordnet: "06424869"
+        gloss: "a generic term for any device whose possession entitles the holder to a means of access; \"a safe-deposit box usually requires two keys to open it\""
+        angloform:
+          status: gap
+      - wordnet: "04586581"
+        gloss: mechanical device used to wind another device that is driven by a spring (as a clock)
+        angloform:
+          status: gap
+      - wordnet: "03615133"
+        gloss: the central building block at the top of an arch or vault
+        angloform:
+          status: gap
+      - wordnet: "03613592"
+        gloss: a lever (as in a keyboard) that actuates a mechanism when depressed
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00652346"
+        gloss: identify as in botany or biology, for example
+        angloform:
+          status: redirect
+          word: name
+          category: VERB_TRANS
+      - wordnet: "02338227"
+        gloss: "provide with a key; \"We were keyed after the locks were changed in the building\""
+        angloform:
+          status: gap
+      - wordnet: "01520655"
+        gloss: "vandalize a car by scratching the sides with a key; \"His new Mercedes was keyed last night in the parking lot\""
+        angloform:
+          status: gap
+      - wordnet: "00483656"
+        gloss: regulate the musical pitch of
+        angloform:
+          status: gap
+      - wordnet: "00482749"
+        gloss: "harmonize with or adjust to; \"key one's actions to the voters' prevailing attitude\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01277097"
+        gloss: "serving as an essential component; \"a cardinal rule\"; \"the central cause of the problem\"; \"an example that was fundamental to the argument\"; \"computers are fundamental to modern industrial structure\""
+        angloform:
+          status: gap

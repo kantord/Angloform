@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13790912"
+        gloss: "a relation that provides the foundation for something; \"they were on a friendly footing\"; \"he worked on an interim basis\""
+        angloform:
+          status: gap
+      - wordnet: "05793554"
+        gloss: "the fundamental assumptions from which something is begun or developed or calculated or explained; \"the whole argument rested on a basis of conjecture\""
+        angloform:
+          status: gap
+      - wordnet: "13809769"
+        gloss: "the most important or necessary part of something; \"the basis of this drink is orange juice\""
+        angloform:
+          status: gap

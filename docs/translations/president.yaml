@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10468559"
+        gloss: an executive officer of a firm or corporation
+        angloform:
+          status: gap
+      - wordnet: "10467395"
+        gloss: "the person who holds the office of head of state of the United States government; \"the President likes to jog every morning\""
+        angloform:
+          status: gap
+      - wordnet: "10467179"
+        gloss: the chief executive of a republic
+        angloform:
+          status: gap
+      - wordnet: "10468962"
+        gloss: "the officer who presides at the meetings of an organization; \"address your remarks to the chairperson\""
+        angloform:
+          status: gap
+      - wordnet: "10468750"
+        gloss: the head administrative officer of a college or university
+        angloform:
+          status: gap
+      - wordnet: "00597265"
+        gloss: "the office of the United States head of state; \"a President is elected every four years\""
+        angloform:
+          status: gap

@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01900771"
+        gloss: "before a time limit expires; \"the timely filing of his income tax return\""
+        angloform:
+          status: gap
+      - wordnet: "01661529"
+        gloss: "done or happening at the appropriate or proper time; \"a timely warning\"; \"with timely treatment the patient has a good chance of recovery\"; \"a seasonable time for discussion\"; \"the book's publication was well timed\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00273752"
+        gloss: "at an opportune time; \"your letter arrived apropos\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

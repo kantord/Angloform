@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09972458"
+        gloss: "a very pretty girl who works as a photographer's model"
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00219809"
+        gloss: appealing to the emotions as well as the eye
+        angloform:
+          status: gap
+      - wordnet: "01459755"
+        gloss: lovable especially in a childlike or naive way
+        angloform:
+          status: gap

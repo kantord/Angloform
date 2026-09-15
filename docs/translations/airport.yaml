@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02692232"
+        gloss: an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo
+        angloform:
+          status: gap

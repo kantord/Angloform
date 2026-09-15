@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08615149"
+        gloss: "a large area of land preserved in its natural state as public property; \"there are laws that protect the wildlife in this park\""
+        angloform:
+          status: gap
+      - wordnet: "08615374"
+        gloss: "a piece of open land for recreational use in an urban area; \"they went for a walk in the park\""
+        angloform:
+          status: gap
+      - wordnet: "02782778"
+        gloss: "a facility in which ball games are played (especially baseball games); \"take me out to the ballpark\""
+        angloform:
+          status: gap
+      - wordnet: "11222655"
+        gloss: Scottish explorer in Africa (1771-1806)
+        angloform:
+          status: gap
+      - wordnet: "08615638"
+        gloss: a lot where cars are parked
+        angloform:
+          status: gap
+      - wordnet: "03890881"
+        gloss: "a gear position that acts as a parking brake; \"the put the car in park and got out\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01493380"
+        gloss: "place temporarily; \"park the car in the yard\"; \"park the children with the in-laws\"; \"park your bag in this locker\""
+        angloform:
+          status: gap
+      - wordnet: "01934427"
+        gloss: "maneuver a vehicle into a parking space; \"Park the car in front of the library\"; \"Can you park right here?\""
+        angloform:
+          status: gap

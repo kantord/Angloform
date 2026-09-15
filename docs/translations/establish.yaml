@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02427103"
+        gloss: "set up or found; \"She set up a literacy program\""
+        angloform:
+          status: gap
+      - wordnet: "01647229"
+        gloss: "set up or lay the groundwork for; \"establish a new department\""
+        angloform:
+          status: gap
+      - wordnet: "00664788"
+        gloss: "establish the validity of something, as by an example, explanation or experiment; \"The experiment demonstrated the instability of the compound\"; \"The mathematician showed the validity of the conjecture\""
+        angloform:
+          status: redirect
+          word: show
+          category: VERB_TRANS
+      - wordnet: "00665476"
+        gloss: "institute, enact, or establish; \"make laws\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "01647672"
+        gloss: "bring about; \"The trompe l'oeil-illusion establishes depth\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "01570108"
+        gloss: "place; \"Her manager had set her up at the Ritz\""
+        angloform:
+          status: gap
+      - wordnet: "01655505"
+        gloss: "build or establish something abstract; \"build a reputation\""
+        angloform:
+          status: redirect
+          word: build
+          category: VERB_TRANS
+      - wordnet: "00636888"
+        gloss: "use as a basis for; found on; \"base a claim on some observation\""
+        angloform:
+          status: redirect
+          word: ground
+          category: VERB_TRANS

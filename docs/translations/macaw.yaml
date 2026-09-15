@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01818515"
+        gloss: long-tailed brilliantly colored parrot of Central America and South America; among the largest and showiest of parrots
+        angloform:
+          status: gap

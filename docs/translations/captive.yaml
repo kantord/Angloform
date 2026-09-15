@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10476086"
+        gloss: a person who is confined; especially a prisoner of war
+        angloform:
+          status: gap
+      - wordnet: "09893502"
+        gloss: an animal that is confined
+        angloform:
+          status: gap
+      - wordnet: "09893600"
+        gloss: a person held in the grip of a strong emotion or passion
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01065126"
+        gloss: being in captivity
+        angloform:
+          status: gap
+      - wordnet: "00163948"
+        gloss: "giving or marked by complete attention to; \"that engrossed look or rapt delight\"; \"then wrapped in dreams\"; \"so intent on this fantastic...narrative that she hardly stirred\"- Walter de la Mare; \"rapt with wonder\"; \"wrapped in thought\""
+        angloform:
+          status: gap

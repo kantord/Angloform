@@ -1,0 +1,73 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05077348"
+        gloss: "proper alignment; the property possessed by something that is in correct or proper alignment; \"out of true\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00465291"
+        gloss: "make level, square, balanced, or concentric; \"true up the cylinder of an engine\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02460502"
+        gloss: "consistent with fact or reality; not false; \"the story is true\"; \"it is undesirable to believe a proposition when there is no ground whatever for supposing it true\"- B. Russell; \"the true meaning of the statement\""
+        angloform:
+          status: gap
+      - wordnet: "00023120"
+        gloss: "accurately placed or thrown; \"his aim was true\"; \"he was dead on target\""
+        angloform:
+          status: gap
+      - wordnet: "00959530"
+        gloss: "devoted (sometimes fanatically) to a cause or concept or truth; \"true believers bonded together against all who disagreed with them\""
+        angloform:
+          status: gap
+      - wordnet: "01225398"
+        gloss: "expressing or given to expressing the truth; \"a true statement\"; \"gave truthful testimony\"; \"a truthful person\""
+        angloform:
+          status: gap
+      - wordnet: "02469756"
+        gloss: "conforming to definitive criteria; \"the horseshoe crab is not a true crab\"; \"Pythagoras was the first true mathematician\""
+        angloform:
+          status: gap
+      - wordnet: "02465519"
+        gloss: "worthy of being depended on; \"a dependable worker\"; \"an honest working stiff\"; \"a reliable sourcSFLe of information\"; \"he was true to his word\"; \"I would be true for there are those who trust me\""
+        angloform:
+          status: redirect
+          word: honest
+          category: ADJ
+      - wordnet: "02180277"
+        gloss: "not pretended; sincerely felt or expressed; \"genuine emotion\"; \"her interest in people was unfeigned\"; \"true grief\""
+        angloform:
+          status: gap
+      - wordnet: "01938508"
+        gloss: "rightly so called; \"true courage\"; \"a spirit which true men have always admired\"; \"a true friend\""
+        angloform:
+          status: gap
+      - wordnet: "01470649"
+        gloss: "determined with reference to the earth's axis rather than the magnetic poles; \"true north is geographic north\""
+        angloform:
+          status: gap
+      - wordnet: "01407267"
+        gloss: "having a legally established claim; \"the legitimate heir\"; \"the true and lawful king\""
+        angloform:
+          status: gap
+      - wordnet: "01163759"
+        gloss: "in tune; accurate in pitch; \"a true note\""
+        angloform:
+          status: gap
+      - wordnet: "00911204"
+        gloss: "accurately fitted; level; \"the window frame isn't quite true\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00184284"
+        gloss: "as acknowledged; \"true, she is the smartest in her class\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

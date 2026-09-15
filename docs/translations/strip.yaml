@@ -1,0 +1,84 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09449510"
+        gloss: "a relatively long narrow piece of something; \"he felt a flat strip of muscle\""
+        angloform:
+          status: gap
+      - wordnet: "04339291"
+        gloss: artifact consisting of a narrow flat piece of material
+        angloform:
+          status: gap
+      - wordnet: "02693070"
+        gloss: an airfield without normal airport facilities
+        angloform:
+          status: gap
+      - wordnet: "07003352"
+        gloss: a sequence of drawings telling a story in a newspaper or comic book
+        angloform:
+          status: gap
+      - wordnet: "04339638"
+        gloss: thin piece of wood or metal
+        angloform:
+          status: gap
+      - wordnet: "00531490"
+        gloss: "a form of erotic entertainment in which a dancer gradually undresses to music; \"she did a strip right in front of everyone\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02314275"
+        gloss: "take away possessions from someone; \"The Nazis stripped the Jews of all their assets\""
+        angloform:
+          status: gap
+      - wordnet: "00049900"
+        gloss: "get undressed; \"please don't undress in front of everybody!\"; \"She strips in front of strangers every night for a living\""
+        angloform:
+          status: gap
+      - wordnet: "01263479"
+        gloss: "remove the surface from; \"strip wood\""
+        angloform:
+          status: gap
+      - wordnet: "00488617"
+        gloss: "remove substances from by a percolating liquid; \"leach the soil\""
+        angloform:
+          status: gap
+      - wordnet: "00194912"
+        gloss: "lay bare; \"denude a forest\""
+        angloform:
+          status: gap
+      - wordnet: "02344568"
+        gloss: "steal goods; take as spoils; \"During the earthquake people looted the stores that were deserted by their owners\""
+        angloform:
+          status: gap
+      - wordnet: "01608706"
+        gloss: "remove all contents or possession from, or empty completely; \"The boys cleaned the sandwich platters\"; \"The trees were cleaned of apples by the storm\""
+        angloform:
+          status: redirect
+          word: clean
+          category: VERB_TRANS
+      - wordnet: "01263659"
+        gloss: "strip the cured leaves from; \"strip tobacco\""
+        angloform:
+          status: gap
+      - wordnet: "00194812"
+        gloss: remove the thread (of screws)
+        angloform:
+          status: gap
+      - wordnet: "00194696"
+        gloss: remove a constituent from a liquid
+        angloform:
+          status: gap
+      - wordnet: "00194534"
+        gloss: "take off or remove; \"strip a wall of its wallpaper\""
+        angloform:
+          status: gap
+      - wordnet: "00194079"
+        gloss: draw the last milk (of cows)
+        angloform:
+          status: gap
+      - wordnet: "00177243"
+        gloss: "remove (someone's or one's own) clothes; \"The nurse quickly undressed the accident victim\"; \"She divested herself of her outdoor clothes\"; \"He disinvested himself of his garments\""
+        angloform:
+          status: gap

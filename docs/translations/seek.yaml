@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07350893"
+        gloss: the movement of a read/write head to a specific data track on a disk
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02240481"
+        gloss: "try to get or reach; \"seek a position\"; \"seek an education\"; \"seek happiness\""
+        angloform:
+          status: gap
+      - wordnet: "01315613"
+        gloss: "try to locate or discover, or try to establish the existence of; \"The police are searching for clues\"; \"They are searching for the missing man in the entire county\""
+        angloform:
+          status: gap
+      - wordnet: "02530167"
+        gloss: "make an effort or attempt; \"He tried to shake off his fears\"; \"The infant had essayed a few wobbly steps\"; \"The police attempted to stop the thief\"; \"He sought to improve himself\"; \"She always seeks to do good in the world\""
+        angloform:
+          status: gap
+      - wordnet: "01839170"
+        gloss: "go to or towards; \"a liquid seeks its own level\""
+        angloform:
+          status: gap
+      - wordnet: "01069989"
+        gloss: "inquire for; \"seek directions from a local\""
+        angloform:
+          status: gap

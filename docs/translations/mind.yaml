@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05611302"
+        gloss: "that which is responsible for one's thoughts and feelings; the seat of the faculty of reason; \"his mind wandered\"; \"I couldn't get his words out of my head\""
+        angloform:
+          status: redirect
+          word: head
+          category: NOUN
+      - wordnet: "05762149"
+        gloss: "recall or remembrance; \"it came to mind\""
+        angloform:
+          status: gap
+      - wordnet: "05837957"
+        gloss: "an opinion formed by judging something; \"he was reluctant to make his judgment known\"; \"she changed her mind\""
+        angloform:
+          status: gap
+      - wordnet: "10708292"
+        gloss: "an important intellectual; \"the great minds of the 17th century\""
+        angloform:
+          status: gap
+      - wordnet: "05703956"
+        gloss: "attention; \"don't pay him any mind\""
+        angloform:
+          status: gap
+      - wordnet: "05982915"
+        gloss: "your intention; what you intend to do; \"he had in mind to see his old teacher\"; \"the idea of the game is to capture all the pieces\""
+        angloform:
+          status: redirect
+          word: idea
+          category: NOUN
+      - wordnet: "05618849"
+        gloss: "knowledge and intellectual ability; \"he reads to improve his mind\"; \"he has a keen intellect\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00848707"
+        gloss: "be offended or bothered by; take offense with, be bothered by; \"I don't mind your behavior\""
+        angloform:
+          status: gap
+      - wordnet: "00724492"
+        gloss: be concerned with or about something or somebody
+        angloform:
+          status: gap
+      - wordnet: "02437707"
+        gloss: "be in charge of or deal with; \"She takes care of all the necessary arrangements\""
+        angloform:
+          status: gap
+      - wordnet: "02571901"
+        gloss: "pay close attention to; give heed to; \"Heed the advice of the old men\""
+        angloform:
+          status: gap
+      - wordnet: "00724664"
+        gloss: "be on one's guard; be cautious or wary about; be alert to; \"Beware of telephone salesmen\""
+        angloform:
+          status: gap
+      - wordnet: "00609506"
+        gloss: keep in mind
+        angloform:
+          status: gap

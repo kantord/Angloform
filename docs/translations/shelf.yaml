@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04190052"
+        gloss: a support that consists of a horizontal surface for holding objects
+        angloform:
+          status: gap
+      - wordnet: "09337253"
+        gloss: a projecting ridge on a mountain or submerged under water
+        angloform:
+          status: gap

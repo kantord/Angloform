@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13421832"
+        gloss: "a sum of money allocated for a particular purpose; \"the laboratory runs on a budget of a million a year\""
+        angloform:
+          status: gap
+      - wordnet: "13421462"
+        gloss: "a summary of intended expenditures along with proposals for how to meet them; \"the president submitted the annual budget to Congress\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00724029"
+        gloss: make a budget
+        angloform:
+          status: gap

@@ -1,0 +1,63 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00373250"
+        gloss: "get warm or warmer; \"The soup warmed slowly on the stove\""
+        angloform:
+          status: gap
+      - wordnet: "00372958"
+        gloss: "make warm or warmer; \"The blanket will warm you\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02529264"
+        gloss: "having or producing a comfortable and agreeable degree of heat or imparting or maintaining heat; \"a warm body\"; \"a warm room\"; \"a warm climate\"; \"a warm coat\""
+        angloform:
+          status: gap
+      - wordnet: "02530861"
+        gloss: "psychologically warm; friendly and responsive; \"a warm greeting\"; \"a warm personality\"; \"warm support\""
+        angloform:
+          status: gap
+      - wordnet: "02531919"
+        gloss: "(color) inducing the impression of warmth; used especially of reds and oranges and yellows; \"warm reds and yellows and orange\""
+        angloform:
+          status: gap
+      - wordnet: "01464700"
+        gloss: "having or displaying warmth or affection; \"affectionate children\"; \"a fond embrace\"; \"fond of his nephew\"; \"a tender glance\"; \"a warm embrace\""
+        angloform:
+          status: gap
+      - wordnet: "01068609"
+        gloss: "freshly made or left; \"a warm trail\"; \"the scent is warm\""
+        angloform:
+          status: redirect
+          word: strong
+          category: ADJ
+      - wordnet: "00919018"
+        gloss: "easily aroused or excited; \"a quick temper\"; \"a warm temper\""
+        angloform:
+          status: gap
+      - wordnet: "00886117"
+        gloss: "characterized by strong enthusiasm; \"ardent revolutionaries\"; \"warm support\""
+        angloform:
+          status: gap
+      - wordnet: "00806387"
+        gloss: "characterized by liveliness or excitement or disagreement; \"a warm debate\""
+        angloform:
+          status: gap
+      - wordnet: "00479192"
+        gloss: "uncomfortable because of possible danger or trouble; \"made things warm for the bookies\""
+        angloform:
+          status: gap
+      - wordnet: "00445308"
+        gloss: "of a seeker; near to the object sought; \"you're getting warm\"; \"hot on the trail\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00432314"
+        gloss: "in a warm manner; \"warmly dressed\"; \"warm-clad skiers\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00208210"
+        gloss: "make worse; \"This drug aggravates the pain\""
+        angloform:
+          status: gap
+      - wordnet: "01820901"
+        gloss: exasperate or irritate
+        angloform:
+          status: gap

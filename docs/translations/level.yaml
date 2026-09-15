@@ -1,0 +1,94 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05093890"
+        gloss: "a position on a scale of intensity or amount or quality; \"a moderate grade of intelligence\"; \"a high level of care is required\"; \"it is all a matter of degree\""
+        angloform:
+          status: redirect
+          word: degree
+          category: NOUN
+      - wordnet: "14428160"
+        gloss: "a relative position or degree of value in a graded group; \"lumber of the highest grade\""
+        angloform:
+          status: gap
+      - wordnet: "13939892"
+        gloss: "a specific identifiable position in a continuum or series or especially in a process; \"a remarkable degree of frankness\"; \"at what stage are the social sciences?\""
+        angloform:
+          status: redirect
+          word: point
+          category: NOUN
+      - wordnet: "05131902"
+        gloss: "height above ground; \"the water reached ankle level\"; \"the pictures were at the same level\""
+        angloform:
+          status: gap
+      - wordnet: "03658858"
+        gloss: indicator that establishes the horizontal when a bubble is centered in a tube of liquid
+        angloform:
+          status: gap
+      - wordnet: "03536348"
+        gloss: "a flat surface at right angles to a plumb line; \"park the car on the level\""
+        angloform:
+          status: gap
+      - wordnet: "06246896"
+        gloss: "an abstract place usually conceived as having depth; \"a good actor communicates on several levels\"; \"a simile has at least two layers of meaning\"; \"the mind functions on many strata simultaneously\""
+        angloform:
+          status: redirect
+          word: layer
+          category: NOUN
+      - wordnet: "03365991"
+        gloss: "a structure consisting of a room or set of rooms at a single position along a vertical scale; \"what level is the office on?\""
+        angloform:
+          status: redirect
+          word: floor
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01152896"
+        gloss: "aim at; \"level criticism or charges at somebody\""
+        angloform:
+          status: gap
+      - wordnet: "01661804"
+        gloss: "tear down so as to make flat with the ground; \"The building was levelled\""
+        angloform:
+          status: gap
+      - wordnet: "01307142"
+        gloss: "make level or straight; \"level the ground\""
+        angloform:
+          status: gap
+      - wordnet: "01152214"
+        gloss: "direct into a position for use; \"point a gun\"; \"He charged his weapon at me\""
+        angloform:
+          status: gap
+      - wordnet: "00964237"
+        gloss: "talk frankly with; lay it on the line; \"I have to level with you\""
+        angloform:
+          status: gap
+      - wordnet: "00356649"
+        gloss: "become level or even; \"The ground levelled off\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00910101"
+        gloss: "having a surface without slope, tilt in which no part is higher or lower than another; \"a flat desk\"; \"acres of level farmland\"; \"a plane surface\"; \"skirts sewn with fine flat seams\""
+        angloform:
+          status: redirect
+          word: flat
+          category: ADJ
+      - wordnet: "02302537"
+        gloss: "not showing abrupt variations; \"spoke in a level voice\"; \"she gave him a level look\"- Louis Auchincloss"
+        angloform:
+          status: gap
+      - wordnet: "01233104"
+        gloss: "being on a precise horizontal plane; \"a billiard table must be level\""
+        angloform:
+          status: gap
+      - wordnet: "00911091"
+        gloss: "oriented at right angles to the plumb; \"the picture is level\""
+        angloform:
+          status: gap
+      - wordnet: "00892243"
+        gloss: "of the score in a contest; \"the score is tied\""
+        angloform:
+          status: gap

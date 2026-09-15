@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02431971"
+        gloss: "work in an administrative capacity; supervise or be in charge of; \"administer a program\"; \"she administers the funds\""
+        angloform:
+          status: gap
+      - wordnet: "02309621"
+        gloss: "perform (a church sacrament) ritually; \"administer the last unction\""
+        angloform:
+          status: gap
+      - wordnet: "02294436"
+        gloss: "administer or bestow, as in small portions; \"administer critical remarks to everyone present\"; \"dole out some money\"; \"shell out pocket money for the children\"; \"deal a blow to someone\"; \"the machine dispenses soft drinks\""
+        angloform:
+          status: gap
+      - wordnet: "00081072"
+        gloss: give or apply (medications)
+        angloform:
+          status: gap
+      - wordnet: "02603567"
+        gloss: "direct the taking of; \"administer an exam\"; \"administer an oath\""
+        angloform:
+          status: gap

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10315837"
+        gloss: a militant reformer
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01742715"
+        gloss: "disposed to warfare or hard-line policies; \"militant nations\"; \"hawkish congressman\"; \"warlike policies\""
+        angloform:
+          status: gap
+      - wordnet: "00083003"
+        gloss: "showing a fighting disposition; \"highly competitive sales representative\"; \"militant in fighting for better wages for workers\"; \"his self-assertive and ubiquitous energy\""
+        angloform:
+          status: gap
+      - wordnet: "01742537"
+        gloss: "engaged in war; \"belligerent (or warring) nations\""
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01242101"
+        gloss: "favorable to life and growth; \"soil sufficiently hospitable for forest growth\"; \"a hospitable environment\""
+        angloform:
+          status: gap
+      - wordnet: "01243825"
+        gloss: "disposed to treat guests and strangers with cordiality and generosity; \"a good-natured and hospitable man\"; \"a hospitable act\"; \"hospitable invitations\""
+        angloform:
+          status: gap
+      - wordnet: "01986134"
+        gloss: "having an open mind; \"hospitable to new ideas\"; \"open to suggestions\""
+        angloform:
+          status: gap

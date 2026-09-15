@@ -1,0 +1,86 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02796995"
+        gloss: "a room or establishment where alcoholic drinks are served over a counter; \"he drowned his sorrows in whiskey at the bar\""
+        angloform:
+          status: gap
+      - wordnet: "02789487"
+        gloss: "a counter where you can obtain food or drink; \"he bought a hot dog and a coke at the bar\""
+        angloform:
+          status: gap
+      - wordnet: "02788689"
+        gloss: "a rigid piece of metal or wood; usually used as a fastening or obstruction or weapon; \"there were bars in the windows to prevent escape\""
+        angloform:
+          status: gap
+      - wordnet: "06864725"
+        gloss: "musical notation for a repeating pattern of musical beats; \"the orchestra omitted the last twelve bars of the song\""
+        angloform:
+          status: gap
+      - wordnet: "02789271"
+        gloss: "an obstruction (usually metal) placed at the top of a goal; \"it was an excellent kick but the ball hit the bar\""
+        angloform:
+          status: gap
+      - wordnet: "01077350"
+        gloss: "the act of preventing; \"there was no bar against leaving\"; \"money was allocated to study the cause and prevention of influenza\""
+        angloform:
+          status: gap
+      - wordnet: "13711855"
+        gloss: "(meteorology) a unit of pressure equal to a million dynes per square centimeter; \"unfortunately some writers have used bar for one dyne per square centimeter\""
+        angloform:
+          status: gap
+      - wordnet: "09214060"
+        gloss: "a submerged (or partly submerged) ridge in a river or along a shore; \"the boat ran aground on a submerged bar in the river\""
+        angloform:
+          status: gap
+      - wordnet: "08112402"
+        gloss: "the body of individuals qualified to practice law in a particular jurisdiction; \"he was admitted to the bar in New Jersey\""
+        angloform:
+          status: gap
+      - wordnet: "04683136"
+        gloss: "a narrow marking of a different color or texture from the background; \"a green toad with small black stripes or bars\"; \"may the Stars and Stripes forever wave\""
+        angloform:
+          status: gap
+      - wordnet: "02937469"
+        gloss: "a block of solid substance (such as soap or wax); \"a bar of chocolate\""
+        angloform:
+          status: gap
+      - wordnet: "02907391"
+        gloss: a portable .30 caliber automatic rifle operated by gas pressure and fed by cartridges from a magazine; used by United States troops in World War I and in World War II and in the Korean War
+        angloform:
+          status: gap
+      - wordnet: "02790154"
+        gloss: a horizontal rod that serves as a support for gymnasts as they perform exercises
+        angloform:
+          status: gap
+      - wordnet: "02790012"
+        gloss: "a heating element in an electric fire; \"an electric fire with three bars\""
+        angloform:
+          status: gap
+      - wordnet: "02789770"
+        gloss: "(law) a railing that encloses the part of the courtroom where the judges and lawyers sit and the case is tried; \"spectators were not allowed past the bar\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00796588"
+        gloss: "prevent from entering; keep out; \"He was barred from membership in the club\""
+        angloform:
+          status: redirect
+          word: exclude
+          category: VERB_TRANS
+      - wordnet: "01478002"
+        gloss: "render unsuitable for passage; \"block the way\"; \"barricade the streets\"; \"stop the busy road\""
+        angloform:
+          status: redirect
+          word: stop
+          category: VERB_TRANS
+      - wordnet: "02503803"
+        gloss: "expel, as if by official decree; \"he was banished from his own country\""
+        angloform:
+          status: gap
+      - wordnet: "01342910"
+        gloss: "secure with, or as if with, bars; \"He barred the door\""
+        angloform:
+          status: gap

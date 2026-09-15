@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "03150985"
+        gloss: "involved in a kind of operation; \"the operating conditions of the oxidation pond\""
+        angloform:
+          status: gap
+      - wordnet: "00833018"
+        gloss: "being in effect or operation; \"de facto apartheid is still operational even in the `new' African nations\"- Leslie Marmon Silko; \"bus service is in operation during the emergency\"; \"the company had several operating divisions\""
+        angloform:
+          status: gap

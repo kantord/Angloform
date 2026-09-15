@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01885430"
+        gloss: "be agitated; \"the sea was churning in the storm\""
+        angloform:
+          status: gap
+      - wordnet: "01419729"
+        gloss: make turbid by stirring up the sediments of
+        angloform:
+          status: gap

@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14785941"
+        gloss: (chemistry) an ionic compound that resists changes in its pH
+        angloform:
+          status: gap
+      - wordnet: "08688424"
+        gloss: a neutral zone between two rival powers that is created in order to diminish the danger of conflict
+        angloform:
+          status: gap
+      - wordnet: "03328201"
+        gloss: an inclined metal frame at the front of a locomotive to clear the track
+        angloform:
+          status: gap
+      - wordnet: "02911485"
+        gloss: (computer science) a part of RAM used for temporary storage of data that is waiting to be sent to a device; used to compensate for differences in the rate of flow of data between components of a computer system
+        angloform:
+          status: gap
+      - wordnet: "02911332"
+        gloss: a power tool used to buff surfaces
+        angloform:
+          status: gap
+      - wordnet: "02911158"
+        gloss: a cushion-like device that reduces shock due to an impact
+        angloform:
+          status: gap
+      - wordnet: "02910964"
+        gloss: an implement consisting of soft material mounted on a block; used for polishing (as in manicuring)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00513344"
+        gloss: "add a buffer (a solution); \"buffered saline solution for the eyes\""
+        angloform:
+          status: gap
+      - wordnet: "01576917"
+        gloss: "protect from impact; \"cushion the blow\""
+        angloform:
+          status: gap

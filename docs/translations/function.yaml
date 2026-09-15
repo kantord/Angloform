@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13783816"
+        gloss: (mathematics) a mathematical relation such that each element of a given set (the domain of the function) is associated with an element of another set (the range of the function)
+        angloform:
+          status: gap
+      - wordnet: "05149325"
+        gloss: "what something is used for; \"the function of an auger is to bore holes\"; \"ballet is beautiful but what use is it?\""
+        angloform:
+          status: redirect
+          word: purpose
+          category: NOUN
+      - wordnet: "00720565"
+        gloss: "the actions and activities assigned to or required or expected of a person or group; \"the function of a teacher\"; \"the government must do its part\"; \"play its role\""
+        angloform:
+          status: redirect
+          word: part
+          category: NOUN
+      - wordnet: "13781164"
+        gloss: "a relation such that one thing is dependent on another; \"height is a function of age\"; \"price is a function of supply and demand\""
+        angloform:
+          status: gap
+      - wordnet: "08252467"
+        gloss: "a formal or official social gathering or ceremony; \"it was a black-tie function\""
+        angloform:
+          status: gap
+      - wordnet: "07447261"
+        gloss: "a vaguely specified social event; \"the party was quite an affair\"; \"an occasion arranged to honor the president\"; \"a seemingly endless round of social functions\""
+        angloform:
+          status: gap
+      - wordnet: "06582403"
+        gloss: a set sequence of steps, part of larger computer program
+        angloform:
+          status: redirect
+          word: procedure
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01525666"
+        gloss: "perform as expected when applied; \"The washing machine won't go unless it's plugged in\"; \"Does this old car still run well?\"; \"This old radio doesn't work anymore\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "02670890"
+        gloss: "serve a purpose, role, or function; \"The tree stump serves as a table\"; \"The female students served as a control group\"; \"This table would serve very well\"; \"His freedom served him well\"; \"The table functions as a desk\""
+        angloform:
+          status: gap
+      - wordnet: "01096497"
+        gloss: "perform duties attached to a particular office or place or function; \"His wife officiated as his private secretary\""
+        angloform:
+          status: gap

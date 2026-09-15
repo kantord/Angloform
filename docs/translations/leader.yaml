@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09623038"
+        gloss: a person who rules or guides or inspires others
+        angloform:
+          status: gap
+      - wordnet: "03234795"
+        gloss: a featured article of merchandise sold at a loss in order to draw customers
+        angloform:
+          status: gap

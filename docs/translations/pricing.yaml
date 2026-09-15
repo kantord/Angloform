@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05736736"
+        gloss: the evaluation of something in terms of its price
+        angloform:
+          status: gap

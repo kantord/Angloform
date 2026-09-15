@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10659294"
+        gloss: someone who cuts or carves stone
+        angloform:
+          status: gap
+      - wordnet: "09985470"
+        gloss: someone who carves the meat
+        angloform:
+          status: gap
+      - wordnet: "09985279"
+        gloss: someone whose work is cutting (as e.g. cutting cloth for garments)
+        angloform:
+          status: gap
+      - wordnet: "04409128"
+        gloss: a boat for communication between ship and shore
+        angloform:
+          status: gap
+      - wordnet: "03154316"
+        gloss: a sailing vessel with a single mast set further back than the mast of a sloop
+        angloform:
+          status: gap
+      - wordnet: "03154073"
+        gloss: a cutting implement; a tool for cutting
+        angloform:
+          status: gap

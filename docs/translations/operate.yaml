@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02443849"
+        gloss: "direct or control; projects, businesses, etc.; \"She is running a relief operation in the Sudan\""
+        angloform:
+          status: gap
+      - wordnet: "01525666"
+        gloss: "perform as expected when applied; \"The washing machine won't go unless it's plugged in\"; \"Does this old car still run well?\"; \"This old radio doesn't work anymore\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "01224744"
+        gloss: "handle and cause to function; \"do not operate machinery after imbibing alcohol\"; \"control the lever\""
+        angloform:
+          status: gap
+      - wordnet: "01109863"
+        gloss: perform a movement in military or naval tactics in order to secure an advantage in attack or defense
+        angloform:
+          status: gap
+      - wordnet: "00341285"
+        gloss: "happen; \"What is going on in the minds of the people?\""
+        angloform:
+          status: gap
+      - wordnet: "01510827"
+        gloss: "keep engaged; \"engaged the gears\""
+        angloform:
+          status: gap
+      - wordnet: "00083809"
+        gloss: "perform surgery on; \"The doctors operated on the patient but failed to save his life\""
+        angloform:
+          status: gap

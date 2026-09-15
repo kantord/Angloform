@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05257593"
+        gloss: the style in which hair has been cut
+        angloform:
+          status: gap
+      - wordnet: "00359822"
+        gloss: the act of cutting the hair
+        angloform:
+          status: gap

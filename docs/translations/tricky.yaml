@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02466734"
+        gloss: "not to be trusted; \"how extraordinarily slippery a liar the camera is\"- James Agee"
+        angloform:
+          status: gap
+      - wordnet: "00746819"
+        gloss: "having concealed difficulty; \"a catchy question\"; \"a tricky recipe to follow\""
+        angloform:
+          status: gap
+      - wordnet: "00148078"
+        gloss: "marked by skill in deception; \"cunning men often pass for wise\"; \"deep political machinations\"; \"a foxy scheme\"; \"a slick evasive answer\"; \"sly as a fox\"; \"tricky Dick\"; \"a wily old attorney\""
+        angloform:
+          status: gap

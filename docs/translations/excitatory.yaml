@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02309971"
+        gloss: (of drugs e.g.) able to excite or stimulate
+        angloform:
+          status: gap

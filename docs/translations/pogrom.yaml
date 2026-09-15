@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00421210"
+        gloss: organized persecution of an ethnic group (especially Jews)
+        angloform:
+          status: gap

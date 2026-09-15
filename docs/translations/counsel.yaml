@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09775663"
+        gloss: a lawyer who pleads cases in court
+        angloform:
+          status: gap
+      - wordnet: "06650701"
+        gloss: something that provides direction or advice as to a decision or course of action
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00872886"
+        gloss: "give advice to; \"The teacher counsels troubled students\"; \"The lawyer counselled me when I was accused of tax fraud\""
+        angloform:
+          status: gap

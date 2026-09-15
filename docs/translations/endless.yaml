@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01439784"
+        gloss: "tiresomely long; seemingly without end; \"endless debates\"; \"an endless conversation\"; \"the wait seemed eternal\"; \"eternal quarreling\"; \"an interminable sermon\""
+        angloform:
+          status: gap
+      - wordnet: "01008174"
+        gloss: "infinitely great in number; \"endless waves\""
+        angloform:
+          status: gap
+      - wordnet: "01007947"
+        gloss: "having no known beginning and presumably no end; \"the dateless rise and fall of the tides\"; \"time is endless\"; \"sempiternal truth\""
+        angloform:
+          status: gap
+      - wordnet: "00596211"
+        gloss: "having the ends united so as to form a continuous whole; \"an endless chain\""
+        angloform:
+          status: gap

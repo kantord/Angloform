@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06416206"
+        gloss: "a book or pamphlet containing an enumeration of things; \"he found it in the Sears catalog\""
+        angloform:
+          status: gap
+      - wordnet: "06487897"
+        gloss: "a complete list of things; usually arranged systematically; \"it does not pretend to be a catalog of his achievements\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01626844"
+        gloss: "make a catalogue, compile a catalogue; \"She spends her weekends cataloguing\""
+        angloform:
+          status: gap
+      - wordnet: "00652622"
+        gloss: "make an itemized list or catalog of; classify; \"He is cataloguing his photographic negatives\""
+        angloform:
+          status: gap

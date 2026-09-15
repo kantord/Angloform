@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13258362"
+        gloss: the excess of revenues over outlays in a given period of time (including depreciation and other non-cash expenses)
+        angloform:
+          status: gap
+      - wordnet: "05157574"
+        gloss: the advantageous quality of being beneficial
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02290461"
+        gloss: "derive a benefit from; \"She profited from his vast experience\""
+        angloform:
+          status: redirect
+          word: gain
+          category: VERB_TRANS
+      - wordnet: "02278830"
+        gloss: "make a profit; gain money or materially; \"The company has not profited from the merger\""
+        angloform:
+          status: gap

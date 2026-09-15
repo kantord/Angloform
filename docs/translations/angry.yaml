@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00113818"
+        gloss: "feeling or showing anger; \"angry at the weather\"; \"angry customers\"; \"an angry silence\"; \"sending angry letters to the papers\""
+        angloform:
+          status: gap
+      - wordnet: "00304144"
+        gloss: "(of the elements) as if showing violent anger; \"angry clouds on the horizon\"; \"furious winds\"; \"the raging sea\""
+        angloform:
+          status: gap
+      - wordnet: "01173697"
+        gloss: "severely inflamed and painful; \"an angry sore\""
+        angloform:
+          status: gap

@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13809207"
+        gloss: "something determined in relation to something that includes it; \"he wanted to feel a part of something bigger than himself\"; \"I read a portion of the manuscript\"; \"the smaller component is hard to reach\"; \"the animal constituent of plankton\""
+        angloform:
+          status: redirect
+          word: part
+          category: NOUN
+      - wordnet: "03892891"
+        gloss: "something less than the whole of a human artifact; \"the rear part of the house\"; \"glue the two parts together\""
+        angloform:
+          status: redirect
+          word: part
+          category: NOUN
+      - wordnet: "01085098"
+        gloss: "the allotment of some amount by dividing something; \"death gets more than its share of attention from theologians\""
+        angloform:
+          status: redirect
+          word: share
+          category: NOUN
+      - wordnet: "13285176"
+        gloss: "assets belonging to or due to or contributed by an individual person or group; \"he wanted his share in cash\""
+        angloform:
+          status: redirect
+          word: share
+          category: NOUN
+      - wordnet: "14473222"
+        gloss: "your overall circumstances or condition in life (including everything that happens to you); \"whatever my fortune may be\"; \"deserved a better fate\"; \"has a happy lot\"; \"the luck of the Irish\"; \"a victim of circumstances\"; \"success that was her portion\""
+        angloform:
+          status: gap
+      - wordnet: "13265425"
+        gloss: money or property brought by a woman to her husband at marriage
+        angloform:
+          status: gap
+      - wordnet: "07578363"
+        gloss: "an individual quantity of food or drink taken as part of a meal; \"the helpings were all small\"; \"his portion was larger than hers\"; \"there's enough for two servings each\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02228698"
+        gloss: "give out; \"We were assigned new uniforms\""
+        angloform:
+          status: gap

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03459914"
+        gloss: a restaurant where food is cooked on a grill
+        angloform:
+          status: gap
+      - wordnet: "03459591"
+        gloss: "a framework of metal bars used as a partition or a grate; \"he cooked hamburgers on the grill\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00326773"
+        gloss: "cook over a grill; \"grill the sausages\""
+        angloform:
+          status: gap
+      - wordnet: "00788821"
+        gloss: "examine thoroughly; \"the student was grilled for two hours on the subject of phonology\""
+        angloform:
+          status: gap

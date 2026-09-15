@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05670710"
+        gloss: "something that interests you because it is important or affects you; \"the safety of the ship is the captain's concern\""
+        angloform:
+          status: gap
+      - wordnet: "07524529"
+        gloss: "an anxious feeling; \"care had aged him\"; \"they hushed it up out of fear of public reaction\""
+        angloform:
+          status: gap
+      - wordnet: "07504841"
+        gloss: "a feeling of sympathy for someone or something; \"She felt strong concern for those less fortunate\""
+        angloform:
+          status: gap
+      - wordnet: "05832264"
+        gloss: "something or someone that causes anxiety; a source of unhappiness; \"New York traffic is a constant concern\"; \"it's a major worry\""
+        angloform:
+          status: gap
+      - wordnet: "08061042"
+        gloss: "a commercial or industrial enterprise and the people who constitute it; \"he bought his brother's business\"; \"a small mom-and-pop business\"; \"a racially integrated business concern\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02676054"
+        gloss: "be relevant to; \"There were lots of questions referring to her talk\"; \"My remark pertained to your earlier comments\""
+        angloform:
+          status: redirect
+          word: refer
+          category: VERB_INTRANS
+      - wordnet: "02678438"
+        gloss: "be on the mind of; \"I worry about the second Germanic consonant shift\""
+        angloform:
+          status: gap

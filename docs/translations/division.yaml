@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08213205"
+        gloss: "an army unit large enough to sustain combat; \"two infantry divisions were held in reserve\""
+        angloform:
+          status: gap
+      - wordnet: "05867413"
+        gloss: "one of the portions into which something is regarded as divided and which together constitute a whole; \"the written part of the exam\"; \"the finance section of the company\"; \"the BBC's engineering division\""
+        angloform:
+          status: redirect
+          word: part
+          category: NOUN
+      - wordnet: "00385791"
+        gloss: the act or process of dividing
+        angloform:
+          status: gap
+      - wordnet: "08220714"
+        gloss: an administrative unit in government or business
+        angloform:
+          status: gap
+      - wordnet: "07181842"
+        gloss: discord that splits a group
+        angloform:
+          status: gap
+      - wordnet: "08239808"
+        gloss: "a league ranked by quality; \"he played baseball in class D for two years\"; \"Princeton is in the NCAA Division 1-AA\""
+        angloform:
+          status: redirect
+          word: class
+          category: NOUN
+      - wordnet: "08221348"
+        gloss: (biology) a group of organisms forming a subdivision of a larger category
+        angloform:
+          status: gap
+      - wordnet: "08220891"
+        gloss: (botany) taxonomic unit of plants corresponding to a phylum
+        angloform:
+          status: gap
+      - wordnet: "08219330"
+        gloss: a unit of the United States Air Force usually comprising two or more wings
+        angloform:
+          status: gap
+      - wordnet: "08219226"
+        gloss: a group of ships of similar type
+        angloform:
+          status: gap
+      - wordnet: "00870912"
+        gloss: an arithmetic operation that is the inverse of multiplication; the quotient of two numbers is computed
+        angloform:
+          status: gap
+      - wordnet: "00397953"
+        gloss: the act of dividing or partitioning; separation by the creation of a boundary that divides or keeps apart
+        angloform:
+          status: gap

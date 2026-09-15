@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00063724"
+        gloss: "cause inflammation in; \"The repetitive motion inflamed her joint\""
+        angloform:
+          status: gap
+      - wordnet: "02761685"
+        gloss: "catch fire; \"The dried grass of the prairie kindled, spreading the flames for miles\""
+        angloform:
+          status: gap
+      - wordnet: "02761372"
+        gloss: "cause to start burning; \"The setting sun kindled the sky with oranges and reds\""
+        angloform:
+          status: gap
+      - wordnet: "01761120"
+        gloss: "arouse or excite feelings and passions; \"The ostentatious way of living of the rich ignites the hatred of the poor\"; \"The refugees' fate stirred up compassion around the world\"; \"Wake old feelings of hatred\""
+        angloform:
+          status: gap
+      - wordnet: "00063557"
+        gloss: "become inflamed; get sore; \"His throat inflamed\""
+        angloform:
+          status: gap

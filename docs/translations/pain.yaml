@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14322699"
+        gloss: "a symptom of some physical hurt or disorder; \"the patient developed severe pain and distension\""
+        angloform:
+          status: gap
+      - wordnet: "07494363"
+        gloss: "emotional distress; a fundamental feeling that people try to avoid; \"the pain of loneliness\""
+        angloform:
+          status: gap
+      - wordnet: "05724694"
+        gloss: "a somatic sensation of acute discomfort; \"as the intensity increased the sensation changed from tickle to pain\""
+        angloform:
+          status: gap
+      - wordnet: "10391513"
+        gloss: "a bothersome annoying person; \"that kid is a terrible pain\""
+        angloform:
+          status: gap
+      - wordnet: "05830059"
+        gloss: "something or someone that causes trouble; a source of unhappiness; \"washing dishes was a nuisance before we got a dish washer\"; \"a bit of a bother\"; \"he's not a friend, he's an infliction\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00070816"
+        gloss: cause bodily suffering to and make sick or indisposed
+        angloform:
+          status: gap
+      - wordnet: "01792567"
+        gloss: "cause emotional anguish or make miserable; \"It pains me to see my children not being taught well in school\""
+        angloform:
+          status: redirect
+          word: hurt
+          category: VERB_TRANS

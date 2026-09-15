@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05024254"
+        gloss: the property of a body that causes it to have weight in a gravitational field
+        angloform:
+          status: gap
+      - wordnet: "13774404"
+        gloss: "(often followed by `of') a large number or amount or extent; \"a batch of letters\"; \"a deal of trouble\"; \"a lot of money\"; \"he made a mint on the stock market\"; \"see the rest of the winners in our huge passel of photos\"; \"it must have cost plenty\"; \"a slew of journalists\"; \"a wad of money\""
+        angloform:
+          status: gap
+      - wordnet: "07962124"
+        gloss: an ill-structured collection of similar things (objects or people)
+        angloform:
+          status: gap
+      - wordnet: "01042242"
+        gloss: (Roman Catholic Church and Protestant Churches) the celebration of the Eucharist
+        angloform:
+          status: gap
+      - wordnet: "09348055"
+        gloss: "a body of matter without definite shape; \"a huge ice mass\""
+        angloform:
+          status: gap
+      - wordnet: "08180190"
+        gloss: "the common people generally; \"separate the warriors from the mass\"; \"power to the people\""
+        angloform:
+          status: gap
+      - wordnet: "05099389"
+        gloss: "the property of something that is great in magnitude; \"it is cheaper to buy it in bulk\"; \"he received a mass of correspondence\"; \"the volume of exports\""
+        angloform:
+          status: gap
+      - wordnet: "07033753"
+        gloss: "a musical setting for a Mass; \"they played a Mass composed by Beethoven\""
+        angloform:
+          status: gap
+      - wordnet: "07033613"
+        gloss: "a sequence of prayers constituting the Christian Eucharistic rite; \"the priest said Mass\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02024168"
+        gloss: "join together into a mass or collect or form a mass; \"Crowds were massing outside the palace\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00467240"
+        gloss: "formed of separate units gathered into a mass or whole; \"aggregate expenses include expenses of all divisions combined for the entire year\"; \"the aggregated amount of indebtedness\""
+        angloform:
+          status: gap

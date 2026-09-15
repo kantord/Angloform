@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09222051"
+        gloss: "a small fragment of something broken off from the whole; \"a bit of rock caught him in the eye\""
+        angloform:
+          status: gap
+      - wordnet: "14857497"
+        gloss: worthless material that is to be disposed of
+        angloform:
+          status: gap
+      - wordnet: "04150668"
+        gloss: "a small piece of something that is left over after the rest has been used; \"she jotted it on a scrap of paper\"; \"there was not a scrap left\""
+        angloform:
+          status: gap
+      - wordnet: "01170962"
+        gloss: "the act of fighting; any contest or struggle; \"a fight broke out at the hockey game\"; \"there was fighting in the streets\"; \"the unhappy couple got into a terrible scrap\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02223238"
+        gloss: "dispose of (something useless or old); \"trash these old chairs\"; \"junk an old car\"; \"scrap your old computer\""
+        angloform:
+          status: gap
+      - wordnet: "00775156"
+        gloss: "have a disagreement over something; \"We quarreled over the question as to who discovered America\"; \"These two fellows are always scrapping over something\""
+        angloform:
+          status: gap
+      - wordnet: "00569870"
+        gloss: "make into scrap or refuse; \"scrap the old airplane and sell the parts\""
+        angloform:
+          status: gap

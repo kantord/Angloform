@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14837506"
+        gloss: the desired mineral that is left after impurities have been removed from mined ore
+        angloform:
+          status: gap
+      - wordnet: "07567390"
+        gloss: a concentrated form of a foodstuff; the bulk is reduced by removing water
+        angloform:
+          status: gap
+      - wordnet: "05937878"
+        gloss: "a concentrated example of something; \"the concentrate of contemporary despair\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00237511"
+        gloss: "make denser, stronger, or purer; \"concentrate juice\""
+        angloform:
+          status: gap
+      - wordnet: "00722232"
+        gloss: "direct one's attention on something; \"Please focus on your studies and not on your hobbies\""
+        angloform:
+          status: gap
+      - wordnet: "00405236"
+        gloss: "make central; \"The Russian government centralized the distribution of food\""
+        angloform:
+          status: gap
+      - wordnet: "00244625"
+        gloss: "make more concise; \"condense the contents of a book into a summary\""
+        angloform:
+          status: gap
+      - wordnet: "02032934"
+        gloss: "draw together or meet in one common center; \"These groups concentrate in the inner cities\""
+        angloform:
+          status: gap
+      - wordnet: "00365188"
+        gloss: "compress or concentrate; \"Congress condensed the three-year plan into a six-month plan\""
+        angloform:
+          status: gap
+      - wordnet: "00237259"
+        gloss: "be cooked until very little liquid is left; \"The sauce should reduce to one cup\""
+        angloform:
+          status: redirect
+          word: reduce
+          category: VERB_TRANS
+      - wordnet: "00236999"
+        gloss: "cook until very little liquid is left; \"The cook reduced the sauce by boiling it for a long time\""
+        angloform:
+          status: redirect
+          word: reduce
+          category: VERB_TRANS

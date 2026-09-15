@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08437515"
+        gloss: a dense growth of bushes
+        angloform:
+          status: gap
+      - wordnet: "02908217"
+        gloss: an implement that has hairs or bristles firmly set into a handle
+        angloform:
+          status: gap
+      - wordnet: "07413714"
+        gloss: momentary contact
+        angloform:
+          status: gap
+      - wordnet: "02908605"
+        gloss: conducts current between rotating and stationary parts of a generator or motor
+        angloform:
+          status: gap
+      - wordnet: "02157954"
+        gloss: a bushy tail or part of a bushy tail (especially of the fox)
+        angloform:
+          status: gap
+      - wordnet: "00959376"
+        gloss: a minor short-term fight
+        angloform:
+          status: gap
+      - wordnet: "00656386"
+        gloss: "the act of brushing your teeth; \"the dentist recommended two brushes a day\""
+        angloform:
+          status: gap
+      - wordnet: "00256620"
+        gloss: "the act of brushing your hair; \"he gave his hair a quick brush\""
+        angloform:
+          status: gap
+      - wordnet: "00039545"
+        gloss: "contact with something dangerous or undesirable; \"I had a brush with danger on my way to work\"; \"he tried to avoid any brushes with the police\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01243809"
+        gloss: "rub with a brush, or as if with a brush; \"Johnson brushed the hairs from his jacket\""
+        angloform:
+          status: gap
+      - wordnet: "01240720"
+        gloss: "touch lightly and briefly; \"He brushed the wall lightly\""
+        angloform:
+          status: gap
+      - wordnet: "01243982"
+        gloss: "clean with a brush; \"She brushed the suit before hanging it back into the closet\""
+        angloform:
+          status: gap
+      - wordnet: "01870043"
+        gloss: "sweep across or over; \"Her long skirt brushed the floor\"; \"A gasp swept cross the audience\""
+        angloform:
+          status: gap
+      - wordnet: "00555780"
+        gloss: "remove with or as if with a brush; \"brush away the crumbs\"; \"brush the dust from the jacket\"; \"brush aside the objections\""
+        angloform:
+          status: gap
+      - wordnet: "01373718"
+        gloss: "cover by brushing; \"brush the bread with melted butter\""
+        angloform:
+          status: gap

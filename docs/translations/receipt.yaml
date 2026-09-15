@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00090253"
+        gloss: the act of receiving
+        angloform:
+          status: gap
+      - wordnet: "06520222"
+        gloss: an acknowledgment (usually tangible) that payment has been made
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00892698"
+        gloss: "report the receipt of; \"The program committee acknowledged the submission of the authors of the paper\""
+        angloform:
+          status: gap
+      - wordnet: "00662485"
+        gloss: mark or stamp as paid
+        angloform:
+          status: gap

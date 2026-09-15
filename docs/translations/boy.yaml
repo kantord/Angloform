@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10285313"
+        gloss: "a youthful male person; \"the baby was a boy\"; \"she made the boy brush his teeth every night\"; \"most soldiers are only boys in uniform\""
+        angloform:
+          status: gap
+      - wordnet: "09870926"
+        gloss: "a friendly informal reference to a grown man; \"he likes to play golf with the boys\""
+        angloform:
+          status: gap
+      - wordnet: "10624074"
+        gloss: "a male human offspring; \"their son became a famous judge\"; \"his boy is taller than he is\""
+        angloform:
+          status: gap
+      - wordnet: "09637837"
+        gloss: "(ethnic slur) offensive and disparaging term for Black man; \"get out of my way, boy\""
+        angloform:
+          status: gap

@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03517509"
+        gloss: a portable brazier that burns charcoal and has a grill for cooking
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00327010"
+        gloss: cook over a hibachi grill
+        angloform:
+          status: gap

@@ -1,0 +1,84 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02131653"
+        gloss: massive plantigrade carnivorous or omnivorous mammals with long shaggy coats and strong claws
+        angloform:
+          status: gap
+      - wordnet: "09845191"
+        gloss: an investor with a pessimistic market outlook; an investor who expects prices to fall and so sells now in order to buy later at a lower price
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02630871"
+        gloss: "have; \"bear a resemblance\"; \"bear a signature\""
+        angloform:
+          status: gap
+      - wordnet: "00056930"
+        gloss: "cause to be born; \"My wife had twins yesterday!\""
+        angloform:
+          status: redirect
+          word: have
+          category: VERB_TRANS
+      - wordnet: "00668099"
+        gloss: "put up with something or somebody unpleasant; \"I cannot bear his constant criticism\"; \"The new secretary had to endure a lot of unprofessional remarks\"; \"he learned to tolerate the heat\"; \"She stuck out two years in a miserable marriage\""
+        angloform:
+          status: redirect
+          word: tolerate
+          category: VERB_TRANS
+      - wordnet: "01432601"
+        gloss: "move while holding up or supporting; \"Bear gifts\"; \"bear a heavy load\"; \"bear news\"; \"bearing orders\""
+        angloform:
+          status: gap
+      - wordnet: "01652139"
+        gloss: "bring forth, \"The apple tree bore delicious apples this year\"; \"The unidentified plant bore gorgeous flowers\""
+        angloform:
+          status: gap
+      - wordnet: "02301825"
+        gloss: "take on as one's own the expenses or debts of another person; \"I'll accept the charges\"; \"She agreed to bear the responsibility\""
+        angloform:
+          status: redirect
+          word: accept
+          category: VERB_TRANS
+      - wordnet: "02700867"
+        gloss: "contain or hold; have within; \"The jar carries wine\"; \"The canteen holds fresh water\"; \"This can contains water\""
+        angloform:
+          status: redirect
+          word: contain
+          category: VERB_TRANS
+      - wordnet: "02291708"
+        gloss: "bring in; \"interest-bearing accounts\"; \"How much does this savings certificate pay annually?\""
+        angloform:
+          status: redirect
+          word: pay
+          category: VERB_TRANS
+      - wordnet: "00047745"
+        gloss: "have on one's person; \"He wore a red ribbon\"; \"bear a scar\""
+        angloform:
+          status: gap
+      - wordnet: "02518161"
+        gloss: "behave in a certain manner; \"She carried herself well\"; \"he bore himself with dignity\"; \"They conducted themselves well during these difficult times\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "02302220"
+        gloss: "have rightfully; of rights, titles, and offices; \"She bears the title of Duchess\"; \"He held the governorship for almost a decade\""
+        angloform:
+          status: redirect
+          word: hold
+          category: VERB_TRANS
+      - wordnet: "01601234"
+        gloss: "support or hold in a certain manner; \"She holds her head high\"; \"He carried himself upright\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "00059019"
+        gloss: "be pregnant with; \"She is bearing his child\"; \"The are expecting another child in January\"; \"I am carrying his child\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06193203"
+        gloss: "a complex mental state involving beliefs and feelings and values and dispositions to act in certain ways; \"he had the attitude that work was fun\""
+        angloform:
+          status: gap
+      - wordnet: "05079866"
+        gloss: "the arrangement of the body and its limbs; \"he assumed an attitude of surrender\""
+        angloform:
+          status: redirect
+          word: position
+          category: NOUN
+      - wordnet: "00755863"
+        gloss: "a theatrical pose created for effect; \"the actor struck just the right attitude\""
+        angloform:
+          status: gap
+      - wordnet: "13828343"
+        gloss: position of aircraft or spacecraft relative to a frame of reference (the horizon or direction of motion)
+        angloform:
+          status: gap

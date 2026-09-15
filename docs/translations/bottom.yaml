@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08511241"
+        gloss: the lower side of anything
+        angloform:
+          status: gap
+      - wordnet: "08511970"
+        gloss: "the lowest part of anything; \"they started at the bottom of the hill\""
+        angloform:
+          status: gap
+      - wordnet: "05559256"
+        gloss: "the fleshy part of the human body that you sit on; \"he deserves a good kick in the butt\"; \"are you going to sit on your fanny and do nothing?\""
+        angloform:
+          status: gap
+      - wordnet: "15256245"
+        gloss: the second half of an inning; while the home team is at bat
+        angloform:
+          status: gap
+      - wordnet: "09217638"
+        gloss: "a depression forming the ground under a body of water; \"he searched for treasure on the ocean bed\""
+        angloform:
+          status: gap
+      - wordnet: "09227428"
+        gloss: low-lying alluvial land near a river
+        angloform:
+          status: gap
+      - wordnet: "02878222"
+        gloss: "a cargo ship; \"they did much of their overseas trade in foreign bottoms\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02337699"
+        gloss: "provide with a bottom or a seat; \"bottom the chairs\""
+        angloform:
+          status: gap
+      - wordnet: "01238358"
+        gloss: "strike the ground, as with a ship's bottom"
+        angloform:
+          status: gap
+      - wordnet: "00728954"
+        gloss: come to understand
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02440691"
+        gloss: "situated at the bottom or lowest position; \"the bottom drawer\""
+        angloform:
+          status: gap
+      - wordnet: "00229978"
+        gloss: "the lowest rank; \"bottom member of the class\""
+        angloform:
+          status: gap

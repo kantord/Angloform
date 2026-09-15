@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00544478"
+        gloss: "having or showing excessive or compulsive concern with something; \"became more and more haunted by the stupid riddle\"; \"was absolutely obsessed with the girl\"; \"got no help from his wife who was preoccupied with the children\"; \"he was taken up in worry for the old woman\""
+        angloform:
+          status: gap
+      - wordnet: "00599468"
+        gloss: "influenced or controlled by a powerful force such as a strong emotion; \"by love possessed\""
+        angloform:
+          status: gap

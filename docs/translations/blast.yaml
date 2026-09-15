@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00128867"
+        gloss: a very long fly ball
+        angloform:
+          status: gap
+      - wordnet: "07376257"
+        gloss: a sudden very loud noise
+        angloform:
+          status: gap
+      - wordnet: "11465017"
+        gloss: "a strong current of air; \"the tree was bent almost double by the gust\""
+        angloform:
+          status: gap
+      - wordnet: "07408171"
+        gloss: an explosion (as of dynamite)
+        angloform:
+          status: gap
+      - wordnet: "07287288"
+        gloss: "a highly pleasurable or exciting experience; \"we had a good time at the party\"; \"celebrating after the game was a blast\""
+        angloform:
+          status: gap
+      - wordnet: "06711159"
+        gloss: "intense adverse criticism; \"Clinton directed his fire at the Republican Party\"; \"the government has come under attack\"; \"don't give me any flak\""
+        angloform:
+          status: redirect
+          word: fire
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "02182479"
+        gloss: "make a strident sound; \"She tended to blast when speaking into a microphone\""
+        angloform:
+          status: gap
+      - wordnet: "01401772"
+        gloss: "hit hard; \"He smashed a 3-run homer\""
+        angloform:
+          status: gap
+      - wordnet: "01135922"
+        gloss: "use explosives on; \"The enemy has been shelling us all day\""
+        angloform:
+          status: gap
+      - wordnet: "02101216"
+        gloss: "apply a draft or strong wind to to; \"the air conditioning was blasting cold air at us\""
+        angloform:
+          status: gap
+      - wordnet: "01759021"
+        gloss: "create by using explosives; \"blast a passage through the mountain\""
+        angloform:
+          status: gap
+      - wordnet: "01758276"
+        gloss: "make with or as if with an explosion; \"blast a tunnel through the Alps\""
+        angloform:
+          status: gap
+      - wordnet: "01134781"
+        gloss: "fire a shot; \"the gunman blasted away\""
+        angloform:
+          status: gap
+      - wordnet: "00823827"
+        gloss: "criticize harshly or violently; \"The press savaged the new President\"; \"The critics crucified the author for plagiarizing a famous passage\""
+        angloform:
+          status: gap
+      - wordnet: "00336158"
+        gloss: shatter as if by explosion
+        angloform:
+          status: gap
+      - wordnet: "00241924"
+        gloss: shrivel or wither or mature imperfectly
+        angloform:
+          status: gap

@@ -1,0 +1,25 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00127948"
+        gloss: "immediately following in time or order; \"the following day\"; \"next in line\"; \"the next president\"; \"the next item on the list\""
+        angloform:
+          status: gap
+      - wordnet: "00447472"
+        gloss: "nearest in space or position; immediately adjoining without intervening space; \"had adjacent rooms\"; \"in the next room\"; \"the person sitting next to me\"; \"our rooms were side by side\""
+        angloform:
+          status: gap
+      - wordnet: "01294975"
+        gloss: "(of elected officers) elected but not yet serving; \"our next president\""
+        angloform:
+          status: redirect
+          word: future
+          category: ADJ
+  ADV:
+    senses:
+      - wordnet: "00054212"
+        gloss: "at the time or occasion immediately following; \"next the doctor examined his back\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

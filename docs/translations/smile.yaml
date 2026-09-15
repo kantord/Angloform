@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06878071"
+        gloss: a facial expression characterized by turning up the corners of the mouth; usually shows pleasure or amusement
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00028565"
+        gloss: "change one's facial expression by spreading the lips, often to signal pleasure"
+        angloform:
+          status: gap
+      - wordnet: "01067512"
+        gloss: "express with a smile; \"She smiled her thanks\""
+        angloform:
+          status: gap

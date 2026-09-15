@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00374804"
+        gloss: "in an ingenious manner; \"a Hampshire farmer had fowls of different breeds, including Dorkings, and he discriminated ingeniously between the `dark ones' and the `white ones'\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

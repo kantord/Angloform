@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00883297"
+        gloss: "the activities of educating or instructing; activities that impart knowledge or skill; \"he received no formal education\"; \"our instruction was carefully programmed\"; \"good classroom teaching is seldom rewarded\""
+        angloform:
+          status: redirect
+          word: instruction
+          category: NOUN
+      - wordnet: "05984287"
+        gloss: "knowledge acquired by learning and instruction; \"it was clear that he had a very broad education\""
+        angloform:
+          status: gap
+      - wordnet: "05753564"
+        gloss: "the gradual process of acquiring knowledge; \"education is a preparation for life\"; \"a girl's education was less important than a boy's\""
+        angloform:
+          status: gap
+      - wordnet: "00611433"
+        gloss: the profession of teaching (especially at a school or college or university)
+        angloform:
+          status: gap
+      - wordnet: "04921900"
+        gloss: "the result of good upbringing (especially knowledge of correct social behavior); \"a woman of breeding and refinement\""
+        angloform:
+          status: gap
+      - wordnet: "08132637"
+        gloss: the United States federal department that administers all federal programs dealing with education (including federal aid to educational institutions and students); created 1979
+        angloform:
+          status: gap

@@ -1,0 +1,80 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04468005"
+        gloss: "public transport provided by a line of railway cars coupled together and drawn by a locomotive; \"express trains don't stop at Princeton Junction\""
+        angloform:
+          status: gap
+      - wordnet: "08459648"
+        gloss: "a sequentially ordered set of things or events or ideas in which each successive member is related to the preceding; \"a string of islands\"; \"train of mourners\"; \"a train of thought\""
+        angloform:
+          status: redirect
+          word: string
+          category: NOUN
+      - wordnet: "08427629"
+        gloss: "a procession (of wagons or mules or camels) traveling together in single file; \"we were part of a caravan of almost a thousand camels\"; \"they joined the wagon train for safety\""
+        angloform:
+          status: gap
+      - wordnet: "07294777"
+        gloss: "a series of consequences wrought by an event; \"it led to a train of disasters\""
+        angloform:
+          status: gap
+      - wordnet: "04468476"
+        gloss: "piece of cloth forming the long back section of a gown that is drawn along the floor; \"the bride's train was carried by her two young nephews\""
+        angloform:
+          status: gap
+      - wordnet: "03431745"
+        gloss: "wheelwork consisting of a connected set of rotating gears by which force is transmitted or motion or torque is changed; \"the fool got his tie caught in the geartrain\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00603298"
+        gloss: "create by training and teaching; \"The old master is training world-class violinists\"; \"we develop the leaders for the future\""
+        angloform:
+          status: gap
+      - wordnet: "00602805"
+        gloss: "undergo training or instruction in preparation for a particular role, function, or profession; \"She is training to be a teacher\"; \"He trained as a legal aid\""
+        angloform:
+          status: gap
+      - wordnet: "02553697"
+        gloss: "develop (children's) behavior by instruction and practice; especially to teach self-control; \"Parents must discipline their children\"; \"Is this dog trained?\""
+        angloform:
+          status: redirect
+          word: check
+          category: VERB_TRANS
+      - wordnet: "02387034"
+        gloss: "educate for a future role or function; \"He is grooming his son to become his successor\"; \"The prince was prepared to become King one day\"; \"They trained him to be a warrior\""
+        angloform:
+          status: gap
+      - wordnet: "02388403"
+        gloss: "teach or refine to be discriminative in taste or judgment; \"Cultivate your musical taste\"; \"Train your tastebuds\"; \"She is well schooled in poetry\""
+        angloform:
+          status: gap
+      - wordnet: "01151110"
+        gloss: "point or cause to go (blows, weapons, or objects such as photographic equipment) towards; \"Please don't aim at your little brother!\"; \"He trained his gun on the burglar\"; \"Don't train your camera on the women\"; \"Take a swipe at one's opponent\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "00833702"
+        gloss: "teach and supervise (someone); act as a trainer or coach (to), as in sports; \"He is training our Olympic team\"; \"She is coaching the crew\""
+        angloform:
+          status: gap
+      - wordnet: "00100044"
+        gloss: "exercise in order to prepare for an event or competition; \"She is training for the Olympics\""
+        angloform:
+          status: gap
+      - wordnet: "02509552"
+        gloss: "cause to grow in a certain way by tying and pruning it; \"train the vine\""
+        angloform:
+          status: gap
+      - wordnet: "01936537"
+        gloss: "travel by rail or train; \"They railed from Rome to Venice\"; \"She trained to Hamburg\""
+        angloform:
+          status: gap
+      - wordnet: "01453969"
+        gloss: "drag loosely along a surface; allow to sweep the ground; \"The toddler was trailing his pants\"; \"She trained her long scarf behind her\""
+        angloform:
+          status: gap

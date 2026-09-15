@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00408205"
+        gloss: "in an essential manner; \"such expenses are necessarily incurred\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00112393"
+        gloss: "in such a manner as could not be otherwise; \"it is necessarily so\"; \"we must needs by objective\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00408375"
+        gloss: "as a highly likely consequence; \"we are necessarily bound for federalism in Europe\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02084071"
+        gloss: "a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds; \"the dog barked all night\""
+        angloform:
+          status: gap
+      - wordnet: "10114209"
+        gloss: "a dull unattractive unpleasant girl or woman; \"she got a reputation as a frump\"; \"she's a real dog\""
+        angloform:
+          status: gap
+      - wordnet: "10023039"
+        gloss: "informal term for a man; \"you lucky dog\""
+        angloform:
+          status: gap
+      - wordnet: "09886220"
+        gloss: "someone who is morally reprehensible; \"you dirty dog\""
+        angloform:
+          status: gap
+      - wordnet: "07676602"
+        gloss: a smooth-textured sausage of minced beef or pork usually smoked; often served on a bread roll
+        angloform:
+          status: gap
+      - wordnet: "03901548"
+        gloss: a hinged catch that fits into a notch of a ratchet to move a wheel forward or prevent it from moving backward
+        angloform:
+          status: gap
+      - wordnet: "02710044"
+        gloss: "metal supports for logs in a fireplace; \"the andirons were too hot to touch\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02001858"
+        gloss: "go after with the intent to catch; \"The policeman chased the mugger down the alley\"; \"the dog chased the rabbit\""
+        angloform:
+          status: gap

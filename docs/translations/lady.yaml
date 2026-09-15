@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10243137"
+        gloss: "a polite name for any woman; \"a nice lady at the library helped me\""
+        angloform:
+          status: gap
+      - wordnet: "09989290"
+        gloss: "a woman of refinement; \"a chauffeur opened the door of the limousine for the grand lady\""
+        angloform:
+          status: gap
+      - wordnet: "10242791"
+        gloss: a woman of the peerage in Britain
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13331778"
+        gloss: available source of wealth; a new or reserve supply that can be drawn upon when needed
+        angloform:
+          status: gap
+      - wordnet: "05154676"
+        gloss: "a source of aid or support that may be drawn upon when needed; \"the local library is a valuable resource\""
+        angloform:
+          status: gap
+      - wordnet: "05633860"
+        gloss: "the ability to deal resourcefully with unusual problems; \"a man of resource\""
+        angloform:
+          status: gap

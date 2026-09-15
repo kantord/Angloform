@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01246086"
+        gloss: the act of flipping a coin
+        angloform:
+          status: gap
+      - wordnet: "00105820"
+        gloss: "(sports) the act of throwing the ball to another member of your team; \"the pass was fumbled\""
+        angloform:
+          status: gap
+      - wordnet: "00345817"
+        gloss: "an abrupt movement; \"a toss of his head\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01512625"
+        gloss: "throw or toss with a light motion; \"flip me the beachball\"; \"toss me newspaper\""
+        angloform:
+          status: gap
+      - wordnet: "01893079"
+        gloss: "lightly throw to see which side comes up; \"I don't know what to do--I may as well flip a coin!\""
+        angloform:
+          status: gap
+      - wordnet: "01514525"
+        gloss: "throw carelessly; \"chuck the ball\""
+        angloform:
+          status: gap
+      - wordnet: "01890792"
+        gloss: "move or stir about violently; \"The feverish patient thrashed around in his bed\""
+        angloform:
+          status: gap
+      - wordnet: "02222318"
+        gloss: "throw or cast away; \"Put away your worries\""
+        angloform:
+          status: gap
+      - wordnet: "01418536"
+        gloss: "agitate; \"toss the salad\""
+        angloform:
+          status: gap

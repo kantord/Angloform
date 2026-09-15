@@ -1,0 +1,68 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06208751"
+        gloss: "a way of regarding situations or topics etc.; \"consider what follows from the positivist view\""
+        angloform:
+          status: redirect
+          word: position
+          category: NOUN
+      - wordnet: "05933246"
+        gloss: "the visual percept of a region; \"the most desirable feature of the park are the beautiful views\""
+        angloform:
+          status: redirect
+          word: aspect
+          category: NOUN
+      - wordnet: "00881649"
+        gloss: "the act of looking or seeing or observing; \"he tried to get a better view of it\"; \"his survey of the battlefield was limited\""
+        angloform:
+          status: gap
+      - wordnet: "08560952"
+        gloss: "the range of the eye; \"they were soon out of view\""
+        angloform:
+          status: gap
+      - wordnet: "05945642"
+        gloss: "a personal belief or judgment that is not founded on proof or certainty; \"my opinion differs from yours\"; \"I am not of your persuasion\"; \"what are your thoughts on Haiti?\""
+        angloform:
+          status: gap
+      - wordnet: "06782019"
+        gloss: "a message expressing a belief about something; the expression of a belief that is held with confidence but not substantiated by positive knowledge or proof; \"his opinions appeared frequently on the editorial page\""
+        angloform:
+          status: gap
+      - wordnet: "05983463"
+        gloss: "purpose; the phrase `with a view to' means `with the intention of' or `for the purpose of'; \"he took the computer with a view to pawning it\""
+        angloform:
+          status: gap
+      - wordnet: "04144782"
+        gloss: "graphic art consisting of the graphic or photographic representation of a visual percept; \"he painted scenes from everyday life\"; \"figure 2 shows photographic and schematic views of the equipment\""
+        angloform:
+          status: gap
+      - wordnet: "05127782"
+        gloss: "the range of interest or activity that can be anticipated; \"It is beyond the horizon of present knowledge\""
+        angloform:
+          status: gap
+      - wordnet: "04674861"
+        gloss: "outward appearance; \"they look the same in outward view\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00690614"
+        gloss: "deem to be; \"She views this quite differently from me\"; \"I consider her to be shallow\"; \"I don't see the situation quite as negatively as you do\""
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "02130300"
+        gloss: "look at carefully; study mentally; \"view a problem\""
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "02150948"
+        gloss: "see or watch; \"view a show on television\"; \"This program will be seen all over the world\"; \"view an exhibition\"; \"Catch a show on Broadway\"; \"see a movie\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS

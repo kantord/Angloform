@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05790758"
+        gloss: "something regarded with special favor or liking; \"that book is one of my favorites\""
+        angloform:
+          status: gap
+      - wordnet: "09991867"
+        gloss: a special loved one
+        angloform:
+          status: gap
+      - wordnet: "10113753"
+        gloss: a competitor thought likely to win
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01816376"
+        gloss: "appealing to the general public; \"a favorite tourist attraction\""
+        angloform:
+          status: gap
+      - wordnet: "01462882"
+        gloss: "preferred above all others and treated with partiality; \"the favored child\""
+        angloform:
+          status: gap

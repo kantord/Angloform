@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00437449"
+        gloss: "become more focus on an area of activity or field of study; \"She specializes in Near Eastern history\""
+        angloform:
+          status: redirect
+          word: narrow
+          category: VERB_TRANS
+      - wordnet: "01021973"
+        gloss: "be specific about; \"Could you please specify your criticism of my paper?\""
+        angloform:
+          status: gap
+      - wordnet: "00437732"
+        gloss: "suit to a special purpose; \"specialize one's research\"; \"this kind of beak has become specialized in certain Galapagos finches\""
+        angloform:
+          status: gap
+      - wordnet: "02446164"
+        gloss: "devote oneself to a special area of work; \"She specializes in honey bees\"; \"This baker specializes in French bread\""
+        angloform:
+          status: gap
+      - wordnet: "00119266"
+        gloss: evolve so as to lead to a new species or develop in a way most suited to the environment
+        angloform:
+          status: gap

@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00063172"
+        gloss: "in place of, or as an alternative to; \"Felix became a herpetologist instead\"; \"alternatively we could buy a used car\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00098714"
+        gloss: "on the contrary; \"rather than disappoint the children, he did two quick tricks before he left\"; \"he didn't call; rather (or instead), he wrote her a letter\"; \"used English terms instead of Latin ones\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

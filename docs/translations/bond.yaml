@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11436283"
+        gloss: an electrical force linking atoms
+        angloform:
+          status: gap
+      - wordnet: "13417410"
+        gloss: a certificate of debt (usually interest-bearing or discounted) that is issued by a government or corporation in order to raise money; the issuer is required to pay a fixed sum annually until maturity and then a fixed sum to repay the principal
+        angloform:
+          status: gap
+      - wordnet: "13792183"
+        gloss: "a connection based on kinship or marriage or common interest; \"the shifting alliances within a large family\"; \"their friendship constitutes a powerful bond between them\""
+        angloform:
+          status: gap
+      - wordnet: "13350976"
+        gloss: "(criminal law) money that must be forfeited by the bondsman if an accused person fails to appear in court for trial; \"the judge set bail at $10,000\"; \"a $10,000 bond was furnished by an alderman\""
+        angloform:
+          status: gap
+      - wordnet: "04181228"
+        gloss: a restraint that confines or restricts freedom (especially something used to tie down or restrain a prisoner)
+        angloform:
+          status: gap
+      - wordnet: "02755352"
+        gloss: a connection that fastens things together
+        angloform:
+          status: redirect
+          word: attachment
+          category: NOUN
+      - wordnet: "14782529"
+        gloss: a superior quality of strong durable white writing paper; originally made for printing documents
+        angloform:
+          status: gap
+      - wordnet: "10855987"
+        gloss: United States civil rights leader who was elected to the legislature in Georgia but was barred from taking his seat because he opposed the Vietnam War (born 1940)
+        angloform:
+          status: gap
+      - wordnet: "09590377"
+        gloss: British secret operative 007 in novels by Ian Fleming
+        angloform:
+          status: gap
+      - wordnet: "04935528"
+        gloss: "the property of sticking together (as of glue and wood) or the joining of surfaces of different composition; \"the mutual adhesiveness of cells\"; \"a heated hydraulic press was required for adhesion\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01356750"
+        gloss: "stick to firmly; \"Will this wallpaper adhere to the wall?\""
+        angloform:
+          status: gap
+      - wordnet: "02538086"
+        gloss: "create social or emotional ties; \"The grandparents want to bond with the child\""
+        angloform:
+          status: redirect
+          word: attach
+          category: VERB_INTRANS
+      - wordnet: "02351925"
+        gloss: issue bonds on
+        angloform:
+          status: gap
+      - wordnet: "01607072"
+        gloss: "bring together in a common cause or emotion; \"The death of their child had drawn them together\""
+        angloform:
+          status: gap

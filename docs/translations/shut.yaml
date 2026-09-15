@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01345109"
+        gloss: "move so that an opening or passage is obstructed; make shut; \"Close the door\"; \"shut the window\""
+        angloform:
+          status: gap
+      - wordnet: "01346978"
+        gloss: "become closed; \"The windows closed with a loud bang\""
+        angloform:
+          status: gap
+      - wordnet: "02449340"
+        gloss: "prevent from entering; shut out; \"The trees were shutting out all sunlight\"; \"This policy excludes people who have a criminal record from entering the country\""
+        angloform:
+          status: redirect
+          word: exclude
+          category: VERB_TRANS
+  ADJ:
+    senses:
+      - wordnet: "01652782"
+        gloss: "not open; \"the door slammed shut\""
+        angloform:
+          status: redirect
+          word: closed
+          category: ADJ
+      - wordnet: "01655162"
+        gloss: "used especially of mouth or eyes; \"he sat quietly with closed eyes\"; \"his eyes were shut against the sunlight\""
+        angloform:
+          status: redirect
+          word: closed
+          category: ADJ

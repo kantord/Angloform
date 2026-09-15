@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10423589"
+        gloss: a specialist in philosophy
+        angloform:
+          status: gap
+      - wordnet: "10425946"
+        gloss: a wise person who is calm and rational; someone who lives a life of reason with equanimity
+        angloform:
+          status: gap

@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05302499"
+        gloss: "the opening through which food is taken in and vocalizations emerge; \"he stuffed his mouth with candy\""
+        angloform:
+          status: gap
+      - wordnet: "05301908"
+        gloss: "the externally visible part of the oral cavity on the face and the system of organs surrounding the opening; \"she wiped lipstick from her mouth\""
+        angloform:
+          status: gap
+      - wordnet: "09362469"
+        gloss: "an opening that resembles a mouth (as of a cave or a gorge); \"he rode into the mouth of the canyon\"; \"they built a fire at the mouth of the cave\""
+        angloform:
+          status: gap
+      - wordnet: "09362316"
+        gloss: "the point where a stream issues into a larger body of water; \"New York is at the mouth of the Hudson\""
+        angloform:
+          status: gap
+      - wordnet: "10335679"
+        gloss: "a person conceived as a consumer of food; \"he has four mouths to feed\""
+        angloform:
+          status: gap
+      - wordnet: "10335801"
+        gloss: a spokesperson (as a lawyer)
+        angloform:
+          status: gap
+      - wordnet: "06721949"
+        gloss: "an impudent or insolent rejoinder; \"don't give me any of your sass\""
+        angloform:
+          status: gap
+      - wordnet: "03794392"
+        gloss: "the opening of a jar or bottle; \"the jar had a wide mouth\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00941990"
+        gloss: "express in speech; \"She talks a lot of nonsense\"; \"This depressed patient does not verbalize\""
+        angloform:
+          status: gap
+      - wordnet: "01040707"
+        gloss: "articulate silently; form words with the lips only; \"She mouthed a swear word\""
+        angloform:
+          status: gap
+      - wordnet: "01432474"
+        gloss: touch with the mouth
+        angloform:
+          status: gap

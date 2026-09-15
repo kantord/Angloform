@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01344171"
+        gloss: "capable of arousing and holding the attention; \"a fascinating story\""
+        angloform:
+          status: gap
+      - wordnet: "00166753"
+        gloss: "capturing interest as if by a spell; \"bewitching smile\"; \"Roosevelt was a captivating speaker\"; \"enchanting music\"; \"an enthralling book\"; \"antique papers of entrancing design\"; \"a fascinating woman\""
+        angloform:
+          status: gap

@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03589791"
+        gloss: a short coat
+        angloform:
+          status: gap
+      - wordnet: "03590306"
+        gloss: "an outer wrapping or casing; \"phonograph records were sold in cardboard jackets\""
+        angloform:
+          status: gap
+      - wordnet: "03139089"
+        gloss: "(dentistry) dental appliance consisting of an artificial crown for a broken or decayed tooth; \"tomorrow my dentist will fit me for a crown\""
+        angloform:
+          status: gap
+      - wordnet: "07711471"
+        gloss: the outer skin of a potato
+        angloform:
+          status: gap
+      - wordnet: "03590475"
+        gloss: the tough metal shell casing for certain kinds of ammunition
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01334931"
+        gloss: "provide with a thermally non-conducting cover; \"The tubing needs to be jacketed\""
+        angloform:
+          status: gap
+      - wordnet: "00048790"
+        gloss: "put a jacket on; \"The men were jacketed\""
+        angloform:
+          status: gap

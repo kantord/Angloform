@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14409371"
+        gloss: "a painful or straitened circumstance; \"the pinch of the recession\""
+        angloform:
+          status: gap
+      - wordnet: "14295140"
+        gloss: an injury resulting from getting some body part squeezed
+        angloform:
+          status: gap
+      - wordnet: "13774115"
+        gloss: "a slight but appreciable amount; \"this dish could use a touch of garlic\""
+        angloform:
+          status: gap
+      - wordnet: "07417405"
+        gloss: "a sudden unforeseen crisis (usually involving danger) that requires immediate action; \"he never knew what to do in an emergency\""
+        angloform:
+          status: gap
+      - wordnet: "00842281"
+        gloss: a small sharp bite or snip
+        angloform:
+          status: gap
+      - wordnet: "00357275"
+        gloss: a squeeze with the fingers
+        angloform:
+          status: gap
+      - wordnet: "00088725"
+        gloss: "the act of apprehending (especially apprehending a criminal); \"the policeman on the beat got credit for the collar\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01456771"
+        gloss: "squeeze tightly between the fingers; \"He pinched her behind\"; \"She squeezed the bottle\""
+        angloform:
+          status: gap
+      - wordnet: "01457206"
+        gloss: make ridges into by pinching together
+        angloform:
+          status: gap
+      - wordnet: "02276866"
+        gloss: make off with belongings of others
+        angloform:
+          status: gap
+      - wordnet: "01321509"
+        gloss: "cut the top off; \"top trees and bushes\""
+        angloform:
+          status: gap
+      - wordnet: "00504019"
+        gloss: "irritate as if by a nip, pinch, or tear; \"smooth surfaces can vellicate the teeth\"; \"the pain is as if sharp points pinch your back\""
+        angloform:
+          status: gap

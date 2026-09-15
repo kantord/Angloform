@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02463426"
+        gloss: refrain from voting
+        angloform:
+          status: gap
+      - wordnet: "01196037"
+        gloss: "choose not to consume; \"I abstain from alcohol\""
+        angloform:
+          status: gap

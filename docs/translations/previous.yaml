@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00127137"
+        gloss: "just preceding something else in time or order; \"the previous owner\"; \"my old house was larger\""
+        angloform:
+          status: redirect
+          word: old
+          category: ADJ
+      - wordnet: "01729819"
+        gloss: "(used especially of persons) of the immediate past; \"the former president\"; \"our late President is still very active\"; \"the previous occupant of the White House\""
+        angloform:
+          status: redirect
+          word: late
+          category: ADJ
+      - wordnet: "00815227"
+        gloss: "too soon or too hasty; \"our condemnation of him was a bit previous\"; \"a premature judgment\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00981304"
+        gloss: "moving slowly and gently; \"up a lazy river\"; \"lazy white clouds\"; \"at a lazy pace\""
+        angloform:
+          status: gap
+      - wordnet: "00294579"
+        gloss: "disinclined to work or exertion; \"faineant kings under whose rule the country languished\"; \"an indolent hanger-on\"; \"too lazy to wash the dishes\"; \"shiftless idle youth\"; \"slothful employees\"; \"the unemployed are not necessarily work-shy\""
+        angloform:
+          status: gap

@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13750844"
+        gloss: the cardinal number that is the product of 10 and 100
+        angloform:
+          status: gap
+      - wordnet: "03452741"
+        gloss: a piano with the strings on a horizontal harp-shaped frame; usually supported by three legs
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01284544"
+        gloss: "of behavior that is impressive and ambitious in scale or scope; \"an expansive lifestyle\"; \"in the grand manner\"; \"collecting on a grand scale\"; \"heroic undertakings\""
+        angloform:
+          status: gap
+      - wordnet: "01591050"
+        gloss: "of or befitting a lord; \"heir to a lordly fortune\"; \"of august lineage\""
+        angloform:
+          status: gap
+      - wordnet: "02024928"
+        gloss: "rich and superior in quality; \"a princely sum\"; \"gilded dining rooms\""
+        angloform:
+          status: gap
+      - wordnet: "01676517"
+        gloss: "extraordinarily good or great ; used especially as intensifiers; \"a fantastic trip to the Orient\"; \"the film was fantastic!\"; \"a howling success\"; \"a marvelous collection of rare books\"; \"had a rattling conversation about politics\"; \"a tremendous achievement\""
+        angloform:
+          status: gap
+      - wordnet: "01588619"
+        gloss: "of high moral or intellectual value; elevated in nature or style; \"an exalted ideal\"; \"argue in terms of high-flown ideals\"- Oliver Franks; \"a noble and lofty concept\"; \"a grand purpose\""
+        angloform:
+          status: gap
+      - wordnet: "01387149"
+        gloss: "large and impressive in physical size or extent; \"the bridge is a grand structure\""
+        angloform:
+          status: gap
+      - wordnet: "01278251"
+        gloss: "the most important and magnificent in adornment; \"grand ballroom\"; \"grand staircase\""
+        angloform:
+          status: gap
+      - wordnet: "00752110"
+        gloss: "used of a person's appearance or behavior; befitting an eminent person; \"his distinguished bearing\"; \"the monarch's imposing presence\"; \"she reigned in magisterial beauty\""
+        angloform:
+          status: gap

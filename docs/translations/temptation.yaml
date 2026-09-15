@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05694791"
+        gloss: something that seduces or has the quality to seduce
+        angloform:
+          status: gap
+      - wordnet: "07485281"
+        gloss: "the desire to have or do something that you know you should avoid; \"he felt the temptation and his will power weakened\""
+        angloform:
+          status: gap
+      - wordnet: "00159620"
+        gloss: "the act of influencing by exciting hope or desire; \"his enticements were shameless\""
+        angloform:
+          status: gap

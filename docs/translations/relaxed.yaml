@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02407603"
+        gloss: "without strain or anxiety; \"gave the impression of being quite relaxed\"; \"a relaxed and informal discussion\""
+        angloform:
+          status: gap

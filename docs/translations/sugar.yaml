@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07859284"
+        gloss: a white crystalline carbohydrate used as a sweetener and preservative
+        angloform:
+          status: gap
+      - wordnet: "14792703"
+        gloss: an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain
+        angloform:
+          status: gap
+      - wordnet: "13385216"
+        gloss: informal terms for money
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02195951"
+        gloss: "sweeten with sugar; \"sugar your tea\""
+        angloform:
+          status: gap

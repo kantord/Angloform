@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07472929"
+        gloss: "a race between candidates for elective office; \"I managed his campaign for governor\"; \"he is raising money for a Senate run\""
+        angloform:
+          status: redirect
+          word: run
+          category: NOUN
+      - wordnet: "00798245"
+        gloss: "a series of actions advancing a principle or tending toward a particular end; \"he supported populist campaigns\"; \"they worked in the cause of world peace\"; \"the team was ready for a drive toward the pennant\"; \"the movement to end slavery\"; \"contributed to the war effort\""
+        angloform:
+          status: gap
+      - wordnet: "00968155"
+        gloss: several related operations aimed at achieving a particular goal (usually within geographical and temporal constraints)
+        angloform:
+          status: gap
+      - wordnet: "00309906"
+        gloss: an overland journey by hunters (especially in Africa)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01094086"
+        gloss: "run, stand, or compete for an office or a position; \"Who's running for treasurer this year?\""
+        angloform:
+          status: gap
+      - wordnet: "02589576"
+        gloss: "exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for; \"The liberal party pushed for reforms\"; \"She is crusading for women's rights\"; \"The Dean is pushing for his favorite candidate\""
+        angloform:
+          status: gap
+      - wordnet: "01093786"
+        gloss: go on a campaign; go off to war
+        angloform:
+          status: gap

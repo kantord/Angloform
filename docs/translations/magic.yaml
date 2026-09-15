@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05967977"
+        gloss: any art that invokes supernatural powers
+        angloform:
+          status: gap
+      - wordnet: "00099951"
+        gloss: an illusory feat; considered magical by naive observers
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01576071"
+        gloss: "possessing or using or characteristic of or appropriate to supernatural powers; \"charming incantations\"; \"magic signs that protect against adverse influence\"; \"a magical spell\"; \"'tis now the very witching time of night\"- Shakespeare; \"wizard wands\"; \"wizardly powers\""
+        angloform:
+          status: gap

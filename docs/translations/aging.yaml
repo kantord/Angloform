@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13551965"
+        gloss: acquiring desirable qualities by being left undisturbed for some time
+        angloform:
+          status: gap
+      - wordnet: "13429006"
+        gloss: the organic process of growing older and showing the effects of increasing age
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01644709"
+        gloss: growing old
+        angloform:
+          status: gap

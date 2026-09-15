@@ -1,0 +1,4 @@
+status: exempt
+exempt_kind: proper-noun
+reason: a named individual or a poetic-meter term (Alexandrine verse), ambiguous from a single corpus
+  occurrence, out of scope

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14482620"
+        gloss: the inherent capacity for coming into being
+        angloform:
+          status: gap
+      - wordnet: "11493827"
+        gloss: the difference in electrical charge between two points in a circuit expressed in volts
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00044353"
+        gloss: "existing in possibility; \"a potential problem\"; \"possible uses of nuclear power\""
+        angloform:
+          status: gap
+      - wordnet: "01884176"
+        gloss: "expected to become or be; in prospect; \"potential clients\""
+        angloform:
+          status: gap

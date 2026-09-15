@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05486510"
+        gloss: the layer of unmyelinated neurons (the grey matter) forming the cortex of the cerebrum
+        angloform:
+          status: gap
+      - wordnet: "05490578"
+        gloss: the tissue forming the outer layer of an organ or structure in plant or animal
+        angloform:
+          status: gap
+      - wordnet: "05320636"
+        gloss: the tissue that surrounds the lens nucleus
+        angloform:
+          status: gap

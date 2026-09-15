@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03316105"
+        gloss: duplicator that transmits the copy by wire or radio
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01007676"
+        gloss: "send something via a facsimile machine; \"Can you fax me the report right away?\""
+        angloform:
+          status: gap

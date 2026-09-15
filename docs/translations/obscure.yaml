@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02157731"
+        gloss: "make less visible or unclear; \"The stars are obscured by the clouds\"; \"the big elm tree obscures our view of the valley\""
+        angloform:
+          status: gap
+      - wordnet: "00620673"
+        gloss: "make unclear, indistinct, or blurred; \"Her remarks confused the debate\"; \"Their words obnubilate their intentions\""
+        angloform:
+          status: redirect
+          word: confuse
+          category: VERB_TRANS
+      - wordnet: "00313712"
+        gloss: "make obscure or unclear; \"The distinction was obscured\""
+        angloform:
+          status: gap
+      - wordnet: "00587390"
+        gloss: reduce a vowel to a neutral one, such as a schwa
+        angloform:
+          status: gap
+      - wordnet: "00313987"
+        gloss: "make undecipherable or imperceptible by obscuring or concealing; \"a hidden message\"; \"a veiled threat\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00431004"
+        gloss: "not clearly understood or expressed; \"an obscure turn of phrase\"; \"an impulse to go off and fight certain obscure battles of his own spirit\"-Anatole Broyard; \"their descriptions of human behavior become vague, dull, and unclear\"- P.A.Sorokin; \"vague...forms of speech...have so long passed for mysteries of science\"- John Locke"
+        angloform:
+          status: gap
+      - wordnet: "00534250"
+        gloss: "marked by difficulty of style or expression; \"much that was dark is now quite clear to me\"; \"those who do not appreciate Kafka's work say his style is obscure\""
+        angloform:
+          status: gap
+      - wordnet: "02089377"
+        gloss: "difficult to find; \"hidden valleys\"; \"a hidden cave\"; \"an obscure retreat\""
+        angloform:
+          status: redirect
+          word: hidden
+          category: ADJ
+      - wordnet: "01122595"
+        gloss: "not famous or acclaimed; \"an obscure family\"; \"unsung heroes of the war\""
+        angloform:
+          status: redirect
+          word: unknown
+          category: ADJ
+      - wordnet: "00581637"
+        gloss: "not drawing attention; \"an unnoticeable cigarette burn on the carpet\"; \"an obscure flaw\""
+        angloform:
+          status: gap
+      - wordnet: "00567860"
+        gloss: "remote and separate physically or socially; \"existed over the centuries as a world apart\"; \"preserved because they inhabited a place apart\"- W.H.Hudson; \"tiny isolated villages remote from centers of civilization\"; \"an obscure village\""
+        angloform:
+          status: gap

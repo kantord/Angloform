@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02697120"
+        gloss: "pose a threat to; present a danger to; \"The pollution is endangering the crops\""
+        angloform:
+          status: gap
+      - wordnet: "00871405"
+        gloss: "to utter intentions of injury or punishment against:\"He threatened me when I tried to call the police\""
+        angloform:
+          status: gap
+      - wordnet: "00871781"
+        gloss: "to be a menacing indication of something:\"The clouds threaten rain\"; \"Danger threatens\""
+        angloform:
+          status: gap

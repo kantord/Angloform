@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05911124"
+        gloss: "an agenda of things to do; \"they worked rapidly down the menu of reports\""
+        angloform:
+          status: gap
+      - wordnet: "13308147"
+        gloss: the sum charged for riding in a public conveyance
+        angloform:
+          status: gap
+      - wordnet: "10078643"
+        gloss: a paying (taxi) passenger
+        angloform:
+          status: gap
+      - wordnet: "07560652"
+        gloss: the food and drink that are regularly served or consumed
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02617567"
+        gloss: "proceed or get along; \"How is she doing in her new job?\"; \"How are you making out in graduate school?\"; \"He's come a long way\""
+        angloform:
+          status: redirect
+          word: come
+          category: VERB_INTRANS
+      - wordnet: "01172969"
+        gloss: eat well
+        angloform:
+          status: gap

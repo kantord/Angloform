@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13903387"
+        gloss: the boundary line or the area immediately inside the boundary
+        angloform:
+          status: gap
+      - wordnet: "05120683"
+        gloss: "an amount beyond the minimum necessary; \"the margin of victory\""
+        angloform:
+          status: gap
+      - wordnet: "13351278"
+        gloss: the amount of collateral a customer deposits with a broker when borrowing from the broker to buy securities
+        angloform:
+          status: gap
+      - wordnet: "13260762"
+        gloss: (finance) the net sales minus the cost of goods and services sold
+        angloform:
+          status: gap
+      - wordnet: "06389398"
+        gloss: "the blank space that surrounds the text on a page; \"he jotted a note in the margin\""
+        angloform:
+          status: gap
+      - wordnet: "04749991"
+        gloss: a permissible difference; allowing some freedom to move within limits
+        angloform:
+          status: gap

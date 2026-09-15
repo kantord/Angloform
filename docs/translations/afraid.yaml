@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00077645"
+        gloss: "filled with fear or apprehension; \"afraid even to turn his head\"; \"suddenly looked afraid\"; \"afraid for his life\"; \"afraid of snakes\"; \"afraid to ask questions\""
+        angloform:
+          status: gap
+      - wordnet: "00543993"
+        gloss: "filled with regret or concern; used often to soften an unpleasant statement; \"I'm afraid I won't be able to come\"; \"he was afraid he would have to let her go\"; \"I'm afraid you're wrong\""
+        angloform:
+          status: gap
+      - wordnet: "00544231"
+        gloss: "feeling worry or concern or insecurity; \"She was afraid that I might be embarrassed\"; \"terribly afraid of offending someone\"; \"I am afraid we have witnessed only the first phase of the conflict\""
+        angloform:
+          status: gap
+      - wordnet: "01293396"
+        gloss: "having feelings of aversion or unwillingness; \"afraid of hard work\"; \"afraid to show emotion\""
+        angloform:
+          status: gap

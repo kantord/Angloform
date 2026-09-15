@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00483048"
+        gloss: out of proportion
+        angloform:
+          status: gap
+      - wordnet: "00482059"
+        gloss: not proportionate
+        angloform:
+          status: gap

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00070166"
+        gloss: "with low volume; \"speak softly but carry a big stick\"; \"she spoke quietly to the child\"; \"the radio was playing softly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00229399"
+        gloss: "with little or no sound; \"the class was listening quietly and intently\"; \"she was crying quietly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00229568"
+        gloss: "with little or no activity or no agitation (`quiet' is a nonstandard variant for `quietly'); \"her hands rested quietly in her lap\"; \"the rock star was quietly led out the back door\"; \"sit here as quiet as you can\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00438146"
+        gloss: "in a restful manner; \"the streets are restfully sunny and still for the town is at mass\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00555648"
+        gloss: "the act of moving hurriedly and in a careless manner; \"in his haste to leave he forgot his book\""
+        angloform:
+          status: gap
+      - wordnet: "07440240"
+        gloss: a sudden forceful flow
+        angloform:
+          status: gap
+      - wordnet: "11743294"
+        gloss: grasslike plants growing in wet places and having cylindrical often hollow stems
+        angloform:
+          status: gap
+      - wordnet: "11274269"
+        gloss: physician and American Revolutionary leader; signer of the Declaration of Independence (1745-1813)
+        angloform:
+          status: gap
+      - wordnet: "07528470"
+        gloss: "the swift release of a store of affective force; \"they got a great bang out of it\"; \"what a boot!\"; \"he got a quick rush from injecting heroin\"; \"he does it for kicks\""
+        angloform:
+          status: gap
+      - wordnet: "07436352"
+        gloss: "a sudden burst of activity; \"come back after the rush\""
+        angloform:
+          status: gap
+      - wordnet: "00560293"
+        gloss: "(American football) an attempt to advance the ball by running into the line; \"the linebackers were ready to stop a rush\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02058994"
+        gloss: "move fast; \"He rushed down the hall to receive his guests\"; \"The cars raced down the street\""
+        angloform:
+          status: gap
+      - wordnet: "01119950"
+        gloss: attack suddenly
+        angloform:
+          status: gap
+      - wordnet: "00459296"
+        gloss: "urge to an unnatural speed; \"Don't rush me, please!\""
+        angloform:
+          status: gap
+      - wordnet: "00459498"
+        gloss: "act or move at high speed; \"We have to rush!\"; \"hurry--it's late!\""
+        angloform:
+          status: gap
+      - wordnet: "02059770"
+        gloss: run with the ball, in football
+        angloform:
+          status: gap
+      - wordnet: "02059462"
+        gloss: "cause to move fast or to rush or race; \"The psychologist raced the rats through a long maze\""
+        angloform:
+          status: gap
+      - wordnet: "01644522"
+        gloss: "cause to occur rapidly; \"the infection precipitated a high fever and allergic reactions\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01988829"
+        gloss: not accepting reservations
+        angloform:
+          status: gap
+      - wordnet: "01271604"
+        gloss: "done under pressure; \"a rush job\""
+        angloform:
+          status: gap

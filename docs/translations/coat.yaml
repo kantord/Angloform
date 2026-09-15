@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03057021"
+        gloss: an outer garment that has sleeves and covers the body from shoulder down; worn outdoors
+        angloform:
+          status: gap
+      - wordnet: "03058107"
+        gloss: "a thin layer covering something; \"a second coat of paint\""
+        angloform:
+          status: gap
+      - wordnet: "01898731"
+        gloss: growth of hair or wool or fur covering the body of an animal
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01264283"
+        gloss: "put a coat on; cover the surface of; furnish with a surface; \"coat the cake with chocolate\""
+        angloform:
+          status: gap
+      - wordnet: "00051511"
+        gloss: cover or provide with a coat
+        angloform:
+          status: gap
+      - wordnet: "01262321"
+        gloss: "form a coat over; \"Dirt had coated her face\""
+        angloform:
+          status: gap

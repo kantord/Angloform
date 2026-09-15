@@ -1,0 +1,82 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15046900"
+        gloss: matter that is solid at room temperature and pressure
+        angloform:
+          status: gap
+      - wordnet: "14480772"
+        gloss: the state in which a substance has no tendency to flow under moderate stress; resists forces (such as compression) that tend to deform it; and retains a definite size and shape
+        angloform:
+          status: gap
+      - wordnet: "13860793"
+        gloss: a three-dimensional shape
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01125006"
+        gloss: "characterized by good substantial quality; \"solid comfort\"; \"a solid base hit\""
+        angloform:
+          status: gap
+      - wordnet: "02260035"
+        gloss: "of definite shape and volume; firm; neither liquid nor gaseous; \"ice is water in the solid state\""
+        angloform:
+          status: gap
+      - wordnet: "02263680"
+        gloss: "entirely of one substance with no holes inside; \"a solid block of wood\""
+        angloform:
+          status: gap
+      - wordnet: "01200339"
+        gloss: "of one substance or character throughout; \"solid gold\"; \"carved out of solid rock\""
+        angloform:
+          status: gap
+      - wordnet: "00291181"
+        gloss: "uninterrupted in space; having no gaps or breaks; \"a solid line across the page\"; \"solid sheets of water\""
+        angloform:
+          status: gap
+      - wordnet: "02558528"
+        gloss: "providing abundant nourishment; \"a hearty meal\"; \"good solid food\"; \"ate a substantial breakfast\"; \"four square meals a day\""
+        angloform:
+          status: gap
+      - wordnet: "02275412"
+        gloss: "of good quality and condition; solidly built; \"a solid foundation\"; \"several substantial timber buildings\""
+        angloform:
+          status: redirect
+          word: strong
+          category: ADJ
+      - wordnet: "01151740"
+        gloss: "not soft or yielding to pressure; \"a firm mattress\"; \"the snow was firm underfoot\"; \"solid ground\""
+        angloform:
+          status: gap
+      - wordnet: "00658166"
+        gloss: "having three dimensions; \"a solid object\""
+        angloform:
+          status: gap
+      - wordnet: "00434597"
+        gloss: "impenetrable for the eye; \"solid blackness\""
+        angloform:
+          status: gap
+      - wordnet: "02273952"
+        gloss: "financially sound; \"the bank is solid and will survive this attack\""
+        angloform:
+          status: gap
+      - wordnet: "02120276"
+        gloss: "of a substantial character and not frivolous or superficial; \"work of solid scholarship\"; \"based on solid facts\""
+        angloform:
+          status: gap
+      - wordnet: "01993693"
+        gloss: "meriting respect or esteem; \"an upstanding member of the community\""
+        angloform:
+          status: gap
+      - wordnet: "01200491"
+        gloss: "of the same color throughout; \"solid color\""
+        angloform:
+          status: gap
+      - wordnet: "00784215"
+        gloss: "acting together as a single undiversified whole; \"a solid voting bloc\""
+        angloform:
+          status: redirect
+          word: whole
+          category: ADJ

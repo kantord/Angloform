@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10147710"
+        gloss: a retail merchant who sells foodstuffs (and some household supplies)
+        angloform:
+          status: gap

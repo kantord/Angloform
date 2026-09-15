@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09945905"
+        gloss: "a friend who is frequently in the company of another; \"drinking companions\"; \"comrades in arms\""
+        angloform:
+          status: gap
+      - wordnet: "09946278"
+        gloss: a traveler who accompanies you
+        angloform:
+          status: gap
+      - wordnet: "09760609"
+        gloss: one paid to accompany or assist or live with another
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02716767"
+        gloss: be a companion to somebody
+        angloform:
+          status: gap

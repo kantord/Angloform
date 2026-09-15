@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03078995"
+        gloss: "a small cosmetics case with a mirror; to be carried in a woman's purse"
+        angloform:
+          status: gap
+      - wordnet: "06772260"
+        gloss: a signed written agreement between two or more parties (nations) to perform some action
+        angloform:
+          status: gap
+      - wordnet: "03079136"
+        gloss: a small and economical car
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01484027"
+        gloss: "have the property of being packable or of compacting easily; \"This powder compacts easily\"; \"Such odd-shaped items do not pack well\""
+        angloform:
+          status: gap
+      - wordnet: "01483779"
+        gloss: "compress into a wad; \"wad paper into the box\""
+        angloform:
+          status: gap
+      - wordnet: "01389329"
+        gloss: "make more compact by or as if by pressing; \"compress the data\""
+        angloform:
+          status: gap
+      - wordnet: "01387786"
+        gloss: "squeeze or press together; \"she compressed her lips\"; \"the spasm contracted the muscle\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00502180"
+        gloss: "closely and firmly united or packed together; \"compact soil\"; \"compact clusters of flowers\""
+        angloform:
+          status: gap
+      - wordnet: "02387413"
+        gloss: "having a short and solid form or stature; \"a wrestler of compact build\"; \"he was tall and heavyset\"; \"stocky legs\"; \"a thickset young man\""
+        angloform:
+          status: gap
+      - wordnet: "00547317"
+        gloss: "briefly giving the gist of something; \"a short and compendious book\"; \"a compact style is brief and pithy\"; \"succinct comparisons\"; \"a summary formulation of a wide-ranging subject\""
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01814385"
+        gloss: "involving or characteristic of politics or parties or politicians; \"calling a meeting is a political act in itself\"- Daniel Goleman; \"political pressure\"; \"a political machine\"; \"political office\"; \"political policy\""
+        angloform:
+          status: gap
+      - wordnet: "02857407"
+        gloss: "of or relating to your views about social relationships involving authority or power; \"political opinions\""
+        angloform:
+          status: gap
+      - wordnet: "02857587"
+        gloss: "of or relating to the profession of governing; \"political career\""
+        angloform:
+          status: gap

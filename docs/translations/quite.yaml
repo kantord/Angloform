@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00018781"
+        gloss: "to a degree (not used with a negative); \"quite tasty\"; \"quite soon\"; \"quite ill\"; \"quite rich\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00018577"
+        gloss: "to the greatest extent; completely; \"you're quite right\"; \"she was quite alone\"; \"was quite mistaken\"; \"quite the opposite\"; \"not quite finished\"; \"did not quite make it\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00018918"
+        gloss: "of an unusually noticeable or exceptional or remarkable kind (not used with a negative); \"her victory was quite something\"; \"she's quite a girl\"; \"quite a film\"; \"quite a walk\"; \"we've had quite an afternoon\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00019181"
+        gloss: "actually or truly or to an extreme; \"was quite a sudden change\"; \"it's quite the thing to do\"; \"quite the rage\"; \"Quite so!\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

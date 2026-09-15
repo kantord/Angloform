@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03465605"
+        gloss: a house separate from the main house; for housing guests
+        angloform:
+          status: gap

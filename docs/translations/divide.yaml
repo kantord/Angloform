@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13982692"
+        gloss: a serious disagreement between two groups of people (typically producing tension or hostility)
+        angloform:
+          status: gap
+      - wordnet: "08679369"
+        gloss: a ridge of land that separates two adjacent river systems
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02467662"
+        gloss: "separate into parts or portions; \"divide the cake into three equal parts\"; \"The British carved up the Ottoman Empire after World War I\""
+        angloform:
+          status: redirect
+          word: split
+          category: VERB_TRANS
+      - wordnet: "00642098"
+        gloss: "perform a division; \"Can you divide 49 by seven?\""
+        angloform:
+          status: gap
+      - wordnet: "02621853"
+        gloss: "act as a barrier between; stand between; \"The mountain range divides the two countries\""
+        angloform:
+          status: redirect
+          word: separate
+          category: VERB_TRANS
+      - wordnet: "01557774"
+        gloss: "come apart; \"The two pieces that we had glued separated\""
+        angloform:
+          status: redirect
+          word: separate
+          category: VERB_TRANS
+      - wordnet: "02031158"
+        gloss: make a division or separation
+        angloform:
+          status: redirect
+          word: separate
+          category: VERB_TRANS
+      - wordnet: "01556921"
+        gloss: "force, take, or pull apart; \"He separated the fighting children\"; \"Moses parted the Red Sea\""
+        angloform:
+          status: redirect
+          word: separate
+          category: VERB_TRANS

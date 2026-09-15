@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00750296"
+        gloss: "easy and not involved or complicated; \"an elementary problem in statistics\"; \"elementary, my dear Watson\"; \"a simple game\"; \"found an uncomplicated solution to the problem\""
+        angloform:
+          status: gap
+      - wordnet: "02719685"
+        gloss: "of or pertaining to or characteristic of elementary school or elementary education; \"the elementary grades\"; \"elementary teachers\""
+        angloform:
+          status: gap
+      - wordnet: "01856238"
+        gloss: "of or being the essential or basic part; \"an elementary need for love and nurturing\""
+        angloform:
+          status: redirect
+          word: primary
+          category: ADJ

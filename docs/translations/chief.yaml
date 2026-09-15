@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10162991"
+        gloss: "a person who is in charge; \"the head of the whole operation\""
+        angloform:
+          status: redirect
+          word: head
+          category: NOUN
+      - wordnet: "10104209"
+        gloss: "a person who exercises control over workers; \"if you want to leave early you have to ask the foreman\""
+        angloform:
+          status: gap
+      - wordnet: "10164025"
+        gloss: the head of a tribe or clan
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01277426"
+        gloss: "most important element; \"the chief aim of living\"; \"the main doors were of solid glass\"; \"the principal rivers of America\"; \"the principal example\"; \"policemen were primary targets\"; \"the master bedroom\"; \"a master switch\""
+        angloform:
+          status: redirect
+          word: main
+          category: ADJ

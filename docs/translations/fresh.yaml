@@ -1,0 +1,67 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01067694"
+        gloss: "recently made, produced, or harvested; \"fresh bread\"; \"a fresh scent\"; \"fresh lettuce\""
+        angloform:
+          status: gap
+      - wordnet: "01641648"
+        gloss: "(of a cycle) beginning or occurring again; \"a fresh start\"; \"fresh ideas\""
+        angloform:
+          status: gap
+      - wordnet: "01357027"
+        gloss: "imparting vitality and energy; \"the bracing mountain air\""
+        angloform:
+          status: gap
+      - wordnet: "01687167"
+        gloss: "original and of a kind not seen before; \"the computer produced a completely novel proof of a well-known theorem\""
+        angloform:
+          status: redirect
+          word: new
+          category: ADJ
+      - wordnet: "01071198"
+        gloss: "not canned or otherwise preserved; \"fresh vegetables\""
+        angloform:
+          status: gap
+      - wordnet: "01073707"
+        gloss: "not containing or composed of salt water; \"fresh water\""
+        angloform:
+          status: redirect
+          word: sweet
+          category: ADJ
+      - wordnet: "02554420"
+        gloss: "having recently calved and therefore able to give milk; \"the cow is fresh\""
+        angloform:
+          status: gap
+      - wordnet: "02434797"
+        gloss: with restored energy
+        angloform:
+          status: gap
+      - wordnet: "02370083"
+        gloss: "not soured or preserved; \"sweet milk\""
+        angloform:
+          status: redirect
+          word: sweet
+          category: ADJ
+      - wordnet: "01906320"
+        gloss: "free from impurities; \"clean water\"; \"fresh air\""
+        angloform:
+          status: gap
+      - wordnet: "00418198"
+        gloss: "not yet used or soiled; \"a fresh shirt\"; \"a fresh sheet of paper\"; \"an unused envelope\""
+        angloform:
+          status: redirect
+          word: unused
+          category: ADJ
+      - wordnet: "00205295"
+        gloss: "improperly forward or bold; \"don't be fresh with me\"; \"impertinent of a child to lecture a grownup\"; \"an impudent boy given to insulting strangers\"; \"Don't get wise with me!\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00112601"
+        gloss: "very recently; \"they are newly married\"; \"newly raised objections\"; \"a newly arranged hairdo\"; \"grass new washed by the rain\"; \"a freshly cleaned floor\"; \"we are fresh out of tomatoes\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

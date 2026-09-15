@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14870078"
+        gloss: soft silky fibers from cotton plants in their raw state
+        angloform:
+          status: gap
+      - wordnet: "03115180"
+        gloss: fabric woven from cotton fibers
+        angloform:
+          status: gap
+      - wordnet: "12175949"
+        gloss: erect bushy mallow plant or small tree bearing bolls containing seeds with many long hairy fibers
+        angloform:
+          status: gap
+      - wordnet: "03115301"
+        gloss: thread made of cotton fibers
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01777107"
+        gloss: "take a liking to; \"cotton to something\""
+        angloform:
+          status: gap

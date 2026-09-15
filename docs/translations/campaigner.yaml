@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09889691"
+        gloss: a politician who is running for public office
+        angloform:
+          status: redirect
+          word: candidate
+          category: NOUN

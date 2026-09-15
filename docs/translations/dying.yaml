@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15143477"
+        gloss: "the time when something ends; \"it was the death of all his plans\"; \"a dying of old hopes\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00003939"
+        gloss: "in or associated with the process of passing from life or ceasing to be; \"a dying man\"; \"his dying wish\"; \"a dying fire\"; \"a dying civilization\""
+        angloform:
+          status: gap
+      - wordnet: "00811248"
+        gloss: "eagerly desirous; \"anxious to see the new show at the museum\"; \"dying to hear who won\""
+        angloform:
+          status: gap

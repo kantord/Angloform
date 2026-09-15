@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08182379"
+        gloss: "a large number of things or people considered together; \"a crowd of insects assembled around the flowers\""
+        angloform:
+          status: gap
+      - wordnet: "08273843"
+        gloss: "an informal body of friends; \"he still hangs out with the same crowd\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02028722"
+        gloss: "cause to herd, drive, or crowd together; \"We herded the children into a spare classroom\""
+        angloform:
+          status: gap
+      - wordnet: "02649305"
+        gloss: "fill or occupy to the point of overflowing; \"The students crowded the auditorium\""
+        angloform:
+          status: gap
+      - wordnet: "02027612"
+        gloss: "to gather together in large numbers; \"men in straw boaters and waxed mustaches crowded the verandah\""
+        angloform:
+          status: gap
+      - wordnet: "02054864"
+        gloss: "approach a certain age or speed; \"She is pushing fifty\""
+        angloform:
+          status: gap

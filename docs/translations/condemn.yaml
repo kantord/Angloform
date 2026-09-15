@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00864159"
+        gloss: "express strong disapproval of; \"We condemn the racism in South Africa\"; \"These ideas were reprobated\""
+        angloform:
+          status: gap
+      - wordnet: "00856578"
+        gloss: "declare or judge unfit for use or habitation; \"The building was condemned by the inspector\""
+        angloform:
+          status: gap
+      - wordnet: "02507093"
+        gloss: "compel or force into a particular state or activity; \"His devotion to his sick wife condemned him to a lonely existence\""
+        angloform:
+          status: gap
+      - wordnet: "02149302"
+        gloss: "demonstrate the guilt of (someone); \"Her strange behavior condemned her\""
+        angloform:
+          status: gap
+      - wordnet: "00906735"
+        gloss: "pronounce a sentence on (somebody) in a court of law; \"He was condemned to ten years in prison\""
+        angloform:
+          status: gap
+      - wordnet: "02273768"
+        gloss: "appropriate (property) for public use; \"the county condemned the land to build a highway\""
+        angloform:
+          status: gap

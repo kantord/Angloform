@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00117985"
+        gloss: "stay the same; remain in a certain state; \"The dress remained wet after repeated attempts to dry it\"; \"rest assured\"; \"stay alone\"; \"He remained unmoved by her tears\"; \"The bad weather continued for another week\""
+        angloform:
+          status: redirect
+          word: stay
+          category: VERB_INTRANS
+      - wordnet: "02727462"
+        gloss: "continue in a place, position, or situation; \"After graduation, she stayed on in Cambridge as a student adviser\"; \"Stay with me, please\"; \"despite student protests, he remained Dean for another year\"; \"She continued as deputy mayor for another year\""
+        angloform:
+          status: redirect
+          word: stay
+          category: VERB_INTRANS
+      - wordnet: "02637592"
+        gloss: "be left; of persons, questions, problems, results, evidence, etc.; \"There remains the question of who pulled the trigger\"; \"Carter remains the only President in recent history under whose Presidency the U.S. did not fight a war\""
+        angloform:
+          status: gap
+      - wordnet: "02731024"
+        gloss: "stay behind; \"The smell stayed in the room\"; \"The hostility remained long after they made up\""
+        angloform:
+          status: redirect
+          word: stay
+          category: VERB_INTRANS

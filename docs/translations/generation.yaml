@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08369406"
+        gloss: all the people living at the same time or of approximately the same age
+        angloform:
+          status: gap
+      - wordnet: "08368907"
+        gloss: group of genetically related organisms constituting a single step in the line of descent
+        angloform:
+          status: gap
+      - wordnet: "15249636"
+        gloss: "the normal time between successive generations; \"they had to wait a generation for that prejudice to fade\""
+        angloform:
+          status: gap
+      - wordnet: "15290930"
+        gloss: "a stage of technological development or innovation; \"the third generation of computers\""
+        angloform:
+          status: gap
+      - wordnet: "07324380"
+        gloss: a coming into being
+        angloform:
+          status: gap
+      - wordnet: "00922144"
+        gloss: "the production of heat or electricity; \"dams were built for the generation of electricity\""
+        angloform:
+          status: gap
+      - wordnet: "00849982"
+        gloss: the act of producing offspring or multiplying by such production
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00164201"
+        gloss: "restore to a previous or better condition; \"They renovated the ceiling of the Sistine Chapel\""
+        angloform:
+          status: gap
+      - wordnet: "00163441"
+        gloss: "make brighter and prettier; \"we refurbished the guest wing\"; \"My wife wants us to renovate\""
+        angloform:
+          status: gap
+      - wordnet: "00024279"
+        gloss: "give new life or energy to; \"A hot soup will revive me\"; \"This will renovate my spirits\"; \"This treatment repaired my health\""
+        angloform:
+          status: gap

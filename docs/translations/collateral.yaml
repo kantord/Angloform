@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13352865"
+        gloss: a security pledged for the repayment of a loan
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01417228"
+        gloss: "descended from a common ancestor but through different lines; \"cousins are collateral relatives\"; \"an indirect descendant of the Stuarts\""
+        angloform:
+          status: gap
+      - wordnet: "02355521"
+        gloss: "serving to support or corroborate; \"collateral evidence\""
+        angloform:
+          status: gap
+      - wordnet: "01854420"
+        gloss: "accompany, concomitant; \"collateral target damage from a bombing run\""
+        angloform:
+          status: gap
+      - wordnet: "01718609"
+        gloss: "situated or running side by side; \"collateral ridges of mountains\""
+        angloform:
+          status: gap

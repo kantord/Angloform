@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03841666"
+        gloss: "place of business where professional or clerical duties are performed; \"he rented an office in the new building\""
+        angloform:
+          status: gap
+      - wordnet: "08337324"
+        gloss: "an administrative unit of government; \"the Central Intelligence Agency\"; \"the Census Bureau\"; \"Office of Management and Budget\"; \"Tennessee Valley Authority\""
+        angloform:
+          status: gap
+      - wordnet: "00720565"
+        gloss: "the actions and activities assigned to or required or expected of a person or group; \"the function of a teacher\"; \"the government must do its part\"; \"play its role\""
+        angloform:
+          status: redirect
+          word: part
+          category: NOUN
+      - wordnet: "13945102"
+        gloss: "(of a government or government official) holding an office means being in power; \"being in office already gives a candidate a great advantage\"; \"during his first year in office\"; \"during his first year in power\"; \"the power of the president\""
+        angloform:
+          status: gap
+      - wordnet: "08352303"
+        gloss: "professional or clerical workers in an office; \"the whole office was late the morning of the blizzard\""
+        angloform:
+          status: gap
+      - wordnet: "01033458"
+        gloss: "a religious rite or service prescribed by ecclesiastical authorities; \"the offices of the mass\""
+        angloform:
+          status: gap
+      - wordnet: "00586262"
+        gloss: "a job in an organization; \"he occupied a post in the treasury\""
+        angloform:
+          status: redirect
+          word: place
+          category: NOUN

@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02677097"
+        gloss: "connect closely and often incriminatingly; \"This new ruling affects your business\""
+        angloform:
+          status: gap
+      - wordnet: "02677567"
+        gloss: "engage as a participant; \"Don't involve me in your family affairs!\""
+        angloform:
+          status: gap
+      - wordnet: "02636132"
+        gloss: "have as a necessary feature; \"This decision involves many changes\""
+        angloform:
+          status: gap
+      - wordnet: "02627934"
+        gloss: "require as useful, just, or proper; \"It takes nerve to do what she did\"; \"success usually requires hard work\"; \"This job asks a lot of patience and skill\"; \"This position demands a lot of personal sacrifice\"; \"This dinner calls for a spectacular dessert\"; \"This intervention does not postulate a patient's consent\""
+        angloform:
+          status: redirect
+          word: require
+          category: VERB_TRANS
+      - wordnet: "02633218"
+        gloss: "contain as a part; \"Dinner at Joe's always involves at least six courses\""
+        angloform:
+          status: gap
+      - wordnet: "00600724"
+        gloss: "occupy or engage the interest of; \"His story completely involved me during the entire afternoon\""
+        angloform:
+          status: gap
+      - wordnet: "00401538"
+        gloss: "make complex or intricate or complicated; \"The situation was rather involved\""
+        angloform:
+          status: gap

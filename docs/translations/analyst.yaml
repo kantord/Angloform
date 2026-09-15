@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09790482"
+        gloss: someone who is skilled at analyzing data
+        angloform:
+          status: gap
+      - wordnet: "09791530"
+        gloss: an expert who studies financial data (on credit or securities or sales or financial patterns etc.) and recommends appropriate business actions
+        angloform:
+          status: gap
+      - wordnet: "09790278"
+        gloss: a licensed practitioner of psychoanalysis
+        angloform:
+          status: gap

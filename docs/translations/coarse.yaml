@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02230990"
+        gloss: "of textures that are rough to the touch or substances consisting of relatively large particles; \"coarse meal\"; \"coarse sand\"; \"a coarse weave\""
+        angloform:
+          status: gap
+      - wordnet: "01950198"
+        gloss: "lacking refinement or cultivation or taste; \"he had coarse manners but a first-rate mind\"; \"behavior that branded him as common\"; \"an untutored and uncouth human being\"; \"an uncouth soldier--a real tough guy\"; \"appealing to the vulgar taste for violence\"; \"the vulgar display of the newly rich\""
+        angloform:
+          status: redirect
+          word: common
+          category: ADJ
+      - wordnet: "02346557"
+        gloss: "of low or inferior quality or value; \"of what coarse metal ye are molded\"- Shakespeare; \"produced...the common cloths used by the poorer population\""
+        angloform:
+          status: redirect
+          word: common
+          category: ADJ

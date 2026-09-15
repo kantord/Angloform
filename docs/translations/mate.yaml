@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10300041"
+        gloss: the officer below the master on a commercial ship
+        angloform:
+          status: gap
+      - wordnet: "10695050"
+        gloss: "a fellow member of a team; \"it was his first start against his former teammates\""
+        angloform:
+          status: redirect
+          word: teammate
+          category: NOUN
+      - wordnet: "10300303"
+        gloss: "the partner of an animal (especially a sexual partner); \"he loved the mare and all her mates\"; \"camels hate leaving their mates\""
+        angloform:
+          status: gap
+      - wordnet: "10640620"
+        gloss: "a person's partner in marriage"
+        angloform:
+          status: gap
+      - wordnet: "03728811"
+        gloss: "an exact duplicate; \"when a match is found an entry is made in the notebook\""
+        angloform:
+          status: gap
+      - wordnet: "13743100"
+        gloss: "one of a pair; \"he lost the mate to his shoe\"; \"one eye was blue but its fellow was brown\""
+        angloform:
+          status: gap
+      - wordnet: "12757668"
+        gloss: South American holly; leaves used in making a drink like tea
+        angloform:
+          status: gap
+      - wordnet: "10300154"
+        gloss: informal term for a friend of the same sex
+        angloform:
+          status: gap
+      - wordnet: "07926785"
+        gloss: South American tea-like drink made from leaves of a South American holly called mate
+        angloform:
+          status: gap
+      - wordnet: "00167764"
+        gloss: "a chess move constituting an inescapable and indefensible attack on the opponent's king"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01428853"
+        gloss: "engage in sexual intercourse; \"Birds mate in the Spring\""
+        angloform:
+          status: gap
+      - wordnet: "01292885"
+        gloss: "bring two objects, ideas, or people together; \"This fact is coupled to the other one\"; \"Matchmaker, can you match my daughter with a nice young man?\"; \"The student was paired with a partner for collaboration on the project\""
+        angloform:
+          status: redirect
+          word: match
+          category: VERB_TRANS
+      - wordnet: "01114475"
+        gloss: "place an opponent's king under an attack from which it cannot escape and thus ending the game; \"Kasparov checkmated his opponent after only a few moves\""
+        angloform:
+          status: gap

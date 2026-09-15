@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03047690"
+        gloss: footwear usually with wooden soles
+        angloform:
+          status: gap
+      - wordnet: "03047553"
+        gloss: any object that acts as a hindrance or obstruction
+        angloform:
+          status: gap
+      - wordnet: "00530208"
+        gloss: a dance performed while wearing shoes with wooden soles; has heavy stamping steps
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01478603"
+        gloss: "become or cause to become obstructed; \"The leaves clog our drains in the Fall\"; \"The water pipe is backed up\""
+        angloform:
+          status: gap
+      - wordnet: "01709931"
+        gloss: dance a clog dance
+        angloform:
+          status: gap
+      - wordnet: "01301230"
+        gloss: "impede the motion of, as with a chain or a burden; \"horses were clogged until they were tamed\""
+        angloform:
+          status: gap
+      - wordnet: "00441007"
+        gloss: "impede with a clog or as if with a clog; \"The market is being clogged by these operations\"; \"My mind is constipated today\""
+        angloform:
+          status: gap
+      - wordnet: "00368367"
+        gloss: "coalesce or unite in a mass; \"Blood clots\""
+        angloform:
+          status: gap
+      - wordnet: "00182037"
+        gloss: "fill to excess so that function is impaired; \"Fear clogged her mind\"; \"The story was clogged with too many details\""
+        angloform:
+          status: gap

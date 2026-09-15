@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03186696"
+        gloss: the face of a timepiece; graduated to show the hours
+        angloform:
+          status: gap
+      - wordnet: "03187153"
+        gloss: the control on a radio or television set that is used for tuning
+        angloform:
+          status: gap
+      - wordnet: "03187037"
+        gloss: the circular graduated indicator on various measuring instruments
+        angloform:
+          status: gap
+      - wordnet: "03186818"
+        gloss: a disc on a telephone that is rotated a fixed distance for each number called
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00790308"
+        gloss: "operate a dial to select a telephone number; \"You must take the receiver off the hook before you dial\""
+        angloform:
+          status: gap
+      - wordnet: "00676135"
+        gloss: "choose by means of a dial; \"dial a telephone number\""
+        angloform:
+          status: gap

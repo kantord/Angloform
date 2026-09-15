@@ -1,0 +1,64 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01321579"
+        gloss: any immature animal
+        angloform:
+          status: gap
+      - wordnet: "11404280"
+        gloss: United States film and television actress (1913-2000)
+        angloform:
+          status: gap
+      - wordnet: "11404140"
+        gloss: United States civil rights leader (1921-1971)
+        angloform:
+          status: gap
+      - wordnet: "11403828"
+        gloss: British physicist and Egyptologist; he revived the wave theory of light and proposed a three-component theory of color vision; he also played an important role in deciphering the hieroglyphics on the Rosetta Stone (1773-1829)
+        angloform:
+          status: gap
+      - wordnet: "11403692"
+        gloss: United States jazz tenor saxophonist (1909-1959)
+        angloform:
+          status: gap
+      - wordnet: "11403600"
+        gloss: English poet (1683-1765)
+        angloform:
+          status: gap
+      - wordnet: "11403456"
+        gloss: United States baseball player and famous pitcher (1867-1955)
+        angloform:
+          status: gap
+      - wordnet: "11403220"
+        gloss: United States religious leader of the Mormon Church after the assassination of Joseph Smith; he led the Mormon exodus from Illinois to Salt Lake City, Utah (1801-1877)
+        angloform:
+          status: gap
+      - wordnet: "07944050"
+        gloss: "young people collectively; \"rock music appeals to the young\"; \"youth everywhere rises in revolt\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01646941"
+        gloss: "(used of living things especially persons) in an early period of life or development or growth; \"young people\""
+        angloform:
+          status: gap
+      - wordnet: "00818008"
+        gloss: "(of crops) harvested at an early stage of development; before complete maturity; \"new potatoes\"; \"young corn\""
+        angloform:
+          status: redirect
+          word: new
+          category: ADJ
+      - wordnet: "01649720"
+        gloss: "suggestive of youth; vigorous and fresh; \"he is young for his age\""
+        angloform:
+          status: gap
+      - wordnet: "01643480"
+        gloss: "being in its early stage; \"a young industry\"; \"the day is still young\""
+        angloform:
+          status: gap
+      - wordnet: "00937732"
+        gloss: "not tried or tested by experience; \"unseasoned artillery volunteers\"; \"still untested in battle\"; \"an illustrator untried in mural painting\"; \"a young hand at plowing\""
+        angloform:
+          status: gap

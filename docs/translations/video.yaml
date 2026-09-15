@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06277803"
+        gloss: "the visible part of a television transmission; \"they could still receive the sound but the picture was gone\""
+        angloform:
+          status: gap
+      - wordnet: "04534127"
+        gloss: a recording of both the visual and audible components (especially one containing a recording of a movie or television program)
+        angloform:
+          status: gap
+      - wordnet: "06277992"
+        gloss: (computer science) the appearance of text and graphics on a video display
+        angloform:
+          status: gap
+      - wordnet: "06277280"
+        gloss: "broadcasting visual images of stationary or moving objects; \"she is a star of screen and video\"; \"Television is a medium because it is neither rare nor well done\" - Ernie Kovacs"
+        angloform:
+          status: gap

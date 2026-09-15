@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10025730"
+        gloss: person who makes a gift of property
+        angloform:
+          status: gap
+      - wordnet: "10026058"
+        gloss: (medicine) someone who gives blood or tissue or an organ to be used in another person (the host)
+        angloform:
+          status: gap

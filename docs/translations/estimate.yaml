@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05803379"
+        gloss: "an approximate calculation of quantity or degree or worth; \"an estimate of what it would cost\"; \"a rough idea how long it would take\""
+        angloform:
+          status: redirect
+          word: approximation
+          category: NOUN
+      - wordnet: "00875246"
+        gloss: "a judgment of the qualities of something or somebody; \"many factors are involved in any estimate of human life\"; \"in my estimation the boy is innocent\""
+        angloform:
+          status: gap
+      - wordnet: "06528783"
+        gloss: a document appraising the value of something (as for insurance or taxation)
+        angloform:
+          status: gap
+      - wordnet: "06783598"
+        gloss: "a statement indicating the likely cost of some job; \"he got an estimate from the car repair shop\""
+        angloform:
+          status: gap
+      - wordnet: "06207029"
+        gloss: "the respect with which a person is held; \"they had a high estimation of his ability\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00672433"
+        gloss: "judge tentatively or form an estimate of (quantities or time); \"I estimate this chicken to weigh three pounds\""
+        angloform:
+          status: redirect
+          word: judge
+          category: VERB_TRANS
+      - wordnet: "00712135"
+        gloss: judge to be probable
+        angloform:
+          status: gap

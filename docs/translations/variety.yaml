@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08398773"
+        gloss: "a collection containing a variety of sorts of things; \"a great assortment of cars was on display\"; \"he had a variety of disorders\"; \"a veritable smorgasbord of religions\""
+        angloform:
+          status: gap
+      - wordnet: "04751305"
+        gloss: "noticeable heterogeneity; \"a diversity of possibilities\"; \"the range and variety of his work is amazing\""
+        angloform:
+          status: gap
+      - wordnet: "08101085"
+        gloss: "(biology) a taxonomic category consisting of members of a species that differ from others of the same species in minor but heritable characteristics; \"varieties are frequently recognized in botany\""
+        angloform:
+          status: gap
+      - wordnet: "07020239"
+        gloss: a show consisting of a series of short unrelated performances
+        angloform:
+          status: gap
+      - wordnet: "05839024"
+        gloss: "a category of things distinguished by some common characteristic or quality; \"sculpture is a form of art\"; \"what kinds of desserts are there?\""
+        angloform:
+          status: redirect
+          word: kind
+          category: NOUN
+      - wordnet: "04752034"
+        gloss: "a difference that is usually pleasant; \"he goes to France for variety\"; \"it is a refreshing change to meet a woman mechanic\""
+        angloform:
+          status: gap

@@ -1,0 +1,120 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13333833"
+        gloss: "the capital raised by a corporation through the issue of shares entitling holders to an ownership interest (equity); \"he owns a controlling share of the company's stock\""
+        angloform:
+          status: gap
+      - wordnet: "04321534"
+        gloss: "the merchandise that a shop has on hand; \"they carried a vast inventory of hardware\"; \"they stopped selling in exact sizes in order to reduce inventory\""
+        angloform:
+          status: gap
+      - wordnet: "04322026"
+        gloss: "the handle of a handgun or the butt end of a rifle or shotgun or part of the support of a machine gun or artillery gun; \"the rifle had been fitted with a special stock\""
+        angloform:
+          status: gap
+      - wordnet: "13417071"
+        gloss: "a certificate documenting the shareholder's ownership in the corporation; \"the value of his stocks doubled during the past year\""
+        angloform:
+          status: gap
+      - wordnet: "13367070"
+        gloss: "a supply of something available for future use; \"he brought back a large store of Cuban cigars\""
+        angloform:
+          status: gap
+      - wordnet: "08101937"
+        gloss: "the descendants of one individual; \"his entire lineage has been warriors\""
+        angloform:
+          status: redirect
+          word: line
+          category: NOUN
+      - wordnet: "08101410"
+        gloss: "a special variety of domesticated animals within a species; \"he experimented on a particular breed of white rats\"; \"he created a new strain of sheep\""
+        angloform:
+          status: gap
+      - wordnet: "07585208"
+        gloss: "liquid in which meat and vegetables are simmered; used as a basis for e.g. soups or sauces; \"she made gravy with a base of beef stock\""
+        angloform:
+          status: gap
+      - wordnet: "14438541"
+        gloss: "the reputation and popularity a person has; \"his stock was so high he could have been elected mayor\""
+        angloform:
+          status: gap
+      - wordnet: "13130305"
+        gloss: persistent thickened stem of a herbaceous perennial plant
+        angloform:
+          status: gap
+      - wordnet: "13127091"
+        gloss: a plant or stem onto which a graft is made; especially a plant grown specifically to provide the root part of grafted plants
+        angloform:
+          status: gap
+      - wordnet: "11892637"
+        gloss: any of several Old World plants cultivated for their brightly colored flowers
+        angloform:
+          status: gap
+      - wordnet: "11892029"
+        gloss: any of various ornamental flowering plants of the genus Malcolmia
+        angloform:
+          status: gap
+      - wordnet: "04322387"
+        gloss: "lumber used in the construction of something; \"they will cut round stock to 1-inch diameter\""
+        angloform:
+          status: gap
+      - wordnet: "04321804"
+        gloss: "the handle end of some implements or tools; \"he grabbed the cue by the stock\""
+        angloform:
+          status: gap
+      - wordnet: "03814727"
+        gloss: an ornamental white cravat
+        angloform:
+          status: gap
+      - wordnet: "01887474"
+        gloss: any animals kept for use or profit
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02285392"
+        gloss: "have on hand; \"Do you carry kerosene heaters?\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "02329883"
+        gloss: "equip with a stock; \"stock a rifle\""
+        angloform:
+          status: gap
+      - wordnet: "02329733"
+        gloss: "supply with fish; \"stock a lake\""
+        angloform:
+          status: gap
+      - wordnet: "02329578"
+        gloss: "supply with livestock; \"stock a farm\""
+        angloform:
+          status: gap
+      - wordnet: "02323286"
+        gloss: "amass so as to keep for future use or sale or for a particular occasion or use; \"let's stock coffee as long as prices are low\""
+        angloform:
+          status: gap
+      - wordnet: "02323059"
+        gloss: "provide or furnish with a stock of something; \"stock the larder with meat\""
+        angloform:
+          status: gap
+      - wordnet: "00095377"
+        gloss: "put forth and grow sprouts or shoots; \"the plant sprouted early this year\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01688757"
+        gloss: "repeated too often; overfamiliar through overuse; \"bromidic sermons\"; \"his remarks were trite and commonplace\"; \"hackneyed phrases\"; \"a stock answer\"; \"repeating threadbare jokes\"; \"parroting some timeworn axiom\"; \"the trite metaphor `hard as nails'\""
+        angloform:
+          status: gap
+      - wordnet: "02297089"
+        gloss: "routine; \"a stock answer\""
+        angloform:
+          status: gap
+      - wordnet: "01960076"
+        gloss: "regularly and widely used or sold; \"a standard size\"; \"a stock item\""
+        angloform:
+          status: gap

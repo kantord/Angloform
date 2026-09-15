@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: a machine for cutting grass on a lawn
+        angloform:
+          status: gap
+          note: no grass/lawn/machine-tool vocabulary exists yet; zero WordNet attestation

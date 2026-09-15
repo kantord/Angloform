@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08322981"
+        gloss: "a committee having supervisory powers; \"the board has seven members\""
+        angloform:
+          status: gap
+      - wordnet: "15101854"
+        gloss: a stout length of sawn timber; made in a wide variety of sizes and used for many purposes
+        angloform:
+          status: gap
+      - wordnet: "02856463"
+        gloss: "a flat piece of material designed for a special purpose; \"he nailed boards across the windows\""
+        angloform:
+          status: gap
+      - wordnet: "07565259"
+        gloss: "food or meals in general; \"she sets a fine table\"; \"room and board\""
+        angloform:
+          status: redirect
+          word: table
+          category: NOUN
+      - wordnet: "03211616"
+        gloss: a vertical surface on which information can be displayed to public view
+        angloform:
+          status: gap
+      - wordnet: "03201208"
+        gloss: "a table at which meals are served; \"he helped her clear the dining table\"; \"a feast was spread upon the board\""
+        angloform:
+          status: gap
+      - wordnet: "03098140"
+        gloss: "electrical device consisting of a flat insulated surface that contains switches and dials and meters for controlling other electrical devices; \"he checked the instrument panel\"; \"suddenly the board lit up like a Christmas tree\""
+        angloform:
+          status: gap
+      - wordnet: "03033986"
+        gloss: "a printed circuit that can be inserted into expansion slots in a computer to increase the computer's capabilities"
+        angloform:
+          status: gap
+      - wordnet: "02857023"
+        gloss: "a flat portable surface (usually rectangular) designed for board games; \"he got out the board and set up the pieces\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02018049"
+        gloss: get on board of (trains, buses, ships, aircraft, etc.)
+        angloform:
+          status: gap
+      - wordnet: "02656763"
+        gloss: "live and take one's meals at or in; \"she rooms in an old boarding house\""
+        angloform:
+          status: gap
+      - wordnet: "01177118"
+        gloss: lodge and take meals (at)
+        angloform:
+          status: gap
+      - wordnet: "01176897"
+        gloss: "provide food and lodging (for); \"The old lady is boarding three men\""
+        angloform:
+          status: gap

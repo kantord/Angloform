@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00889098"
+        gloss: unhappy about being away and longing for familiar things or persons
+        angloform:
+          status: gap

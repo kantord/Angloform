@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00522145"
+        gloss: "the act of exhibiting; \"a remarkable exhibition of musicianship\""
+        angloform:
+          status: gap
+      - wordnet: "08407619"
+        gloss: a collection of things (goods or works of art etc.) for public display
+        angloform:
+          status: gap

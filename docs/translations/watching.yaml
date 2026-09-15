@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00879759"
+        gloss: the act of observing; taking a patient look
+        angloform:
+          status: redirect
+          word: observation
+          category: NOUN

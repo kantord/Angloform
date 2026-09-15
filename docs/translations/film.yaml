@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06613686"
+        gloss: "a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement; \"they went to a movie every Saturday night\"; \"the film was shot on location\""
+        angloform:
+          status: redirect
+          word: movie
+          category: NOUN
+      - wordnet: "06262567"
+        gloss: "a medium that disseminates moving pictures; \"theater pieces transferred to celluloid\"; \"this story would be good cinema\"; \"film coverage of sporting events\""
+        angloform:
+          status: gap
+      - wordnet: "03338821"
+        gloss: photographic material consisting of a base of celluloid covered with a photographic emulsion; used to make negatives or transparencies
+        angloform:
+          status: gap
+      - wordnet: "03338648"
+        gloss: "a thin coating or layer; \"the table was covered with a film of dust\""
+        angloform:
+          status: gap
+      - wordnet: "03339296"
+        gloss: a thin sheet of (usually plastic and usually transparent) material used to wrap or cover things
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01002740"
+        gloss: "make a film or photograph of something; \"take a scene\"; \"shoot a movie\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "01711965"
+        gloss: "record in film; \"The coronation was filmed\""
+        angloform:
+          status: gap

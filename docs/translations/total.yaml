@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04353803"
+        gloss: the whole amount
+        angloform:
+          status: gap
+      - wordnet: "05861067"
+        gloss: a quantity obtained by the addition of a group of numbers
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02645007"
+        gloss: "add up in number or quantity; \"The bills amounted to $2,000\"; \"The bill came to $2,000\""
+        angloform:
+          status: redirect
+          word: come
+          category: VERB_INTRANS
+      - wordnet: "00949288"
+        gloss: "determine the sum of; \"Add all the people in this town to those of the neighboring town\""
+        angloform:
+          status: redirect
+          word: add
+          category: VERB_TRANS
+      - wordnet: "00259382"
+        gloss: "damage beyond the point of repair; \"My son totaled our new car\"; \"the rock star totals his guitar at every concert\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00515380"
+        gloss: "constituting the full quantity or extent; complete; \"an entire town devastated by an earthquake\"; \"gave full attention\"; \"a total failure\""
+        angloform:
+          status: redirect
+          word: full
+          category: ADJ
+      - wordnet: "00522885"
+        gloss: "complete in extent or degree and in every particular; \"a full game\"; \"a total eclipse\"; \"a total disaster\""
+        angloform:
+          status: redirect
+          word: full
+          category: ADJ

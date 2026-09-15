@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08058098"
+        gloss: "an institution created to conduct business; \"he only invests in large well-established companies\"; \"he started the company in his garage\""
+        angloform:
+          status: gap
+      - wordnet: "08214272"
+        gloss: small military unit; usually two or three platoons
+        angloform:
+          status: gap
+      - wordnet: "13929588"
+        gloss: "the state of being with someone; \"he missed their company\"; \"he enjoyed the society of his friends\""
+        angloform:
+          status: redirect
+          word: society
+          category: NOUN
+      - wordnet: "08187033"
+        gloss: "organization of performers and associated personnel (especially theatrical); \"the traveling company all stayed at the same hotel\""
+        angloform:
+          status: gap
+      - wordnet: "09887850"
+        gloss: "a social or business visitor; \"the room was a mess because he hadn't expected company\""
+        angloform:
+          status: gap
+      - wordnet: "08184861"
+        gloss: "a social gathering of guests or companions; \"the house was filled with company when I arrived\""
+        angloform:
+          status: gap
+      - wordnet: "08264897"
+        gloss: "a band of people associated temporarily in some activity; \"they organized a party to search for food\"; \"the company of cooks walked into the kitchen\""
+        angloform:
+          status: gap
+      - wordnet: "08219059"
+        gloss: crew of a ship including the officers; the whole force or personnel of a ship
+        angloform:
+          status: gap
+      - wordnet: "08077711"
+        gloss: "a unit of firefighters including their equipment; \"a hook-and-ladder company\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02716767"
+        gloss: be a companion to somebody
+        angloform:
+          status: gap

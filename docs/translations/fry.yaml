@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10984257"
+        gloss: English painter and art critic (1866-1934)
+        angloform:
+          status: gap
+      - wordnet: "10984126"
+        gloss: English dramatist noted for his comic verse dramas (born 1907)
+        angloform:
+          status: gap
+      - wordnet: "09917593"
+        gloss: "a young person of either sex; \"she writes books for children\"; \"they're just kids\"; \"`tiddler' is a British term for youngster\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02738241"
+        gloss: "be excessively hot; \"If the children stay out on the beach for another hour, they'll be fried\""
+        angloform:
+          status: gap
+      - wordnet: "00325328"
+        gloss: "cook on a hot surface using fat; \"fry the pancakes\""
+        angloform:
+          status: gap
+      - wordnet: "02484957"
+        gloss: "kill by electrocution, as in the electric chair; \"The serial killer was electrocuted\""
+        angloform:
+          status: gap

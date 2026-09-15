@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00154885"
+        gloss: "in mental comfort; without stress; \"he works comfortably on three continents\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00155020"
+        gloss: "in physical comfort; \"she could have been lying comfortably in bed getting the same relief\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00013626"
+        gloss: "in financial comfort; \"They live well\"; \"she has been able to live comfortably since her husband died\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

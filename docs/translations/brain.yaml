@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05481095"
+        gloss: that part of the central nervous system that includes all the higher nervous centers; enclosed within the skull; continuous with the spinal cord
+        angloform:
+          status: gap
+      - wordnet: "05618056"
+        gloss: "mental ability; \"he's got plenty of brains but no common sense\""
+        angloform:
+          status: gap
+      - wordnet: "05611302"
+        gloss: "that which is responsible for one's thoughts and feelings; the seat of the faculty of reason; \"his mind wandered\"; \"I couldn't get his words out of my head\""
+        angloform:
+          status: redirect
+          word: head
+          category: NOUN
+      - wordnet: "10126926"
+        gloss: "someone who has exceptional intellectual ability and originality; \"Mozart was a child genius\"; \"he's smart but he's no Einstein\""
+        angloform:
+          status: gap
+      - wordnet: "07652585"
+        gloss: the brain of certain animals used as meat
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01401676"
+        gloss: hit on the head
+        angloform:
+          status: gap
+      - wordnet: "01327020"
+        gloss: "kill by smashing someone's skull"
+        angloform:
+          status: gap

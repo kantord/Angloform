@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10102506"
+        gloss: someone who makes predictions of the future (usually on the basis of special knowledge)
+        angloform:
+          status: gap

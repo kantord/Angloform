@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09225943"
+        gloss: wet spongy ground of decomposing vegetation; has poorer drainage than a swamp; soil is unfit for cultivation but can be cut and dried and used for fuel
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00363916"
+        gloss: "cause to slow down or get stuck; \"The vote would bog down the house\""
+        angloform:
+          status: gap
+      - wordnet: "00363742"
+        gloss: "get stuck while doing something; \"She bogged down many times while she wrote her dissertation\""
+        angloform:
+          status: gap

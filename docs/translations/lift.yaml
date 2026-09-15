@@ -1,0 +1,150 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01209487"
+        gloss: the act of giving temporary assistance
+        angloform:
+          status: gap
+      - wordnet: "11422277"
+        gloss: the component of the aerodynamic forces acting on an airfoil that opposes gravity
+        angloform:
+          status: gap
+      - wordnet: "07370671"
+        gloss: "the event of something being raised upward; \"an elevation of the temperature in the afternoon\"; \"a raising of the land resulting from volcanic activity\""
+        angloform:
+          status: gap
+      - wordnet: "07348399"
+        gloss: a wave that lifts the surface of the water or ground
+        angloform:
+          status: gap
+      - wordnet: "04231693"
+        gloss: a powered conveyance that carries skiers up a hill
+        angloform:
+          status: gap
+      - wordnet: "03664514"
+        gloss: a device worn in a shoe or boot to make the wearer look taller or to correct a shortened leg
+        angloform:
+          status: gap
+      - wordnet: "03664374"
+        gloss: one of the layers forming the heel of a shoe or boot
+        angloform:
+          status: gap
+      - wordnet: "03281145"
+        gloss: lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building
+        angloform:
+          status: gap
+      - wordnet: "00674158"
+        gloss: "plastic surgery to remove wrinkles and other signs of aging from your face; an incision is made near the hair line and skin is pulled back and excess tissue is excised; \"some actresses have more than one face lift\""
+        angloform:
+          status: gap
+      - wordnet: "00316594"
+        gloss: transportation of people or goods by air (especially when other means of access are unavailable)
+        angloform:
+          status: gap
+      - wordnet: "00309276"
+        gloss: "a ride in a car; \"he gave me a lift home\""
+        angloform:
+          status: gap
+      - wordnet: "00116376"
+        gloss: "the act of raising something; \"he responded with a lift of his eyebrow\"; \"fireman learn several different raises for getting ladders up\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01974062"
+        gloss: "raise from a lower to a higher position; \"Raise your hands\"; \"Lift a load\""
+        angloform:
+          status: gap
+      - wordnet: "01579153"
+        gloss: "take hold of something and move it to a different location; \"lift the box onto the table\""
+        angloform:
+          status: gap
+      - wordnet: "01973759"
+        gloss: "move upwards; \"lift one's eyes\""
+        angloform:
+          status: gap
+      - wordnet: "01968569"
+        gloss: "move upward; \"The fog lifted\"; \"The smoke arose from the forest fire\"; \"The mist uprose from the meadows\""
+        angloform:
+          status: gap
+      - wordnet: "00986074"
+        gloss: "make audible; \"He lifted a war whoop\""
+        angloform:
+          status: gap
+      - wordnet: "00799798"
+        gloss: "cancel officially; \"He revoked the ban on smoking\"; \"lift an embargo\"; \"vacate a death sentence\""
+        angloform:
+          status: gap
+      - wordnet: "02276866"
+        gloss: make off with belongings of others
+        angloform:
+          status: gap
+      - wordnet: "01455184"
+        gloss: "raise or haul up with or as if with mechanical help; \"hoist the bicycle onto the roof of the car\""
+        angloform:
+          status: gap
+      - wordnet: "00549982"
+        gloss: "invigorate or heighten; \"lift my spirits\"; \"lift his ego\""
+        angloform:
+          status: gap
+      - wordnet: "00544549"
+        gloss: "raise in rank or condition; \"The new law lifted many people from poverty\""
+        angloform:
+          status: gap
+      - wordnet: "00178652"
+        gloss: "take off or away by decreasing; \"lift the pressure\""
+        angloform:
+          status: gap
+      - wordnet: "02696801"
+        gloss: "rise up; \"The building rose before them\""
+        angloform:
+          status: gap
+      - wordnet: "02352181"
+        gloss: pay off (a mortgage)
+        angloform:
+          status: gap
+      - wordnet: "02278061"
+        gloss: "take without referencing from someone else's writing or speech; of intellectual property"
+        angloform:
+          status: gap
+      - wordnet: "02277138"
+        gloss: "take illegally; \"rustle cattle\""
+        angloform:
+          status: gap
+      - wordnet: "01452057"
+        gloss: "fly people or goods to or from places not accessible by other means; \"Food is airlifted into Bosnia\""
+        angloform:
+          status: gap
+      - wordnet: "01311608"
+        gloss: "take (root crops) out of the ground; \"lift potatoes\""
+        angloform:
+          status: gap
+      - wordnet: "00792921"
+        gloss: call to stop the hunt or to retire, as of hunting dogs
+        angloform:
+          status: gap
+      - wordnet: "00357198"
+        gloss: "rise upward, as from pressure or moisture; \"The floor is lifting slowly\""
+        angloform:
+          status: gap
+      - wordnet: "00354195"
+        gloss: "put an end to; \"lift a ban\"; \"raise a siege\""
+        angloform:
+          status: gap
+      - wordnet: "00198623"
+        gloss: remove (hair) by scalping
+        angloform:
+          status: gap
+      - wordnet: "00178773"
+        gloss: "remove from a seedbed or from a nursery; \"lift the tulip bulbs\""
+        angloform:
+          status: gap
+      - wordnet: "00178502"
+        gloss: "remove from a surface; \"the detective carefully lifted some fingerprints from the table\""
+        angloform:
+          status: gap
+      - wordnet: "00061933"
+        gloss: "perform cosmetic surgery on someone's face"
+        angloform:
+          status: gap

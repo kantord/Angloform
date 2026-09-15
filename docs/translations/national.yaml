@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09625401"
+        gloss: "a person who owes allegiance to that nation; \"a monarch has a duty to his subjects\""
+        angloform:
+          status: redirect
+          word: subject
+          category: NOUN
+  ADJ:
+    senses:
+      - wordnet: "02988060"
+        gloss: "of or relating to or belonging to a nation or country; \"national hero\"; \"national anthem\"; \"a national landmark\""
+        angloform:
+          status: gap
+      - wordnet: "01567862"
+        gloss: "limited to or in the interests of a particular nation; \"national interests\"; \"isolationism is a strictly national policy\""
+        angloform:
+          status: gap
+      - wordnet: "01105840"
+        gloss: "concerned with or applicable to or belonging to an entire nation or country; \"the national government\"; \"national elections\"; \"of national concern\"; \"the national highway system\"; \"national forests\""
+        angloform:
+          status: gap
+      - wordnet: "01861776"
+        gloss: "owned or maintained for the public by the national government; \"national parks\""
+        angloform:
+          status: gap
+      - wordnet: "01038332"
+        gloss: "inside the country; \"the British Home Office has broader responsibilities than the United States Department of the Interior\"; \"the nation's internal politics\""
+        angloform:
+          status: gap
+      - wordnet: "02988402"
+        gloss: "characteristic of or peculiar to the people of a nation; \"a national trait\""
+        angloform:
+          status: gap
+      - wordnet: "02988281"
+        gloss: "of or relating to nationality; \"national origin\""
+        angloform:
+          status: gap

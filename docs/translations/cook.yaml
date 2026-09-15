@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09963320"
+        gloss: someone who cooks food
+        angloform:
+          status: gap
+      - wordnet: "10908313"
+        gloss: English navigator who claimed the east coast of Australia for Britain and discovered several Pacific islands (1728-1779)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01665638"
+        gloss: "prepare a hot meal; \"My husband doesn't cook\""
+        angloform:
+          status: gap
+      - wordnet: "01664172"
+        gloss: "prepare for eating by applying heat; \"Cook me dinner, please\"; \"can you make me an omelette?\"; \"fix breakfast for the guests, please\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "00322847"
+        gloss: "transform and make suitable for consumption by heating; \"These potatoes have to cook for 20 minutes\""
+        angloform:
+          status: gap
+      - wordnet: "02576921"
+        gloss: "tamper, with the purpose of deception; \"Fudge the figures\"; \"cook the books\"; \"falsify the data\""
+        angloform:
+          status: gap
+      - wordnet: "00323377"
+        gloss: "transform by heating; \"The apothecary cooked the medicinal mixture in a big iron kettle\""
+        angloform:
+          status: gap

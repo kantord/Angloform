@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02324045"
+        gloss: any of various burrowing animals of the family Leporidae having long ears and short tails; some domesticated and raised for pets or food
+        angloform:
+          status: gap
+      - wordnet: "14765324"
+        gloss: the fur of a rabbit
+        angloform:
+          status: gap
+      - wordnet: "07666521"
+        gloss: flesh of any of various rabbits or hares (wild or domesticated) eaten as food
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01142761"
+        gloss: hunt rabbits
+        angloform:
+          status: gap

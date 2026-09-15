@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00344040"
+        gloss: the act of closing something
+        angloform:
+          status: gap
+      - wordnet: "06398401"
+        gloss: "the last section of a communication; \"in conclusion I want to say...\""
+        angloform:
+          status: redirect
+          word: conclusion
+          category: NOUN
+      - wordnet: "00281462"
+        gloss: "approaching a particular destination; a coming closer; a narrowing of a gap; \"the ship's rapid rate of closing gave them little time to avoid a collision\""
+        angloform:
+          status: gap
+      - wordnet: "00229260"
+        gloss: "termination of operations; \"they regretted the closure of the day care center\""
+        angloform:
+          status: gap
+      - wordnet: "00211110"
+        gloss: a concluding action
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01010025"
+        gloss: "final or ending; \"the closing stages of the election\"; \"the closing weeks of the year\"; \"the closing scene of the film\"; \"closing remarks\""
+        angloform:
+          status: gap

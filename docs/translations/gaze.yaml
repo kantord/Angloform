@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00878648"
+        gloss: "a long fixed look; \"he fixed his paternal gaze on me\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02132745"
+        gloss: "look at with fixed eyes; \"The students stared at the teacher with amazement\""
+        angloform:
+          status: gap

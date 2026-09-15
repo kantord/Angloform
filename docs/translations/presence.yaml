@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13957601"
+        gloss: "the state of being present; current existence; \"he tested for the presence of radon\""
+        angloform:
+          status: gap
+      - wordnet: "08642632"
+        gloss: "the immediate proximity of someone or something; \"she blushed in his presence\"; \"he sensed the presence of danger\"; \"he was well behaved in front of company\""
+        angloform:
+          status: redirect
+          word: front
+          category: NOUN
+      - wordnet: "09547528"
+        gloss: an invisible spiritual being felt to be nearby
+        angloform:
+          status: gap
+      - wordnet: "05917174"
+        gloss: "the impression that something is present; \"he felt the presence of an evil force\""
+        angloform:
+          status: gap
+      - wordnet: "04910377"
+        gloss: dignified manner or conduct
+        angloform:
+          status: gap
+      - wordnet: "01233802"
+        gloss: the act of being present
+        angloform:
+          status: gap

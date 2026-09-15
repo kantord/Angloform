@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15272029"
+        gloss: "time during which some action is awaited; \"instant replay caused too long a delay\"; \"he ordered a hold in the action\""
+        angloform:
+          status: gap
+      - wordnet: "01066163"
+        gloss: the act of delaying; inactivity resulting in something being put off until a later time
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00459776"
+        gloss: "cause to be slowed down or delayed; \"Traffic was delayed by the bad weather\"; \"she delayed the work that she didn't want to perform\""
+        angloform:
+          status: gap
+      - wordnet: "02641957"
+        gloss: "act later than planned, scheduled, or required; \"Don't delay your application to graduate school or else it won't be considered\""
+        angloform:
+          status: gap
+      - wordnet: "00460900"
+        gloss: "stop or halt; \"Please stay the bloodshed!\""
+        angloform:
+          status: redirect
+          word: stay
+          category: VERB_INTRANS
+      - wordnet: "00440286"
+        gloss: "slow the growth or development of; \"The brain damage will retard the child's language development\""
+        angloform:
+          status: redirect
+          word: check
+          category: VERB_TRANS

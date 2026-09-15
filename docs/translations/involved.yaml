@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01514827"
+        gloss: "connected by participation or association or use; \"we accomplished nothing, simply because of the large number of people involved\"; \"the problems involved\"; \"the involved muscles\"; \"I don't want to get involved\"; \"everyone involved in the bribery case has been identified\""
+        angloform:
+          status: gap
+      - wordnet: "00868603"
+        gloss: "entangled or hindered as if e.g. in mire; \"the difficulties in which the question is involved\"; \"brilliant leadership mired in details and confusion\""
+        angloform:
+          status: gap
+      - wordnet: "00158332"
+        gloss: emotionally involved
+        angloform:
+          status: gap
+      - wordnet: "02176841"
+        gloss: "highly complex or intricate and occasionally devious; \"the Byzantine tax structure\"; \"Byzantine methods for holding on to his chairmanship\"; \"convoluted legal language\"; \"convoluted reasoning\"; \"the plot was too involved\"; \"a knotty problem\"; \"got his way by labyrinthine maneuvering\"; \"Oh, what a tangled web we weave\"- Sir Walter Scott; \"tortuous legal procedures\"; \"tortuous negotiations lasting for months\""
+        angloform:
+          status: gap
+      - wordnet: "01658386"
+        gloss: "enveloped; \"a castle involved in mist\"; \"the difficulties in which the question is involved\""
+        angloform:
+          status: gap

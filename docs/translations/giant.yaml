@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01323781"
+        gloss: any creature of exceptional size
+        angloform:
+          status: gap
+      - wordnet: "09938991"
+        gloss: a person of exceptional importance and reputation
+        angloform:
+          status: gap
+      - wordnet: "08056471"
+        gloss: "an unusually large enterprise; \"Walton built a retail giant\""
+        angloform:
+          status: gap
+      - wordnet: "10129133"
+        gloss: a very large person; impressive in size or qualities
+        angloform:
+          status: gap
+      - wordnet: "10128909"
+        gloss: someone or something that is abnormally large and powerful
+        angloform:
+          status: gap
+      - wordnet: "09488711"
+        gloss: an imaginary figure of superhuman size and strength; appears in folklore and fairy tales
+        angloform:
+          status: gap
+      - wordnet: "09288769"
+        gloss: a very bright star of large diameter and low density (relative to the Sun)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01385773"
+        gloss: "of great mass; huge and bulky; \"a jumbo jet\"; \"jumbo shrimp\""
+        angloform:
+          status: gap

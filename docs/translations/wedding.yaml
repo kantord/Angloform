@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07452074"
+        gloss: the social event at which the ceremony of marriage is performed
+        angloform:
+          status: gap
+      - wordnet: "01036996"
+        gloss: "the act of marrying; the nuptial ceremony; \"their marriage was conducted in the chapel\""
+        angloform:
+          status: gap
+      - wordnet: "08256735"
+        gloss: a party of people at a wedding
+        angloform:
+          status: gap

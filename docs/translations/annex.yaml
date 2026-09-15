@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02713594"
+        gloss: an addition that extends a main building
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02215355"
+        gloss: "take (territory) as if by conquest; \"Hitler annexed Lithuania\""
+        angloform:
+          status: gap
+      - wordnet: "01329141"
+        gloss: attach to
+        angloform:
+          status: gap

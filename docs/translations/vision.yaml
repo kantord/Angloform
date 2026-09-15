@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05768252"
+        gloss: "a vivid mental image; \"he had a vision of his own death\""
+        angloform:
+          status: gap
+      - wordnet: "05654362"
+        gloss: the ability to see; the visual faculty
+        angloform:
+          status: gap
+      - wordnet: "05713524"
+        gloss: "the perceptual experience of seeing; \"the runners emerged from the trees into his clear vision\"; \"he had a visual sensation of intense light\""
+        angloform:
+          status: gap
+      - wordnet: "05625465"
+        gloss: "the formation of a mental image of something that is not perceived as real and is not present to the senses; \"popular imagination created a world of demons\"; \"imagination reveals what the world could be\""
+        angloform:
+          status: gap
+      - wordnet: "07288485"
+        gloss: "a religious or mystical experience of a supernatural appearance; \"he had a vision of the Virgin Mary\""
+        angloform:
+          status: gap

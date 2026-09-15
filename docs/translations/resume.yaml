@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06469694"
+        gloss: short descriptive summary (of events)
+        angloform:
+          status: gap
+      - wordnet: "06468403"
+        gloss: a summary of your academic and work history
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00350104"
+        gloss: "take up or begin anew; \"We resumed the negotiations\""
+        angloform:
+          status: gap
+      - wordnet: "00350283"
+        gloss: "return to a previous location or condition; \"The painting resumed its old condition when we restored it\""
+        angloform:
+          status: gap
+      - wordnet: "02381951"
+        gloss: "assume anew; \"resume a title\"; \"resume an office\"; \"resume one's duties\""
+        angloform:
+          status: gap
+      - wordnet: "01007924"
+        gloss: "give a summary (of); \"he summed up his results\"; \"I will now summarize\""
+        angloform:
+          status: gap

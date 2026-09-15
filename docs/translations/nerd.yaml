@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10684630"
+        gloss: an insignificant student who is ridiculed as being affected or boringly studious
+        angloform:
+          status: gap
+      - wordnet: "10353598"
+        gloss: an intelligent but single-minded expert in a particular technical field or profession
+        angloform:
+          status: gap

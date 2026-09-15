@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00452293"
+        gloss: the pursuit and killing or capture of wild animals regarded as a sport
+        angloform:
+          status: gap
+      - wordnet: "00945401"
+        gloss: the activity of looking thoroughly in order to find something or someone
+        angloform:
+          status: gap
+      - wordnet: "00622584"
+        gloss: the work of finding and killing or capturing animals for food or pelts
+        angloform:
+          status: gap

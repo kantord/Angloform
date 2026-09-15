@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  VERB:
+    senses:
+      - gloss: integrate a new employee or customer into an organization or system
+        angloform:
+          status: gap
+          note: modern business jargon; zero WordNet attestation

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10014939"
+        gloss: someone who controls resources and expenditures
+        angloform:
+          status: gap
+      - wordnet: "10015485"
+        gloss: member of a board of directors
+        angloform:
+          status: gap
+      - wordnet: "10015215"
+        gloss: someone who supervises the actors and directs the action in the production of a show
+        angloform:
+          status: gap
+      - wordnet: "10088200"
+        gloss: the person who directs the making of a film
+        angloform:
+          status: gap
+      - wordnet: "09952539"
+        gloss: the person who leads a musical group
+        angloform:
+          status: gap

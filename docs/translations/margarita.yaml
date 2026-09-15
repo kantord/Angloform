@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07915918"
+        gloss: a cocktail made of tequila and triple sec with lime and lemon juice
+        angloform:
+          status: gap

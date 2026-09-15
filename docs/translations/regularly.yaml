@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00195024"
+        gloss: "in a regular manner; \"letters arrived regularly from his children\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00331817"
+        gloss: "having a regular form; \"regularly shaped objects\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00331461"
+        gloss: "in a regular way without variation; \"try to breathe evenly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

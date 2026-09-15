@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09358358"
+        gloss: "the natural satellite of the Earth; \"the average distance to the Moon is 384,400 kilometers\"; \"men first stepped on the moon in 1969\""
+        angloform:
+          status: gap
+      - wordnet: "09358550"
+        gloss: "any object resembling a moon; \"he made a moon lamp that he used as a night light\"; \"the clock had a moon that showed various phases\""
+        angloform:
+          status: gap
+      - wordnet: "15207872"
+        gloss: the period between successive new moons (29.531 days)
+        angloform:
+          status: gap
+      - wordnet: "11484975"
+        gloss: "the light of the Moon; \"moonlight is the smuggler's enemy\"; \"the Moon was bright enough to read by\""
+        angloform:
+          status: gap
+      - wordnet: "11189054"
+        gloss: United States religious leader (born in Korea) who founded the Unification Church in 1954; was found guilty of conspiracy to evade taxes (born in 1920)
+        angloform:
+          status: gap
+      - wordnet: "09358226"
+        gloss: "any natural satellite of a planet; \"Jupiter has sixteen moons\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02418205"
+        gloss: "have dreamlike musings or fantasies while awake; \"She looked out the window, daydreaming\""
+        angloform:
+          status: gap
+      - wordnet: "02417908"
+        gloss: be idle in a listless or dreamy way
+        angloform:
+          status: gap
+      - wordnet: "02141840"
+        gloss: "expose one's buttocks to; \"moon the audience\""
+        angloform:
+          status: gap

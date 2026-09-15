@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02121620"
+        gloss: "feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats"
+        angloform:
+          status: gap
+      - wordnet: "10153414"
+        gloss: "an informal term for a youth or man; \"a nice guy\"; \"the guy's only doing it for some doll\""
+        angloform:
+          status: gap
+      - wordnet: "09900153"
+        gloss: "a spiteful woman gossip; \"what a cat she is!\""
+        angloform:
+          status: gap
+      - wordnet: "03608870"
+        gloss: "the leaves of the shrub Catha edulis which are chewed like tobacco or used to make tea; has the effect of a euphoric stimulant; \"in Yemen kat is used daily by 85% of adults\""
+        angloform:
+          status: gap
+      - wordnet: "02985606"
+        gloss: "a whip with nine knotted cords; \"British sailors feared the cat\""
+        angloform:
+          status: gap
+      - wordnet: "02983507"
+        gloss: a large tracked vehicle that is propelled by two endless metal belts; frequently used for moving earth in construction and farm work
+        angloform:
+          status: gap
+      - wordnet: "02127808"
+        gloss: any of several large cats typically able to roar and living in the wild
+        angloform:
+          status: gap
+      - wordnet: "00901476"
+        gloss: a method of examining body organs by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01411870"
+        gloss: "beat with a cat-o'-nine-tails"
+        angloform:
+          status: gap
+      - wordnet: "00076400"
+        gloss: "eject the contents of the stomach through the mouth; \"After drinking too much, the students vomited\"; \"He purged continuously\"; \"The patient regurgitated the food we gave him last night\""
+        angloform:
+          status: gap

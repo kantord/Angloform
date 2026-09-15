@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14481080"
+        gloss: "the state of matter distinguished from the solid and liquid states by: relatively low density and viscosity; relatively great expansion and contraction with changes in pressure and temperature; the ability to diffuse readily; and the spontaneous tendency to become distributed uniformly throughout any container"
+        angloform:
+          status: gap
+      - wordnet: "14877585"
+        gloss: a fluid in the gaseous state having neither independent shape nor volume and being able to expand indefinitely
+        angloform:
+          status: gap
+      - wordnet: "14686913"
+        gloss: a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines
+        angloform:
+          status: gap
+      - wordnet: "14035695"
+        gloss: a state of excessive gas in the alimentary canal
+        angloform:
+          status: gap
+      - wordnet: "02670683"
+        gloss: "a pedal that controls the throttle valve; \"he stepped on the gas\""
+        angloform:
+          status: gap
+      - wordnet: "14960090"
+        gloss: a fossil fuel in the gaseous state; used for cooking and heating homes
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01125373"
+        gloss: "attack with gas; subject to gas fumes; \"The despot gassed the rebellious tribes\""
+        angloform:
+          status: gap
+      - wordnet: "00883226"
+        gloss: show off
+        angloform:
+          status: gap

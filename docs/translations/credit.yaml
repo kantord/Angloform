@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06688274"
+        gloss: "approval; \"give her recognition for trying\"; \"he was given credit for his work\"; \"give her credit for trying\""
+        angloform:
+          status: gap
+      - wordnet: "13378518"
+        gloss: money available for a client to borrow
+        angloform:
+          status: gap
+      - wordnet: "13405646"
+        gloss: an accounting entry acknowledging income or capital items
+        angloform:
+          status: gap
+      - wordnet: "00037200"
+        gloss: "used in the phrase `to your credit' in order to indicate an achievement deserving praise; \"she already had several performances to her credit\";"
+        angloform:
+          status: gap
+      - wordnet: "13374281"
+        gloss: arrangement for deferred payment for goods and services
+        angloform:
+          status: gap
+      - wordnet: "00065855"
+        gloss: recognition by a college or university that a course of studies has been successfully completed; typically measured in semester hours
+        angloform:
+          status: gap
+      - wordnet: "06763681"
+        gloss: "a short note recognizing a source of information or of a quoted passage; \"the student's essay failed to list several important citations\"; \"the acknowledgments are usually printed at the front of a book\"; \"the article includes mention of similar clinical cases\""
+        angloform:
+          status: redirect
+          word: reference
+          category: NOUN
+      - wordnet: "06346681"
+        gloss: "an entry on a list of persons who contributed to a film or written work; \"the credits were given at the end of the film\""
+        angloform:
+          status: gap
+      - wordnet: "05803747"
+        gloss: "an estimate, based on previous dealings, of a person's or an organization's ability to fulfill their financial commitments"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00727143"
+        gloss: "give someone credit for something; \"We credited her for saving our jobs\""
+        angloform:
+          status: gap
+      - wordnet: "00727791"
+        gloss: "ascribe an achievement to; \"She was not properly credited in the program\""
+        angloform:
+          status: gap
+      - wordnet: "02264752"
+        gloss: "accounting: enter as credit; \"We credit your account with $100\""
+        angloform:
+          status: gap
+      - wordnet: "00683930"
+        gloss: have trust in; trust in the truth or veracity of
+        angloform:
+          status: gap

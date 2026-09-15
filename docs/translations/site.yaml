@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08651247"
+        gloss: "the piece of land on which something is located (or is to be located); \"a good site for the school\""
+        angloform:
+          status: gap
+      - wordnet: "08622950"
+        gloss: "physical position in relation to the surroundings; \"the sites are determined by highly specific sequences of nucleotides\""
+        angloform:
+          status: redirect
+          word: situation
+          category: NOUN
+      - wordnet: "06359193"
+        gloss: "a computer connected to the internet that maintains a series of web pages on the World Wide Web; \"the Israeli web site was damaged by hostile hackers\""
+        angloform:
+          status: redirect
+          word: website
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "02333689"
+        gloss: "assign a location to; \"The company located some of their agents in Los Angeles\""
+        angloform:
+          status: gap

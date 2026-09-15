@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01887076"
+        gloss: "intended or adapted to afford protection of some kind; \"a protective covering\"; \"the use of protective masks and equipment\"; \"protective coatings\"; \"kept the drunken sailor in protective custody\"; \"animals with protective coloring\"; \"protective tariffs\""
+        angloform:
+          status: gap
+      - wordnet: "02449177"
+        gloss: "showing care; \"a protective mother\""
+        angloform:
+          status: gap
+      - wordnet: "00311187"
+        gloss: "(usually followed by `of') solicitously caring or mindful; \"protective of his reputation\""
+        angloform:
+          status: gap

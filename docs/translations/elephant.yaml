@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02503517"
+        gloss: five-toed pachyderm
+        angloform:
+          status: gap
+      - wordnet: "06881662"
+        gloss: the symbol of the Republican Party; introduced in cartoons by Thomas Nast in 1874
+        angloform:
+          status: gap

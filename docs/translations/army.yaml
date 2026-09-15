@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08191230"
+        gloss: a permanent organization of the military land forces of a nation or state
+        angloform:
+          status: gap
+      - wordnet: "08183290"
+        gloss: a large number of people united for some specific purpose
+        angloform:
+          status: gap
+      - wordnet: "08394922"
+        gloss: the army of the United States of America; the agency that organizes and trains soldiers for land warfare
+        angloform:
+          status: gap

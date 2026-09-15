@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00610532"
+        gloss: "(weapons) deriving destructive energy from the release of atomic energy; \"nuclear war\"; \"nuclear weapons\"; \"atomic bombs\""
+        angloform:
+          status: gap
+      - wordnet: "02862444"
+        gloss: "of or relating to or constituting the nucleus of an atom; \"nuclear physics\"; \"nuclear fission\"; \"nuclear forces\""
+        angloform:
+          status: gap
+      - wordnet: "02862629"
+        gloss: "of or relating to or constituting the nucleus of a cell; \"nuclear membrane\"; \"nuclear division\""
+        angloform:
+          status: gap
+      - wordnet: "00331259"
+        gloss: "constituting or like a nucleus; \"annexation of the suburban fringe by the nuclear metropolis\"; \"the nuclear core of the congregation\""
+        angloform:
+          status: gap

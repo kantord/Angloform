@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00505853"
+        gloss: "radically distinctive and without equal; \"he is alone in the field of microbiology\"; \"this theory is altogether alone in its penetration of the problem\"; \"Bach was unique in his handling of counterpoint\"; \"craftsmen whose skill is unequaled\"; \"unparalleled athletic ability\"; \"a breakdown of law unparalleled in our history\""
+        angloform:
+          status: redirect
+          word: alone
+          category: ADJ
+      - wordnet: "01105042"
+        gloss: "(followed by `to') applying exclusively to a given category or condition or locality; \"a species unique to Australia\""
+        angloform:
+          status: gap
+      - wordnet: "02215087"
+        gloss: "the single one of its kind; \"a singular example\"; \"the unique existing example of Donne's handwriting\"; \"a unique copy of an ancient manuscript\"; \"certain types of problems have unique solutions\""
+        angloform:
+          status: redirect
+          word: singular
+          category: ADJ
+      - wordnet: "00491511"
+        gloss: "highly unusual or rare but not the single instance; \"spoke with a unique accent\"; \"had unique ability in raising funds\"; \"a frankness unique in literature\"; \"a unique dining experience\""
+        angloform:
+          status: gap

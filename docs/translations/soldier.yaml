@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10622053"
+        gloss: "an enlisted man or woman who serves in an army; \"the soldiers stood at attention\""
+        angloform:
+          status: gap
+      - wordnet: "02207647"
+        gloss: a wingless sterile ant or termite having a large head and powerful jaws adapted for defending the colony
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01097031"
+        gloss: serve as a soldier in the military
+        angloform:
+          status: gap

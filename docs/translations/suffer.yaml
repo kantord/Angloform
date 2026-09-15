@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02109190"
+        gloss: "undergo or be subjected to; \"He suffered the penalty\"; \"Many saints suffered martyrdom\""
+        angloform:
+          status: gap
+      - wordnet: "00065639"
+        gloss: "undergo (as of injuries and illnesses); \"She suffered a fracture in the accident\"; \"He had an insulin shock after eating three candy bars\"; \"She got a bruise on her leg\"; \"He got his arm broken in the scuffle\""
+        angloform:
+          status: redirect
+          word: have
+          category: VERB_TRANS
+      - wordnet: "01794668"
+        gloss: "experience (emotional) pain; \"Every time her husband gets drunk, she suffers\""
+        angloform:
+          status: gap
+      - wordnet: "00668099"
+        gloss: "put up with something or somebody unpleasant; \"I cannot bear his constant criticism\"; \"The new secretary had to endure a lot of unprofessional remarks\"; \"he learned to tolerate the heat\"; \"She stuck out two years in a miserable marriage\""
+        angloform:
+          status: redirect
+          word: tolerate
+          category: VERB_TRANS
+      - wordnet: "00204750"
+        gloss: "get worse; \"His grades suffered\""
+        angloform:
+          status: gap
+      - wordnet: "00065070"
+        gloss: feel pain or be in pain
+        angloform:
+          status: redirect
+          word: hurt
+          category: VERB_TRANS
+      - wordnet: "02121511"
+        gloss: "feel physical pain; \"Were you hurting after the accident?\""
+        angloform:
+          status: redirect
+          word: hurt
+          category: VERB_TRANS
+      - wordnet: "00078401"
+        gloss: "feel unwell or uncomfortable; \"She is suffering from the hot weather\""
+        angloform:
+          status: gap
+      - wordnet: "02719807"
+        gloss: "be given to; \"She suffers from a tendency to talk too much\""
+        angloform:
+          status: gap
+      - wordnet: "02110082"
+        gloss: "undergo or suffer; \"meet a violent death\"; \"suffer a terrible fate\""
+        angloform:
+          status: redirect
+          word: meet
+          category: VERB_TRANS
+      - wordnet: "00204872"
+        gloss: "be set at a disadvantage; \"This author really suffers in translation\""
+        angloform:
+          status: redirect
+          word: lose
+          category: VERB_TRANS

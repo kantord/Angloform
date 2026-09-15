@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00165018"
+        gloss: "in a serious manner; \"talking earnestly with his son\"; \"she started studying snakes in earnest\"; \"a play dealing seriously with the question of divorce\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00015953"
+        gloss: "to a severe or serious degree; \"fingers so badly frozen they had to be amputated\"; \"badly injured\"; \"a severely impaired heart\"; \"is gravely ill\"; \"was seriously ill\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

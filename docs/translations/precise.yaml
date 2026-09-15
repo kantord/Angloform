@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01837744"
+        gloss: "sharply exact or accurate or delimited; \"a precise mind\"; \"specified a precise amount\"; \"arrived at the precise moment\""
+        angloform:
+          status: gap
+      - wordnet: "00631798"
+        gloss: "(of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth ; strictly correct; \"a precise image\"; \"a precise measurement\""
+        angloform:
+          status: redirect
+          word: exact
+          category: ADJ

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09761068"
+        gloss: a person who joins with another in carrying out some plan (especially an unethical or illegal plan)
+        angloform:
+          status: gap

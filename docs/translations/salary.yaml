@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13279262"
+        gloss: "something that remunerates; \"wages were paid by check\"; \"he wasted his pay on drink\"; \"they saved a quarter of all their earnings\""
+        angloform:
+          status: gap

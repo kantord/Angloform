@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08568256"
+        gloss: "the context and environment in which something is set; \"the perfect setting for a ghost story\""
+        angloform:
+          status: gap
+      - wordnet: "14513259"
+        gloss: "the state of the environment in which a situation exists; \"you can't do that in a university setting\""
+        angloform:
+          status: redirect
+          word: scope
+          category: NOUN
+      - wordnet: "03773268"
+        gloss: arrangement of scenery and properties to represent the place where a play or movie is enacted
+        angloform:
+          status: gap
+      - wordnet: "14512817"
+        gloss: "the set of facts or circumstances that surround a situation or event; \"the historical context\""
+        angloform:
+          status: redirect
+          word: context
+          category: NOUN
+      - wordnet: "08623927"
+        gloss: "the physical position of something; \"he changed the setting on the thermostat\""
+        angloform:
+          status: gap
+      - wordnet: "03953743"
+        gloss: "a table service for one person; \"a place setting of sterling flatware\""
+        angloform:
+          status: gap
+      - wordnet: "03792526"
+        gloss: "a mounting consisting of a piece of metal (as in a ring or other jewelry) that holds a gem in place; \"the diamond was in a plain gold mount\""
+        angloform:
+          status: gap

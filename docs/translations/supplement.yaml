@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06399631"
+        gloss: textual matter that is added onto a publication; usually at the end
+        angloform:
+          status: gap
+      - wordnet: "05110772"
+        gloss: a quantity added (e.g. to make up for a deficiency)
+        angloform:
+          status: gap
+      - wordnet: "02671421"
+        gloss: a supplementary component that improves capability
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02342132"
+        gloss: "add as a supplement to what seems insufficient; \"supplement your diet\""
+        angloform:
+          status: gap
+      - wordnet: "02752931"
+        gloss: "serve as a supplement to; \"Vitamins supplemented his meager diet\""
+        angloform:
+          status: gap
+      - wordnet: "01328705"
+        gloss: "add to the very end; \"He appended a glossary to his novel where he used an invented language\""
+        angloform:
+          status: gap

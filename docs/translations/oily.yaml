@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00992432"
+        gloss: "containing an unusual amount of grease or oil; \"greasy hamburgers\"; \"oily fried potatoes\"; \"oleaginous seeds\""
+        angloform:
+          status: gap
+      - wordnet: "02181432"
+        gloss: "unpleasantly and excessively suave or ingratiating in manner or speech; \"buttery praise\"; \"gave him a fulsome introduction\"; \"an oily sycophantic press agent\"; \"oleaginous hypocrisy\"; \"smarmy self-importance\"; \"the unctuous Uriah Heep\"; \"soapy compliments\""
+        angloform:
+          status: gap
+      - wordnet: "01699838"
+        gloss: "coated or covered with oil; \"oily puddles in the streets\""
+        angloform:
+          status: gap
+      - wordnet: "00422168"
+        gloss: "smeared or soiled with grease or oil; \"greasy coveralls\"; \"get rid of rubbish and oily rags\""
+        angloform:
+          status: gap

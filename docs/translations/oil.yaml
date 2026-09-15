@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14966667"
+        gloss: a slippery or viscous liquid or liquefiable substance not miscible with water
+        angloform:
+          status: gap
+      - wordnet: "03843092"
+        gloss: oil paint containing pigment that is used by an artist
+        angloform:
+          status: gap
+      - wordnet: "14980579"
+        gloss: a dark oil consisting mainly of hydrocarbons
+        angloform:
+          status: gap
+      - wordnet: "07673397"
+        gloss: any of a group of liquid edible fats that are obtained from plants
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01268571"
+        gloss: "cover with oil, as if by rubbing; \"oil the wooden surface\""
+        angloform:
+          status: gap
+      - wordnet: "00085626"
+        gloss: administer an oil or ointment to ; often in a religious ceremony of blessing
+        angloform:
+          status: gap

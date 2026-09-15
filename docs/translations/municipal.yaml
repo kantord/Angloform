@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02697452"
+        gloss: "relating or belonging to or characteristic of a municipality; \"municipal government\"; \"municipal bonds\"; \"a municipal park\"; \"municipal transportation\""
+        angloform:
+          status: gap
+      - wordnet: "01038580"
+        gloss: "of or relating to the government of a municipality; \"international law...only authorizes a belligerent to punish a spy under its municipal law\"- J.L.kuntz"
+        angloform:
+          status: gap

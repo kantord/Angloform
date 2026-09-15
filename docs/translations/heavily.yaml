@@ -1,0 +1,39 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00176383"
+        gloss: "to a considerable degree; \"he relied heavily on others' data\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00507477"
+        gloss: "in a heavy-footed manner; \"he walked heavily up the three flights to his room\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00508657"
+        gloss: "with great force; \"she hit her arm heavily against the wall\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00502575"
+        gloss: "in a manner designed for heavy duty; \"a heavily constructed car\"; \"heavily armed\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00355615"
+        gloss: "slowly as if burdened by much weight; \"time hung heavy on their hands\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00176654"
+        gloss: "in a labored manner; \"he breathed heavily\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00176518"
+        gloss: "indulging excessively; \"he drank heavily\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

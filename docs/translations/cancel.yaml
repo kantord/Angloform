@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06867218"
+        gloss: a notation cancelling a previous sharp or flat
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02477755"
+        gloss: "postpone indefinitely or annul something that was scheduled; \"Call off the engagement\"; \"cancel the dinner party\"; \"we had to scrub our vacation plans\"; \"scratch that meeting--the chair is ill\""
+        angloform:
+          status: gap
+      - wordnet: "02717831"
+        gloss: "make up for; \"His skills offset his opponent's superior strength\""
+        angloform:
+          status: gap
+      - wordnet: "02477334"
+        gloss: "declare null and void; make ineffective; \"Cancel the election results\"; \"strike down a law\""
+        angloform:
+          status: gap
+      - wordnet: "01549187"
+        gloss: "remove or make invisible; \"Please delete my name from your list\""
+        angloform:
+          status: redirect
+          word: delete
+          category: VERB_TRANS
+      - wordnet: "00800460"
+        gloss: "make invalid for use; \"cancel cheques or tickets\""
+        angloform:
+          status: gap

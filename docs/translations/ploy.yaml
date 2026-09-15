@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06765531"
+        gloss: an opening remark intended to secure an advantage for the speaker
+        angloform:
+          status: gap
+      - wordnet: "00172490"
+        gloss: a maneuver in a game or conversation
+        angloform:
+          status: gap

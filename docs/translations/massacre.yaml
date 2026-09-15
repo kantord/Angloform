@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00223983"
+        gloss: the savage and excessive killing of many people
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00479176"
+        gloss: "kill a large number of people indiscriminately; \"The Hutus massacred the Tutsis in Rwanda\""
+        angloform:
+          status: gap

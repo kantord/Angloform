@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00945401"
+        gloss: the activity of looking thoroughly in order to find something or someone
+        angloform:
+          status: gap
+      - wordnet: "00637354"
+        gloss: "an investigation seeking answers; \"a thorough search of the ledgers revealed nothing\"; \"the outcome justified the search\""
+        angloform:
+          status: gap
+      - wordnet: "13553560"
+        gloss: "an operation that determines whether one or more of a set of items has a specified property; \"they wrote a program to do a table lookup\""
+        angloform:
+          status: gap
+      - wordnet: "05770058"
+        gloss: "the examination of alternative hypotheses; \"his search for a move that would avoid checkmate was unsuccessful\""
+        angloform:
+          status: gap
+      - wordnet: "00644366"
+        gloss: "boarding and inspecting a ship on the high seas; \"right of search\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01315613"
+        gloss: "try to locate or discover, or try to establish the existence of; \"The police are searching for clues\"; \"They are searching for the missing man in the entire county\""
+        angloform:
+          status: gap
+      - wordnet: "02153709"
+        gloss: "search or seek; \"We looked all day and finally found the child in the forest\"; \"Look elsewhere for the perfect gift!\""
+        angloform:
+          status: gap
+      - wordnet: "00648224"
+        gloss: "inquire into; \"the students had to research the history of the Second World War for their history project\"; \"He searched for information on his relatives on the web\"; \"Scientists are exploring the nature of consciousness\""
+        angloform:
+          status: gap
+      - wordnet: "01317723"
+        gloss: "subject to a search; \"The police searched the suspect\"; \"We searched the whole house for the missing keys\""
+        angloform:
+          status: gap

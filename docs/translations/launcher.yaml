@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03647520"
+        gloss: armament in the form of a device capable of launching a rocket
+        angloform:
+          status: gap
+      - wordnet: "02982232"
+        gloss: a device that launches aircraft from a warship
+        angloform:
+          status: gap

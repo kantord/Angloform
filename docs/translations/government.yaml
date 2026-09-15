@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08050678"
+        gloss: "the organization that is the governing authority of a political unit; \"the government reduced taxes\"; \"the matter was referred to higher authorities\""
+        angloform:
+          status: gap
+      - wordnet: "01124794"
+        gloss: "the act of governing; exercising authority; \"regulations for the governing of state prisons\"; \"he had considerable experience of government\""
+        angloform:
+          status: gap
+      - wordnet: "05663671"
+        gloss: "(government) the system or form by which a community or other political unit is governed; \"tyrannical government\""
+        angloform:
+          status: gap
+      - wordnet: "06148148"
+        gloss: the study of government of states and other political units
+        angloform:
+          status: gap

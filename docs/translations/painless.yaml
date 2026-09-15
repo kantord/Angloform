@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00750712"
+        gloss: "requiring little hard work or exertion; \"a painless solution to the problem\""
+        angloform:
+          status: gap
+      - wordnet: "01713095"
+        gloss: "not causing physical or psychological pain; \"painless dentistry\""
+        angloform:
+          status: gap

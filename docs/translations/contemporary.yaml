@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09960417"
+        gloss: a person of nearly the same age as another
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01536094"
+        gloss: "characteristic of the present; \"contemporary trends in design\"; \"the role of computers in modern-day medicine\""
+        angloform:
+          status: gap
+      - wordnet: "00667079"
+        gloss: "belonging to the present time; \"contemporary leaders\""
+        angloform:
+          status: gap
+      - wordnet: "02378872"
+        gloss: "occurring in the same period of time; \"a rise in interest rates is often contemporaneous with an increase in inflation\"; \"the composer Salieri was contemporary with Mozart\""
+        angloform:
+          status: gap

@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08179455"
+        gloss: "people who have possessions and wealth (considered as a group); \"only the very rich benefit from this legislation\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02021905"
+        gloss: "possessing material wealth; \"her father is extremely rich\"; \"many fond hopes are pinned on rich uncles\""
+        angloform:
+          status: gap
+      - wordnet: "02024143"
+        gloss: "having an abundant supply of desirable qualities or substances (especially natural resources); \"blessed with a land rich in minerals\"; \"rich in ideas\"; \"rich with cultural interest\""
+        angloform:
+          status: gap
+      - wordnet: "02501693"
+        gloss: "of great worth or quality; \"a rich collection of antiques\""
+        angloform:
+          status: gap
+      - wordnet: "01081340"
+        gloss: "marked by great fruitfulness; \"fertile farmland\"; \"a fat land\"; \"a productive vineyard\"; \"rich soil\""
+        angloform:
+          status: gap
+      - wordnet: "00403385"
+        gloss: "strong; intense; \"deep purple\"; \"a rich red\""
+        angloform:
+          status: redirect
+          word: deep
+          category: ADJ
+      - wordnet: "01866429"
+        gloss: "very productive; \"rich seams of coal\""
+        angloform:
+          status: gap
+      - wordnet: "02026785"
+        gloss: "high in mineral content; having a high proportion of fuel to air; \"a rich vein of copper\", \"a rich gas mixture\""
+        angloform:
+          status: gap
+      - wordnet: "02024758"
+        gloss: "suggestive of or characterized by great expense; \"a rich display\""
+        angloform:
+          status: gap
+      - wordnet: "02560402"
+        gloss: "containing plenty of fat, or eggs, or sugar; \"rich desserts\"; \"they kept gorging on rich foods\""
+        angloform:
+          status: gap
+      - wordnet: "02397234"
+        gloss: "marked by richness and fullness of flavor; \"a rich ruby port\"; \"full-bodied wines\"; \"a robust claret\"; \"the robust flavor of fresh-brewed coffee\""
+        angloform:
+          status: gap
+      - wordnet: "01457369"
+        gloss: "pleasantly full and mellow; \"a rich tenor voice\""
+        angloform:
+          status: gap
+      - wordnet: "00014490"
+        gloss: "affording an abundant supply; \"had ample food for the party\"; \"copious provisions\"; \"food is plentiful\"; \"a plenteous grape harvest\"; \"a rich supply\""
+        angloform:
+          status: gap

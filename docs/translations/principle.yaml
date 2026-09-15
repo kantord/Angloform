@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05913538"
+        gloss: "a basic generalization that is accepted as true and that can be used as a basis for reasoning or conduct; \"their principles of composition characterized all their works\""
+        angloform:
+          status: redirect
+          word: rule
+          category: NOUN
+      - wordnet: "05955323"
+        gloss: "a rule or standard especially of good behavior; \"a man of principle\"; \"he will not violate his principles\""
+        angloform:
+          status: gap
+      - wordnet: "05872477"
+        gloss: "a basic truth or law or assumption; \"the principles of democracy\""
+        angloform:
+          status: gap
+      - wordnet: "05874232"
+        gloss: "a rule or law concerning a natural phenomenon or the function of a complex system; \"the principle of the conservation of mass\"; \"the principle of jet propulsion\"; \"the right-hand rule for inductive fields\""
+        angloform:
+          status: redirect
+          word: rule
+          category: NOUN
+      - wordnet: "06655388"
+        gloss: rule of personal conduct
+        angloform:
+          status: gap
+      - wordnet: "05793210"
+        gloss: "(law) an explanation of the fundamental reasons (especially an explanation of the working of some device in terms of laws of nature); \"the rationale for capital punishment\"; \"the principles of internal-combustion engines\""
+        angloform:
+          status: redirect
+          word: rationale
+          category: NOUN

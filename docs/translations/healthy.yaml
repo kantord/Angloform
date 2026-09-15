@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01170243"
+        gloss: "having or indicating good health in body or mind; free from infirmity or disease; \"a rosy healthy baby\"; \"staying fit and healthy\""
+        angloform:
+          status: gap
+      - wordnet: "02273838"
+        gloss: "financially secure and functioning well; \"a healthy economy\""
+        angloform:
+          status: gap
+      - wordnet: "02558184"
+        gloss: "promoting health; healthful; \"a healthy diet\"; \"clean healthy air\"; \"plenty of healthy sleep\"; \"healthy and normal outlets for youthful energy\"; \"the salubrious mountain air and water\"- C.B.Davis; \"carrots are good for you\""
+        angloform:
+          status: gap
+      - wordnet: "01944088"
+        gloss: "exercising or showing good judgment; \"healthy scepticism\"; \"a healthy fear of rattlesnakes\"; \"the healthy attitude of French laws\"; \"healthy relations between labor and management\"; \"an intelligent solution\"; \"a sound approach to the problem\"; \"sound advice\"; \"no sound explanation for his decision\""
+        angloform:
+          status: gap
+      - wordnet: "00624576"
+        gloss: "large in amount or extent or degree; \"it cost a considerable amount\"; \"a goodly amount\"; \"received a hefty bonus\"; \"a respectable sum\"; \"a tidy sum of money\"; \"a sizable fortune\""
+        angloform:
+          status: gap

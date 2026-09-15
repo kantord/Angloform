@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04068261"
+        gloss: "a prescription drug that is provided again; \"he got a refill of his prescription\"; \"the prescription specified only one refill\""
+        angloform:
+          status: gap
+      - wordnet: "04068055"
+        gloss: "a commercial product that refills a container with its appropriate contents; \"he got a refill for his ball-point pen\"; \"he got a refill for his notebook\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00453803"
+        gloss: "fill something that had previously been emptied; \"refill my glass, please\""
+        angloform:
+          status: gap

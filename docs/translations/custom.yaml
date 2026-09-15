@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00413239"
+        gloss: accepted or habitual practice
+        angloform:
+          status: redirect
+          word: usage
+          category: NOUN
+      - wordnet: "05667404"
+        gloss: a specific practice of long standing
+        angloform:
+          status: redirect
+          word: tradition
+          category: NOUN
+      - wordnet: "13317002"
+        gloss: money collected under a tariff
+        angloform:
+          status: gap
+      - wordnet: "01096873"
+        gloss: "habitual patronage; \"I have given this tailor my custom for many years\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00672226"
+        gloss: made according to the specifications of an individual
+        angloform:
+          status: gap

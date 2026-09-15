@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06272612"
+        gloss: a computerized system for answering and routing telephone calls; telephone messages can be recorded and stored and relayed
+        angloform:
+          status: gap

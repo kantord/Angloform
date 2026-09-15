@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01808227"
+        gloss: "extremely pleasing; \"a fabulous vacation\""
+        angloform:
+          status: gap

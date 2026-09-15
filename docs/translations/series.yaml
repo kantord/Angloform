@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08457976"
+        gloss: "similar things placed in order or happening one after another; \"they were investigating a series of bank robberies\""
+        angloform:
+          status: gap
+      - wordnet: "06621447"
+        gloss: "a serialized set of programs; \"a comedy series\"; \"the Masterworks concert series\""
+        angloform:
+          status: gap
+      - wordnet: "06593803"
+        gloss: a periodical that appears at scheduled times
+        angloform:
+          status: gap
+      - wordnet: "07465448"
+        gloss: "(sports) several contests played successively by the same teams; \"the visiting team swept the series\""
+        angloform:
+          status: gap
+      - wordnet: "13791910"
+        gloss: "(electronics) connection of components in such a manner that current flows first through one and then through the other; \"the voltage divider consisted of a series of fixed resistors\""
+        angloform:
+          status: gap
+      - wordnet: "08458504"
+        gloss: "a group of postage stamps having a common theme or a group of coins or currency selected as a group for study or collection; \"the Post Office issued a series commemorating famous American entertainers\"; \"his coin collection included the complete series of Indian-head pennies\""
+        angloform:
+          status: gap
+      - wordnet: "05862721"
+        gloss: (mathematics) the sum of a finite or infinite sequence of expressions
+        angloform:
+          status: gap

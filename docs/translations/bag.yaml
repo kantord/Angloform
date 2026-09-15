@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02773037"
+        gloss: "a flexible container with a single opening; \"he stuffed his laundry into a large bag\""
+        angloform:
+          status: gap
+      - wordnet: "13754778"
+        gloss: "the quantity of game taken in a particular period (usually by one person); \"his bag included two deer\""
+        angloform:
+          status: gap
+      - wordnet: "02797881"
+        gloss: "a place that the runner must touch before scoring; \"he scrambled to get back to the bag\""
+        angloform:
+          status: gap
+      - wordnet: "02774152"
+        gloss: "a container used for carrying money and small personal items or accessories (especially by women); \"she reached into her bag and found a comb\""
+        angloform:
+          status: gap
+      - wordnet: "13764639"
+        gloss: "the quantity that a bag will hold; \"he ate a large bag of popcorn\""
+        angloform:
+          status: gap
+      - wordnet: "02773838"
+        gloss: "a portable rectangular container for carrying clothes; \"he carried his small bag onto the plane with him\""
+        angloform:
+          status: gap
+      - wordnet: "09832321"
+        gloss: "an ugly or ill-tempered woman; \"he was romancing the old bag for her money\""
+        angloform:
+          status: gap
+      - wordnet: "02370360"
+        gloss: mammary gland of bovids (cows and sheep and goats)
+        angloform:
+          status: gap
+      - wordnet: "00432881"
+        gloss: "an activity that you like or at which you are superior; \"chemistry is not my cup of tea\"; \"his bag now is learning to play golf\"; \"marriage was scarcely his dish\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01479874"
+        gloss: "capture or kill, as in hunting; \"bag a few pheasants\""
+        angloform:
+          status: gap
+      - wordnet: "02717362"
+        gloss: hang loosely, like an empty bag
+        angloform:
+          status: gap
+      - wordnet: "02714360"
+        gloss: bulge out; form a bulge outward, or be so full as to appear to bulge
+        angloform:
+          status: gap
+      - wordnet: "02292432"
+        gloss: take unlawfully
+        angloform:
+          status: gap
+      - wordnet: "01485839"
+        gloss: "put into a bag; \"The supermarket clerk bagged the groceries\""
+        angloform:
+          status: gap

@@ -1,0 +1,70 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14841267"
+        gloss: "a mixture of gases (especially oxygen) required for breathing; the stuff that the wind consists of; \"air pollution\"; \"a smell of chemicals in the air\"; \"open a window and let in some air\"; \"I need some fresh air\""
+        angloform:
+          status: gap
+      - wordnet: "08653314"
+        gloss: "the region above the ground; \"her hand stopped in mid air\"; \"he threw the ball into the air\""
+        angloform:
+          status: gap
+      - wordnet: "04727214"
+        gloss: "a distinctive but intangible quality surrounding a person or thing; \"an air of mystery\"; \"the house had a neglected air\"; \"an atmosphere of defeat pervaded the candidate's headquarters\"; \"the place had an aura of romance\""
+        angloform:
+          status: gap
+      - wordnet: "11431754"
+        gloss: "a slight wind (usually refreshing); \"the breeze was cooled by the lake\"; \"as he waited he could feel the air on his neck\""
+        angloform:
+          status: gap
+      - wordnet: "08499057"
+        gloss: "the mass of air surrounding the Earth; \"there was great heat as the comet entered the atmosphere\"; \"it was exposed to the air\""
+        angloform:
+          status: gap
+      - wordnet: "14842703"
+        gloss: once thought to be one of four elements composing the universe (Empedocles)
+        angloform:
+          status: gap
+      - wordnet: "07028373"
+        gloss: "a succession of notes forming a distinctive sequence; \"she was humming an air from Beethoven\""
+        angloform:
+          status: redirect
+          word: line
+          category: NOUN
+      - wordnet: "06255354"
+        gloss: "medium for radio and television broadcasting; \"the program was on the air from 9 til midnight\"; \"the president used the airwaves to take his message to the people\""
+        angloform:
+          status: gap
+      - wordnet: "00300441"
+        gloss: "travel via aircraft; \"air travel involves too much waiting in airports\"; \"if you've time to spare go by air\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02112891"
+        gloss: "expose to fresh air; \"aerate your old sneakers\""
+        angloform:
+          status: gap
+      - wordnet: "00973728"
+        gloss: "be broadcast; \"This show will air Saturdays at 2 P.M.\""
+        angloform:
+          status: gap
+      - wordnet: "00973056"
+        gloss: "broadcast over the airwaves, as in radio or television; \"We cannot air this X-rated song\""
+        angloform:
+          status: redirect
+          word: send
+          category: VERB_TRANS
+      - wordnet: "00954608"
+        gloss: "make public; \"She aired her opinions on welfare\""
+        angloform:
+          status: gap
+      - wordnet: "00489029"
+        gloss: "expose to warm or heated air, so as to dry; \"Air linen\""
+        angloform:
+          status: gap
+      - wordnet: "00488770"
+        gloss: "expose to cool or cold air so as to cool or freshen; \"air the old winter clothes\"; \"air out the smoke-filled rooms\""
+        angloform:
+          status: gap

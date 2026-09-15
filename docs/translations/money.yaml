@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13384557"
+        gloss: "the most common medium of exchange; functions as legal tender; \"we tried to collect the money he owed us\""
+        angloform:
+          status: gap
+      - wordnet: "13250542"
+        gloss: "wealth reckoned in terms of money; \"all his money is in real estate\""
+        angloform:
+          status: gap
+      - wordnet: "13384877"
+        gloss: "the official currency issued by a government or national bank; \"he changed his money into francs\""
+        angloform:
+          status: gap

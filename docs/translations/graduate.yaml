@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09786338"
+        gloss: a person who has received a degree from a school (high school or college or university)
+        angloform:
+          status: gap
+      - wordnet: "03451473"
+        gloss: a measuring instrument for measuring fluid volume; a glass container (cup or cylinder or flask) whose sides are marked with or divided into amounts
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02264397"
+        gloss: "receive an academic degree upon completion of one's studies; \"She graduated in 1990\""
+        angloform:
+          status: gap
+      - wordnet: "02264179"
+        gloss: "confer an academic degree upon; \"This school graduates 2,000 students each year\""
+        angloform:
+          status: gap
+      - wordnet: "00295697"
+        gloss: "make fine adjustments or divide into marked intervals for optimal measuring; \"calibrate an instrument\"; \"graduate a cylinder\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01211665"
+        gloss: "of or relating to studies beyond a bachelor's degree; \"graduate courses\""
+        angloform:
+          status: gap

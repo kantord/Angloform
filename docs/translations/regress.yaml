@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05783768"
+        gloss: the reasoning involved when you assume the conclusion is true and reason backward to the evidence
+        angloform:
+          status: gap
+      - wordnet: "00235208"
+        gloss: returning to a former state
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00491456"
+        gloss: go back to a statistical means
+        angloform:
+          status: gap
+      - wordnet: "00387310"
+        gloss: "go back to a previous state; \"We reverted to the old rules\""
+        angloform:
+          status: redirect
+          word: return
+          category: VERB_TRANS
+      - wordnet: "00249313"
+        gloss: get worse or fall back to a previous condition
+        angloform:
+          status: gap
+      - wordnet: "00093327"
+        gloss: "go back to bad behavior; \"Those who recidivate are often minor criminals\""
+        angloform:
+          status: gap

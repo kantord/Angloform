@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14483917"
+        gloss: "a possibility due to a favorable combination of circumstances; \"the holiday gave us the opportunity to visit Washington\"; \"now is your chance\""
+        angloform:
+          status: redirect
+          word: opportunity
+          category: NOUN
+      - wordnet: "11418138"
+        gloss: "an unknown and unpredictable phenomenon that causes an event to result one way rather than another; \"bad luck caused his downfall\"; \"we ran into each other by pure chance\""
+        angloform:
+          status: gap
+      - wordnet: "00802629"
+        gloss: "a risk involving danger; \"you take a chance when you let her drive\""
+        angloform:
+          status: gap
+      - wordnet: "05091770"
+        gloss: "a measure of how likely it is that some event will occur; a number expressing the ratio of favorable cases to the whole number of cases possible; \"the probability that an unbiased coin will fall with the head up is 0.5\""
+        angloform:
+          status: gap
+      - wordnet: "14482968"
+        gloss: "the possibility of future success; \"his prospects as a writer are excellent\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02594102"
+        gloss: "be the case by chance; \"I chanced to meet my old friend in the street\""
+        angloform:
+          status: gap
+      - wordnet: "02544348"
+        gloss: "take a risk in the hope of a favorable outcome; \"When you buy these stocks you are gambling\""
+        angloform:
+          status: gap
+      - wordnet: "02248465"
+        gloss: "come upon, as if by accident; meet with; \"We find this idea in Plato\"; \"I happened upon the most wonderful bakery not very far from here\"; \"She chanced upon an interesting book in the bookstore the other day\""
+        angloform:
+          status: redirect
+          word: find
+          category: VERB_TRANS
+  ADJ:
+    senses:
+      - wordnet: "01798162"
+        gloss: "occurring or appearing or singled out by chance; \"seek help from casual passers-by\"; \"a casual meeting\"; \"a chance occurrence\""
+        angloform:
+          status: gap

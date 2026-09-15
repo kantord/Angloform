@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00752847"
+        gloss: "inspiring scornful pity; \"how silly an ardent and unsuccessful wooer can be especially if he is getting on in years\"- Dashiell Hammett"
+        angloform:
+          status: gap
+      - wordnet: "02570643"
+        gloss: "incongruous;inviting ridicule; \"the absurd excuse that the dog ate his homework\"; \"that's a cockeyed idea\"; \"ask a nonsensical question and get a nonsensical answer\"; \"a contribution so small as to be laughable\"; \"it is ludicrous to call a cottage a mansion\"; \"a preposterous attempt to turn back the pages of history\"; \"her conceited assumption of universal interest in her rather dull children was ridiculous\""
+        angloform:
+          status: gap
+      - wordnet: "01266397"
+        gloss: "broadly or extravagantly humorous; resembling farce; \"the wild farcical exuberance of a clown\"; \"ludicrous green hair\""
+        angloform:
+          status: gap

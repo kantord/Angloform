@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01354673"
+        gloss: "connect, fasten, or put together two or more pieces; \"Can you connect the two loudspeakers?\"; \"Tie the ropes together\"; \"Link arms\""
+        angloform:
+          status: redirect
+          word: link
+          category: VERB_TRANS
+      - wordnet: "00713167"
+        gloss: "make a logical or causal connection; \"I cannot connect these two pieces of evidence in my mind\"; \"colligate these facts\"; \"I cannot relate these events at all\""
+        angloform:
+          status: redirect
+          word: link
+          category: VERB_TRANS
+      - wordnet: "02622234"
+        gloss: "be or become joined or united or linked; \"The two streets connect to become a highway\"; \"Our paths joined\"; \"The travelers linked up again at the airport\""
+        angloform:
+          status: redirect
+          word: link
+          category: VERB_TRANS
+      - wordnet: "01069391"
+        gloss: "join by means of communication equipment; \"The telephone company finally put in lines to connect the towns in this area\""
+        angloform:
+          status: gap
+      - wordnet: "01237761"
+        gloss: "land on or hit solidly; \"The brick connected on her head, knocking her out\""
+        angloform:
+          status: gap
+      - wordnet: "01069190"
+        gloss: "join for the purpose of communication; \"Operator, could you connect me to the Raffles in Singapore?\""
+        angloform:
+          status: gap
+      - wordnet: "02747403"
+        gloss: "be scheduled so as to provide continuing service, as in transportation; \"The local train does not connect with the Amtrak train\"; \"The planes don't connect and you will have to wait for four hours\""
+        angloform:
+          status: gap
+      - wordnet: "02389592"
+        gloss: "establish a rapport or relationship; \"The President of this university really connects with the faculty\""
+        angloform:
+          status: gap
+      - wordnet: "02389346"
+        gloss: "establish communication with someone; \"did you finally connect with your long-lost cousin?\""
+        angloform:
+          status: gap
+      - wordnet: "01421122"
+        gloss: "plug into an outlet; \"Please plug in the toaster!\"; \"Connect the TV so we can watch the football game tonight\""
+        angloform:
+          status: gap
+      - wordnet: "01407568"
+        gloss: "hit or play a ball successfully; \"The batter connected for a home run\""
+        angloform:
+          status: gap

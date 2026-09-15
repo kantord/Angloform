@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06543781"
+        gloss: "a document stating the facts and points of law of a client's case"
+        angloform:
+          status: gap
+      - wordnet: "06468640"
+        gloss: a condensed written summary or abstract
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00831273"
+        gloss: "give essential information to someone; \"The reporters were briefed about the President's plan to invade\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01442826"
+        gloss: "of short duration or distance; \"a brief stay in the country\""
+        angloform:
+          status: gap
+      - wordnet: "00547166"
+        gloss: "concise and succinct; \"covered the matter in a brief statement\""
+        angloform:
+          status: gap
+      - wordnet: "01436432"
+        gloss: "(of clothing) very short; \"an abbreviated swimsuit\"; \"a brief bikini\""
+        angloform:
+          status: gap

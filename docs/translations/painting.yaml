@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03876519"
+        gloss: "graphic art consisting of an artistic composition made by applying paints to a surface; \"a small painting by Picasso\"; \"he bought the painting as an investment\"; \"his pictures hang in the Louvre\""
+        angloform:
+          status: gap
+      - wordnet: "00936620"
+        gloss: "creating a picture with paints; \"he studied painting and sculpture for many years\""
+        angloform:
+          status: gap
+      - wordnet: "00717208"
+        gloss: "the act of applying paint to a surface; \"you can finish the job of painting faster with a roller than with a brush\""
+        angloform:
+          status: gap
+      - wordnet: "00609236"
+        gloss: "the occupation of a house painter; \"house painting was the only craft he knew\""
+        angloform:
+          status: gap

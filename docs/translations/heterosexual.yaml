@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10173895"
+        gloss: a heterosexual person; someone having a sexual orientation to persons of the opposite sex
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01201100"
+        gloss: sexually attracted to members of the opposite sex
+        angloform:
+          status: gap

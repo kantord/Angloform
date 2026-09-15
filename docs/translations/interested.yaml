@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01342237"
+        gloss: "having or showing interest; especially curiosity or fascination or concern; \"an interested audience\"; \"interested in sports\"; \"was interested to hear about her family\"; \"interested in knowing who was on the telephone\"; \"interested spectators\""
+        angloform:
+          status: gap
+      - wordnet: "01515692"
+        gloss: "involved in or affected by or having a claim to or share in; \"a memorandum to those concerned\"; \"an enterprise in which three men are concerned\"; \"factors concerned in the rise and fall of epidemics\"; \"the interested parties met to discuss the business\""
+        angloform:
+          status: gap

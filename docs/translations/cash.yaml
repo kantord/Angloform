@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13386614"
+        gloss: "money in the form of bills or coins; \"there is a desperate shortage of hard cash\""
+        angloform:
+          status: gap
+      - wordnet: "13386465"
+        gloss: prompt payment for goods or services in currency or by check
+        angloform:
+          status: gap
+      - wordnet: "10886222"
+        gloss: United States country music singer and songwriter (1932-2003)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02256354"
+        gloss: "exchange for cash; \"I cashed the check as soon as it arrived in the mail\""
+        angloform:
+          status: gap

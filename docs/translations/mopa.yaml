@@ -1,0 +1,4 @@
+status: exempt
+exempt_kind: garbage
+reason: an organization/technical abbreviation, zero WordNet attestation, unclear meaning from a single
+  occurrence

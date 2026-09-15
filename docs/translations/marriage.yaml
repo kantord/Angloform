@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13963970"
+        gloss: "the state of being a married couple voluntarily joined for life (or until divorce); \"a long and happy marriage\"; \"God bless this union\""
+        angloform:
+          status: gap
+      - wordnet: "07989373"
+        gloss: "two people who are married to each other; \"his second marriage was happier than the first\"; \"a married couple without love\""
+        angloform:
+          status: gap
+      - wordnet: "01036996"
+        gloss: "the act of marrying; the nuptial ceremony; \"their marriage was conducted in the chapel\""
+        angloform:
+          status: gap
+      - wordnet: "14421585"
+        gloss: "a close and intimate union; \"the marriage of music and dance\"; \"a marriage of ideas\""
+        angloform:
+          status: gap

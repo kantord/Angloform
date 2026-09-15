@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01460421"
+        gloss: "evoking or deserving hatred; \"no vice is universally as hateful as ingratitude\"- Joseph Priestly"
+        angloform:
+          status: gap
+      - wordnet: "01587787"
+        gloss: "characterized by malice; \"a hateful thing to do\"; \"in a mean mood\""
+        angloform:
+          status: gap

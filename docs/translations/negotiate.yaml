@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00761713"
+        gloss: "discuss the terms of an arrangement; \"They negotiated the sale of the house\""
+        angloform:
+          status: gap
+      - wordnet: "02050688"
+        gloss: "succeed in passing through, around, or over; \"The hiker negociated the high mountain pass\""
+        angloform:
+          status: gap

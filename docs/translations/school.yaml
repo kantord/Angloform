@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08276720"
+        gloss: "an educational institution; \"the school was founded in 1900\""
+        angloform:
+          status: gap
+      - wordnet: "04146050"
+        gloss: "a building where young people receive education; \"the school was built in 1932\"; \"he walked to school every morning\""
+        angloform:
+          status: gap
+      - wordnet: "05757536"
+        gloss: "the process of being formally educated at a school; \"what will you do when you finish school?\""
+        angloform:
+          status: gap
+      - wordnet: "08275185"
+        gloss: "a body of creative artists or writers or thinkers linked by a similar style or by similar teachers; \"the Venetian school of painting\""
+        angloform:
+          status: gap
+      - wordnet: "15203229"
+        gloss: "the period of instruction in a school; the time period when school is in session; \"stay after school\"; \"he didn't miss a single day of school\"; \"when the school day was done we would walk home together\""
+        angloform:
+          status: gap
+      - wordnet: "08277393"
+        gloss: "an educational institution's faculty and students; \"the school keeps parents informed\"; \"the whole school turned out for the game\""
+        angloform:
+          status: gap
+      - wordnet: "07995453"
+        gloss: "a large group of fish; \"a school of small glittering fish swam by\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02387910"
+        gloss: "educate in or as if in a school; \"The children are schooled at great cost to their parents in private institutions\""
+        angloform:
+          status: gap
+      - wordnet: "02388403"
+        gloss: "teach or refine to be discriminative in taste or judgment; \"Cultivate your musical taste\"; \"Train your tastebuds\"; \"She is well schooled in poetry\""
+        angloform:
+          status: gap
+      - wordnet: "01961334"
+        gloss: "swim in or form a large group of fish; \"A cluster of schooling fish was attracted to the bait\""
+        angloform:
+          status: gap

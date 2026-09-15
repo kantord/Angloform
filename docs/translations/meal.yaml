@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07573696"
+        gloss: the food served and eaten at one time
+        angloform:
+          status: gap
+      - wordnet: "15245990"
+        gloss: any of the occasions for eating food that occur by custom or habit at more or less fixed times
+        angloform:
+          status: gap
+      - wordnet: "07567707"
+        gloss: coarsely ground foodstuff; especially seeds of various cereal grasses or pulse
+        angloform:
+          status: gap

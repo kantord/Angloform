@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10388924"
+        gloss: "(law) someone who owns (is legal possessor of) a business; \"he is the owner of a chain of restaurants\""
+        angloform:
+          status: gap
+      - wordnet: "10389398"
+        gloss: "a person who owns something; \"they are searching for the owner of the car\"; \"who is the owner of that friendly smile?\""
+        angloform:
+          status: gap

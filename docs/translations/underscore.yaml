@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06801418"
+        gloss: a line drawn underneath (especially under written matter)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01014609"
+        gloss: "give extra weight to (a communication); \"Her gesture emphasized her words\""
+        angloform:
+          status: gap
+      - wordnet: "01004235"
+        gloss: draw a line or lines underneath to call attention to
+        angloform:
+          status: gap

@@ -1,0 +1,98 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01215902"
+        gloss: "the activity of providing for or maintaining by supplying with money or necessities; \"his support kept the family together\"; \"they gave him emotional support during difficult times\""
+        angloform:
+          status: gap
+      - wordnet: "01212519"
+        gloss: "aiding the cause or policy or interests of; \"the president no longer has the support of his own party\"; \"they developed a scheme of mutual support\""
+        angloform:
+          status: gap
+      - wordnet: "05693919"
+        gloss: "something providing immaterial assistance to a person or cause or interest; \"the policy found little public support\"; \"his faith was all the support he needed\"; \"the team enjoyed the support of their fans\""
+        angloform:
+          status: gap
+      - wordnet: "00971463"
+        gloss: "a military operation (often involving new supplies of men and materiel) to strengthen a military force or aid in the performance of its mission; \"they called for artillery support\""
+        angloform:
+          status: gap
+      - wordnet: "00154433"
+        gloss: "documentary validation; \"his documentation of the results was excellent\"; \"the strongest support for this view is the work of Jones\""
+        angloform:
+          status: gap
+      - wordnet: "13365286"
+        gloss: "the financial means whereby one lives; \"each child was expected to pay for their keep\"; \"he applied to the state for support\"; \"he could no longer earn his own livelihood\""
+        angloform:
+          status: gap
+      - wordnet: "04360501"
+        gloss: "supporting structure that holds up or provides a foundation; \"the statue stood on a marble support\""
+        angloform:
+          status: gap
+      - wordnet: "01017320"
+        gloss: "the act of bearing the weight of or strengthening; \"he leaned against the wall for support\""
+        angloform:
+          status: gap
+      - wordnet: "07031752"
+        gloss: a musical part (vocal or instrumental) that supports or provides background for other musical parts
+        angloform:
+          status: gap
+      - wordnet: "04359589"
+        gloss: "any device that bears the weight of another thing; \"there was no place to attach supports for a shelf\""
+        angloform:
+          status: gap
+      - wordnet: "13365698"
+        gloss: "financial resources provided to make some project possible; \"the foundation provided support for the experiment\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02556126"
+        gloss: "give moral or psychological support, aid, or courage to; \"She supported him during the illness\"; \"Her children always backed her up\""
+        angloform:
+          status: gap
+      - wordnet: "02219094"
+        gloss: "support materially or financially; \"he does not support his natural children\"; \"The scholarship supported me when I was in college\""
+        angloform:
+          status: gap
+      - wordnet: "02453889"
+        gloss: "be behind; approve of; \"He plumped for the Labor Party\"; \"I backed Kennedy in 1960\""
+        angloform:
+          status: gap
+      - wordnet: "01217043"
+        gloss: "be the physical support of; carry the weight of; \"The beam holds up the roof\"; \"He supported me with one hand while I balanced on the beam\"; \"What's holding that mirror?\""
+        angloform:
+          status: redirect
+          word: hold
+          category: VERB_TRANS
+      - wordnet: "00665886"
+        gloss: "establish or strengthen as with new evidence or facts; \"his story confirmed my doubts\"; \"The evidence supports the defendant\""
+        angloform:
+          status: gap
+      - wordnet: "00806314"
+        gloss: "adopt as a belief; \"I subscribe to your view on abortion\""
+        angloform:
+          status: gap
+      - wordnet: "02663340"
+        gloss: "support with evidence or authority or make more certain or confirm; \"The stories and claims were born out by the evidence\""
+        angloform:
+          status: gap
+      - wordnet: "00895304"
+        gloss: "argue or speak in defense of; \"She supported the motion to strike\""
+        angloform:
+          status: gap
+      - wordnet: "01720773"
+        gloss: "play a subordinate role to (another performer); \"Olivier supported Gielgud beautifully in the second act\""
+        angloform:
+          status: gap
+      - wordnet: "00908621"
+        gloss: "be a regular customer or client of; \"We patronize this store\"; \"Our sponsor kept our art studio going for as long as he could\""
+        angloform:
+          status: gap
+      - wordnet: "00668099"
+        gloss: "put up with something or somebody unpleasant; \"I cannot bear his constant criticism\"; \"The new secretary had to endure a lot of unprofessional remarks\"; \"he learned to tolerate the heat\"; \"She stuck out two years in a miserable marriage\""
+        angloform:
+          status: redirect
+          word: tolerate
+          category: VERB_TRANS

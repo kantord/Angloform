@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02732072"
+        gloss: a tank or pool or bowl filled with water for keeping live fish and underwater animals
+        angloform:
+          status: gap

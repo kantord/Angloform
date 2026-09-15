@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03918480"
+        gloss: a small digital computer based on a microprocessor and designed to be used by one person at a time
+        angloform:
+          status: gap

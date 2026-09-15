@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05780885"
+        gloss: "something that is inferred (deduced or entailed or implied); \"his resignation had political implications\""
+        angloform:
+          status: gap
+      - wordnet: "05920791"
+        gloss: "a meaning that is not expressly stated but can be inferred; \"the significance of his remark became clear only later\"; \"the expectation was spread both by word and by implication\""
+        angloform:
+          status: gap
+      - wordnet: "07238102"
+        gloss: an accusation that brings into intimate and usually incriminating connection
+        angloform:
+          status: gap
+      - wordnet: "13860281"
+        gloss: "a logical relation between propositions p and q of the form `if p then q'; if p is true then q cannot be false"
+        angloform:
+          status: gap
+      - wordnet: "13793776"
+        gloss: "a relation implicated by virtue of involvement or close connection (especially an incriminating involvement); \"he was suspected of implication in several robberies\""
+        angloform:
+          status: gap

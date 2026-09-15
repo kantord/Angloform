@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02522864"
+        gloss: "be successful; achieve a goal; \"She succeeded in persuading us all\"; \"I managed to carry the box upstairs\"; \"She pulled it off, even though we never thought her capable of it\"; \"The pianist negociated the difficult runs\""
+        angloform:
+          status: gap
+      - wordnet: "02436349"
+        gloss: "be in charge of, act on, or dispose of; \"I can deal with this crew of workers\"; \"This blender can't handle nuts\"; \"She managed her parents' affairs after they got too old\""
+        angloform:
+          status: gap
+      - wordnet: "02587532"
+        gloss: "come to terms with; \"We got by on just a gallon of gas\"; \"They made do on half a loaf of bread every day\""
+        angloform:
+          status: gap
+      - wordnet: "02443049"
+        gloss: "watch and direct; \"Who is overseeing this project?\""
+        angloform:
+          status: gap
+      - wordnet: "02527431"
+        gloss: achieve something by means of trickery or devious methods
+        angloform:
+          status: gap
+      - wordnet: "02523221"
+        gloss: "carry on or function; \"We could do with a little more help around here\""
+        angloform:
+          status: gap
+      - wordnet: "01224415"
+        gloss: "handle effectively; \"The burglar wielded an axe\"; \"The young violinist didn't manage her bow very well\""
+        angloform:
+          status: gap

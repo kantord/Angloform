@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14500047"
+        gloss: "a state of confusion and disorderliness; \"the house was a mess\"; \"she smoothed the mussiness of the bed\""
+        angloform:
+          status: gap
+      - wordnet: "14409489"
+        gloss: "informal terms for a difficult situation; \"he got into a terrible fix\"; \"he made a muddle of his marriage\""
+        angloform:
+          status: redirect
+          word: hole
+          category: NOUN
+      - wordnet: "07650792"
+        gloss: "soft semiliquid food; \"a mess of porridge\""
+        angloform:
+          status: gap
+      - wordnet: "07565608"
+        gloss: a meal eaten in a mess hall by service personnel
+        angloform:
+          status: gap
+      - wordnet: "03751065"
+        gloss: a (large) military dining room where service personnel eat or relax
+        angloform:
+          status: gap
+      - wordnet: "13774404"
+        gloss: "(often followed by `of') a large number or amount or extent; \"a batch of letters\"; \"a deal of trouble\"; \"a lot of money\"; \"he made a mint on the stock market\"; \"see the rest of the winners in our huge passel of photos\"; \"it must have cost plenty\"; \"a slew of journalists\"; \"a wad of money\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01176079"
+        gloss: eat in a mess hall
+        angloform:
+          status: gap
+      - wordnet: "00276214"
+        gloss: "make a mess of or create disorder in; \"He messed up his room\""
+        angloform:
+          status: gap

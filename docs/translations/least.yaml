@@ -1,0 +1,21 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05671526"
+        gloss: "something that is of no importance; \"it is the least I can do\"; \"that is the least of my concerns\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01556061"
+        gloss: "the superlative of `little' that can be used with mass nouns and is usually preceded by `the'; a quantifier meaning smallest in amount or extent or degree; \"didn't care the least bit\"; \"he has the least talent of anyone\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00111758"
+        gloss: "used to form the superlative; \"The garter snake is the least dangerous snake\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

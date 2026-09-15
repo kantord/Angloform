@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05818182"
+        gloss: "a fact about some part (as opposed to general); \"he always reasons from the particular to the general\""
+        angloform:
+          status: gap
+      - wordnet: "04271640"
+        gloss: "a medicine that has a mitigating effect on a specific disease; \"quinine is a specific for malaria\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01103021"
+        gloss: "(sometimes followed by `to') applying to or characterized by or distinguishing something particular or special or unique; \"rules with specific application\"; \"demands specific to the job\"; \"a specific and detailed account of the accident\""
+        angloform:
+          status: gap
+      - wordnet: "01099951"
+        gloss: "stated explicitly or in detail; \"needed a specific amount\""
+        angloform:
+          status: gap
+      - wordnet: "02989316"
+        gloss: "relating to or distinguishing or constituting a taxonomic species; \"specific characters\""
+        angloform:
+          status: gap
+      - wordnet: "01105233"
+        gloss: "being or affecting a disease produced by a particular microorganism or condition; used also of stains or dyes used in making microscope slides; \"quinine is highly specific for malaria\"; \"a specific remedy\"; \"a specific stain is one having a specific affinity for particular structural elements\""
+        angloform:
+          status: gap

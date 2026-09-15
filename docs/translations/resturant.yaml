@@ -1,0 +1,6 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# a corpus misspelling of "restaurant" — see docs/translations/restaurant.yaml
+# for the real per-sense treatment.
+status: exempt
+exempt_kind: garbage
+reason: misspelling of "restaurant", same sense already documented there

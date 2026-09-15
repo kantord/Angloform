@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14404160"
+        gloss: a mental state characterized by a pessimistic sense of inadequacy and a despondent lack of activity
+        angloform:
+          status: gap
+      - wordnet: "14489113"
+        gloss: a long-term economic state characterized by unemployment and low prices and low levels of trade and investment
+        angloform:
+          status: gap
+      - wordnet: "09366017"
+        gloss: a sunken or depressed geological formation
+        angloform:
+          status: gap
+      - wordnet: "07537485"
+        gloss: sad feelings of gloom and inadequacy
+        angloform:
+          status: gap
+      - wordnet: "15294211"
+        gloss: a period during the 1930s when there was a worldwide economic depression and mass unemployment
+        angloform:
+          status: gap
+      - wordnet: "14520829"
+        gloss: "an air mass of lower pressure; often brings precipitation; \"a low moved in over night bringing sleet and snow\""
+        angloform:
+          status: gap
+      - wordnet: "14389240"
+        gloss: a state of depression and anhedonia so severe as to require clinical intervention
+        angloform:
+          status: gap
+      - wordnet: "13896369"
+        gloss: "a concavity in a surface produced by pressing; \"he left the impression of his fingers in the soft mud\""
+        angloform:
+          status: gap
+      - wordnet: "13836715"
+        gloss: angular distance below the horizon (especially of a celestial object)
+        angloform:
+          status: gap
+      - wordnet: "00112674"
+        gloss: "pushing down; \"depression of the space bar on the typewriter\""
+        angloform:
+          status: gap

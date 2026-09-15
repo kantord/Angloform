@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00976953"
+        gloss: a sudden short attack
+        angloform:
+          status: gap
+      - wordnet: "00777324"
+        gloss: an attempt by speculators to defraud investors
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02494850"
+        gloss: "search without warning, make a sudden surprise attack on; \"The police raided the crack house\""
+        angloform:
+          status: gap
+      - wordnet: "02020027"
+        gloss: "enter someone else's territory and take spoils; \"The pirates raided the coastal villages regularly\""
+        angloform:
+          status: gap
+      - wordnet: "02275152"
+        gloss: "take over (a company) by buying a controlling interest of its stock; \"T. Boone Pickens raided many large companies\""
+        angloform:
+          status: gap
+      - wordnet: "01318081"
+        gloss: "search for something needed or desired; \"Our babysitter raided our refrigerator\""
+        angloform:
+          status: gap

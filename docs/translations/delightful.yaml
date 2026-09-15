@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01807964"
+        gloss: "greatly pleasing or entertaining; \"a delightful surprise\"; \"the comedy was delightful\"; \"a delicious joke\""
+        angloform:
+          status: gap

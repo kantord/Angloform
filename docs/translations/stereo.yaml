@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04315948"
+        gloss: reproducer in which two microphones feed two or more loudspeakers to give a three-dimensional effect to the sound
+        angloform:
+          status: gap
+      - wordnet: "04316275"
+        gloss: two photographs taken from slightly different angles that appear three-dimensional when viewed together
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00240655"
+        gloss: designating sound transmission from two sources through two channels
+        angloform:
+          status: gap

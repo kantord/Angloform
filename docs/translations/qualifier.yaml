@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10498196"
+        gloss: "a contestant who meets certain requirements and so qualifies to take part in the next stage of competition; \"the tournament was won by a late qualifier\""
+        angloform:
+          status: gap
+      - wordnet: "06320801"
+        gloss: a content word that qualifies the meaning of a noun or verb
+        angloform:
+          status: gap

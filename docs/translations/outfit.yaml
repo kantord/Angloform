@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08274826"
+        gloss: any cohesive unit such as a military company
+        angloform:
+          status: gap
+      - wordnet: "03859958"
+        gloss: "a set of clothing (with accessories); \"his getup was exceedingly elegant\""
+        angloform:
+          status: gap
+      - wordnet: "03619396"
+        gloss: gear consisting of a set of articles or tools for a specified purpose
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02339413"
+        gloss: "provide with (something) usually for a specific purpose; \"The expedition was equipped with proper clothing, food, and other necessities\""
+        angloform:
+          status: gap

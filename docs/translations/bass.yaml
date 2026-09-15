@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04986796"
+        gloss: the lowest part of the musical range
+        angloform:
+          status: gap
+      - wordnet: "07032292"
+        gloss: the lowest part in polyphonic music
+        angloform:
+          status: gap
+      - wordnet: "09842528"
+        gloss: an adult male singer with the lowest voice
+        angloform:
+          status: gap
+      - wordnet: "07777945"
+        gloss: the lean flesh of a saltwater fish of the family Serranidae
+        angloform:
+          status: gap
+      - wordnet: "07777512"
+        gloss: any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)
+        angloform:
+          status: gap
+      - wordnet: "06872354"
+        gloss: the lowest adult male singing voice
+        angloform:
+          status: gap
+      - wordnet: "02803349"
+        gloss: the member with the lowest range of a family of musical instruments
+        angloform:
+          status: gap
+      - wordnet: "02565573"
+        gloss: nontechnical name for any of numerous edible marine and freshwater spiny-finned fishes
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01215935"
+        gloss: "having or denoting a low vocal or instrumental range; \"a deep voice\"; \"a bass voice is lower than a baritone voice\"; \"a bass clarinet\""
+        angloform:
+          status: redirect
+          word: deep
+          category: ADJ

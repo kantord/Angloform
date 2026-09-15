@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02164825"
+        gloss: "look at thoughtfully; observe deep in thought; \"contemplate one's navel\""
+        angloform:
+          status: gap
+      - wordnet: "00703875"
+        gloss: "consider as a possibility; \"I contemplated leaving school and taking a full-time job\""
+        angloform:
+          status: gap
+      - wordnet: "00704388"
+        gloss: "think intently and at length, as for spiritual purposes; \"He is meditating in his study\""
+        angloform:
+          status: gap
+      - wordnet: "00630380"
+        gloss: "reflect deeply on a subject; \"I mulled over the events of the afternoon\"; \"philosophers have speculated on the question of God for thousands of years\"; \"The scientist must stop to observe and start to excogitate\""
+        angloform:
+          status: gap

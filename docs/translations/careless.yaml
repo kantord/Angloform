@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00311663"
+        gloss: "marked by lack of attention or consideration or forethought or thoroughness; not careful; \"careless about her clothes\"; \"forgotten by some careless person\"; \"a careless housekeeper\"; \"careless proofreading\"; \"it was a careless mistake\"; \"hurt by a careless remark\""
+        angloform:
+          status: gap
+      - wordnet: "00150055"
+        gloss: "effortless and unstudied; \"an impression of careless elegance\"; \"danced with careless grace\""
+        angloform:
+          status: gap
+      - wordnet: "01194099"
+        gloss: "(usually followed by `of') without due thought or consideration; \"careless of the consequences\"; \"crushing the blooms with regardless tread\""
+        angloform:
+          status: gap

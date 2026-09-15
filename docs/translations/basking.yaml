@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "basking" is the gerund of "bask" — WordNet indexes only the base verb.
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01820302"
+        gloss: derive or receive pleasure from; get enjoyment from; "She relished her fame and basked in her glory"
+        angloform:
+          status: gap
+          note: no enjoy/relish vocabulary exists yet
+      - wordnet: "01548181"
+        gloss: be exposed; "The seals were basking in the sun"
+        angloform:
+          status: gap

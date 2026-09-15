@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15273626"
+        gloss: "a period of time spent sleeping; \"he felt better after a little sleep\"; \"there wasn't time for a nap\""
+        angloform:
+          status: gap
+      - wordnet: "04947087"
+        gloss: a soft or fuzzy surface texture
+        angloform:
+          status: gap
+      - wordnet: "03936045"
+        gloss: "the yarn (as in a rug or velvet or corduroy) that stands up from the weave; \"for uniform color and texture tailors cut velvet with the pile running the same direction\""
+        angloform:
+          status: gap
+      - wordnet: "00858377"
+        gloss: sleeping for a short period of time (usually not in bed)
+        angloform:
+          status: gap
+      - wordnet: "00493742"
+        gloss: a card game similar to whist; usually played for stakes
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00015498"
+        gloss: "take a siesta; \"She naps everyday after lunch for an hour\""
+        angloform:
+          status: gap

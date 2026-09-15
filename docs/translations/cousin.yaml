@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09972010"
+        gloss: the child of your aunt or uncle
+        angloform:
+          status: gap

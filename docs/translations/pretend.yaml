@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00755500"
+        gloss: "the enactment of a pretense; \"it was just pretend\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00838043"
+        gloss: "make believe with the intent to deceive; \"He feigned that he was ill\"; \"He shammed a headache\""
+        angloform:
+          status: gap
+      - wordnet: "01721556"
+        gloss: "behave unnaturally or affectedly; \"She's just acting\""
+        angloform:
+          status: gap
+      - wordnet: "02275799"
+        gloss: "put forward a claim and assert right or possession of; \"pretend the title of King\""
+        angloform:
+          status: gap
+      - wordnet: "00916909"
+        gloss: "put forward, of a guess, in spite of possible refutation; \"I am guessing that the price of real estate will rise again\"; \"I cannot pretend to say that you are wrong\""
+        angloform:
+          status: redirect
+          word: guess
+          category: VERB_TRANS
+      - wordnet: "00838524"
+        gloss: "represent fictitiously, as in a play, or pretend to be or act like; \"She makes like an actress\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "00756649"
+        gloss: "state insincerely; \"He professed innocence but later admitted his guilt\"; \"She pretended not to have known the suicide bomber\"; \"She pretends to be an expert on wine\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01937759"
+        gloss: "imagined as in a play; \"the make-believe world of theater\"; \"play money\"; \"dangling their legs in the water to catch pretend fish\""
+        angloform:
+          status: gap

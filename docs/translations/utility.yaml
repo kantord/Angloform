@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08185758"
+        gloss: a company that performs a public service; subject to government regulation
+        angloform:
+          status: gap
+      - wordnet: "05148699"
+        gloss: the quality of being of practical use
+        angloform:
+          status: gap
+      - wordnet: "00579334"
+        gloss: "the service (electric power or water or transportation) provided by a public utility; \"the cost of utilities never decreases\"; \"all the utilities were lost after the hurricane\""
+        angloform:
+          status: gap
+      - wordnet: "13580058"
+        gloss: (economics) a measure that is to be maximized in any situation involving choice
+        angloform:
+          status: gap
+      - wordnet: "06581410"
+        gloss: "(computer science) a program designed for general support of the processes of a computer; \"a computer system provides utility programs to perform the tasks needed by most users\""
+        angloform:
+          status: gap
+      - wordnet: "04516874"
+        gloss: "a facility composed of one or more pieces of equipment connected to or part of a structure and designed to provide a service such as heat or electricity or water or sewage disposal; \"the price of the house included all utilities\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02348376"
+        gloss: used of beef; usable but inferior
+        angloform:
+          status: gap
+      - wordnet: "01855446"
+        gloss: "capable of substituting in any of several positions on a team; \"a utility infielder\""
+        angloform:
+          status: gap

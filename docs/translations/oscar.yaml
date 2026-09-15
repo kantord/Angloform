@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07268967"
+        gloss: an annual award by the Academy of Motion Picture Arts and Sciences for achievements in motion picture production and performance
+        angloform:
+          status: gap

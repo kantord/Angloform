@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13241600"
+        gloss: the right to buy or sell property at an agreed price; the right is purchased and if it is not exercised by a stated date the money is forfeited
+        angloform:
+          status: gap
+      - wordnet: "05790944"
+        gloss: "one of a number of things from which only one can be chosen; \"what option did I have?\"; \"there no other alternative\"; \"my only choice is to refuse\""
+        angloform:
+          status: redirect
+          word: choice
+          category: NOUN
+      - wordnet: "00161243"
+        gloss: "the act of choosing or selecting; \"your choice of colors was unfortunate\"; \"you can take your pick\""
+        angloform:
+          status: redirect
+          word: choice
+          category: NOUN

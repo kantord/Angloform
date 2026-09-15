@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10249950"
+        gloss: a professional person authorized to practice law; conducts lawsuits or gives legal advice
+        angloform:
+          status: gap

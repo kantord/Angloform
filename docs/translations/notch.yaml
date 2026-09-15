@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13905275"
+        gloss: "a V-shaped indentation; \"mandibular notch\""
+        angloform:
+          status: gap
+      - wordnet: "09386842"
+        gloss: "the location in a range of mountains of a geological formation that is lower than the surrounding peaks; \"we got through the pass before it started to snow\""
+        angloform:
+          status: gap
+      - wordnet: "03832405"
+        gloss: "a V-shaped or U-shaped indentation carved or scratched into a surface; \"there were four notches in the handle of his revolver\""
+        angloform:
+          status: gap
+      - wordnet: "00387897"
+        gloss: a small cut
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01276970"
+        gloss: "cut or make a notch into; \"notch the rope\""
+        angloform:
+          status: gap
+      - wordnet: "01004550"
+        gloss: notch a surface to record something
+        angloform:
+          status: gap

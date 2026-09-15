@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06844199"
+        gloss: a punctuation mark used to attribute the enclosed text to someone else
+        angloform:
+          status: gap
+      - wordnet: "06613056"
+        gloss: a passage or expression that is quoted or cited
+        angloform:
+          status: redirect
+          word: quotation
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01023259"
+        gloss: "repeat a passage from; \"He quoted the Bible to her\""
+        angloform:
+          status: gap
+      - wordnet: "01023925"
+        gloss: "name the price of; \"quote prices for cars\""
+        angloform:
+          status: gap
+      - wordnet: "01023574"
+        gloss: "refer to for illustration or proof; \"He said he could quote several instances of this behavior\""
+        angloform:
+          status: gap
+      - wordnet: "01004403"
+        gloss: "put quote marks around; \"Here the author is quoting his colleague\""
+        angloform:
+          status: gap

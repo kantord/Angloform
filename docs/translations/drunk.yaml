@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10037385"
+        gloss: a chronic drinker
+        angloform:
+          status: gap
+      - wordnet: "10037080"
+        gloss: someone who is intoxicated
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00797299"
+        gloss: "stupefied or excited by a chemical substance (especially alcohol); \"a noisy crowd of intoxicated sailors\"; \"helplessly inebriated\""
+        angloform:
+          status: gap
+      - wordnet: "00920260"
+        gloss: "as if under the influence of alcohol; \"felt intoxicated by her success\"; \"drunk with excitement\""
+        angloform:
+          status: gap

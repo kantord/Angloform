@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15052555"
+        gloss: a pesticide in suspension or solution; intended for spraying
+        angloform:
+          status: gap
+      - wordnet: "13762305"
+        gloss: "a quantity of small objects flying through the air; \"a spray of bullets\""
+        angloform:
+          status: gap
+      - wordnet: "04287610"
+        gloss: flower arrangement consisting of a single branch or shoot bearing flowers and foliage
+        angloform:
+          status: gap
+      - wordnet: "02754103"
+        gloss: a dispenser that turns a liquid (such as perfume) into a fine mist
+        angloform:
+          status: gap
+      - wordnet: "15056541"
+        gloss: water in small drops in the atmosphere; blown from waves or thrown up by a waterfall
+        angloform:
+          status: gap
+      - wordnet: "07446533"
+        gloss: a jet of vapor
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01373844"
+        gloss: "be discharged in sprays of liquid; \"Water sprayed all over the floor\""
+        angloform:
+          status: gap
+      - wordnet: "01372682"
+        gloss: "scatter in a mass or jet of droplets; \"spray water on someone\"; \"spray paint on the wall\""
+        angloform:
+          status: gap
+      - wordnet: "01373551"
+        gloss: "cover by spraying with a liquid; \"spray the wall with paint\""
+        angloform:
+          status: gap

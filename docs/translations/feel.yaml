@@ -1,0 +1,76 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05677340"
+        gloss: "an intuitive awareness; \"he has a feel for animals\" or \"it's easy when you get the feel of it\";"
+        angloform:
+          status: gap
+      - wordnet: "14526182"
+        gloss: "the general atmosphere of a place or situation and the effect that it has on people; \"the feel of the city excited him\"; \"a clergyman improved the tone of the meeting\"; \"it had the smell of treason\""
+        angloform:
+          status: gap
+      - wordnet: "04946553"
+        gloss: a property perceived by touch
+        angloform:
+          status: gap
+      - wordnet: "00854538"
+        gloss: "manual stimulation of the genital area for sexual pleasure; \"the girls hated it when he tried to sneak a feel\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01771535"
+        gloss: "undergo an emotional sensation or be in a particular state of mind; \"She felt resentful\"; \"He felt regret\""
+        angloform:
+          status: gap
+      - wordnet: "00715239"
+        gloss: "come to believe on the basis of emotion, intuitions, or indefinite grounds; \"I feel that he doesn't like me\"; \"I find him to be obnoxious\"; \"I found the movie rather entertaining\""
+        angloform:
+          status: redirect
+          word: find
+          category: VERB_TRANS
+      - wordnet: "02106006"
+        gloss: "perceive by a physical sensation, e.g., coming from the skin or muscles; \"He felt the wind\"; \"She felt an object brushing her arm\"; \"He felt his flesh crawl\"; \"She felt the heat when she got out of the car\""
+        angloform:
+          status: gap
+      - wordnet: "00105958"
+        gloss: "be conscious of a physical, mental, or emotional state; \"My cold is gone--I feel fine today\"; \"She felt tired after the long hike\"; \"She felt sad after her loss\""
+        angloform:
+          status: gap
+      - wordnet: "00690305"
+        gloss: "have a feeling or perception about oneself in reaction to someone's behavior or attitude; \"She felt small and insignificant\"; \"You make me feel naked\"; \"I made the students feel different about themselves\""
+        angloform:
+          status: gap
+      - wordnet: "02110552"
+        gloss: "undergo passive experience of:\"We felt the effects of inflation\"; \"her fingers felt their way through the string quartet\"; \"she felt his contempt of her\""
+        angloform:
+          status: gap
+      - wordnet: "02730471"
+        gloss: "be felt or perceived in a certain way; \"The ground feels shaky\"; \"The sheets feel soft\""
+        angloform:
+          status: gap
+      - wordnet: "02127613"
+        gloss: "grope or feel in search of something; \"He felt for his wallet\""
+        angloform:
+          status: gap
+      - wordnet: "01209678"
+        gloss: "examine by touch; \"Feel this soft cloth!\"; \"The customer fingered the sweater\""
+        angloform:
+          status: gap
+      - wordnet: "01210352"
+        gloss: "examine (a body part) by palpation; \"The nurse palpated the patient's stomach\"; \"The runner felt her pulse\""
+        angloform:
+          status: gap
+      - wordnet: "02286027"
+        gloss: "find by testing or cautious exploration; \"He felt his way around the dark room\""
+        angloform:
+          status: gap
+      - wordnet: "02134350"
+        gloss: "produce a certain impression; \"It feels nice to be home again\""
+        angloform:
+          status: gap
+      - wordnet: "01210152"
+        gloss: "pass one's hands over the sexual organs of; \"He felt the girl in the movie theater\""
+        angloform:
+          status: gap

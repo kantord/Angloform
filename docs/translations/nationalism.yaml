@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04878101"
+        gloss: "love of country and willingness to sacrifice for it; \"they rode the same wave of popular patriotism\"; \"British nationalism was in the air and patriotic sentiments ran high\""
+        angloform:
+          status: gap
+      - wordnet: "05965022"
+        gloss: the doctrine that your national culture and interests are superior to any other
+        angloform:
+          status: gap
+      - wordnet: "07485047"
+        gloss: the aspiration for national independence felt by people under foreign domination
+        angloform:
+          status: gap
+      - wordnet: "05965195"
+        gloss: the doctrine that nations should act independently (rather than collectively) to attain their goals
+        angloform:
+          status: gap

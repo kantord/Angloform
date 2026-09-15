@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09432060"
+        gloss: "any broad thin expanse or surface; \"a sheet of ice\""
+        angloform:
+          status: gap
+      - wordnet: "06255777"
+        gloss: paper used for writing or printing
+        angloform:
+          status: gap
+      - wordnet: "04188179"
+        gloss: bed linen consisting of a large rectangular piece of cotton or linen cloth; used in pairs
+        angloform:
+          status: gap
+      - wordnet: "13861050"
+        gloss: "(mathematics) an unbounded two-dimensional shape; \"we will refer to the plane of the graph as the X-Y plane\"; \"any line joining two points on a plane lies wholly on that plane\""
+        angloform:
+          status: gap
+      - wordnet: "06267893"
+        gloss: newspaper with half-size pages
+        angloform:
+          status: gap
+      - wordnet: "04188643"
+        gloss: a flat artifact that is thin relative to its length and width
+        angloform:
+          status: gap
+      - wordnet: "04188368"
+        gloss: (nautical) a line (rope or chain) that regulates the angle at which a sail is set in relation to the wind
+        angloform:
+          status: gap
+      - wordnet: "04127904"
+        gloss: a large piece of fabric (usually canvas fabric) by means of which wind is used to propel a sailing vessel
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02758262"
+        gloss: "come down as if in sheets; \"The rain was sheeting down during the monsoon\""
+        angloform:
+          status: gap
+      - wordnet: "01338501"
+        gloss: "cover with a sheet, as if by wrapping; \"sheet the body\""
+        angloform:
+          status: gap

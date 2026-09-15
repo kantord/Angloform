@@ -1,0 +1,69 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00884466"
+        gloss: "education imparted in a series of lessons or meetings; \"he took a course in basket weaving\"; \"flirting is not unknown in college classes\""
+        angloform:
+          status: redirect
+          word: class
+          category: NOUN
+      - wordnet: "08377085"
+        gloss: "a connected series of events or actions or developments; \"the government took a firm course\"; \"historians can only point out those lines for which evidence is available\""
+        angloform:
+          status: redirect
+          word: line
+          category: NOUN
+      - wordnet: "08681222"
+        gloss: "general line of orientation; \"the river takes a southern course\"; \"the northeastern trend of the coast\""
+        angloform:
+          status: gap
+      - wordnet: "00038262"
+        gloss: "a mode of action; \"if you persist in that course you will surely fail\"; \"once a nation is embarked on a course of action it becomes extremely difficult for any retraction to take place\""
+        angloform:
+          status: gap
+      - wordnet: "09387222"
+        gloss: "a line or route along which something travels or moves; \"the hurricane demolished houses in its path\"; \"the track of an animal\"; \"the course of the river\""
+        angloform:
+          status: gap
+      - wordnet: "08238463"
+        gloss: "a body of students who are taught together; \"early morning classes are always sleepy\""
+        angloform:
+          status: redirect
+          word: class
+          category: NOUN
+      - wordnet: "07556970"
+        gloss: "part of a meal served at one time; \"she prepared a three course meal\""
+        angloform:
+          status: gap
+      - wordnet: "03120029"
+        gloss: "(construction) a layer of masonry; \"a course of bricks\""
+        angloform:
+          status: redirect
+          word: row
+          category: NOUN
+      - wordnet: "03119790"
+        gloss: "facility consisting of a circumscribed area of land or water laid out for a sport; \"the course had only nine holes\"; \"the course was less than a mile\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02067540"
+        gloss: "move swiftly through or over; \"ships coursing the Atlantic\""
+        angloform:
+          status: gap
+      - wordnet: "02066939"
+        gloss: "move along, of liquids; \"Water flowed into the cave\"; \"the Missouri feeds into the Mississippi\""
+        angloform:
+          status: gap
+      - wordnet: "01144873"
+        gloss: "hunt with hounds; \"He often courses hares\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00038625"
+        gloss: "as might be expected; \"naturally, the lawyer sent us a huge bill\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

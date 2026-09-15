@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00007846"
+        gloss: "a human being; \"there was too much for one person to do\""
+        angloform:
+          status: redirect
+          word: person
+          category: NOUN
+      - wordnet: "10203839"
+        gloss: a single organism
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00493460"
+        gloss: "being or characteristic of a single thing or person; \"individual drops of rain\"; \"please mark the individual pages\"; \"they went their individual ways\""
+        angloform:
+          status: redirect
+          word: single
+          category: ADJ
+      - wordnet: "00729246"
+        gloss: "separate and distinct from others of the same kind; \"mark the individual pages\"; \"on a case-by-case basis\""
+        angloform:
+          status: gap
+      - wordnet: "02153174"
+        gloss: "characteristic of or meant for a single person or thing; \"an individual serving\"; \"single occupancy\"; \"a single bed\""
+        angloform:
+          status: redirect
+          word: single
+          category: ADJ
+      - wordnet: "01768086"
+        gloss: "concerning one person exclusively; \"we all have individual cars\"; \"each room has a private bath\""
+        angloform:
+          status: gap

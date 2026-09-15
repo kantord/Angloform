@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02918831"
+        gloss: "a glass filled to the brim (especially as a toast); \"we quaffed a bumper of ale\""
+        angloform:
+          status: gap
+      - wordnet: "02918595"
+        gloss: a mechanical device consisting of bars at either end of a vehicle to absorb shock and prevent serious damage
+        angloform:
+          status: gap

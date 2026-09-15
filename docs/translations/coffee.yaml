@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07929519"
+        gloss: "a beverage consisting of an infusion of ground coffee beans; \"he ordered a cup of coffee\""
+        angloform:
+          status: gap
+      - wordnet: "12662772"
+        gloss: any of several small trees and shrubs native to the tropical Old World yielding coffee beans
+        angloform:
+          status: gap
+      - wordnet: "07929351"
+        gloss: a seed of the coffee tree; ground to make coffee
+        angloform:
+          status: gap
+      - wordnet: "04972451"
+        gloss: a medium brown to dark-brown color
+        angloform:
+          status: gap

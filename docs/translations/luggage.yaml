@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02774630"
+        gloss: cases used to carry belongings when traveling
+        angloform:
+          status: gap

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10069645"
+        gloss: a person responsible for the administration of a business
+        angloform:
+          status: gap
+      - wordnet: "08165455"
+        gloss: persons who administer the law
+        angloform:
+          status: gap
+      - wordnet: "09770472"
+        gloss: someone who manages a government agency or department
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "03017922"
+        gloss: "having the function of carrying out plans or orders etc.; \"the executive branch\""
+        angloform:
+          status: gap

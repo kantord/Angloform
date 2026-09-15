@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00295825"
+        gloss: "not easy to believe; \"behind you the coastal hills plunge to the incredibly blue sea backed by the Turkish mountains\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00032180"
+        gloss: "exceedingly; extremely; \"she plays fabulously well\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

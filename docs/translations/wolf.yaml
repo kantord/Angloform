@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02114100"
+        gloss: any of various predatory carnivorous canine mammals of North America and Eurasia that usually hunt in packs
+        angloform:
+          status: gap
+      - wordnet: "11394398"
+        gloss: Austrian composer (1860-1903)
+        angloform:
+          status: gap
+      - wordnet: "11394214"
+        gloss: German classical scholar who claimed that the Iliad and Odyssey were composed by several authors (1759-1824)
+        angloform:
+          status: gap
+      - wordnet: "10787197"
+        gloss: a man who is aggressive in making amorous advances to women
+        angloform:
+          status: gap
+      - wordnet: "09845589"
+        gloss: a cruelly rapacious person
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01169205"
+        gloss: "eat hastily; \"The teenager wolfed down the pizza\""
+        angloform:
+          status: gap

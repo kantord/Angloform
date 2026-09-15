@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00589344"
+        gloss: "filled with satisfaction; \"a satisfied customer\""
+        angloform:
+          status: gap
+      - wordnet: "01519673"
+        gloss: "allayed; \"his thirst quenched he was able to continue\""
+        angloform:
+          status: gap

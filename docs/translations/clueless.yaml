@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01308736"
+        gloss: totally uninformed about what is going on; not having even a clue from which to infer what is occurring
+        angloform:
+          status: gap

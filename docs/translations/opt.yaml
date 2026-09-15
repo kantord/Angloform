@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00679389"
+        gloss: "select as an alternative over another; \"I always choose the fish over the meat courses in this restaurant\"; \"She opted for the job on the East coast\""
+        angloform:
+          status: redirect
+          word: prefer
+          category: VERB_TRANS

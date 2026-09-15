@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07386920"
+        gloss: a low continuous indistinct sound; often accompanied by movement of the lips without the production of articulate speech
+        angloform:
+          status: gap
+      - wordnet: "07211092"
+        gloss: a complaint uttered in a low and indistinct tone
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01044533"
+        gloss: talk indistinctly; usually in a low voice
+        angloform:
+          status: gap
+      - wordnet: "00909219"
+        gloss: "make complaining remarks or noises under one's breath; \"she grumbles when she feels overworked\""
+        angloform:
+          status: gap

@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10170060"
+        gloss: "a newly hired employee; \"the new hires need special training\""
+        angloform:
+          status: gap
+      - wordnet: "00809074"
+        gloss: "the act of hiring something or someone; \"he signed up for a week's car hire\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02409412"
+        gloss: "engage or hire for work; \"They hired two new secretaries in the department\"; \"How many people has she employed?\""
+        angloform:
+          status: gap
+      - wordnet: "02460619"
+        gloss: hold under a lease or rental agreement; of goods and services
+        angloform:
+          status: gap
+      - wordnet: "02208537"
+        gloss: "engage for service under a term of contract; \"We took an apartment on a quiet street\"; \"Let's rent a car\"; \"Shall we take a guide in Rome?\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS

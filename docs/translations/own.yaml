@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02204692"
+        gloss: "have ownership or possession of; \"He owns three houses in Florida\"; \"How many cars does she have?\""
+        angloform:
+          status: redirect
+          word: have
+          category: VERB_TRANS
+  ADJ:
+    senses:
+      - wordnet: "01768724"
+        gloss: "belonging to or on behalf of a specified person (especially yourself); preceded by a possessive; \"for your own use\"; \"do your own thing\"; \"she makes her own clothes\"; \"`ain' is Scottish\""
+        angloform:
+          status: gap

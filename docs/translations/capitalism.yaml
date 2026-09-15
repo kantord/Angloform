@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08364143"
+        gloss: an economic system based on private ownership of capital
+        angloform:
+          status: gap

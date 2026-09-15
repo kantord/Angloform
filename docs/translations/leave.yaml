@@ -1,0 +1,78 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15139130"
+        gloss: "the period of time during which you are absent from work or duty; \"a ten day's leave to visit his mother\""
+        angloform:
+          status: gap
+      - wordnet: "06690114"
+        gloss: "permission to do something; \"she was granted leave to speak\""
+        angloform:
+          status: gap
+      - wordnet: "00053097"
+        gloss: "the act of departing politely; \"he disliked long farewells\"; \"he took his leave\"; \"parting is such sweet sorrow\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02009433"
+        gloss: "go away from a place; \"At what time does your train leave?\"; \"She didn't leave until midnight\"; \"The ship leaves at midnight\""
+        angloform:
+          status: gap
+      - wordnet: "00613683"
+        gloss: "go and leave behind, either intentionally or by neglect or forgetfulness; \"She left a mess when she moved out\"; \"His good luck finally left him\"; \"her husband left her after 20 years of marriage\"; \"she wept thinking she had been left behind\""
+        angloform:
+          status: gap
+      - wordnet: "02729414"
+        gloss: "act or be so as to become in a specified state; \"The inflation left them penniless\"; \"The president's remarks left us speechless\""
+        angloform:
+          status: gap
+      - wordnet: "00136991"
+        gloss: "leave unchanged or undisturbed or refrain from taking; \"leave it as is\"; \"leave the young fawn alone\"; \"leave the flowers that you see in the park behind\""
+        angloform:
+          status: gap
+      - wordnet: "02015598"
+        gloss: "move out of or depart from; \"leave the room\"; \"the fugitive has left the country\""
+        angloform:
+          status: gap
+      - wordnet: "02721438"
+        gloss: "make a possibility or provide opportunity for; permit to be attainable or cause to remain; \"This leaves no room for improvement\"; \"The evidence allows only one conclusion\"; \"allow for mistakes\"; \"leave lots of time for the trip\"; \"This procedure provides for lots of leeway\""
+        angloform:
+          status: redirect
+          word: allow
+          category: VERB_TRANS
+      - wordnet: "02635659"
+        gloss: "have as a result or residue; \"The water left a mark on the silk dress\"; \"Her blood left a stain on the napkin\""
+        angloform:
+          status: gap
+      - wordnet: "02383440"
+        gloss: "remove oneself from an association with or participation in; \"She wants to leave\"; \"The teenager left home\"; \"She left her position with the Red Cross\"; \"He left the Senate after two terms\"; \"after 20 years with the same company, she pulled up stakes\""
+        angloform:
+          status: gap
+      - wordnet: "02356230"
+        gloss: "put into the care or protection of someone; \"He left the decision to his deputy\"; \"leave your child the nurse's care\""
+        angloform:
+          status: gap
+      - wordnet: "02229055"
+        gloss: "leave or give by will after one's death; \"My aunt bequeathed me all her jewelry\"; \"My grandfather left me his entire estate\""
+        angloform:
+          status: gap
+      - wordnet: "02730135"
+        gloss: "have left or have as a remainder; \"That left the four of us\"; \"19 minus 8 leaves 11\""
+        angloform:
+          status: gap
+      - wordnet: "00360092"
+        gloss: "be survived by after one's death; \"He left six children\"; \"At her death, she left behind her husband and 11 cats\""
+        angloform:
+          status: gap
+      - wordnet: "02296153"
+        gloss: "transmit (knowledge or skills); \"give a secret to the Russians\"; \"leave your name and address here\"; \"impart a new skill to the students\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "00613018"
+        gloss: "leave behind unintentionally; \"I forgot my umbrella in the restaurant\"; \"I left my keys inside the car and locked the doors\""
+        angloform:
+          status: gap

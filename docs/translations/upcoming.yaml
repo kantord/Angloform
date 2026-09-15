@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01732601"
+        gloss: "of the relatively near future; \"the approaching election\"; \"this coming Thursday\"; \"the forthcoming holidays\"; \"the upcoming spring fashions\""
+        angloform:
+          status: gap

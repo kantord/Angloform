@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06467007"
+        gloss: "a brief statement that presents the main points in a concise form; \"he gave a summary of the conclusions\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01633880"
+        gloss: "performed speedily and without formality; \"a summary execution\"; \"summary justice\""
+        angloform:
+          status: gap
+      - wordnet: "00547317"
+        gloss: "briefly giving the gist of something; \"a short and compendious book\"; \"a compact style is brief and pithy\"; \"succinct comparisons\"; \"a summary formulation of a wide-ranging subject\""
+        angloform:
+          status: gap

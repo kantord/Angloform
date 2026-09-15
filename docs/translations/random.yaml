@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01924316"
+        gloss: "lacking any definite plan or order or purpose; governed by or depending on chance; \"a random choice\"; \"bombs fell at random\"; \"random movements\""
+        angloform:
+          status: gap

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04157320"
+        gloss: a three-dimensional work of plastic art
+        angloform:
+          status: gap
+      - wordnet: "00937656"
+        gloss: creating figures or designs in three dimensions
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01684337"
+        gloss: "create by shaping stone or wood or any other hard material; \"sculpt a swan out of a block of ice\""
+        angloform:
+          status: gap
+      - wordnet: "01551871"
+        gloss: "shape (a material like stone or wood) by whittling away at it; \"She is sculpting the block of marble into an image of her husband\""
+        angloform:
+          status: gap

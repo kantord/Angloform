@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06747670"
+        gloss: "an announcement containing information about an event; \"you didn't give me enough notice\"; \"an obituary notice\"; \"a notice of sale"
+        angloform:
+          status: gap
+      - wordnet: "05703429"
+        gloss: "the act of noticing or paying attention; \"he escaped the notice of the police\""
+        angloform:
+          status: redirect
+          word: observation
+          category: NOUN
+      - wordnet: "07185668"
+        gloss: "a request for payment; \"the notification stated the grace period and the penalties for defaulting\""
+        angloform:
+          status: gap
+      - wordnet: "07212612"
+        gloss: "advance notification (usually written) of the intention to withdraw from an arrangement of contract; \"we received a notice to vacate the premises\"; \"he gave notice two months before he moved\""
+        angloform:
+          status: gap
+      - wordnet: "06793426"
+        gloss: "a sign posted in a public place as an advertisement; \"a poster advertised the coming attractions\""
+        angloform:
+          status: gap
+      - wordnet: "05703803"
+        gloss: "polite or favorable attention; \"his hard work soon attracted the teacher's notice\""
+        angloform:
+          status: gap
+      - wordnet: "06410776"
+        gloss: "a short critical review; \"the play received good notices\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02154508"
+        gloss: "discover or determine the existence, presence, or fact of; \"She detected high levels of lead in her drinking water\"; \"We found traces of lead in the paint\""
+        angloform:
+          status: redirect
+          word: find
+          category: VERB_TRANS
+      - wordnet: "02118476"
+        gloss: "notice or perceive; \"She noted that someone was following her\"; \"mark my words\""
+        angloform:
+          status: redirect
+          word: mark
+          category: VERB_TRANS
+      - wordnet: "01058574"
+        gloss: "make or write a comment on; \"he commented the paper of his colleague\""
+        angloform:
+          status: gap
+      - wordnet: "01059123"
+        gloss: "express recognition of the presence or existence of, or acquaintance with; \"He never acknowledges his colleagues when they run into him in the hallway\"; \"She acknowledged his complement with a smile\"; \"it is important to acknowledge the work of others in one's own writing\""
+        angloform:
+          status: gap

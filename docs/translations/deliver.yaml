@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00989602"
+        gloss: "deliver (a speech, oration, or idea); \"The commencement speaker presented a forceful speech that impressed the students\""
+        angloform:
+          status: gap
+      - wordnet: "01438304"
+        gloss: "bring to a destination, make a delivery; \"our local super market delivers\""
+        angloform:
+          status: gap
+      - wordnet: "02293321"
+        gloss: "to surrender someone or something to another; \"the guard delivered the criminal to the police\"; \"render up the prisoners\"; \"render the town to the enemy\"; \"fork over the money\""
+        angloform:
+          status: gap
+      - wordnet: "02551144"
+        gloss: free from harm or evil
+        angloform:
+          status: gap
+      - wordnet: "02503365"
+        gloss: "hand over to the authorities of another country; \"They extradited the fugitive to his native country so he could be tried there\""
+        angloform:
+          status: gap
+      - wordnet: "01062253"
+        gloss: "pass down; \"render a verdict\"; \"deliver a judgment\""
+        angloform:
+          status: redirect
+          word: return
+          category: VERB_TRANS
+      - wordnet: "00989869"
+        gloss: "utter (an exclamation, noise, etc.); \"The students delivered a cry of joy\""
+        angloform:
+          status: gap
+      - wordnet: "02551602"
+        gloss: save from sins
+        angloform:
+          status: redirect
+          word: save
+          category: VERB_TRANS
+      - wordnet: "02358327"
+        gloss: "carry out or perform; \"deliver an attack\", \"deliver a blow\"; \"The boxer drove home a solid left\""
+        angloform:
+          status: gap
+      - wordnet: "02235229"
+        gloss: "relinquish possession or control over; \"The squatters had to surrender the building after the police moved in\""
+        angloform:
+          status: gap
+      - wordnet: "01509079"
+        gloss: "throw or hurl from the mound to the batter, as in baseball; \"The pitcher delivered the ball\""
+        angloform:
+          status: gap
+      - wordnet: "00056930"
+        gloss: "cause to be born; \"My wife had twins yesterday!\""
+        angloform:
+          status: redirect
+          word: have
+          category: VERB_TRANS

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03757138"
+        gloss: "an electric railway operating below the surface of the ground (usually in a city); \"in Paris the subway system is called the `metro' and in London it is called the `tube' or the `underground'\""
+        angloform:
+          status: gap

@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00010466"
+        gloss: "to the greatest degree or extent; completely or entirely; (`full' in this sense is used as a combining form); \"fully grown\"; \"he didn't fully understand\"; \"knew full well\"; \"full-grown\"; \"full-fledged\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00178909"
+        gloss: "sufficiently; more than adequately; \"the evidence amply (or fully) confirms our suspicions\"; \"they were fully (or amply) fed\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00504620"
+        gloss: "referring to a quantity; \"the amount was paid in full\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

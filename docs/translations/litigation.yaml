@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01186810"
+        gloss: a legal proceeding in a court; a judicial contest to determine and enforce legal rights
+        angloform:
+          status: gap

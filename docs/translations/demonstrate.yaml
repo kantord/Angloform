@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02148788"
+        gloss: "give an exhibition of to an interested audience; \"She shows her dogs frequently\"; \"We will demo the new software in Washington\""
+        angloform:
+          status: redirect
+          word: show
+          category: VERB_TRANS
+      - wordnet: "00664788"
+        gloss: "establish the validity of something, as by an example, explanation or experiment; \"The experiment demonstrated the instability of the compound\"; \"The mathematician showed the validity of the conjecture\""
+        angloform:
+          status: redirect
+          word: show
+          category: VERB_TRANS
+      - wordnet: "00820976"
+        gloss: "provide evidence for; stand as proof of; show by one's behavior, attitude, or external attributes; \"His high fever attested to his illness\"; \"The buildings in Rome manifest a high level of architectural sophistication\"; \"This decision demonstrates his sense of fairness\""
+        angloform:
+          status: gap
+      - wordnet: "02521816"
+        gloss: "march in protest; take part in a demonstration; \"Thousands demonstrated against globalization during the meeting of the most powerful economic nations in Seattle\""
+        angloform:
+          status: gap

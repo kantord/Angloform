@@ -1,0 +1,94 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08664443"
+        gloss: "a point located with respect to surface features of some region; \"this is a nice place for a picnic\"; \"a bright spot on a planet\""
+        angloform:
+          status: redirect
+          word: place
+          category: NOUN
+      - wordnet: "06396644"
+        gloss: a short section or illustration (as between radio or tv programs or in a magazine) that is often used for advertising
+        angloform:
+          status: gap
+      - wordnet: "04731925"
+        gloss: "an outstanding characteristic; \"his acting was one of the high points of the movie\""
+        angloform:
+          status: redirect
+          word: point
+          category: NOUN
+      - wordnet: "04694441"
+        gloss: "a blemish made by dirt; \"he had a smudge on his cheek\""
+        angloform:
+          status: gap
+      - wordnet: "04682462"
+        gloss: "a small contrasting part of something; \"a bald spot\"; \"a leopard's spots\"; \"a patch of clouds\"; \"patches of thin ice\"; \"a fleck of red\""
+        angloform:
+          status: gap
+      - wordnet: "06396468"
+        gloss: "a section of an entertainment that is assigned to a specific performer or performance; \"they changed his spot on the program\""
+        angloform:
+          status: gap
+      - wordnet: "04286128"
+        gloss: "a business establishment for entertainment; \"night spot\""
+        angloform:
+          status: gap
+      - wordnet: "00586262"
+        gloss: "a job in an organization; \"he occupied a post in the treasury\""
+        angloform:
+          status: redirect
+          word: place
+          category: NOUN
+      - wordnet: "14082186"
+        gloss: "a slight attack of illness; \"he has a touch of rheumatism\""
+        angloform:
+          status: gap
+      - wordnet: "13761407"
+        gloss: "a small piece or quantity of something; \"a spot of tea\"; \"a bit of paper\"; \"a bit of lint\"; \"I gave him a bit of my mind\""
+        angloform:
+          status: gap
+      - wordnet: "07271942"
+        gloss: a mark on a die or on a playing card (shape depending on the suit)
+        angloform:
+          status: gap
+      - wordnet: "04286575"
+        gloss: a lamp that produces a strong beam of light to illuminate a restricted area; used to focus attention of a stage performer
+        angloform:
+          status: gap
+      - wordnet: "04286307"
+        gloss: "a playing card with a specified number of pips on it to indicate its value; \"an eight-spot\""
+        angloform:
+          status: gap
+      - wordnet: "00072261"
+        gloss: "an act that brings discredit to the person who does it; \"he made a huge blot on his copybook\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02154312"
+        gloss: catch sight of
+        angloform:
+          status: gap
+      - wordnet: "02193194"
+        gloss: "detect with the senses; \"The fleeing convicts were picked out of the darkness by the watchful prison guards\"; \"I can't make out the faces in this photograph\""
+        angloform:
+          status: redirect
+          word: recognize
+          category: VERB_TRANS
+      - wordnet: "01538161"
+        gloss: "mar or impair with a flaw; \"her face was blemished\""
+        angloform:
+          status: gap
+      - wordnet: "01531998"
+        gloss: "make a spot or mark onto; \"The wine spotted the tablecloth\""
+        angloform:
+          status: gap
+      - wordnet: "00509958"
+        gloss: "become spotted; \"This dress spots quickly\""
+        angloform:
+          status: gap
+      - wordnet: "00509607"
+        gloss: "mark with a spot or spots so as to allow easy recognition; \"spot the areas that one should clearly identify\""
+        angloform:
+          status: gap

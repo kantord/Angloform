@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00317207"
+        gloss: "the act of delivering or distributing something (as goods or mail); \"his reluctant delivery of bad news\""
+        angloform:
+          status: gap
+      - wordnet: "07320622"
+        gloss: "the event of giving birth; \"she had a difficult delivery\""
+        angloform:
+          status: gap
+      - wordnet: "07071483"
+        gloss: "your characteristic style or manner of expressing yourself orally; \"his manner of speaking was quite abrupt\"; \"her speech was barren of southernisms\"; \"I detected a slight accent in his speech\""
+        angloform:
+          status: gap
+      - wordnet: "01108753"
+        gloss: the voluntary transfer of something (title or possession) from one party to another
+        angloform:
+          status: gap
+      - wordnet: "00106272"
+        gloss: (baseball) the act of throwing a baseball by a pitcher to a batter
+        angloform:
+          status: gap
+      - wordnet: "00093483"
+        gloss: "recovery or preservation from loss or danger; \"work is the deliverance of mankind\"; \"a surgeon's job is the saving of lives\""
+        angloform:
+          status: gap
+      - wordnet: "00042541"
+        gloss: the act of delivering a child
+        angloform:
+          status: gap

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02618149"
+        gloss: "continue to live through hardship or adversity; \"We went without water and food for 3 days\"; \"These superstitions survive in the backwaters of America\"; \"The race car driver lived through several very serious accidents\"; \"how long can a person last without food and water?\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "02619924"
+        gloss: "continue in existence after (an adversity, etc.); \"He survived the cancer against all odds\""
+        angloform:
+          status: gap
+      - wordnet: "02616713"
+        gloss: "support oneself; \"he could barely exist on such a low wage\"; \"Can you live on $2000 a month in New York City?\"; \"Many people in the world have to subsist on $1 a day\""
+        angloform:
+          status: redirect
+          word: exist
+          category: VERB_INTRANS
+      - wordnet: "02619739"
+        gloss: "live longer than; \"She outlived her husband by many years\""
+        angloform:
+          status: gap

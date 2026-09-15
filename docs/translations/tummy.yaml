@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05556071"
+        gloss: slang for a paunch
+        angloform:
+          status: gap
+      - wordnet: "05395690"
+        gloss: an enlarged and muscular saclike organ of the alimentary canal; the principal organ of digestion
+        angloform:
+          status: gap

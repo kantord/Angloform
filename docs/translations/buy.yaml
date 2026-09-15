@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13253751"
+        gloss: "an advantageous purchase; \"she got a bargain at the auction\"; \"the stock was a real buy at that price\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02207206"
+        gloss: "obtain by purchase; acquire by means of a financial transaction; \"The family purchased a new car\"; \"The conglomerate acquired a new company\"; \"She buys for the big department store\""
+        angloform:
+          status: gap
+      - wordnet: "02284096"
+        gloss: "make illegal payments to in exchange for favors or influence; \"This judge can be bought\""
+        angloform:
+          status: gap
+      - wordnet: "02646757"
+        gloss: "be worth or be capable of buying; \"This sum will buy you a ride on the train\""
+        angloform:
+          status: gap
+      - wordnet: "02212103"
+        gloss: "acquire by trade or sacrifice or exchange; \"She wanted to buy his love with her dedication to him and his work\""
+        angloform:
+          status: gap
+      - wordnet: "00683670"
+        gloss: "accept as true; \"I can't buy this story\""
+        angloform:
+          status: gap

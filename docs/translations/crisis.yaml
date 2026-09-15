@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13933560"
+        gloss: "an unstable situation of extreme danger or difficulty; \"they went bankrupt during the economic crisis\""
+        angloform:
+          status: gap
+      - wordnet: "07417644"
+        gloss: "a crucial stage or turning point in the course of something; \"after the crisis the patient either dies or gets better\""
+        angloform:
+          status: gap

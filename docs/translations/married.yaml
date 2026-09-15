@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10295819"
+        gloss: "a person who is married; \"we invited several young marrieds\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01481612"
+        gloss: "joined in matrimony; \"a married man\"; \"a married couple\""
+        angloform:
+          status: gap
+      - wordnet: "02852920"
+        gloss: "of or relating to the state of marriage; \"marital status\"; \"marital fidelity\"; \"married bliss\""
+        angloform:
+          status: gap

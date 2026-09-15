@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00660957"
+        gloss: professional care for the feet and toenails
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00042936"
+        gloss: "care for one's feet by cutting and shaping the nails, etc."
+        angloform:
+          status: gap

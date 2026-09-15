@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05022457"
+        gloss: the property of being flexible; easily bent or shaped
+        angloform:
+          status: gap
+      - wordnet: "04659287"
+        gloss: "the quality of being adaptable or variable; \"he enjoyed the flexibility of his working arrangement\""
+        angloform:
+          status: gap
+      - wordnet: "04905188"
+        gloss: the trait of being easily persuaded
+        angloform:
+          status: gap

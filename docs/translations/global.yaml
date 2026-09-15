@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01568684"
+        gloss: "involving the entire earth; not limited or provincial in scope; \"global war\"; \"global monetary policy\"; \"neither national nor continental but planetary\"; \"a world crisis\"; \"of worldwide significance\""
+        angloform:
+          status: gap
+      - wordnet: "02041229"
+        gloss: "having the shape of a sphere or ball; \"a spherical object\"; \"nearly orbicular in shape\"; \"little globular houses like mud-wasp nests\"- Zane Grey"
+        angloform:
+          status: gap

@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01778212"
+        gloss: "involving the body as distinguished from the mind or spirit; \"physical exercise\"; \"physical suffering\"; \"was sloppy about everything but her physical appearance\""
+        angloform:
+          status: gap
+      - wordnet: "02779774"
+        gloss: "relating to the sciences dealing with matter and energy; especially physics; \"physical sciences\"; \"physical laws\""
+        angloform:
+          status: gap
+      - wordnet: "00627004"
+        gloss: "having substance or material existence; perceptible to the senses; \"a physical manifestation\"; \"surrounded by tangible objects\""
+        angloform:
+          status: gap
+      - wordnet: "01574259"
+        gloss: "according with material things or natural laws (other than those peculiar to living matter); \"a reflex response to physical stimuli\""
+        angloform:
+          status: gap
+      - wordnet: "00874092"
+        gloss: "characterized by energetic bodily activity; \"a very physical dance performance\""
+        angloform:
+          status: gap
+      - wordnet: "00842324"
+        gloss: "impelled by physical force especially against resistance; \"forcible entry\"; \"a real cop would get physical\"; \"strong-arm tactics\""
+        angloform:
+          status: gap
+      - wordnet: "00627204"
+        gloss: "concerned with material things; \"physical properties\"; \"the physical characteristics of the earth\"; \"the physical size of a computer\""
+        angloform:
+          status: gap

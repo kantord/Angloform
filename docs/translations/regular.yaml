@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10517405"
+        gloss: "a regular patron; \"an habitue of the racetrack\"; \"a bum who is a Central Park fixture\""
+        angloform:
+          status: gap
+      - wordnet: "10517743"
+        gloss: a soldier in the regular army
+        angloform:
+          status: gap
+      - wordnet: "10517583"
+        gloss: "a dependable follower (especially in party politics); \"he is one of the party regulars\""
+        angloform:
+          status: gap
+      - wordnet: "05096972"
+        gloss: a garment size for persons of average height and weight
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01959294"
+        gloss: "in accordance with fixed order or procedure or principle; \"his regular calls on his customers\"; \"regular meals\"; \"regular duties\""
+        angloform:
+          status: gap
+      - wordnet: "02469577"
+        gloss: "often used as intensifiers; \"a regular morass of details\"; \"a regular nincompoop\"; \"he's a veritable swine\""
+        angloform:
+          status: gap
+      - wordnet: "02296632"
+        gloss: "conforming to a standard or pattern; \"following the regular procedure of the legislature\"; \"a regular electrical outlet\""
+        angloform:
+          status: gap
+      - wordnet: "02366927"
+        gloss: "regularly scheduled for fixed times; \"at a regular meeting of the PTA\"; \"regular bus departures\""
+        angloform:
+          status: gap
+      - wordnet: "00489863"
+        gloss: "in accord with regular practice or procedure; \"took his regular morning walk\"; \"her regular bedtime\""
+        angloform:
+          status: gap
+      - wordnet: "02302187"
+        gloss: "occurring at fixed intervals; \"a regular beat\"; \"the even rhythm of his breathing\""
+        angloform:
+          status: gap
+      - wordnet: "01067003"
+        gloss: "relating to a person who does something regularly; \"a regular customer\"; \"a steady drinker\""
+        angloform:
+          status: gap
+      - wordnet: "01970777"
+        gloss: "(used of the military) belonging to or engaged in by legitimate army forces; \"the regular army\""
+        angloform:
+          status: gap
+      - wordnet: "01961937"
+        gloss: (of solids) having clear dimensions that can be measured; volume can be determined with a suitable geometric formula
+        angloform:
+          status: gap
+      - wordnet: "00638501"
+        gloss: not constipated
+        angloform:
+          status: gap
+      - wordnet: "02372520"
+        gloss: "symmetrically arranged; \"even features\"; \"regular features\"; \"a regular polygon\""
+        angloform:
+          status: gap
+      - wordnet: "01595312"
+        gloss: "not deviating from what is normal; \"her regular bedtime\""
+        angloform:
+          status: gap
+      - wordnet: "01089275"
+        gloss: "officially full-time; \"regular students\""
+        angloform:
+          status: gap

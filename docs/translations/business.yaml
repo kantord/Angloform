@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08061042"
+        gloss: "a commercial or industrial enterprise and the people who constitute it; \"he bought his brother's business\"; \"a small mom-and-pop business\"; \"a racially integrated business concern\""
+        angloform:
+          status: gap
+      - wordnet: "01094725"
+        gloss: "the activity of providing goods and services involving financial and commercial and industrial aspects; \"computers are now widely used in business\""
+        angloform:
+          status: gap
+      - wordnet: "00582388"
+        gloss: "the principal activity in your life that you do to earn money; \"he's not in my line of business\""
+        angloform:
+          status: redirect
+          word: line
+          category: NOUN
+      - wordnet: "05833022"
+        gloss: "a rightful concern or responsibility; \"it's none of your business\"; \"mind your own business\""
+        angloform:
+          status: gap
+      - wordnet: "05983801"
+        gloss: "an immediate objective; \"gossip was the main business of the evening\""
+        angloform:
+          status: gap
+      - wordnet: "01096245"
+        gloss: "the volume of commercial activity; \"business is good today\"; \"show me where the business was today\""
+        angloform:
+          status: gap
+      - wordnet: "07966927"
+        gloss: "business concerns collectively; \"Government and business could not agree\""
+        angloform:
+          status: gap
+      - wordnet: "08401554"
+        gloss: "customers collectively; \"they have an upper class clientele\""
+        angloform:
+          status: gap
+      - wordnet: "00550341"
+        gloss: "incidental activity performed by an actor for dramatic effect; \"his business with the cane was hilarious\""
+        angloform:
+          status: gap

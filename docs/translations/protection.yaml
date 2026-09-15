@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00817680"
+        gloss: "the activity of protecting someone or something; \"the witnesses demanded police protection\""
+        angloform:
+          status: gap
+      - wordnet: "04014297"
+        gloss: "a covering that is intend to protect from damage or injury; \"they had no protection from the fallout\"; \"wax provided protection for the floors\""
+        angloform:
+          status: gap
+      - wordnet: "13344071"
+        gloss: "defense against financial failure; financial independence; \"his pension gave him security in his old age\"; \"insurance provided protection against loss of wages due to illness\""
+        angloform:
+          status: gap
+      - wordnet: "14539960"
+        gloss: "the condition of being protected; \"they were huddled together for protection\"; \"he enjoyed a sense of peace and protection in his new home\""
+        angloform:
+          status: gap
+      - wordnet: "01214863"
+        gloss: "kindly endorsement and guidance; \"the tournament was held under the auspices of the city council\""
+        angloform:
+          status: gap
+      - wordnet: "01127874"
+        gloss: "the imposition of duties or quotas on imports in order to protect domestic industry against foreign competition; \"he made trade protection a plank in the party platform\""
+        angloform:
+          status: gap
+      - wordnet: "00784755"
+        gloss: "payment extorted by gangsters on threat of violence; \"every store in the neighborhood had to pay him protection\""
+        angloform:
+          status: gap

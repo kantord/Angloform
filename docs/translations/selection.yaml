@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00161243"
+        gloss: "the act of choosing or selecting; \"your choice of colors was unfortunate\"; \"you can take your pick\""
+        angloform:
+          status: redirect
+          word: choice
+          category: NOUN
+      - wordnet: "08399818"
+        gloss: "an assortment of things from which a choice can be made; \"the store carried a large selection of shoes\""
+        angloform:
+          status: gap
+      - wordnet: "05790242"
+        gloss: "the person or thing chosen or selected; \"he was my pick for mayor\""
+        angloform:
+          status: redirect
+          word: choice
+          category: NOUN
+      - wordnet: "13563746"
+        gloss: a natural process resulting in the evolution of organisms best adapted to the environment
+        angloform:
+          status: gap
+      - wordnet: "06400510"
+        gloss: "a passage selected from a larger work; \"he presented excerpts from William James' philosophical writings\""
+        angloform:
+          status: gap

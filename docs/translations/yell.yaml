@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07120524"
+        gloss: "a loud utterance; often in protest or opposition; \"the speaker was interrupted by loud cries from the rear of the audience\""
+        angloform:
+          status: gap
+      - wordnet: "07121157"
+        gloss: "a loud utterance of emotion (especially when inarticulate); \"a cry of rage\"; \"a yell of pain\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00913065"
+        gloss: "utter a sudden loud cry; \"she cried with pain when the doctor inserted the needle\"; \"I yelled to her from the window but she couldn't hear me\""
+        angloform:
+          status: gap
+      - wordnet: "00912833"
+        gloss: "utter or declare in a very loud voice; \"You don't have to yell--I can hear you just fine\""
+        angloform:
+          status: gap

@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04827957"
+        gloss: estrangement from god
+        angloform:
+          status: gap
+      - wordnet: "00757080"
+        gloss: "an act that is regarded by theologians as a transgression of God's will"
+        angloform:
+          status: gap
+      - wordnet: "13787379"
+        gloss: ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle
+        angloform:
+          status: gap
+      - wordnet: "09521994"
+        gloss: (Akkadian) god of the Moon; counterpart of Sumerian Nanna
+        angloform:
+          status: gap
+      - wordnet: "06838868"
+        gloss: the 21st letter of the Hebrew alphabet
+        angloform:
+          status: gap
+      - wordnet: "01260731"
+        gloss: "violent and excited activity; \"they began to fight like sin\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02565687"
+        gloss: commit a sin; violate a law of God or a moral law
+        angloform:
+          status: gap
+      - wordnet: "02566227"
+        gloss: "commit a faux pas or a fault or make a serious mistake; \"I blundered during the job interview\""
+        angloform:
+          status: gap

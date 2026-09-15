@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08613593"
+        gloss: the region that is outside of something
+        angloform:
+          status: gap
+      - wordnet: "08613472"
+        gloss: the outer side or surface of something
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01692969"
+        gloss: "relating to or being on or near the outer side or limit; \"an outside margin\""
+        angloform:
+          status: gap
+      - wordnet: "01350225"
+        gloss: "coming from the outside; \"extraneous light in the camera spoiled the photograph\"; \"relying upon an extraneous income\"; \"disdaining outside pressure groups\""
+        angloform:
+          status: gap
+      - wordnet: "00948514"
+        gloss: "originating or belonging beyond some bounds:\"the outside world\"; \"outside interests\"; \"an outside job\""
+        angloform:
+          status: gap
+      - wordnet: "01692222"
+        gloss: "located, suited for, or taking place in the open air; \"outdoor clothes\"; \"badminton and other outdoor games\"; \"a beautiful outdoor setting for the wedding\""
+        angloform:
+          status: gap
+      - wordnet: "01347749"
+        gloss: "functioning outside the boundaries or precincts of an organized unit; \"extramural hospital care and treatment\"; \"extramural studies\""
+        angloform:
+          status: gap
+      - wordnet: "00952761"
+        gloss: "leading to or from the outside; \"an outside door\""
+        angloform:
+          status: gap
+      - wordnet: "01037885"
+        gloss: "from or between other countries; \"external commerce\"; \"international trade\"; \"developing nations need outside help\""
+        angloform:
+          status: gap
+      - wordnet: "01413084"
+        gloss: "very unlikely; \"an outside chance\"; \"a remote possibility\"; \"a remote contingency\""
+        angloform:
+          status: gap
+      - wordnet: "00950002"
+        gloss: "on or toward an outer edge; \"an outer lane\"; \"the outside lane\""
+        angloform:
+          status: gap
+      - wordnet: "00023655"
+        gloss: "(of a baseball pitch) on the far side of home plate from the batter; \"the pitch was away (or wide)\"; \"an outside pitch\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00110659"
+        gloss: "outside a building; \"in summer we play outside\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00110919"
+        gloss: "on the outside; \"outside, the box is black\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

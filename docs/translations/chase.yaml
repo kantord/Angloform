@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00319939"
+        gloss: "the act of pursuing in an effort to overtake or capture; \"the culprit started to run and the cop took off in pursuit\""
+        angloform:
+          status: gap
+      - wordnet: "10893606"
+        gloss: United States politician and jurist who served as chief justice of the United States Supreme Court (1808-1873)
+        angloform:
+          status: gap
+      - wordnet: "03010283"
+        gloss: a rectangular metal frame used in letterpress printing to hold together the pages or columns of composed type that are printed at one time
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02001858"
+        gloss: "go after with the intent to catch; \"The policeman chased the mugger down the alley\"; \"the dog chased the rabbit\""
+        angloform:
+          status: gap
+      - wordnet: "02535093"
+        gloss: pursue someone sexually or romantically
+        angloform:
+          status: gap
+      - wordnet: "01583881"
+        gloss: "cut a groove into; \"chase silver\""
+        angloform:
+          status: gap
+      - wordnet: "01277649"
+        gloss: cut a furrow into a columns
+        angloform:
+          status: gap

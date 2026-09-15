@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13774404"
+        gloss: "(often followed by `of') a large number or amount or extent; \"a batch of letters\"; \"a deal of trouble\"; \"a lot of money\"; \"he made a mint on the stock market\"; \"see the rest of the winners in our huge passel of photos\"; \"it must have cost plenty\"; \"a slew of journalists\"; \"a wad of money\""
+        angloform:
+          status: gap
+      - wordnet: "08674970"
+        gloss: "a parcel of land having fixed boundaries; \"he bought a lot on the lake\""
+        angloform:
+          status: gap
+      - wordnet: "08240169"
+        gloss: "an unofficial association of people or groups; \"the smart set goes there\"; \"they were an angry lot\""
+        angloform:
+          status: redirect
+          word: set
+          category: NOUN
+      - wordnet: "14473222"
+        gloss: "your overall circumstances or condition in life (including everything that happens to you); \"whatever my fortune may be\"; \"deserved a better fate\"; \"has a happy lot\"; \"the luck of the Irish\"; \"a victim of circumstances\"; \"success that was her portion\""
+        angloform:
+          status: gap
+      - wordnet: "03233423"
+        gloss: "anything (straws or pebbles etc.) taken or chosen at random; \"the luck of the draw\"; \"they drew lots for it\""
+        angloform:
+          status: gap
+      - wordnet: "07954731"
+        gloss: "any collection in its entirety; \"she bought the whole caboodle\""
+        angloform:
+          status: gap
+      - wordnet: "10273669"
+        gloss: (Old Testament) nephew of Abraham; God destroyed Sodom and Gomorrah but chose to spare Lot and his family who were told to flee without looking back at the destruction
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02468965"
+        gloss: divide into lots, as of land, for example
+        angloform:
+          status: gap
+      - wordnet: "02294436"
+        gloss: "administer or bestow, as in small portions; \"administer critical remarks to everyone present\"; \"dole out some money\"; \"shell out pocket money for the children\"; \"deal a blow to someone\"; \"the machine dispenses soft drinks\""
+        angloform:
+          status: gap

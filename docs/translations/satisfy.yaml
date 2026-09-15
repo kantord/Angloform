@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02671880"
+        gloss: meet the requirements or expectations of
+        angloform:
+          status: gap
+      - wordnet: "01816431"
+        gloss: make happy or satisfied
+        angloform:
+          status: gap
+      - wordnet: "01183573"
+        gloss: fill or meet a want or need
+        angloform:
+          status: redirect
+          word: meet
+          category: VERB_TRANS

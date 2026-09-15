@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01165224"
+        gloss: "execution by cutting off the victim's head"
+        angloform:
+          status: gap
+      - wordnet: "00228181"
+        gloss: killing by cutting off the head
+        angloform:
+          status: gap

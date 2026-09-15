@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00089408"
+        gloss: "to a high degree or extent; favorably or with much respect; \"highly successful\"; \"He spoke highly of her\"; \"does not think highly of his writing\"; \"extremely interesting\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00046299"
+        gloss: "to an extreme degree; \"extremely cold\"; \"extremely unpleasant\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00220522"
+        gloss: unlawful premeditated killing of a human being by a human being
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02482425"
+        gloss: "kill intentionally and with premeditation; \"The mafia boss ordered his enemies murdered\""
+        angloform:
+          status: redirect
+          word: remove
+          category: VERB_TRANS
+      - wordnet: "00548750"
+        gloss: "alter so as to make unrecognizable; \"The tourists murdered the French language\""
+        angloform:
+          status: gap

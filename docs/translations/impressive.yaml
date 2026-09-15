@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01282014"
+        gloss: "making a strong or vivid impression; \"an impressive ceremony\""
+        angloform:
+          status: gap
+      - wordnet: "00835292"
+        gloss: "producing a strong effect; \"gave an impressive performance as Othello\"; \"a telling gesture\""
+        angloform:
+          status: gap

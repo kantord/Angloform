@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08308497"
+        gloss: a prearranged meeting for consultation or exchange of information or discussion (especially one with a formal agenda)
+        angloform:
+          status: gap
+      - wordnet: "08231184"
+        gloss: an association of sports teams that organizes matches for its members
+        angloform:
+          status: gap
+      - wordnet: "07142566"
+        gloss: a discussion among participants who have an agreed (serious) topic
+        angloform:
+          status: gap

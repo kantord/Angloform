@@ -1,0 +1,4 @@
+status: exempt
+exempt_kind: garbage
+reason: a hyphenated compound adjective over an already-covered demonym, zero WordNet attestation for
+  the compound itself

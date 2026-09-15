@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00048268"
+        gloss: "at this time or period; now; \"he is presently our ambassador to the United Nations\"; \"currently they live in Connecticut\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

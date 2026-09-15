@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05474346"
+        gloss: any bundle of nerve fibers running to various organs and tissues of the body
+        angloform:
+          status: gap
+      - wordnet: "04857490"
+        gloss: "the courage to carry on; \"he kept fighting on pure spunk\"; \"you haven't got the heart for baseball\""
+        angloform:
+          status: gap
+      - wordnet: "04838210"
+        gloss: "impudent aggressiveness; \"I couldn't believe her boldness\"; \"he had the effrontery to question my honesty\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01806271"
+        gloss: get ready for something difficult or unpleasant
+        angloform:
+          status: gap

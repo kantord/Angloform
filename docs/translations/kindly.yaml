@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01372948"
+        gloss: "showing or motivated by sympathy and understanding and generosity; \"was charitable in his opinions of others\"; \"kindly criticism\"; \"a kindly act\"; \"sympathetic words\"; \"a large-hearted mentor\""
+        angloform:
+          status: gap
+      - wordnet: "00226891"
+        gloss: "pleasant and agreeable; \"a kindly climate\"; \"kindly breeze\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00004394"
+        gloss: "in a kind manner or out of kindness; \"He spoke kindly to the boy\"; \"she kindly overlooked the mistake\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

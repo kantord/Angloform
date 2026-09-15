@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13637376"
+        gloss: "the basic unit of electric current adopted under the Systeme International d'Unites; \"a typical household circuit carries 15 to 50 amps\""
+        angloform:
+          status: gap
+      - wordnet: "14707710"
+        gloss: a nucleotide found in muscle cells and important in metabolism; reversibly convertible to ADP and ATP
+        angloform:
+          status: gap

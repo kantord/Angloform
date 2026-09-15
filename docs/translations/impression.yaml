@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05916739"
+        gloss: "a vague idea in which some confidence is placed; \"his impression of her was favorable\"; \"what are your feelings about the crisis?\"; \"it strengthened my belief in his sincerity\"; \"I had a feeling that she was lying\""
+        angloform:
+          status: gap
+      - wordnet: "04675314"
+        gloss: "an outward appearance; \"he made a good impression\"; \"I wanted to create an impression of success\"; \"she retained that bold effect in her reproductions of the original painting\""
+        angloform:
+          status: redirect
+          word: effect
+          category: NOUN
+      - wordnet: "05936704"
+        gloss: "a clear and telling mental image; \"he described his mental picture of his assailant\"; \"he had no clear picture of himself or his world\"; \"the events left a permanent impression in his mind\""
+        angloform:
+          status: gap
+      - wordnet: "13896369"
+        gloss: "a concavity in a surface produced by pressing; \"he left the impression of his fingers in the soft mud\""
+        angloform:
+          status: gap
+      - wordnet: "06855207"
+        gloss: "a symbol that is the result of printing or engraving; \"he put his stamp on the envelope\""
+        angloform:
+          status: gap
+      - wordnet: "06590210"
+        gloss: "all the copies of a work printed at one time; \"they ran off an initial printing of 2000 copies\""
+        angloform:
+          status: gap
+      - wordnet: "03564849"
+        gloss: "(dentistry) an imprint of the teeth and gums in wax or plaster; \"the dentist took an impression for use in preparing an inlay\""
+        angloform:
+          status: gap
+      - wordnet: "00549106"
+        gloss: "an impressionistic portrayal of a person; \"he did a funny impression of a politician\""
+        angloform:
+          status: gap
+      - wordnet: "00113532"
+        gloss: "the act of pressing one thing on or into the surface of another; \"he watched the impression of the seal on the hot wax\""
+        angloform:
+          status: gap

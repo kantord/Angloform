@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00592880"
+        gloss: "recurring again and again; \"perennial efforts to stipulate the requirements\""
+        angloform:
+          status: gap

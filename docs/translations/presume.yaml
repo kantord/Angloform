@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00632236"
+        gloss: "take to be the case or to be true; accept without verification or proof; \"I assume his train was late\""
+        angloform:
+          status: gap
+      - wordnet: "02374924"
+        gloss: "take upon oneself; act presumptuously, without permission; \"How dare you call my lawyer?\""
+        angloform:
+          status: gap
+      - wordnet: "01015677"
+        gloss: "constitute reasonable evidence for; \"A restaurant bill presumes the consumption of food\""
+        angloform:
+          status: gap
+      - wordnet: "00011551"
+        gloss: take liberties or act with too much confidence
+        angloform:
+          status: gap

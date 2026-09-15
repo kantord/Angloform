@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00582388"
+        gloss: "the principal activity in your life that you do to earn money; \"he's not in my line of business\""
+        angloform:
+          status: redirect
+          word: line
+          category: NOUN
+      - wordnet: "01133106"
+        gloss: the control of a country by military forces of a foreign power
+        angloform:
+          status: gap
+      - wordnet: "00582868"
+        gloss: "any activity that occupies a person's attention; \"he missed the bell in his occupation with the computer game\""
+        angloform:
+          status: gap
+      - wordnet: "00086809"
+        gloss: "the act of occupying or taking possession of a building; \"occupation of a building without a certificate of occupancy is illegal\""
+        angloform:
+          status: gap
+      - wordnet: "15141486"
+        gloss: "the period of time during which a place or position or nation is occupied; \"during the German occupation of Paris\""
+        angloform:
+          status: gap

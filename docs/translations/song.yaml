@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07048000"
+        gloss: "a short musical composition with words; \"a successful musical must have at least three good songs\""
+        angloform:
+          status: gap
+      - wordnet: "07394588"
+        gloss: "a distinctive or characteristic sound; \"the song of bullets was in the air\"; \"the song of the wind\"; \"the wheels sang their song as the train rocketed ahead\""
+        angloform:
+          status: gap
+      - wordnet: "00546389"
+        gloss: "the act of singing; \"with a shout and a song they marched up to the gates\""
+        angloform:
+          status: gap
+      - wordnet: "06796642"
+        gloss: "the characteristic sound produced by a bird; \"a bird will not learn its song unless it hears it at an early age\""
+        angloform:
+          status: gap
+      - wordnet: "13254011"
+        gloss: "a very small sum; \"he bought it for a song\""
+        angloform:
+          status: gap
+      - wordnet: "08158741"
+        gloss: the imperial dynasty of China from 960 to 1279; noted for art and literature and philosophy
+        angloform:
+          status: gap

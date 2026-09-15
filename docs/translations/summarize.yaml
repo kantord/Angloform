@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01007924"
+        gloss: "give a summary (of); \"he summed up his results\"; \"I will now summarize\""
+        angloform:
+          status: gap
+      - wordnet: "02752695"
+        gloss: "be a summary of; \"The abstract summarizes the main ideas in the paper\""
+        angloform:
+          status: gap

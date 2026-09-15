@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10669991"
+        gloss: an assistant subject to the authority or control of another
+        angloform:
+          status: gap
+      - wordnet: "08003935"
+        gloss: a company that is completely controlled by another company
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01854129"
+        gloss: "functioning in a supporting capacity; \"the main library and its auxiliary branches\""
+        angloform:
+          status: gap

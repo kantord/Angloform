@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "botching" is the gerund of "botch" — WordNet indexes only the base word.
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00074790"
+        gloss: an embarrassing mistake
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02527651"
+        gloss: make a mess of, destroy or ruin; "I botched the dinner"
+        angloform:
+          status: gap

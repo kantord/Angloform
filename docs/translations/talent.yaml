@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05624042"
+        gloss: natural abilities or qualities
+        angloform:
+          status: gap
+      - wordnet: "10689878"
+        gloss: a person who possesses unusual innate ability in some field or activity
+        angloform:
+          status: gap

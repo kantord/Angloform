@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02560424"
+        gloss: "compel to behave in a certain way; \"Social relations impose courtesy\""
+        angloform:
+          status: redirect
+          word: enforce
+          category: VERB_TRANS
+      - wordnet: "00748282"
+        gloss: "impose something unpleasant; \"The principal visited his rage on the students\""
+        angloform:
+          status: gap
+      - wordnet: "02306462"
+        gloss: "impose and collect; \"levy a fine\""
+        angloform:
+          status: gap

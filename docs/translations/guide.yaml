@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10741821"
+        gloss: someone employed to conduct others
+        angloform:
+          status: gap
+      - wordnet: "10151570"
+        gloss: someone who shows the way by leading or advising
+        angloform:
+          status: gap
+      - wordnet: "06422740"
+        gloss: something that offers basic information or instruction
+        angloform:
+          status: gap
+      - wordnet: "05938976"
+        gloss: a model or standard for making comparisons
+        angloform:
+          status: redirect
+          word: template
+          category: NOUN
+      - wordnet: "10562749"
+        gloss: someone who can find paths through unexplored territory
+        angloform:
+          status: gap
+      - wordnet: "03466027"
+        gloss: a structure or marking that serves to direct the motion or positioning of something
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01931768"
+        gloss: direct the course; determine the direction of travelling
+        angloform:
+          status: gap
+      - wordnet: "01999798"
+        gloss: "take somebody somewhere; \"We lead him to our chief\"; \"can you take me to the main entrance?\"; \"He conducted us to the palace\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "02439732"
+        gloss: "be a guiding or motivating force or drive; \"The teacher steered the gifted students towards the more challenging courses\""
+        angloform:
+          status: gap
+      - wordnet: "02159427"
+        gloss: "use as a guide; \"They had the lights to guide on\""
+        angloform:
+          status: gap
+      - wordnet: "01212230"
+        gloss: "pass over, across, or through; \"He ran his eyes over her body\"; \"She ran her fingers along the carved figurine\"; \"He drew her hair through his fingers\""
+        angloform:
+          status: gap

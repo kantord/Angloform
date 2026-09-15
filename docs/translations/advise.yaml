@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00872886"
+        gloss: "give advice to; \"The teacher counsels troubled students\"; \"The lawyer counselled me when I was accused of tax fraud\""
+        angloform:
+          status: gap
+      - wordnet: "00873682"
+        gloss: "inform (somebody) of something; \"I advised him that the rent was due\""
+        angloform:
+          status: gap
+      - wordnet: "00875394"
+        gloss: "make a proposal, declare a plan for something; \"the senator proposed to abolish the sales tax\""
+        angloform:
+          status: redirect
+          word: suggest
+          category: VERB_TRANS

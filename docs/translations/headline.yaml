@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06344461"
+        gloss: the heading or caption of a newspaper article
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00976224"
+        gloss: publicize widely or highly, as if with a headline
+        angloform:
+          status: gap
+      - wordnet: "02332445"
+        gloss: provide (a newspaper page or a story) with a headline
+        angloform:
+          status: gap

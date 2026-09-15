@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01154639"
+        gloss: having the consistency of mush
+        angloform:
+          status: gap
+      - wordnet: "00854413"
+        gloss: "effusively or insincerely emotional; \"a bathetic novel\"; \"maudlin expressions of sympathy\"; \"mushy effusiveness\"; \"a schmaltzy song\"; \"sentimental soap operas\"; \"slushy poetry\""
+        angloform:
+          status: gap

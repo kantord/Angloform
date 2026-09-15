@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06520944"
+        gloss: a binding agreement between two or more persons that is enforceable by law
+        angloform:
+          status: gap
+      - wordnet: "06737394"
+        gloss: (contract bridge) the highest bid becomes the contract setting the number of tricks that the bidder must make
+        angloform:
+          status: redirect
+          word: declaration
+          category: NOUN
+      - wordnet: "00491366"
+        gloss: a variety of bridge in which the bidder receives points toward game only for the number of tricks he bid
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00888786"
+        gloss: enter into a contractual arrangement
+        angloform:
+          status: gap
+      - wordnet: "02409941"
+        gloss: "engage by written agreement; \"They signed two new pitchers for the next season\""
+        angloform:
+          status: gap
+      - wordnet: "01387786"
+        gloss: "squeeze or press together; \"she compressed her lips\"; \"the spasm contracted the muscle\""
+        angloform:
+          status: gap
+      - wordnet: "00087736"
+        gloss: "be stricken by an illness, fall victim to an illness; \"He got AIDS\"; \"She came down with pneumonia\"; \"She took a chill\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "00240571"
+        gloss: "become smaller or draw together; \"The fabric shrank\"; \"The balloon shrank\""
+        angloform:
+          status: gap
+      - wordnet: "01279474"
+        gloss: "make smaller; \"The heat contracted the woollen garment\""
+        angloform:
+          status: gap
+      - wordnet: "00365188"
+        gloss: "compress or concentrate; \"Congress condensed the three-year plan into a six-month plan\""
+        angloform:
+          status: gap
+      - wordnet: "00305109"
+        gloss: "make or become more narrow or restricted; \"The selection was narrowed\"; \"The road narrowed\""
+        angloform:
+          status: redirect
+          word: narrow
+          category: VERB_TRANS
+      - wordnet: "00243900"
+        gloss: "reduce in scope while retaining essential elements; \"The manuscript must be shortened\""
+        angloform:
+          status: redirect
+          word: reduce
+          category: VERB_TRANS

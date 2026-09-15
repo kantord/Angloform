@@ -1,0 +1,21 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06594258"
+        gloss: a periodical that is published every week (or 52 issues per year)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01968503"
+        gloss: "of or occurring every seven days; \"a weekly visit\"; \"weekly paper\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00081591"
+        gloss: "without missing a week; \"she visited her aunt weekly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

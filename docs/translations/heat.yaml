@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11466043"
+        gloss: a form of energy that is transferred by a difference in temperature
+        angloform:
+          status: gap
+      - wordnet: "05016171"
+        gloss: the presence of heat
+        angloform:
+          status: gap
+      - wordnet: "05725527"
+        gloss: the sensation caused by heat energy
+        angloform:
+          status: gap
+      - wordnet: "04628192"
+        gloss: the trait of being intensely emotional
+        angloform:
+          status: gap
+      - wordnet: "14038264"
+        gloss: "applies to nonhuman mammals: a state or period of heightened sexual arousal and activity"
+        angloform:
+          status: gap
+      - wordnet: "07461288"
+        gloss: a preliminary race in which the winner advances to a more important race
+        angloform:
+          status: gap
+      - wordnet: "03509025"
+        gloss: "utility to warm a building; \"the heating system wasn't working\"; \"they have radiant heating\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00371264"
+        gloss: "make hot or hotter; \"the sun heats the oceans\"; \"heat the water on the stove\""
+        angloform:
+          status: gap
+      - wordnet: "02333358"
+        gloss: "provide with heat; \"heat the house\""
+        angloform:
+          status: gap
+      - wordnet: "01761120"
+        gloss: "arouse or excite feelings and passions; \"The ostentatious way of living of the rich ignites the hatred of the poor\"; \"The refugees' fate stirred up compassion around the world\"; \"Wake old feelings of hatred\""
+        angloform:
+          status: gap
+      - wordnet: "00372665"
+        gloss: "gain heat or get hot; \"The room heated up quickly\""
+        angloform:
+          status: gap

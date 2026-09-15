@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02681795"
+        gloss: "keep in a certain state, position, or activity; e.g., \"keep clean\"; \"hold in place\"; \"She always held herself as a lady\"; \"The students keep me on my toes\""
+        angloform:
+          status: redirect
+          word: keep
+          category: VERB_TRANS
+      - wordnet: "02280132"
+        gloss: "keep in safety and protect from harm, decay, loss, or destruction; \"We preserve these archeological findings\"; \"The old lady could not keep up the building\"; \"children must be taught to conserve our national heritage\"; \"The museum curator conserved the ancient manuscripts\""
+        angloform:
+          status: gap
+      - wordnet: "01184625"
+        gloss: "supply with necessities and support; \"She alone sustained her family\"; \"The money will sustain our good cause\"; \"There's little to earn and many to keep\""
+        angloform:
+          status: redirect
+          word: keep
+          category: VERB_TRANS
+      - wordnet: "01016778"
+        gloss: state categorically
+        angloform:
+          status: redirect
+          word: assert
+          category: VERB_TRANS
+      - wordnet: "02204564"
+        gloss: "have and exercise; \"wield power and authority\""
+        angloform:
+          status: gap
+      - wordnet: "02203168"
+        gloss: "maintain for use and service; \"I keep a car in the countryside\"; \"She keeps an apartment in Paris for her shopping trips\""
+        angloform:
+          status: redirect
+          word: keep
+          category: VERB_TRANS
+      - wordnet: "01065877"
+        gloss: "maintain by writing regular records; \"keep a diary\"; \"maintain a record\"; \"keep notes\""
+        angloform:
+          status: redirect
+          word: keep
+          category: VERB_TRANS
+      - wordnet: "01017643"
+        gloss: "state or assert; \"He maintained his innocence\""
+        angloform:
+          status: gap
+      - wordnet: "00896497"
+        gloss: "support against an opponent; \"The appellate court upheld the verdict\""
+        angloform:
+          status: gap
+      - wordnet: "00732552"
+        gloss: "stick to correctly or closely; \"The pianist kept time with the metronome\"; \"keep count\"; \"I cannot keep track of all my employees\""
+        angloform:
+          status: redirect
+          word: keep
+          category: VERB_TRANS

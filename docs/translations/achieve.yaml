@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02526085"
+        gloss: "to gain with effort; \"she achieved her goal despite setbacks\""
+        angloform:
+          status: gap

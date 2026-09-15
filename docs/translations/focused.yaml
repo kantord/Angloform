@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00782856"
+        gloss: being in focus or brought into focus
+        angloform:
+          status: gap
+      - wordnet: "00612504"
+        gloss: "(of light rays) converging on a point; \"focused light rays can set something afire\""
+        angloform:
+          status: gap
+      - wordnet: "00350876"
+        gloss: of an optical system (e.g. eye or opera glasses) adjusted to produce a clear image
+        angloform:
+          status: gap

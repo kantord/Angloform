@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02991122"
+        gloss: "relating to or characteristic of art or artists; \"his artistic background\""
+        angloform:
+          status: gap
+      - wordnet: "00069948"
+        gloss: "satisfying aesthetic standards and sensibilities; \"artistic workmanship\""
+        angloform:
+          status: gap
+      - wordnet: "02393086"
+        gloss: "aesthetically pleasing; \"an artistic flower arrangement\""
+        angloform:
+          status: gap

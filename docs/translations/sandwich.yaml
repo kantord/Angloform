@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07695965"
+        gloss: two (or more) slices of bread with a filling between them
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01665081"
+        gloss: make into a sandwich
+        angloform:
+          status: gap
+      - wordnet: "01529906"
+        gloss: "insert or squeeze tightly between two people or objects; \"She was sandwiched in her airplane seat between two fat men\""
+        angloform:
+          status: gap

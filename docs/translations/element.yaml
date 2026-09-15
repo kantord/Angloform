@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05868954"
+        gloss: "an abstract part of something; \"jealousy was a component of his character\"; \"two constituents of a musical composition are melody and harmony\"; \"the grammatical elements of a sentence\"; \"a key factor in her success\"; \"humor: an effective ingredient of a speech\""
+        angloform:
+          status: gap
+      - wordnet: "03081021"
+        gloss: "an artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system; \"spare components for cars\"; \"a component or constituent element of a system\""
+        angloform:
+          status: gap
+      - wordnet: "14622893"
+        gloss: any of the more than 100 known substances (of which 92 occur naturally) that cannot be separated into simpler substances and that singly or in combination constitute all matter
+        angloform:
+          status: gap
+      - wordnet: "08568579"
+        gloss: "the most favorable environment for a plant or animal; \"water is the element of fishes\""
+        angloform:
+          status: gap
+      - wordnet: "14840755"
+        gloss: "one of four substances thought in ancient and medieval cosmology to constitute the physical universe; \"the alchemists believed that there were four elements\""
+        angloform:
+          status: gap
+      - wordnet: "13934465"
+        gloss: "the situation in which you are happiest and most effective; \"in your element\""
+        angloform:
+          status: gap
+      - wordnet: "13877408"
+        gloss: a straight line that generates a cylinder or cone
+        angloform:
+          status: gap

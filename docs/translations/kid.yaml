@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09917593"
+        gloss: "a young person of either sex; \"she writes books for children\"; \"they're just kids\"; \"`tiddler' is a British term for youngster\""
+        angloform:
+          status: gap
+      - wordnet: "14762846"
+        gloss: "soft smooth leather from the hide of a young goat; \"kid gloves\""
+        angloform:
+          status: gap
+      - wordnet: "11113489"
+        gloss: English dramatist (1558-1594)
+        angloform:
+          status: gap
+      - wordnet: "09918248"
+        gloss: "a human offspring (son or daughter) of any age; \"they had three children\"; \"they were able to send their kids to college\""
+        angloform:
+          status: gap
+      - wordnet: "02416820"
+        gloss: young goat
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00851100"
+        gloss: "tell false information to for fun; \"Are you pulling my leg?\""
+        angloform:
+          status: gap
+      - wordnet: "00855295"
+        gloss: "be silly or tease one another; \"After we relaxed, we just kidded around\""
+        angloform:
+          status: gap

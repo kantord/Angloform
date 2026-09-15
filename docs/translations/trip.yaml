@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00308370"
+        gloss: "a journey for some purpose (usually including the return); \"he took a trip to the shopping center\""
+        angloform:
+          status: gap
+      - wordnet: "14378311"
+        gloss: "a hallucinatory experience induced by drugs; \"an acid trip\""
+        angloform:
+          status: gap
+      - wordnet: "07317519"
+        gloss: "an accidental misstep threatening (or causing) a fall; \"he blamed his slip on the ice\"; \"the jolt caused many slips and a few spills\""
+        angloform:
+          status: gap
+      - wordnet: "07288385"
+        gloss: an exciting or stimulating experience
+        angloform:
+          status: gap
+      - wordnet: "04485226"
+        gloss: "a catch mechanism that acts as a switch; \"the pressure activates the tripper and releases the water\""
+        angloform:
+          status: gap
+      - wordnet: "00286240"
+        gloss: "a light or nimble tread; \"he heard the trip of women's feet overhead\""
+        angloform:
+          status: gap
+      - wordnet: "00076563"
+        gloss: "an unintentional but embarrassing blunder; \"he recited the whole poem without a single trip\"; \"he arranged his robes to avoid a trip-up later\"; \"confusion caused his unfortunate misstep\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01900408"
+        gloss: "miss a step and fall or nearly fall; \"She stumbled over the tree root\""
+        angloform:
+          status: gap
+      - wordnet: "01900760"
+        gloss: "cause to stumble; \"The questions on the test tripped him up\""
+        angloform:
+          status: gap
+      - wordnet: "01843055"
+        gloss: make a trip for pleasure
+        angloform:
+          status: gap
+      - wordnet: "01643657"
+        gloss: "put in motion or move to act; \"trigger a reaction\"; \"actuate the circuits\""
+        angloform:
+          status: gap
+      - wordnet: "01200934"
+        gloss: "get high, stoned, or drugged; \"He trips every weekend\""
+        angloform:
+          status: gap

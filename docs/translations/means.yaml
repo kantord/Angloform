@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00172710"
+        gloss: "how a result is obtained or an end is achieved; \"a means of control\"; \"an example is the best agency of instruction\"; \"the true way to success\""
+        angloform:
+          status: redirect
+          word: way
+          category: NOUN
+      - wordnet: "03733547"
+        gloss: an instrumentality for accomplishing some end
+        angloform:
+          status: gap
+      - wordnet: "13353858"
+        gloss: "considerable capital (wealth or income); \"he is a man of means\""
+        angloform:
+          status: gap

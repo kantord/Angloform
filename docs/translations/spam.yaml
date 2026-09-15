@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07573347"
+        gloss: a canned meat made largely from pork
+        angloform:
+          status: gap
+      - wordnet: "06280347"
+        gloss: unwanted e-mail (usually of a commercial nature sent out in bulk)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01032715"
+        gloss: send unwanted or junk e-mail
+        angloform:
+          status: gap

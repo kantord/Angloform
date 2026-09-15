@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07985628"
+        gloss: "a pair who associate with one another; \"the engaged couple\"; \"an inseparable twosome\""
+        angloform:
+          status: gap
+      - wordnet: "07988857"
+        gloss: "a pair of people who live together; \"a married couple from Chicago\""
+        angloform:
+          status: gap
+      - wordnet: "13771290"
+        gloss: "a small indefinite number; \"he's coming for a couple of days\""
+        angloform:
+          status: gap
+      - wordnet: "13743605"
+        gloss: two items of the same kind
+        angloform:
+          status: redirect
+          word: pair
+          category: NOUN
+      - wordnet: "09257563"
+        gloss: (physics) something joined by two equal and opposite forces that act along parallel lines
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01292885"
+        gloss: "bring two objects, ideas, or people together; \"This fact is coupled to the other one\"; \"Matchmaker, can you match my daughter with a nice young man?\"; \"The student was paired with a partner for collaboration on the project\""
+        angloform:
+          status: redirect
+          word: match
+          category: VERB_TRANS
+      - wordnet: "01297624"
+        gloss: "link together; \"can we couple these proposals?\""
+        angloform:
+          status: gap
+      - wordnet: "02490430"
+        gloss: "form a pair or pairs; \"The two old friends paired off\""
+        angloform:
+          status: gap
+      - wordnet: "01428853"
+        gloss: "engage in sexual intercourse; \"Birds mate in the Spring\""
+        angloform:
+          status: gap

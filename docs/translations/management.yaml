@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01133281"
+        gloss: "the act of managing something; \"he was given overall management of the program\"; \"is the direction of the economy a function of government?\""
+        angloform:
+          status: gap
+      - wordnet: "08381165"
+        gloss: those in charge of running a business
+        angloform:
+          status: gap

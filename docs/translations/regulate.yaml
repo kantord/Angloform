@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00299341"
+        gloss: "fix or adjust the time, amount, degree, or rate of; \"regulate the temperature\"; \"modulate the pitch\""
+        angloform:
+          status: gap
+      - wordnet: "02511551"
+        gloss: "bring into conformity with rules or principles or usage; impose regulations; \"We cannot regulate the way people dress\"; \"This town likes to regulate\""
+        angloform:
+          status: gap
+      - wordnet: "00701040"
+        gloss: "shape or influence; give direction to; \"experience often determines ability\"; \"mold public opinion\""
+        angloform:
+          status: gap
+      - wordnet: "00234988"
+        gloss: check the emission of (sound)
+        angloform:
+          status: gap

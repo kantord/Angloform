@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15137295"
+        gloss: time need to prepare a vessel or ship for a return trip
+        angloform:
+          status: gap
+      - wordnet: "05789808"
+        gloss: a decision to reverse an earlier decision
+        angloform:
+          status: redirect
+          word: reversal
+          category: NOUN
+      - wordnet: "04499660"
+        gloss: an area sufficiently large for a vehicle to turn around
+        angloform:
+          status: gap
+      - wordnet: "01144555"
+        gloss: act or process of unloading and loading and servicing a vessel or aircraft for a return trip
+        angloform:
+          status: gap
+      - wordnet: "00346693"
+        gloss: turning in the opposite direction
+        angloform:
+          status: redirect
+          word: reversal
+          category: NOUN

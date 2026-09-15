@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00934199"
+        gloss: "relatively low in price or charging low prices; \"it would have been cheap at twice the price\"; \"inexpensive family restaurants\""
+        angloform:
+          status: redirect
+          word: cheap
+          category: ADJ

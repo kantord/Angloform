@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00976531"
+        gloss: the act of invading; the act of an army that invades for conquest or plunder
+        angloform:
+          status: gap
+      - wordnet: "07429976"
+        gloss: "any entry into an area not previously occupied; \"an invasion of tourists\"; \"an invasion of locusts\""
+        angloform:
+          status: gap
+      - wordnet: "07332313"
+        gloss: "(pathology) the spread of pathogenic microorganisms or malignant cells to new sites in the body; \"the tumor's invasion of surrounding structures\""
+        angloform:
+          status: gap

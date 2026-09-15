@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00868910"
+        gloss: the procedure of calculating; determining something by mathematical or logical methods
+        angloform:
+          status: gap
+      - wordnet: "05802185"
+        gloss: problem solving that involves numbers or quantities
+        angloform:
+          status: gap
+      - wordnet: "05796423"
+        gloss: "planning something carefully and intentionally; \"it was the deliberation of his act that was insulting\""
+        angloform:
+          status: gap

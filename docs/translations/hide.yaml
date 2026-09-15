@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14759275"
+        gloss: the dressed skin of an animal (especially a large animal)
+        angloform:
+          status: gap
+      - wordnet: "01895735"
+        gloss: body covering of a living animal
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02144835"
+        gloss: "prevent from being seen or discovered; \"Muslim women hide their faces\"; \"hide the money\""
+        angloform:
+          status: gap
+      - wordnet: "02145814"
+        gloss: "be or go into hiding; keep out of sight, as for protection and safety; \"Probably his horse would be close to where he was hiding\"; \"She is hiding out in a cabin in Montana\""
+        angloform:
+          status: gap
+      - wordnet: "01582200"
+        gloss: "cover as if with a shroud; \"The origins of this civilization are shrouded in mystery\""
+        angloform:
+          status: redirect
+          word: cover
+          category: VERB_TRANS
+      - wordnet: "00313987"
+        gloss: "make undecipherable or imperceptible by obscuring or concealing; \"a hidden message\"; \"a veiled threat\""
+        angloform:
+          status: gap

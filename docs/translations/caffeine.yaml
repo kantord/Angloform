@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14761122"
+        gloss: a bitter alkaloid found in coffee and tea that is responsible for their stimulating effects
+        angloform:
+          status: gap

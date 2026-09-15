@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "12212690"
+        gloss: any herbaceous plant having medicinal properties
+        angloform:
+          status: gap
+      - wordnet: "10599354"
+        gloss: a person lacking intelligence or common sense
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02174896"
+        gloss: "having few parts; not complex or complicated or involved; \"a simple problem\"; \"simple mechanisms\"; \"a simple design\"; \"a simple substance\""
+        angloform:
+          status: gap
+      - wordnet: "00750296"
+        gloss: "easy and not involved or complicated; \"an elementary problem in statistics\"; \"elementary, my dear Watson\"; \"a simple game\"; \"found an uncomplicated solution to the problem\""
+        angloform:
+          status: gap
+      - wordnet: "01792573"
+        gloss: "apart from anything else; without additions or modifications; \"only the bare facts\"; \"shocked by the mere idea\"; \"the simple passage of time was enough\"; \"the simple truth\""
+        angloform:
+          status: redirect
+          word: bare
+          category: ADJ
+      - wordnet: "02272047"
+        gloss: "exhibiting childlike simplicity and credulity; \"childlike trust\"; \"dewy-eyed innocence\"; \"listened in round-eyed wonder\""
+        angloform:
+          status: gap
+      - wordnet: "01841390"
+        gloss: lacking mental capacity and subtlety
+        angloform:
+          status: gap
+      - wordnet: "02166346"
+        gloss: (botany) of leaf shapes; of leaves having no divisions or subdivisions
+        angloform:
+          status: gap
+      - wordnet: "01793812"
+        gloss: "unornamented; \"a simple country schoolhouse\"; \"her black dress--simple to austerity\""
+        angloform:
+          status: gap

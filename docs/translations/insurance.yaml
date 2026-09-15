@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13344804"
+        gloss: promise of reimbursement in the case of loss; paid to people or companies so concerned about hazards that they have made prepayments to an insurance company
+        angloform:
+          status: gap
+      - wordnet: "06523641"
+        gloss: "written contract or certificate of insurance; \"you should have read the small print on your policy\""
+        angloform:
+          status: redirect
+          word: policy
+          category: NOUN
+      - wordnet: "14539826"
+        gloss: protection against future loss
+        angloform:
+          status: gap

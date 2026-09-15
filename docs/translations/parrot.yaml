@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01816887"
+        gloss: usually brightly colored zygodactyl tropical birds with short hooked beaks and the ability to mimic sounds
+        angloform:
+          status: gap
+      - wordnet: "10401331"
+        gloss: a copycat who does not understand the words or acts being imitated
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00958174"
+        gloss: "repeat mindlessly; \"The students parroted the teacher's words\""
+        angloform:
+          status: gap

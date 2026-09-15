@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05595083"
+        gloss: (anatomy) the point of connection between two bones or elements of a skeleton (especially if it allows motion)
+        angloform:
+          status: gap
+      - wordnet: "03601335"
+        gloss: a disreputable place of entertainment
+        angloform:
+          status: gap
+      - wordnet: "13911151"
+        gloss: the shape or manner in which things come together and a connection is made
+        angloform:
+          status: gap
+      - wordnet: "07580782"
+        gloss: a piece of meat roasted or for roasting and of a size for slicing into more than one portion
+        angloform:
+          status: gap
+      - wordnet: "03600977"
+        gloss: junction by which parts or objects are joined together
+        angloform:
+          status: gap
+      - wordnet: "03600806"
+        gloss: marijuana leaves rolled into a cigarette for smoking
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02660147"
+        gloss: "fit as if by joints; \"The boards fit neatly\""
+        angloform:
+          status: gap
+      - wordnet: "02354287"
+        gloss: "provide with a joint; \"the carpenter jointed two pieces of wood\""
+        angloform:
+          status: gap
+      - wordnet: "01604696"
+        gloss: fasten with a joint
+        angloform:
+          status: gap
+      - wordnet: "01557426"
+        gloss: separate (meat) at the joint
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02111684"
+        gloss: "united or combined; \"a joint session of Congress\"; \"joint owners\""
+        angloform:
+          status: gap
+      - wordnet: "02152716"
+        gloss: "affecting or involving two or more; \"joint income-tax return\"; \"joint ownership\""
+        angloform:
+          status: gap
+      - wordnet: "00238189"
+        gloss: "involving both houses of a legislature; \"a joint session of Congress\""
+        angloform:
+          status: gap

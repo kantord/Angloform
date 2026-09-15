@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02157557"
+        gloss: the posterior part of the body of a vertebrate especially when elongated and extending beyond the trunk or main part of the body
+        angloform:
+          status: gap
+      - wordnet: "15268367"
+        gloss: "the time of the last part of something; \"the fag end of this crisis-ridden century\"; \"the tail of the storm\""
+        angloform:
+          status: gap
+      - wordnet: "13918274"
+        gloss: any projection that resembles the tail of an animal
+        angloform:
+          status: gap
+      - wordnet: "05559256"
+        gloss: "the fleshy part of the human body that you sit on; \"he deserves a good kick in the butt\"; \"are you going to sit on your fanny and do nothing?\""
+        angloform:
+          status: gap
+      - wordnet: "10689104"
+        gloss: a spy employed to follow someone and report their movements
+        angloform:
+          status: gap
+      - wordnet: "04384199"
+        gloss: "(usually plural) the reverse side of a coin that does not bear the representation of a person's head"
+        angloform:
+          status: gap
+      - wordnet: "04384016"
+        gloss: the rear part of an aircraft
+        angloform:
+          status: gap
+      - wordnet: "04316646"
+        gloss: the rear part of a ship
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02001858"
+        gloss: "go after with the intent to catch; \"The policeman chased the mugger down the alley\"; \"the dog chased the rabbit\""
+        angloform:
+          status: gap
+      - wordnet: "01556178"
+        gloss: remove or shorten the tail of an animal
+        angloform:
+          status: gap
+      - wordnet: "01321796"
+        gloss: remove the stalk of fruits or berries
+        angloform:
+          status: gap

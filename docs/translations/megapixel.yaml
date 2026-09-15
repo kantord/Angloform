@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: one million pixels, a unit of digital camera image resolution
+        angloform:
+          status: gap
+          note: no digital-imaging/pixel vocabulary exists yet; narrow technical jargon

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00004722"
+        gloss: "and nothing more; \"I was merely asking\"; \"it is simply a matter of time\"; \"just a scratch\"; \"he was only a child\"; \"hopes that last but a moment\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00246296"
+        gloss: "absolutely; \"I just can't take it anymore\"; \"he was just grand as Romeo\"; \"it's simply beautiful!\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00004967"
+        gloss: "absolutely; altogether; really; \"we are simply broke\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00005055"
+        gloss: "in a simple manner; without extravagance or embellishment; \"she was dressed plainly\"; \"they lived very simply\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

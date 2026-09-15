@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15166191"
+        gloss: "the part of the day between noon and evening; \"he spent a quiet afternoon in the park\""
+        angloform:
+          status: gap
+      - wordnet: "06632807"
+        gloss: a conventional expression of greeting or farewell
+        angloform:
+          status: gap

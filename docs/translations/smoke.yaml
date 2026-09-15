@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11508092"
+        gloss: a cloud of fine particles suspended in a gas
+        angloform:
+          status: gap
+      - wordnet: "13556893"
+        gloss: "a hot vapor containing fine particles of carbon being produced by combustion; \"the fire produced a tower of black smoke that could be seen for miles\""
+        angloform:
+          status: gap
+      - wordnet: "06802880"
+        gloss: "an indication of some hidden activity; \"with all that smoke there must be a fire somewhere\""
+        angloform:
+          status: gap
+      - wordnet: "04761960"
+        gloss: "something with no concrete substance; \"his dreams all turned to smoke\"; \"it was just smoke and mirrors\""
+        angloform:
+          status: gap
+      - wordnet: "04103491"
+        gloss: tobacco leaves that have been made into a cylinder
+        angloform:
+          status: gap
+      - wordnet: "03990834"
+        gloss: street names for marijuana
+        angloform:
+          status: redirect
+          word: grass
+          category: NOUN
+      - wordnet: "00834636"
+        gloss: "the act of smoking tobacco or other substances; \"he went outside for a smoke\"; \"smoking stinks\""
+        angloform:
+          status: gap
+      - wordnet: "00108181"
+        gloss: "(baseball) a pitch thrown with maximum velocity; \"he swung late on the fastball\"; \"he showed batters nothing but smoke\""
+        angloform:
+          status: redirect
+          word: bullet
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01198101"
+        gloss: "inhale and exhale smoke from cigarettes, cigars, pipes; \"We never smoked marijuana\"; \"Do you smoke?\""
+        angloform:
+          status: gap
+      - wordnet: "02767922"
+        gloss: "emit a cloud of fine particles; \"The chimney was fuming\""
+        angloform:
+          status: gap

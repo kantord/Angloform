@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15237250"
+        gloss: "the warmest season of the year; in the northern hemisphere it extends from the summer solstice to the autumnal equinox; \"they spent a lazy summer at the shore\""
+        angloform:
+          status: gap
+      - wordnet: "15145012"
+        gloss: "the period of finest development, happiness, or beauty; \"the golden summer of his life\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02709774"
+        gloss: "spend the summer; \"We summered in Kashmir\""
+        angloform:
+          status: gap

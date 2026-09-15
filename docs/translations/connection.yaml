@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13791389"
+        gloss: "a relation between things or events (as in the case of one causing the other or sharing features with it); \"there was a connection between eating that pickle and having that nightmare\""
+        angloform:
+          status: gap
+      - wordnet: "14419164"
+        gloss: "the state of being connected; \"the connection between church and state is inescapable\""
+        angloform:
+          status: gap
+      - wordnet: "03091374"
+        gloss: "an instrumentality that connects; \"he soldered the connection\"; \"he didn't have the right connector between the amplifier and the speakers\""
+        angloform:
+          status: redirect
+          word: connective
+          category: NOUN
+      - wordnet: "09956147"
+        gloss: "(usually plural) a person who is influential and to whom you are connected in some way (as by family or friendship); \"he has powerful connections\""
+        angloform:
+          status: gap
+      - wordnet: "05763916"
+        gloss: "the process of bringing ideas or events together in memory or imagination; \"conditioning is a form of learning by association\""
+        angloform:
+          status: gap
+      - wordnet: "13870805"
+        gloss: a connecting shape
+        angloform:
+          status: gap
+      - wordnet: "09956035"
+        gloss: a supplier (especially of narcotics)
+        angloform:
+          status: gap
+      - wordnet: "00316989"
+        gloss: "shifting from one form of transportation to another; \"the plane was late and he missed his connection in Atlanta\""
+        angloform:
+          status: gap
+      - wordnet: "00145218"
+        gloss: "the act of bringing two things into contact (especially for communication); \"the joining of hands around the table\"; \"there was a connection via the internet\""
+        angloform:
+          status: gap

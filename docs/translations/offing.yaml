@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15263675"
+        gloss: "the near or foreseeable future; \"there was a wedding in the offing\""
+        angloform:
+          status: gap
+      - wordnet: "09377125"
+        gloss: "the part of the sea that can be seen from the shore and is beyond the anchoring area; \"there was a ship in the offing\""
+        angloform:
+          status: gap

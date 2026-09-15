@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00082241"
+        gloss: "having or showing determination and energetic pursuit of your ends; \"an aggressive businessman\"; \"an aggressive basketball player\"; \"he was aggressive and imperious; positive in his convictions\"; \"aggressive drivers\""
+        angloform:
+          status: gap
+      - wordnet: "01356143"
+        gloss: "tending to spread quickly; \"an aggressive tumor\""
+        angloform:
+          status: gap
+      - wordnet: "01244846"
+        gloss: "characteristic of an enemy or one eager to fight; \"aggressive acts against another country\"; \"a belligerent tone\""
+        angloform:
+          status: gap

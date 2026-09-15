@@ -1,0 +1,35 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01993408"
+        gloss: "socially or conventionally correct; refined or virtuous; \"from a decent family\"; \"a nice girl\""
+        angloform:
+          status: gap
+      - wordnet: "01878870"
+        gloss: "according with custom or propriety; \"her becoming modesty\"; \"comely behavior\"; \"it is not comme il faut for a gentleman to be constantly asking for money\"; \"a decent burial\"; \"seemly behavior\""
+        angloform:
+          status: gap
+      - wordnet: "00682932"
+        gloss: "conforming to conventions of sexual behavior; \"speech in this circle, if not always decent, never became lewd\"- George Santayana"
+        angloform:
+          status: gap
+      - wordnet: "02336109"
+        gloss: "sufficient for the purpose; \"an adequate income\"; \"the food was adequate\"; \"a decent wage\"; \"enough food\"; \"food enough\""
+        angloform:
+          status: gap
+      - wordnet: "01538583"
+        gloss: "decently clothed; \"are you decent?\""
+        angloform:
+          status: gap
+      - wordnet: "01538311"
+        gloss: "observing conventional sexual mores in speech or behavior or dress; \"a modest neckline in her dress\"; \"though one of her shoulder straps had slipped down, she was perfectly decent by current standards\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00196203"
+        gloss: "in the right manner; \"please do your job properly!\"; \"can't you carry me decent?\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00147876"
+        gloss: "with ease (`easy' is sometimes used informally for `easily'); \"she was easily excited\"; \"was easily confused\"; \"he won easily\"; \"this china breaks very easily\"; \"success came too easy\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00054435"
+        gloss: "without question; \"easily the best book she's written\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00012531"
+        gloss: "indicating high probability; in all likelihood; \"I might well do it\"; \"a mistake that could easily have ended in disaster\"; \"you may well need your umbrella\"; \"he could equally well be trying to deceive us\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

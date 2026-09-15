@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03779621"
+        gloss: sculpture produced by molding
+        angloform:
+          status: gap
+      - wordnet: "00937895"
+        gloss: a preliminary sculpture in wax or clay from which a finished work can be copied
+        angloform:
+          status: gap
+      - wordnet: "00898804"
+        gloss: the act of representing something (usually on a smaller scale)
+        angloform:
+          status: redirect
+          word: model
+          category: NOUN

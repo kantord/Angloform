@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10749715"
+        gloss: a doctor who practices veterinary medicine
+        angloform:
+          status: gap
+      - wordnet: "10749353"
+        gloss: a person who has served in the armed forces
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02446504"
+        gloss: "work as a veterinarian; \"She vetted for the farms in the area for many years\""
+        angloform:
+          status: gap
+      - wordnet: "02166117"
+        gloss: "examine carefully; \"Someone should vet this report before it goes out\""
+        angloform:
+          status: gap
+      - wordnet: "00080589"
+        gloss: provide (a person) with medical care
+        angloform:
+          status: gap
+      - wordnet: "00080456"
+        gloss: provide veterinary care for
+        angloform:
+          status: gap

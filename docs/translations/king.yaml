@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10231515"
+        gloss: a male sovereign; ruler of a kingdom
+        angloform:
+          status: gap
+      - wordnet: "10235024"
+        gloss: a competitor who holds a preeminent position
+        angloform:
+          status: gap
+      - wordnet: "09840217"
+        gloss: "a very wealthy or powerful businessman; \"an oil baron\""
+        angloform:
+          status: gap
+      - wordnet: "14435670"
+        gloss: "preeminence in a particular category or group or field; \"the lion is the king of beasts\""
+        angloform:
+          status: gap
+      - wordnet: "11105463"
+        gloss: United States woman tennis player (born in 1943)
+        angloform:
+          status: gap
+      - wordnet: "11105298"
+        gloss: United States guitar player and singer of the blues (born in 1925)
+        angloform:
+          status: gap
+      - wordnet: "11105054"
+        gloss: United States charismatic civil rights leader and Baptist minister who campaigned against the segregation of Blacks (1929-1968)
+        angloform:
+          status: gap
+      - wordnet: "03618339"
+        gloss: "a checker that has been moved to the opponent's first row where it is promoted to a piece that is free to move either forward or backward"
+        angloform:
+          status: gap
+      - wordnet: "03618219"
+        gloss: one of the four playing cards in a deck bearing the picture of a king
+        angloform:
+          status: gap
+      - wordnet: "03618101"
+        gloss: (chess) the weakest but the most important piece
+        angloform:
+          status: gap

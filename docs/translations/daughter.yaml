@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09992837"
+        gloss: "a female human offspring; \"her daughter cared for her in her old age\""
+        angloform:
+          status: gap

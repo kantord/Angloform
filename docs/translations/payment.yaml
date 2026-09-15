@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13278375"
+        gloss: a sum of money paid or a claim discharged
+        angloform:
+          status: gap
+      - wordnet: "01120448"
+        gloss: the act of paying money
+        angloform:
+          status: gap
+      - wordnet: "01235137"
+        gloss: an act of requiting; returning in kind
+        angloform:
+          status: gap

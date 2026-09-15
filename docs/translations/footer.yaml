@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13650225"
+        gloss: "(used only in combinations) the height or length of something in feet; \"he is a six-footer\"; \"the golfer sank a 40-footer\"; \"his yacht is a 60-footer\""
+        angloform:
+          status: gap
+      - wordnet: "10412055"
+        gloss: a person who travels by foot
+        angloform:
+          status: gap
+      - wordnet: "06764244"
+        gloss: a printed note placed below the text on a printed page
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02576489"
+        gloss: "made or consisting of (entirely or in part) or employing wood; \"a wooden box\"; \"an ancient cart with wooden wheels\""
+        angloform:
+          status: gap
+      - wordnet: "01141595"
+        gloss: "lacking ease or grace; \"the actor's performance was wooden\"; \"a wooden smile\""
+        angloform:
+          status: gap

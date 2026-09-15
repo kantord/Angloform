@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07675627"
+        gloss: highly seasoned minced meat stuffed in casings
+        angloform:
+          status: gap
+      - wordnet: "02850950"
+        gloss: a small nonrigid airship used for observation or as a barrage balloon
+        angloform:
+          status: gap

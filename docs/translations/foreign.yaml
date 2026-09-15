@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01037540"
+        gloss: "of concern to or concerning the affairs of other nations (other than your own); \"foreign trade\"; \"a foreign office\""
+        angloform:
+          status: gap
+      - wordnet: "01034457"
+        gloss: "relating to or originating in or characteristic of another place or part of the world; \"foreign nations\"; \"a foreign accent\"; \"on business in a foreign city\""
+        angloform:
+          status: gap
+      - wordnet: "01349927"
+        gloss: "not contained in or deriving from the essential nature of something; \"an economic theory alien to the spirit of capitalism\"; \"the mysticism so foreign to the French mind and temper\"; \"jealousy is foreign to her nature\""
+        angloform:
+          status: gap
+      - wordnet: "02117464"
+        gloss: "not belonging to that in which it is contained; introduced from an outside source; \"water free of extraneous matter\"; \"foreign particles in milk\""
+        angloform:
+          status: gap

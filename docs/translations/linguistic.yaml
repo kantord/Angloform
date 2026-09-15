@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02842445"
+        gloss: "consisting of or related to language; \"linguistic behavior\"; \"a linguistic atlas\"; \"lingual diversity\""
+        angloform:
+          status: gap
+      - wordnet: "02843218"
+        gloss: "of or relating to the scientific study of language; \"linguistic theory\""
+        angloform:
+          status: gap

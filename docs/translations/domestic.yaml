@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10024119"
+        gloss: a servant who is paid to perform menial tasks around the household
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01038102"
+        gloss: "of concern to or concerning the internal affairs of a nation; \"domestic issues such as tax rate and highway construction\""
+        angloform:
+          status: gap
+      - wordnet: "02919594"
+        gloss: "of or relating to the home; \"domestic servant\"; \"domestic science\""
+        angloform:
+          status: gap
+      - wordnet: "01038808"
+        gloss: "of or involving the home or family; \"domestic worries\"; \"domestic happiness\"; \"they share the domestic chores\"; \"everything sounded very peaceful and domestic\"; \"an author of blood-and-thunder novels yet quite domestic in his taste\""
+        angloform:
+          status: gap
+      - wordnet: "02388921"
+        gloss: "converted or adapted to domestic use; \"domestic animals\"; \"domesticated plants like maize\""
+        angloform:
+          status: gap
+      - wordnet: "01036754"
+        gloss: "produced in a particular country; \"domestic wine\"; \"domestic oil\""
+        angloform:
+          status: gap

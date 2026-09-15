@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00115292"
+        gloss: "the act of hauling something (as a vehicle) by means of a hitch or rope; \"the truck gave him a tow to the garage\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01454431"
+        gloss: "drag behind; \"Horses used to tow barges along the canal\""
+        angloform:
+          status: gap

@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10129825"
+        gloss: "a young woman; \"a young lady of 18\""
+        angloform:
+          status: redirect
+          word: miss
+          category: NOUN
+      - wordnet: "10084295"
+        gloss: "a youthful female person; \"the baby was a girl\"; \"the girls were just learning to ride a tricycle\""
+        angloform:
+          status: gap
+      - wordnet: "09992837"
+        gloss: "a female human offspring; \"her daughter cared for her in her old age\""
+        angloform:
+          status: gap
+      - wordnet: "10130686"
+        gloss: "a girl or young woman with whom a man is romantically involved; \"his girlfriend kicked him out\""
+        angloform:
+          status: gap
+      - wordnet: "10130447"
+        gloss: "a friendly informal reference to a grown woman; \"Mrs. Smith was just one of the girls\""
+        angloform:
+          status: gap

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03619650"
+        gloss: a case for containing a set of articles
+        angloform:
+          status: gap
+      - wordnet: "03619396"
+        gloss: gear consisting of a set of articles or tools for a specified purpose
+        angloform:
+          status: gap
+      - wordnet: "01323155"
+        gloss: "young of any of various fur-bearing animals; \"a fox kit\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02341200"
+        gloss: supply with a set of articles or tools
+        angloform:
+          status: gap

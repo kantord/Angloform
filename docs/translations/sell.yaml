@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01115162"
+        gloss: "the activity of persuading someone to buy; \"it was a hard sell\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02242464"
+        gloss: "exchange or deliver for money or its equivalent; \"He sold his house in January\"; \"She sells her body to survive and support her drug habit\""
+        angloform:
+          status: gap
+      - wordnet: "02727883"
+        gloss: "be sold at a certain price or in a certain way; \"These books sell like hot cakes\""
+        angloform:
+          status: gap
+      - wordnet: "00767635"
+        gloss: "persuade somebody to accept something; \"The French try to sell us their image as great lovers\""
+        angloform:
+          status: gap
+      - wordnet: "02244956"
+        gloss: "do business; offer for sale as for one's livelihood; \"She deals in gold\"; \"The brothers sell shoes\""
+        angloform:
+          status: redirect
+          word: trade
+          category: VERB_TRANS
+      - wordnet: "02235666"
+        gloss: "give up for a price or reward; \"She sold her principles for a successful career\""
+        angloform:
+          status: gap
+      - wordnet: "02748355"
+        gloss: "be approved of or gain acceptance; \"The new idea sold well in certain circles\""
+        angloform:
+          status: gap
+      - wordnet: "02748206"
+        gloss: "be responsible for the sale of; \"All her publicity sold the products\""
+        angloform:
+          status: gap
+      - wordnet: "02537407"
+        gloss: "deliver to an enemy by treachery; \"Judas sold Jesus\"; \"The spy betrayed his country\""
+        angloform:
+          status: gap

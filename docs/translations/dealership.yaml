@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08060193"
+        gloss: "a business established or operated under an authorization to sell or distribute a company's goods or services in a particular area"
+        angloform:
+          status: gap

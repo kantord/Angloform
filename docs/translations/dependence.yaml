@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14001348"
+        gloss: the state of relying on or being controlled by someone or something else
+        angloform:
+          status: gap
+      - wordnet: "14062725"
+        gloss: being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming (especially alcohol or narcotic drugs)
+        angloform:
+          status: gap

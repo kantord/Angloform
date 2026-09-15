@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00834198"
+        gloss: "producing or capable of producing an intended result or having a striking effect; \"an air-cooled motor was more effective than a witch's broomstick for rapid long-distance transportation\"-LewisMumford; \"effective teaching methods\"; \"effective steps toward peace\"; \"made an effective entrance\"; \"his complaint proved to be effectual in bringing action\"; \"an efficacious law\""
+        angloform:
+          status: gap
+      - wordnet: "00510644"
+        gloss: "able to accomplish a purpose; functioning effectively; \"people who will do nothing unless they get something out of it for themselves are often highly effective persons...\"-G.B.Shaw; \"effective personnel\"; \"an efficient secretary\"; \"the efficient cause of the revolution\""
+        angloform:
+          status: gap
+      - wordnet: "00839225"
+        gloss: "works well as a means or remedy; \"an effective reprimand\"; \"a lotion that is effective in cases of prickly heat\""
+        angloform:
+          status: gap
+      - wordnet: "00832784"
+        gloss: "exerting force or influence; \"the law is effective immediately\"; \"a warranty good for two years\"; \"the law is already in effect (or in force)\""
+        angloform:
+          status: redirect
+          word: good
+          category: ADJ
+      - wordnet: "00044132"
+        gloss: "existing in fact; not theoretical; real; \"a decline in the effective demand\"; \"confused increased equipment and expenditure with the quantity of effective work done\""
+        angloform:
+          status: gap
+      - wordnet: "01660712"
+        gloss: "ready for service; \"the fort was held by about 100 effective soldiers\""
+        angloform:
+          status: gap

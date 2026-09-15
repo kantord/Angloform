@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04051825"
+        gloss: "an embankment built around a space for defensive purposes; \"they stormed the ramparts of the city\"; \"they blew the trumpet and the walls came tumbling down\""
+        angloform:
+          status: gap
+      - wordnet: "02918330"
+        gloss: a fencelike structure around a deck (usually plural)
+        angloform:
+          status: gap
+      - wordnet: "02894605"
+        gloss: a protective structure of stone or concrete; extends from shore into the water to prevent a beach from washing away
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01128071"
+        gloss: defend with a bulwark
+        angloform:
+          status: gap

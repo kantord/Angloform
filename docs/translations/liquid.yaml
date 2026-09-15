@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14940386"
+        gloss: a substance that is liquid at room temperature and pressure
+        angloform:
+          status: gap
+      - wordnet: "14480420"
+        gloss: the state in which a substance exhibits a characteristic readiness to flow with little or no tendency to disperse and relatively high incompressibility
+        angloform:
+          status: gap
+      - wordnet: "14940100"
+        gloss: fluid matter having no fixed shape but a fixed volume
+        angloform:
+          status: gap
+      - wordnet: "07119643"
+        gloss: "a frictionless continuant that is not a nasal consonant (especially `l' and `r')"
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02261386"
+        gloss: "existing as or having characteristics of a liquid; especially tending to flow; \"water and milk and blood are liquid substances\""
+        angloform:
+          status: gap
+      - wordnet: "02473371"
+        gloss: "filled or brimming with tears; \"swimming eyes\"; \"sorrow made the eyes of many grow liquid\""
+        angloform:
+          status: gap
+      - wordnet: "00432453"
+        gloss: "clear and bright; \"the liquid air of a spring morning\"; \"eyes shining with a liquid luster\"; \"limpid blue eyes\""
+        angloform:
+          status: gap
+      - wordnet: "01505991"
+        gloss: "changed from a solid to a liquid state; \"rivers filled to overflowing by melted snow\""
+        angloform:
+          status: gap
+      - wordnet: "01505041"
+        gloss: "smooth and flowing in quality; entirely free of harshness; \"the liquid song of a robin\""
+        angloform:
+          status: gap
+      - wordnet: "01139832"
+        gloss: "smooth and unconstrained in movement; \"a long, smooth stride\"; \"the fluid motion of a cat\"; \"the liquid grace of a ballerina\""
+        angloform:
+          status: gap
+      - wordnet: "00778017"
+        gloss: "in cash or easily convertible to cash; \"liquid (or fluid) assets\""
+        angloform:
+          status: gap

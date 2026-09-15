@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14371913"
+        gloss: frequent and watery bowel movements; can be a symptom of infection or food poisoning or colitis or a gastrointestinal tumor
+        angloform:
+          status: gap

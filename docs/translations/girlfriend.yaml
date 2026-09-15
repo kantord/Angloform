@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10130877"
+        gloss: "any female friend; \"Mary and her girlfriend organized the party\""
+        angloform:
+          status: gap
+      - wordnet: "10130686"
+        gloss: "a girl or young woman with whom a man is romantically involved; \"his girlfriend kicked him out\""
+        angloform:
+          status: gap

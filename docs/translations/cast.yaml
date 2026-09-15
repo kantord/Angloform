@@ -1,0 +1,94 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08237863"
+        gloss: the actors in a play
+        angloform:
+          status: gap
+      - wordnet: "03779370"
+        gloss: container into which liquid is poured to create a given shape when it hardens
+        angloform:
+          status: gap
+      - wordnet: "13913566"
+        gloss: "the distinctive form in which a thing is made; \"pottery of this cast was found throughout the region\""
+        angloform:
+          status: gap
+      - wordnet: "04677514"
+        gloss: "the visual appearance of something or someone; \"the delicate cast of his features\""
+        angloform:
+          status: redirect
+          word: shape
+          category: NOUN
+      - wordnet: "02979836"
+        gloss: bandage consisting of a firm covering (often made of plaster of Paris) that immobilizes broken bones while they heal
+        angloform:
+          status: gap
+      - wordnet: "02979662"
+        gloss: object formed by a mold
+        angloform:
+          status: gap
+      - wordnet: "01245813"
+        gloss: the act of throwing dice
+        angloform:
+          status: gap
+      - wordnet: "00454624"
+        gloss: the act of throwing a fishing line out over the water by means of a rod and reel
+        angloform:
+          status: gap
+      - wordnet: "00105479"
+        gloss: a violent throw
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01632897"
+        gloss: "put or send forth; \"She threw the flashlight beam into the corner\"; \"The setting sun threw long shadows\"; \"cast a spell\"; \"cast a warm light\""
+        angloform:
+          status: gap
+      - wordnet: "02236023"
+        gloss: "deposit; \"cast a vote\"; \"cast a ballot\""
+        angloform:
+          status: gap
+      - wordnet: "01710481"
+        gloss: "select to play,sing, or dance a part in a play, movie, musical, opera, or ballet; \"He cast a young woman in the role of Desdemona\""
+        angloform:
+          status: gap
+      - wordnet: "01507143"
+        gloss: throw forcefully
+        angloform:
+          status: gap
+      - wordnet: "02385813"
+        gloss: "assign the roles of (a movie or a play) to actors; \"Who cast this beautiful movie?\""
+        angloform:
+          status: gap
+      - wordnet: "01881180"
+        gloss: "move about aimlessly or without any destination, often in search of food or employment; \"The gypsies roamed the woods\"; \"roving vagabonds\"; \"the wandering Jew\"; \"The cattle roam across the prairie\"; \"the laborers drift from one town to the next\"; \"They rolled from town to town\""
+        angloform:
+          status: redirect
+          word: drift
+          category: VERB_INTRANS
+      - wordnet: "01662771"
+        gloss: "form by pouring (e.g., wax or hot metal) into a cast or mold; \"cast a bronze sculpture\""
+        angloform:
+          status: gap
+      - wordnet: "01513430"
+        gloss: "get rid of; \"he shed his image as a pushy boss\"; \"shed your clothes\""
+        angloform:
+          status: redirect
+          word: drop
+          category: VERB_TRANS
+      - wordnet: "01078050"
+        gloss: "choose at random; \"draw a card\"; \"cast lots\""
+        angloform:
+          status: gap
+      - wordnet: "00981276"
+        gloss: "formulate in a particular style or language; \"I wouldn't put it that way\"; \"She cast her request in very polite language\""
+        angloform:
+          status: redirect
+          word: put
+          category: VERB_TRANS
+      - wordnet: "00076400"
+        gloss: "eject the contents of the stomach through the mouth; \"After drinking too much, the students vomited\"; \"He purged continuously\"; \"The patient regurgitated the food we gave him last night\""
+        angloform:
+          status: gap

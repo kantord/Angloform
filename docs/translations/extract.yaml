@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14848785"
+        gloss: a solution obtained by steeping or soaking a substance (usually in water)
+        angloform:
+          status: gap
+      - wordnet: "06400510"
+        gloss: "a passage selected from a larger work; \"he presented excerpts from William James' philosophical writings\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01351170"
+        gloss: "remove, usually with some force or effort; also used in an abstract sense; \"pull weeds\"; \"extract a bad tooth\"; \"take out a splinter\"; \"extract information from the telegram\""
+        angloform:
+          status: gap
+      - wordnet: "02239098"
+        gloss: "get despite difficulties or obstacles; \"I extracted a promise from the Dean for two new positions\""
+        angloform:
+          status: gap
+      - wordnet: "01630532"
+        gloss: "deduce (a principle) or construe (a meaning); \"We drew out some interesting linguistic data from the native informant\""
+        angloform:
+          status: gap
+      - wordnet: "00229280"
+        gloss: "extract by the process of distillation; \"distill the essence of this compound\""
+        angloform:
+          status: gap
+      - wordnet: "01459392"
+        gloss: separate (a metal) from an ore
+        angloform:
+          status: gap
+      - wordnet: "01351754"
+        gloss: "obtain from a substance, as by mechanical action; \"Italians express coffee rather than filter it\""
+        angloform:
+          status: gap
+      - wordnet: "00677021"
+        gloss: take out of a literary work in order to cite or copy
+        angloform:
+          status: gap
+      - wordnet: "00638723"
+        gloss: calculate the root of a number
+        angloform:
+          status: gap

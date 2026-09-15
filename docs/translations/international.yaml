@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08366071"
+        gloss: any of several international socialist organizations
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01568375"
+        gloss: "concerning or belonging to all or at least two or more nations; \"international affairs\"; \"an international agreement\"; \"international waters\""
+        angloform:
+          status: gap
+      - wordnet: "01037885"
+        gloss: "from or between other countries; \"external commerce\"; \"international trade\"; \"developing nations need outside help\""
+        angloform:
+          status: gap

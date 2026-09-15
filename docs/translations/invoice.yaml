@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06516955"
+        gloss: "an itemized statement of money owed for goods shipped or services rendered; \"he paid his bill and left\"; \"send me an account of what I owe\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02320903"
+        gloss: "send an bill to; \"She invoiced the company for her expenses\""
+        angloform:
+          status: gap

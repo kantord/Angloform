@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00057257"
+        gloss: "in an exhaustive manner; \"we searched the files thoroughly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00057388"
+        gloss: "completely and absolutely (`good' is sometimes used informally for `thoroughly'); \"he was soundly defeated\"; \"we beat him good\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

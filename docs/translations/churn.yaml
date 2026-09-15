@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03029445"
+        gloss: a vessel in which cream is agitated to separate butterfat from buttermilk
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01418389"
+        gloss: stir (cream) vigorously in order to make butter
+        angloform:
+          status: gap
+      - wordnet: "01885430"
+        gloss: "be agitated; \"the sea was churning in the storm\""
+        angloform:
+          status: gap

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05792192"
+        gloss: "something that can be done; \"politics is the art of the possible\""
+        angloform:
+          status: gap
+      - wordnet: "10456514"
+        gloss: an applicant who might be suitable
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01821266"
+        gloss: "capable of happening or existing; \"a breakthrough may be possible next year\"; \"anything is possible\"; \"warned of possible consequences\""
+        angloform:
+          status: gap
+      - wordnet: "00044353"
+        gloss: "existing in possibility; \"a potential problem\"; \"possible uses of nuclear power\""
+        angloform:
+          status: gap

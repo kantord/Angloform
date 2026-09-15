@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00912960"
+        gloss: "the act or process of producing something; \"Shakespeare's production of poetry was enormous\"; \"the production of white blood cells\""
+        angloform:
+          status: gap
+      - wordnet: "07006951"
+        gloss: "a presentation for the stage or screen or radio or television; \"have you seen the new production of Hamlet?\""
+        angloform:
+          status: gap
+      - wordnet: "04007894"
+        gloss: "an artifact that has been created by someone or some process; \"they improve their product every year\"; \"they export most of their agricultural production\""
+        angloform:
+          status: redirect
+          word: product
+          category: NOUN
+      - wordnet: "00522736"
+        gloss: "(law) the act of exhibiting in a court of law; \"the appellate court demanded the production of all documents\""
+        angloform:
+          status: gap
+      - wordnet: "13758745"
+        gloss: "the quantity of something (as a commodity) that is created (usually within a given period of time); \"production was up in the second quarter\""
+        angloform:
+          status: redirect
+          word: output
+          category: NOUN
+      - wordnet: "07213989"
+        gloss: "a display that is exaggerated or unduly complicated; \"she tends to make a big production out of nothing\""
+        angloform:
+          status: gap
+      - wordnet: "00913705"
+        gloss: "(economics) manufacturing or mining or growing something (usually in large quantities) for sale; \"he introduced more efficient methods of production\""
+        angloform:
+          status: gap
+      - wordnet: "00913585"
+        gloss: the creation of value or wealth by producing goods and services
+        angloform:
+          status: gap

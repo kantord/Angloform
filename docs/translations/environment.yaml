@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13934596"
+        gloss: "the totality of surrounding conditions; \"he longed for the comfortable environment of his living room\""
+        angloform:
+          status: gap
+      - wordnet: "08567235"
+        gloss: "the area in which something exists or lives; \"the country--the flat agricultural surround\""
+        angloform:
+          status: gap

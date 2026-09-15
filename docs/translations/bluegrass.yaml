@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "12131405"
+        gloss: any of various grasses of the genus Poa
+        angloform:
+          status: gap
+      - wordnet: "09090389"
+        gloss: an area in central Kentucky noted for it bluegrass and thoroughbred horses
+        angloform:
+          status: gap
+      - wordnet: "07062190"
+        gloss: a type of country music played at a rapid tempo on banjos and guitars
+        angloform:
+          status: gap

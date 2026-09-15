@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10588357"
+        gloss: the leader of an Arab village or family
+        angloform:
+          status: gap

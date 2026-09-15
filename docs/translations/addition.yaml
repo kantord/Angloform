@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02679415"
+        gloss: "a component that is added to something to improve it; \"the addition of a bathroom was a major improvement\"; \"the addition of cinnamon improved the flavor\""
+        angloform:
+          status: gap
+      - wordnet: "00363788"
+        gloss: "the act of adding one thing to another; \"the addition of flowers created a pleasing effect\"; \"the addition of a leap day every four years\""
+        angloform:
+          status: gap
+      - wordnet: "13754293"
+        gloss: "a quantity that is added; \"there was an addition to property taxes this year\"; \"they recorded the cattle's gain in weight over a period of weeks\""
+        angloform:
+          status: gap
+      - wordnet: "13253423"
+        gloss: "something added to what you already have; \"the librarian shelved the new accessions\"; \"he was a new addition to the staff\""
+        angloform:
+          status: gap
+      - wordnet: "08554872"
+        gloss: a suburban area laid out in streets and lots for a future residential area
+        angloform:
+          status: gap
+      - wordnet: "00872107"
+        gloss: "the arithmetic operation of summing; calculating the sum of two or more numbers; \"the summation of four and three gives seven\"; \"four plus three equals seven\""
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03377582"
+        gloss: "a piece of work that exploits or builds on earlier work; \"his new software is a follow-up to the programs they started with\""
+        angloform:
+          status: gap
+      - wordnet: "00455348"
+        gloss: an activity that continues something that has already begun or that repeats something that has already been done
+        angloform:
+          status: gap
+      - wordnet: "00143251"
+        gloss: a subsequent examination of a patient for the purpose of monitoring earlier treatment
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09538915"
+        gloss: spiritual being attendant upon God
+        angloform:
+          status: gap
+      - wordnet: "10546850"
+        gloss: person of exceptional holiness
+        angloform:
+          status: gap
+      - wordnet: "09793717"
+        gloss: invests in a theatrical production
+        angloform:
+          status: gap
+      - wordnet: "09197660"
+        gloss: the highest waterfall; has more than one leap; flow varies seasonally
+        angloform:
+          status: gap

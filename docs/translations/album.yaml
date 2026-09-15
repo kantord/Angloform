@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06591815"
+        gloss: one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc
+        angloform:
+          status: gap
+      - wordnet: "02695079"
+        gloss: a book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc
+        angloform:
+          status: gap

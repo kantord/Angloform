@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02690270"
+        gloss: a hose that carries air under pressure
+        angloform:
+          status: gap
+      - wordnet: "02690081"
+        gloss: a commercial enterprise that provides scheduled flights for passengers
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00992432"
+        gloss: "containing an unusual amount of grease or oil; \"greasy hamburgers\"; \"oily fried potatoes\"; \"oleaginous seeds\""
+        angloform:
+          status: gap
+      - wordnet: "00422168"
+        gloss: "smeared or soiled with grease or oil; \"greasy coveralls\"; \"get rid of rubbish and oily rags\""
+        angloform:
+          status: gap

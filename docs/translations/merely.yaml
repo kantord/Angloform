@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00004722"
+        gloss: "and nothing more; \"I was merely asking\"; \"it is simply a matter of time\"; \"just a scratch\"; \"he was only a child\"; \"hopes that last but a moment\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

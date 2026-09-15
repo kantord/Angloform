@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00793785"
+        gloss: "dispose or incline or entice to; \"We were tempted by the delicious-looking food\""
+        angloform:
+          status: gap
+      - wordnet: "00782527"
+        gloss: "provoke someone to do something through (often false or exaggerated) promises or persuasion; \"He lured me into temptation\""
+        angloform:
+          status: gap
+      - wordnet: "01807529"
+        gloss: "give rise to a desire by being attractive or inviting; \"the window displays tempted the shoppers\""
+        angloform:
+          status: gap
+      - wordnet: "00776523"
+        gloss: "induce into action by using one's charm; \"She charmed him into giving her all his money\""
+        angloform:
+          status: gap
+      - wordnet: "01807770"
+        gloss: try to seduce
+        angloform:
+          status: gap
+      - wordnet: "00784184"
+        gloss: "try presumptuously; \"St. Anthony was tempted in the desert\""
+        angloform:
+          status: gap

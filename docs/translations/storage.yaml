@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00811355"
+        gloss: the act of storing something
+        angloform:
+          status: gap
+      - wordnet: "04329190"
+        gloss: "a depository for goods; \"storehouses were built close to the docks\""
+        angloform:
+          status: gap
+      - wordnet: "00811661"
+        gloss: the commercial enterprise of storing goods and materials
+        angloform:
+          status: gap
+      - wordnet: "13562133"
+        gloss: (computer science) the process of storing information in a computer memory or on a magnetic tape or disk
+        angloform:
+          status: gap
+      - wordnet: "03744276"
+        gloss: "an electronic memory device; \"a memory and the CPU form the central part of a computer to which peripherals are attached\""
+        angloform:
+          status: redirect
+          word: memory
+          category: NOUN
+      - wordnet: "00372607"
+        gloss: "depositing in a warehouse; \"they decided to reposition their furniture in a recommended repository in Brooklyn\"; \"my car is in storage\"; \"publishers reduced print runs to cut down the cost of warehousing\""
+        angloform:
+          status: gap

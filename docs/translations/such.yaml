@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01554230"
+        gloss: "of so extreme a degree or extent; \"such weeping\"; \"so much weeping\"; \"such a help\"; \"such grief\"; \"never dreamed of such beauty\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00147386"
+        gloss: "to so extreme a degree; \"he is such a baby\"; \"Such rich people!\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

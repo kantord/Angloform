@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10694258"
+        gloss: a person whose occupation is teaching
+        angloform:
+          status: gap
+      - wordnet: "05854812"
+        gloss: "a personified abstraction that teaches; \"books were his teachers\"; \"experience is a demanding teacher\""
+        angloform:
+          status: gap

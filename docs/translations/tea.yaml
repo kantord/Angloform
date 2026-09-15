@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07933274"
+        gloss: "a beverage made by steeping tea leaves in water; \"iced tea is a cooling drink\""
+        angloform:
+          status: gap
+      - wordnet: "07575510"
+        gloss: "a light midafternoon meal of tea and sandwiches or cakes; \"an Englishman would interrupt a war to have his afternoon tea\""
+        angloform:
+          status: gap
+      - wordnet: "12929783"
+        gloss: "a tropical evergreen shrub or small tree extensively cultivated in e.g. China and Japan and India; source of tea leaves; \"tea has fragrant white flowers\""
+        angloform:
+          status: gap
+      - wordnet: "08254741"
+        gloss: "a reception or party at which tea is served; \"we met at the Dean's tea for newcomers\""
+        angloform:
+          status: gap
+      - wordnet: "07932841"
+        gloss: "dried leaves of the tea shrub; used to make tea; \"the store shelves held many different kinds of tea\"; \"they threw the tea into Boston harbor\""
+        angloform:
+          status: gap

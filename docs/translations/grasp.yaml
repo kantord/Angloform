@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05806623"
+        gloss: "understanding of the nature or meaning or quality or magnitude of something; \"he has a good grasp of accounting practices\""
+        angloform:
+          status: gap
+      - wordnet: "05623628"
+        gloss: "the limit of capability; \"within the compass of education\""
+        angloform:
+          status: redirect
+          word: range
+          category: NOUN
+      - wordnet: "05194874"
+        gloss: "an intellectual hold or understanding; \"a good grip on French history\"; \"they kept a firm grip on the two top priorities\"; \"he was in the grip of a powerful emotion\"; \"a terrible power had her in its grasp\""
+        angloform:
+          status: gap
+      - wordnet: "00812526"
+        gloss: "the act of grasping; \"he released his clasp on my arm\"; \"he has a strong grip for an old man\"; \"she kept a firm hold on the railing\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01216004"
+        gloss: hold firmly
+        angloform:
+          status: gap
+      - wordnet: "00588221"
+        gloss: "get the meaning of something; \"Do you comprehend the meaning of this letter?\""
+        angloform:
+          status: gap

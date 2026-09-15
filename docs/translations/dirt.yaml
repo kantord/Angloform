@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14844693"
+        gloss: "the part of the earth's surface consisting of humus and disintegrated rock"
+        angloform:
+          status: gap
+      - wordnet: "14498096"
+        gloss: the state of being covered with unclean things
+        angloform:
+          status: gap
+      - wordnet: "14854581"
+        gloss: obscene terms for feces
+        angloform:
+          status: gap
+      - wordnet: "07223811"
+        gloss: disgraceful gossip about the private lives of other people
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01289480"
+        gloss: (of roads) not leveled or drained; unsuitable for all year travel
+        angloform:
+          status: gap

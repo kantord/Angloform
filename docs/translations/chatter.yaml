@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07136940"
+        gloss: noisy talk
+        angloform:
+          status: gap
+      - wordnet: "07378952"
+        gloss: the rapid series of noises made by the parts of a machine
+        angloform:
+          status: gap
+      - wordnet: "07378781"
+        gloss: the high-pitched continuing noise made by animals (birds or monkeys)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02185861"
+        gloss: "click repeatedly or uncontrollably; \"Chattering teeth\""
+        angloform:
+          status: gap
+      - wordnet: "01553869"
+        gloss: cut unevenly with a chattering tool
+        angloform:
+          status: gap
+      - wordnet: "01038666"
+        gloss: "talk socially without exchanging too much information; \"the men were sitting in the cafe and shooting the breeze\""
+        angloform:
+          status: gap
+      - wordnet: "01036804"
+        gloss: speak (about unimportant matters) rapidly and incessantly
+        angloform:
+          status: gap
+      - wordnet: "01037303"
+        gloss: "make noise as if chattering away; \"The magpies were chattering in the trees\""
+        angloform:
+          status: gap

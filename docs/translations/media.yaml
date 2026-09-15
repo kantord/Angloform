@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "media" is the plural of "medium" — WordNet indexes it only under the
+# singular lemma; senses recorded here under the "media"/mass-communication
+# reading (the corpus-attested sense) plus "medium"'s other close senses.
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06261586"
+        gloss: (usually plural) transmissions that are disseminated widely to the public; "the media"
+        angloform:
+          status: gap
+          note: no mass-communication vocabulary exists yet — the corpus-attested sense
+      - wordnet: "06254669"
+        gloss: a means or instrumentality for storing or communicating information
+        angloform:
+          status: gap
+      - wordnet: "06254475"
+        gloss: an intervening substance through which signals can travel as a means for communication
+        angloform:
+          status: gap

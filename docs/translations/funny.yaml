@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06779310"
+        gloss: "an account of an amusing incident (usually with a punch line); \"she told a funny story\"; \"she made a funny\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01265308"
+        gloss: "arousing or provoking laughter; \"an amusing film with a steady stream of pranks and pratfalls\"; \"an amusing fellow\"; \"a comic hat\"; \"a comical look of surprise\"; \"funny stories that made everybody laugh\"; \"a very funny writer\"; \"it would have been laughable if it hadn't hurt so much\"; \"a mirthful experience\"; \"risible courtroom antics\""
+        angloform:
+          status: gap
+      - wordnet: "00968010"
+        gloss: "beyond or deviating from the usual or expected; \"a curious hybrid accent\"; \"her speech has a funny twang\"; \"they have some funny ideas about war\"; \"had an odd name\"; \"the peculiar aromatic odor of cloves\"; \"something definitely queer about this town\"; \"what a rum fellow\"; \"singular behavior\""
+        angloform:
+          status: redirect
+          word: singular
+          category: ADJ
+      - wordnet: "01917594"
+        gloss: "not as expected; \"there was something fishy about the accident\"; \"up to some funny business\"; \"some definitely queer goings-on\"; \"a shady deal\"; \"her motives were suspect\"; \"suspicious behavior\""
+        angloform:
+          status: gap
+      - wordnet: "02545023"
+        gloss: "experiencing odd bodily sensations; \"told the doctor about the funny sensations in her chest\""
+        angloform:
+          status: gap

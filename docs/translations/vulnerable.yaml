@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02523275"
+        gloss: "susceptible to attack; \"a vulnerable bridge\""
+        angloform:
+          status: gap
+      - wordnet: "02363166"
+        gloss: "susceptible to criticism or persuasion or temptation; \"vulnerable to bribery\"; \"an argument vulnerable to refutation\""
+        angloform:
+          status: gap
+      - wordnet: "02326482"
+        gloss: "capable of being wounded or hurt; \"vulnerable parts of the body\""
+        angloform:
+          status: gap

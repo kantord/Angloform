@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01808227"
+        gloss: "extremely pleasing; \"a fabulous vacation\""
+        angloform:
+          status: gap
+      - wordnet: "01936184"
+        gloss: "based on or told of in traditional stories; lacking factual basis or historical validity; \"mythical centaurs\"; \"the fabulous unicorn\""
+        angloform:
+          status: gap
+      - wordnet: "00645982"
+        gloss: "barely credible; \"the fabulous endurance of a marathon runner\""
+        angloform:
+          status: gap

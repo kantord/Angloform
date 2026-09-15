@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08256968"
+        gloss: "an organization to gain political power; \"in 1992 Perot tried to organize a third party at the national level\""
+        angloform:
+          status: gap
+      - wordnet: "08252602"
+        gloss: "a group of people gathered together for pleasure; \"she joined the party after dinner\""
+        angloform:
+          status: gap
+      - wordnet: "08264897"
+        gloss: "a band of people associated temporarily in some activity; \"they organized a party to search for food\"; \"the company of cooks walked into the kitchen\""
+        angloform:
+          status: gap
+      - wordnet: "07447641"
+        gloss: "an occasion on which people can assemble for social interaction and entertainment; \"he planned a party to celebrate Bastille Day\""
+        angloform:
+          status: gap
+      - wordnet: "10402824"
+        gloss: "a person involved in legal proceedings; \"the party of the first part\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02491851"
+        gloss: "have or participate in a party; \"The students were partying all night before the exam\""
+        angloform:
+          status: gap

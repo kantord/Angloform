@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02210855"
+        gloss: "come into the possession of something concrete or abstract; \"She got a lot of paintings from her uncle\"; \"They acquired a new pet\"; \"Get your results the next day\"; \"Get permission to take a few days off from work\""
+        angloform:
+          status: redirect
+          word: get
+          category: VERB_TRANS
+      - wordnet: "00524682"
+        gloss: "take on a certain form, attribute, or aspect; \"His voice took on a sad tone\"; \"The story took a new turn\"; \"he adopted an air of superiority\"; \"She assumed strange manners\"; \"The gods assume human or animal form in these fables\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "00094460"
+        gloss: "come to have or undergo a change of (physical features and attributes); \"He grew a beard\"; \"The patient developed abdominal pains\"; \"I got funny spots all over my body\"; \"Well-developed breasts\""
+        angloform:
+          status: redirect
+          word: grow
+          category: VERB_INTRANS
+      - wordnet: "02695378"
+        gloss: locate (a moving entity) by means of a tracking system such as radar
+        angloform:
+          status: gap
+      - wordnet: "02288295"
+        gloss: "win something through one's efforts; \"I acquired a passing knowledge of Chinese\"; \"Gain an understanding of international finance\""
+        angloform:
+          status: redirect
+          word: gain
+          category: VERB_TRANS
+      - wordnet: "00597915"
+        gloss: "gain knowledge or skills; \"She learned dancing from her sister\"; \"I learned Sanskrit\"; \"Children acquire language at an amazing rate\""
+        angloform:
+          status: redirect
+          word: learn
+          category: VERB_TRANS
+      - wordnet: "00545557"
+        gloss: "gain through experience; \"I acquired a strong aversion to television\"; \"Children must develop a sense of right and wrong\"; \"Dave developed leadership qualities in his new position\"; \"develop a passion for painting\""
+        angloform:
+          status: gap

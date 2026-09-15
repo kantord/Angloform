@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05267345"
+        gloss: part of an organism consisting of an aggregate of cells having a similar structure and function
+        angloform:
+          status: gap
+      - wordnet: "15074962"
+        gloss: a soft thin (usually translucent) paper
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01673891"
+        gloss: "create a piece of cloth by interlacing strands of fabric, such as wool or cotton; \"tissue textiles\""
+        angloform:
+          status: gap

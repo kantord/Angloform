@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05697363"
+        gloss: "freedom from doubt; belief in yourself and your abilities; \"his assurance in his superiority did not make him popular\"; \"after that failure he lost his confidence\"; \"she spoke with authority\""
+        angloform:
+          status: gap
+      - wordnet: "07227772"
+        gloss: "a binding commitment to do or give or refrain from something; \"an assurance of help when needed\"; \"signed a pledge never to reveal the secret\""
+        angloform:
+          status: gap
+      - wordnet: "07227406"
+        gloss: "a statement intended to inspire confidence; \"the President's assurances were not respected\""
+        angloform:
+          status: gap
+      - wordnet: "13345286"
+        gloss: a British term for some kinds of insurance
+        angloform:
+          status: gap

@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# zero WordNet senses; a product/brand name (an accounting software
+# company) attested in the corpus by coincidence of capitalization loss.
+by_upos:
+  NOUN:
+    senses:
+      - gloss: a proper-noun brand/product name, lowercased by the corpus tagger
+        angloform:
+          status: gap
+          note: a named-product sense (a proper noun in substance) — out of scope regardless of vocabulary state

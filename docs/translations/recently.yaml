@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00107416"
+        gloss: "in the recent past; \"he was in Paris recently\"; \"lately the rules have been enforced\"; \"as late as yesterday she was fine\"; \"feeling better of late\"; \"the spelling was first affected, but latterly the meaning also\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

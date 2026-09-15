@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04323819"
+        gloss: close-fitting hosiery to cover the foot and leg; come in matched pairs (usually used in the plural)
+        angloform:
+          status: gap
+      - wordnet: "01061029"
+        gloss: "the activity of supplying a stock of something; \"he supervised the stocking of the stream with trout\""
+        angloform:
+          status: gap

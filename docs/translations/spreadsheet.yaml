@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06579952"
+        gloss: a screen-oriented interactive program enabling a user to lay out financial data on the screen
+        angloform:
+          status: gap

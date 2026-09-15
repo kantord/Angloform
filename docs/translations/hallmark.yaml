@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04732543"
+        gloss: a distinctive characteristic or attribute
+        angloform:
+          status: gap
+      - wordnet: "06855035"
+        gloss: a mark on an article of trade to indicate its origin and authenticity
+        angloform:
+          status: gap

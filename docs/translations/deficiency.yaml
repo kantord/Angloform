@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14449405"
+        gloss: "the state of needing something that is absent or unavailable; \"there is a serious lack of insight into the problem\"; \"water is the critical deficiency in desert regions\"; \"for want of a nail the shoe was lost\""
+        angloform:
+          status: gap
+      - wordnet: "05113133"
+        gloss: "lack of an adequate quantity or number; \"the inadequacy of unemployment benefits\""
+        angloform:
+          status: gap

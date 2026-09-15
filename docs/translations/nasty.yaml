@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01587077"
+        gloss: "offensive or even (of persons) malicious; \"in a nasty mood\"; \"a nasty accident\"; \"a nasty shock\"; \"a nasty smell\"; \"a nasty trick to pull\"; \"Will he say nasty things at my funeral?\"- Ezra Pound"
+        angloform:
+          status: gap
+      - wordnet: "00747727"
+        gloss: "exasperatingly difficult to handle or circumvent; \"a nasty problem\"; \"a good man to have on your side in a tight situation\""
+        angloform:
+          status: gap
+      - wordnet: "00425313"
+        gloss: "characterized by obscenity; \"had a filthy mouth\"; \"foul language\"; \"smutty jokes\""
+        angloform:
+          status: gap
+      - wordnet: "00421590"
+        gloss: "disgustingly dirty; filled or smeared with offensive matter; \"as filthy as a pigsty\"; \"a foul pond\"; \"a nasty pigsty of a room\""
+        angloform:
+          status: gap

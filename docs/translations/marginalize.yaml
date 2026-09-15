@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02377520"
+        gloss: "relegate to a lower or outer edge, as of specific groups of people; \"We must not marginalize the poor in our society\""
+        angloform:
+          status: gap

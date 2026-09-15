@@ -1,0 +1,106 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08624385"
+        gloss: "the position where someone (as a guard or sentry) stands or is assigned to stand; \"a soldier manned the entrance post\"; \"a sentry station\""
+        angloform:
+          status: gap
+      - wordnet: "03763403"
+        gloss: "military installation at which a body of troops is stationed; \"this military post provides an important source of income for the town nearby\"; \"there is an officer's club on the post\""
+        angloform:
+          status: gap
+      - wordnet: "00586262"
+        gloss: "a job in an organization; \"he occupied a post in the treasury\""
+        angloform:
+          status: redirect
+          word: place
+          category: NOUN
+      - wordnet: "03988170"
+        gloss: "an upright consisting of a piece of timber or metal fixed firmly in an upright position; \"he set a row of posts in the ground and strung barbwire between them\""
+        angloform:
+          status: gap
+      - wordnet: "11243907"
+        gloss: United States aviator who in 1933 made the first solo flight around the world (1899-1935)
+        angloform:
+          status: gap
+      - wordnet: "11243720"
+        gloss: United States female author who wrote a book and a syndicated newspaper column on etiquette (1872-1960)
+        angloform:
+          status: gap
+      - wordnet: "11243562"
+        gloss: United States manufacturer of breakfast cereals and Postum (1854-1914)
+        angloform:
+          status: gap
+      - wordnet: "08463063"
+        gloss: "any particular collection of letters or packages that is delivered; \"your mail is on the table\"; \"is there any post for me?\"; \"she was opening her post\""
+        angloform:
+          status: gap
+      - wordnet: "07257815"
+        gloss: "a pole or stake set up to mark something (as the start or end of a race track); \"a pair of posts marked the goal\"; \"the corner of the lot was indicated by a stake\""
+        angloform:
+          status: gap
+      - wordnet: "06264398"
+        gloss: "the system whereby messages are transmitted via the post office; \"the mail handles billions of items every day\"; \"he works for the United States mail service\"; \"in England they call mail `the post'\""
+        angloform:
+          status: gap
+      - wordnet: "00318186"
+        gloss: "the delivery and collection of letters and packages; \"it came by the first post\"; \"if you hurry you'll catch the post\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01591621"
+        gloss: "affix in a public place or for public notice; \"post a warning\""
+        angloform:
+          status: gap
+      - wordnet: "00991683"
+        gloss: "publicize with, or as if with, a poster; \"I'll post the news on the bulletin board\""
+        angloform:
+          status: gap
+      - wordnet: "02385634"
+        gloss: "assign to a post; put into a post; \"The newspaper posted him in Timbuktu\""
+        angloform:
+          status: gap
+      - wordnet: "01088923"
+        gloss: assign to a station
+        angloform:
+          status: redirect
+          word: send
+          category: VERB_TRANS
+      - wordnet: "00999715"
+        gloss: display, as of records in sports games
+        angloform:
+          status: gap
+      - wordnet: "02473331"
+        gloss: enter on a public list
+        angloform:
+          status: gap
+      - wordnet: "02233195"
+        gloss: transfer (entries) from one account book to another
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "01960105"
+        gloss: "ride Western style and bob up and down in the saddle in rhythm with a horse's trotting gait"
+        angloform:
+          status: gap
+      - wordnet: "01591476"
+        gloss: "mark with a stake; \"stake out the path\""
+        angloform:
+          status: gap
+      - wordnet: "01570403"
+        gloss: "place so as to be noticed; \"post a sign\"; \"post a warning at the dump\""
+        angloform:
+          status: gap
+      - wordnet: "01031256"
+        gloss: "cause to be directed or transmitted to another place; \"send me your latest results\"; \"I'll mail you the paper when it's written\""
+        angloform:
+          status: redirect
+          word: send
+          category: VERB_TRANS
+      - wordnet: "01031109"
+        gloss: "mark or expose as infamous; \"She was branded a loose woman\""
+        angloform:
+          status: gap

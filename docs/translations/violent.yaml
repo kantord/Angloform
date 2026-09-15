@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02510879"
+        gloss: "acting with or marked by or resulting from great force or energy or emotional intensity; \"a violent attack\"; \"a violent person\"; \"violent feelings\"; \"a violent rage\"; \"felt a violent dislike\""
+        angloform:
+          status: gap
+      - wordnet: "01570747"
+        gloss: "effected by force or injury rather than natural causes; \"a violent death\""
+        angloform:
+          status: gap
+      - wordnet: "01514141"
+        gloss: "(of colors or sounds) intensely vivid or loud; \"a violent clash of colors\"; \"her dress was a violent red\"; \"a violent noise\"; \"wild colors\"; \"wild shouts\""
+        angloform:
+          status: gap
+      - wordnet: "01511854"
+        gloss: "marked by extreme intensity of emotions or convictions; inclined to react violently; fervid; \"fierce loyalty\"; \"in a tearing rage\"; \"vehement dislike\"; \"violent passions\""
+        angloform:
+          status: gap
+      - wordnet: "00248560"
+        gloss: "characterized by violence or bloodshed; \"writes of crimson deeds and barbaric days\"- Andrea Parke; \"fann'd by Conquest's crimson wing\"- Thomas Gray; \"convulsed with red rage\"- Hudson Strode"
+        angloform:
+          status: gap

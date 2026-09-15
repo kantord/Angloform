@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14764061"
+        gloss: the dressed hairy coat of a mammal
+        angloform:
+          status: gap
+      - wordnet: "01899062"
+        gloss: dense coat of fine silky hairs on mammals (e.g., cat or seal or weasel)
+        angloform:
+          status: gap
+      - wordnet: "03404149"
+        gloss: a garment made of the dressed hairy coat of a mammal
+        angloform:
+          status: gap

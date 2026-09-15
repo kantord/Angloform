@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09818022"
+        gloss: "a person trained to travel in a spacecraft; \"the Russians called their astronauts cosmonauts\""
+        angloform:
+          status: gap

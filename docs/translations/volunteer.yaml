@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10759331"
+        gloss: (military) a person who freely enlists for service
+        angloform:
+          status: gap
+      - wordnet: "10759151"
+        gloss: a person who performs voluntary work
+        angloform:
+          status: gap
+      - wordnet: "09745732"
+        gloss: a native or resident of Tennessee
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00880102"
+        gloss: "tell voluntarily; \"He volunteered the information\""
+        angloform:
+          status: gap
+      - wordnet: "02425112"
+        gloss: "agree freely; \"She volunteered to drive the old lady home\"; \"I offered to help with the dishes but the hostess would not hear of it\""
+        angloform:
+          status: redirect
+          word: offer
+          category: VERB_TRANS
+      - wordnet: "02424984"
+        gloss: do volunteer work
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02521183"
+        gloss: "without payment; \"the soup kitchen was run primarily by unpaid helpers\"; \"a volunteer fire department\""
+        angloform:
+          status: gap

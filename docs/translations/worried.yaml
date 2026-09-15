@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02457167"
+        gloss: "afflicted with or marked by anxious uneasiness or trouble or grief; \"too upset to say anything\"; \"spent many disquieted moments\"; \"distressed about her son's leaving home\"; \"lapsed into disturbed sleep\"; \"worried parents\"; \"a worried frown\"; \"one last worried check of the sleeping children\""
+        angloform:
+          status: gap
+      - wordnet: "00822907"
+        gloss: "mentally upset over possible misfortune or danger etc; \"apprehensive about her job\"; \"not used to a city and worried about small things\"; \"felt apprehensive about the consequences\""
+        angloform:
+          status: gap

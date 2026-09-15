@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02331262"
+        gloss: "having succeeded or being marked by a favorable outcome; \"a successful architect\"; \"a successful business venture\""
+        angloform:
+          status: gap

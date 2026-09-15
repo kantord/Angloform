@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05029706"
+        gloss: "the property of being physically or mentally strong; \"fatigue sapped his strength\""
+        angloform:
+          status: gap
+      - wordnet: "05203649"
+        gloss: "capability in terms of personnel and materiel that affect the capacity to fight a war; \"we faced an army of great strength\"; \"politicians have neglected our military posture\""
+        angloform:
+          status: gap
+      - wordnet: "05035353"
+        gloss: "physical energy or intensity; \"he hit with all the force he could muster\"; \"it was destroyed by the strength of the gale\"; \"a government has not the vitality and forcefulness of a living man\""
+        angloform:
+          status: redirect
+          word: force
+          category: NOUN
+      - wordnet: "05159225"
+        gloss: "an asset of special worth or utility; \"cooking is his forte\""
+        angloform:
+          status: gap
+      - wordnet: "05191832"
+        gloss: "the power to induce the taking of a course of action or the embracing of a point of view by means of argument or entreaty; \"the strength of his argument settled the matter\""
+        angloform:
+          status: gap
+      - wordnet: "05099796"
+        gloss: "the amount of energy transmitted (as by acoustic or electromagnetic radiation); \"he adjusted the intensity of the sound\"; \"they measured the station's signal strength\""
+        angloform:
+          status: gap
+      - wordnet: "05034225"
+        gloss: "capacity to produce strong physiological or chemical effects; \"the toxin's potency\"; \"the strength of the drinks\""
+        angloform:
+          status: gap
+      - wordnet: "14474556"
+        gloss: "the condition of financial success; \"the strength of the company's stock in recent weeks\""
+        angloform:
+          status: gap
+      - wordnet: "05053688"
+        gloss: "permanence by virtue of the power to resist stress or force; \"they advertised the durability of their products\""
+        angloform:
+          status: gap

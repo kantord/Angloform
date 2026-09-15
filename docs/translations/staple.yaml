@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02800793"
+        gloss: (usually plural) a necessary commodity for which demand is constant
+        angloform:
+          status: gap
+      - wordnet: "15018688"
+        gloss: "a natural fiber (raw cotton, wool, hemp, flax) that can be twisted to form yarn; \"staple fibers vary widely in length\""
+        angloform:
+          status: gap
+      - wordnet: "14596700"
+        gloss: material suitable for manufacture or use or finishing
+        angloform:
+          status: gap
+      - wordnet: "04303258"
+        gloss: a short U-shaped wire nail for securing cables
+        angloform:
+          status: gap
+      - wordnet: "04303095"
+        gloss: paper fastener consisting of a short length of U-shaped wire that can fasten papers together
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01367069"
+        gloss: "secure or fasten with a staple or staples; \"staple the papers together\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00901826"
+        gloss: "necessary or important, especially regarding food or commodities; \"wheat is a staple crop\""
+        angloform:
+          status: gap

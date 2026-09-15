@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02494092"
+        gloss: "on or of lower floors of a building; \"the downstairs (or downstair) phone\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00094396"
+        gloss: "on a floor below; \"the tenants live downstairs\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

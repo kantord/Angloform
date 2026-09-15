@@ -1,0 +1,4 @@
+status: exempt
+exempt_kind: garbage
+reason: an industrial-control-systems abbreviation (Supervisory Control and Data Acquisition), narrow
+  technical jargon

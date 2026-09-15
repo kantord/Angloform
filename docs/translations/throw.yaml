@@ -1,0 +1,94 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00104539"
+        gloss: "the act of throwing (propelling something with a rapid movement of the arm and wrist); \"the catcher made a good throw to second base\""
+        angloform:
+          status: gap
+      - wordnet: "14485990"
+        gloss: "a single chance or instance; \"he couldn't afford $50 a throw\""
+        angloform:
+          status: gap
+      - wordnet: "07351195"
+        gloss: the maximum movement available to a pivoted or reciprocating piece by a cam
+        angloform:
+          status: gap
+      - wordnet: "04429971"
+        gloss: bedclothes consisting of a lightweight cloth covering (an afghan or bedspread) that is casually thrown over something
+        angloform:
+          status: gap
+      - wordnet: "01245618"
+        gloss: "casting an object in order to determine an outcome randomly; \"he risked his fortune on a throw of the dice\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01508368"
+        gloss: "propel through the air; \"throw a frisbee\""
+        angloform:
+          status: gap
+      - wordnet: "02097204"
+        gloss: "move violently, energetically, or carelessly; \"She threw herself forwards\""
+        angloform:
+          status: gap
+      - wordnet: "01513430"
+        gloss: "get rid of; \"he shed his image as a pushy boss\"; \"shed your clothes\""
+        angloform:
+          status: redirect
+          word: drop
+          category: VERB_TRANS
+      - wordnet: "01499265"
+        gloss: "place or put with great energy; \"She threw the blanket around the child\"; \"thrust the money in the hands of the beggar\""
+        angloform:
+          status: gap
+      - wordnet: "01060317"
+        gloss: "convey or communicate; of a smile, a look, a physical gesture; \"Throw a glance\"; \"She gave me a dirty look\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "01510173"
+        gloss: "cause to go on or to be engaged or set in operation; \"switch on the light\"; \"throw the lever\""
+        angloform:
+          status: gap
+      - wordnet: "01632897"
+        gloss: "put or send forth; \"She threw the flashlight beam into the corner\"; \"The setting sun threw long shadows\"; \"cast a spell\"; \"cast a warm light\""
+        angloform:
+          status: gap
+      - wordnet: "02097341"
+        gloss: "to put into a state or activity hastily, suddenly, or carelessly; \"Jane threw dinner together\"; \"throw the car into reverse\""
+        angloform:
+          status: gap
+      - wordnet: "01791232"
+        gloss: cause to be confused emotionally
+        angloform:
+          status: gap
+      - wordnet: "01067664"
+        gloss: "utter with force; utter vehemently; \"hurl insults\"; \"throw accusations at someone\""
+        angloform:
+          status: gap
+      - wordnet: "01733477"
+        gloss: "organize or be responsible for; \"hold a reception\"; \"have, throw, or make a party\"; \"give a course\""
+        angloform:
+          status: redirect
+          word: have
+          category: VERB_TRANS
+      - wordnet: "01663443"
+        gloss: "make on a potter's wheel; \"she threw a beautiful teapot\""
+        angloform:
+          status: gap
+      - wordnet: "01527754"
+        gloss: "cause to fall off; \"The horse threw its inexperienced rider\""
+        angloform:
+          status: gap
+      - wordnet: "01437011"
+        gloss: "throw (a die) out onto a flat surface; \"Throw a six\""
+        angloform:
+          status: gap
+      - wordnet: "00621734"
+        gloss: "be confusing or perplexing to; cause to be unable to think clearly; \"These questions confuse even the experts\"; \"This question completely threw me\"; \"This question befuddled even the teacher\""
+        angloform:
+          status: redirect
+          word: confuse
+          category: VERB_TRANS

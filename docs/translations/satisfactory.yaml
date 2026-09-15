@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02080577"
+        gloss: "giving satisfaction; \"satisfactory living conditions\"; \"his grades were satisfactory\""
+        angloform:
+          status: gap
+      - wordnet: "01124768"
+        gloss: "meeting requirements; \"the step makes a satisfactory seat\""
+        angloform:
+          status: redirect
+          word: acceptable
+          category: ADJ

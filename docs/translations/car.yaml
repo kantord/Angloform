@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02958343"
+        gloss: "a motor vehicle with four wheels; usually propelled by an internal combustion engine; \"he needs a car to get to work\""
+        angloform:
+          status: redirect
+          word: machine
+          category: NOUN
+      - wordnet: "02959942"
+        gloss: "a wheeled vehicle adapted to the rails of railroad; \"three cars had jumped the rails\""
+        angloform:
+          status: gap
+      - wordnet: "02960501"
+        gloss: the compartment that is suspended from an airship and that carries personnel and the cargo and the power plant
+        angloform:
+          status: gap
+      - wordnet: "02960352"
+        gloss: "where passengers ride up and down; \"the car was on the top floor\""
+        angloform:
+          status: gap
+      - wordnet: "02934451"
+        gloss: "a conveyance for passengers or freight on a cable railway; \"they took a cable car to the top of the mountain\""
+        angloform:
+          status: gap

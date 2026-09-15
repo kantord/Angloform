@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00312932"
+        gloss: an ocean trip taken for pleasure
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01931566"
+        gloss: "drive around aimlessly but ostentatiously and at leisure; \"She cruised the neighborhood in her new convertible\""
+        angloform:
+          status: gap
+      - wordnet: "01844859"
+        gloss: "travel at a moderate speed; \"Please keep your seat belt fastened while the plane is reaching cruising altitude\""
+        angloform:
+          status: gap
+      - wordnet: "02154031"
+        gloss: "look for a sexual partner in a public place; \"The men were cruising the park\""
+        angloform:
+          status: gap
+      - wordnet: "01844653"
+        gloss: "sail or travel about for pleasure, relaxation, or sightseeing; \"We were cruising in the Caribbean\""
+        angloform:
+          status: gap

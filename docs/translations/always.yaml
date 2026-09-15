@@ -1,0 +1,29 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00019339"
+        gloss: "at all times; all the time and on every occasion; \"I will always be there to help you\"; \"always arrives on time\"; \"there is always some pollution in the air\"; \"ever hoping to strike it rich\"; \"ever busy\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00020476"
+        gloss: "without variation or change, in every case; \"constantly kind and gracious\"; \"he always arrives on time\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00020280"
+        gloss: "without interruption; \"the world is constantly changing\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00019757"
+        gloss: "at any time or in any event; \"you can always resign if you don't like it\"; \"you could always take a day off\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00019609"
+        gloss: "forever; throughout all time; \"we will always be friends\"; \"I shall treasure it always\"; \"I will always love you\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

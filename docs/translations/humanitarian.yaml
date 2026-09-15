@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10191613"
+        gloss: someone devoted to the promotion of human welfare and to social reforms
+        angloform:
+          status: gap
+      - wordnet: "10191388"
+        gloss: an advocate of the principles of humanism; someone concerned with the interests and welfare of humans
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01262284"
+        gloss: "marked by humanistic values and devotion to human welfare; \"a humane physician\"; \"released the prisoner for humanitarian reasons\"; \"respect and humanistic regard for all members of our species\""
+        angloform:
+          status: gap
+      - wordnet: "02993702"
+        gloss: "of or relating to or characteristic of humanitarianism; \"humanitarian aid\""
+        angloform:
+          status: gap

@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json (ADR 0030).
+by_upos:
+  ADJ:
+    senses:
+      - gloss: a comparative of a smaller quantity; "less trouble"
+        angloform:
+          status: construction
+          pattern: a small amount of trouble.
+          note: 'ADR 0030: comparatives of a quantity are deferred — write "a small <noun>", or a Comparative of an adjective with "than"; matches seed.json''s existing BANNED advice for this lemma'

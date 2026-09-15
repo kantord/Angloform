@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00307631"
+        gloss: "a journey in a vehicle (usually an automobile); \"he took the family for a drive in his new car\""
+        angloform:
+          status: gap
+      - wordnet: "04088797"
+        gloss: a mechanical device that you ride for amusement or excitement
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01957529"
+        gloss: "sit and travel on the back of animal, usually while controlling its motions; \"She never sat a horse!\"; \"Did you ever ride a camel?\"; \"The girl liked to drive the young mare\""
+        angloform:
+          status: redirect
+          word: sit
+          category: VERB_INTRANS
+      - wordnet: "01955984"
+        gloss: "be carried or travel on or in a vehicle; \"I ride to work in a bus\"; \"He rides the subway downtown every day\""
+        angloform:
+          status: gap
+      - wordnet: "02684644"
+        gloss: "continue undisturbed and without interference; \"Let it ride\""
+        angloform:
+          status: gap
+      - wordnet: "01839538"
+        gloss: "move like a floating object; \"The moon rode high in the night sky\""
+        angloform:
+          status: gap
+      - wordnet: "00850501"
+        gloss: "harass with persistent criticism or carping; \"The children teased the new teacher\"; \"Don't ride me so hard over my failure\"; \"His fellow workers razzed him when he wore a jacket and tie\""
+        angloform:
+          status: gap
+      - wordnet: "02750154"
+        gloss: "be sustained or supported or borne; \"His glasses rode high on his nose\"; \"The child rode on his mother's hips\"; \"She rode a wave of popularity\"; \"The brothers rode to an easy victory on their father's political name\""
+        angloform:
+          status: gap
+      - wordnet: "02742232"
+        gloss: "have certain properties when driven; \"This car rides smoothly\"; \"My new truck drives well\""
+        angloform:
+          status: gap
+      - wordnet: "02711987"
+        gloss: "be contingent on; \"The outcomes rides on the results of the election\"; \"Your grade will depends on your homework\""
+        angloform:
+          status: gap
+      - wordnet: "02692089"
+        gloss: "lie moored or anchored; \"Ship rides at anchor\""
+        angloform:
+          status: gap
+      - wordnet: "02102398"
+        gloss: "sit on and control a vehicle; \"He rides his bicycle to work every day\"; \"She loves to ride her new motorcycle through town\""
+        angloform:
+          status: gap
+      - wordnet: "02095545"
+        gloss: "climb up on the body; \"Shorts that ride up\"; \"This skirt keeps riding up my legs\""
+        angloform:
+          status: gap
+      - wordnet: "01847676"
+        gloss: "ride over, along, or through; \"Ride the freeways of California\""
+        angloform:
+          status: gap
+      - wordnet: "01511134"
+        gloss: "keep partially engaged by slightly depressing a pedal with the foot; \"Don't ride the clutch!\""
+        angloform:
+          status: gap
+      - wordnet: "01429322"
+        gloss: "copulate with; \"The bull was riding the cow\""
+        angloform:
+          status: gap

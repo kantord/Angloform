@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05706629"
+        gloss: lack of attention and due care
+        angloform:
+          status: gap
+      - wordnet: "00418615"
+        gloss: willful lack of care and attention
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01059564"
+        gloss: "refuse to acknowledge; \"She cut him dead at the meeting\""
+        angloform:
+          status: redirect
+          word: ignore
+          category: VERB_TRANS
+      - wordnet: "00800930"
+        gloss: "bar from attention or consideration; \"She dismissed his advances\""
+        angloform:
+          status: redirect
+          word: ignore
+          category: VERB_TRANS
+      - wordnet: "00616857"
+        gloss: "give little or no attention to; \"Disregard the errors\""
+        angloform:
+          status: redirect
+          word: ignore
+          category: VERB_TRANS

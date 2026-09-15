@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05795044"
+        gloss: "the thing arranged or agreed to; \"they made arrangements to meet in Chicago\""
+        angloform:
+          status: gap
+      - wordnet: "07938773"
+        gloss: "an orderly grouping (of things or persons) considered as a unit; the result of arranging; \"a flower arrangement\""
+        angloform:
+          status: gap
+      - wordnet: "05726596"
+        gloss: "an organized structure for arranging or classifying; \"he changed the arrangement of the topics\"; \"the facts were familiar but it was in the organization of them that he was original\"; \"he tried to understand their system of classification\""
+        angloform:
+          status: redirect
+          word: system
+          category: NOUN
+      - wordnet: "05075602"
+        gloss: "the spatial property of the way in which something is placed; \"the arrangement of the furniture\"; \"the placement of the chairs\""
+        angloform:
+          status: gap
+      - wordnet: "07038400"
+        gloss: a piece of music that has been adapted for performance by a particular set of voices or instruments
+        angloform:
+          status: gap
+      - wordnet: "00939628"
+        gloss: the act of arranging and adapting a piece of music
+        angloform:
+          status: gap

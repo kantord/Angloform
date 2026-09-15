@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03670208"
+        gloss: large luxurious car; usually driven by a chauffeur
+        angloform:
+          status: gap

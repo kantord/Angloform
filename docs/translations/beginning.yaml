@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07290905"
+        gloss: "the event consisting of the start of something; \"the beginning of the war\""
+        angloform:
+          status: gap
+      - wordnet: "15265518"
+        gloss: "the time at which something is supposed to begin; \"they got an early start\"; \"she knew from the get-go that he was the man for her\""
+        angloform:
+          status: gap
+      - wordnet: "05868051"
+        gloss: "the first part or section of something; \"`It was a dark and stormy night' is a hackneyed beginning for a story\""
+        angloform:
+          status: gap
+      - wordnet: "08507558"
+        gloss: "the place where something begins, where it springs into being; \"the Italian beginning of the Renaissance\"; \"Jupiter was the origin of the radiation\"; \"Pittsburgh is the source of the Ohio River\"; \"communism's Russian root\""
+        angloform:
+          status: redirect
+          word: source
+          category: NOUN
+      - wordnet: "00235435"
+        gloss: "the act of starting something; \"he was responsible for the beginning of negotiations\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01009206"
+        gloss: "serving to begin; \"the beginning canto of the poem\"; \"the first verse\""
+        angloform:
+          status: gap

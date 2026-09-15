@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00432689"
+        gloss: an auxiliary activity
+        angloform:
+          status: gap
+      - wordnet: "03523633"
+        gloss: "a child's plaything consisting of an imitation horse mounted on rockers; the child straddles it and pretends to ride"
+        angloform:
+          status: gap
+      - wordnet: "01612476"
+        gloss: small Old World falcon formerly trained and flown at small birds
+        angloform:
+          status: gap

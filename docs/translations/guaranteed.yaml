@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "guaranteed" is the past-participle/adjectival use of "guarantee" —
+# WordNet indexes only the base noun/verb.
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00890100"
+        gloss: give surety or assume responsibility; "I vouch for the quality of my products"
+        angloform:
+          status: gap
+          note: no assurance/warrant vocabulary exists yet
+      - wordnet: "00890590"
+        gloss: make certain of; "Preparation will guarantee success!"
+        angloform:
+          status: gap
+      - wordnet: "00889555"
+        gloss: promise to do or accomplish; "guarantee to free the prisoners"
+        angloform:
+          status: gap
+          note: no promise vocabulary exists yet
+      - wordnet: "00891936"
+        gloss: stand behind and guarantee the quality, accuracy, or condition of; "The dealer warrants all the cars he sells"
+        angloform:
+          status: gap

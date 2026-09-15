@@ -1,0 +1,37 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10676569"
+        gloss: a minor actor in crowd scenes
+        angloform:
+          status: gap
+      - wordnet: "06597349"
+        gloss: an additional edition of a newspaper (usually to report a crisis)
+        angloform:
+          status: gap
+      - wordnet: "03307981"
+        gloss: "something additional of the same kind; \"he always carried extras in case of an emergency\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01581305"
+        gloss: "more than is needed, desired, or required; \"trying to lose excess weight\"; \"found some extra change lying on the dresser\"; \"yet another book on heraldry might be thought redundant\"; \"skills made redundant by technological advance\"; \"sleeping in the spare room\"; \"supernumerary ornamentation\"; \"it was supererogatory of her to gloat\"; \"delete superfluous (or unnecessary) words\"; \"extra ribs as well as other supernumerary internal parts\"; \"surplus cheese distributed to the needy\""
+        angloform:
+          status: gap
+      - wordnet: "02367319"
+        gloss: "added to a regular schedule; \"a special holiday flight\"; \"put on special buses for the big game\""
+        angloform:
+          status: gap
+      - wordnet: "00048858"
+        gloss: "further or added; \"called for additional troops\"; \"need extra help\"; \"an extra pair of shoes\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00084759"
+        gloss: "unusually or exceptionally; \"an extra fast car\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

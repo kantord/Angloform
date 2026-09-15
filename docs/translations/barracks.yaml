@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "barracks" is the plural of "barrack" — WordNet indexes only the singular.
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02794779"
+        gloss: a building or group of buildings used to house military personnel
+        angloform:
+          status: gap
+          note: military/building jargon
+  VERB:
+    senses:
+      - wordnet: "02651745"
+        gloss: lodge in barracks
+        angloform:
+          status: gap
+      - wordnet: "00858781"
+        gloss: spur on or encourage especially by cheers and shouts; "The crowd cheered the demonstrating strikers"
+        angloform:
+          status: gap
+      - wordnet: "00850192"
+        gloss: laugh at with contempt and derision; "The crowd jeered at the speaker"
+        angloform:
+          status: gap

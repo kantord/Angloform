@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06611376"
+        gloss: "obscene words for unacceptable behavior; \"I put up with a lot of bullshit from that jerk\"; \"what he said was mostly bull\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00839526"
+        gloss: "speak insincerely or without regard for facts or truths; \"The politician was not well prepared for the debate and faked it\""
+        angloform:
+          status: gap

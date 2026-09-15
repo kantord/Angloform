@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05790944"
+        gloss: "one of a number of things from which only one can be chosen; \"what option did I have?\"; \"there no other alternative\"; \"my only choice is to refuse\""
+        angloform:
+          status: redirect
+          word: choice
+          category: NOUN
+  ADJ:
+    senses:
+      - wordnet: "01853934"
+        gloss: "serving or used in place of another; \"an alternative plan\""
+        angloform:
+          status: gap
+      - wordnet: "00564667"
+        gloss: "necessitating a choice between mutually exclusive possibilities; \"alternative possibilities were neutrality or war\""
+        angloform:
+          status: gap
+      - wordnet: "00608668"
+        gloss: "pertaining to unconventional choices; \"an alternative life style\""
+        angloform:
+          status: gap

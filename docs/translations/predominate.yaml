@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02644234"
+        gloss: "be larger in number, quantity, power, status or importance; \"Money reigns supreme here\"; \"Hispanics predominate in this neighborhood\""
+        angloform:
+          status: gap
+      - wordnet: "02696503"
+        gloss: "appear very large or occupy a commanding position; \"The huge sculpture predominates over the fountain\"; \"Large shadows loomed on the canyon wall\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00792202"
+        gloss: "having superior power and influence; \"the predominant mood among policy-makers is optimism\""
+        angloform:
+          status: gap

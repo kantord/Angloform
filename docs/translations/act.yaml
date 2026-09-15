@@ -1,0 +1,70 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06532095"
+        gloss: a legal document codifying the result of deliberations of a committee or society or legislative body
+        angloform:
+          status: gap
+      - wordnet: "00030358"
+        gloss: something that people do or cause to happen
+        angloform:
+          status: gap
+      - wordnet: "07009640"
+        gloss: a subdivision of a play or opera or ballet
+        angloform:
+          status: gap
+      - wordnet: "06892016"
+        gloss: "a short theatrical performance that is part of a longer program; \"he did his act three times every evening\"; \"she had a catchy little routine\"; \"it was one of the best numbers he ever did\""
+        angloform:
+          status: redirect
+          word: number
+          category: NOUN
+      - wordnet: "07014029"
+        gloss: "a manifestation of insincerity; \"he put on quite an act for her benefit\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02367363"
+        gloss: "perform an action, or work out or perform (an action); \"think before you act\"; \"We must move quickly\"; \"The governor should act on the new energy bill\"; \"The nanny acted quickly by grabbing the toddler and covering him with a wet towel\""
+        angloform:
+          status: redirect
+          word: move
+          category: VERB_TRANS
+      - wordnet: "00010435"
+        gloss: "behave in a certain manner; show a certain behavior; conduct or comport oneself; \"You should act like an adult\"; \"Don't behave like a fool\"; \"What makes her do this way?\"; \"The dog acts ferocious, but he is really afraid of people\""
+        angloform:
+          status: gap
+      - wordnet: "01719302"
+        gloss: "play a role or part; \"Gielgud played Hamlet\"; \"She wants to act Lady Macbeth, but she is too young for the role\"; \"She played the servant to her husband's master\""
+        angloform:
+          status: gap
+      - wordnet: "01095899"
+        gloss: "discharge one's duties; \"She acts as the chair\"; \"In what capacity are you acting?\""
+        angloform:
+          status: gap
+      - wordnet: "00013615"
+        gloss: "pretend to have certain qualities or state of mind; \"He acted the idiot\"; \"She plays deaf when the news are bad\""
+        angloform:
+          status: gap
+      - wordnet: "02744977"
+        gloss: "be suitable for theatrical performance; \"This scene acts well\""
+        angloform:
+          status: gap
+      - wordnet: "02525447"
+        gloss: "have an effect or outcome; often the one desired or expected; \"The voting process doesn't work as well as people thought\"; \"How does your idea work in practice?\"; \"This method doesn't work\"; \"The breaks of my new car act quickly\"; \"The medicine works only if you take it with a lot of water\""
+        angloform:
+          status: gap
+      - wordnet: "02419073"
+        gloss: be engaged in an activity, often for no particular purpose other than pleasure
+        angloform:
+          status: gap
+      - wordnet: "01721556"
+        gloss: "behave unnaturally or affectedly; \"She's just acting\""
+        angloform:
+          status: gap
+      - wordnet: "01719921"
+        gloss: "perform on a stage or theater; \"She acts in this play\"; \"He acted in `Julius Caesar'\"; \"I played in `A Christmas Carol'\""
+        angloform:
+          status: gap

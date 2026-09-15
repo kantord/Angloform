@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13619764"
+        gloss: United States liquid unit equal to 4 quarts or 3.785 liters
+        angloform:
+          status: gap
+      - wordnet: "13622209"
+        gloss: a British imperial capacity measure (liquid or dry) equal to 4 quarts or 4.545 liters
+        angloform:
+          status: gap

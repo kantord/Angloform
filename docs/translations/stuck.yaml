@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00161065"
+        gloss: "caught or fixed; \"stuck in the mud\""
+        angloform:
+          status: gap
+      - wordnet: "01766958"
+        gloss: "baffled; \"this problem has me completely stuck\""
+        angloform:
+          status: gap

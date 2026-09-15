@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02549393"
+        gloss: "containing or characterized by a great deal of water vapor; \"humid air\"; \"humid weather\""
+        angloform:
+          status: gap

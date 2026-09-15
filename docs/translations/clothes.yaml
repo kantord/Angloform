@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02728440"
+        gloss: "clothing in general; \"she was refined in her choice of apparel\"; \"he always bought his clothes at the same store\"; \"fastidious about his dress\""
+        angloform:
+          status: gap

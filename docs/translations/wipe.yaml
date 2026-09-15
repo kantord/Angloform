@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00125126"
+        gloss: "the act of rubbing or wiping; \"he gave the hood a quick rub\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01392237"
+        gloss: "rub with a circular motion; \"wipe the blackboard\"; \"He passed his hands over the soft cloth\""
+        angloform:
+          status: gap

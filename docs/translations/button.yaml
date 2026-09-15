@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02928608"
+        gloss: a round fastener sewn to shirts and coats etc to fit through buttonholes
+        angloform:
+          status: gap
+      - wordnet: "04027023"
+        gloss: "an electrical switch operated by pressing; \"the elevator was operated by push buttons\"; \"the push beside the bed operated a buzzer at the desk\""
+        angloform:
+          status: gap
+      - wordnet: "11531916"
+        gloss: any of various plant parts that resemble buttons
+        angloform:
+          status: gap
+      - wordnet: "07268413"
+        gloss: "a round flat badge displaying information and suitable for pinning onto a garment; \"they passed out campaign buttons for their candidate\""
+        angloform:
+          status: gap
+      - wordnet: "05523420"
+        gloss: a female sexual organ homologous to the penis
+        angloform:
+          status: gap
+      - wordnet: "04073425"
+        gloss: a device that when pressed will release part of a mechanism
+        angloform:
+          status: gap
+      - wordnet: "02928841"
+        gloss: any artifact that resembles a button
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01368126"
+        gloss: "provide with buttons; \"button a shirt\""
+        angloform:
+          status: gap
+      - wordnet: "01367862"
+        gloss: "fasten with buttons; \"button the dress\""
+        angloform:
+          status: gap

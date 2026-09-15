@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: a book or web page for visitors to leave messages
+        angloform:
+          status: gap
+          note: no book/visitor vocabulary exists yet; zero WordNet attestation

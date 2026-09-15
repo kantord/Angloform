@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13320168"
+        gloss: a fixed charge for a privilege or for professional services
+        angloform:
+          status: gap
+      - wordnet: "13288529"
+        gloss: an interest in land capable of being inherited
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02202133"
+        gloss: "give a tip or gratuity to in return for a service, beyond the compensation agreed on; \"Remember to tip the waiter\"; \"fee the steward\""
+        angloform:
+          status: gap

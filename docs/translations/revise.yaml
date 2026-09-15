@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06428976"
+        gloss: the act of rewriting something
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00996102"
+        gloss: "make revisions in; \"revise a thesis\""
+        angloform:
+          status: gap
+      - wordnet: "02433549"
+        gloss: "revise or reorganize, especially for the purpose of updating and improving; \"We must retool the town's economy\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03461385"
+        gloss: "a marketplace where groceries are sold; \"the grocery store included a meat market\""
+        angloform:
+          status: gap
+      - wordnet: "03461119"
+        gloss: (usually plural) consumer goods sold by a grocer
+        angloform:
+          status: gap

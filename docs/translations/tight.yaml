@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01447302"
+        gloss: "closely constrained or constricted or constricting; \"tight skirts\"; \"he hated tight starched collars\"; \"fingers closed in a tight fist\"; \"a tight feeling in his chest\""
+        angloform:
+          status: gap
+      - wordnet: "02403505"
+        gloss: "pulled or drawn tight; \"taut sails\"; \"a tight drumhead\"; \"a tight rope\""
+        angloform:
+          status: gap
+      - wordnet: "02526441"
+        gloss: "set so close together as to be invulnerable to penetration; \"in tight formation\"; \"a tight blockade\""
+        angloform:
+          status: gap
+      - wordnet: "01655538"
+        gloss: "pressed tightly together; \"with lips compressed\""
+        angloform:
+          status: gap
+      - wordnet: "01113807"
+        gloss: "(used of persons or behavior) characterized by or indicative of lack of generosity; \"a mean person\"; \"he left a miserly tip\""
+        angloform:
+          status: gap
+      - wordnet: "00017186"
+        gloss: "affected by scarcity and expensive to borrow; \"tight money\"; \"a tight market\""
+        angloform:
+          status: gap
+      - wordnet: "01398199"
+        gloss: "of such close construction as to be impermeable; \"a tight roof\"; \"warm in our tight little house\""
+        angloform:
+          status: gap
+      - wordnet: "02232739"
+        gloss: "of textiles; \"a close weave\"; \"smooth percale with a very tight weave\""
+        angloform:
+          status: gap
+      - wordnet: "02095670"
+        gloss: "securely or solidly fixed in place; rigid; \"the bolts are tight\""
+        angloform:
+          status: gap
+      - wordnet: "00890622"
+        gloss: "(of a contest or contestants) evenly matched; \"a close contest\"; \"a close election\"; \"a tight game\""
+        angloform:
+          status: gap
+      - wordnet: "00798103"
+        gloss: very drunk
+        angloform:
+          status: gap
+      - wordnet: "00747727"
+        gloss: "exasperatingly difficult to handle or circumvent; \"a nasty problem\"; \"a good man to have on your side in a tight situation\""
+        angloform:
+          status: gap
+      - wordnet: "00711059"
+        gloss: "demanding strict attention to rules and procedures; \"rigorous discipline\"; \"tight security\"; \"stringent safety measures\""
+        angloform:
+          status: gap
+      - wordnet: "00503157"
+        gloss: "packed closely together; \"they stood in a tight little group\"; \"hair in tight curls\"; \"the pub was packed tight\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00086404"
+        gloss: "firmly or closely; \"held fast to the rope\"; \"her foot was stuck fast\"; \"held tight\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00505226"
+        gloss: "in an attentive manner; \"he remained close on his guard\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

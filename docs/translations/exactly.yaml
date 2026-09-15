@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00158309"
+        gloss: "indicating exactness or preciseness; \"he was doing precisely (or exactly) what she had told him to do\"; \"it was just as he said--the jewel was gone\"; \"it has just enough salt\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00368663"
+        gloss: "just as it should be; \"`Precisely, my lord,' he said\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00368287"
+        gloss: "in a precise manner; \"she always expressed herself precisely\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

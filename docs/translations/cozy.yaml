@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03114379"
+        gloss: a padded cloth covering to keep a teapot warm
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00477284"
+        gloss: "enjoying or affording comforting warmth and shelter especially in a small space; \"a cozy nook near the fire\"; \"snug in bed\"; \"a snug little apartment\""
+        angloform:
+          status: gap
+      - wordnet: "01076145"
+        gloss: "having or fostering a warm or friendly and informal atmosphere; \"had a cozy chat\"; \"a relaxed informal manner\"; \"an intimate cocktail lounge\"; \"the small room was cozy and intimate\""
+        angloform:
+          status: gap
+      - wordnet: "00452773"
+        gloss: "suggesting connivance; \"a cozy arrangement with the police\""
+        angloform:
+          status: gap

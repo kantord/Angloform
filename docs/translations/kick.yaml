@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00136329"
+        gloss: "the act of delivering a blow with the foot; \"he gave the ball a powerful kick\"; \"the team's kicking was excellent\""
+        angloform:
+          status: gap
+      - wordnet: "07528470"
+        gloss: "the swift release of a store of affective force; \"they got a great bang out of it\"; \"what a boot!\"; \"he got a quick rush from injecting heroin\"; \"he does it for kicks\""
+        angloform:
+          status: gap
+      - wordnet: "07350754"
+        gloss: the backward jerk of a gun when it is fired
+        angloform:
+          status: gap
+      - wordnet: "07209965"
+        gloss: "informal terms for objecting; \"I have a gripe about the service here\""
+        angloform:
+          status: gap
+      - wordnet: "05827509"
+        gloss: "the sudden stimulation provided by strong drink (or certain drugs); \"a sidecar is a smooth drink but it has a powerful kick\""
+        angloform:
+          status: gap
+      - wordnet: "00336805"
+        gloss: "a rhythmic thrusting movement of the legs as in swimming or calisthenics; \"the kick must be synchronized with the arm movements\"; \"the swimmer's kicking left a wake behind him\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01371756"
+        gloss: drive or propel with the foot
+        angloform:
+          status: gap
+      - wordnet: "01936233"
+        gloss: thrash about or strike out with the feet
+        angloform:
+          status: gap
+      - wordnet: "01370561"
+        gloss: "strike with the foot; \"The boy kicked the dog\"; \"Kick the door down\""
+        angloform:
+          status: gap
+      - wordnet: "02048511"
+        gloss: kick a leg up
+        angloform:
+          status: gap
+      - wordnet: "01371454"
+        gloss: "spring back, as from a forceful thrust; \"The gun kicked back into my shoulder\""
+        angloform:
+          status: gap
+      - wordnet: "01196524"
+        gloss: "stop consuming; \"kick a habit\"; \"give up alcohol\""
+        angloform:
+          status: gap
+      - wordnet: "01112979"
+        gloss: "make a goal; \"He kicked the extra point after touchdown\""
+        angloform:
+          status: gap
+      - wordnet: "00907147"
+        gloss: "express complaints, discontent, displeasure, or unhappiness; \"My mother complains all day\"; \"She has a lot to kick about\""
+        angloform:
+          status: gap

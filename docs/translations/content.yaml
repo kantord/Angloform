@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07955057"
+        gloss: "everything that is included in a collection and that is held or included in something; \"he emptied the contents of his pockets\"; \"the two groups were similar in content\""
+        angloform:
+          status: gap
+      - wordnet: "06598915"
+        gloss: what a communication that is about something is about
+        angloform:
+          status: redirect
+          word: message
+          category: NOUN
+      - wordnet: "13816521"
+        gloss: the proportion of a substance that is contained in a mixture or alloy etc.
+        angloform:
+          status: gap
+      - wordnet: "13779374"
+        gloss: "the amount that can be contained; \"the gas tank has a capacity of 12 gallons\""
+        angloform:
+          status: gap
+      - wordnet: "05809192"
+        gloss: the sum or range of what has been perceived, discovered, or learned
+        angloform:
+          status: gap
+      - wordnet: "14412882"
+        gloss: "the state of being contented with your situation in life; \"he relaxed in sleepy contentedness\"; \"they could read to their heart's content\""
+        angloform:
+          status: gap
+      - wordnet: "04347225"
+        gloss: "something (a person or object or scene) selected by an artist or photographer for graphic representation; \"a moving picture of a train is more dramatic than a still picture of the same subject\""
+        angloform:
+          status: redirect
+          word: subject
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01194238"
+        gloss: "satisfy in a limited way; \"He contented himself with one glass of beer per day\""
+        angloform:
+          status: gap
+      - wordnet: "01816844"
+        gloss: "make content; \"I am contented\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00588797"
+        gloss: "satisfied or showing satisfaction with things as they are; \"a contented smile\""
+        angloform:
+          status: gap

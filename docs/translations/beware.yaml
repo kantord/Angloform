@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00724664"
+        gloss: "be on one's guard; be cautious or wary about; be alert to; \"Beware of telephone salesmen\""
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09296121"
+        gloss: an arm of a sea or ocean partly enclosed by land; larger than a bay
+        angloform:
+          status: gap
+      - wordnet: "04753060"
+        gloss: "an unbridgeable disparity (as from a failure of understanding); \"he felt a gulf between himself and his former friends\"; \"there is a vast disconnect between public opinion and federal policy\""
+        angloform:
+          status: gap
+      - wordnet: "09296053"
+        gloss: a deep wide chasm
+        angloform:
+          status: gap

@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15159583"
+        gloss: "the specified day of the month; \"what is the date today?\""
+        angloform:
+          status: gap
+      - wordnet: "09992538"
+        gloss: "a participant in a date; \"his date never stopped talking\""
+        angloform:
+          status: gap
+      - wordnet: "08385009"
+        gloss: "a meeting arranged in advance; \"she asked how to avoid kissing at the end of a date\""
+        angloform:
+          status: gap
+      - wordnet: "15179888"
+        gloss: "a particular but unspecified point in time; \"they hoped to get together at an early date\""
+        angloform:
+          status: gap
+      - wordnet: "15120223"
+        gloss: "the present; \"they are up to date\"; \"we haven't heard from them to date\""
+        angloform:
+          status: gap
+      - wordnet: "15160579"
+        gloss: "the particular day, month, or year (usually according to the Gregorian calendar) that an event occurred; \"he tried to memorizes all the dates for his history class\""
+        angloform:
+          status: gap
+      - wordnet: "15159819"
+        gloss: "a particular day specified as the time something happens; \"the date of the election is set by law\""
+        angloform:
+          status: gap
+      - wordnet: "07765073"
+        gloss: sweet edible fruit of the date palm with a single long woody seed
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02485844"
+        gloss: "go on a date with; \"Tonight she is dating a former high school sweetheart\""
+        angloform:
+          status: gap
+      - wordnet: "00735389"
+        gloss: "stamp with a date; \"The package is dated November 24\""
+        angloform:
+          status: gap
+      - wordnet: "00619183"
+        gloss: "assign a date to; determine the (probable) date of; \"Scientists often cannot date precisely archeological or prehistorical findings\""
+        angloform:
+          status: gap
+      - wordnet: "02486232"
+        gloss: "date regularly; have a steady relationship with; \"Did you know that she is seeing an older man?\"; \"He is dating his former wife again!\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "00734927"
+        gloss: "provide with a dateline; mark with a date; \"She wrote the letter on Monday but she dated it Saturday so as not to reveal that she procrastinated\""
+        angloform:
+          status: gap

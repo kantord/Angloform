@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00181781"
+        gloss: "a vote to select the winner of a position or political office; \"the results of the election will be announced tonight\""
+        angloform:
+          status: gap
+      - wordnet: "00180962"
+        gloss: "the act of selecting someone or something; the exercise of deliberate choice; \"her election of medicine as a profession\""
+        angloform:
+          status: gap
+      - wordnet: "13926329"
+        gloss: "the status or fact of being elected; \"they celebrated his election\""
+        angloform:
+          status: gap
+      - wordnet: "05966798"
+        gloss: the predestination of some individuals as objects of divine mercy (especially as conceived by Calvinists)
+        angloform:
+          status: gap

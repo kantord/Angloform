@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07210225"
+        gloss: "a formal and solemn declaration of objection; \"they finished the game under protest to the league president\"; \"the senator rose to register his protest\"; \"the many protestations did not stay the execution\""
+        angloform:
+          status: gap
+      - wordnet: "01177033"
+        gloss: the act of protesting; a public (often organized) manifestation of dissent
+        angloform:
+          status: gap
+      - wordnet: "07210553"
+        gloss: "the act of making a strong public expression of disagreement and disapproval; \"he shouted his protests at the umpire\"; \"a shower of protest was heard from the rear of the hall\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00910135"
+        gloss: utter words of protest
+        angloform:
+          status: gap
+      - wordnet: "02521410"
+        gloss: "express opposition through action or words; \"dissent to the laws of the country\""
+        angloform:
+          status: gap
+      - wordnet: "01011542"
+        gloss: "affirm or avow formally or solemnly; \"The suspect protested his innocence\""
+        angloform:
+          status: gap

@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09367203"
+        gloss: "anything indispensable; \"food and shelter are necessities of life\"; \"the essentials of the good life\"; \"allow farmers to buy their requirements under favorable conditions\"; \"a place where the requisites of water fuel and fodder can be obtained\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01580050"
+        gloss: absolutely essential
+        angloform:
+          status: gap
+      - wordnet: "00343552"
+        gloss: "unavoidably determined by prior circumstances; \"the necessary consequences of one's actions\""
+        angloform:
+          status: gap

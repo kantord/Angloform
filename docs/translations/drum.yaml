@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03249569"
+        gloss: a musical percussion instrument; usually consists of a hollow cylinder with a membrane stretched across each end
+        angloform:
+          status: gap
+      - wordnet: "07383475"
+        gloss: "the sound of a drum; \"he could hear the drums before he heard the fifes\""
+        angloform:
+          status: gap
+      - wordnet: "13901211"
+        gloss: a bulging cylindrical shape; hollow with flat ends
+        angloform:
+          status: gap
+      - wordnet: "03249956"
+        gloss: a cylindrical metal container used for shipping or storage of liquids
+        angloform:
+          status: gap
+      - wordnet: "02890351"
+        gloss: a hollow cast-iron cylinder attached to the wheel that forms part of the brakes
+        angloform:
+          status: gap
+      - wordnet: "02594552"
+        gloss: small to medium-sized bottom-dwelling food and game fishes of shallow coastal and fresh waters that make a drumming noise
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02174830"
+        gloss: "make a rhythmic sound; \"Rain drummed against the windshield\"; \"The drums beat all night\""
+        angloform:
+          status: redirect
+          word: beat
+          category: VERB_TRANS
+      - wordnet: "01732532"
+        gloss: play a percussion instrument
+        angloform:
+          status: gap
+      - wordnet: "00605783"
+        gloss: "study intensively, as before an exam; \"I had to bone up on my Latin verbs before the final exam\""
+        angloform:
+          status: gap

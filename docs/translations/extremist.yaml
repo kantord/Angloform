@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10074735"
+        gloss: a person who holds extreme views
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01535270"
+        gloss: "(used of opinions and actions) far beyond the norm; \"extremist political views\"; \"radical opinions on education\"; \"an ultra conservative\""
+        angloform:
+          status: gap

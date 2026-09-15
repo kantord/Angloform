@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00774323"
+        gloss: "showing or indicating careful judgment and discernment especially in matters of taste; \"the discriminating eye of the connoisseur\""
+        angloform:
+          status: gap
+      - wordnet: "01744515"
+        gloss: "having or demonstrating ability to recognize or draw fine distinctions; \"an acute observer of politics and politicians\"; \"incisive comments\"; \"icy knifelike reasoning\"; \"as sharp and incisive as the stroke of a fang\"; \"penetrating insight\"; \"frequent penetrative observations\""
+        angloform:
+          status: redirect
+          word: sharp
+          category: ADJ

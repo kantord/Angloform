@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13989280"
+        gloss: state of sorrow over the death or departure of a loved one
+        angloform:
+          status: gap
+      - wordnet: "01072236"
+        gloss: the passionate and demonstrative activity of expressing grief
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01364817"
+        gloss: "sorrowful through loss or deprivation; \"bereft of hope\""
+        angloform:
+          status: gap

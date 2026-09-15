@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14562324"
+        gloss: "an irrecoverable state of devastation and destruction; \"you have brought ruin on this entire family\""
+        angloform:
+          status: gap
+      - wordnet: "04118635"
+        gloss: "a ruined building; \"they explored several Roman ruins\""
+        angloform:
+          status: gap
+      - wordnet: "13466312"
+        gloss: the process of becoming dilapidated
+        angloform:
+          status: gap
+      - wordnet: "07335243"
+        gloss: an event that results in destruction
+        angloform:
+          status: gap
+      - wordnet: "07318133"
+        gloss: failure that results in a loss of position or reputation
+        angloform:
+          status: gap
+      - wordnet: "00217773"
+        gloss: destruction achieved by causing something to be wrecked or ruined
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01564144"
+        gloss: "destroy completely; damage irreparably; \"You have ruined my car by pouring sugar in the tank!\"; \"The tears ruined her make-up\""
+        angloform:
+          status: gap
+      - wordnet: "02558951"
+        gloss: "destroy or cause to fail; \"This behavior will ruin your chances of winning the election\""
+        angloform:
+          status: gap
+      - wordnet: "02318165"
+        gloss: "reduce to bankruptcy; \"My daughter's fancy wedding is going to break me!\"; \"The slump in the financial markets smashed him\""
+        angloform:
+          status: redirect
+          word: break
+          category: VERB_TRANS
+      - wordnet: "01566490"
+        gloss: "reduce to ruins; \"The country lay ruined after the war\""
+        angloform:
+          status: gap
+      - wordnet: "01428381"
+        gloss: "deprive of virginity; \"This dirty old man deflowered several young girls in the village\""
+        angloform:
+          status: gap
+      - wordnet: "00578993"
+        gloss: fall into ruin
+        angloform:
+          status: gap

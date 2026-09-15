@@ -1,0 +1,37 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05176082"
+        gloss: "that which is deserved or owed; \"give the devil his due\""
+        angloform:
+          status: gap
+      - wordnet: "13396861"
+        gloss: "a payment that is due (e.g., as the price of membership); \"the society dropped him for non-payment of dues\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00136354"
+        gloss: "owed and payable immediately or on demand; \"payment is due\""
+        angloform:
+          status: gap
+      - wordnet: "00929916"
+        gloss: "scheduled to arrive; \"the train is due in 15 minutes\""
+        angloform:
+          status: gap
+      - wordnet: "00137725"
+        gloss: "suitable to or expected in the circumstances; \"all due respect\"; \"due cause to honor them\"; \"a long due promotion\"; \"in due course\"; \"due esteem\"; \"exercising due care\""
+        angloform:
+          status: gap
+      - wordnet: "00171872"
+        gloss: "capable of being assigned or credited to; \"punctuation errors ascribable to careless proofreading\"; \"the cancellation of the concert was due to the rain\"; \"the oversight was not imputable to him\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00052152"
+        gloss: "directly or exactly; straight; \"went due North\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

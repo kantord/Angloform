@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04640538"
+        gloss: good-natured tolerance of delay or incompetence
+        angloform:
+          status: gap
+      - wordnet: "00495524"
+        gloss: a card game played by one person
+        angloform:
+          status: gap

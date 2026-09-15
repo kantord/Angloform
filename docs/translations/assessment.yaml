@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05733583"
+        gloss: the classification of someone or something with respect to its worth
+        angloform:
+          status: gap
+      - wordnet: "13403146"
+        gloss: "an amount determined as payable; \"the assessment for repairs outraged the club's membership\""
+        angloform:
+          status: gap
+      - wordnet: "05146055"
+        gloss: the market value set on assets
+        angloform:
+          status: gap
+      - wordnet: "00874067"
+        gloss: "the act of judging or assessing a person or situation or event; \"they criticized my judgment of the contestants\""
+        angloform:
+          status: gap

@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00362103"
+        gloss: the act of reducing the selling price of merchandise
+        angloform:
+          status: gap
+      - wordnet: "13319253"
+        gloss: interest on an annual basis deducted in advance on a loan
+        angloform:
+          status: gap
+      - wordnet: "13282275"
+        gloss: a refund of some fraction of the amount paid
+        angloform:
+          status: gap
+      - wordnet: "13274597"
+        gloss: an amount or percentage deducted
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00800930"
+        gloss: "bar from attention or consideration; \"She dismissed his advances\""
+        angloform:
+          status: redirect
+          word: ignore
+          category: VERB_TRANS
+      - wordnet: "02319428"
+        gloss: "give a reduction in price on; \"I never discount these books-they sell like hot cakes\""
+        angloform:
+          status: gap

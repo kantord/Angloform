@@ -1,0 +1,168 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00974762"
+        gloss: "an impetuous rush toward someone or something; \"the wrestler's charge carried him past his adversary\"; \"the battle began with a cavalry charge\""
+        angloform:
+          status: gap
+      - wordnet: "06561942"
+        gloss: "(criminal law) a pleading describing some wrong or offense; \"he was arrested on a charge of larceny\""
+        angloform:
+          status: gap
+      - wordnet: "13306870"
+        gloss: "the price charged for some article or service; \"the admission charge\""
+        angloform:
+          status: gap
+      - wordnet: "11435028"
+        gloss: "the quantity of unbalanced electricity in a body (either positive or negative) and construed as an excess or deficiency of electrons; \"the battery needed a fresh charge\""
+        angloform:
+          status: gap
+      - wordnet: "00829378"
+        gloss: "attention and management implying responsibility for safety; \"he is in the care of a bodyguard\""
+        angloform:
+          status: gap
+      - wordnet: "00731222"
+        gloss: "a special assignment that is given to a person or group; \"a confidential mission to London\"; \"his charge was deliver a message\""
+        angloform:
+          status: gap
+      - wordnet: "09909760"
+        gloss: "a person committed to your care; \"the teacher led her charges across the street\""
+        angloform:
+          status: gap
+      - wordnet: "13400798"
+        gloss: "financial liabilities (such as a tax); \"the charges against the estate\""
+        angloform:
+          status: gap
+      - wordnet: "09185612"
+        gloss: "(psychoanalysis) the libidinal energy invested in some idea or person or object; \"Freud thought of cathexis as a psychic analog of an electrical charge\""
+        angloform:
+          status: gap
+      - wordnet: "07528470"
+        gloss: "the swift release of a store of affective force; \"they got a great bang out of it\"; \"what a boot!\"; \"he got a quick rush from injecting heroin\"; \"he does it for kicks\""
+        angloform:
+          status: gap
+      - wordnet: "07190941"
+        gloss: "request for payment of a debt; \"they submitted their charges at the end of each month\""
+        angloform:
+          status: gap
+      - wordnet: "07169480"
+        gloss: "a formal statement of a command or injunction to do something; \"the judge's charge to the jury\""
+        angloform:
+          status: gap
+      - wordnet: "06730780"
+        gloss: "an assertion that someone is guilty of a fault or offence; \"the newspaper published charges that Jones was guilty of drunken driving\""
+        angloform:
+          status: gap
+      - wordnet: "03008565"
+        gloss: heraldry consisting of a design or image depicted on a shield
+        angloform:
+          status: gap
+      - wordnet: "03008275"
+        gloss: "a quantity of explosive to be set off at one time; \"this cartridge has a powder charge of 50 grains\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01121719"
+        gloss: "to make a rush at or sudden attack upon, as in battle; \"he saw Jess charging at him with a pitchfork\""
+        angloform:
+          status: gap
+      - wordnet: "00843468"
+        gloss: "blame for, make a claim of wrongdoing or misbehavior against; \"he charged the director with indifference\""
+        angloform:
+          status: gap
+      - wordnet: "02320374"
+        gloss: "demand payment; \"Will I get charged for this service?\"; \"We were billed for 4 nights in the hotel, although we stayed only 3 nights\""
+        angloform:
+          status: gap
+      - wordnet: "02055267"
+        gloss: "move quickly and violently; \"The car tore down the street\"; \"He came charging into my office\""
+        angloform:
+          status: gap
+      - wordnet: "02475922"
+        gloss: "assign a duty, responsibility or obligation to; \"He was appointed deputy manager\"; \"She was charged with supervising the creation of a concordance\""
+        angloform:
+          status: gap
+      - wordnet: "00869931"
+        gloss: "file a formal charge against; \"The suspect was charged with murdering his wife\""
+        angloform:
+          status: gap
+      - wordnet: "00843959"
+        gloss: "make an accusatory claim; \"The defense attorney charged that the jurors were biased\""
+        angloform:
+          status: gap
+      - wordnet: "01488956"
+        gloss: "fill or load to capacity; \"charge the wagon with hay\""
+        angloform:
+          status: gap
+      - wordnet: "02321046"
+        gloss: "enter a certain amount as a charge; \"he charged me $15\""
+        angloform:
+          status: gap
+      - wordnet: "02348568"
+        gloss: "cause to be admitted; of persons to an institution; \"After the second episode, she had to be committed\"; \"he was committed to prison\""
+        angloform:
+          status: redirect
+          word: send
+          category: VERB_TRANS
+      - wordnet: "02347637"
+        gloss: "give over to another for care or safekeeping; \"consign your baggage\""
+        angloform:
+          status: gap
+      - wordnet: "02317289"
+        gloss: "pay with a credit card; pay with plastic money; postpone payment by recording a purchase as a debt; \"Will you pay cash or charge the purchase?\""
+        angloform:
+          status: gap
+      - wordnet: "01985424"
+        gloss: lie down on command, of hunting dogs
+        angloform:
+          status: gap
+      - wordnet: "01762528"
+        gloss: "cause to be agitated, excited, or roused; \"The speaker charged up the crowd with his inflammatory remarks\""
+        angloform:
+          status: gap
+      - wordnet: "01685960"
+        gloss: "place a heraldic bearing on; \"charge all weapons, shields, and banners\""
+        angloform:
+          status: gap
+      - wordnet: "01490336"
+        gloss: "provide (a device) with something necessary; \"He loaded his gun carefully\"; \"load the camera\""
+        angloform:
+          status: gap
+      - wordnet: "01152214"
+        gloss: "direct into a position for use; \"point a gun\"; \"He charged his weapon at me\""
+        angloform:
+          status: gap
+      - wordnet: "00750532"
+        gloss: "impose a task upon, assign a responsibility to; \"He charged her with cleaning up all the files over the weekend\""
+        angloform:
+          status: gap
+      - wordnet: "00750345"
+        gloss: instruct (a jury) about the law, its application, and the weighing of evidence
+        angloform:
+          status: gap
+      - wordnet: "00750172"
+        gloss: "instruct or command with authority; \"The teacher charged the children to memorize the poem\""
+        angloform:
+          status: gap
+      - wordnet: "00727991"
+        gloss: "attribute responsibility to; \"We blamed the accident on her\"; \"The tragedy was charged to her inexperience\""
+        angloform:
+          status: gap
+      - wordnet: "00700517"
+        gloss: "set or ask for a certain price; \"How much do you charge for lunch?\"; \"This fellow charges $100 for a massage\""
+        angloform:
+          status: gap
+      - wordnet: "00518115"
+        gloss: "cause formation of a net electrical charge in or on; \"charge a conductor\""
+        angloform:
+          status: gap
+      - wordnet: "00517847"
+        gloss: "energize a battery by passing a current through it in the direction opposite to discharge; \"I need to charge my car battery\""
+        angloform:
+          status: gap
+      - wordnet: "00498016"
+        gloss: "saturate; \"The room was charged with tension and anxiety\""
+        angloform:
+          status: gap

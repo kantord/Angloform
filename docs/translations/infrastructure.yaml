@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03570372"
+        gloss: the basic structure or features of a system or organization
+        angloform:
+          status: gap
+      - wordnet: "03569964"
+        gloss: "the stock of basic facilities and capital equipment needed for the functioning of a country or area; \"the industrial base of Japan\""
+        angloform:
+          status: gap

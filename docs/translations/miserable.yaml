@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01150205"
+        gloss: "very unhappy; full of misery; \"he felt depressed and miserable\"; \"a message of hope for suffering humanity\"; \"wretched prisoners huddled in stinking cages\""
+        angloform:
+          status: gap
+      - wordnet: "01050890"
+        gloss: "deserving or inciting pity; \"a hapless victim\"; \"miserable victims of war\"; \"the shabby room struck her as extraordinarily pathetic\"- Galsworthy; \"piteous appeals for help\"; \"pitiable homeless children\"; \"a pitiful fate\"; \"Oh, you poor thing\"; \"his poor distorted limbs\"; \"a wretched life\""
+        angloform:
+          status: gap
+      - wordnet: "00904745"
+        gloss: "of the most contemptible kind; \"abject cowardice\"; \"a low stunt to pull\"; \"a low-down sneak\"; \"his miserable treatment of his family\"; \"You miserable skunk!\"; \"a scummy rabble\"; \"a scurvy trick\""
+        angloform:
+          status: gap
+      - wordnet: "02347086"
+        gloss: "of very poor quality or condition; \"deplorable housing conditions in the inner city\"; \"woeful treatment of the accused\"; \"woeful errors of judgment\""
+        angloform:
+          status: gap
+      - wordnet: "00478872"
+        gloss: "characterized by physical misery; \"a wet miserable weekend\"; \"spent a wretched night on the floor\""
+        angloform:
+          status: gap
+      - wordnet: "00107384"
+        gloss: "contemptibly small in amount; \"a measly tip\"; \"the company donated a miserable $100 for flood relief\"; \"a paltry wage\"; \"almost depleted his miserable store of dried beans\""
+        angloform:
+          status: gap

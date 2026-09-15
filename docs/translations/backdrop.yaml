@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02768864"
+        gloss: scenery hung at back of stage
+        angloform:
+          status: gap

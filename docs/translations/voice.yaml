@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04981941"
+        gloss: "the distinctive quality or pitch or condition of a person's speech; \"A shrill voice sounded behind us\""
+        angloform:
+          status: gap
+      - wordnet: "07110615"
+        gloss: "the sound made by the vibration of vocal folds modified by the resonance of the vocal tract; \"a singer takes good care of his voice\"; \"the giraffe cannot make any vocalizations\""
+        angloform:
+          status: gap
+      - wordnet: "07399452"
+        gloss: "a sound suggestive of a vocal utterance; \"the noisy voice of the waterfall\"; \"the incessant voices of the artillery\""
+        angloform:
+          status: gap
+      - wordnet: "07073208"
+        gloss: "expressing in coherent verbal form; \"the articulation of my feelings\"; \"I gave voice to my feelings\""
+        angloform:
+          status: gap
+      - wordnet: "00179683"
+        gloss: "a means or agency by which something is expressed or communicated; \"the voice of the law\"; \"the Times is not the voice of New York\"; \"conservatism has many voices\""
+        angloform:
+          status: gap
+      - wordnet: "07277697"
+        gloss: "something suggestive of speech in being a medium of expression; \"the wee small voice of conscience\"; \"the voice of experience\"; \"he said his voices told him to do it\""
+        angloform:
+          status: gap
+      - wordnet: "10758713"
+        gloss: "(metonymy) a singer; \"he wanted to hear trained voices sing it\""
+        angloform:
+          status: gap
+      - wordnet: "10638385"
+        gloss: "an advocate who represents someone else's policy or purpose; \"the meeting was attended by spokespersons for all the major organs of government\""
+        angloform:
+          status: gap
+      - wordnet: "05202284"
+        gloss: "the ability to speak; \"he lost his voice\""
+        angloform:
+          status: gap
+      - wordnet: "13802920"
+        gloss: (linguistics) the grammatical relation (active or passive) of the grammatical subject of a verb to the action that the verb denotes
+        angloform:
+          status: gap
+      - wordnet: "07030718"
+        gloss: "the melody carried by a particular voice or instrument in polyphonic music; \"he tried to sing the tenor part\""
+        angloform:
+          status: redirect
+          word: part
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "00933403"
+        gloss: "give voice to; \"He voiced his concern\""
+        angloform:
+          status: gap
+      - wordnet: "00952182"
+        gloss: utter with vibrating vocal chords
+        angloform:
+          status: gap

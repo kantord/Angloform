@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06252138"
+        gloss: "the activity of communicating; the activity of conveying information; \"they could not act without official communication from Moscow\""
+        angloform:
+          status: gap
+      - wordnet: "00033020"
+        gloss: something that is communicated by or to or between people or groups
+        angloform:
+          status: gap
+      - wordnet: "13792842"
+        gloss: "a connection allowing access between persons or places; \"how many lines of communication can there be among four people?\"; \"a secret passageway provided communication between the two rooms\""
+        angloform:
+          status: gap

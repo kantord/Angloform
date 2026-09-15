@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06023969"
+        gloss: an average of n numbers computed by adding some function of the numbers and dividing by some function of n
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00955148"
+        gloss: "mean or intend to express or convey; \"You never understand what I mean!\"; \"what do his words intend?\""
+        angloform:
+          status: gap
+      - wordnet: "02635189"
+        gloss: "have as a logical consequence; \"The water shortage means that we have to stop taking long showers\""
+        angloform:
+          status: gap
+      - wordnet: "00931852"
+        gloss: "denote or connote; \"`maison' means `house' in French\"; \"An example sentence would show what this word means\""
+        angloform:
+          status: gap
+      - wordnet: "00708538"
+        gloss: "have in mind as a purpose; \"I mean no harm\"; \"I only meant to help you\"; \"She didn't think to harm me\"; \"We thought to return early that night\""
+        angloform:
+          status: gap
+      - wordnet: "02742482"
+        gloss: "have a specified degree of importance; \"My ex-husband means nothing to me\"; \"Happiness means everything\""
+        angloform:
+          status: gap
+      - wordnet: "00730052"
+        gloss: "intend to refer to; \"I'm thinking of good food when I talk about France\"; \"Yes, I meant you when I complained about people who gossip!\""
+        angloform:
+          status: gap
+      - wordnet: "00708840"
+        gloss: "destine or designate for a certain purpose; \"These flowers were meant for you\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01594146"
+        gloss: "approximating the statistical norm or average or expected value; \"the average income in New England is below that of the nation\"; \"of average height for his age\"; \"the mean annual rainfall\""
+        angloform:
+          status: gap
+      - wordnet: "01587787"
+        gloss: "characterized by malice; \"a hateful thing to do\"; \"in a mean mood\""
+        angloform:
+          status: gap
+      - wordnet: "01589650"
+        gloss: "having or showing an ignoble lack of honor or morality; \"that liberal obedience without which your army would be a base rabble\"- Edmund Burke; \"taking a mean advantage\"; \"chok'd with ambition of the meaner sort\"- Shakespeare; \"something essentially vulgar and meanspirited in politics\""
+        angloform:
+          status: redirect
+          word: base
+          category: ADJ
+      - wordnet: "02227663"
+        gloss: "excellent; \"famous for a mean backhand\""
+        angloform:
+          status: gap
+      - wordnet: "02025718"
+        gloss: "marked by poverty befitting a beggar; \"a beggarly existence in the slums\"; \"a mean hut\""
+        angloform:
+          status: gap
+      - wordnet: "01113807"
+        gloss: "(used of persons or behavior) characterized by or indicative of lack of generosity; \"a mean person\"; \"he left a miserly tip\""
+        angloform:
+          status: gap
+      - wordnet: "01112969"
+        gloss: (used of sums of money) so small in amount as to deserve contempt
+        angloform:
+          status: gap
+      - wordnet: "00905039"
+        gloss: "of no value or worth; \"I was caught in the bastardly traffic\""
+        angloform:
+          status: gap

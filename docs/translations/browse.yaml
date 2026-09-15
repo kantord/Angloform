@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08437317"
+        gloss: "vegetation (such as young shoots, twigs, and leaves) that is suitable for animals to eat; \"a deer needs to eat twenty pounds of browse every day\""
+        angloform:
+          status: gap
+      - wordnet: "06598648"
+        gloss: reading superficially or at random
+        angloform:
+          status: gap
+      - wordnet: "00839023"
+        gloss: the act of feeding by continual nibbling
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02326355"
+        gloss: "shop around; not necessarily buying; \"I don't need help, I'm just browsing\""
+        angloform:
+          status: gap
+      - wordnet: "01576165"
+        gloss: "feed as in a meadow or pasture; \"the herd was grazing\""
+        angloform:
+          status: gap
+      - wordnet: "01315333"
+        gloss: "look around casually and randomly, without seeking anything in particular; \"browse a computer directory\"; \"surf the internet or the world wide web\""
+        angloform:
+          status: gap
+      - wordnet: "01174742"
+        gloss: "eat lightly, try different dishes; \"There was so much food at the party that we quickly got sated just by browsing\""
+        angloform:
+          status: gap

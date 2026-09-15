@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04208936"
+        gloss: "a plumbing fixture that sprays water over you; \"they installed a shower in the bathroom\""
+        angloform:
+          status: gap
+      - wordnet: "00257580"
+        gloss: "washing yourself by standing upright under water sprayed from a nozzle; \"he took a shower after the game\""
+        angloform:
+          status: gap
+      - wordnet: "11502497"
+        gloss: "a brief period of precipitation; \"the game was interrupted by a brief shower\""
+        angloform:
+          status: gap
+      - wordnet: "07363668"
+        gloss: "a sudden downpour (as of tears or sparks etc) likened to a rain shower; \"a little shower of rose petals\"; \"a sudden cascade of sparks\""
+        angloform:
+          status: gap
+      - wordnet: "10070563"
+        gloss: someone who organizes an exhibit for others to see
+        angloform:
+          status: gap
+      - wordnet: "08255795"
+        gloss: "a party of friends assembled to present gifts (usually of a specified kind) to a person; \"her friends organized a baby shower for her when she was expecting\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02264601"
+        gloss: "expend profusely; also used with abstract nouns; \"He was showered with praise\""
+        angloform:
+          status: gap
+      - wordnet: "01372994"
+        gloss: "spray or sprinkle with; \"The guests showered rice on the couple\""
+        angloform:
+          status: gap
+      - wordnet: "00035259"
+        gloss: "take a shower; wash one's body in the shower; \"You should shower after vigorous exercise\""
+        angloform:
+          status: gap
+      - wordnet: "02757651"
+        gloss: "rain abundantly; \"Meteors showered down over half of Australia\""
+        angloform:
+          status: gap
+      - wordnet: "01184333"
+        gloss: "provide abundantly with; \"He showered her with presents\""
+        angloform:
+          status: gap

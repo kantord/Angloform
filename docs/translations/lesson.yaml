@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00889472"
+        gloss: "a unit of instruction; \"he took driving lessons\""
+        angloform:
+          status: gap
+      - wordnet: "06672752"
+        gloss: "punishment intended as a warning to others; \"they decided to make an example of him\""
+        angloform:
+          status: redirect
+          word: example
+          category: NOUN
+      - wordnet: "06606044"
+        gloss: "the significance of a story or event; \"the moral of the story is to love thy neighbor\""
+        angloform:
+          status: gap
+      - wordnet: "00729285"
+        gloss: "a task assigned for individual study; \"he did the lesson for today\""
+        angloform:
+          status: gap

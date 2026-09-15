@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06492664"
+        gloss: a detailed list of all the items in stock
+        angloform:
+          status: gap
+      - wordnet: "04321534"
+        gloss: "the merchandise that a shop has on hand; \"they carried a vast inventory of hardware\"; \"they stopped selling in exact sizes in order to reduce inventory\""
+        angloform:
+          status: gap
+      - wordnet: "13412533"
+        gloss: "(accounting) the value of a firm's current assets including raw materials and work in progress and finished goods"
+        angloform:
+          status: gap
+      - wordnet: "05634059"
+        gloss: "a collection of resources; \"he dipped into his intellectual armory to find an answer\""
+        angloform:
+          status: gap
+      - wordnet: "01011425"
+        gloss: "making an itemized list of merchandise or supplies on hand; \"an inventory may be necessary to see if anything is missing\"; \"they held an inventory every month\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02472495"
+        gloss: "make or include in an itemized record or report; \"Inventory all books before the end of the year\""
+        angloform:
+          status: gap

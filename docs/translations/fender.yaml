@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03327841"
+        gloss: "a barrier that surrounds the wheels of a vehicle to block splashing water or mud; \"in Britain they call a fender a wing\""
+        angloform:
+          status: gap
+      - wordnet: "03328201"
+        gloss: an inclined metal frame at the front of a locomotive to clear the track
+        angloform:
+          status: gap
+      - wordnet: "03328076"
+        gloss: a low metal guard to confine falling coals to a hearth
+        angloform:
+          status: gap
+      - wordnet: "02911158"
+        gloss: a cushion-like device that reduces shock due to an impact
+        angloform:
+          status: gap

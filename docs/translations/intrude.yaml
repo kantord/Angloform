@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02018524"
+        gloss: "enter uninvited; \"They intruded on our dinner party\"; \"She irrupted into our sitting room\""
+        angloform:
+          status: gap
+      - wordnet: "02571251"
+        gloss: "enter unlawfully on someone's property; \"Don't trespass on my land!\""
+        angloform:
+          status: gap
+      - wordnet: "02169119"
+        gloss: "search or inquire in a meddlesome way; \"This guy is always nosing around the office\""
+        angloform:
+          status: gap
+      - wordnet: "00747757"
+        gloss: "thrust oneself in as if by force; \"The colors don't intrude on the viewer\""
+        angloform:
+          status: gap

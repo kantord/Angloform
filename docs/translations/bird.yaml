@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01503061"
+        gloss: warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings
+        angloform:
+          status: gap
+      - wordnet: "07644382"
+        gloss: the flesh of a bird or fowl (wild or domestic) used as food
+        angloform:
+          status: gap
+      - wordnet: "09989045"
+        gloss: informal terms for a (young) woman
+        angloform:
+          status: gap
+      - wordnet: "07123870"
+        gloss: a cry or noise made to express displeasure or contempt
+        angloform:
+          status: gap
+      - wordnet: "04212282"
+        gloss: badminton equipment consisting of a ball of cork or rubber with a crown of feathers
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01139865"
+        gloss: watch and study birds in their natural habitat
+        angloform:
+          status: gap

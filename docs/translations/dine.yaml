@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01167981"
+        gloss: "have supper; eat dinner; \"We often dine with friends in this restaurant\""
+        angloform:
+          status: gap
+      - wordnet: "01167780"
+        gloss: "give dinner to; host for dinner; \"I'm wining and dining my friends\""
+        angloform:
+          status: gap

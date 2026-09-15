@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04700642"
+        gloss: "a decorative texture or appearance of a surface (or the substance that gives it that appearance); \"the boat had a metallic finish\"; \"he applied a coat of a clear finish\"; \"when the finish is too thin it is difficult to apply evenly\""
+        angloform:
+          status: gap
+      - wordnet: "15267536"
+        gloss: "the temporal end; the concluding time; \"the stopping point of each round was signaled by a bell\"; \"the market was up at the finish\"; \"they were playing better at the close of the season\""
+        angloform:
+          status: redirect
+          word: conclusion
+          category: NOUN
+      - wordnet: "14459824"
+        gloss: "a highly developed state of perfection; having a flawless or impeccable quality; \"they performed with great polish\"; \"I admired the exquisite refinement of his prose\"; \"almost an inspiration which gives to all work that finish which is almost art\"--Joseph Conrad"
+        angloform:
+          status: gap
+      - wordnet: "08567877"
+        gloss: "the place designated as the end (as of a race or journey); \"a crowd assembled at the finish\"; \"he was nearly exhausted as their destination came into view\""
+        angloform:
+          status: redirect
+          word: goal
+          category: NOUN
+      - wordnet: "07353376"
+        gloss: "designated event that concludes a contest (especially a race); \"excitement grew as the finish neared\"; \"my horse was several lengths behind at the finish\"; \"the winner is the team with the most points at the finish\""
+        angloform:
+          status: gap
+      - wordnet: "07333162"
+        gloss: "the downfall of someone (as of persons on one side of a conflict); \"booze will be the finish of him\"; \"it was a fight to the finish\""
+        angloform:
+          status: gap
+      - wordnet: "07291312"
+        gloss: "event whose occurrence ends something; \"his death marked the ending of an era\"; \"when these final episodes are broadcast it will be the finish of the show\""
+        angloform:
+          status: redirect
+          word: conclusion
+          category: NOUN
+      - wordnet: "05717747"
+        gloss: "(wine tasting) the taste of a wine on the back of the tongue (as it is swallowed); \"the wine has a nutty flavor and a pleasant finish\""
+        angloform:
+          status: gap
+      - wordnet: "00210518"
+        gloss: "the act of finishing; \"his best finish in a major tournament was third\"; \"the speaker's finishing was greeted with applause\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00484166"
+        gloss: "come or bring to a finish or an end; \"He finished the dishes\"; \"She completed the requirements for her Master's Degree\"; \"The fastest runner finished the race in just over 2 hours; others finished in over 4 hours\""
+        angloform:
+          status: gap
+      - wordnet: "00352558"
+        gloss: "finally be or do something; \"He ended up marrying his high school sweetheart\"; \"he wound up being unemployed and living at home again\""
+        angloform:
+          status: gap
+      - wordnet: "02609764"
+        gloss: "have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical; \"the bronchioles terminate in a capillary bed\"; \"Your rights stop where you infringe upon the rights of other\"; \"My property ends by the bushes\"; \"The symphony ends in a pianissimo\""
+        angloform:
+          status: redirect
+          word: stop
+          category: VERB_TRANS
+      - wordnet: "01265989"
+        gloss: "provide with a finish; \"The carpenter finished the table beautifully\"; \"this shirt is not finished properly\""
+        angloform:
+          status: gap
+      - wordnet: "01196802"
+        gloss: "finish eating all the food on one's plate or on the table; \"She polished off the remaining potatoes\""
+        angloform:
+          status: gap
+      - wordnet: "00351963"
+        gloss: "cause to finish a relationship with somebody; \"That finished me with Mary\""
+        angloform:
+          status: gap

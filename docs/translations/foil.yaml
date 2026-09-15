@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03375694"
+        gloss: "a piece of thin and flexible sheet metal; \"the photographic film was wrapped in foil\""
+        angloform:
+          status: gap
+      - wordnet: "05853924"
+        gloss: "anything that serves by contrast to call attention to another thing's good qualities; \"pretty girls like plain friends as foils\""
+        angloform:
+          status: gap
+      - wordnet: "03553019"
+        gloss: "a device consisting of a flat or curved piece (as a metal plate) so that its surface reacts to the water it is passing through; \"the fins of a fish act as hydrofoils\""
+        angloform:
+          status: gap
+      - wordnet: "03375956"
+        gloss: picture consisting of a positive photograph or drawing on a transparent base; viewed with a projector
+        angloform:
+          status: redirect
+          word: transparency
+          category: NOUN
+      - wordnet: "03375575"
+        gloss: a light slender flexible sword tipped by a button
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02739688"
+        gloss: "enhance by contrast; \"In this picture, the figures are foiled against the background\""
+        angloform:
+          status: gap
+      - wordnet: "02558172"
+        gloss: "hinder or prevent (the efforts, plans, or desires) of; \"What ultimately frustrated every challenger was Ruth's amazing September surge\"; \"foil your opponent\""
+        angloform:
+          status: gap
+      - wordnet: "01335075"
+        gloss: "cover or back with foil; \"foil mirrors\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00937985"
+        gloss: "having come to an end or become void after passage of a period of time; \"an expired passport\"; \"caught driving with an expired license\""
+        angloform:
+          status: gap

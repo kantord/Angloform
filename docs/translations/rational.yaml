@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13730469"
+        gloss: an integer or a fraction
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01925372"
+        gloss: "consistent with or based on or using reason; \"rational behavior\"; \"a process of rational inference\"; \"rational thought\""
+        angloform:
+          status: gap
+      - wordnet: "01780343"
+        gloss: "of or associated with or requiring the use of the mind; \"intellectual problems\"; \"the triumph of the rational over the animal side of man\""
+        angloform:
+          status: gap
+      - wordnet: "02929901"
+        gloss: "capable of being expressed as a quotient of integers; \"rational numbers\""
+        angloform:
+          status: gap
+      - wordnet: "01333118"
+        gloss: "having its source in or being guided by the intellect (as distinguished from experience or emotion); \"a rational analysis\""
+        angloform:
+          status: gap

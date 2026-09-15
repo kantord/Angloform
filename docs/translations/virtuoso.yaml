@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09762509"
+        gloss: someone who is dazzlingly skilled in any field
+        angloform:
+          status: gap
+      - wordnet: "10755512"
+        gloss: a musician who is a consummate master of technique and artistry
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02226979"
+        gloss: "having or revealing supreme mastery or skill; \"a consummate artist\"; \"consummate skill\"; \"a masterful speaker\"; \"masterful technique\"; \"a masterly performance of the sonata\"; \"a virtuoso performance\""
+        angloform:
+          status: gap

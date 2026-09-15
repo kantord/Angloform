@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00511555"
+        gloss: a festival marked by merrymaking and processions
+        angloform:
+          status: gap
+      - wordnet: "00552679"
+        gloss: "a frenetic disorganized (and often comic) disturbance suggestive of a large public entertainment; \"it was so funny it was a circus\"; \"the whole occasion had a carnival atmosphere\""
+        angloform:
+          status: gap
+      - wordnet: "00519333"
+        gloss: a traveling show; having sideshows and rides and games of skill etc.
+        angloform:
+          status: gap

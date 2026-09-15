@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14881303"
+        gloss: a brittle transparent solid with irregular atomic structure
+        angloform:
+          status: gap
+      - wordnet: "03438257"
+        gloss: a container for holding liquids while drinking
+        angloform:
+          status: gap
+      - wordnet: "13767239"
+        gloss: the quantity a glass will hold
+        angloform:
+          status: gap
+      - wordnet: "03333129"
+        gloss: a small refracting telescope
+        angloform:
+          status: gap
+      - wordnet: "03754295"
+        gloss: an amphetamine derivative (trade name Methedrine) used in the form of a crystalline hydrochloride; used as a stimulant to the nervous system and as an appetite suppressant
+        angloform:
+          status: gap
+      - wordnet: "03688832"
+        gloss: "a mirror; usually a ladies' dressing mirror"
+        angloform:
+          status: gap
+      - wordnet: "03438661"
+        gloss: "glassware collectively; \"She collected old glass\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02335363"
+        gloss: "furnish with glass; \"glass the windows\""
+        angloform:
+          status: gap
+      - wordnet: "02152690"
+        gloss: scan (game in the forest) with binoculars
+        angloform:
+          status: gap
+      - wordnet: "01587575"
+        gloss: "enclose with glass; \"glass in a porch\""
+        angloform:
+          status: gap
+      - wordnet: "00188580"
+        gloss: put in a glass container
+        angloform:
+          status: gap
+      - wordnet: "00125447"
+        gloss: "become glassy or take on a glass-like appearance; \"Her eyes glaze over when she is bored\""
+        angloform:
+          status: gap

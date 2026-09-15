@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03647423"
+        gloss: a motorboat with an open deck or a half deck
+        angloform:
+          status: gap
+      - wordnet: "00103140"
+        gloss: the act of propelling with force
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02427103"
+        gloss: "set up or found; \"She set up a literacy program\""
+        angloform:
+          status: gap
+      - wordnet: "01514655"
+        gloss: "propel with force; \"launch the space shuttle\"; \"Launch a ship\""
+        angloform:
+          status: gap
+      - wordnet: "01515415"
+        gloss: "launch for the first time; launch on a maiden voyage; \"launch a ship\""
+        angloform:
+          status: gap
+      - wordnet: "00347918"
+        gloss: "begin with vigor; \"He launched into a long diatribe\"; \"She plunged into a dangerous adventure\""
+        angloform:
+          status: gap
+      - wordnet: "01515196"
+        gloss: "get going; give impetus to; \"launch a career\"; \"Her actions set in motion a complicated judicial process\""
+        angloform:
+          status: gap
+      - wordnet: "01253363"
+        gloss: "smoothen the surface of; \"launch plaster\""
+        angloform:
+          status: gap

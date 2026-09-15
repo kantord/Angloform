@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04493505"
+        gloss: conduit consisting of a long hollow object (usually cylindrical) used to hold and conduct objects or liquids or gases
+        angloform:
+          status: gap
+      - wordnet: "04494204"
+        gloss: electronic device consisting of a system of electrodes arranged in an evacuated glass or metal envelope
+        angloform:
+          status: gap
+      - wordnet: "13901321"
+        gloss: a hollow cylindrical shape
+        angloform:
+          status: gap
+      - wordnet: "05246511"
+        gloss: (anatomy) any hollow cylindrical body structure
+        angloform:
+          status: gap
+      - wordnet: "03757138"
+        gloss: "an electric railway operating below the surface of the ground (usually in a city); \"in Paris the subway system is called the `metro' and in London it is called the `tube' or the `underground'\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02329292"
+        gloss: provide with a tube or insert a tube into
+        angloform:
+          status: gap
+      - wordnet: "02079525"
+        gloss: "convey in a tube; \"inside Paris, they used to tube mail\""
+        angloform:
+          status: gap
+      - wordnet: "01840929"
+        gloss: "ride or float on an inflated tube; \"We tubed down the river on a hot summer day\""
+        angloform:
+          status: gap
+      - wordnet: "01580928"
+        gloss: place or enclose in a tube
+        angloform:
+          status: gap

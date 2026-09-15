@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14031523"
+        gloss: "poised for action; \"their guns were at the ready\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01664172"
+        gloss: "prepare for eating by applying heat; \"Cook me dinner, please\"; \"can you make me an omelette?\"; \"fix breakfast for the guests, please\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "00406243"
+        gloss: "make ready or suitable or equip in advance for a particular purpose or for some use, event, etc; \"Get the children ready for school!\"; \"prepare for war\"; \"I was fixing to leave town after I paid the hotel bill\""
+        angloform:
+          status: redirect
+          word: fix
+          category: VERB_TRANS
+  ADJ:
+    senses:
+      - wordnet: "01930512"
+        gloss: "completely prepared or in condition for immediate action or use or progress; \"get ready\"; \"she is ready to resign\"; \"the bridge is ready to collapse\"; \"I am ready to work\"; \"ready for action\"; \"ready for use\"; \"the soup will be ready in a minute\"; \"ready to learn to read\""
+        angloform:
+          status: gap
+      - wordnet: "00185759"
+        gloss: "(of especially money) immediately available; \"he seems to have ample ready money\"; \"a ready source of cash\""
+        angloform:
+          status: gap
+      - wordnet: "02565701"
+        gloss: "mentally disposed; \"he was ready to believe her\""
+        angloform:
+          status: gap
+      - wordnet: "01844742"
+        gloss: "made suitable and available for immediate use; \"dinner is ready\""
+        angloform:
+          status: gap
+      - wordnet: "01335903"
+        gloss: "apprehending and responding with speed and sensitivity; \"a quick mind\"; \"a ready wit\""
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00674607"
+        gloss: "pick out, select, or choose from a number of alternatives; \"Take any one of these cards\"; \"Choose a good husband for your daughter\"; \"She selected a pair of shoes from among the dozen the salesgirl had shown her\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+  ADJ:
+    senses:
+      - wordnet: "02342899"
+        gloss: "of superior grade; \"choice wines\"; \"prime beef\"; \"prize carnations\"; \"quality paper\"; \"select peaches\""
+        angloform:
+          status: gap
+      - wordnet: "02342309"
+        gloss: "selected or chosen for special qualifications; \"the blue-ribbon event of the season\""
+        angloform:
+          status: gap

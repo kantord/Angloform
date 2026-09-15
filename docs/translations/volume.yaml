@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13779032"
+        gloss: "the amount of 3-dimensional space occupied by an object; \"the gas expanded to twice its original volume\""
+        angloform:
+          status: gap
+      - wordnet: "05099389"
+        gloss: "the property of something that is great in magnitude; \"it is cheaper to buy it in bulk\"; \"he received a mass of correspondence\"; \"the volume of exports\""
+        angloform:
+          status: gap
+      - wordnet: "02870092"
+        gloss: "physical objects consisting of a number of pages bound together; \"he used a large book as a doorstop\""
+        angloform:
+          status: gap
+      - wordnet: "06413666"
+        gloss: "a publication that is one of a set of several similar publications; \"the third volume was missing\"; \"he asked for the 1989 volume of the Annual Review\""
+        angloform:
+          status: gap
+      - wordnet: "13779244"
+        gloss: "a relative amount; \"mix one volume of the solution with ten volumes of water\""
+        angloform:
+          status: gap
+      - wordnet: "04990220"
+        gloss: "the magnitude of sound (usually in a specified direction); \"the kids played their music at full volume\""
+        angloform:
+          status: gap

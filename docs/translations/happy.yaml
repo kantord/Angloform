@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01148283"
+        gloss: "enjoying or showing or marked by joy or pleasure; \"a happy smile\"; \"spent many happy days on the beach\"; \"a happy marriage\""
+        angloform:
+          status: gap
+      - wordnet: "01048406"
+        gloss: "marked by good fortune; \"a felicitous life\"; \"a happy outcome\""
+        angloform:
+          status: gap
+      - wordnet: "02565583"
+        gloss: "eagerly disposed to act or to be of service; \"glad to help\""
+        angloform:
+          status: gap
+      - wordnet: "01000442"
+        gloss: "well expressed and to the point; \"a happy turn of phrase\"; \"a few well-chosen words\""
+        angloform:
+          status: gap

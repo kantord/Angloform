@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00097022"
+        gloss: "having the physical appearance of death; \"a deathly pallor\""
+        angloform:
+          status: gap
+      - wordnet: "00993667"
+        gloss: "causing or capable of causing death; \"a fatal accident\"; \"a deadly enemy\"; \"mortal combat\"; \"a mortal illness\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00254527"
+        gloss: "to a degree resembling death; \"he was deathly pale\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

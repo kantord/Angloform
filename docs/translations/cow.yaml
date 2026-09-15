@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02403454"
+        gloss: "female of domestic cattle: \"`moo-cow' is a child's term\""
+        angloform:
+          status: gap
+      - wordnet: "01887787"
+        gloss: "mature female of mammals of which the male is called `bull'"
+        angloform:
+          status: gap
+      - wordnet: "09972587"
+        gloss: a large unpleasant woman
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01779803"
+        gloss: subdue, restrain, or overcome by affecting with a feeling of awe; frighten (as with threats)
+        angloform:
+          status: gap

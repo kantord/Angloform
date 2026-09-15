@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02271137"
+        gloss: "make an investment; \"Put money into bonds\""
+        angloform:
+          status: redirect
+          word: put
+          category: VERB_TRANS
+      - wordnet: "02474239"
+        gloss: give qualities or abilities to
+        angloform:
+          status: gap
+      - wordnet: "02386675"
+        gloss: furnish with power or authority; of kings or emperors
+        angloform:
+          status: gap
+      - wordnet: "02386388"
+        gloss: "provide with power and authority; \"They vested the council with special rights\""
+        angloform:
+          status: gap
+      - wordnet: "02384275"
+        gloss: "place ceremoniously or formally in an office or position; \"there was a ceremony to induct the president of the Academy\""
+        angloform:
+          status: gap

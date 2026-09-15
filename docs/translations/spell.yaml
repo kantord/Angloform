@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14407536"
+        gloss: a psychological state induced by (or as if induced by) a magical incantation
+        angloform:
+          status: gap
+      - wordnet: "15292069"
+        gloss: "a time for working (after which you will be relieved by someone else); \"it's my go\"; \"a spell of work\""
+        angloform:
+          status: gap
+      - wordnet: "15246353"
+        gloss: "a period of indeterminate length (usually short) marked by some action or condition; \"he was here for a little while\"; \"I need to rest for a piece\"; \"a spell of good weather\"; \"a patch of bad weather\""
+        angloform:
+          status: redirect
+          word: while
+          category: NOUN
+      - wordnet: "07159791"
+        gloss: "a verbal formula believed to have magical force; \"he whispered a spell as he moved his hands\"; \"inscribed around its base is a charm in Balinese\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00937879"
+        gloss: "orally recite the letters of or give the spelling of; \"How do you spell this word?\" \"We had to spell out our names for the police officer\""
+        angloform:
+          status: gap
+      - wordnet: "00932636"
+        gloss: "indicate or signify; \"I'm afraid this spells trouble!\""
+        angloform:
+          status: gap
+      - wordnet: "01699896"
+        gloss: "write or name the letters that comprise the conventionally accepted form of (a word or part of a word); \"He spelled the word wrong in this letter\""
+        angloform:
+          status: redirect
+          word: write
+          category: VERB_TRANS
+      - wordnet: "02412366"
+        gloss: "relieve (someone) from work by taking a turn; \"She spelled her husband at the wheel\""
+        angloform:
+          status: gap
+      - wordnet: "01064560"
+        gloss: place under a spell
+        angloform:
+          status: gap
+      - wordnet: "00121387"
+        gloss: "take turns working; \"the workers spell every four hours\""
+        angloform:
+          status: gap

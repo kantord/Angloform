@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02924116"
+        gloss: "a vehicle carrying many passengers; used for public transport; \"he always rode the bus to work\""
+        angloform:
+          status: gap
+      - wordnet: "05730591"
+        gloss: the topology of a network whose components are connected by a busbar
+        angloform:
+          status: gap
+      - wordnet: "02924713"
+        gloss: "an electrical conductor that makes a common connection between several circuits; \"the busbar in this computer can transmit data either way between any two components of the system\""
+        angloform:
+          status: gap
+      - wordnet: "02924554"
+        gloss: "a car that is old and unreliable; \"the fenders had fallen off that old bus\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01950128"
+        gloss: "send or move around by bus; \"The children were bussed to school\""
+        angloform:
+          status: gap
+      - wordnet: "01949110"
+        gloss: ride in a bus
+        angloform:
+          status: gap
+      - wordnet: "00180728"
+        gloss: remove used dishes from the table in restaurants
+        angloform:
+          status: gap

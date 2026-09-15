@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00033922"
+        gloss: "in the near future; \"the doctor will soon be here\"; \"the book will appear shortly\"; \"she will arrive presently\"; \"we should have news before long\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

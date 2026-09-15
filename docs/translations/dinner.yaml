@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07575726"
+        gloss: "the main meal of the day served in the evening or at midday; \"dinner will be at 8\"; \"on Sundays they had a large dinner when they returned from church\""
+        angloform:
+          status: gap
+      - wordnet: "08253815"
+        gloss: "a party of people assembled to have dinner together; \"guests should never be late to a dinner party\""
+        angloform:
+          status: gap

@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02331046"
+        gloss: any of various long-tailed rodents similar to but larger than a mouse
+        angloform:
+          status: gap
+      - wordnet: "10554455"
+        gloss: someone who works (or provides workers) during a strike
+        angloform:
+          status: gap
+      - wordnet: "10539715"
+        gloss: "a person who is deemed to be despicable or contemptible; \"only a rotter would do that\"; \"kill the rat\"; \"throw the bum out\"; \"you cowardly little pukes!\"; \"the British call a contemptible person a `git'\""
+        angloform:
+          status: gap
+      - wordnet: "10206173"
+        gloss: one who reveals confidential information in return for money
+        angloform:
+          status: gap
+      - wordnet: "04055030"
+        gloss: "a pad (usually made of hair) worn as part of a woman's coiffure"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02584475"
+        gloss: "desert one's party or group of friends, for example, for one's personal advantage"
+        angloform:
+          status: gap
+      - wordnet: "02413140"
+        gloss: employ scabs or strike breakers in
+        angloform:
+          status: gap
+      - wordnet: "02412939"
+        gloss: take the place of work of someone on strike
+        angloform:
+          status: gap
+      - wordnet: "01527135"
+        gloss: give (hair) the appearance of being fuller by using a rat
+        angloform:
+          status: gap
+      - wordnet: "01480641"
+        gloss: catch rats, especially with dogs
+        angloform:
+          status: gap
+      - wordnet: "00841986"
+        gloss: "give away information about somebody; \"He told on his classmate who had cheated on the exam\""
+        angloform:
+          status: gap

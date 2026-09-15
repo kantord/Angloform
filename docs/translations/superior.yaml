@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10676018"
+        gloss: one of greater rank or station or quality
+        angloform:
+          status: gap
+      - wordnet: "10675876"
+        gloss: the head of a religious community
+        angloform:
+          status: gap
+      - wordnet: "10752930"
+        gloss: a combatant who is able to defeat rivals
+        angloform:
+          status: gap
+      - wordnet: "09333171"
+        gloss: the largest freshwater lake in the world; the deepest of the Great Lakes
+        angloform:
+          status: gap
+      - wordnet: "09158649"
+        gloss: a town in northwest Wisconsin on Lake Superior across from Duluth
+        angloform:
+          status: gap
+      - wordnet: "06820023"
+        gloss: a character or symbol set or printed or written above and immediately to one side of another character
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02341266"
+        gloss: "of high or superior quality or performance; \"superior wisdom derived from experience\"; \"superior math students\""
+        angloform:
+          status: gap
+      - wordnet: "02338615"
+        gloss: "of or characteristic of high rank or importance; \"a superior ruler\""
+        angloform:
+          status: gap
+      - wordnet: "00792769"
+        gloss: "(sometimes followed by `to') not subject to or influenced by; \"overcome by a superior opponent\"; \"trust magnates who felt themselves superior to law\""
+        angloform:
+          status: gap
+      - wordnet: "02349685"
+        gloss: written or printed above and to one side of another character
+        angloform:
+          status: gap
+      - wordnet: "02348482"
+        gloss: "having an orbit farther from the sun than the Earth's orbit; \"Mars and Jupiter are the closest in of the superior planets\""
+        angloform:
+          status: gap
+      - wordnet: "02100566"
+        gloss: "having a higher rank; \"superior officer\""
+        angloform:
+          status: gap
+      - wordnet: "00072436"
+        gloss: "(often followed by `to') above being affected or influenced by; \"he is superior to fear\"; \"an ignited firework proceeds superior to circumstances until its blazing vitality fades\""
+        angloform:
+          status: gap

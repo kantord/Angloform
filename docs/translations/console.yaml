@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03092883"
+        gloss: a small table fixed to a wall or designed to stand against a wall
+        angloform:
+          status: gap
+      - wordnet: "03092656"
+        gloss: a scientific instrument consisting of displays and an input device that an operator can use to monitor and control a system (especially a computer system)
+        angloform:
+          status: gap
+      - wordnet: "03092476"
+        gloss: "an ornamental scroll-shaped bracket (especially one used to support a wall fixture); \"the bust of Napoleon stood on a console\""
+        angloform:
+          status: gap
+      - wordnet: "02933340"
+        gloss: housing for electronic instruments, as radio or television
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01814815"
+        gloss: give moral or emotional strength to
+        angloform:
+          status: gap

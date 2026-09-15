@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02956371"
+        gloss: "of or relating to communication; \"communicative arts\""
+        angloform:
+          status: gap
+      - wordnet: "00494907"
+        gloss: "able or tending to communicate; \"was a communicative person and quickly told all she knew\"- W.M.Thackeray"
+        angloform:
+          status: gap

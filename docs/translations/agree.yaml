@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00805376"
+        gloss: "be in accord; be in agreement; \"We agreed on the terms of the settlement\"; \"I can't agree with you!\"; \"I hold with those who say life is sacred\"; \"Both philosophers concord on this point\""
+        angloform:
+          status: redirect
+          word: hold
+          category: VERB_TRANS
+      - wordnet: "00764222"
+        gloss: "consent or assent to a condition, or agree to do something; \"She agreed to all my conditions\"; \"He agreed to leave her alone\""
+        angloform:
+          status: gap
+      - wordnet: "02657219"
+        gloss: "be compatible, similar or consistent; coincide in their characteristics; \"The two stories don't agree in many details\"; \"The handwriting checks with the signature on the check\"; \"The suspect's fingerprints don't match those on the gun\""
+        angloform:
+          status: redirect
+          word: match
+          category: VERB_TRANS
+      - wordnet: "02700104"
+        gloss: "go together; \"The colors don't harmonize\"; \"Their ideas concorded\""
+        angloform:
+          status: gap
+      - wordnet: "02741793"
+        gloss: "show grammatical agreement; \"Subjects and verbs must always agree in English\""
+        angloform:
+          status: gap
+      - wordnet: "02291135"
+        gloss: "be agreeable or suitable; \"White wine doesn't agree with me\""
+        angloform:
+          status: gap
+      - wordnet: "01035530"
+        gloss: "achieve harmony of opinion, feeling, or purpose; \"No two of my colleagues would agree on whom to elect chairman\""
+        angloform:
+          status: gap

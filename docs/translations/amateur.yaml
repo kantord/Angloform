@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09786585"
+        gloss: someone who pursues a study or sport as a pastime
+        angloform:
+          status: gap
+      - wordnet: "09786760"
+        gloss: an athlete who does not play for pay
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01869634"
+        gloss: "engaged in as a pastime; \"an amateur painter\"; \"gained valuable experience in amateur theatricals\"; \"recreational golfers\"; \"reading matter that is both recreational and mentally stimulating\"; \"unpaid extras in the documentary\""
+        angloform:
+          status: gap
+      - wordnet: "01870636"
+        gloss: "lacking professional skill or expertise; \"a very amateurish job\"; \"inexpert but conscientious efforts\"; \"an unskilled painting\""
+        angloform:
+          status: gap

@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00112312"
+        gloss: "the act of applying force in order to move something away; \"he gave the door a hard push\"; \"the pushing is good exercise\""
+        angloform:
+          status: gap
+      - wordnet: "11498203"
+        gloss: "the force used in pushing; \"the push of the water on the walls of the tank\"; \"the thrust of the jet engines\""
+        angloform:
+          status: gap
+      - wordnet: "04836683"
+        gloss: "enterprising or ambitious drive; \"Europeans often laugh at American energy\""
+        angloform:
+          status: gap
+      - wordnet: "04027023"
+        gloss: "an electrical switch operated by pressing; \"the elevator was operated by push buttons\"; \"the push beside the bed operated a buzzer at the desk\""
+        angloform:
+          status: gap
+      - wordnet: "00282485"
+        gloss: "an effort to advance; \"the army made a push toward the sea\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01871979"
+        gloss: "move with force, \"He pushed the table into a corner\""
+        angloform:
+          status: gap
+      - wordnet: "00765977"
+        gloss: "press, drive, or impel (someone) to action or completion of an action; \"He pushed her to finish her doctorate\""
+        angloform:
+          status: gap
+      - wordnet: "00976653"
+        gloss: "make publicity for; try to sell (a product); \"The salesman is aggressively pushing the new computer model\"; \"The company is heavily advertizing their new laptops\""
+        angloform:
+          status: gap
+      - wordnet: "02406916"
+        gloss: "strive and make an effort to reach a goal; \"She tugged for years to make a decent living\"; \"We have to push a little to make the deadline!\"; \"She is driving away at her doctoral thesis\""
+        angloform:
+          status: gap
+      - wordnet: "01872645"
+        gloss: "press against forcefully without moving; \"she pushed against the wall with all her strength\""
+        angloform:
+          status: gap
+      - wordnet: "02054864"
+        gloss: "approach a certain age or speed; \"She is pushing fifty\""
+        angloform:
+          status: gap
+      - wordnet: "02589576"
+        gloss: "exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for; \"The liberal party pushed for reforms\"; \"She is crusading for women's rights\"; \"The Dean is pushing for his favorite candidate\""
+        angloform:
+          status: gap
+      - wordnet: "02245555"
+        gloss: "sell or promote the sale of (illegal goods such as drugs); \"The guy hanging around the school is pushing drugs\""
+        angloform:
+          status: gap
+      - wordnet: "01872877"
+        gloss: "move strenuously and with effort; \"The crowd pushed forward\""
+        angloform:
+          status: gap
+      - wordnet: "01447632"
+        gloss: "make strenuous pushing movements during birth to expel the baby; \"`Now push hard,' said the doctor to the woman\""
+        angloform:
+          status: gap

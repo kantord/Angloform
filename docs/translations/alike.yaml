@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01410606"
+        gloss: "having the same or similar characteristics; \"all politicians are alike\"; \"they looked utterly alike\"; \"friends are generally alike in background and taste\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00069672"
+        gloss: "equally; \"parents and teachers alike demanded reforms\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00069603"
+        gloss: "in a like manner; \"they walk alike\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

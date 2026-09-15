@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01783214"
+        gloss: "haunt like a ghost; pursue; \"Fear of illness haunts her\""
+        angloform:
+          status: gap
+      - wordnet: "01831143"
+        gloss: "be preoccupied with something; \"She is obsessing over her weight\""
+        angloform:
+          status: gap

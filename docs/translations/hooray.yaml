@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06692973"
+        gloss: "a victory cheer; \"let's give the team a big hurrah\""
+        angloform:
+          status: gap

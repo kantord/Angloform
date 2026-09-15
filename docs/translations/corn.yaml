@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "12143676"
+        gloss: "tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times"
+        angloform:
+          status: gap
+      - wordnet: "12144580"
+        gloss: the dried grains or kernels or corn used as animal feed or ground for meal
+        angloform:
+          status: gap
+      - wordnet: "07731952"
+        gloss: ears of corn that can be prepared and served for human food
+        angloform:
+          status: gap
+      - wordnet: "14364802"
+        gloss: a hard thickening of the skin (especially on the top or sides of the toes) caused by the pressure of ill-fitting shoes
+        angloform:
+          status: gap
+      - wordnet: "12144117"
+        gloss: (Great Britain) any of various cereal plants (especially the dominant crop of the region--wheat in Great Britain or oats in Scotland and Ireland)
+        angloform:
+          status: gap
+      - wordnet: "07906877"
+        gloss: whiskey distilled from a mash of not less than 80 percent corn
+        angloform:
+          status: gap
+      - wordnet: "04627809"
+        gloss: "something sentimental or trite; \"that movie was pure corn\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01179155"
+        gloss: feed (cattle) with corn
+        angloform:
+          status: gap
+      - wordnet: "00528225"
+        gloss: "preserve with salt; \"corned beef\""
+        angloform:
+          status: gap

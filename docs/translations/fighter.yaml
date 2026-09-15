@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09939313"
+        gloss: someone who fights (or is fighting)
+        angloform:
+          status: gap
+      - wordnet: "03335030"
+        gloss: a high-speed military or naval airplane designed to destroy enemy aircraft in the air
+        angloform:
+          status: gap
+      - wordnet: "09906538"
+        gloss: someone who fights for a cause
+        angloform:
+          status: gap

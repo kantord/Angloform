@@ -1,0 +1,35 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02554422"
+        gloss: "promote the growth of; \"Foster our children's well-being and education\""
+        angloform:
+          status: gap
+      - wordnet: "02554922"
+        gloss: "contribute to the progress or growth of; \"I am promoting the use of computers in the classroom\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00443988"
+        gloss: "more distant in especially degree; \"nothing could be further from the truth\"; \"further from our expectations\"; \"farther from the truth\"; \"farther from our expectations\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00029985"
+        gloss: "to or at a greater extent or degree or a more advanced stage (`further' is used more often than `farther' in this abstract sense); \"further complicated by uncertainty about the future\"; \"let's not discuss it further\"; \"nothing could be further from the truth\"; \"they are further along in their research than we expected\"; \"the application of the law was extended farther\"; \"he is going no farther in his studies\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00030443"
+        gloss: "in addition or furthermore; \"if we further suppose\"; \"stated further that he would not cooperate with them\"; \"they are definitely coming; further, they should be here already\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00029639"
+        gloss: "to or at a greater distance in time or space (`farther' is used more frequently than `further' in this physical sense); \"farther north\"; \"moved farther away\"; \"farther down the corridor\"; \"the practice may go back still farther to the Druids\"; \"went only three miles further\"; \"further in the future\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

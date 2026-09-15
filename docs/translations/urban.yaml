@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02821071"
+        gloss: "relating to or concerned with a city or densely populated area; \"urban sociology\"; \"urban development\""
+        angloform:
+          status: gap
+      - wordnet: "02052333"
+        gloss: "located in or characteristic of a city or city life; \"urban property owners\"; \"urban affairs\"; \"urban manners\""
+        angloform:
+          status: gap

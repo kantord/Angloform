@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04432043"
+        gloss: a crosspiece spreading the gunnels of a boat; used as a seat in a rowboat
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02558172"
+        gloss: "hinder or prevent (the efforts, plans, or desires) of; \"What ultimately frustrated every challenger was Ruth's amazing September surge\"; \"foil your opponent\""
+        angloform:
+          status: gap

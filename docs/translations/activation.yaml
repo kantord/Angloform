@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13426376"
+        gloss: stimulation of activity in an organism or chemical
+        angloform:
+          status: gap
+      - wordnet: "01046984"
+        gloss: the activity of causing to have energy and be active
+        angloform:
+          status: gap
+      - wordnet: "00236821"
+        gloss: making active and effective (as a bomb)
+        angloform:
+          status: gap

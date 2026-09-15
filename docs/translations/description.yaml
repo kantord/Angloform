@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06724763"
+        gloss: a statement that represents something in words
+        angloform:
+          status: gap
+      - wordnet: "07201365"
+        gloss: the act of describing something
+        angloform:
+          status: gap
+      - wordnet: "05840076"
+        gloss: "sort or variety; \"every description of book was there\""
+        angloform:
+          status: gap

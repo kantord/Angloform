@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14122497"
+        gloss: an acute febrile highly contagious viral disease
+        angloform:
+          status: gap

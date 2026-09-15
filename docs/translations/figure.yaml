@@ -1,0 +1,92 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06999647"
+        gloss: "a diagram or picture illustrating textual material; \"the area covered can be seen from Figure 2\""
+        angloform:
+          status: gap
+      - wordnet: "05217168"
+        gloss: "alternative names for the body of a human being; \"Leonardo studied the human body\"; \"he has a strong physique\"; \"the spirit is willing but the flesh is weak\""
+        angloform:
+          status: redirect
+          word: shape
+          category: NOUN
+      - wordnet: "13741022"
+        gloss: "one of the elements that collectively form a system of numeration; \"0 and 1 are digits\""
+        angloform:
+          status: redirect
+          word: digit
+          category: NOUN
+      - wordnet: "03335600"
+        gloss: "a model of a bodily form (especially of a person); \"he made a figure of Santa Claus\""
+        angloform:
+          status: gap
+      - wordnet: "10344443"
+        gloss: "a well-known or notable person; \"they studied all the great names in the history of France\"; \"she is an important figure in modern music\""
+        angloform:
+          status: gap
+      - wordnet: "13862780"
+        gloss: a combination of points and lines and planes that form a visible palpable shape
+        angloform:
+          status: gap
+      - wordnet: "13331634"
+        gloss: "an amount of money expressed numerically; \"a figure of $17 was suggested\""
+        angloform:
+          status: gap
+      - wordnet: "04675646"
+        gloss: "the impression produced by a person; \"he cut a fine figure\"; \"a heroic figure\""
+        angloform:
+          status: gap
+      - wordnet: "05121418"
+        gloss: "the property possessed by a sum or total or indefinite quantity of units or individuals; \"he had a number of chores to do\"; \"the number of parameters is small\"; \"the figure was about a thousand\""
+        angloform:
+          status: redirect
+          word: number
+          category: NOUN
+      - wordnet: "07105475"
+        gloss: language used in a figurative or nonliteral sense
+        angloform:
+          status: gap
+      - wordnet: "05930386"
+        gloss: a unitary percept having structure and coherence that is the object of attention and that stands out against a ground
+        angloform:
+          status: gap
+      - wordnet: "03178782"
+        gloss: "a decorative or artistic work; \"the coach had a design on the doors\""
+        angloform:
+          status: redirect
+          word: design
+          category: NOUN
+      - wordnet: "00556992"
+        gloss: "a predetermined set of movements in dancing or skating; \"she made the best score on compulsory figures\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00712135"
+        gloss: judge to be probable
+        angloform:
+          status: gap
+      - wordnet: "02722207"
+        gloss: "be or play a part of or in; \"Elections figure prominently in every government program\"; \"How do the elections figure in the current pattern of internal politics?\""
+        angloform:
+          status: redirect
+          word: enter
+          category: VERB_TRANS
+      - wordnet: "01635432"
+        gloss: "imagine; conceive of; see in one's mind; \"I can't see him on horseback!\"; \"I can see what will happen\"; \"I can see a risk in this strategy\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "00637259"
+        gloss: make a mathematical calculation or computation
+        angloform:
+          status: redirect
+          word: compute
+          category: VERB_TRANS
+      - wordnet: "00590241"
+        gloss: "understand; \"He didn't figure her\""
+        angloform:
+          status: gap

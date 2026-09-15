@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13837009"
+        gloss: "a business relation in which two parties compete to gain customers; \"business competition can be fiendish at times\""
+        angloform:
+          status: gap
+      - wordnet: "07456188"
+        gloss: an occasion on which a winner is selected from among two or more contestants
+        angloform:
+          status: gap
+      - wordnet: "01168569"
+        gloss: "the act of competing as for profit or a prize; \"the teams were in fierce contention for first place\""
+        angloform:
+          status: gap
+      - wordnet: "10533013"
+        gloss: "the contestant you hope to defeat; \"he had respect for his rivals\"; \"he wanted to know what the competition was doing\""
+        angloform:
+          status: gap

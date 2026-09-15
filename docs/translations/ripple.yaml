@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07344663"
+        gloss: a small wave on the surface of a liquid
+        angloform:
+          status: gap
+      - wordnet: "07345441"
+        gloss: (electronics) an oscillation of small amplitude imposed on top of a steady value
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02040054"
+        gloss: stir up (water) so as to form ripples
+        angloform:
+          status: gap
+      - wordnet: "02187922"
+        gloss: "flow in an irregular current with a bubbling noise; \"babbling brooks\""
+        angloform:
+          status: gap

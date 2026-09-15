@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00978413"
+        gloss: an attack by dropping bombs
+        angloform:
+          status: gap
+      - wordnet: "00979742"
+        gloss: the use of bombs for sabotage; a tactic frequently used by terrorists
+        angloform:
+          status: gap

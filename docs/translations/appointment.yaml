@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00163779"
+        gloss: "the act of putting a person into a non-elective position; \"the appointment had to be approved by the whole committee\""
+        angloform:
+          status: gap
+      - wordnet: "08385009"
+        gloss: "a meeting arranged in advance; \"she asked how to avoid kissing at the end of a date\""
+        angloform:
+          status: gap
+      - wordnet: "02730568"
+        gloss: (usually plural) furnishings and equipment (especially for a ship or hotel)
+        angloform:
+          status: gap
+      - wordnet: "09607630"
+        gloss: a person who is appointed to a job or position
+        angloform:
+          status: gap
+      - wordnet: "00586105"
+        gloss: "the job to which you are (or hope to be) appointed; \"he applied for an appointment in the treasury\""
+        angloform:
+          status: gap
+      - wordnet: "00090393"
+        gloss: "(law) the act of disposing of property by virtue of the power of appointment; \"she allocated part of the trust to her church by appointment\""
+        angloform:
+          status: gap

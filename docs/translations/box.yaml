@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02883344"
+        gloss: "a (usually rectangular) container; may have a lid; \"he rummaged through a box of spare parts\""
+        angloform:
+          status: gap
+      - wordnet: "02884225"
+        gloss: "private area in a theater or grandstand where a small group can watch the performance; \"the royal box was empty\""
+        angloform:
+          status: gap
+      - wordnet: "13765624"
+        gloss: "the quantity contained in a box; \"he gave her a box of chocolates\""
+        angloform:
+          status: gap
+      - wordnet: "14408951"
+        gloss: "a predicament from which a skillful or graceful escape is impossible; \"his lying got him into a tight corner\""
+        angloform:
+          status: redirect
+          word: corner
+          category: NOUN
+      - wordnet: "13883494"
+        gloss: "a rectangular drawing; \"the flowchart contained many boxes\""
+        angloform:
+          status: gap
+      - wordnet: "12746106"
+        gloss: evergreen shrubs or small trees
+        angloform:
+          status: gap
+      - wordnet: "02884607"
+        gloss: "any one of several designated areas on a ball field where the batter or catcher or coaches are positioned; \"the umpire warned the batter to stay in the batter's box\""
+        angloform:
+          status: gap
+      - wordnet: "02884450"
+        gloss: "the driver's seat on a coach; \"an armed guard sat in the box with the driver\""
+        angloform:
+          status: gap
+      - wordnet: "02884011"
+        gloss: "separate partitioned area in a public place for a few people; \"the sentry stayed in his box to avoid the cold\""
+        angloform:
+          status: gap
+      - wordnet: "00135148"
+        gloss: "a blow with the hand (usually on the ear); \"I gave him a good box on the ear\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01485158"
+        gloss: "put into a box; \"box the gift, please\""
+        angloform:
+          status: gap
+      - wordnet: "01420765"
+        gloss: "hit with the fist; \"I'll box your ears!\""
+        angloform:
+          status: gap
+      - wordnet: "01419982"
+        gloss: engage in a boxing match
+        angloform:
+          status: gap

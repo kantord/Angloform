@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09621359"
+        gloss: a person who lacks knowledge of evil
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01319874"
+        gloss: "free from evil or guilt; \"an innocent child\"; \"the principle that one is innocent until proved guilty\""
+        angloform:
+          status: gap
+      - wordnet: "01159907"
+        gloss: "lacking intent or capacity to injure; \"an innocent prank\""
+        angloform:
+          status: gap
+      - wordnet: "02513614"
+        gloss: free from sin
+        angloform:
+          status: gap
+      - wordnet: "02272670"
+        gloss: "lacking in sophistication or worldliness; \"a child's innocent stare\"; \"his ingenuous explanation that he would not have burned the church if he had not thought the bishop was in it\""
+        angloform:
+          status: gap
+      - wordnet: "01309220"
+        gloss: "not knowledgeable about something specified; \"American tourists wholly innocent of French\"; \"a person unacquainted with our customs\""
+        angloform:
+          status: gap
+      - wordnet: "00927978"
+        gloss: "completely wanting or lacking; \"writing barren of insight\"; \"young recruits destitute of experience\"; \"innocent of literary merit\"; \"the sentence was devoid of meaning\""
+        angloform:
+          status: redirect
+          word: free
+          category: ADJ
+      - wordnet: "00572392"
+        gloss: "(used of things) lacking sense or awareness; \"fine innocent weather\""
+        angloform:
+          status: gap

@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02778669"
+        gloss: "round object that is hit or thrown or kicked in games; \"the ball travelled 90 mph on his serve\"; \"the mayor threw out the first ball\"; \"the ball rolled into the corner pocket\""
+        angloform:
+          status: gap
+      - wordnet: "03802228"
+        gloss: "a solid projectile that is shot by a musket; \"they had to carry a ramrod as well as powder and ball\""
+        angloform:
+          status: gap
+      - wordnet: "13899404"
+        gloss: "an object with a spherical shape; \"a ball of fire\""
+        angloform:
+          status: gap
+      - wordnet: "08253268"
+        gloss: "the people assembled at a lavish formal dance; \"the ball was already emptying out before the fire alarm sounded\""
+        angloform:
+          status: gap
+      - wordnet: "05524615"
+        gloss: "one of the two male reproductive glands that produce spermatozoa and secrete androgens; \"she kicked him in the balls and got away\""
+        angloform:
+          status: gap
+      - wordnet: "02779435"
+        gloss: "a spherical object used as a plaything; \"he played with his rubber ball in the bathtub\""
+        angloform:
+          status: gap
+      - wordnet: "10832731"
+        gloss: United States comedienne best known as the star of a popular television program (1911-1989)
+        angloform:
+          status: gap
+      - wordnet: "07961016"
+        gloss: "a compact mass; \"a ball of mud caught him on the shoulder\""
+        angloform:
+          status: gap
+      - wordnet: "07448885"
+        gloss: a lavish dance requiring formal attire
+        angloform:
+          status: gap
+      - wordnet: "05576194"
+        gloss: "a more or less rounded anatomical body or mass; \"the ball at the base of the thumb\"; \"he stood on the balls of his feet\""
+        angloform:
+          status: gap
+      - wordnet: "00474568"
+        gloss: the game of baseball
+        angloform:
+          status: gap
+      - wordnet: "00107400"
+        gloss: "a pitch that is not in the strike zone; \"he threw nine straight balls before the manager yanked him\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01523270"
+        gloss: "form into a ball by winding or rolling; \"ball wool\""
+        angloform:
+          status: gap

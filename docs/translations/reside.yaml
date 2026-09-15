@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02650552"
+        gloss: "make one's home in a particular place or community; \"may parents reside in Florida\""
+        angloform:
+          status: gap
+      - wordnet: "02648639"
+        gloss: "live (in a certain place); \"She resides in Princeton\"; \"he occupies two rooms on the top floor\""
+        angloform:
+          status: gap
+      - wordnet: "02664664"
+        gloss: be inherent or innate in;
+        angloform:
+          status: gap

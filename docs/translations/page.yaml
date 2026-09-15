@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06256697"
+        gloss: one side of one leaf (of a book or magazine or newspaper or letter etc.) or the written or pictorial matter it contains
+        angloform:
+          status: gap
+      - wordnet: "11220149"
+        gloss: English industrialist who pioneered in the design and manufacture of aircraft (1885-1962)
+        angloform:
+          status: gap
+      - wordnet: "11219992"
+        gloss: United States diplomat and writer about the Old South (1853-1922)
+        angloform:
+          status: gap
+      - wordnet: "10391416"
+        gloss: a boy who is employed to run errands
+        angloform:
+          status: gap
+      - wordnet: "10391248"
+        gloss: a youthful attendant at official functions or ceremonies such as legislative functions and weddings
+        angloform:
+          status: gap
+      - wordnet: "10391086"
+        gloss: "in medieval times a youth acting as a knight's attendant as the first stage in training for knighthood"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00754560"
+        gloss: "contact, as with a pager or by calling somebody's name over a P.A. system"
+        angloform:
+          status: gap
+      - wordnet: "02412513"
+        gloss: "work as a page; \"He is paging in Congress this summer\""
+        angloform:
+          status: gap
+      - wordnet: "00949093"
+        gloss: number the pages of a book or manuscript
+        angloform:
+          status: gap

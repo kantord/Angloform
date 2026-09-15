@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10126926"
+        gloss: "someone who has exceptional intellectual ability and originality; \"Mozart was a child genius\"; \"he's smart but he's no Einstein\""
+        angloform:
+          status: gap
+      - wordnet: "05619743"
+        gloss: unusual mental ability
+        angloform:
+          status: gap
+      - wordnet: "09762509"
+        gloss: someone who is dazzlingly skilled in any field
+        angloform:
+          status: gap
+      - wordnet: "05625373"
+        gloss: exceptional creative ability
+        angloform:
+          status: gap
+      - wordnet: "05624461"
+        gloss: "a natural talent; \"he has a flair for mathematics\"; \"he has a genius for interior decorating\""
+        angloform:
+          status: gap

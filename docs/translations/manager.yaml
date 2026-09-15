@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10014939"
+        gloss: someone who controls resources and expenditures
+        angloform:
+          status: gap
+      - wordnet: "09931640"
+        gloss: (sports) someone in charge of training an athlete or a team
+        angloform:
+          status: gap

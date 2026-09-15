@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06014730"
+        gloss: the result of mathematical differentiation; the instantaneous change of one quantity relative to another; df(x)/dx
+        angloform:
+          status: gap
+      - wordnet: "14833885"
+        gloss: a compound obtained from, or regarded as derived from, another compound
+        angloform:
+          status: gap
+      - wordnet: "06480506"
+        gloss: a financial instrument whose value is based on another security
+        angloform:
+          status: gap
+      - wordnet: "06290051"
+        gloss: "(linguistics) a word that is derived from another word; \"`electricity' is a derivative of `electric'\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00698586"
+        gloss: "resulting from or employing derivation; \"a derivative process\"; \"a highly derivative prose style\""
+        angloform:
+          status: gap

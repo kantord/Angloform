@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02994858"
+        gloss: a workplace that serves as a telecommunications facility where lines from telephones can be connected together to permit communication
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01277097"
+        gloss: "serving as an essential component; \"a cardinal rule\"; \"the central cause of the problem\"; \"an example that was fundamental to the argument\"; \"computers are fundamental to modern industrial structure\""
+        angloform:
+          status: gap
+      - wordnet: "00329831"
+        gloss: "in or near a center or constituting a center; the inner area; \"a central position\""
+        angloform:
+          status: gap

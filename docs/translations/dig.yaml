@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08550076"
+        gloss: "the site of an archeological exploration; \"they set up camp next to the dig\""
+        angloform:
+          status: gap
+      - wordnet: "06767922"
+        gloss: "an aggressive remark directed at a person like a missile and intended to have a telling effect; \"his parting shot was `drop dead'\"; \"she threw shafts of sarcasm\"; \"she takes a dig at me every chance she gets\""
+        angloform:
+          status: gap
+      - wordnet: "04693557"
+        gloss: "a small gouge (as in the cover of a book); \"the book was in good condition except for a dig in the back cover\""
+        angloform:
+          status: gap
+      - wordnet: "00941974"
+        gloss: "the act of digging; \"there's an interesting excavation going on near Princeton\""
+        angloform:
+          status: gap
+      - wordnet: "00135311"
+        gloss: "the act of touching someone suddenly with your finger or elbow; \"she gave me a sharp dig in the ribs\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01309701"
+        gloss: "turn up, loosen, or remove earth; \"Dig we must\"; \"turn over the soil for aeration\""
+        angloform:
+          status: gap
+      - wordnet: "01311103"
+        gloss: "create by digging; \"dig a hole\"; \"dig out a channel\""
+        angloform:
+          status: gap
+      - wordnet: "02419773"
+        gloss: "work hard; \"She was digging away at her math homework\"; \"Lexicographers drudge all day long\""
+        angloform:
+          status: gap
+      - wordnet: "02143756"
+        gloss: "remove, harvest, or recover by digging; \"dig salt\"; \"dig coal\""
+        angloform:
+          status: gap
+      - wordnet: "01899557"
+        gloss: "thrust down or into; \"dig the oars into the water\"; \"dig your foot into the floor\""
+        angloform:
+          status: gap
+      - wordnet: "01310660"
+        gloss: "remove the inner part or the core of; \"the mining company wants to excavate the hillside\""
+        angloform:
+          status: gap
+      - wordnet: "01229976"
+        gloss: "poke or thrust abruptly; \"he jabbed his finger into her ribs\""
+        angloform:
+          status: gap
+      - wordnet: "00588221"
+        gloss: "get the meaning of something; \"Do you comprehend the meaning of this letter?\""
+        angloform:
+          status: gap

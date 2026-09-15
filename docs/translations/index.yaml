@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13851067"
+        gloss: a numerical scale used to compare variables with one another or with some reference number
+        angloform:
+          status: gap
+      - wordnet: "06639674"
+        gloss: a number or ratio (a value on a scale of measurement) derived from a series of observed facts; can reveal relative changes as a function of time
+        angloform:
+          status: gap
+      - wordnet: "06812417"
+        gloss: a mathematical notation indicating the number of times a quantity is multiplied by itself
+        angloform:
+          status: gap
+      - wordnet: "06491786"
+        gloss: an alphabetical listing of names and topics along with page numbers where they are discussed
+        angloform:
+          status: gap
+      - wordnet: "05567381"
+        gloss: the finger next to the thumb
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02472817"
+        gloss: list in an index
+        angloform:
+          status: gap
+      - wordnet: "02354112"
+        gloss: "provide with an index; \"index the book\""
+        angloform:
+          status: gap
+      - wordnet: "00702434"
+        gloss: "adjust through indexation; \"The government indexes wages and prices\""
+        angloform:
+          status: gap

@@ -1,0 +1,17 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json (ADR 0014) — this file records
+# that existing verdict in the per-sense format.
+by_upos:
+  DET:
+    senses:
+      - gloss: the quantifier "all"; every one of a group; "all the files were deleted"
+        angloform:
+          status: construction
+          pattern: every file was deleted.
+          note: 'ADR 0014: "all" is banned; write "every" with a singular noun; matches seed.json''s existing BANNED advice for this lemma'
+  ADV:
+    senses:
+      - gloss: intensifier/totality use; "all alone"; "all wrong"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

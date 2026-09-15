@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08665504"
+        gloss: "an urban area with a fixed boundary that is smaller than a city; \"they drive through town on their way to work\""
+        angloform:
+          status: gap
+      - wordnet: "08226514"
+        gloss: "the people living in a municipality smaller than a city; \"the whole town cheered the team\""
+        angloform:
+          status: gap
+      - wordnet: "08672199"
+        gloss: "an administrative division of a county; \"the town is responsible for snow removal\""
+        angloform:
+          status: gap
+      - wordnet: "11346710"
+        gloss: United States architect who was noted for his design and construction of truss bridges (1784-1844)
+        angloform:
+          status: gap

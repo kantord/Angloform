@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "12620196"
+        gloss: any of many shrubs of the genus Rosa that bear roses
+        angloform:
+          status: gap
+      - wordnet: "07893253"
+        gloss: pinkish table wine from red grapes whose skins were removed after fermentation began
+        angloform:
+          status: gap
+      - wordnet: "04971313"
+        gloss: a dusty pink color
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00382173"
+        gloss: "of something having a dusty purplish pink color; \"the roseate glow of dawn\""
+        angloform:
+          status: gap

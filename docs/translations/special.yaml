@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07166851"
+        gloss: "a special offering (usually temporary and at a reduced price) that is featured in advertising; \"they are having a special on pork chops\""
+        angloform:
+          status: gap
+      - wordnet: "07580253"
+        gloss: a dish or meal given prominence in e.g. a restaurant
+        angloform:
+          status: gap
+      - wordnet: "07017534"
+        gloss: "a television production that features a particular person or work or topic; \"the last of a series of BBC specials on Iran is being shown tonight\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01104026"
+        gloss: "unique or specific to a person or thing or category; \"the particular demands of the job\"; \"has a particular preference for Chinese art\"; \"a peculiar bond of sympathy between them\"; \"an expression peculiar to Canadians\"; \"rights peculiar to the rich\"; \"the special features of a computer\"; \"my own special chair\""
+        angloform:
+          status: gap
+      - wordnet: "01678729"
+        gloss: "for a special service or occasion; \"a special correspondent\"; \"a special adviser to the committee\"; \"had to get special permission for the event\""
+        angloform:
+          status: gap
+      - wordnet: "00488187"
+        gloss: "surpassing what is common or usual or expected; \"he paid especial attention to her\"; \"exceptional kindness\"; \"a matter of particular and unusual importance\"; \"a special occasion\"; \"a special reason to confide in her\"; \"what's so special about the year 2000?\""
+        angloform:
+          status: gap
+      - wordnet: "02278011"
+        gloss: "adapted to or reserved for a particular purpose; \"a special kind of paint\"; \"a special medication for arthritis\""
+        angloform:
+          status: gap
+      - wordnet: "01103844"
+        gloss: "having a specific function or scope; \"a special (or specific) role in the mission\""
+        angloform:
+          status: gap
+      - wordnet: "01853228"
+        gloss: "first and most important; \"his special interest is music\"; \"she gets special (or particular) satisfaction from her volunteer work\""
+        angloform:
+          status: gap
+      - wordnet: "02367319"
+        gloss: "added to a regular schedule; \"a special holiday flight\"; \"put on special buses for the big game\""
+        angloform:
+          status: gap

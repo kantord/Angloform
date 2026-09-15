@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01943406"
+        gloss: "showing reason or sound judgment; \"a sensible choice\"; \"a sensible person\""
+        angloform:
+          status: gap
+      - wordnet: "01532261"
+        gloss: "not excessive or extreme; \"a fairish income\"; \"reasonable prices\""
+        angloform:
+          status: gap
+      - wordnet: "01926229"
+        gloss: "marked by sound judgment; \"sane nuclear policy\""
+        angloform:
+          status: gap

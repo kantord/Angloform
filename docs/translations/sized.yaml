@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02222053"
+        gloss: having a specified size
+        angloform:
+          status: gap
+      - wordnet: "02225287"
+        gloss: having the surface treated or coated with sizing
+        angloform:
+          status: gap

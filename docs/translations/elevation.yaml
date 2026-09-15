@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07370671"
+        gloss: "the event of something being raised upward; \"an elevation of the temperature in the afternoon\"; \"a raising of the land resulting from volcanic activity\""
+        angloform:
+          status: gap
+      - wordnet: "13940456"
+        gloss: "the highest level or degree attainable; the highest stage of development; \"his landscapes were deemed the acme of beauty\"; \"the artist's gifts are at their acme\"; \"at the height of her career\"; \"the peak of perfection\"; \"summer was at its peak\"; \"...catapulted Einstein to the pinnacle of fame\"; \"the summit of his ambition\"; \"so many highest superlatives achieved by man\"; \"at the top of his profession\""
+        angloform:
+          status: redirect
+          word: superlative
+          category: NOUN
+      - wordnet: "13836550"
+        gloss: angular distance above the horizon (especially of a celestial object)
+        angloform:
+          status: gap
+      - wordnet: "09366317"
+        gloss: a raised or elevated geological formation
+        angloform:
+          status: gap
+      - wordnet: "05131283"
+        gloss: "distance of something above a reference point (such as sea level); \"there was snow at the higher elevations\""
+        angloform:
+          status: gap
+      - wordnet: "05086903"
+        gloss: "(ballet) the height of a dancer's leap or jump; \"a dancer of exceptional elevation\""
+        angloform:
+          status: gap
+      - wordnet: "03281052"
+        gloss: drawing of an exterior of a structure
+        angloform:
+          status: gap
+      - wordnet: "00373544"
+        gloss: "the act of increasing the wealth or prestige or power or scope of something; \"the aggrandizement of the king\"; \"his elevation to cardinal\""
+        angloform:
+          status: gap

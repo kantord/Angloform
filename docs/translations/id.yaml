@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09081213"
+        gloss: a state in the Rocky Mountains
+        angloform:
+          status: gap
+      - wordnet: "06887278"
+        gloss: "a card or badge used to identify the bearer; \"you had to show your ID in order to get in\""
+        angloform:
+          status: gap
+      - wordnet: "05613794"
+        gloss: (psychoanalysis) primitive instincts and energies underlying all psychic activity
+        angloform:
+          status: gap

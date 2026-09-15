@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15170504"
+        gloss: a time period usually extending from Friday night through Sunday; more loosely defined as any period of successive days including one and only one Sunday
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02707987"
+        gloss: spend the weekend
+        angloform:
+          status: gap

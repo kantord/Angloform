@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13773361"
+        gloss: "a just detectable amount; \"he speaks French with a trace of an accent\""
+        angloform:
+          status: gap
+      - wordnet: "06646628"
+        gloss: "an indication that something has been present; \"there wasn't a trace of evidence for the claim\"; \"a tincture of condescension\""
+        angloform:
+          status: gap
+      - wordnet: "07164163"
+        gloss: "a suggestion of some quality; \"there was a touch of sarcasm in his tone\"; \"he detected a ghost of a smile on her face\""
+        angloform:
+          status: gap
+      - wordnet: "04463273"
+        gloss: a drawing created by superimposing a semitransparent sheet of paper on the original image and copying on it the lines of the original image
+        angloform:
+          status: gap
+      - wordnet: "04462407"
+        gloss: "either of two lines that connect a horse's harness to a wagon or other vehicle or to a whiffletree"
+        angloform:
+          status: gap
+      - wordnet: "06647036"
+        gloss: a visible mark (as a footprint) left by the passage of person or animal or vehicle
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00729109"
+        gloss: "follow, discover, or ascertain the course of development of something; \"We must follow closely the economic development is Cuba\" ; \"trace the student's progress\""
+        angloform:
+          status: redirect
+          word: follow
+          category: VERB_TRANS
+      - wordnet: "01582645"
+        gloss: "make a mark or lines on a surface; \"draw a line\"; \"trace the outline of a figure in the sand\""
+        angloform:
+          status: redirect
+          word: describe
+          category: VERB_TRANS
+      - wordnet: "02004352"
+        gloss: "to go back over again; \"we retraced the route we took last summer\"; \"trace your path\""
+        angloform:
+          status: gap
+      - wordnet: "02003601"
+        gloss: "pursue or chase relentlessly; \"The hunters traced the deer into the woods\"; \"the detectives hounded the suspect until they found him\""
+        angloform:
+          status: gap
+      - wordnet: "02156063"
+        gloss: "discover traces of; \"She traced the circumstances of her birth\""
+        angloform:
+          status: gap
+      - wordnet: "01995949"
+        gloss: "make one's course or travel along a path; travel or pass over, around, or along; \"The children traced along the edge of the dark forest\"; \"The women traced the pasture\""
+        angloform:
+          status: gap
+      - wordnet: "01694376"
+        gloss: "copy by following the lines of the original drawing on a transparent sheet placed upon it; make a tracing of; \"trace a design\"; \"trace a pattern\""
+        angloform:
+          status: gap
+      - wordnet: "00626130"
+        gloss: "read with difficulty; \"Can you decipher this letter?\"; \"The archeologist traced the hieroglyphs\""
+        angloform:
+          status: gap

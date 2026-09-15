@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00523513"
+        gloss: an active diversion requiring physical exertion and competition
+        angloform:
+          status: gap
+      - wordnet: "00433216"
+        gloss: the occupation of athletes who compete for pay
+        angloform:
+          status: gap
+      - wordnet: "10639238"
+        gloss: (Maine colloquial) a temporary summer resident of Maine
+        angloform:
+          status: gap
+      - wordnet: "10639047"
+        gloss: "a person known for the way she (or he) behaves when teased or defeated or subjected to trying circumstances; \"a good sport\"; \"a poor sport\""
+        angloform:
+          status: gap
+      - wordnet: "10638922"
+        gloss: someone who engages in sports
+        angloform:
+          status: gap
+      - wordnet: "10341660"
+        gloss: (biology) an organism that has characteristics resulting from chromosomal alteration
+        angloform:
+          status: gap
+      - wordnet: "06780882"
+        gloss: "verbal wit or mockery (often at another's expense but not to be taken seriously); \"he became a figure of fun\"; \"he said it in sport\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02631659"
+        gloss: "wear or display in an ostentatious or proud manner; \"she was sporting a new hat\""
+        angloform:
+          status: gap
+      - wordnet: "01883716"
+        gloss: "play boisterously; \"The children frolicked in the garden\"; \"the gamboling lambs in the meadows\"; \"The toddlers romped in the playroom\""
+        angloform:
+          status: gap

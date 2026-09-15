@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14524849"
+        gloss: "a particular environment or surrounding influence; \"there was an atmosphere of excitement\""
+        angloform:
+          status: gap
+      - wordnet: "13711060"
+        gloss: "a unit of pressure: the pressure that will support a column of mercury 760 mm high at sea level and 0 degrees centigrade"
+        angloform:
+          status: gap
+      - wordnet: "08499057"
+        gloss: "the mass of air surrounding the Earth; \"there was great heat as the comet entered the atmosphere\"; \"it was exposed to the air\""
+        angloform:
+          status: gap
+      - wordnet: "14520278"
+        gloss: "the weather or climate at some place; \"the atmosphere was thick with fog\""
+        angloform:
+          status: gap
+      - wordnet: "09210604"
+        gloss: the envelope of gases surrounding any celestial body
+        angloform:
+          status: gap
+      - wordnet: "04727214"
+        gloss: "a distinctive but intangible quality surrounding a person or thing; \"an air of mystery\"; \"the house had a neglected air\"; \"an atmosphere of defeat pervaded the candidate's headquarters\"; \"the place had an aura of romance\""
+        angloform:
+          status: gap

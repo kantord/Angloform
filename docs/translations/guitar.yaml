@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03467517"
+        gloss: a stringed instrument usually having six strings; played by strumming or plucking
+        angloform:
+          status: gap

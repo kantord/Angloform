@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10677713"
+        gloss: "a person who backs a politician or a team etc.; \"all their supporters came out for the game\"; \"they are friends of the library\""
+        angloform:
+          status: gap
+      - wordnet: "10482220"
+        gloss: someone who is an active supporter and advocate
+        angloform:
+          status: gap
+      - wordnet: "09866661"
+        gloss: a thief who steals goods that are in a store
+        angloform:
+          status: gap
+      - wordnet: "02872529"
+        gloss: an amplifier for restoring the strength of a transmitted signal
+        angloform:
+          status: gap
+      - wordnet: "02872333"
+        gloss: the first stage of a multistage rocket
+        angloform:
+          status: gap
+      - wordnet: "02872172"
+        gloss: an additional dose that makes sure the first dose was effective
+        angloform:
+          status: gap

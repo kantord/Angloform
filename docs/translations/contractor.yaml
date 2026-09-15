@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09960688"
+        gloss: someone (a person or firm) who contracts to build things
+        angloform:
+          status: gap
+      - wordnet: "09961012"
+        gloss: the bridge player in contract bridge who wins the bidding and can declare which suit is to be trumps
+        angloform:
+          status: gap
+      - wordnet: "09960891"
+        gloss: (law) a party to a contract
+        angloform:
+          status: gap
+      - wordnet: "05289601"
+        gloss: a bodily organ that contracts
+        angloform:
+          status: gap

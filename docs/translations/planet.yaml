@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09394007"
+        gloss: (astronomy) any of the nine large celestial bodies in the solar system that revolve around the sun and shine by reflected light; Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto in order of their proximity to the sun; viewed from the constellation Hercules, all the planets rotate around the sun in a counterclockwise direction
+        angloform:
+          status: gap
+      - wordnet: "10552639"
+        gloss: a person who follows or serves another
+        angloform:
+          status: gap
+      - wordnet: "09394646"
+        gloss: any celestial body (other than comets or satellites) that revolves around a star
+        angloform:
+          status: gap

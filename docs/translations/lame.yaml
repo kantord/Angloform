@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10642988"
+        gloss: "someone who doesn't understand what is going on"
+        angloform:
+          status: redirect
+          word: square
+          category: NOUN
+      - wordnet: "03635330"
+        gloss: "a fabric interwoven with threads of metal; \"she wore a gold lame dress\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00091647"
+        gloss: "deprive of the use of a limb, especially a leg; \"The accident has crippled her for life\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02325304"
+        gloss: "pathetically lacking in force or effectiveness; \"a feeble excuse\"; \"a lame argument\""
+        angloform:
+          status: gap
+      - wordnet: "01018788"
+        gloss: "disabled in the feet or legs; \"a crippled soldier\"; \"a game leg\""
+        angloform:
+          status: gap

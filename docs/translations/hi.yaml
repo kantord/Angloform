@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06632511"
+        gloss: "an expression of greeting; \"every morning they exchanged polite hellos\""
+        angloform:
+          status: gap
+      - wordnet: "09078231"
+        gloss: a state in the United States in the central Pacific on the Hawaiian Islands
+        angloform:
+          status: gap

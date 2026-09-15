@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11508092"
+        gloss: a cloud of fine particles suspended in a gas
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01795333"
+        gloss: be mad, angry, or furious
+        angloform:
+          status: gap
+      - wordnet: "02767922"
+        gloss: "emit a cloud of fine particles; \"The chimney was fuming\""
+        angloform:
+          status: gap
+      - wordnet: "02127100"
+        gloss: treat with fumes, expose to fumes, especially with the aim of disinfecting or eradicating pests
+        angloform:
+          status: gap
+      - wordnet: "00068627"
+        gloss: "be wet with sweat or blood, as of one's face"
+        angloform:
+          status: gap

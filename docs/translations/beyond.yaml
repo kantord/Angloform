@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00045704"
+        gloss: "farther along in space or time or degree; \"through the valley and beyond\"; \"to the eighth grade but not beyond\"; \"will be influential in the 1990s and beyond\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00045897"
+        gloss: "on the farther side from the observer; \"a pond with a hayfield beyond\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00045607"
+        gloss: "in addition; \"agreed to provide essentials but nothing beyond\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

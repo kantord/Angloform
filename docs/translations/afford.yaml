@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01192628"
+        gloss: "be able to spare or give up; \"I can't afford to spend two hours with this person\""
+        angloform:
+          status: gap
+      - wordnet: "02339171"
+        gloss: "be the cause or source of; \"He gave me a lot of trouble\"; \"Our meeting afforded much interesting information\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "02744451"
+        gloss: "have the financial means to do something or buy something; \"We can't afford to send our children to college\"; \"Can you afford this car?\""
+        angloform:
+          status: gap
+      - wordnet: "02358034"
+        gloss: "afford access to; \"the door opens to the patio\"; \"The French doors give onto a terrace\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS

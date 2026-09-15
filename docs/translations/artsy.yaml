@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  ADJ:
+    senses:
+      - gloss: informal — pretentiously artistic; having an affected interest in art
+        angloform:
+          status: gap
+          note: no art vocabulary exists yet; zero WordNet attestation, informal register

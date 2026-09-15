@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07326369"
+        gloss: "the first event in a series; \"she played Chopin for her opener\"; \"the season's opener was a game against the Yankees\""
+        angloform:
+          status: gap
+      - wordnet: "10737431"
+        gloss: "a person who unfastens or unwraps or opens; \"children are talented undoers of their shoelaces\""
+        angloform:
+          status: gap
+      - wordnet: "03848348"
+        gloss: a hand tool used for opening sealed containers (bottles or cans)
+        angloform:
+          status: gap

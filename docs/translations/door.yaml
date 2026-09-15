@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03221720"
+        gloss: "a swinging or sliding barrier that will close the entrance to a room or building or vehicle; \"he knocked on the door\"; \"he slammed the door as he left\""
+        angloform:
+          status: gap
+      - wordnet: "03224032"
+        gloss: "the entrance (the space in a wall) through which you enter or leave a room or building; the space that a door can close; \"he stuck his head in the doorway\""
+        angloform:
+          status: gap
+      - wordnet: "05180881"
+        gloss: "anything providing a means of access (or escape); \"we closed the door to Haitian immigrants\"; \"education is the door to success\""
+        angloform:
+          status: gap
+      - wordnet: "03222318"
+        gloss: "a structure where people live or work (usually ordered along a street or road); \"the office next door\"; \"they live two doors up the street from us\""
+        angloform:
+          status: gap
+      - wordnet: "03222176"
+        gloss: "a room that is entered via a door; \"his office is the third door down the hall on the left\""
+        angloform:
+          status: gap

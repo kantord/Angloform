@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00364479"
+        gloss: "causing sad feelings of gloom and inadequacy; \"the economic outlook is depressing\"; \"something cheerless about the room\"; \"a moody and uncheerful person\"; \"an uncheerful place\""
+        angloform:
+          status: gap

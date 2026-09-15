@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10533013"
+        gloss: "the contestant you hope to defeat; \"he had respect for his rivals\"; \"he wanted to know what the competition was doing\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02672187"
+        gloss: "be equal to in quality or ability; \"Nothing can rival cotton for durability\"; \"Your performance doesn't even touch that of your colleagues\"; \"Her persistence and ambition only matches that of her parents\""
+        angloform:
+          status: redirect
+          word: match
+          category: VERB_TRANS
+      - wordnet: "01122194"
+        gloss: "be the rival of, be in competition with; \"we are rivaling for first place in the race\""
+        angloform:
+          status: gap

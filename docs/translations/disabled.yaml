@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07946288"
+        gloss: "people collectively who are crippled or otherwise physically handicapped; \"technology to help the elderly and the disabled\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01019283"
+        gloss: incapable of functioning as a consequence of injury or illness
+        angloform:
+          status: gap

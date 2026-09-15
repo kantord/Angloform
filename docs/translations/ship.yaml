@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04194289"
+        gloss: a vessel that carries passengers or freight
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01950798"
+        gloss: transport commercially
+        angloform:
+          status: redirect
+          word: send
+          category: VERB_TRANS
+      - wordnet: "02409838"
+        gloss: hire for work on a ship
+        angloform:
+          status: gap
+      - wordnet: "01979462"
+        gloss: go on board
+        angloform:
+          status: gap
+      - wordnet: "01847582"
+        gloss: travel by ship
+        angloform:
+          status: gap
+      - wordnet: "01496978"
+        gloss: "place on board a ship; \"ship the cargo in the hold of the vessel\""
+        angloform:
+          status: gap

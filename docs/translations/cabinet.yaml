@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02933112"
+        gloss: a piece of furniture resembling a cupboard with doors and shelves and drawers; for storage or display
+        angloform:
+          status: gap
+      - wordnet: "08381820"
+        gloss: persons appointed by a head of state to head executive departments of government and act as official advisers
+        angloform:
+          status: gap
+      - wordnet: "02933462"
+        gloss: a storage compartment for clothes and valuables; usually it has a lock
+        angloform:
+          status: gap
+      - wordnet: "02933340"
+        gloss: housing for electronic instruments, as radio or television
+        angloform:
+          status: gap

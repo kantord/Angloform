@@ -1,0 +1,68 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04372370"
+        gloss: control consisting of a mechanical or electrical or electronic device for making or breaking or changing the connections in a circuit
+        angloform:
+          status: gap
+      - wordnet: "07443761"
+        gloss: "an event in which one thing is substituted for another; \"the replacement of lost blood by a transfusion of donor blood\""
+        angloform:
+          status: redirect
+          word: replacement
+          category: NOUN
+      - wordnet: "04372948"
+        gloss: hairpiece consisting of a tress of false hair; used by women to give shape to a coiffure
+        angloform:
+          status: gap
+      - wordnet: "04372756"
+        gloss: railroad track having two movable rails and necessary connections; used to turn a train from one track to another or to store rolling stock
+        angloform:
+          status: gap
+      - wordnet: "04372171"
+        gloss: a flexible implement used as an instrument of punishment
+        angloform:
+          status: gap
+      - wordnet: "00563823"
+        gloss: a basketball maneuver; two defensive players shift assignments so that each guards the player usually guarded by the other
+        angloform:
+          status: gap
+      - wordnet: "00196084"
+        gloss: "the act of changing one thing or position for another; \"his switch on abortion cost him the election\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00140751"
+        gloss: change over, change around, as to a new order or sequence
+        angloform:
+          status: gap
+      - wordnet: "02259005"
+        gloss: exchange or give (something) in exchange for
+        angloform:
+          status: redirect
+          word: trade
+          category: VERB_TRANS
+      - wordnet: "00550117"
+        gloss: "lay aside, abandon, or leave for another; \"switch to a different brand of beer\"; \"She switched psychiatrists\"; \"The car changed lanes\""
+        angloform:
+          status: redirect
+          word: change
+          category: VERB_TRANS
+      - wordnet: "00380159"
+        gloss: "make a shift in or exchange of; \"First Joe led; then we switched\""
+        angloform:
+          status: gap
+      - wordnet: "01510173"
+        gloss: "cause to go on or to be engaged or set in operation; \"switch on the light\"; \"throw the lever\""
+        angloform:
+          status: gap
+      - wordnet: "01411630"
+        gloss: flog with or as if with a flexible rod
+        angloform:
+          status: gap
+      - wordnet: "00121678"
+        gloss: reverse (a direction, attitude, or course of action)
+        angloform:
+          status: gap

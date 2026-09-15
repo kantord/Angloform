@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10013242"
+        gloss: a person eating a meal (especially in a restaurant)
+        angloform:
+          status: gap
+      - wordnet: "03200357"
+        gloss: a passenger car where food is served in transit
+        angloform:
+          status: gap
+      - wordnet: "03199647"
+        gloss: a restaurant that resembles a dining car
+        angloform:
+          status: gap

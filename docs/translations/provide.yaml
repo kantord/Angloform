@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02327200"
+        gloss: "give something useful or necessary to; \"We provided the room with an electrical heater\""
+        angloform:
+          status: gap
+      - wordnet: "01182709"
+        gloss: "give what is desired or needed, especially support, food or sustenance; \"The hostess provided lunch for all the guests\""
+        angloform:
+          status: gap
+      - wordnet: "01063188"
+        gloss: "determine (what is to happen in certain contingencies), especially by including a proviso condition or stipulation; \"The will provides that each child should receive half of the money\"; \"The Constitution provides for the right to free speech\""
+        angloform:
+          status: gap
+      - wordnet: "02376289"
+        gloss: "mount or put up; \"put up a good fight\"; \"offer resistance\""
+        angloform:
+          status: redirect
+          word: offer
+          category: VERB_TRANS
+      - wordnet: "02721438"
+        gloss: "make a possibility or provide opportunity for; permit to be attainable or cause to remain; \"This leaves no room for improvement\"; \"The evidence allows only one conclusion\"; \"allow for mistakes\"; \"leave lots of time for the trip\"; \"This procedure provides for lots of leeway\""
+        angloform:
+          status: redirect
+          word: allow
+          category: VERB_TRANS
+      - wordnet: "02219442"
+        gloss: "supply means of subsistence; earn a living; \"He provides for his large family by working three jobs\"; \"Women nowadays not only take care of the household but also bring home the bacon\""
+        angloform:
+          status: gap
+      - wordnet: "00406963"
+        gloss: "take measures in preparation for; \"provide for the proper care of the passengers on the cruise ship\""
+        angloform:
+          status: gap

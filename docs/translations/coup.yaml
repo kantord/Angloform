@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01145015"
+        gloss: a sudden and decisive change of government illegally or by force
+        angloform:
+          status: gap
+      - wordnet: "00065336"
+        gloss: a brilliant and notable success
+        angloform:
+          status: gap

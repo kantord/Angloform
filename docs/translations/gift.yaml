@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13265011"
+        gloss: something acquired without compensation
+        angloform:
+          status: gap
+      - wordnet: "05624042"
+        gloss: natural abilities or qualities
+        angloform:
+          status: gap
+      - wordnet: "01086081"
+        gloss: the act of giving
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02474239"
+        gloss: give qualities or abilities to
+        angloform:
+          status: gap
+      - wordnet: "02200686"
+        gloss: "give as a present; make a gift of; \"What will you give her for her birthday?\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS

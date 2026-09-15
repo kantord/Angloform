@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06634376"
+        gloss: a message received and understood
+        angloform:
+          status: redirect
+          word: information
+          category: NOUN

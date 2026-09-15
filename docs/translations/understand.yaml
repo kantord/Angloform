@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00588888"
+        gloss: "know and comprehend the nature or meaning of; \"She did not understand her husband\"; \"I understand what she means\""
+        angloform:
+          status: gap
+      - wordnet: "00591115"
+        gloss: "perceive (an idea or situation) mentally; \"Now I see!\"; \"I just can't see your point\"; \"Does she realize how important this decision is?\"; \"I don't understand the idea\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "00593852"
+        gloss: "make sense of a language; \"She understands French\"; \"Can you read Greek?\""
+        angloform:
+          status: redirect
+          word: read
+          category: VERB_TRANS
+      - wordnet: "00593522"
+        gloss: "believe to be the case; \"I understand you have no previous experience?\""
+        angloform:
+          status: gap
+      - wordnet: "00594058"
+        gloss: "be understanding of; \"You don't need to explain--I understand!\""
+        angloform:
+          status: gap

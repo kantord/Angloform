@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06689667"
+        gloss: "permission to do something; \"he indicated his consent\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00797697"
+        gloss: "give an affirmative reply to; respond favorably to; \"I cannot accept your invitation\"; \"I go for this resolution\""
+        angloform:
+          status: redirect
+          word: accept
+          category: VERB_TRANS

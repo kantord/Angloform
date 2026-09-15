@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15155891"
+        gloss: "the day after today; \"what are our tasks for tomorrow?\""
+        angloform:
+          status: gap
+      - wordnet: "15263795"
+        gloss: "the near future; \"tomorrow's world\"; \"everyone hopes for a better tomorrow\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00479275"
+        gloss: the next day, the day after, following the present day
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,3 @@
+status: exempt
+exempt_kind: garbage
+reason: a corpus misspelling of "confirm" (already processed separately)

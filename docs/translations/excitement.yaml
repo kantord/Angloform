@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07528212"
+        gloss: "the feeling of lively and cheerful joy; \"he could hardly conceal his excitement when she agreed\""
+        angloform:
+          status: gap
+      - wordnet: "14037011"
+        gloss: "the state of being emotionally aroused and worked up; \"his face was flushed with excitement and his hands trembled\"; \"he tried to calm those who were in a state of extreme inflammation\""
+        angloform:
+          status: gap
+      - wordnet: "01260867"
+        gloss: "something that agitates and arouses; \"he looked forward to the excitements of the day\""
+        angloform:
+          status: gap
+      - wordnet: "00554300"
+        gloss: disturbance usually in protest
+        angloform:
+          status: gap

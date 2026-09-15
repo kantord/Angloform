@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14456586"
+        gloss: "informal terms for nakedness; \"in the raw\"; \"in the altogether\"; \"in his birthday suit\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01952643"
+        gloss: "(used especially of commodities) being unprocessed or manufactured using only simple or minimal processes; \"natural yogurt\"; \"natural produce\"; \"raw wool\"; \"raw sugar\"; \"bales of rude cotton\""
+        angloform:
+          status: redirect
+          word: natural
+          category: ADJ
+      - wordnet: "01319061"
+        gloss: "having the surface exposed and painful; \"a raw wound\""
+        angloform:
+          status: gap
+      - wordnet: "00619433"
+        gloss: not treated with heat to prepare it for eating
+        angloform:
+          status: gap
+      - wordnet: "01954943"
+        gloss: "not processed or refined; \"raw sewage\""
+        angloform:
+          status: gap
+      - wordnet: "01705195"
+        gloss: "devoid of elaboration or diminution or concealment; bare and pure; \"naked ambition\"; \"raw fury\"; \"you may kill someone someday with your raw power\""
+        angloform:
+          status: gap
+      - wordnet: "00958020"
+        gloss: "brutally unfair or harsh; \"received raw treatment from his friends\"; \"a raw deal\""
+        angloform:
+          status: gap
+      - wordnet: "00417204"
+        gloss: "not processed or subjected to analysis; \"raw data\"; \"the raw cost of production\"; \"only the crude vital statistics\""
+        angloform:
+          status: gap
+      - wordnet: "01813081"
+        gloss: "untempered and unrefined; \"raw talent\"; \"raw beauty\""
+        angloform:
+          status: gap
+      - wordnet: "01712753"
+        gloss: "hurting; \"the tender spot on his jaw\""
+        angloform:
+          status: gap
+      - wordnet: "01252399"
+        gloss: "unpleasantly cold and damp; \"bleak winds of the North Atlantic\""
+        angloform:
+          status: gap
+      - wordnet: "01005914"
+        gloss: "used of wood and furniture; \"raw wood\""
+        angloform:
+          status: gap
+      - wordnet: "00937186"
+        gloss: "lacking training or experience; \"the new men were eager to fight\"; \"raw recruits\""
+        angloform:
+          status: redirect
+          word: new
+          category: ADJ
+      - wordnet: "00458266"
+        gloss: (used informally) completely unclothed
+        angloform:
+          status: gap

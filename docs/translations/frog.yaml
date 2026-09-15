@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01639765"
+        gloss: any of various tailless stout-bodied amphibians with long hind limbs for leaping; semiaquatic and terrestrial species
+        angloform:
+          status: gap
+      - wordnet: "09708648"
+        gloss: a person of French descent
+        angloform:
+          status: gap
+      - wordnet: "03398382"
+        gloss: a decorative loop of braid or cord
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01382818"
+        gloss: hunt frogs for food
+        angloform:
+          status: gap

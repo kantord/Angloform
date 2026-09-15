@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10522035"
+        gloss: a person who represents others
+        angloform:
+          status: gap
+      - wordnet: "10638385"
+        gloss: "an advocate who represents someone else's policy or purpose; \"the meeting was attended by spokespersons for all the major organs of government\""
+        angloform:
+          status: gap
+      - wordnet: "09955781"
+        gloss: a member of the United States House of Representatives
+        angloform:
+          status: gap
+      - wordnet: "05820620"
+        gloss: "an item of information that is typical of a class or group; \"this patient provides a typical example of the syndrome\"; \"there is an example on page 10\""
+        angloform:
+          status: redirect
+          word: example
+          category: NOUN
+  ADJ:
+    senses:
+      - wordnet: "02469407"
+        gloss: "serving to represent or typify; \"representative moviegoers\"; \"a representative modern play\""
+        angloform:
+          status: gap
+      - wordnet: "01981699"
+        gloss: "standing for something else; \"the bald eagle is representative of the United States\""
+        angloform:
+          status: gap
+      - wordnet: "00716562"
+        gloss: "being or characteristic of government by representation in which citizens exercise power through elected officers and representatives; \"representative government as defined by Abraham Lincoln is government of the people, by the people, for the people\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05689249"
+        gloss: something immaterial that interferes with or delays action or progress
+        angloform:
+          status: gap
+      - wordnet: "03839993"
+        gloss: any structure that makes progress difficult
+        angloform:
+          status: gap

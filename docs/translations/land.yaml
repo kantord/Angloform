@@ -1,0 +1,84 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13250048"
+        gloss: "the land on which real estate is located; \"he built the house on land leased from the city\""
+        angloform:
+          status: gap
+      - wordnet: "09335240"
+        gloss: "material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use); \"the land had never been plowed\"; \"good agricultural soil\""
+        angloform:
+          status: gap
+      - wordnet: "08556491"
+        gloss: "territory over which rule or control is exercised; \"his domain extended into Europe\"; \"he made it the law of the land\""
+        angloform:
+          status: redirect
+          word: domain
+          category: NOUN
+      - wordnet: "09334396"
+        gloss: "the solid part of the earth's surface; \"the plane turned away from the sea and moved back over land\"; \"the earth shook for several minutes\"; \"he dropped the logs on the ground\""
+        angloform:
+          status: gap
+      - wordnet: "08544813"
+        gloss: "the territory occupied by a nation; \"he returned to the land of his birth\"; \"he visited several European countries\""
+        angloform:
+          status: redirect
+          word: state
+          category: NOUN
+      - wordnet: "14514805"
+        gloss: "a domain in which something is dominant; \"the untroubled kingdom of reason\"; \"a land of make-believe\"; \"the rise of the realm of cotton in the south\""
+        angloform:
+          status: gap
+      - wordnet: "13246662"
+        gloss: "extensive landed property (especially in the country) retained by the owner for his own use; \"the family owned a large estate on Long Island\""
+        angloform:
+          status: gap
+      - wordnet: "08166552"
+        gloss: "the people who live in a nation or country; \"a statement that sums up the nation's mood\"; \"the news was announced to the nation\"; \"the whole country worshipped him\""
+        angloform:
+          status: gap
+      - wordnet: "08168978"
+        gloss: "a politically organized body of people under a single government; \"the state has elected a new president\"; \"African nations\"; \"students who had come to the nation's capitol\"; \"the country's largest manufacturer\"; \"an industrialized land\""
+        angloform:
+          status: redirect
+          word: state
+          category: NOUN
+      - wordnet: "11115558"
+        gloss: United States inventor who incorporated Polaroid film into lenses and invented the one step photographic process (1909-1991)
+        angloform:
+          status: gap
+      - wordnet: "00453731"
+        gloss: "agriculture considered as an occupation or way of life; \"farming is a strenuous life\"; \"there's no work on the land any more\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01979901"
+        gloss: "reach or come to rest; \"The bird landed on the highest branch\"; \"The plane landed in Istanbul\""
+        angloform:
+          status: gap
+      - wordnet: "01981036"
+        gloss: "cause to come to the ground; \"the pilot managed to land the airplane safely\""
+        angloform:
+          status: gap
+      - wordnet: "00135857"
+        gloss: "bring into a different state; \"this may land you in jail\""
+        angloform:
+          status: gap
+      - wordnet: "02087156"
+        gloss: "bring ashore; \"The drug smugglers landed the heroin on the beach of the island\""
+        angloform:
+          status: gap
+      - wordnet: "02358527"
+        gloss: "deliver (a blow); \"He landed several blows on his opponent's head\""
+        angloform:
+          status: gap
+      - wordnet: "01981436"
+        gloss: "arrive on shore; \"The ship landed in Pearl Harbor\""
+        angloform:
+          status: gap
+      - wordnet: "01981279"
+        gloss: "shoot at and force to come down; \"the enemy landed several of our aircraft\""
+        angloform:
+          status: gap

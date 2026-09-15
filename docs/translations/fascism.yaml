@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06217944"
+        gloss: a political theory advocating an authoritarian hierarchical government (as opposed to democracy or liberalism)
+        angloform:
+          status: gap

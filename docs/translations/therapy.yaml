@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00661091"
+        gloss: "(medicine) the act of caring for someone (as by medication or remedial training etc.); \"the quarterback is undergoing treatment for a knee injury\"; \"he tried every treatment the doctors suggested\"; \"heat therapy gave the best relief\""
+        angloform:
+          status: gap

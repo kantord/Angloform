@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02118379"
+        gloss: "concerned with work or important matters rather than play or trivialities; \"a serious student of history\"; \"a serious attempt to learn to ski\"; \"gave me a serious look\"; \"a serious young man\"; \"are you serious or joking?\"; \"Don't be so serious!\""
+        angloform:
+          status: gap
+      - wordnet: "01279611"
+        gloss: "of great consequence; \"marriage is a serious matter\""
+        angloform:
+          status: gap
+      - wordnet: "00651039"
+        gloss: "causing fear or anxiety by threatening great harm; \"a dangerous operation\"; \"a grave situation\"; \"a grave illness\"; \"grievous bodily harm\"; \"a serious wound\"; \"a serious turn of events\"; \"a severe case of pneumonia\"; \"a life-threatening disease\""
+        angloform:
+          status: redirect
+          word: dangerous
+          category: ADJ
+      - wordnet: "01333477"
+        gloss: "appealing to the mind; \"good music\"; \"a serious book\""
+        angloform:
+          status: redirect
+          word: good
+          category: ADJ
+      - wordnet: "02123314"
+        gloss: completely lacking in playfulness
+        angloform:
+          status: gap
+      - wordnet: "00748359"
+        gloss: "requiring effort or concentration; complex and not easy to answer or solve; \"raised serious objections to the proposal\"; \"the plan has a serious flaw\""
+        angloform:
+          status: gap

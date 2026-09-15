@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01135952"
+        gloss: "a method of tending to or managing the affairs of a some group of people (especially the group's business affairs)"
+        angloform:
+          status: gap
+      - wordnet: "08164585"
+        gloss: "the persons (or committees or departments etc.) who make up a body for the purpose of administering something; \"he claims that the present administration is corrupt\"; \"the governance of an association is responsible to its members\"; \"he quickly became recognized as a member of the establishment\""
+        angloform:
+          status: gap
+      - wordnet: "00694990"
+        gloss: the act of administering medication
+        angloform:
+          status: gap
+      - wordnet: "15266265"
+        gloss: "the tenure of a president; \"things were quiet during the Eisenhower administration\""
+        angloform:
+          status: gap
+      - wordnet: "01124794"
+        gloss: "the act of governing; exercising authority; \"regulations for the governing of state prisons\"; \"he had considerable experience of government\""
+        angloform:
+          status: gap
+      - wordnet: "00694866"
+        gloss: the act of meting out justice according to the law
+        angloform:
+          status: gap

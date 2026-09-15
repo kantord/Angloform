@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13439088"
+        gloss: "a strong flame that burns brightly; \"the blaze spread rapidly\""
+        angloform:
+          status: gap
+      - wordnet: "07305907"
+        gloss: "a cause of difficulty and suffering; \"war is hell\"; \"go to blazes\""
+        angloform:
+          status: gap
+      - wordnet: "00736786"
+        gloss: "noisy and unrestrained mischief; \"raising blazes\""
+        angloform:
+          status: gap
+      - wordnet: "04952570"
+        gloss: "a light within the field of vision that is brighter than the brightness to which the eyes are adapted; \"a glare of sunlight\""
+        angloform:
+          status: gap
+      - wordnet: "04681058"
+        gloss: "a light-colored marking; \"they chipped off bark to mark the trail with blazes\"; \"the horse had a blaze between its eyes\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02764614"
+        gloss: "shine brightly and intensively; \"Meteors blazed across the atmosphere\""
+        angloform:
+          status: gap
+      - wordnet: "01135086"
+        gloss: "shoot rapidly and repeatedly; \"He blazed away at the men\""
+        angloform:
+          status: gap
+      - wordnet: "02764438"
+        gloss: "burn brightly and intensely; \"The summer sun alone can cause a pine to blaze\""
+        angloform:
+          status: gap
+      - wordnet: "02014863"
+        gloss: "move rapidly and as if blazing; \"The spaceship blazed out into space\""
+        angloform:
+          status: gap
+      - wordnet: "00922025"
+        gloss: "indicate by marking trees with blazes; \"blaze a trail\""
+        angloform:
+          status: gap

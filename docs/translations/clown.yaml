@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09931165"
+        gloss: a rude or vulgar fool
+        angloform:
+          status: gap
+      - wordnet: "09930876"
+        gloss: a person who amuses others by ridiculous behavior
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00105778"
+        gloss: act as or like a clown
+        angloform:
+          status: gap

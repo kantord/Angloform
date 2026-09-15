@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02699497"
+        gloss: "take the place of or be parallel or equivalent to; \"Because of the sound changes in the course of history, an 'h' in Greek stands for an 's' in Latin\""
+        angloform:
+          status: gap
+      - wordnet: "00836236"
+        gloss: "express indirectly by an image, form, or model; be a symbol; \"What does the Statue of Liberty symbolize?\""
+        angloform:
+          status: gap
+      - wordnet: "02541921"
+        gloss: "be representative or typical for; \"This period is represented by Beethoven\""
+        angloform:
+          status: gap
+      - wordnet: "02541509"
+        gloss: "be a delegate or spokesperson for; represent somebody's interest or be a proxy or substitute for, as of politicians and office holders representing their constituents, or of a tenant representing other tenants in a housing dispute; \"I represent the silent majority\""
+        angloform:
+          status: gap
+      - wordnet: "00988028"
+        gloss: "serve as a means of expressing something; \"The flower represents a young girl\""
+        angloform:
+          status: gap
+      - wordnet: "02723733"
+        gloss: "be characteristic of; \"This compositional style is exemplified by this fugue\""
+        angloform:
+          status: gap
+      - wordnet: "02620587"
+        gloss: "form or compose; \"This money is my only income\"; \"The stone wall was the backdrop for the performance\"; \"These constitute my entire belonging\"; \"The children made up the chorus\"; \"This sum represents my entire income for a year\"; \"These few men comprise his entire army\""
+        angloform:
+          status: gap
+      - wordnet: "02581675"
+        gloss: "be the defense counsel for someone in a trial; \"Ms. Smith will represent the defendant\""
+        angloform:
+          status: gap
+      - wordnet: "01686132"
+        gloss: "create an image or likeness of; \"The painter represented his wife as a young girl\""
+        angloform:
+          status: gap
+      - wordnet: "01719302"
+        gloss: "play a role or part; \"Gielgud played Hamlet\"; \"She wants to act Lady Macbeth, but she is too young for the role\"; \"She played the servant to her husband's master\""
+        angloform:
+          status: gap
+      - wordnet: "01711445"
+        gloss: "perform (a play), especially on a stage; \"we are going to stage `Othello'\""
+        angloform:
+          status: gap
+      - wordnet: "00987345"
+        gloss: "describe or present, usually with respect to a particular quality; \"He represented this book as an example of the Russian 19th century novel\""
+        angloform:
+          status: gap
+      - wordnet: "00825447"
+        gloss: "point out or draw attention to in protest or remonstrance; \"our parents represented to us the need for more caution\""
+        angloform:
+          status: gap
+      - wordnet: "00772967"
+        gloss: "bring forward and present to the mind; \"We presented the arguments to him\"; \"We cannot represent this knowledge to our formal reason\""
+        angloform:
+          status: gap
+      - wordnet: "00380698"
+        gloss: to establish a mapping (of mathematical elements or sets)
+        angloform:
+          status: redirect
+          word: map
+          category: VERB_TRANS

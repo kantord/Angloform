@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06259898"
+        gloss: "a path over which electrical signals can pass; \"a channel is typically what you rent from a telephone company\""
+        angloform:
+          status: gap
+      - wordnet: "03006105"
+        gloss: "a passage for water (or other fluids) to flow through; \"the fields were crossed with irrigation channels\"; \"gutters carried off the rainwater into a series of channels under the street\""
+        angloform:
+          status: gap
+      - wordnet: "13893786"
+        gloss: a long narrow furrow cut either by a natural process (such as erosion) or by a tool (as e.g. a groove in a phonograph record)
+        angloform:
+          status: gap
+      - wordnet: "09241247"
+        gloss: "a deep and relatively narrow body of water (as in a river or a harbor or a strait linking two larger bodies) that allows the best passage for vessels; \"the ship went aground in the channel\""
+        angloform:
+          status: gap
+      - wordnet: "06260121"
+        gloss: "(often plural) a means of communication or access; \"it must go through official channels\"; \"lines of communication were set up between the two firms\""
+        angloform:
+          status: redirect
+          word: line
+          category: NOUN
+      - wordnet: "05250659"
+        gloss: "a bodily passage or tube lined with epithelial cells and conveying a secretion or other substance; \"the tear duct was obstructed\"; \"the alimentary canal\"; \"poison is released through a channel in the snake's fangs\""
+        angloform:
+          status: gap
+      - wordnet: "03006398"
+        gloss: "a television station and its programs; \"a satellite TV channel\"; \"surfing through the channels\"; \"they offer more than one hundred channels\""
+        angloform:
+          status: gap
+      - wordnet: "01113595"
+        gloss: "a way of selling a company's product either directly or via distributors; \"possible distribution channels are wholesalers or small retailers or retail chains or direct mailers or your own stores\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02079933"
+        gloss: "transmit or serve as the medium for transmission; \"Sound carries well over water\"; \"The airwaves carry the sound\"; \"Many metals conduct heat\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "01933900"
+        gloss: "direct the flow of; \"channel information towards a broad audience\""
+        angloform:
+          status: gap
+      - wordnet: "01435380"
+        gloss: "send from one person or place to another; \"transmit a message\""
+        angloform:
+          status: gap

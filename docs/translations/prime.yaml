@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13594005"
+        gloss: a number that has no factor but itself and 1
+        angloform:
+          status: gap
+      - wordnet: "15295045"
+        gloss: the period of greatest prosperity or productivity
+        angloform:
+          status: gap
+      - wordnet: "15229784"
+        gloss: the second canonical hour; about 6 a.m.
+        angloform:
+          status: gap
+      - wordnet: "15152409"
+        gloss: the time of maturity when power and vigor are greatest
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00408624"
+        gloss: "insert a primer into (a gun, mine, or charge) preparatory to detonation or firing; \"prime a cannon\"; \"prime a mine\""
+        angloform:
+          status: gap
+      - wordnet: "01365355"
+        gloss: cover with a primer; apply a primer to
+        angloform:
+          status: redirect
+          word: ground
+          category: VERB_TRANS
+      - wordnet: "00454018"
+        gloss: "fill with priming liquid; \"prime a car engine\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01012990"
+        gloss: "first in rank or degree; \"an architect of premier rank\"; \"the prime minister\""
+        angloform:
+          status: gap
+      - wordnet: "01013171"
+        gloss: "used of the first or originating agent; \"prime mover\""
+        angloform:
+          status: gap
+      - wordnet: "02342899"
+        gloss: "of superior grade; \"choice wines\"; \"prime beef\"; \"prize carnations\"; \"quality paper\"; \"select peaches\""
+        angloform:
+          status: gap
+      - wordnet: "03012209"
+        gloss: "of or relating to or being an integer that cannot be factored into other integers; \"prime number\""
+        angloform:
+          status: gap
+      - wordnet: "01489557"
+        gloss: "being at the best stage of development; \"our manhood's prime vigor\"- Robert Browning"
+        angloform:
+          status: gap

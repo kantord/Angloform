@@ -1,0 +1,45 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07189633"
+        gloss: a short prayer generally preceding the lesson in the Church of Rome or the Church of England
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02304982"
+        gloss: "get or gather together; \"I am accumulating evidence for the man's unfaithfulness to his wife\"; \"She is amassing a lot of data for her thesis\"; \"She rolled up a small fortune\""
+        angloform:
+          status: gap
+      - wordnet: "02218173"
+        gloss: "call for and obtain payment of; \"we collected over a million dollars in outstanding debts\"; \"he collected the rent\""
+        angloform:
+          status: gap
+      - wordnet: "01380638"
+        gloss: "assemble or get together; \"gather some stones\"; \"pull your thoughts together\""
+        angloform:
+          status: redirect
+          word: gather
+          category: VERB_TRANS
+      - wordnet: "01384439"
+        gloss: "get or bring together; \"accumulate evidence\""
+        angloform:
+          status: gap
+      - wordnet: "02305586"
+        gloss: "gather or collect; \"You can get the results on Monday\"; \"She picked up the children at the day care center\"; \"They pick up our trash twice a week\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00136727"
+        gloss: "payable by the recipient on delivery; \"a collect call\"; \"the letter came collect\"; \"a COD parcel\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00253794"
+        gloss: "make a telephone call or mail a package so that the recipient pays; \"call collect\"; \"send a package collect\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

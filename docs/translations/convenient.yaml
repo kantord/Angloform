@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00604617"
+        gloss: "suited to your comfort or purpose or needs; \"a convenient excuse for not going\""
+        angloform:
+          status: gap
+      - wordnet: "00475996"
+        gloss: "large and roomy (`convenient' is archaic in this sense); \"a commodious harbor\"; \"a commodious building suitable for conventions\""
+        angloform:
+          status: gap

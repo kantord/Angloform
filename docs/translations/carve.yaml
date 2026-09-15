@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01256157"
+        gloss: "form by carving; \"Carve a flower from the ice\""
+        angloform:
+          status: gap
+      - wordnet: "01256600"
+        gloss: "engrave or cut by chipping away at a surface; \"carve one's name into the bark\""
+        angloform:
+          status: gap
+      - wordnet: "01255967"
+        gloss: "cut to pieces; \"Father carved the ham\""
+        angloform:
+          status: gap

@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06536853"
+        gloss: "a statute in draft before it becomes law; \"they held a public hearing on the bill\""
+        angloform:
+          status: gap
+      - wordnet: "06516955"
+        gloss: "an itemized statement of money owed for goods shipped or services rendered; \"he paid his bill and left\"; \"send me an account of what I owe\""
+        angloform:
+          status: gap
+      - wordnet: "13393762"
+        gloss: "a piece of paper money (especially one issued by a central bank); \"he peeled off five one-thousand-zloty notes\""
+        angloform:
+          status: redirect
+          word: note
+          category: NOUN
+      - wordnet: "00551407"
+        gloss: the entertainment offered at a public presentation
+        angloform:
+          status: gap
+      - wordnet: "07250339"
+        gloss: "an advertisement (usually printed on a page or in a leaflet) intended for wide distribution; \"he mailed the circular to all subscribers\""
+        angloform:
+          status: gap
+      - wordnet: "06793426"
+        gloss: "a sign posted in a public place as an advertisement; \"a poster advertised the coming attractions\""
+        angloform:
+          status: gap
+      - wordnet: "06486874"
+        gloss: a list of particulars (as a playbill or bill of fare)
+        angloform:
+          status: gap
+      - wordnet: "02838958"
+        gloss: "a long-handled saw with a curved blade; \"he used a bill to prune branches off of the tree\""
+        angloform:
+          status: gap
+      - wordnet: "02838728"
+        gloss: "a brim that projects to the front to shade the eyes; \"he pulled down the bill of his cap and trudged ahead\""
+        angloform:
+          status: gap
+      - wordnet: "01758308"
+        gloss: horny projecting mouth of a bird
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02320374"
+        gloss: "demand payment; \"Will I get charged for this service?\"; \"We were billed for 4 nights in the hotel, although we stayed only 3 nights\""
+        angloform:
+          status: gap
+      - wordnet: "00977153"
+        gloss: "advertise especially by posters or placards; \"He was billed as the greatest tenor since Caruso\""
+        angloform:
+          status: gap
+      - wordnet: "00991900"
+        gloss: publicize or announce by placards
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01202904"
+        gloss: "joint operation or action; \"their cooperation with us was essential for the success of our mission\""
+        angloform:
+          status: gap
+      - wordnet: "00411384"
+        gloss: "the practice of cooperating; \"economic cooperation\"; \"they agreed on a policy of cooperation\""
+        angloform:
+          status: gap

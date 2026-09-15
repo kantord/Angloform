@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00805376"
+        gloss: "be in accord; be in agreement; \"We agreed on the terms of the settlement\"; \"I can't agree with you!\"; \"I hold with those who say life is sacred\"; \"Both philosophers concord on this point\""
+        angloform:
+          status: redirect
+          word: hold
+          category: VERB_TRANS
+      - wordnet: "00345312"
+        gloss: "happen simultaneously; \"The two events coincided\""
+        angloform:
+          status: gap

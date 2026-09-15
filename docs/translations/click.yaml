@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07379223"
+        gloss: a short light metallic sound
+        angloform:
+          status: gap
+      - wordnet: "07118210"
+        gloss: a stop consonant made by the suction of air into the mouth (as in Bantu)
+        angloform:
+          status: gap
+      - wordnet: "03901548"
+        gloss: a hinged catch that fits into a notch of a ratchet to move a wheel forward or prevent it from moving backward
+        angloform:
+          status: gap
+      - wordnet: "00112828"
+        gloss: "depression of a button on a computer mouse; \"a click on the right button for example\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01893771"
+        gloss: "move or strike with a noise; \"he clicked on the light\"; \"his arm was snapped forward\""
+        angloform:
+          status: gap
+      - wordnet: "02185664"
+        gloss: "make a clicking or ticking sound; \"The clock ticked away\""
+        angloform:
+          status: gap
+      - wordnet: "02185861"
+        gloss: "click repeatedly or uncontrollably; \"Chattering teeth\""
+        angloform:
+          status: gap
+      - wordnet: "01242208"
+        gloss: "cause to make a snapping sound; \"snap your fingers\""
+        angloform:
+          status: gap
+      - wordnet: "01055146"
+        gloss: "produce a click; \"Xhosa speakers click\""
+        angloform:
+          status: gap
+      - wordnet: "01054849"
+        gloss: make a clucking sounds, characteristic of hens
+        angloform:
+          status: gap
+      - wordnet: "00591755"
+        gloss: "become clear or enter one's consciousness or emotions; \"It dawned on him that she had betrayed him\"; \"she was penetrated with sorrow\""
+        angloform:
+          status: gap

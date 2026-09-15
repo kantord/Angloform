@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00035058"
+        gloss: "many times at short intervals; \"we often met over a cup of coffee\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00059413"
+        gloss: "frequently or in great quantities; \"I don't drink much\"; \"I don't travel much\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00059547"
+        gloss: in many cases or instances
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: currency code for the United States Dollar
+        angloform:
+          status: gap
+          note: no currency vocabulary exists yet; a currency-code abbreviation, not ordinary prose vocabulary

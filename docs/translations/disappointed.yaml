@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02333976"
+        gloss: "disappointingly unsuccessful; \"disappointed expectations and thwarted ambitions\"; \"their foiled attempt to capture Calais\"; \"many frustrated poets end as pipe-smoking teachers\"; \"his best efforts were thwarted\""
+        angloform:
+          status: gap

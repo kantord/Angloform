@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10269785"
+        gloss: a person skilled at symbolic logic
+        angloform:
+          status: gap

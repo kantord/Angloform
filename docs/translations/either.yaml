@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00024893"
+        gloss: "after a negative statement used as an intensive meaning something like `likewise' or `also'; \"he isn't stupid, but he isn't exactly a genius either\"; \"I don't know either\"; \"if you don't order dessert I won't either\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

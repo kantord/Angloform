@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01283787"
+        gloss: "amazingly impressive; suggestive of the flashing of lightning; \"the skater's dazzling virtuosic leaps\"; \"these great best canvases still look as astonishing and as invitingly new as they did...when...his fulgurant popularity was in full growth\"- Janet Flanner; \"adventures related...in a style both vivid and fulgurous\"- Idwal Jones"
+        angloform:
+          status: gap
+      - wordnet: "00280844"
+        gloss: "shining intensely; \"the blazing sun\"; \"blinding headlights\"; \"dazzling snow\"; \"fulgent patterns of sunlight\"; \"the glaring sun\""
+        angloform:
+          status: gap

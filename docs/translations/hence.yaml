@@ -1,0 +1,11 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json (ADR 0026); same treatment as
+# "thus" (the two lemmas are already redirect-paired in the legacy ledger).
+by_upos:
+  ADV:
+    senses:
+      - gloss: for this reason; "hence the delay"
+        angloform:
+          status: construction
+          pattern: the evidence is strong, so the claim is true.
+          note: 'ADR 0026: for cause and result write "<cause>, so <result>"; for result and reason write "<result>, because <reason>"; matches seed.json''s existing BANNED advice for this lemma'

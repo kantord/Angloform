@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05202497"
+        gloss: "the quality of being capable -- physically or intellectually or legally; \"he worked to the limits of his capability\""
+        angloform:
+          status: gap
+      - wordnet: "14530836"
+        gloss: "the susceptibility of something to a particular treatment; \"the capability of a metal to be fused\""
+        angloform:
+          status: gap
+      - wordnet: "05623181"
+        gloss: an aptitude that may be developed
+        angloform:
+          status: gap

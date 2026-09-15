@@ -1,0 +1,43 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "supplies" is the plural of "supply" — WordNet indexes it only under the
+# singular lemma.
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13777344"
+        gloss: an amount of something available for use; "military supplies"
+        angloform:
+          status: gap
+          note: no provide/supply vocabulary exists yet
+      - wordnet: "13563522"
+        gloss: offering goods and services for sale
+        angloform:
+          status: gap
+      - wordnet: "01057200"
+        gloss: the activity of supplying or providing something
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02327200"
+        gloss: give something useful or necessary to; "We provided the room with an electrical heater"
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "02479323"
+        gloss: circulate or distribute or equip with; "supply blankets for the beds"
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "01182709"
+        gloss: give what is desired or needed, especially support, food or sustenance; "The hostess provided lunch for all the guests"
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "01027174"
+        gloss: state or say further; "'It doesn't matter,' he supplied"
+        angloform:
+          status: gap

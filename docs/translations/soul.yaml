@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10627082"
+        gloss: the immaterial part of a person; the actuating cause of an individual life
+        angloform:
+          status: gap
+      - wordnet: "00007846"
+        gloss: "a human being; \"there was too much for one person to do\""
+        angloform:
+          status: redirect
+          word: person
+          category: NOUN
+      - wordnet: "07480790"
+        gloss: deep feeling or emotion
+        angloform:
+          status: gap
+      - wordnet: "00933154"
+        gloss: "the human embodiment of something; \"the soul of honor\""
+        angloform:
+          status: gap
+      - wordnet: "07061968"
+        gloss: "a secular form of gospel that was a major Black musical genre in the 1960s and 1970s; \"soul was politically significant during the Civil Rights movement\""
+        angloform:
+          status: gap

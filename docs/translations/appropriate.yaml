@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00724150"
+        gloss: "give or assign a resource to a particular person or cause; \"I will earmark this money for your research\"; \"She sets aside time for meditation every day\""
+        angloform:
+          status: redirect
+          word: allow
+          category: VERB_TRANS
+      - wordnet: "02272549"
+        gloss: "take possession of by force, as after an invasion; \"the invaders seized the land and property of the inhabitants\"; \"The army seized the town\"; \"The militia captured the castle\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00134701"
+        gloss: "suitable for a particular person or place or condition etc; \"a book not appropriate for children\"; \"a funeral conducted the appropriate solemnity\"; \"it seems that an apology is appropriate\""
+        angloform:
+          status: gap

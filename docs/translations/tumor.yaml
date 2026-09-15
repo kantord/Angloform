@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14235200"
+        gloss: an abnormal new mass of tissue that serves no purpose
+        angloform:
+          status: gap

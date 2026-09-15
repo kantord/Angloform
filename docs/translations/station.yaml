@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04306080"
+        gloss: "a facility equipped with special equipment and personnel for a particular purpose; \"he started looking for a gas station\"; \"the train pulled into the station\""
+        angloform:
+          status: gap
+      - wordnet: "13947645"
+        gloss: "proper or designated social situation; \"he overstepped his place\"; \"the responsibilities of a man in his station\"; \"married above her station\""
+        angloform:
+          status: redirect
+          word: place
+          category: NOUN
+      - wordnet: "08656590"
+        gloss: (nautical) the location to which a ship or fleet is assigned for duty
+        angloform:
+          status: gap
+      - wordnet: "08624385"
+        gloss: "the position where someone (as a guard or sentry) stands or is assigned to stand; \"a soldier manned the entrance post\"; \"a sentry station\""
+        angloform:
+          status: gap
+      - wordnet: "05057061"
+        gloss: the frequency assigned to a broadcasting station
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01088923"
+        gloss: assign to a station
+        angloform:
+          status: redirect
+          word: send
+          category: VERB_TRANS

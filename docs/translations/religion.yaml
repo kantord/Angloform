@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05946687"
+        gloss: "a strong belief in a supernatural power or powers that control human destiny; \"he lost his faith but not his morality\""
+        angloform:
+          status: gap
+      - wordnet: "08081668"
+        gloss: "an institution to express belief in a divine power; \"he was raised in the Baptist religion\"; \"a member of his own faith contradicted him\""
+        angloform:
+          status: gap

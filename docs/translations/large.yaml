@@ -1,0 +1,63 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05096191"
+        gloss: a garment size for a large person
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01382086"
+        gloss: "above average in size or number or quantity or magnitude or extent; \"a large city\"; \"set out for the big city\"; \"a large sum\"; \"a big (or large) barn\"; \"a large family\"; \"big businesses\"; \"a big expenditure\"; \"a large number of newspapers\"; \"a big group of scientists\"; \"large areas of the world\""
+        angloform:
+          status: redirect
+          word: big
+          category: ADJ
+      - wordnet: "02163307"
+        gloss: "fairly large or important in effect; influential; \"played a large role in the negotiations\""
+        angloform:
+          status: gap
+      - wordnet: "02016881"
+        gloss: "ostentatiously lofty in style; \"a man given to large talk\"; \"tumid political prose\""
+        angloform:
+          status: gap
+      - wordnet: "01114658"
+        gloss: "generous and understanding and tolerant; \"a heart big enough to hold no grudges\"; \"that's very big of you to be so forgiving\"; \"a large and generous spirit\"; \"a large heart\"; \"magnanimous toward his enemies\""
+        angloform:
+          status: redirect
+          word: big
+          category: ADJ
+      - wordnet: "00579622"
+        gloss: "conspicuous in position or importance; \"a big figure in the movement\"; \"big man on campus\"; \"he's very large in financial circles\"; \"a prominent citizen\""
+        angloform:
+          status: redirect
+          word: big
+          category: ADJ
+      - wordnet: "00527870"
+        gloss: "having broad power and range and scope; \"taking the large view\"; \"a large effect\"; \"a large sympathy\""
+        angloform:
+          status: gap
+      - wordnet: "00173391"
+        gloss: "in an advanced stage of pregnancy; \"was big with child\"; \"was great with child\""
+        angloform:
+          status: redirect
+          word: big
+          category: ADJ
+  ADV:
+    senses:
+      - wordnet: "00386393"
+        gloss: at a distance, wide of something (as of a mark)
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00386307"
+        gloss: "with the wind abaft the beam; \"a ship sailing large\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00225672"
+        gloss: "in a boastful manner; \"he talked big all evening\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

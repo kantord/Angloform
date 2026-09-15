@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11067047"
+        gloss: Englishman and Pre-Raphaelite painter (1827-1910)
+        angloform:
+          status: gap
+      - wordnet: "11066938"
+        gloss: United States architect (1827-1895)
+        angloform:
+          status: gap
+      - wordnet: "11066772"
+        gloss: British writer who defended the Romanticism of Keats and Shelley (1784-1859)
+        angloform:
+          status: gap
+      - wordnet: "08229779"
+        gloss: an association of huntsmen who hunt for sport
+        angloform:
+          status: gap
+      - wordnet: "05770257"
+        gloss: "an instance of searching for something; \"the hunt for submarines\""
+        angloform:
+          status: gap
+      - wordnet: "00945401"
+        gloss: the activity of looking thoroughly in order to find something or someone
+        angloform:
+          status: gap
+      - wordnet: "00622584"
+        gloss: the work of finding and killing or capturing animals for food or pelts
+        angloform:
+          status: gap
+      - wordnet: "00452293"
+        gloss: the pursuit and killing or capture of wild animals regarded as a sport
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01143838"
+        gloss: "pursue for food or sport (as of wild animals); \"Goering often hunted wild boars in Poland\"; \"The dogs are running deer\"; \"The Duke hunted in these woods\""
+        angloform:
+          status: gap
+      - wordnet: "02003601"
+        gloss: "pursue or chase relentlessly; \"The hunters traced the deer into the woods\"; \"the detectives hounded the suspect until they found him\""
+        angloform:
+          status: gap
+      - wordnet: "02056691"
+        gloss: "chase away, with as with force; \"They hunted the unwanted immigrants out of the neighborhood\""
+        angloform:
+          status: gap
+      - wordnet: "02034147"
+        gloss: "yaw back and forth about a flight path; \"the plane's nose yawed\""
+        angloform:
+          status: gap
+      - wordnet: "01878376"
+        gloss: "oscillate about a desired speed, position, or state to an undesirable extent; \"The oscillator hunts about the correct frequency\""
+        angloform:
+          status: gap
+      - wordnet: "01316401"
+        gloss: "seek, search for; \"She hunted for her reading glasses but was unable to locate them\""
+        angloform:
+          status: gap
+      - wordnet: "01144657"
+        gloss: "search (an area) for prey; \"The King used to hunt these forests\""
+        angloform:
+          status: gap

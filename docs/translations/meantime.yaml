@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15272887"
+        gloss: "the time between one event, process, or period and another; \"meanwhile the socialists are running the government\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00064946"
+        gloss: "during the intervening time; \"meanwhile I will not think about the problem\"; \"meantime he was attentive to his other interests\"; \"in the meantime the police were notified\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

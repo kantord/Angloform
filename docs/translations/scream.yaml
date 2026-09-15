@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07123012"
+        gloss: "sharp piercing cry; \"her screaming attracted the neighbors\""
+        angloform:
+          status: gap
+      - wordnet: "07393161"
+        gloss: "a high-pitched noise resembling a human cry; \"he ducked at the screechings of shells\"; \"he heard the scream of the brakes\""
+        angloform:
+          status: gap
+      - wordnet: "06778925"
+        gloss: a joke that seems extremely funny
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00913065"
+        gloss: "utter a sudden loud cry; \"she cried with pain when the doctor inserted the needle\"; \"I yelled to her from the window but she couldn't hear me\""
+        angloform:
+          status: gap
+      - wordnet: "00912833"
+        gloss: "utter or declare in a very loud voice; \"You don't have to yell--I can hear you just fine\""
+        angloform:
+          status: gap
+      - wordnet: "02173336"
+        gloss: "make a loud, piercing sound; \"Fighter planes are screaming through the skies\""
+        angloform:
+          status: gap

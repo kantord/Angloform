@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10008535"
+        gloss: "a person who is frightened and in need of help; \"they prey on the hopes of the desperate\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01229826"
+        gloss: "arising from or marked by despair or loss of hope; \"a despairing view of the world situation\"; \"the last despairing plea of the condemned criminal\"; \"a desperate cry for help\"; \"helpless and desperate--as if at the end of his tether\"; \"her desperate screams\""
+        angloform:
+          status: gap
+      - wordnet: "01990507"
+        gloss: "desperately determined; \"do-or-die revolutionaries\"; \"a do-or-die conflict\""
+        angloform:
+          status: gap
+      - wordnet: "02059626"
+        gloss: "(of persons) dangerously reckless or violent as from urgency or despair; \"a desperate criminal\"; \"taken hostage of desperate men\""
+        angloform:
+          status: gap
+      - wordnet: "00263463"
+        gloss: "showing extreme courage; especially of actions courageously undertaken in desperation as a last resort; \"made a last desperate attempt to reach the climber\"; \"the desperate gallantry of our naval task forces marked the turning point in the Pacific war\"- G.C.Marshall; \"they took heroic measures to save his life\""
+        angloform:
+          status: gap
+      - wordnet: "00713351"
+        gloss: "showing extreme urgency or intensity especially because of great need or desire; \"felt a desperate urge to confess\"; \"a desperate need for recognition\""
+        angloform:
+          status: gap
+      - wordnet: "00651451"
+        gloss: "fraught with extreme danger; nearly hopeless; \"a desperate illness\"; \"on all fronts the Allies were in a desperate situation due to lack of materiel\"- G.C.Marshall; \"a dire emergency\""
+        angloform:
+          status: gap

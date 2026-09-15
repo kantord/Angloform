@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06693198"
+        gloss: "an expression of approval and commendation; \"he always appreciated praise for his work\""
+        angloform:
+          status: gap
+      - wordnet: "06693502"
+        gloss: "offering words of homage as an act of worship; \"they sang a hymn of praise to God\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00856824"
+        gloss: "express approval of; \"The parents praised their children for their academic performance\""
+        angloform:
+          status: gap

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00027384"
+        gloss: "despite anything to the contrary (usually following a concession); \"although I'm a little afraid, however I'd like to try it\"; \"while we disliked each other, nevertheless we agreed\"; \"he was a stern yet fair master\"; \"granted that it is dangerous, all the same I still want to go\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00028797"
+        gloss: "by contrast; on the other hand; \"the first part was easy; the second, however, took hours\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00028578"
+        gloss: "to whatever degree or extent; \"The results, however general, are important\"; \"they have begun, however reluctantly, to acknowledge the legitimacy of some of the opposition's concerns\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00028424"
+        gloss: "in whatever way or manner; \"Victory, however it was brought about, was sweet\"; \"however he did it, it was very clever\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

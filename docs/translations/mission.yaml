@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08403225"
+        gloss: an organization of missionaries in a foreign land sent to carry on religious work
+        angloform:
+          status: gap
+      - wordnet: "00970645"
+        gloss: "an operation that is assigned by a higher headquarters; \"the planes were on a bombing mission\""
+        angloform:
+          status: gap
+      - wordnet: "00731222"
+        gloss: "a special assignment that is given to a person or group; \"a confidential mission to London\"; \"his charge was deliver a message\""
+        angloform:
+          status: gap
+      - wordnet: "00730984"
+        gloss: the organized work of a religious missionary
+        angloform:
+          status: gap
+      - wordnet: "08402442"
+        gloss: a group of representatives or delegates
+        angloform:
+          status: gap

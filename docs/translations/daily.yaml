@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06267564"
+        gloss: a newspaper that is published every day
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01968165"
+        gloss: "of or belonging to or occurring every day; \"daily routine\"; \"a daily paper\""
+        angloform:
+          status: gap
+      - wordnet: "01044557"
+        gloss: "appropriate for ordinary or routine occasions; \"casual clothes\"; \"everyday clothes\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00081486"
+        gloss: "every day; without missing a day; \"he stops by daily\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00177818"
+        gloss: "gradually and progressively; \"his health weakened day by day\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

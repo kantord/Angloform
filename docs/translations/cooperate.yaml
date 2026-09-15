@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02416278"
+        gloss: "work together on a common enterprise of project; \"The soprano and the pianist did not get together very well\"; \"We joined forces with another research group\""
+        angloform:
+          status: gap

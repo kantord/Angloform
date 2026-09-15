@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05652593"
+        gloss: "the capability of conscious choice and decision and intention; \"the exercise of their volition we construe as revolt\"- George Meredith"
+        angloform:
+          status: gap
+      - wordnet: "05983654"
+        gloss: "a fixed and persistent intent or purpose; \"where there's a will there's a way\""
+        angloform:
+          status: gap
+      - wordnet: "06544142"
+        gloss: "a legal document declaring a person's wishes regarding the disposal of their property when they die"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00746366"
+        gloss: "decree or ordain; \"God wills our existence\""
+        angloform:
+          status: gap
+      - wordnet: "00698398"
+        gloss: "determine by choice; \"This action was willed and intended\""
+        angloform:
+          status: gap
+      - wordnet: "02229055"
+        gloss: "leave or give by will after one's death; \"My aunt bequeathed me all her jewelry\"; \"My grandfather left me his entire estate\""
+        angloform:
+          status: gap

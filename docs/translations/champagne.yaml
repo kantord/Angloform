@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07893642"
+        gloss: a white sparkling wine either produced in Champagne or resembling that produced there
+        angloform:
+          status: gap
+      - wordnet: "08941535"
+        gloss: a region of northeastern France
+        angloform:
+          status: gap

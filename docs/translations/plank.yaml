@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15101854"
+        gloss: a stout length of sawn timber; made in a wide variety of sizes and used for many purposes
+        angloform:
+          status: gap
+      - wordnet: "06501622"
+        gloss: an endorsed policy in the platform of a political party
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01336159"
+        gloss: "cover with planks; \"The streets were planked\""
+        angloform:
+          status: gap
+      - wordnet: "01500572"
+        gloss: "set (something or oneself) down with or as if with a noise; \"He planked the money on the table\"; \"He planked himself into the sofa\""
+        angloform:
+          status: gap
+      - wordnet: "01180701"
+        gloss: "cook and serve on a plank; \"Planked vegetable\"; \"Planked shad\""
+        angloform:
+          status: gap

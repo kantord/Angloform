@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07457599"
+        gloss: a minor match preceding the main event
+        angloform:
+          status: gap
+      - wordnet: "07327013"
+        gloss: "something that serves as a preceding event or introduces what follows; \"training is a necessary preliminary to employment\"; \"drinks were the overture to dinner\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00878086"
+        gloss: "denoting an action or event preceding or in preparation for something more important; designed to orient or acquaint with a situation before proceeding; \"a preliminary investigation\""
+        angloform:
+          status: gap

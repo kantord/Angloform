@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02716165"
+        gloss: "be present or associated with an event or entity; \"French fries come with the hamburger\"; \"heart attacks are accompanied by distruction of heart tissue\"; \"fish usually goes with white wine\"; \"this kind of vein accompanies certain arteries\""
+        angloform:
+          status: gap
+      - wordnet: "02025550"
+        gloss: "go or travel along with; \"The nurse accompanied the old lady everywhere\""
+        angloform:
+          status: gap
+      - wordnet: "01728355"
+        gloss: "perform an accompaniment to; \"The orchestra could barely follow the frequent pitch changes of the soprano\""
+        angloform:
+          status: redirect
+          word: follow
+          category: VERB_TRANS
+      - wordnet: "02716767"
+        gloss: be a companion to somebody
+        angloform:
+          status: gap

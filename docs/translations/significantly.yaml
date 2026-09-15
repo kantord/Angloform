@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00509970"
+        gloss: "in a statistically significant way; \"the two groups differed significantly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00006259"
+        gloss: "in a significant manner; \"our budget will be significantly affected by these new cuts\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00367868"
+        gloss: "in an important way or to an important degree; \"more importantly, Weber held that the manifold meaning attached to the event by the social scientist could alter his definition of the concrete event itself\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

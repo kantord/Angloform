@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00115193"
+        gloss: "roused to anger; \"stayed huffy a good while\"- Mark Twain; \"she gets mad when you wake her up so early\"; \"mad at his friend\"; \"sore over a remark\""
+        angloform:
+          status: gap
+      - wordnet: "02075321"
+        gloss: "affected with madness or insanity; \"a man who had gone mad\""
+        angloform:
+          status: gap
+      - wordnet: "02390724"
+        gloss: "marked by uncontrolled excitement or emotion; \"a crowd of delirious baseball fans\"; \"something frantic in their gaiety\"; \"a mad whirl of pleasure\""
+        angloform:
+          status: gap
+      - wordnet: "02572038"
+        gloss: "very foolish; \"harebrained ideas\"; \"took insane risks behind the wheel\"; \"a completely mad scheme to build a bridge between two mountains\""
+        angloform:
+          status: gap

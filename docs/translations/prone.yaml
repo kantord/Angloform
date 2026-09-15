@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01292884"
+        gloss: "having a tendency (to); often used in combination; \"a child prone to mischief\"; \"failure-prone\""
+        angloform:
+          status: gap
+      - wordnet: "01239534"
+        gloss: lying face downward
+        angloform:
+          status: gap

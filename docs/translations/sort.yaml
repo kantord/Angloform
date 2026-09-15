@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05839024"
+        gloss: "a category of things distinguished by some common characteristic or quality; \"sculpture is a form of art\"; \"what kinds of desserts are there?\""
+        angloform:
+          status: redirect
+          word: kind
+          category: NOUN
+      - wordnet: "04746262"
+        gloss: "an approximate definition or example; \"she wore a sort of magenta dress\"; \"she served a creamy sort of dessert thing\""
+        angloform:
+          status: gap
+      - wordnet: "10626722"
+        gloss: "a person of a particular character or nature; \"what sort of person is he?\"; \"he's a good sort\""
+        angloform:
+          status: gap
+      - wordnet: "13558696"
+        gloss: "an operation that segregates items into groups according to a specified criterion; \"the bottleneck in mail delivery is the process of sorting\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02400378"
+        gloss: "examine in order to test suitability; \"screen these samples\"; \"screen the job applicants\""
+        angloform:
+          status: gap
+      - wordnet: "00654625"
+        gloss: "arrange or order by classes or categories; \"How would you classify these pottery shards--are they prehistoric?\""
+        angloform:
+          status: redirect
+          word: separate
+          category: VERB_TRANS

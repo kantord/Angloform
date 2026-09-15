@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00048828"
+        gloss: "arrival that has been awaited (especially of something momentous); \"the advent of the computer\""
+        angloform:
+          status: gap
+      - wordnet: "15241507"
+        gloss: the season including the four Sundays preceding Christmas
+        angloform:
+          status: gap
+      - wordnet: "07322550"
+        gloss: (Christian theology) the reappearance of Jesus as judge for the Last Judgment
+        angloform:
+          status: gap

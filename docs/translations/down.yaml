@@ -1,0 +1,120 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01896561"
+        gloss: soft fine feathers
+        angloform:
+          status: gap
+      - wordnet: "00458286"
+        gloss: "(American football) a complete play to advance the football; \"you have four downs to gain ten yards\""
+        angloform:
+          status: gap
+      - wordnet: "10942144"
+        gloss: "English physician who first described Down's syndrome (1828-1896)"
+        angloform:
+          status: gap
+      - wordnet: "09269341"
+        gloss: (usually plural) a rolling treeless highland with little soil
+        angloform:
+          status: gap
+      - wordnet: "05255692"
+        gloss: fine soft dense hair (as the fine short hair of cattle or deer or the wool of sheep or the undercoat of certain dogs)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01202374"
+        gloss: "drink down entirely; \"He downed three martinis before dinner\"; \"She killed a bottle of brandy that night\"; \"They popped a few beer after work\""
+        angloform:
+          status: gap
+      - wordnet: "01197014"
+        gloss: "eat immoderately; \"Some people can down a pound of meat in the course of one meal\""
+        angloform:
+          status: gap
+      - wordnet: "01103336"
+        gloss: bring down or defeat (an opponent)
+        angloform:
+          status: gap
+      - wordnet: "01981279"
+        gloss: "shoot at and force to come down; \"the enemy landed several of our aircraft\""
+        angloform:
+          status: gap
+      - wordnet: "01239862"
+        gloss: "cause to come or go down; \"The policeman downed the heavily armed suspect\"; \"The mugger knocked down the old lady after she refused to hand over her wallet\""
+        angloform:
+          status: gap
+      - wordnet: "00474017"
+        gloss: "improve or perfect by pruning or polishing; \"refine one's style of writing\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02491961"
+        gloss: "being or moving lower in position or less in some value; \"lay face down\"; \"the moon is down\"; \"our team is down by a run\"; \"down by a pawn\"; \"the stock market is down today\""
+        angloform:
+          status: gap
+      - wordnet: "02486248"
+        gloss: "extending or moving from a higher to a lower place; \"the down staircase\"; \"the downward course of the stream\""
+        angloform:
+          status: gap
+      - wordnet: "02487414"
+        gloss: "becoming progressively lower; \"the down trend in the real estate market\""
+        angloform:
+          status: gap
+      - wordnet: "02061678"
+        gloss: "being put out by a strikeout; \"two down in the bottom of the ninth\""
+        angloform:
+          status: gap
+      - wordnet: "01750617"
+        gloss: "understood perfectly; \"had his algebra problems down\""
+        angloform:
+          status: gap
+      - wordnet: "01212867"
+        gloss: "lower than previously; \"the market is depressed\"; \"prices are down\""
+        angloform:
+          status: gap
+      - wordnet: "01208492"
+        gloss: "shut; \"the shades were down\""
+        angloform:
+          status: gap
+      - wordnet: "00833737"
+        gloss: "not functioning (temporarily or permanently); \"we can't work because the computer is down\""
+        angloform:
+          status: gap
+      - wordnet: "00703615"
+        gloss: "filled with melancholy and despondency ; \"gloomy at the thought of what he had to face\"; \"gloomy predictions\"; \"a gloomy silence\"; \"took a grim view of the economy\"; \"the darkening mood\"; \"lonely and blue in a strange city\"; \"depressed by the loss of his job\"; \"a dispirited and resigned expression on her face\"; \"downcast after his defeat\"; \"feeling discouraged and downhearted\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00095320"
+        gloss: "spatially or metaphorically from a higher to a lower level or position; \"don't fall down\"; \"rode the lift up and skied down\"; \"prices plunged downward\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00095612"
+        gloss: "away from a more central or a more northerly place; \"was sent down to work at the regional office\"; \"worked down on the farm\"; \"came down for the wedding\"; \"flew down to Florida\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00095841"
+        gloss: "paid in cash at time of purchase; \"put ten dollars down on the necklace\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00096232"
+        gloss: "from an earlier time; \"the story was passed down from father to son\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00096089"
+        gloss: "to a lower intensity; \"he slowly phased down the light until the stage was completely black\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00095946"
+        gloss: "in an inactive or inoperative state; \"the factory went down during the strike\"; \"the computer went down again\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

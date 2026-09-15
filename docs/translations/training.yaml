@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00893955"
+        gloss: activity leading to skilled behavior
+        angloform:
+          status: gap
+      - wordnet: "04921900"
+        gloss: "the result of good upbringing (especially knowledge of correct social behavior); \"a woman of breeding and refinement\""
+        angloform:
+          status: gap

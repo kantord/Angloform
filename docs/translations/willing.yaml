@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00163047"
+        gloss: "the act of making a choice; \"followed my father of my own volition\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02564986"
+        gloss: "disposed or inclined toward; \"a willing participant\"; \"willing helpers\""
+        angloform:
+          status: gap
+      - wordnet: "02521036"
+        gloss: "not brought about by coercion or force; \"the confession was uncoerced\""
+        angloform:
+          status: gap

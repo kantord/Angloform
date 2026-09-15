@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07411645"
+        gloss: a rapid change in brightness; a brief spark or flash
+        angloform:
+          status: gap
+      - wordnet: "04953380"
+        gloss: "merriment expressed by a brightness or gleam or animation of countenance; \"he had a sparkle in his eye\"; \"there's a perpetual twinkle in his eyes\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02159890"
+        gloss: "gleam or glow intermittently; \"The lights were flashing\""
+        angloform:
+          status: gap
+      - wordnet: "02764765"
+        gloss: "emit or reflect light in a flickering manner; \"Does a constellation twinkle more brightly than a single star?\""
+        angloform:
+          status: gap

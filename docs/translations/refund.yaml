@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13282161"
+        gloss: money returned to a payer
+        angloform:
+          status: gap
+      - wordnet: "01121690"
+        gloss: the act of returning money received previously
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02284951"
+        gloss: "pay back; \"Please refund me my money\""
+        angloform:
+          status: redirect
+          word: return
+          category: VERB_TRANS

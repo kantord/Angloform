@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07375525"
+        gloss: a rapid rise
+        angloform:
+          status: gap
+      - wordnet: "00326291"
+        gloss: the act of rising upward into the air
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02055521"
+        gloss: move along very quickly
+        angloform:
+          status: gap
+      - wordnet: "02056209"
+        gloss: move with a low humming noise
+        angloform:
+          status: gap
+      - wordnet: "01943718"
+        gloss: "rise rapidly; \"the dollar soared against the yen\""
+        angloform:
+          status: gap

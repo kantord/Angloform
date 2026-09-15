@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02053941"
+        gloss: "move towards; \"We were approaching our destination\"; \"They are drawing near\"; \"The enemy army came nearer and nearer\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00444519"
+        gloss: "not far distant in time or space or degree or circumstances; \"near neighbors\"; \"in the near future\"; \"they are near equals\"; \"his nearest approach to success\"; \"a very near thing\"; \"a near hit by the bomb\"; \"she was near tears\"; \"she was close to tears\"; \"had a close call\""
+        angloform:
+          status: gap
+      - wordnet: "02033556"
+        gloss: "being on the left side; \"the near or nigh horse is the one on the left\"; \"the animal's left side is its near or nigh side\""
+        angloform:
+          status: gap
+      - wordnet: "01573762"
+        gloss: "closely resembling the genuine article; \"near beer\"; \"a dress of near satin\""
+        angloform:
+          status: gap
+      - wordnet: "01113225"
+        gloss: "giving or spending with reluctance; \"our cheeseparing administration\"; \"very close (or near) with his money\"; \"a penny-pinching miserly old man\""
+        angloform:
+          status: gap
+      - wordnet: "00452883"
+        gloss: "with or in a close or intimate relationship; \"a good friend\"; \"my sisters and brothers are near and dear\""
+        angloform:
+          status: redirect
+          word: good
+          category: ADJ
+      - wordnet: "00451872"
+        gloss: "very close in resemblance; \"sketched in an approximate likeness\"; \"a near likeness\""
+        angloform:
+          status: redirect
+          word: approximate
+          category: ADJ
+  ADV:
+    senses:
+      - wordnet: "00409709"
+        gloss: "near in time or place or relationship; \"as the wedding day drew near\"; \"stood near the door\"; \"don't shoot until they come near\"; \"getting near to the true explanation\"; \"her mother is always near\"; \"The end draws nigh\"; \"the bullet didn't come close\"; \"don't get too close to the fire\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00073033"
+        gloss: "(of actions or states) slightly short of or not quite accomplished; all but; \"the job is (just) about done\"; \"the baby was almost asleep when the alarm sounded\"; \"we're almost finished\"; \"the car all but ran her down\"; \"he nearly fainted\"; \"talked for nigh onto 2 hours\"; \"the recording is well-nigh perfect\"; \"virtually all the parties signed the contract\"; \"I was near exhausted by the run\"; \"most everyone agrees\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05194151"
+        gloss: "a power to affect persons or events especially power based on prestige etc; \"used her parents' influence to get the job\""
+        angloform:
+          status: gap
+      - wordnet: "00157081"
+        gloss: causing something without any direct or apparent effort
+        angloform:
+          status: gap
+      - wordnet: "05692910"
+        gloss: "a cognitive factor that tends to have an effect on what you do; \"her wishes had a great influence on his thinking\""
+        angloform:
+          status: gap
+      - wordnet: "11414608"
+        gloss: "the effect of one thing (or person) on another; \"the influence of mechanical action\""
+        angloform:
+          status: gap
+      - wordnet: "10461747"
+        gloss: "one having power to influence another; \"she was the most important influence in my life\"; \"he was a bad influence on the children\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02536557"
+        gloss: "have and exert influence or effect; \"The artist's work influenced the young painter\"; \"She worked on her friends to support the political candidate\""
+        angloform:
+          status: gap
+      - wordnet: "00701040"
+        gloss: "shape or influence; give direction to; \"experience often determines ability\"; \"mold public opinion\""
+        angloform:
+          status: gap
+      - wordnet: "00776523"
+        gloss: "induce into action by using one's charm; \"She charmed him into giving her all his money\""
+        angloform:
+          status: gap

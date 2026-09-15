@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10256756"
+        gloss: a person who favors a political philosophy of progress and reform and the protection of civil liberties
+        angloform:
+          status: gap
+      - wordnet: "10257084"
+        gloss: a person who favors an economic theory of laissez-faire and self-regulating markets
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00286837"
+        gloss: "showing or characterized by broad-mindedness; \"a broad political stance\"; \"generous and broad sympathies\"; \"a liberal newspaper\"; \"tolerant of his opponent's opinions\""
+        angloform:
+          status: gap
+      - wordnet: "02031473"
+        gloss: having political or social views favoring reform and progress
+        angloform:
+          status: gap
+      - wordnet: "00575230"
+        gloss: tolerant of change; not bound by authoritarianism, orthodoxy, or tradition
+        angloform:
+          status: gap
+      - wordnet: "01111418"
+        gloss: "given or giving freely; \"was a big tipper\"; \"the bounteous goodness of God\"; \"bountiful compliments\"; \"a freehanded host\"; \"a handsome allowance\"; \"Saturday's child is loving and giving\"; \"a liberal backer of the arts\"; \"a munificent gift\"; \"her fond and openhanded grandfather\""
+        angloform:
+          status: redirect
+          word: big
+          category: ADJ
+      - wordnet: "00916199"
+        gloss: "not literal; \"a loose interpretation of what she had been told\"; \"a free translation of the poem\""
+        angloform:
+          status: redirect
+          word: free
+          category: ADJ

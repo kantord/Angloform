@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01919931"
+        gloss: "full of or characterized by loud and nonmusical sounds; \"a noisy cafeteria\"; \"a small noisy dog\""
+        angloform:
+          status: gap
+      - wordnet: "00407766"
+        gloss: "attracting attention by showiness or bright colors; \"a noisy sweater\""
+        angloform:
+          status: gap

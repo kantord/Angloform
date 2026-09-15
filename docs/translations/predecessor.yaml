@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10464711"
+        gloss: one who precedes you in time (as in holding a position or office)
+        angloform:
+          status: gap
+      - wordnet: "06802571"
+        gloss: something that precedes and indicates the approach of something or someone
+        angloform:
+          status: gap

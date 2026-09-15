@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08645963"
+        gloss: "the place where some action occurs; \"the police returned to the scene of the crime\""
+        angloform:
+          status: gap
+      - wordnet: "07360841"
+        gloss: "an incident (real or imaginary); \"their parting was a sad scene\""
+        angloform:
+          status: gap
+      - wordnet: "05933246"
+        gloss: "the visual percept of a region; \"the most desirable feature of the park are the beautiful views\""
+        angloform:
+          status: redirect
+          word: aspect
+          category: NOUN
+      - wordnet: "06614729"
+        gloss: a consecutive series of pictures that constitutes a unit of action in a film
+        angloform:
+          status: gap
+      - wordnet: "13937075"
+        gloss: "a situation treated as an observable object; \"the political picture is favorable\"; \"the religious scene in England has changed in the last century\""
+        angloform:
+          status: gap
+      - wordnet: "07009808"
+        gloss: "a subdivision of an act of a play; \"the first act has three scenes\""
+        angloform:
+          status: gap
+      - wordnet: "14406303"
+        gloss: "a display of bad temper; \"he had a fit\"; \"she threw a tantrum\"; \"he made a scene\""
+        angloform:
+          status: gap
+      - wordnet: "04144782"
+        gloss: "graphic art consisting of the graphic or photographic representation of a visual percept; \"he painted scenes from everyday life\"; \"figure 2 shows photographic and schematic views of the equipment\""
+        angloform:
+          status: gap
+      - wordnet: "08568256"
+        gloss: "the context and environment in which something is set; \"the perfect setting for a ghost story\""
+        angloform:
+          status: gap
+      - wordnet: "04145056"
+        gloss: "the painted structures of a stage set that are intended to suggest a particular locale; \"they worked all night painting the scenery\""
+        angloform:
+          status: gap

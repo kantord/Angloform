@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01259211"
+        gloss: the mistake of not following suit when able to do so
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00800242"
+        gloss: "fail to fulfill a promise or obligation; \"She backed out of her promise\""
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04344246"
+        gloss: "workplace for the teaching or practice of an art; \"she ran a dance studio\"; \"the music department provided studios for their students\"; \"you don't need a studio to make a passport photograph\""
+        angloform:
+          status: gap
+      - wordnet: "04344734"
+        gloss: an apartment with a living space and a bathroom and a small kitchen
+        angloform:
+          status: gap
+      - wordnet: "04344544"
+        gloss: workplace consisting of a room or building where movies or television shows or radio programs are produced and recorded
+        angloform:
+          status: gap

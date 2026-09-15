@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02708420"
+        gloss: "pass time in a specific way; \"how are you spending your summer vacation?\""
+        angloform:
+          status: gap
+      - wordnet: "02267060"
+        gloss: "pay out; \"spend money\""
+        angloform:
+          status: redirect
+          word: drop
+          category: VERB_TRANS
+      - wordnet: "02267529"
+        gloss: "spend completely; \"I spend my pocket money in two days\""
+        angloform:
+          status: gap

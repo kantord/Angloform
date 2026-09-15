@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06149484"
+        gloss: the branch of social science that deals with the production and distribution and consumption of goods and services and their management
+        angloform:
+          status: gap

@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08616311"
+        gloss: an established line of travel or access
+        angloform:
+          status: gap
+      - wordnet: "04096066"
+        gloss: an open way (generally public) for travel or transportation
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01955364"
+        gloss: send documents or materials to appropriate destinations
+        angloform:
+          status: gap
+      - wordnet: "01952750"
+        gloss: send via a specific route
+        angloform:
+          status: gap
+      - wordnet: "01952564"
+        gloss: "divert in a specified direction; \"divert the low voltage to the engine cylinders\""
+        angloform:
+          status: gap

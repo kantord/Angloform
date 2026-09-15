@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13761407"
+        gloss: "a small piece or quantity of something; \"a spot of tea\"; \"a bit of paper\"; \"a bit of lint\"; \"I gave him a bit of my mind\""
+        angloform:
+          status: gap
+      - wordnet: "09222051"
+        gloss: "a small fragment of something broken off from the whole; \"a bit of rock caught him in the eye\""
+        angloform:
+          status: gap
+      - wordnet: "15246853"
+        gloss: "an indefinitely short time; \"wait just a moment\"; \"in a mo\"; \"it only takes a minute\"; \"in just a bit\""
+        angloform:
+          status: redirect
+          word: minute
+          category: NOUN
+      - wordnet: "07309457"
+        gloss: "an instance of some kind; \"it was a nice piece of work\"; \"he had a bit of good luck\""
+        angloform:
+          status: gap
+      - wordnet: "02844714"
+        gloss: "piece of metal held in horse's mouth by reins and used to control the horse while riding; \"the horse was not accustomed to a bit\""
+        angloform:
+          status: gap
+      - wordnet: "13625237"
+        gloss: "a unit of measurement of information (from binary + digit); the amount of information in a system having two equiprobable states; \"there are 8 bits in a byte\""
+        angloform:
+          status: gap
+      - wordnet: "07579076"
+        gloss: "a small amount of solid food; a mouthful; \"all they had left was a bit of bread\""
+        angloform:
+          status: gap
+      - wordnet: "07009042"
+        gloss: "a small fragment; \"overheard snatches of their conversation\""
+        angloform:
+          status: gap
+      - wordnet: "06892016"
+        gloss: "a short theatrical performance that is part of a longer program; \"he did his act three times every evening\"; \"she had a catchy little routine\"; \"it was one of the best numbers he ever did\""
+        angloform:
+          status: redirect
+          word: number
+          category: NOUN
+      - wordnet: "02845002"
+        gloss: the part of a key that enters a lock and lifts the tumblers
+        angloform:
+          status: gap
+      - wordnet: "02844307"
+        gloss: "the cutting part of a drill; usually pointed and threaded and is replaceable in a brace or bitstock or drill press; \"he looked around for the right size bit\""
+        angloform:
+          status: gap

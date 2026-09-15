@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01016002"
+        gloss: "report or maintain; \"He alleged that he was the victim of a crime\"; \"He said it was too late to intervene in the war\"; \"The registrar says that I owe the school money\""
+        angloform:
+          status: redirect
+          word: say
+          category: VERB_TRANS

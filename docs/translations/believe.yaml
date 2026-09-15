@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00683280"
+        gloss: "accept as true; take to be true; \"I believed his report\"; \"We didn't believe his stories from the War\"; \"She believes in spirits\""
+        angloform:
+          status: gap
+      - wordnet: "00689344"
+        gloss: "judge or regard; look upon; judge; \"I think he is very smart\"; \"I believe her to be very smart\"; \"I think that he is her boyfriend\"; \"The racist conceives such people to be inferior\""
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "00721098"
+        gloss: "be confident about something; \"I believe that he will come back from the war\""
+        angloform:
+          status: redirect
+          word: trust
+          category: VERB_TRANS
+      - wordnet: "00684273"
+        gloss: "follow a credo; have a faith; be a believer; \"When you hear his sermons, you will be able to believe, too\""
+        angloform:
+          status: gap
+      - wordnet: "00684068"
+        gloss: "credit with veracity; \"You cannot believe this man\"; \"Should we believe a publication like the National Enquirer?\""
+        angloform:
+          status: gap

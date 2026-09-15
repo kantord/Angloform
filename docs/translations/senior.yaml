@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10579062"
+        gloss: an undergraduate student during the year preceding graduation
+        angloform:
+          status: gap
+      - wordnet: "10048218"
+        gloss: a person who is older than you are
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02099774"
+        gloss: "older; higher in rank; longer in length of tenure or service; \"senior officer\""
+        angloform:
+          status: gap
+      - wordnet: "01013681"
+        gloss: "used of the fourth and final year in United States high school or college; \"the senior prom\""
+        angloform:
+          status: gap
+      - wordnet: "01644225"
+        gloss: "advanced in years; (`aged' is pronounced as two syllables); \"aged members of the society\"; \"elderly residents could remember the construction of the first skyscraper\"; \"senior citizen\""
+        angloform:
+          status: gap

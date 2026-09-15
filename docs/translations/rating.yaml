@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05736149"
+        gloss: "an appraisal of the value of something; \"he set a high valuation on friendship\""
+        angloform:
+          status: gap
+      - wordnet: "00874806"
+        gloss: act of ascertaining or fixing the value or worth of
+        angloform:
+          status: gap
+      - wordnet: "14429382"
+        gloss: standing or position on a scale
+        angloform:
+          status: gap
+      - wordnet: "14431471"
+        gloss: rank in a military organization
+        angloform:
+          status: gap

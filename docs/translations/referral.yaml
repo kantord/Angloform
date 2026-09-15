@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10514255"
+        gloss: "a person whose case has been referred to a specialist or professional group; \"the patient is a referral from Dr. Bones\""
+        angloform:
+          status: gap
+      - wordnet: "06672040"
+        gloss: "a recommendation to consult the (professional) person or group to whom one has been referred; \"the insurance company says that you need a written referral from your physician before seeing a specialist\""
+        angloform:
+          status: gap
+      - wordnet: "00121904"
+        gloss: the act of referring (as forwarding an applicant for employment or referring a matter to an appropriate agency)
+        angloform:
+          status: gap

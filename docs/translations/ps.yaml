@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06764623"
+        gloss: a note appended to a letter after the signature
+        angloform:
+          status: gap

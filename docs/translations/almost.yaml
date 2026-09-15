@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00073033"
+        gloss: "(of actions or states) slightly short of or not quite accomplished; all but; \"the job is (just) about done\"; \"the baby was almost asleep when the alarm sounded\"; \"we're almost finished\"; \"the car all but ran her down\"; \"he nearly fainted\"; \"talked for nigh onto 2 hours\"; \"the recording is well-nigh perfect\"; \"virtually all the parties signed the contract\"; \"I was near exhausted by the run\"; \"most everyone agrees\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

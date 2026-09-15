@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10578762"
+        gloss: "someone who transmits a message; \"return to sender\""
+        angloform:
+          status: gap
+      - wordnet: "04472726"
+        gloss: set used to broadcast radio or tv signals
+        angloform:
+          status: gap

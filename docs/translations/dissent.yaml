@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07209305"
+        gloss: "(law) the difference of one judge's opinion from that of the majority; \"he expressed his dissent in a contrary opinion\""
+        angloform:
+          status: gap
+      - wordnet: "07181358"
+        gloss: a difference of opinion
+        angloform:
+          status: gap
+      - wordnet: "01177033"
+        gloss: the act of protesting; a public (often organized) manifestation of dissent
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00804653"
+        gloss: "withhold assent; \"Several Republicans dissented\""
+        angloform:
+          status: gap
+      - wordnet: "02521410"
+        gloss: "express opposition through action or words; \"dissent to the laws of the country\""
+        angloform:
+          status: gap
+      - wordnet: "00804802"
+        gloss: "be of different opinions; \"I beg to differ!\"; \"She disagrees with her husband on many questions\""
+        angloform:
+          status: redirect
+          word: differ
+          category: VERB_INTRANS

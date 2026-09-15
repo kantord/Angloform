@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01859801"
+        gloss: "entrusted with private information and the confidence of another; \"a confidential secretary\""
+        angloform:
+          status: gap
+      - wordnet: "01859571"
+        gloss: "(of information) given in confidence or in secret; \"this arrangement must be kept confidential\"; \"their secret communications\""
+        angloform:
+          status: gap
+      - wordnet: "00452605"
+        gloss: "denoting confidence or intimacy; \"a confidential approach\"; \"in confidential tone of voice\""
+        angloform:
+          status: gap
+      - wordnet: "00415696"
+        gloss: the level of official classification for documents next above restricted and below secret; available only to persons authorized to see documents so classified
+        angloform:
+          status: gap

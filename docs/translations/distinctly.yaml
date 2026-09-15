@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00181901"
+        gloss: "clear to the mind; with distinct mental discernment; \"it's distinctly possible\"; \"I could clearly see myself in his situation\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00307639"
+        gloss: "in a distinct and distinguishable manner; \"the subtleties of this distinctly British occasion\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00307479"
+        gloss: "to a distinct degree; \"urbanization in Spain is distinctly correlated with a fall in reproductive rate\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01619929"
+        gloss: "do away with, cause the destruction or undoing of; \"The fire destroyed the house\""
+        angloform:
+          status: gap
+      - wordnet: "01564144"
+        gloss: "destroy completely; damage irreparably; \"You have ruined my car by pouring sugar in the tank!\"; \"The tears ruined her make-up\""
+        angloform:
+          status: gap
+      - wordnet: "01083373"
+        gloss: "defeat soundly; \"The home team demolished the visitors\""
+        angloform:
+          status: gap
+      - wordnet: "01326528"
+        gloss: "put (an animal) to death; \"The customs agents destroyed the dog that was found to be rabid\"; \"the sick cat had to be put down\""
+        angloform:
+          status: gap

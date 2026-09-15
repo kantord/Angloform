@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07417405"
+        gloss: "a sudden unforeseen crisis (usually involving danger) that requires immediate action; \"he never knew what to do in an emergency\""
+        angloform:
+          status: gap
+      - wordnet: "14032599"
+        gloss: "a state in which martial law applies; \"the governor declared a state of emergency\""
+        angloform:
+          status: gap
+      - wordnet: "03483637"
+        gloss: a brake operated by hand; usually operates by mechanical linkage
+        angloform:
+          status: gap

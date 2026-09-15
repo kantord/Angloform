@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01282510"
+        gloss: "inspiring awe or admiration or wonder; \"New York is an amazing city\"; \"the Grand Canyon is an awe-inspiring sight\"; \"the awesome complexity of the universe\"; \"this sea, whose gently awful stirrings seem to speak of some hidden soul beneath\"- Melville; \"Westminster Hall's awing majesty, so vast, so high, so silent\""
+        angloform:
+          status: gap

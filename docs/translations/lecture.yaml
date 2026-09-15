@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07240549"
+        gloss: "a speech that is open to the public; \"he attended a lecture on telecommunications\""
+        angloform:
+          status: gap
+      - wordnet: "06713930"
+        gloss: "a lengthy rebuke; \"a good lecture was my father's idea of discipline\"; \"the teacher gave him a talking to\""
+        angloform:
+          status: gap
+      - wordnet: "00892861"
+        gloss: teaching by giving a discourse on some subject (typically to a class)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00830761"
+        gloss: "deliver a lecture or talk; \"She will talk at Rutgers next week\"; \"Did you ever lecture at Harvard?\""
+        angloform:
+          status: gap
+      - wordnet: "00824767"
+        gloss: "censure severely or angrily; \"The mother scolded the child for entering a stranger's car\"; \"The deputy ragged the Prime Minister\"; \"The customer dressed down the waiter for bringing cold soup\""
+        angloform:
+          status: gap

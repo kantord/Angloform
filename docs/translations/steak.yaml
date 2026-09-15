@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07657903"
+        gloss: a slice of meat cut from the fleshy part of an animal or large fish
+        angloform:
+          status: gap

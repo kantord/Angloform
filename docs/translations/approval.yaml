@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01215392"
+        gloss: "the formal act of approving; \"he gave the project his blessing\"; \"his decision merited the approval of any sensible person\""
+        angloform:
+          status: gap
+      - wordnet: "07500159"
+        gloss: "a feeling of liking something or someone good; \"although she fussed at them, she secretly viewed all her children with approval\""
+        angloform:
+          status: gap
+      - wordnet: "14412374"
+        gloss: "acceptance as satisfactory; \"he bought it on approval\""
+        angloform:
+          status: gap
+      - wordnet: "06686736"
+        gloss: "a message expressing a favorable opinion; \"words of approval seldom passed his lips\""
+        angloform:
+          status: gap

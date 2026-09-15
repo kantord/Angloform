@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15290337"
+        gloss: "any distinct time period in a sequence of events; \"we are in a transitional stage in which many former ideas must be revised or rejected\""
+        angloform:
+          status: gap
+      - wordnet: "14480065"
+        gloss: "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary; \"the reaction occurs in the liquid phase of the system\""
+        angloform:
+          status: gap
+      - wordnet: "15290132"
+        gloss: a particular point in the time of a cycle; measured from some arbitrary zero and expressed as an angle
+        angloform:
+          status: gap
+      - wordnet: "04676540"
+        gloss: "(astronomy) the particular appearance of a body's state of illumination (especially one of the recurring shapes of the part of Earth's moon that is illuminated by the sun); \"the full phase of the moon\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01648894"
+        gloss: "arrange in phases or stages; \"phase a withdrawal\""
+        angloform:
+          status: gap
+      - wordnet: "00394381"
+        gloss: "adjust so as to be in a synchronized condition; \"he phased the intake with the output of the machine\""
+        angloform:
+          status: gap

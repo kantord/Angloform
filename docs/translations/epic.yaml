@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06379721"
+        gloss: "a long narrative poem telling of a hero's deeds"
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01386010"
+        gloss: "very imposing or impressive; surpassing the ordinary (especially in size or scale); \"an epic voyage\"; \"of heroic proportions\"; \"heroic sculpture\""
+        angloform:
+          status: gap
+      - wordnet: "03015589"
+        gloss: "constituting or having to do with or suggestive of a literary epic; \"epic tradition\""
+        angloform:
+          status: gap

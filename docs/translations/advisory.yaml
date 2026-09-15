@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06747008"
+        gloss: "an announcement that usually advises or warns the public of some threat; \"a frost advisory\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01304802"
+        gloss: "giving advice; \"an advisory memorandum\", \"his function was purely consultative\""
+        angloform:
+          status: gap

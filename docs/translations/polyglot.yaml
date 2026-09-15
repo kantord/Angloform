@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10264219"
+        gloss: a person who speaks more than one language
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01545904"
+        gloss: "having a command of or composed in many languages; \"a polyglot traveler\"; \"a polyglot Bible contains versions in different languages\""
+        angloform:
+          status: gap

@@ -1,0 +1,86 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00540235"
+        gloss: "extend in scope or range or area; \"The law was extended to all citizens\"; \"widen the range of applications\"; \"broaden your horizon\"; \"Extend your backyard\""
+        angloform:
+          status: gap
+      - wordnet: "02685951"
+        gloss: "stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point; \"Service runs all the way to Cranbury\"; \"His knowledge doesn't go very far\"; \"My memory extends back to my fourth year of life\"; \"The facts extend beyond a consideration of her personal assets\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "02687916"
+        gloss: "span an interval of distance, space or time; \"The war extended over five years\"; \"The period covered the turn of the century\"; \"My land extends over the hills on the horizon\"; \"This farm covers some 200 acres\"; \"The Archipelago continues for another 500 miles\""
+        angloform:
+          status: redirect
+          word: cover
+          category: VERB_TRANS
+      - wordnet: "02297948"
+        gloss: "make available; provide; \"extend a loan\"; \"The bank offers a good deal on new mortgages\""
+        angloform:
+          status: redirect
+          word: offer
+          category: VERB_TRANS
+      - wordnet: "00027705"
+        gloss: "thrust or extend out; \"He held out his hand\"; \"point a finger\"; \"extend a hand\"; \"the bee exserted its sting\""
+        angloform:
+          status: gap
+      - wordnet: "02690093"
+        gloss: "reach outward in space; \"The awning extends several feet over the sidewalk\""
+        angloform:
+          status: gap
+      - wordnet: "02297742"
+        gloss: "offer verbally; \"extend my greetings\"; \"He offered his sympathy\""
+        angloform:
+          status: redirect
+          word: offer
+          category: VERB_TRANS
+      - wordnet: "00027268"
+        gloss: "extend one's limbs or muscles, or the entire body; \"Stretch your legs!\"; \"Extend your right arm above your head\""
+        angloform:
+          status: gap
+      - wordnet: "00540946"
+        gloss: "expand the influence of; \"The King extended his rule to the Eastern part of the continent\""
+        angloform:
+          status: redirect
+          word: expand
+          category: VERB_TRANS
+      - wordnet: "00317888"
+        gloss: "lengthen in time; cause to be or last longer; \"We prolonged our stay\"; \"She extended her visit by another day\"; \"The meeting was drawn out until midnight\""
+        angloform:
+          status: gap
+      - wordnet: "02054989"
+        gloss: "extend or stretch out to a greater or the full length; \"Unfold the newspaper\"; \"stretch out that piece of cloth\"; \"extend the TV antenna\""
+        angloform:
+          status: redirect
+          word: unfold
+          category: VERB_TRANS
+      - wordnet: "01960296"
+        gloss: "cause to move at full gallop; \"Did you gallop the horse just now?\""
+        angloform:
+          status: gap
+      - wordnet: "01368863"
+        gloss: "open or straighten out; unbend; \"Can we extend the legs of this dining table?\""
+        angloform:
+          status: gap
+      - wordnet: "01165579"
+        gloss: "use to the utmost; exert vigorously or to full capacity; \"He really extended himself when he climbed Kilimanjaro\"; \"Don't strain your mind too much\""
+        angloform:
+          status: gap
+      - wordnet: "00318326"
+        gloss: "prolong the time allowed for payment of; \"extend the loan\""
+        angloform:
+          status: gap
+      - wordnet: "00235110"
+        gloss: "continue or extend; \"The civil war carried into the neighboring province\"; \"The disease extended into the remote mountain provinces\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "00154141"
+        gloss: "increase in quantity or bulk by adding a cheaper substance; \"stretch the soup by adding some more cream\"; \"extend the casserole with a little rice\""
+        angloform:
+          status: gap

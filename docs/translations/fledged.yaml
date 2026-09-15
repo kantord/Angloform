@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01095914"
+        gloss: (of birds) having developed feathers or plumage; often used in combination
+        angloform:
+          status: gap
+      - wordnet: "00998381"
+        gloss: (of an arrow) equipped with feathers
+        angloform:
+          status: gap

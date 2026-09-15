@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06501141"
+        gloss: a document granting an inventor sole rights to an invention
+        angloform:
+          status: gap
+      - wordnet: "06551627"
+        gloss: an official document granting a right or privilege
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02239692"
+        gloss: "obtain a patent for; \"Should I patent this invention?\""
+        angloform:
+          status: gap
+      - wordnet: "02445356"
+        gloss: grant rights to; grant a patent for
+        angloform:
+          status: gap
+      - wordnet: "00568483"
+        gloss: "make open to sight or notice; \"His behavior has patented an embarrassing fact about him\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01622748"
+        gloss: "(of a bodily tube or passageway) open; affording free passage; \"patent ductus arteriosus\""
+        angloform:
+          status: gap
+      - wordnet: "01618376"
+        gloss: "clearly revealed to the mind or the senses or judgment; \"the effects of the drought are apparent to anyone who sees the parched fields\"; \"evident hostility\"; \"manifest disapproval\"; \"patent advantages\"; \"made his meaning plain\"; \"it is plain that he is no reactionary\"; \"in plain view\""
+        angloform:
+          status: redirect
+          word: apparent
+          category: ADJ

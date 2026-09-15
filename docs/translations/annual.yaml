@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11552806"
+        gloss: (botany) a plant that completes its entire life cycle within the space of a year
+        angloform:
+          status: gap
+      - wordnet: "06426468"
+        gloss: a reference book that is published regularly once every year
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00678024"
+        gloss: "completing its life cycle within a year; \"a border of annual flowering plants\""
+        angloform:
+          status: gap
+      - wordnet: "01969150"
+        gloss: "occurring or payable every year; \"an annual trip to Paris\"; \"yearly medical examinations\"; \"annual (or yearly) income\""
+        angloform:
+          status: gap

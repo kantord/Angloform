@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10804406"
+        gloss: a young person (especially a young man or boy)
+        angloform:
+          status: gap
+      - wordnet: "07944050"
+        gloss: "young people collectively; \"rock music appeals to the young\"; \"youth everywhere rises in revolt\""
+        angloform:
+          status: gap
+      - wordnet: "15147713"
+        gloss: the time of life between childhood and maturity
+        angloform:
+          status: gap
+      - wordnet: "14425853"
+        gloss: early maturity; the state of being young or immature or inexperienced
+        angloform:
+          status: gap
+      - wordnet: "15266034"
+        gloss: "an early period of development; \"during the youth of the project\""
+        angloform:
+          status: gap
+      - wordnet: "04928585"
+        gloss: the freshness and vitality characteristic of a young person
+        angloform:
+          status: gap

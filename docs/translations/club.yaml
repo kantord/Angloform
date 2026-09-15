@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08079613"
+        gloss: "a team of professional baseball players who play and travel together; \"each club played six home games with teams in its own division\""
+        angloform:
+          status: gap
+      - wordnet: "08227214"
+        gloss: "a formal association of people with similar interests; \"he joined a golf club\"; \"they formed a small lunch society\"; \"men from the fraternal order will staff the soup kitchen today\""
+        angloform:
+          status: redirect
+          word: order
+          category: NOUN
+      - wordnet: "03053474"
+        gloss: "stout stick that is larger at one end; \"he carried a club in self defense\"; \"he felt as if he had been hit with a club\""
+        angloform:
+          status: gap
+      - wordnet: "03054311"
+        gloss: "a building that is occupied by a social club; \"the clubhouse needed a new roof\""
+        angloform:
+          status: gap
+      - wordnet: "03446070"
+        gloss: golf equipment used by a golfer to hit a golf ball
+        angloform:
+          status: gap
+      - wordnet: "03053788"
+        gloss: "a playing card in the minor suit that has one or more black trefoils on it; \"he led a small club\"; \"clubs were trumps\""
+        angloform:
+          status: gap
+      - wordnet: "02931417"
+        gloss: "a spot that is open late at night and that provides entertainment (as singers or dancers) as well as dancing and food and drink; \"don't expect a good meal at a cabaret\"; \"the gossip columnist got his information by visiting nightclubs every night\"; \"he played the drums at a jazz club\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02592250"
+        gloss: "unite with a common purpose; \"The two men clubbed together\""
+        angloform:
+          status: gap
+      - wordnet: "02592111"
+        gloss: "gather and spend time together; \"They always club together\""
+        angloform:
+          status: gap
+      - wordnet: "01423929"
+        gloss: strike with a club or a bludgeon
+        angloform:
+          status: gap
+      - wordnet: "01320321"
+        gloss: "gather into a club-like mass; \"club hair\""
+        angloform:
+          status: gap

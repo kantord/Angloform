@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14701628"
+        gloss: lac purified by heating and filtering; usually in thin orange or yellow flakes but sometimes bleached white
+        angloform:
+          status: gap
+      - wordnet: "04191150"
+        gloss: a thin varnish made by dissolving lac in ethanol; used to finish wood
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01270589"
+        gloss: "cover with shellac; \"She wanted to shellac the desk to protect it from water spots\""
+        angloform:
+          status: gap

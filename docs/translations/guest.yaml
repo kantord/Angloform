@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10150940"
+        gloss: a visitor to whom hospitality is extended
+        angloform:
+          status: gap
+      - wordnet: "11018683"
+        gloss: United States journalist (born in England) noted for his syndicated homey verse (1881-1959)
+        angloform:
+          status: gap
+      - wordnet: "10151133"
+        gloss: a customer of a hotel or restaurant etc.
+        angloform:
+          status: gap
+      - wordnet: "03827107"
+        gloss: (computer science) any computer that is hooked up to a computer network
+        angloform:
+          status: gap

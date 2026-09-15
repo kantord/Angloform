@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01822724"
+        gloss: share the feelings of; understand the sentiments of
+        angloform:
+          status: gap
+      - wordnet: "01822248"
+        gloss: to feel or express sympathy or compassion
+        angloform:
+          status: gap
+      - wordnet: "00594058"
+        gloss: "be understanding of; \"You don't need to explain--I understand!\""
+        angloform:
+          status: gap

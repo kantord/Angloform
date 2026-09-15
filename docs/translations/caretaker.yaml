@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09895701"
+        gloss: a custodian who is hired to take care of something (property or a person)
+        angloform:
+          status: gap
+      - wordnet: "09895902"
+        gloss: "an official who performs the duties of an office temporarily; \"he acted as a caretaker until a new president could be elected\""
+        angloform:
+          status: gap

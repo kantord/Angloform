@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13343526"
+        gloss: the money risked on a gamble
+        angloform:
+          status: gap
+      - wordnet: "00506658"
+        gloss: "the act of gambling; \"he did it on a bet\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00918580"
+        gloss: "maintain with or as if with a bet; \"I bet she will be there!\""
+        angloform:
+          status: gap
+      - wordnet: "01155687"
+        gloss: "stake on the outcome of an issue; \"I bet $100 on that new horse\"; \"She played all her money on the dark horse\""
+        angloform:
+          status: gap
+      - wordnet: "00712708"
+        gloss: "have faith or confidence in; \"you can count on me to help you any time\"; \"Look to your friends for support\"; \"You can bet on that!\"; \"Depend on your family in times of crisis\""
+        angloform:
+          status: redirect
+          word: count
+          category: VERB_TRANS

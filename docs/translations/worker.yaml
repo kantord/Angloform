@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09632518"
+        gloss: "a person who works at a specific occupation; \"he is a good worker\""
+        angloform:
+          status: gap
+      - wordnet: "10481711"
+        gloss: "a member of the working class (not necessarily employed); \"workers of the world--unite!\""
+        angloform:
+          status: gap
+      - wordnet: "02207449"
+        gloss: sterile member of a colony of social insects that forages for food and cares for the larvae
+        angloform:
+          status: gap
+      - wordnet: "09767197"
+        gloss: "a person who acts and gets things done; \"he's a principal actor in this affair\"; \"when you want something done get a doer\"; \"he's a miracle worker\""
+        angloform:
+          status: redirect
+          word: doer
+          category: NOUN

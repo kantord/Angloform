@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00967646"
+        gloss: "ludicrously odd; \"Hamlet's assumed antic disposition\"; \"fantastic Halloween costumes\"; \"a grotesque reflection in the mirror\""
+        angloform:
+          status: gap
+      - wordnet: "01676517"
+        gloss: "extraordinarily good or great ; used especially as intensifiers; \"a fantastic trip to the Orient\"; \"the film was fantastic!\"; \"a howling success\"; \"a marvelous collection of rare books\"; \"had a rattling conversation about politics\"; \"a tremendous achievement\""
+        angloform:
+          status: gap
+      - wordnet: "01942732"
+        gloss: "fanciful and unrealistic; foolish; \"a fantastic idea of his own importance\""
+        angloform:
+          status: gap
+      - wordnet: "01936778"
+        gloss: "existing in fancy only; \"fantastic figures with bulbous heads the circumference of a bushel\"- Nathaniel Hawthorne"
+        angloform:
+          status: gap
+      - wordnet: "01796452"
+        gloss: "extravagantly fanciful in design, construction, appearance; \"Gaudi's fantastic architecture\""
+        angloform:
+          status: gap

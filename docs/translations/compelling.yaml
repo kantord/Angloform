@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01826477"
+        gloss: "driving or forcing; \"compelling ambition\""
+        angloform:
+          status: gap
+      - wordnet: "01770591"
+        gloss: "tending to persuade by forcefulness of argument; \"new and compelling evidence\""
+        angloform:
+          status: gap

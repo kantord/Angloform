@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00717358"
+        gloss: show a response or a reaction to something
+        angloform:
+          status: gap
+      - wordnet: "02378623"
+        gloss: "act against or in opposition to; \"She reacts negatively to everything I say\""
+        angloform:
+          status: gap
+      - wordnet: "00446885"
+        gloss: "undergo a chemical reaction; react with another substance under certain conditions; \"The hydrogen and the oxygen react\""
+        angloform:
+          status: gap

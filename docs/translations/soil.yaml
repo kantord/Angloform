@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14498096"
+        gloss: the state of being covered with unclean things
+        angloform:
+          status: gap
+      - wordnet: "14844693"
+        gloss: "the part of the earth's surface consisting of humus and disintegrated rock"
+        angloform:
+          status: gap
+      - wordnet: "09335240"
+        gloss: "material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use); \"the land had never been plowed\"; \"good agricultural soil\""
+        angloform:
+          status: gap
+      - wordnet: "08493064"
+        gloss: "the geographical area under the jurisdiction of a sovereign state; \"American troops were stationed on Japanese soil\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01534147"
+        gloss: "make soiled, filthy, or dirty; \"don't soil your clothes when you play outside!\""
+        angloform:
+          status: gap

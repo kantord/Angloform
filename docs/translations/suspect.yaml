@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10681383"
+        gloss: someone who is under suspicion
+        angloform:
+          status: gap
+      - wordnet: "09762101"
+        gloss: a person or institution against whom an action is brought in a court of law; the person being sued or accused
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00921072"
+        gloss: "imagine to be the case or true or probable; \"I suspect he is a fugitive\"; \"I surmised that the butler did it\""
+        angloform:
+          status: gap
+      - wordnet: "00687926"
+        gloss: regard as untrustworthy; regard with suspicion; have no faith or confidence in
+        angloform:
+          status: gap
+      - wordnet: "00924873"
+        gloss: "hold in suspicion; believe to be guilty; \"The U.S. suspected Bin Laden as the mastermind behind the terrorist attacks\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01917594"
+        gloss: "not as expected; \"there was something fishy about the accident\"; \"up to some funny business\"; \"some definitely queer goings-on\"; \"a shady deal\"; \"her motives were suspect\"; \"suspicious behavior\""
+        angloform:
+          status: gap

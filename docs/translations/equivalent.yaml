@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05695554"
+        gloss: "a person or thing equal to another in value or measure or force or effect or significance etc; \"send two dollars or the equivalent in stamps\""
+        angloform:
+          status: gap
+      - wordnet: "05026508"
+        gloss: the atomic weight of an element that has the same combining capacity as a given weight of another element; the standard is 8 for oxygen
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00890351"
+        gloss: "being essentially equal to something; \"it was as good as gold\"; \"a wish that was equivalent to a command\"; \"his statement was tantamount to an admission of guilt\""
+        angloform:
+          status: gap

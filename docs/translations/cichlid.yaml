@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02585872"
+        gloss: freshwater fishes of tropical America and Africa and Asia similar to American sunfishes; some are food fishes; many small ones are popular in aquariums
+        angloform:
+          status: gap

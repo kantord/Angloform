@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00892315"
+        gloss: express gratitude or show appreciation to
+        angloform:
+          status: gap

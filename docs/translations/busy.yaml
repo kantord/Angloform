@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02415831"
+        gloss: "keep busy with; \"She busies herself with her butterfly collection\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00292937"
+        gloss: "actively or fully engaged or occupied; \"busy with her work\"; \"a busy man\"; \"too busy to eat lunch\""
+        angloform:
+          status: gap
+      - wordnet: "01795203"
+        gloss: "overcrowded or cluttered with detail; \"a busy painting\"; \"a fussy design\""
+        angloform:
+          status: gap
+      - wordnet: "01352561"
+        gloss: "intrusive in a meddling or offensive manner; \"an interfering old woman\"; \"bustling about self-importantly making an officious nuisance of himself\"; \"busy about other people's business\""
+        angloform:
+          status: gap
+      - wordnet: "00035978"
+        gloss: "crowded with or characterized by much activity; \"a very busy week\"; \"a busy life\"; \"a busy street\"; \"a busy seaport\""
+        angloform:
+          status: gap
+      - wordnet: "01623360"
+        gloss: "(of facilities such as telephones or lavatories) unavailable for use by anyone else or indicating unavailability; (`engaged' is a British term for a busy telephone line); \"her line is busy\"; \"receptionists' telephones are always engaged\"; \"the lavatory is in use\"; \"kept getting a busy signal\""
+        angloform:
+          status: gap

@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10767020"
+        gloss: a person who is under the protection or in the custody of another
+        angloform:
+          status: gap
+      - wordnet: "08672397"
+        gloss: a district into which a city or town is divided for the purpose of administration and elections
+        angloform:
+          status: gap
+      - wordnet: "04549919"
+        gloss: "block forming a division of a hospital (or a suite of rooms) shared by patients who need a similar kind of care; \"they put her in a 4-bed ward\""
+        angloform:
+          status: gap
+      - wordnet: "11374281"
+        gloss: English economist and conservationist (1914-1981)
+        angloform:
+          status: gap
+      - wordnet: "11374085"
+        gloss: "English writer of novels who was an active opponent of the women's suffrage movement (1851-1920)"
+        angloform:
+          status: gap
+      - wordnet: "11373897"
+        gloss: United States businessman who in 1872 established a successful mail-order business (1843-1913)
+        angloform:
+          status: gap
+      - wordnet: "02992032"
+        gloss: a division of a prison (usually consisting of several cells)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01129337"
+        gloss: "watch over or shield from danger or harm; protect; \"guard my possessions while I'm away\""
+        angloform:
+          status: gap

@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08209687"
+        gloss: "the force of policemen and officers; \"the law came looking for him\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02454939"
+        gloss: maintain the security of by carrying out a patrol
+        angloform:
+          status: gap

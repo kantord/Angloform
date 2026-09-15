@@ -1,0 +1,11 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# zero WordNet senses (a compound wh-word). Same underlying problem as
+# "when" (already a permanent Ban in seed.json, ADR 0007).
+by_upos:
+  ADV:
+    senses:
+      - gloss: at any time that; every time that; "call me whenever you're ready"
+        angloform:
+          status: construction
+          pattern: if he is ready, then call me.
+          note: 'ADR 0007: same temporal-clause ban as "when" — write "if <clause>, then <clause>"'

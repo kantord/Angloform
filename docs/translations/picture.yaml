@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03931044"
+        gloss: "a visual representation (of an object or scene or person or abstraction) produced on a surface; \"they showed us the pictures of their wedding\"; \"a movie is a series of images projected so rapidly that the eye integrates them\""
+        angloform:
+          status: gap
+      - wordnet: "03876519"
+        gloss: "graphic art consisting of an artistic composition made by applying paints to a surface; \"a small painting by Picasso\"; \"he bought the painting as an investment\"; \"his pictures hang in the Louvre\""
+        angloform:
+          status: gap
+      - wordnet: "05936704"
+        gloss: "a clear and telling mental image; \"he described his mental picture of his assailant\"; \"he had no clear picture of himself or his world\"; \"the events left a permanent impression in his mind\""
+        angloform:
+          status: gap
+      - wordnet: "13937075"
+        gloss: "a situation treated as an observable object; \"the political picture is favorable\"; \"the religious scene in England has changed in the last century\""
+        angloform:
+          status: gap
+      - wordnet: "06999436"
+        gloss: "illustrations used to decorate or explain a text; \"the dictionary had many pictures\""
+        angloform:
+          status: gap
+      - wordnet: "06613686"
+        gloss: "a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement; \"they went to a movie every Saturday night\"; \"the film was shot on location\""
+        angloform:
+          status: redirect
+          word: movie
+          category: NOUN
+      - wordnet: "06277803"
+        gloss: "the visible part of a television transmission; \"they could still receive the sound but the picture was gone\""
+        angloform:
+          status: gap
+      - wordnet: "07201804"
+        gloss: "a graphic or vivid verbal description; \"too often the narrative was interrupted by long word pictures\"; \"the author gives a depressing picture of life in Poland\"; \"the pamphlet contained brief characterizations of famous Vermonters\""
+        angloform:
+          status: gap
+      - wordnet: "05766077"
+        gloss: "a typical example of some state or quality; \"the very picture of a modern general\"; \"she was the picture of despair\""
+        angloform:
+          status: gap
+      - wordnet: "03925226"
+        gloss: a representation of a person or scene in the form of a print or transparent slide; recorded by a camera on light-sensitive material
+        angloform:
+          status: redirect
+          word: photo
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01635432"
+        gloss: "imagine; conceive of; see in one's mind; \"I can't see him on horseback!\"; \"I can see what will happen\"; \"I can see a risk in this strategy\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "01686956"
+        gloss: "show in, or as in, a picture; \"This scene depicts country life\"; \"the face of the child is rendered with much tenderness in this painting\""
+        angloform:
+          status: redirect
+          word: show
+          category: VERB_TRANS

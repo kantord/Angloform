@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03790512"
+        gloss: a motor vehicle with two wheels and a strong frame
+        angloform:
+          status: gap
+      - wordnet: "02834778"
+        gloss: a wheeled vehicle that has two wheels and is moved by foot pedals
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01935476"
+        gloss: ride a bicycle
+        angloform:
+          status: gap

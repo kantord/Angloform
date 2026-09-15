@@ -1,0 +1,17 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json — this file records that
+# existing verdict in the per-sense format.
+by_upos:
+  NOUN:
+    senses:
+      - gloss: help, assistance; "foreign aid"
+        angloform:
+          status: gap
+          note: 'seed.json redirects the VERB sense to "help" (VERB_TRANS_BASE); no NOUN equivalent is enabled'
+  VERB:
+    senses:
+      - gloss: to help; "the rule aids the reader"
+        angloform:
+          status: redirect
+          word: help
+          category: VERB_TRANS

@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00410247"
+        gloss: "a customary way of operation or behavior; \"it is their practice to give annual raises\"; \"they changed their dietary pattern\""
+        angloform:
+          status: redirect
+          word: pattern
+          category: NOUN
+      - wordnet: "00894552"
+        gloss: "systematic training by multiple repetitions; \"practice makes perfect\""
+        angloform:
+          status: gap
+      - wordnet: "00411048"
+        gloss: "translating an idea into action; \"a hard theory to put into practice\"; \"differences between theory and praxis of communism\""
+        angloform:
+          status: gap
+      - wordnet: "00631378"
+        gloss: "the exercise of a profession; \"the practice of the law\"; \"I took over his practice when he retired\""
+        angloform:
+          status: gap
+      - wordnet: "05667196"
+        gloss: "knowledge of how something is usually done; \"it is not the local practice to wear shorts to dinner\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02568672"
+        gloss: "carry out or practice; as of jobs and professions; \"practice law\""
+        angloform:
+          status: gap
+      - wordnet: "00606093"
+        gloss: "learn by repetition; \"We drilled French verbs every day\"; \"Pianists practice scales\""
+        angloform:
+          status: gap
+      - wordnet: "01723224"
+        gloss: engage in a rehearsal (of)
+        angloform:
+          status: gap
+      - wordnet: "02561332"
+        gloss: "avail oneself to; \"apply a principle\"; \"practice a religion\"; \"use care when going down the stairs\"; \"use your common sense\"; \"practice non-violent resistance\""
+        angloform:
+          status: redirect
+          word: use
+          category: VERB_TRANS
+      - wordnet: "02375468"
+        gloss: "engage in or perform; \"practice safe sex\"; \"commit a random act of kindness\""
+        angloform:
+          status: gap

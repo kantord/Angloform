@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  INTJ:
+    senses:
+      - gloss: informal greeting or attention-getter; "Hey, look at this!"
+        angloform:
+          status: excluded
+          reason: informal greeting interjection, incompatible with Angloform's formal, unambiguous prose register by design — permanent, not a missing word

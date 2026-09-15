@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00003483"
+        gloss: "in essence; at bottom or by one's (or its) very nature; \"He is basically dishonest\"; \"the argument was essentially a technical one\"; \"for all his bluster he is in essence a shy person\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

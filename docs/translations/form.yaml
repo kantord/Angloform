@@ -1,0 +1,116 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06290637"
+        gloss: "the phonological or orthographic sound or appearance of a word that can be used to describe or identify something; \"the inflected forms of a word can be represented by a stem and a list of inflections to be attached\""
+        angloform:
+          status: gap
+      - wordnet: "05839024"
+        gloss: "a category of things distinguished by some common characteristic or quality; \"sculpture is a form of art\"; \"what kinds of desserts are there?\""
+        angloform:
+          status: redirect
+          word: kind
+          category: NOUN
+      - wordnet: "05930736"
+        gloss: "a perceptual structure; \"the composition presents problems for students of musical form\"; \"a visual pattern must include not only objects but the spaces between them\""
+        angloform:
+          status: redirect
+          word: shape
+          category: NOUN
+      - wordnet: "05064037"
+        gloss: "any spatial attributes (especially as defined by outline); \"he could barely make out their shapes\""
+        angloform:
+          status: redirect
+          word: shape
+          category: NOUN
+      - wordnet: "05217168"
+        gloss: "alternative names for the body of a human being; \"Leonardo studied the human body\"; \"he has a strong physique\"; \"the spirit is willing but the flesh is weak\""
+        angloform:
+          status: redirect
+          word: shape
+          category: NOUN
+      - wordnet: "00027807"
+        gloss: "the spatial arrangement of something as distinct from its substance; \"geometry is the mathematical science of shape\""
+        angloform:
+          status: redirect
+          word: shape
+          category: NOUN
+      - wordnet: "04677514"
+        gloss: "the visual appearance of something or someone; \"the delicate cast of his features\""
+        angloform:
+          status: redirect
+          word: shape
+          category: NOUN
+      - wordnet: "06473563"
+        gloss: "a printed document with spaces in which to write; \"he filled out his tax form\""
+        angloform:
+          status: gap
+      - wordnet: "08111157"
+        gloss: "(biology) a group of organisms within a species that differ in trivial ways from similar groups; \"a new strain of microorganisms\""
+        angloform:
+          status: gap
+      - wordnet: "07092356"
+        gloss: "an arrangement of the elements in a composition or discourse; \"the essay was in the form of a dialogue\"; \"he first sketches the plot in outline form\""
+        angloform:
+          status: gap
+      - wordnet: "04930478"
+        gloss: "a particular mode in which something is manifested; \"his resentment took the form of extreme hostility\""
+        angloform:
+          status: gap
+      - wordnet: "14480065"
+        gloss: "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary; \"the reaction occurs in the liquid phase of the system\""
+        angloform:
+          status: gap
+      - wordnet: "08238463"
+        gloss: "a body of students who are taught together; \"early morning classes are always sleepy\""
+        angloform:
+          status: redirect
+          word: class
+          category: NOUN
+      - wordnet: "05200670"
+        gloss: "an ability to perform well; \"he was at the top of his form\"; \"the team was off form last night\""
+        angloform:
+          status: gap
+      - wordnet: "03717921"
+        gloss: a life-size dummy used to display clothes
+        angloform:
+          status: gap
+      - wordnet: "03384535"
+        gloss: "a mold for setting concrete; \"they built elaborate forms for pouring the foundation\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02448185"
+        gloss: "create (as an entity); \"social groups form everywhere\"; \"They formed a company\""
+        angloform:
+          status: redirect
+          word: organize
+          category: VERB_TRANS
+      - wordnet: "02621395"
+        gloss: "to compose or represent:\"This wall forms the background of the stage setting\"; \"The branches made a roof\"; \"This makes a fine introduction\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "02623906"
+        gloss: "develop into a distinctive entity; \"our plans began to take shape\""
+        angloform:
+          status: gap
+      - wordnet: "00142191"
+        gloss: "give shape or form to; \"shape the dough\"; \"form the young child's character\""
+        angloform:
+          status: gap
+      - wordnet: "01659248"
+        gloss: "make something, usually for a specific function; \"She molded the rice balls carefully\"; \"Form cylinders from the dough\"; \"shape a figure\"; \"Work the metal into a sword\""
+        angloform:
+          status: gap
+      - wordnet: "02430922"
+        gloss: "establish or impress firmly in the mind; \"We imprint our ideas onto our children\""
+        angloform:
+          status: gap
+      - wordnet: "00144850"
+        gloss: "assume a form or shape; \"the water formed little beads\""
+        angloform:
+          status: gap

@@ -1,0 +1,66 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08588699"
+        gloss: "the location of something surrounded by other things; \"in the midst of the crowd\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02410393"
+        gloss: "not thin; of a specific thickness or of relatively great extent from one surface to the opposite usually in the smallest of the three solid dimensions; \"an inch thick\"; \"a thick board\"; \"a thick sandwich\"; \"spread a thick layer of butter\"; \"thick coating of dust\"; \"thick warm blankets\""
+        angloform:
+          status: gap
+      - wordnet: "00539009"
+        gloss: "having component parts closely crowded together; \"a compact shopping center\"; \"a dense population\"; \"thick crowds\"; \"a thick forest\"; \"thick hair\""
+        angloform:
+          status: gap
+      - wordnet: "02415390"
+        gloss: "relatively dense in consistency; \"thick cream\"; \"thick soup\"; \"thick smoke\"; \"thick fog\""
+        angloform:
+          status: gap
+      - wordnet: "01337314"
+        gloss: "spoken as if with a thick tongue; \"the thick speech of a drunkard\"; \"his words were slurred\""
+        angloform:
+          status: gap
+      - wordnet: "02387413"
+        gloss: "having a short and solid form or stature; \"a wrestler of compact build\"; \"he was tall and heavyset\"; \"stocky legs\"; \"a thickset young man\""
+        angloform:
+          status: gap
+      - wordnet: "01771839"
+        gloss: "hard to pass through because of dense growth; \"dense vegetation\"; \"thick woods\""
+        angloform:
+          status: redirect
+          word: dense
+          category: ADJ
+      - wordnet: "01513776"
+        gloss: "(of darkness) very intense; \"thick night\"; \"thick darkness\"; \"a face in deep shadow\"; \"deep night\""
+        angloform:
+          status: redirect
+          word: deep
+          category: ADJ
+      - wordnet: "00452114"
+        gloss: "(used informally) associated on close terms; \"a close friend\"; \"the bartender was chummy with the regular customers\"; \"the two were thick as thieves for months\""
+        angloform:
+          status: gap
+      - wordnet: "00440292"
+        gloss: (used informally) stupid
+        angloform:
+          status: gap
+      - wordnet: "00015480"
+        gloss: "abounding; having a lot of; \"the top was thick with dust\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00478040"
+        gloss: "with a thick consistency; \"the blood was flowing thick\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00476962"
+        gloss: "in quick succession; \"misfortunes come fast and thick\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,23 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "consulting" is a gerund/noun use of "consult" — WordNet indexes only
+# the base verb.
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00877559"
+        gloss: get or ask advice from; "Consult your local broker"
+        angloform:
+          status: gap
+          note: no advise/consult vocabulary exists yet
+      - wordnet: "00877083"
+        gloss: seek information from; "You should consult the dictionary"
+        angloform:
+          status: gap
+      - wordnet: "00876665"
+        gloss: have a conference in order to talk something over; "We conferred about a plan of action"
+        angloform:
+          status: gap
+      - wordnet: "00876442"
+        gloss: advise professionally; "The professor consults for industry"
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01206153"
+        gloss: "the act of binding yourself (intellectually or emotionally) to a course of action; \"his long commitment to public service\"; \"they felt no loyalty to a losing team\""
+        angloform:
+          status: gap
+      - wordnet: "04877938"
+        gloss: the loyalty that citizens owe to their country (or subjects to their sovereign)
+        angloform:
+          status: gap

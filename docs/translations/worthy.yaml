@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10792506"
+        gloss: "an important, honorable person (word is often used humorously); \"he told his story to some conservative worthies\"; \"local worthies rarely challenged the chief constable\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02584981"
+        gloss: "having worth or merit or value; being honorable or admirable; \"a worthy fellow\"; \"a worthy cause\""
+        angloform:
+          status: gap
+      - wordnet: "00852197"
+        gloss: "worthy of being chosen especially as a spouse; \"the parents found the girl suitable for their son\""
+        angloform:
+          status: gap
+      - wordnet: "01021120"
+        gloss: "having qualities or abilities that merit recognition in some way; \"behavior worthy of reprobation\"; \"a fact worthy of attention\""
+        angloform:
+          status: gap

@@ -1,0 +1,11 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json (ADR 0042, epistemic hedge) —
+# this file records that existing verdict in the per-sense format.
+by_upos:
+  VERB:
+    senses:
+      - gloss: give the impression of being; appear to be; "the result seems correct"
+        angloform:
+          status: construction
+          pattern: the result is correct.
+          note: 'ADR 0042: epistemic hedges are permanently banned — "seem" is a linking verb here; drop it and use the copula directly; matches seed.json''s existing BANNED advice for this lemma'

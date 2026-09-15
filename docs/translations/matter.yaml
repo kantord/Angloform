@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05671325"
+        gloss: "a vaguely specified concern; \"several matters to attend to\"; \"it is none of your affair\"; \"things are going well\""
+        angloform:
+          status: redirect
+          word: thing
+          category: NOUN
+      - wordnet: "05814291"
+        gloss: "some situation or event that is thought about; \"he kept drifting off the topic\"; \"he had been thinking about the subject for several years\"; \"it is a matter for the police\""
+        angloform:
+          status: redirect
+          word: subject
+          category: NOUN
+      - wordnet: "00020827"
+        gloss: "that which has mass and occupies space; \"physicists study both the nature of matter and the forces which govern it\""
+        angloform:
+          status: gap
+      - wordnet: "05688397"
+        gloss: "a problem; \"is anything the matter?\""
+        angloform:
+          status: gap
+      - wordnet: "05169242"
+        gloss: "(used with negation) having consequence; \"they were friends and it was no matter who won the games\""
+        angloform:
+          status: gap
+      - wordnet: "06365467"
+        gloss: "written works (especially in books or magazines); \"he always took some reading matter with him on the plane\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02645839"
+        gloss: "have weight; have import, carry weight; \"It does not matter much\""
+        angloform:
+          status: redirect
+          word: count
+          category: VERB_TRANS

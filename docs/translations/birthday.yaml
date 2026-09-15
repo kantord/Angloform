@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15250178"
+        gloss: an anniversary of the day on which a person was born (or the celebration of it)
+        angloform:
+          status: gap
+      - wordnet: "15252422"
+        gloss: the date on which a person was born
+        angloform:
+          status: gap

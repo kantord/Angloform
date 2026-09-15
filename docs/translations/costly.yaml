@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00933941"
+        gloss: "entailing great loss or sacrifice; \"a dearly-won victory\""
+        angloform:
+          status: gap
+      - wordnet: "00933599"
+        gloss: "having a high price; \"costly jewelry\"; \"high-priced merchandise\"; \"much too dear for my pocketbook\"; \"a pricey restaurant\""
+        angloform:
+          status: gap

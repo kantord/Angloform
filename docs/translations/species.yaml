@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08110373"
+        gloss: (biology) taxonomic group whose members can interbreed
+        angloform:
+          status: gap
+      - wordnet: "05844881"
+        gloss: "a specific kind of something; \"a species of molecule\"; \"a species of villainy\""
+        angloform:
+          status: gap

@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01226941"
+        gloss: an act of gracious kindness
+        angloform:
+          status: gap
+      - wordnet: "05156319"
+        gloss: "an advantage to the benefit of someone or something; \"the outcome was in his favor\""
+        angloform:
+          status: gap
+      - wordnet: "06200617"
+        gloss: "an inclination to approve; \"that style is in favor this season\""
+        angloform:
+          status: gap
+      - wordnet: "07500414"
+        gloss: a feeling of favorable regard
+        angloform:
+          status: gap
+      - wordnet: "03894762"
+        gloss: souvenir consisting of a small gift given to a guest at a party
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02400037"
+        gloss: "promote over another; \"he favors his second daughter\""
+        angloform:
+          status: redirect
+          word: prefer
+          category: VERB_TRANS
+      - wordnet: "00692143"
+        gloss: "consider as the favorite; \"The local team was favored\""
+        angloform:
+          status: gap
+      - wordnet: "02464725"
+        gloss: treat gently or carefully
+        angloform:
+          status: gap
+      - wordnet: "02453692"
+        gloss: bestow a privilege upon
+        angloform:
+          status: gap

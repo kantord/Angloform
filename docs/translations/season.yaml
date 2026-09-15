@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15239579"
+        gloss: "a period of the year marked by special events or activities in some field; \"he celebrated his 10th season with the ballet company\"; \"she always looked forward to the avocado season\""
+        angloform:
+          status: gap
+      - wordnet: "15236475"
+        gloss: "one of the natural periods into which the year is divided by the equinoxes and solstices or atmospheric conditions; \"the regular sequence of the seasons\""
+        angloform:
+          status: gap
+      - wordnet: "15239292"
+        gloss: "a recurrent time marked by major holidays; \"it was the Christmas season\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02191766"
+        gloss: "lend flavor to; \"Season the chicken breast after roasting it\""
+        angloform:
+          status: gap
+      - wordnet: "00295120"
+        gloss: "make fit; \"This trip will season even the hardiest traveller\""
+        angloform:
+          status: gap
+      - wordnet: "00294884"
+        gloss: "make more temperate, acceptable, or suitable by adding something else; moderate; \"she tempered her criticism\""
+        angloform:
+          status: gap

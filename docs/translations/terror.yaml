@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07520612"
+        gloss: an overwhelming feeling of fear and anxiety
+        angloform:
+          status: gap
+      - wordnet: "10702615"
+        gloss: "a person who inspires fear or dread; \"he was the terror of the neighborhood\""
+        angloform:
+          status: gap
+      - wordnet: "10702483"
+        gloss: a very troublesome child
+        angloform:
+          status: gap
+      - wordnet: "00759500"
+        gloss: "the use of extreme fear in order to coerce people (especially for political reasons); \"he used terror to make them confess\""
+        angloform:
+          status: gap

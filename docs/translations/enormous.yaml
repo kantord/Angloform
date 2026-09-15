@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01385255"
+        gloss: "extraordinarily large in size or extent or amount or power or degree; \"an enormous boulder\"; \"enormous expenses\"; \"tremendous sweeping plains\"; \"a tremendous fact in human experience; that a whole civilization should be dependent on technology\"- Walter Lippman; \"a plane took off with a tremendous noise\""
+        angloform:
+          status: gap

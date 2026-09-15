@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02482425"
+        gloss: "kill intentionally and with premeditation; \"The mafia boss ordered his enemies murdered\""
+        angloform:
+          status: redirect
+          word: remove
+          category: VERB_TRANS

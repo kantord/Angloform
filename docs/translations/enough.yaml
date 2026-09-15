@@ -1,0 +1,21 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13580415"
+        gloss: "an adequate quantity; a quantity that is large enough to achieve a purpose; \"enough is as good as a feast\"; \"there is more than a sufficiency of lawyers in this country\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02336109"
+        gloss: "sufficient for the purpose; \"an adequate income\"; \"the food was adequate\"; \"a decent wage\"; \"enough food\"; \"food enough\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00145713"
+        gloss: "as much as necessary; \"Have I eaten enough?\"; (`plenty' is nonstandard) \"I've had plenty, thanks\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

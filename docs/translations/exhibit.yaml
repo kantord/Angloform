@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06734322"
+        gloss: an object or statement produced before a court of law and referred to while giving evidence
+        angloform:
+          status: gap
+      - wordnet: "00521209"
+        gloss: "something shown to the public; \"the museum had many exhibits of oriental art\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02631856"
+        gloss: "show an attribute, property, knowledge, or skill; \"he exhibits a great talent\""
+        angloform:
+          status: gap
+      - wordnet: "02140033"
+        gloss: "to show, make visible or apparent; \"The Metropolitan Museum is exhibiting Goya's works this month\"; \"Why don't you show your nice legs and wear shorter skirts?\"; \"National leaders will have to display the highest skills of statesmanship\""
+        angloform:
+          status: gap
+      - wordnet: "02148788"
+        gloss: "give an exhibition of to an interested audience; \"She shows her dogs frequently\"; \"We will demo the new software in Washington\""
+        angloform:
+          status: redirect
+          word: show
+          category: VERB_TRANS
+      - wordnet: "01924712"
+        gloss: "walk ostentatiously; \"She parades her new husband around town\""
+        angloform:
+          status: gap

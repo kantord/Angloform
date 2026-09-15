@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00079018"
+        gloss: "the acquisition of something for payment; \"they closed the purchase with a handshake\""
+        angloform:
+          status: gap
+      - wordnet: "13253612"
+        gloss: something acquired by purchase
+        angloform:
+          status: gap
+      - wordnet: "11415342"
+        gloss: "a means of exerting influence or gaining advantage; \"he could get no purchase on the situation\""
+        angloform:
+          status: gap
+      - wordnet: "11473138"
+        gloss: the mechanical advantage gained by being in a position to use a lever
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02207206"
+        gloss: "obtain by purchase; acquire by means of a financial transaction; \"The family purchased a new car\"; \"The conglomerate acquired a new company\"; \"She buys for the big department store\""
+        angloform:
+          status: gap

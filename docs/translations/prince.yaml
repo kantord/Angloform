@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10472799"
+        gloss: a male member of a royal family other than the sovereign (especially the son of a sovereign)
+        angloform:
+          status: gap

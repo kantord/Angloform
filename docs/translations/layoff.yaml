@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00229814"
+        gloss: the act of laying off an employee or a work force
+        angloform:
+          status: gap

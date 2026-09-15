@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09753204"
+        gloss: (astrology) a person who is born while the sun is in Scorpio
+        angloform:
+          status: gap
+      - wordnet: "08687345"
+        gloss: the eighth sign of the zodiac; the sun is in this sign from about October 23 to November 21
+        angloform:
+          status: gap
+      - wordnet: "01770393"
+        gloss: arachnid of warm dry regions having a long segmented tail ending in a venomous stinger
+        angloform:
+          status: gap

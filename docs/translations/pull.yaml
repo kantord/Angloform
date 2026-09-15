@@ -1,0 +1,102 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00114431"
+        gloss: "the act of pulling; applying force to move something toward or with you; \"the pull up the hill had him breathing harder\"; \"his strenuous pulling strained his back\""
+        angloform:
+          status: gap
+      - wordnet: "11498040"
+        gloss: "the force used in pulling; \"the pull of the moon\"; \"the pull of the current\""
+        angloform:
+          status: gap
+      - wordnet: "05157274"
+        gloss: "special advantage or influence; \"the chairman's nephew has a lot of pull\""
+        angloform:
+          status: gap
+      - wordnet: "04019696"
+        gloss: "a device used for pulling something; \"he grabbed the pull and opened the drawer\""
+        angloform:
+          status: gap
+      - wordnet: "14299070"
+        gloss: "a sharp strain on muscles or ligaments; \"the wrench to his knee occurred as he fell\"; \"he was sidelined with a hamstring pull\""
+        angloform:
+          status: gap
+      - wordnet: "00837675"
+        gloss: "a slow inhalation (as of tobacco smoke); \"he took a puff on his pipe\"; \"he took a drag on his cigarette and expelled the smoke slowly\""
+        angloform:
+          status: gap
+      - wordnet: "00625427"
+        gloss: "a sustained effort; \"it was a long pull but we made it\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01448100"
+        gloss: "cause to move by pulling; \"draw a wagon\"; \"pull a sled\""
+        angloform:
+          status: gap
+      - wordnet: "01505254"
+        gloss: "direct toward itself or oneself by means of some psychological power or physical attributes; \"Her good looks attract the stares of many men\"; \"The ad pulled in many potential customers\"; \"This pianist pulls huge crowds\"; \"The store owner was happy that the ad drew in many new customers\""
+        angloform:
+          status: gap
+      - wordnet: "02057499"
+        gloss: "move into a certain direction; \"the car pulls to the right\""
+        angloform:
+          status: gap
+      - wordnet: "01609287"
+        gloss: "apply force so as to cause motion towards the source of the motion; \"Pull the rope\"; \"Pull the handle towards you\"; \"pull the string gently\"; \"pull the trigger of the gun\"; \"pull your knees towards your chin\""
+        angloform:
+          status: gap
+      - wordnet: "02582615"
+        gloss: "perform an act, usually with a negative connotation; \"perpetrate a crime\"; \"pull a bank robbery\""
+        angloform:
+          status: gap
+      - wordnet: "01995211"
+        gloss: "bring, take, or pull out of a container or from under a cover; \"draw a weapon\"; \"pull out a gun\"; \"The mugger pulled a knife on his victim\""
+        angloform:
+          status: gap
+      - wordnet: "02057337"
+        gloss: "steer into a certain direction; \"pull one's horse to a stand\"; \"Pull the car over\""
+        angloform:
+          status: gap
+      - wordnet: "00071803"
+        gloss: "strain abnormally; \"I pulled a muscle in my leg when I jumped up\"; \"The athlete pulled a tendon in the competition\""
+        angloform:
+          status: gap
+      - wordnet: "02103162"
+        gloss: "cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense; \"A declining dollar pulled down the export figures for the last quarter\""
+        angloform:
+          status: gap
+      - wordnet: "01947247"
+        gloss: "operate when rowing a boat; \"pull the oars\""
+        angloform:
+          status: gap
+      - wordnet: "01858573"
+        gloss: "rein in to keep from winning a race; \"pull a horse\""
+        angloform:
+          status: gap
+      - wordnet: "01573276"
+        gloss: "tear or be torn violently; \"The curtain ripped from top to bottom\"; \"pull the cooked chicken into strips\""
+        angloform:
+          status: gap
+      - wordnet: "01407059"
+        gloss: "hit in the direction that the player is facing when carrying through the swing; \"pull the ball\""
+        angloform:
+          status: gap
+      - wordnet: "01384275"
+        gloss: "strip of feathers; \"pull a chicken\"; \"pluck the capon\""
+        angloform:
+          status: gap
+      - wordnet: "01351170"
+        gloss: "remove, usually with some force or effort; also used in an abstract sense; \"pull weeds\"; \"extract a bad tooth\"; \"take out a splinter\"; \"extract information from the telegram\""
+        angloform:
+          status: gap
+      - wordnet: "01148710"
+        gloss: "take sides with; align oneself with; show strong sympathy for; \"We all rooted for the home team\"; \"I'm pulling for the underdog\"; \"Are you siding with the defender of the title?\""
+        angloform:
+          status: gap
+      - wordnet: "00571596"
+        gloss: "take away; \"pull the old soup cans from the supermarket shelf\""
+        angloform:
+          status: gap

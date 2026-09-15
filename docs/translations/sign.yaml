@@ -1,0 +1,90 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06646243"
+        gloss: "a perceptible indication of something not immediately apparent (as a visible clue that something has happened); \"he showed signs of strain\"; \"they welcomed the signs of spring\""
+        angloform:
+          status: gap
+      - wordnet: "06793231"
+        gloss: "a public display of a message; \"he posted signs in all the shop windows\""
+        angloform:
+          status: gap
+      - wordnet: "06791372"
+        gloss: "any nonverbal action or gesture that encodes a message; \"signals from the boat suddenly stopped\""
+        angloform:
+          status: redirect
+          word: signal
+          category: NOUN
+      - wordnet: "04217882"
+        gloss: "structure displaying a board on which advertisements can be posted; \"the highway was lined with signboards\""
+        angloform:
+          status: gap
+      - wordnet: "08685677"
+        gloss: (astrology) one of 12 equal areas into which the zodiac is divided
+        angloform:
+          status: gap
+      - wordnet: "14301785"
+        gloss: "(medicine) any objective evidence of the presence of a disorder or disease; \"there were no signs of asphyxiation\""
+        angloform:
+          status: gap
+      - wordnet: "13856574"
+        gloss: "having an indicated pole (as the distinction between positive and negative electric charges); \"he got the polarity of the battery reversed\"; \"charges of opposite sign\""
+        angloform:
+          status: gap
+      - wordnet: "07286014"
+        gloss: "an event that is experienced as indicating important things to come; \"he hoped it was an augury\"; \"it was a sign from God\""
+        angloform:
+          status: gap
+      - wordnet: "06876144"
+        gloss: a gesture that is part of a sign language
+        angloform:
+          status: gap
+      - wordnet: "07276018"
+        gloss: "a fundamental linguistic unit linking a signifier to that which is signified; \"The bond between the signifier and the signified is arbitrary\"--de Saussure"
+        angloform:
+          status: gap
+      - wordnet: "06811625"
+        gloss: "a character indicating a relation between quantities; \"don't forget the minus sign\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00996485"
+        gloss: "mark with one's signature; write one's name (on); \"She signed the letter and sent it off\"; \"Please sign here\""
+        angloform:
+          status: gap
+      - wordnet: "02464866"
+        gloss: "approve and express assent, responsibility, or obligation; \"All parties ratified the peace treaty\"; \"Have you signed your contract yet?\""
+        angloform:
+          status: gap
+      - wordnet: "00889229"
+        gloss: "be engaged by a written agreement; \"He signed to play the casino on Dec. 18\"; \"The soprano signed to sing the new opera\""
+        angloform:
+          status: gap
+      - wordnet: "02409941"
+        gloss: "engage by written agreement; \"They signed two new pitchers for the next season\""
+        angloform:
+          status: gap
+      - wordnet: "01039330"
+        gloss: "communicate silently and non-verbally by signals or signs; \"He signed his disapproval with a dismissive hand gesture\"; \"The diner signaled the waiters to bring the menu\""
+        angloform:
+          status: gap
+      - wordnet: "01498319"
+        gloss: "place signs, as along a road; \"sign an intersection\"; \"This road has been signed\""
+        angloform:
+          status: gap
+      - wordnet: "00929160"
+        gloss: "communicate in sign language; \"I don't know how to sign, so I could not communicate with my deaf cousin\""
+        angloform:
+          status: gap
+      - wordnet: "00867231"
+        gloss: make the sign of the cross over someone in order to call on God for protection; consecrate
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00498161"
+        gloss: used of the language of the deaf
+        angloform:
+          status: gap

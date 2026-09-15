@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11501381"
+        gloss: water falling in drops from vapor condensed in the atmosphere
+        angloform:
+          status: gap
+      - wordnet: "15008607"
+        gloss: drops of fresh water that fall as precipitation from clouds
+        angloform:
+          status: gap
+      - wordnet: "05045208"
+        gloss: "anything happening rapidly or in quick successive; \"a rain of bullets\"; \"a pelting of insults\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02756558"
+        gloss: "precipitate as rain; \"If it rains much more, we can expect some flooding\""
+        angloform:
+          status: gap

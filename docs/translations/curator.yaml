@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09983889"
+        gloss: the custodian of a collection (as a museum or library)
+        angloform:
+          status: gap

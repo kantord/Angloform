@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04067658"
+        gloss: a roll of photographic film holding a series of frames to be projected by a movie projector
+        angloform:
+          status: gap
+      - wordnet: "07056680"
+        gloss: music composed for dancing a reel
+        angloform:
+          status: gap
+      - wordnet: "04067472"
+        gloss: winder consisting of a revolving spool with a handle; attached to a fishing rod
+        angloform:
+          status: gap
+      - wordnet: "02860415"
+        gloss: a winder around which thread or tape or film or other flexible materials can be wound
+        angloform:
+          status: gap
+      - wordnet: "00540211"
+        gloss: a lively dance of Scottish Highlanders; marked by circular moves and gliding steps
+        angloform:
+          status: gap
+      - wordnet: "00539674"
+        gloss: an American country dance which starts with the couples facing each other in two lines
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01924882"
+        gloss: "walk as if unable to control one's movements; \"The drunken man staggered into the room\""
+        angloform:
+          status: gap
+      - wordnet: "02046755"
+        gloss: "revolve quickly and repeatedly around one's own axis; \"The dervishes whirl around and around without getting dizzy\""
+        angloform:
+          status: gap
+      - wordnet: "01523105"
+        gloss: wind onto or off a reel
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05046009"
+        gloss: the time when something happens
+        angloform:
+          status: gap
+      - wordnet: "00807078"
+        gloss: the regulation of occurrence, pace, or coordination to achieve a desired effect (as in music, theater, athletics, mechanics)
+        angloform:
+          status: gap

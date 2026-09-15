@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05546540"
+        gloss: "the part of an organism (human or animal) that connects the head to the rest of the body; \"he admired her long graceful neck\"; \"the horse won by a neck\""
+        angloform:
+          status: gap
+      - wordnet: "09367733"
+        gloss: a narrow elongated projecting strip of land
+        angloform:
+          status: gap
+      - wordnet: "07661357"
+        gloss: a cut of meat from the neck of an animal
+        angloform:
+          status: gap
+      - wordnet: "03814348"
+        gloss: "a narrow part of an artifact that resembles a neck in position or form; \"the banjo had a long neck\"; \"the bottle had a wide neck\""
+        angloform:
+          status: gap
+      - wordnet: "03814112"
+        gloss: "an opening in a garment for the neck of the wearer; a part of the garment near the wearer's neck"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01426153"
+        gloss: "kiss, embrace, or fondle with sexual passion; \"The couple were necking in the back seat of the car\""
+        angloform:
+          status: gap

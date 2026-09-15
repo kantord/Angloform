@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10187557"
+        gloss: a prisoner who is held by one party to insure that another party will meet specified terms
+        angloform:
+          status: gap

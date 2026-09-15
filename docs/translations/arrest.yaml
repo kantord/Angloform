@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00088725"
+        gloss: "the act of apprehending (especially apprehending a criminal); \"the policeman on the beat got credit for the collar\""
+        angloform:
+          status: gap
+      - wordnet: "14010927"
+        gloss: "the state of inactivity following an interruption; \"the negotiations were in arrest\"; \"held them in check\"; \"during the halt he got some lunch\"; \"the momentary stay enabled him to escape the blow\"; \"he spent the entire stop in his seat\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01215137"
+        gloss: "take into custody; \"the police nabbed the suspected criminals\""
+        angloform:
+          status: gap
+      - wordnet: "01131473"
+        gloss: "hold back, as of a danger or an enemy; check the expansion or influence of; \"Arrest the downward trend\"; \"Check the growth of communism in South East Asia\"; \"Contain the rebel movement\"; \"Turn back the tide of communism\""
+        angloform:
+          status: redirect
+          word: stop
+          category: VERB_TRANS
+      - wordnet: "01505958"
+        gloss: "attract and fix; \"His look caught her\"; \"She caught his eye\"; \"Catch the attention of the waiter\""
+        angloform:
+          status: redirect
+          word: get
+          category: VERB_TRANS
+      - wordnet: "01859586"
+        gloss: "cause to stop; \"Halt the engines\"; \"Arrest the progress\"; \"halt the presses\""
+        angloform:
+          status: redirect
+          word: hold
+          category: VERB_TRANS

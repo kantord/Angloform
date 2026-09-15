@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04524142"
+        gloss: a gymnastic horse without pommels and with one end elongated; used lengthwise for vaulting
+        angloform:
+          status: gap
+      - wordnet: "13395897"
+        gloss: a piece of paper money worth one dollar
+        angloform:
+          status: gap
+      - wordnet: "10870235"
+        gloss: United States author whose novels drew on her experiences as a missionary in China (1892-1973)
+        angloform:
+          status: gap
+      - wordnet: "04140631"
+        gloss: a framework for holding wood that is being sawed
+        angloform:
+          status: gap
+      - wordnet: "01888264"
+        gloss: mature male of various mammals (especially deer or antelope)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02531500"
+        gloss: "to strive with determination; \"John is bucking for a promotion\""
+        angloform:
+          status: gap
+      - wordnet: "02378851"
+        gloss: "resist; \"buck the trend\""
+        angloform:
+          status: gap
+      - wordnet: "02055267"
+        gloss: "move quickly and violently; \"The car tore down the street\"; \"He came charging into my office\""
+        angloform:
+          status: gap
+      - wordnet: "01884383"
+        gloss: "jump vertically, with legs stiff and back arched; \"the yung filly bucked\""
+        angloform:
+          status: gap

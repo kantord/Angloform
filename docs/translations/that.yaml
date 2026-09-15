@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json (ADR 0002/0010, all 3 senses).
+by_upos:
+  DET:
+    senses:
+      - gloss: pointer/demonstrative use; "that file"
+        angloform:
+          status: construction
+          pattern: the file...
+          note: 'ADR 0002: repeat the noun you mean instead of "that"; matches seed.json''s existing BANNED advice for this lemma'
+  SCONJ:
+    senses:
+      - gloss: complementizer use; "shows that the fact is true"
+        angloform:
+          status: construction
+          pattern: the report shows the result.
+          note: 'ADR 0002: state the fact in its own sentence; matches seed.json''s existing BANNED advice for this lemma'
+      - gloss: relative-clause use; "the file that fails"
+        angloform:
+          status: construction
+          pattern: the file fails. the file...
+          note: 'ADR 0010: split the sentence and repeat the noun; matches seed.json''s existing BANNED advice for this lemma'

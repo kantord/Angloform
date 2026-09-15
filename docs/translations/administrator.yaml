@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09770949"
+        gloss: someone who administers a business
+        angloform:
+          status: gap
+      - wordnet: "09770743"
+        gloss: the party appointed by a probate court to distribute the estate of someone who dies without a will or without naming an executor
+        angloform:
+          status: gap
+      - wordnet: "09770472"
+        gloss: someone who manages a government agency or department
+        angloform:
+          status: gap

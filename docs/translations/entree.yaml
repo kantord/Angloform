@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07579575"
+        gloss: the principal dish of a meal
+        angloform:
+          status: gap
+      - wordnet: "05176188"
+        gloss: the right to enter
+        angloform:
+          status: gap
+      - wordnet: "03290771"
+        gloss: "something that provides access (to get in or get out); \"they waited at the entrance to the garden\"; \"beggars waited just outside the entryway to the cathedral\""
+        angloform:
+          status: redirect
+          word: entry
+          category: NOUN
+      - wordnet: "00049789"
+        gloss: "the act of entering; \"she made a graceful entree into the ballroom\""
+        angloform:
+          status: gap

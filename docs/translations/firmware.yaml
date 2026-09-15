@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06357814"
+        gloss: (computer science) coded instructions that are stored permanently in read-only memory
+        angloform:
+          status: gap

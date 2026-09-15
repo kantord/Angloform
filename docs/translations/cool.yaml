@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05016001"
+        gloss: "the quality of being at a refreshingly low temperature; \"the cool of early morning\""
+        angloform:
+          status: gap
+      - wordnet: "04904162"
+        gloss: "great coolness and composure under strain; \"keep your cool\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00370412"
+        gloss: "make cool or cooler; \"Chill the food\""
+        angloform:
+          status: gap
+      - wordnet: "00369864"
+        gloss: "loose heat; \"The air cooled considerably after the thunderstorm\""
+        angloform:
+          status: gap
+      - wordnet: "00370126"
+        gloss: "lose intensity; \"His enthusiasm cooled considerably\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02529945"
+        gloss: "neither warm nor very cold; giving relief from heat; \"a cool autumn day\"; \"a cool room\"; \"cool summer dresses\"; \"cool drinks\"; \"a cool breeze\""
+        angloform:
+          status: gap
+      - wordnet: "00530772"
+        gloss: "marked by calm self-control (especially in trying circumstances); unemotional; \"play it cool\"; \"keep cool\"; \"stayed coolheaded in the crisis\"; \"the most nerveless winner in the history of the tournament\""
+        angloform:
+          status: gap
+      - wordnet: "02532200"
+        gloss: "(color) inducing the impression of coolness; used especially of greens and blues and violets; \"cool greens and blues and violets\""
+        angloform:
+          status: gap
+      - wordnet: "02531422"
+        gloss: "psychologically cool and unenthusiastic; unfriendly or unresponsive or showing dislike; \"relations were cool and polite\"; \"a cool reception\"; \"cool to the idea of higher taxes\""
+        angloform:
+          status: gap
+      - wordnet: "01914250"
+        gloss: "(used of a number or sum) without exaggeration or qualification; \"a cool million bucks\""
+        angloform:
+          status: gap
+      - wordnet: "00971660"
+        gloss: "fashionable and attractive at the time; often skilled or socially adept; \"he's a cool dude\"; \"that's cool\"; \"Mary's dress is really cool\"; \"it's not cool to arrive at a party too early\""
+        angloform:
+          status: gap

@@ -1,0 +1,70 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10280130"
+        gloss: "an artist of consummate skill; \"a master of the violin\"; \"one of the old masters\""
+        angloform:
+          status: gap
+      - wordnet: "10388440"
+        gloss: a person who has general authority over others
+        angloform:
+          status: gap
+      - wordnet: "10752930"
+        gloss: a combatant who is able to defeat rivals
+        angloform:
+          status: gap
+      - wordnet: "10298647"
+        gloss: directs the work of others
+        angloform:
+          status: gap
+      - wordnet: "10164233"
+        gloss: presiding officer of a school
+        angloform:
+          status: gap
+      - wordnet: "03727274"
+        gloss: an original creation (i.e., an audio recording) from which copies can be made
+        angloform:
+          status: gap
+      - wordnet: "10298912"
+        gloss: an officer who is licensed to command a merchant ship
+        angloform:
+          status: gap
+      - wordnet: "10298798"
+        gloss: "someone who holds a master's degree from academic institution"
+        angloform:
+          status: gap
+      - wordnet: "10298482"
+        gloss: an authority qualified to teach apprentices
+        angloform:
+          status: gap
+      - wordnet: "03896984"
+        gloss: key that secures entrance everywhere
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00597634"
+        gloss: "be or become completely proficient or skilled in; \"She mastered Japanese in less than two years\""
+        angloform:
+          status: gap
+      - wordnet: "01108627"
+        gloss: "get on top of; deal with successfully; \"He overcame his shyness\""
+        angloform:
+          status: gap
+      - wordnet: "02539334"
+        gloss: "have dominance or the power to defeat over; \"Her pain completely mastered her\"; \"The methods can master the problems\""
+        angloform:
+          status: gap
+      - wordnet: "00597385"
+        gloss: "have a firm understanding or knowledge of; be on top of; \"Do you control these data?\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01277426"
+        gloss: "most important element; \"the chief aim of living\"; \"the main doors were of solid glass\"; \"the principal rivers of America\"; \"the principal example\"; \"policemen were primary targets\"; \"the master bedroom\"; \"a master switch\""
+        angloform:
+          status: redirect
+          word: main
+          category: ADJ

@@ -1,0 +1,78 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07380144"
+        gloss: "a loud resonant repeating noise; \"he could hear the clang of distant bells\""
+        angloform:
+          status: gap
+      - wordnet: "07301950"
+        gloss: "a serious accident (usually involving one or more vehicles); \"they are still investigating the crash of the TWA plane\""
+        angloform:
+          status: gap
+      - wordnet: "07477945"
+        gloss: a sudden large decline of business or the prices of stocks (especially one that causes additional failures)
+        angloform:
+          status: gap
+      - wordnet: "00126236"
+        gloss: "the act of colliding with something; \"his crash through the window\"; \"the fullback's smash into the defensive line\""
+        angloform:
+          status: gap
+      - wordnet: "07478874"
+        gloss: "(computer science) an event that causes a computer system to become inoperative; \"the crash occurred during a thunderstorm and the system has been down ever since\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01972570"
+        gloss: "fall or come down violently; \"The branch crashed down on my car\"; \"The plane crashed in the sea\""
+        angloform:
+          status: gap
+      - wordnet: "02088627"
+        gloss: "move with, or as if with, a crashing noise; \"The car crashed through the glass door\""
+        angloform:
+          status: gap
+      - wordnet: "01561819"
+        gloss: "undergo damage or destruction on impact; \"the plane crashed into the ocean\"; \"The car crashed into the lamp post\""
+        angloform:
+          status: gap
+      - wordnet: "02019282"
+        gloss: "move violently as through a barrier; \"The terrorists crashed the gate\""
+        angloform:
+          status: gap
+      - wordnet: "01562061"
+        gloss: break violently or noisily; smash;
+        angloform:
+          status: gap
+      - wordnet: "02657080"
+        gloss: "occupy, usually uninvited; \"My son's friends crashed our house last weekend\""
+        angloform:
+          status: gap
+      - wordnet: "02177512"
+        gloss: "make a sudden loud sound; \"the waves crashed on the shore and kept us awake all night\""
+        angloform:
+          status: gap
+      - wordnet: "02019011"
+        gloss: "enter uninvited; informal; \"let's crash the party!\""
+        angloform:
+          status: gap
+      - wordnet: "01562209"
+        gloss: "cause to crash; \"The terrorists crashed the plane into the palace\"; \"Mother crashed the motorbike into the lamppost\""
+        angloform:
+          status: gap
+      - wordnet: "01507407"
+        gloss: "hurl or thrust violently; \"He dashed the plate against the wall\"; \"Waves were dashing against the rock\""
+        angloform:
+          status: gap
+      - wordnet: "00583064"
+        gloss: "undergo a sudden and severe downturn; \"the economy crashed\"; \"will the stock market crash again?\""
+        angloform:
+          status: gap
+      - wordnet: "00434919"
+        gloss: "stop operating; \"My computer crashed last night\"; \"The system goes down at least once a week\""
+        angloform:
+          status: gap
+      - wordnet: "00017674"
+        gloss: "sleep in a convenient place; \"You can crash here, though it's not very comfortable\""
+        angloform:
+          status: gap

@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07338552"
+        gloss: the striking of one body against another
+        angloform:
+          status: gap
+      - wordnet: "11414411"
+        gloss: "a forceful consequence; a strong effect; \"the book had an important impact on my thinking\"; \"the book packs a wallop\""
+        angloform:
+          status: gap
+      - wordnet: "00157957"
+        gloss: "influencing strongly; \"they resented the impingement of American values on European culture\""
+        angloform:
+          status: gap
+      - wordnet: "01172252"
+        gloss: "the violent interaction of individuals or groups entering into combat; \"the armies met in the shock of battle\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01343482"
+        gloss: press or wedge together; pack together
+        angloform:
+          status: gap
+      - wordnet: "00137313"
+        gloss: "have an effect upon; \"Will the new rules affect me?\""
+        angloform:
+          status: redirect
+          word: touch
+          category: VERB_TRANS

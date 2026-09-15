@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13820993"
+        gloss: the ratio of the output to the input of any system
+        angloform:
+          status: gap
+      - wordnet: "05644527"
+        gloss: "skillfulness in avoiding wasted time and effort; \"she did the work with great efficiency\""
+        angloform:
+          status: gap

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13810141"
+        gloss: "the most interesting or memorable part; \"the highlight of the tour was our visit to the Vatican\""
+        angloform:
+          status: gap
+      - wordnet: "04952120"
+        gloss: an area of lightness in a picture
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00514069"
+        gloss: "move into the foreground to make more visible or prominent; \"The introduction highlighted the speaker's distinguished career in linguistics\""
+        angloform:
+          status: gap
+      - wordnet: "00041206"
+        gloss: "apply a highlighter to one's cheeks or eyebrows in order to make them more prominent; \"highlight the area above your eyebrows\""
+        angloform:
+          status: gap

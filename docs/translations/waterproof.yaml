@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04561734"
+        gloss: any fabric impervious to water
+        angloform:
+          status: gap
+      - wordnet: "04049405"
+        gloss: a water-resistant coat
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01354405"
+        gloss: "make watertight; \"Waterproof the coat\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01398941"
+        gloss: not permitting the passage of water
+        angloform:
+          status: gap

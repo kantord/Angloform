@@ -1,0 +1,11 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json — this file records that
+# existing verdict in the per-sense format.
+by_upos:
+  VERB:
+    senses:
+      - gloss: allow, make possible; "the grammar permits this word"
+        angloform:
+          status: redirect
+          word: allow
+          category: VERB_TRANS

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00630380"
+        gloss: "reflect deeply on a subject; \"I mulled over the events of the afternoon\"; \"philosophers have speculated on the question of God for thousands of years\"; \"The scientist must stop to observe and start to excogitate\""
+        angloform:
+          status: gap

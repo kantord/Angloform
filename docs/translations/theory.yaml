@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05989479"
+        gloss: "a well-substantiated explanation of some aspect of the natural world; an organized system of accepted knowledge that applies in a variety of circumstances to explain a specific set of phenomena; \"theories can incorporate facts and laws and tested hypotheses\"; \"true in fact and theory\""
+        angloform:
+          status: gap
+      - wordnet: "05888929"
+        gloss: "a tentative insight into the natural world; a concept that is not yet verified but that if true would explain certain facts or phenomena; \"a scientific hypothesis that survives experimental testing becomes a scientific theory\"; \"he proposed a fresh theory of alkalis that later was accepted in chemical practices\""
+        angloform:
+          status: redirect
+          word: possibility
+          category: NOUN
+      - wordnet: "05952979"
+        gloss: "a belief that can guide behavior; \"the architect has a theory that more is less\"; \"they killed him on the theory that dead men tell no tales\""
+        angloform:
+          status: gap

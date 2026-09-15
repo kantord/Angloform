@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07444882"
+        gloss: (physics) the maximum displacement of a periodic wave
+        angloform:
+          status: gap
+      - wordnet: "05115418"
+        gloss: the property of copious abundance
+        angloform:
+          status: gap
+      - wordnet: "05098311"
+        gloss: greatness of magnitude
+        angloform:
+          status: gap

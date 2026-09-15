@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15138691"
+        gloss: a day devoted to an outdoor social gathering
+        angloform:
+          status: gap
+      - wordnet: "00575365"
+        gloss: "any undertaking that is easy to do; \"marketing this product will be no picnic\""
+        angloform:
+          status: gap
+      - wordnet: "07576438"
+        gloss: any informal meal eaten outside or on an excursion
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01168259"
+        gloss: "eat alfresco, in the open air; \"We picnicked near the lake on this gorgeous Sunday\""
+        angloform:
+          status: gap

@@ -1,0 +1,96 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13164763"
+        gloss: a new branch
+        angloform:
+          status: gap
+      - wordnet: "00122954"
+        gloss: "the act of shooting at targets; \"they hold a shoot every weekend during the summer\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01137138"
+        gloss: hit with a missile from a weapon
+        angloform:
+          status: gap
+      - wordnet: "02484570"
+        gloss: kill by firing a missile
+        angloform:
+          status: gap
+      - wordnet: "01134781"
+        gloss: "fire a shot; \"the gunman blasted away\""
+        angloform:
+          status: gap
+      - wordnet: "01002740"
+        gloss: "make a film or photograph of something; \"take a scene\"; \"shoot a movie\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "02096047"
+        gloss: "send forth suddenly, intensely, swiftly; \"shoot a glance\""
+        angloform:
+          status: gap
+      - wordnet: "02061495"
+        gloss: "run or move very quickly or hastily; \"She dashed into the yard\""
+        angloform:
+          status: gap
+      - wordnet: "02055267"
+        gloss: "move quickly and violently; \"The car tore down the street\"; \"He came charging into my office\""
+        angloform:
+          status: gap
+      - wordnet: "01597286"
+        gloss: "throw or propel in a specific direction or towards a specific objective; \"shoot craps\"; \"shoot a golf ball\""
+        angloform:
+          status: gap
+      - wordnet: "01003249"
+        gloss: "record on photographic film; \"I photographed the scene of the accident\"; \"She snapped a picture of the President\""
+        angloform:
+          status: gap
+      - wordnet: "02768259"
+        gloss: "emit (as light, flame, or fumes) suddenly and forcefully; \"The dragon shot fumes and flames out of its mouth\""
+        angloform:
+          status: gap
+      - wordnet: "02123175"
+        gloss: "cause a sharp and sudden pain in; \"The pain shot up her leg\""
+        angloform:
+          status: gap
+      - wordnet: "01585523"
+        gloss: "force or drive (a fluid or gas) into by piercing; \"inject hydrogen into the balloon\""
+        angloform:
+          status: gap
+      - wordnet: "01519184"
+        gloss: "variegate by interweaving weft threads of different colors; \"shoot cloth\""
+        angloform:
+          status: gap
+      - wordnet: "01437144"
+        gloss: throw dice, as in a crap game
+        angloform:
+          status: gap
+      - wordnet: "01195804"
+        gloss: "spend frivolously and unwisely; \"Fritter away one's inheritance\""
+        angloform:
+          status: gap
+      - wordnet: "01084466"
+        gloss: "score; \"shoot a basket\"; \"shoot a goal\""
+        angloform:
+          status: gap
+      - wordnet: "00985219"
+        gloss: "utter fast and forcefully; \"She shot back an answer\""
+        angloform:
+          status: gap
+      - wordnet: "00647508"
+        gloss: "measure the altitude of by using a sextant; \"shoot a star\""
+        angloform:
+          status: gap
+      - wordnet: "00357332"
+        gloss: "produce buds, branches, or germinate; \"the potatoes sprouted\""
+        angloform:
+          status: gap
+      - wordnet: "00086320"
+        gloss: "give an injection to; \"We injected the glucose into the patient's vein\""
+        angloform:
+          status: gap

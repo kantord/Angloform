@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02788021"
+        gloss: long strip of cloth or paper used for decoration or advertising
+        angloform:
+          status: gap
+      - wordnet: "06345878"
+        gloss: a newspaper headline that runs across the full page
+        angloform:
+          status: gap
+      - wordnet: "04301140"
+        gloss: any distinctive flag
+        angloform:
+          status: redirect
+          word: standard
+          category: NOUN
+  ADJ:
+    senses:
+      - wordnet: "02342196"
+        gloss: "unusually good; outstanding; \"a banner year for the company\""
+        angloform:
+          status: gap

@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00001740"
+        gloss: "draw air into, and expel out of, the lungs; \"I can breathe better when the air is clean\"; \"The patient is respiring\""
+        angloform:
+          status: gap
+      - wordnet: "02617083"
+        gloss: "be alive; \"Every creature that breathes\""
+        angloform:
+          status: gap
+      - wordnet: "02325272"
+        gloss: "impart as if by breathing; \"He breathed new life into the old house\""
+        angloform:
+          status: gap
+      - wordnet: "02751787"
+        gloss: "allow the passage of air through; \"Our new synthetic fabric breathes and is perfect for summer wear\""
+        angloform:
+          status: gap
+      - wordnet: "00941346"
+        gloss: "utter or tell; \"not breathe a word\""
+        angloform:
+          status: gap
+      - wordnet: "00929703"
+        gloss: "manifest or evince; \"She breathes the Christian spirit\""
+        angloform:
+          status: gap
+      - wordnet: "00779360"
+        gloss: "take a short break from one's activities in order to relax"
+        angloform:
+          status: gap
+      - wordnet: "00239754"
+        gloss: "reach full flavor by absorbing air and being let to stand after having been uncorked; \"This rare Bordeaux must be allowed to breathe for at least 2 hours\""
+        angloform:
+          status: gap
+      - wordnet: "00105333"
+        gloss: expel (gases or odors)
+        angloform:
+          status: gap

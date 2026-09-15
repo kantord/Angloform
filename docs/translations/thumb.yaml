@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05567217"
+        gloss: the thick short innermost digit of the forelimb
+        angloform:
+          status: gap
+      - wordnet: "04430896"
+        gloss: the part of a glove that provides a covering for the thumb
+        angloform:
+          status: gap
+      - wordnet: "03866721"
+        gloss: a convex molding having a cross section in the form of a quarter of a circle or of an ellipse
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01956955"
+        gloss: travel by getting free rides from motorists
+        angloform:
+          status: gap
+      - wordnet: "02153023"
+        gloss: "look through a book or other written material; \"He thumbed through the report\"; \"She leafed through the volume\""
+        angloform:
+          status: gap
+      - wordnet: "01209953"
+        gloss: "feel or handle with the fingers; \"finger the binding of the book\""
+        angloform:
+          status: gap

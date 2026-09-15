@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02743547"
+        gloss: "the products of human creativity; works of art collectively; \"an art exhibition\"; \"a fine collection of art\""
+        angloform:
+          status: gap
+      - wordnet: "00933420"
+        gloss: "the creation of beautiful or significant things; \"art does not need to be innovative to be good\"; \"I was never any good at art\"; \"he said that architecture is the art of wasting space beautifully\""
+        angloform:
+          status: gap
+      - wordnet: "05638987"
+        gloss: "a superior skill that you can learn by study and practice and observation; \"the art of conversation\"; \"it's quite an art\""
+        angloform:
+          status: gap
+      - wordnet: "06998748"
+        gloss: "photographs or other visual representations in a printed publication; \"the publisher was responsible for all the artwork in the book\""
+        angloform:
+          status: gap

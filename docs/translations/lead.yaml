@@ -1,0 +1,138 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05157143"
+        gloss: "an advantage held by a competitor in a race; \"he took the lead at the last turn\""
+        angloform:
+          status: gap
+      - wordnet: "14643467"
+        gloss: "a soft heavy toxic malleable metallic element; bluish white when freshly cut but tarnishes readily to dull grey; \"the children were playing with lead soldiers\""
+        angloform:
+          status: gap
+      - wordnet: "05826914"
+        gloss: "evidence pointing to a possible solution; \"the police are following a promising lead\"; \"the trail led straight to the perpetrator\""
+        angloform:
+          status: gap
+      - wordnet: "01256743"
+        gloss: "a position of leadership (especially in the phrase `take the lead'); \"he takes the lead in any group\"; \"we were just waiting for someone to take the lead\"; \"they didn't follow our lead\""
+        angloform:
+          status: gap
+      - wordnet: "13893129"
+        gloss: the angle between the direction a gun is aimed and the position of a moving target (correcting for the flight time of the missile)
+        angloform:
+          status: gap
+      - wordnet: "06270879"
+        gloss: "the introductory section of a story; \"it was an amusing lead-in to a very serious matter\""
+        angloform:
+          status: gap
+      - wordnet: "13596422"
+        gloss: (sports) the score by which a team or individual is winning
+        angloform:
+          status: gap
+      - wordnet: "10648696"
+        gloss: an actor who plays a principal role
+        angloform:
+          status: gap
+      - wordnet: "08592165"
+        gloss: "(baseball) the position taken by a base runner preparing to advance to the next base; \"he took a long lead off first\""
+        angloform:
+          status: gap
+      - wordnet: "06651577"
+        gloss: "an indication of potential opportunity; \"he got a tip on the stock market\"; \"a good lead for a job\""
+        angloform:
+          status: gap
+      - wordnet: "06271192"
+        gloss: a news story of major importance
+        angloform:
+          status: gap
+      - wordnet: "05051088"
+        gloss: the timing of ignition relative to the position of the piston in an internal-combustion engine
+        angloform:
+          status: gap
+      - wordnet: "03652932"
+        gloss: restraint consisting of a rope (or light chain) used to restrain an animal
+        angloform:
+          status: gap
+      - wordnet: "03651265"
+        gloss: thin strip of metal used to separate lines of type in printing
+        angloform:
+          status: gap
+      - wordnet: "03651084"
+        gloss: mixture of graphite with clay in different degrees of hardness; the marking substance in a pencil
+        angloform:
+          status: gap
+      - wordnet: "03604843"
+        gloss: "a jumper that consists of a short piece of wire; \"it was a tangle of jumper cables and clip leads\""
+        angloform:
+          status: gap
+      - wordnet: "01256270"
+        gloss: "the playing of a card to start a trick in bridge; \"the lead was in the dummy\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01999798"
+        gloss: "take somebody somewhere; \"We lead him to our chief\"; \"can you take me to the main entrance?\"; \"He conducted us to the palace\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "02635659"
+        gloss: "have as a result or residue; \"The water left a mark on the silk dress\"; \"Her blood left a stain on the napkin\""
+        angloform:
+          status: gap
+      - wordnet: "02635956"
+        gloss: "tend to or result in; \"This remark lead to further arguments among the guests\""
+        angloform:
+          status: gap
+      - wordnet: "01999423"
+        gloss: "travel in front of; go in advance of others; \"The procession was headed by John\""
+        angloform:
+          status: gap
+      - wordnet: "00771632"
+        gloss: "cause to undertake a certain action; \"Her greed led her to forge the checks\""
+        angloform:
+          status: gap
+      - wordnet: "02685951"
+        gloss: "stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point; \"Service runs all the way to Cranbury\"; \"His knowledge doesn't go very far\"; \"My memory extends back to my fourth year of life\"; \"The facts extend beyond a consideration of her personal assets\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "02440244"
+        gloss: "be in charge of; \"Who is heading this project?\""
+        angloform:
+          status: gap
+      - wordnet: "02687385"
+        gloss: "be ahead of others; be the first; \"she topped her class every year\""
+        angloform:
+          status: gap
+      - wordnet: "02555908"
+        gloss: "be conducive to; \"The use of computers in the classroom lead to better writing\""
+        angloform:
+          status: gap
+      - wordnet: "01732921"
+        gloss: "lead, as in the performance of a composition; \"conduct an orchestra; Barenboim conducted the Chicago symphony for years\""
+        angloform:
+          status: gap
+      - wordnet: "02686471"
+        gloss: "lead, extend, or afford access; \"This door goes to the basement\"; \"The road runs South\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "01999218"
+        gloss: move ahead (of others) in time or space
+        angloform:
+          status: redirect
+          word: precede
+          category: VERB_TRANS
+      - wordnet: "02686625"
+        gloss: "cause something to pass or lead somewhere; \"Run the wire behind the cabinet\""
+        angloform:
+          status: gap
+      - wordnet: "00813790"
+        gloss: "preside over; \"John moderated the discussion\""
+        angloform:
+          status: gap

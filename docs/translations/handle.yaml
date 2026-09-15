@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03485997"
+        gloss: "the appendage to an object that is designed to be held in order to use or move it; \"he grabbed the hammer by the handle\"; \"it was an old briefcase but it still had a good grip\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02436349"
+        gloss: "be in charge of, act on, or dispose of; \"I can deal with this crew of workers\"; \"This blender can't handle nuts\"; \"She managed her parents' affairs after they got too old\""
+        angloform:
+          status: gap
+      - wordnet: "02514187"
+        gloss: "interact in a certain way; \"Do right by her\"; \"Treat him with caution, please\"; \"Handle the press reporters gently\""
+        angloform:
+          status: gap
+      - wordnet: "01033527"
+        gloss: "act on verbally or in some form of artistic expression; \"This book deals with incest\"; \"The course covered all of Western Civilization\"; \"The new book treats the history of China\""
+        angloform:
+          status: redirect
+          word: cover
+          category: VERB_TRANS
+      - wordnet: "01210737"
+        gloss: "touch, lift, or hold with the hands; \"Don't handle the merchandise\""
+        angloform:
+          status: gap
+      - wordnet: "01224415"
+        gloss: "handle effectively; \"The burglar wielded an axe\"; \"The young violinist didn't manage her bow very well\""
+        angloform:
+          status: gap
+      - wordnet: "01804414"
+        gloss: "show and train; \"The prize-winning poodle was handled by Mrs. Priscilla Prescott\""
+        angloform:
+          status: gap

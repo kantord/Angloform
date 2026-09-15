@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00043765"
+        gloss: "presently existing in fact and not merely potential or possible; \"the predicted temperature and the actual temperature were markedly different\"; \"actual and imagined conditions\""
+        angloform:
+          status: gap
+      - wordnet: "01933520"
+        gloss: "taking place in reality; not pretended or imitated; \"we saw the actual wedding on television\"; \"filmed the actual beating\""
+        angloform:
+          status: gap
+      - wordnet: "02460964"
+        gloss: "being or reflecting the essential or genuine character of something; \"her actual motive\"; \"a literal solitude like a desert\"- G.K.Chesterton; \"a genuine dilemma\""
+        angloform:
+          status: redirect
+          word: real
+          category: ADJ
+      - wordnet: "01933731"
+        gloss: "existing in act or fact; \"rocks and trees...the actual world\"; \"actual heroism\"; \"the actual things that produced the emotion you experienced\""
+        angloform:
+          status: gap
+      - wordnet: "00666610"
+        gloss: "being or existing at the present moment; \"the ship's actual position is 22 miles due south of Key West\""
+        angloform:
+          status: gap

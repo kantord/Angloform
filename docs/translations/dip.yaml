@@ -1,0 +1,98 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13904506"
+        gloss: "a depression in an otherwise level surface; \"there was a dip in the road\""
+        angloform:
+          status: gap
+      - wordnet: "13892897"
+        gloss: (physics) the angle that a magnetic needle makes with the plane of the horizon
+        angloform:
+          status: gap
+      - wordnet: "10431907"
+        gloss: a thief who steals from the pockets or purses of others in public places
+        angloform:
+          status: gap
+      - wordnet: "07582609"
+        gloss: tasty mixture or liquid into which bite-sized foods are dipped
+        angloform:
+          status: gap
+      - wordnet: "07364434"
+        gloss: a brief immersion
+        angloform:
+          status: gap
+      - wordnet: "05111835"
+        gloss: "a sudden sharp decrease in some quantity; \"a drop of 57 points on the Dow Jones index\"; \"there was a drop in pressure in the pulmonary artery\"; \"a dip in prices\"; \"when that became known the price of their stock went into free fall\""
+        angloform:
+          status: gap
+      - wordnet: "03203089"
+        gloss: a candle that is made by repeated dipping in a pool of wax or tallow
+        angloform:
+          status: gap
+      - wordnet: "00442847"
+        gloss: a brief swim in water
+        angloform:
+          status: gap
+      - wordnet: "00435013"
+        gloss: a gymnastic exercise on the parallel bars in which the body is lowered and raised by bending and straightening the arms
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01577093"
+        gloss: "immerse briefly into a liquid so as to wet, coat, or saturate; \"dip the garment into the cleaning solution\"; \"dip the brush into the paint\""
+        angloform:
+          status: gap
+      - wordnet: "01192312"
+        gloss: "dip into a liquid while eating; \"She dunked the piece of bread in the sauce\""
+        angloform:
+          status: gap
+      - wordnet: "00432061"
+        gloss: "go down momentarily; \"Prices dipped\""
+        angloform:
+          status: gap
+      - wordnet: "00286483"
+        gloss: stain an object by immersing it in a liquid
+        angloform:
+          status: gap
+      - wordnet: "02311857"
+        gloss: "take a small amount from; \"I had to dip into my savings to buy him this present\""
+        angloform:
+          status: gap
+      - wordnet: "02162310"
+        gloss: "switch (a car's headlights) from a higher to a lower beam"
+        angloform:
+          status: gap
+      - wordnet: "02041109"
+        gloss: "lower briefly; \"She dipped her knee\""
+        angloform:
+          status: gap
+      - wordnet: "02039679"
+        gloss: "appear to move downward; \"The sun dipped below the horizon\"; \"The setting sun sank below the tree line\""
+        angloform:
+          status: gap
+      - wordnet: "02038145"
+        gloss: "slope downwards; \"Our property dips towards the river\""
+        angloform:
+          status: gap
+      - wordnet: "01976220"
+        gloss: "dip into a liquid; \"He dipped into the pool\""
+        angloform:
+          status: gap
+      - wordnet: "01660976"
+        gloss: place (candle wicks) into hot, liquid wax
+        angloform:
+          status: gap
+      - wordnet: "01578124"
+        gloss: "immerse in a disinfectant solution; \"dip the sheep\""
+        angloform:
+          status: gap
+      - wordnet: "01577966"
+        gloss: "plunge (one's hand or a receptacle) into a container; \"He dipped into his pocket\""
+        angloform:
+          status: gap
+      - wordnet: "01312657"
+        gloss: "scoop up by plunging one's hand or a ladle below the surface; \"dip water out of a container\""
+        angloform:
+          status: gap

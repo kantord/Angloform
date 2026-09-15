@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14890945"
+        gloss: a thick fatty oil (especially one used to lubricate machinery)
+        angloform:
+          status: gap
+      - wordnet: "14498096"
+        gloss: the state of being covered with unclean things
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01269379"
+        gloss: "lubricate with grease; \"grease the wheels\""
+        angloform:
+          status: gap

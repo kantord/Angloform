@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05598147"
+        gloss: "the organ of smell and entrance to the respiratory tract; the prominent part of the face of man or other mammals; \"he has a cold in the nose\""
+        angloform:
+          status: gap
+      - wordnet: "03830835"
+        gloss: "a front that resembles a human nose (especially the front of an aircraft); \"the nose of the rocket heated up on reentry\""
+        angloform:
+          status: gap
+      - wordnet: "03831062"
+        gloss: "the front or forward projection of a tool or weapon; \"he ducked under the nose of the gun\""
+        angloform:
+          status: gap
+      - wordnet: "13762458"
+        gloss: "a small distance; \"my horse lost the race by a nose\""
+        angloform:
+          status: gap
+      - wordnet: "06807056"
+        gloss: "a symbol of inquisitiveness; \"keep your nose out of it\""
+        angloform:
+          status: gap
+      - wordnet: "05658826"
+        gloss: "the sense of smell (especially in animals); \"the hound has a good nose\""
+        angloform:
+          status: gap
+      - wordnet: "05637106"
+        gloss: "a natural skill; \"he has a nose for good deals\""
+        angloform:
+          status: gap
+      - wordnet: "03833564"
+        gloss: a projecting spout from which a fluid is discharged
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02169119"
+        gloss: "search or inquire in a meddlesome way; \"This guy is always nosing around the office\""
+        angloform:
+          status: gap
+      - wordnet: "01994128"
+        gloss: "advance the forward part of with caution; \"She nosed the car into the left lane\""
+        angloform:
+          status: gap
+      - wordnet: "02125223"
+        gloss: "catch the scent of; get wind of; \"The dog nosed out the drugs\""
+        angloform:
+          status: gap
+      - wordnet: "01873051"
+        gloss: push or move with the nose
+        angloform:
+          status: gap
+      - wordnet: "01424350"
+        gloss: rub noses
+        angloform:
+          status: gap
+      - wordnet: "01109644"
+        gloss: defeat by a narrow margin
+        angloform:
+          status: gap

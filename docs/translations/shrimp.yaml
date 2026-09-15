@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10543544"
+        gloss: disparaging terms for small people
+        angloform:
+          status: gap
+      - wordnet: "07794159"
+        gloss: any of various edible decapod crustaceans
+        angloform:
+          status: gap
+      - wordnet: "01986806"
+        gloss: small slender-bodied chiefly marine decapod crustaceans with a long tail and single pair of pincers; many species are edible
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01142070"
+        gloss: fish for shrimp
+        angloform:
+          status: gap

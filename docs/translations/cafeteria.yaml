@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02935891"
+        gloss: a restaurant where you serve yourself and pay a cashier
+        angloform:
+          status: gap

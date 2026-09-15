@@ -1,0 +1,29 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00366393"
+        gloss: "as yourself; \"speaking personally, I would not want to go\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00132060"
+        gloss: "as a person; \"he is personally repulsive\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00366266"
+        gloss: "in a personal way; \"he took her comments personally\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00132158"
+        gloss: "in the flesh; without involving anyone else; \"I went there personally\"; \"he appeared in person\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00132322"
+        gloss: "concerning the speaker; \"personally, I find him stupid\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

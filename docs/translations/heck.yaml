@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  INTJ:
+    senses:
+      - gloss: a euphemistic mild expletive; "what the heck"
+        angloform:
+          status: excluded
+          reason: informal expletive/euphemism interjection, incompatible with Angloform's formal, unambiguous prose register by design — permanent, not a missing word

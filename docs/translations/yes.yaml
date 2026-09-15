@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07203900"
+        gloss: "an affirmative; \"I was hoping for a yes\""
+        angloform:
+          status: gap

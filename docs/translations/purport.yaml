@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06605897"
+        gloss: the intended meaning of a communication
+        angloform:
+          status: gap
+      - wordnet: "05922651"
+        gloss: "the pervading meaning or tenor; \"caught the general drift of the conversation\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00757192"
+        gloss: "have the often specious appearance of being, intending, or claiming; \"The letter purports to express people's opinion\""
+        angloform:
+          status: gap
+      - wordnet: "00708980"
+        gloss: "propose or intend; \"I aim to arrive at noon\""
+        angloform:
+          status: gap

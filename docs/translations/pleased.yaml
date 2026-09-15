@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01805157"
+        gloss: experiencing or manifesting pleasure
+        angloform:
+          status: gap
+      - wordnet: "01892506"
+        gloss: "feeling pleasurable satisfaction over something by which you measures your self-worth; \"proud of their child\""
+        angloform:
+          status: gap

@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04197391"
+        gloss: a garment worn on the upper half of the body
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00049007"
+        gloss: put a shirt on
+        angloform:
+          status: gap

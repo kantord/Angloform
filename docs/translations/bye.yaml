@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07176499"
+        gloss: "you advance to the next round in a tournament without playing an opponent; \"he had a bye in the first round\""
+        angloform:
+          status: gap
+      - wordnet: "06629610"
+        gloss: "a farewell remark; \"they said their good-byes\""
+        angloform:
+          status: gap

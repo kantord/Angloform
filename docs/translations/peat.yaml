@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14689493"
+        gloss: partially carbonized vegetable matter saturated with water; can be used as a fuel when dried
+        angloform:
+          status: gap

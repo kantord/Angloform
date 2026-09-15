@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03069213"
+        gloss: things considered to be worth collecting (not necessarily valuable or antique)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00136884"
+        gloss: "subject to or requiring payment especially as specified; \"a collectible bill\"; \"a note payable on demand\"; \"a check payable to John Doe\""
+        angloform:
+          status: gap

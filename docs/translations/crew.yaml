@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08273167"
+        gloss: the men and women who man a vehicle (ship, aircraft, etc.)
+        angloform:
+          status: gap
+      - wordnet: "08242799"
+        gloss: an organized group of workmen
+        angloform:
+          status: gap
+      - wordnet: "08273843"
+        gloss: "an informal body of friends; \"he still hangs out with the same crowd\""
+        angloform:
+          status: gap
+      - wordnet: "08273736"
+        gloss: the team of men manning a racing shell
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01089614"
+        gloss: serve as a crew member on
+        angloform:
+          status: gap

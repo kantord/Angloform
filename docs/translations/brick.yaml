@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02897820"
+        gloss: rectangular block of clay baked by the sun or in a kiln; used as a building or paving material
+        angloform:
+          status: gap
+      - wordnet: "09874428"
+        gloss: a good fellow; helpful and trustworthy
+        angloform:
+          status: gap

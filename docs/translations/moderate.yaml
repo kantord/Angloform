@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09904837"
+        gloss: a person who takes a position in the political center
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00813790"
+        gloss: "preside over; \"John moderated the discussion\""
+        angloform:
+          status: gap
+      - wordnet: "00198710"
+        gloss: "make less fast or intense; \"moderate your speed\""
+        angloform:
+          status: gap
+      - wordnet: "02510337"
+        gloss: "lessen the intensity of; temper; hold in restraint; hold or keep within limits; \"moderate your alcohol intake\"; \"hold your tongue\"; \"hold your temper\"; \"control your anger\""
+        angloform:
+          status: redirect
+          word: contain
+          category: VERB_TRANS
+      - wordnet: "01058036"
+        gloss: "make less severe or harsh; \"He moderated his tone when the students burst out in tears\""
+        angloform:
+          status: gap
+      - wordnet: "00933566"
+        gloss: "make less strong or intense; soften; \"Tone down that aggressive letter\"; \"The author finally tamed some of his potentially offensive statements\""
+        angloform:
+          status: gap
+      - wordnet: "00202934"
+        gloss: restrain
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01531375"
+        gloss: "being within reasonable or average limits; not excessive or extreme; \"moderate prices\"; \"a moderate income\"; \"a moderate fine\"; \"moderate demands\"; \"a moderate estimate\"; \"a moderate eater\"; \"moderate success\"; \"a kitchen of moderate size\"; \"the X-ray showed moderate enlargement of the heart\""
+        angloform:
+          status: gap
+      - wordnet: "01509367"
+        gloss: "not extreme; \"a moderate penalty\"; \"temperate in his response to criticism\""
+        angloform:
+          status: gap
+      - wordnet: "02402078"
+        gloss: "marked by avoidance of extravagance or extremes; \"moderate in his demands\"; \"restrained in his response\""
+        angloform:
+          status: gap

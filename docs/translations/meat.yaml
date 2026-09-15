@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07649854"
+        gloss: the flesh of animals (including fishes and birds and snails) used as food
+        angloform:
+          status: gap
+      - wordnet: "13137010"
+        gloss: "the inner and usually edible part of a seed or grain or nut or fruit stone; \"black walnut kernels are difficult to get out of the shell\""
+        angloform:
+          status: gap
+      - wordnet: "05921123"
+        gloss: "the choicest or most essential or most vital part of some idea or experience; \"the gist of the prosecutor's argument\"; \"the heart and soul of the Republican Party\"; \"the nub of the story\""
+        angloform:
+          status: gap

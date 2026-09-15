@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07250034"
+        gloss: a commercially sponsored ad on radio or television
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00483146"
+        gloss: "connected with or engaged in or sponsored by or used in commerce or commercial enterprises; \"commercial trucker\"; \"commercial TV\"; \"commercial diamonds\""
+        angloform:
+          status: gap
+      - wordnet: "03137558"
+        gloss: "of or relating to commercialism; \"a commercial attache\"; \"commercial paper\"; \"commercial law\""
+        angloform:
+          status: gap
+      - wordnet: "02346878"
+        gloss: "of the kind or quality used in commerce; average or inferior; \"commercial grade of beef\"; \"commercial oxalic acid\""
+        angloform:
+          status: gap

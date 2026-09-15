@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08329453"
+        gloss: an assembly (including one or more judges) to conduct judicial business
+        angloform:
+          status: gap
+      - wordnet: "03120778"
+        gloss: "a room in which a lawcourt sits; \"television cameras were admitted in the courtroom\""
+        angloform:
+          status: gap
+      - wordnet: "08051946"
+        gloss: the sovereign and his advisers who are the governing power of a state
+        angloform:
+          status: gap
+      - wordnet: "03120491"
+        gloss: "a specially marked horizontal area within which a game is played; \"players had to reserve a court in advance\""
+        angloform:
+          status: gap
+      - wordnet: "10913355"
+        gloss: Australian woman tennis player who won many major championships (born in 1947)
+        angloform:
+          status: gap
+      - wordnet: "08329322"
+        gloss: the family and retinue of a sovereign or prince
+        angloform:
+          status: gap
+      - wordnet: "03790755"
+        gloss: a hotel for motorists; provides direct access from rooms to parking area
+        angloform:
+          status: gap
+      - wordnet: "03649459"
+        gloss: a tribunal that is presided over by a magistrate or by one or more judges who administer justice according to the laws
+        angloform:
+          status: gap
+      - wordnet: "03121040"
+        gloss: "the residence of a sovereign or nobleman; \"the king will visit the duke's court\""
+        angloform:
+          status: gap
+      - wordnet: "03120198"
+        gloss: "an area wholly or partly surrounded by walls or buildings; \"the house was built around an inner court\""
+        angloform:
+          status: gap
+      - wordnet: "01229223"
+        gloss: "respectful deference; \"pay court to the emperor\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02534492"
+        gloss: "make amorous advances towards; \"John is courting Mary\""
+        angloform:
+          status: gap
+      - wordnet: "02534936"
+        gloss: "seek someone's favor; \"China is wooing Russia\""
+        angloform:
+          status: gap
+      - wordnet: "02534761"
+        gloss: "engage in social activities leading to marriage; \"We were courting for over ten years\""
+        angloform:
+          status: gap

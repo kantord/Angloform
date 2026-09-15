@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00645552"
+        gloss: determine or distinguish the nature of a problem or an illness through a diagnostic analysis
+        angloform:
+          status: redirect
+          word: name
+          category: VERB_TRANS
+      - wordnet: "00645771"
+        gloss: subject to a medical analysis
+        angloform:
+          status: gap

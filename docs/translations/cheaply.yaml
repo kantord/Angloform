@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00466835"
+        gloss: "in a stingy manner; \"their rich uncle treated them rather chintzily\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00334210"
+        gloss: "in a cheap manner; \"a cheaply dressed woman approached him in the bar\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00284183"
+        gloss: "with little expenditure of money; \"I bought this car very cheaply\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

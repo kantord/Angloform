@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00908292"
+        gloss: a shot or scene that is photographed again
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02304013"
+        gloss: "take back by force, as after a battle; \"The military forces managed to recapture the fort\""
+        angloform:
+          status: gap
+      - wordnet: "01439604"
+        gloss: "capture again; \"recapture the escaped prisoner\""
+        angloform:
+          status: gap
+      - wordnet: "01003588"
+        gloss: "photograph again; \"Please retake that scene\""
+        angloform:
+          status: gap

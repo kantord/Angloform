@@ -1,0 +1,4 @@
+status: exempt
+exempt_kind: garbage
+reason: internet-forum abbreviation ("original poster") or military jargon ("operation"), zero WordNet
+  attestation

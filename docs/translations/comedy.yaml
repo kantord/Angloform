@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07015510"
+        gloss: light and humorous drama with a happy ending
+        angloform:
+          status: gap
+      - wordnet: "06781383"
+        gloss: a comic incident or series of incidents
+        angloform:
+          status: gap

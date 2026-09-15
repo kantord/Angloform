@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13913566"
+        gloss: "the distinctive form in which a thing is made; \"pottery of this cast was found throughout the region\""
+        angloform:
+          status: gap
+      - wordnet: "03779370"
+        gloss: container into which liquid is poured to create a given shape when it hardens
+        angloform:
+          status: gap
+      - wordnet: "14953564"
+        gloss: loose soil rich in organic matter
+        angloform:
+          status: gap
+      - wordnet: "13516176"
+        gloss: the process of becoming mildewed
+        angloform:
+          status: gap
+      - wordnet: "13077033"
+        gloss: a fungus that produces a superficial growth on various kinds of damp or decaying organic matter
+        angloform:
+          status: gap
+      - wordnet: "07938594"
+        gloss: "a dish or dessert that is formed in or on a mold; \"a lobster mold\"; \"a gelatin dessert made in a mold\""
+        angloform:
+          status: gap
+      - wordnet: "04732709"
+        gloss: "a distinctive nature, character, or type; \"a leader in the mold of her predecessors\""
+        angloform:
+          status: gap
+      - wordnet: "03779621"
+        gloss: sculpture produced by molding
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01697027"
+        gloss: "form in clay, wax, etc; \"model a head with clay\""
+        angloform:
+          status: gap
+      - wordnet: "00210738"
+        gloss: "become moldy; spoil due to humidity; \"The furniture molded in the old house\""
+        angloform:
+          status: gap
+      - wordnet: "01662771"
+        gloss: "form by pouring (e.g., wax or hot metal) into a cast or mold; \"cast a bronze sculpture\""
+        angloform:
+          status: gap
+      - wordnet: "01659248"
+        gloss: "make something, usually for a specific function; \"She molded the rice balls carefully\"; \"Form cylinders from the dough\"; \"shape a figure\"; \"Work the metal into a sword\""
+        angloform:
+          status: gap
+      - wordnet: "01221405"
+        gloss: "fit tightly, follow the contours of; \"The dress molds her beautiful figure\""
+        angloform:
+          status: gap
+      - wordnet: "00701040"
+        gloss: "shape or influence; give direction to; \"experience often determines ability\"; \"mold public opinion\""
+        angloform:
+          status: gap

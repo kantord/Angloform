@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08406619"
+        gloss: a foundation created to promote the public good (not for assistance to any particular individuals)
+        angloform:
+          status: gap
+      - wordnet: "04840405"
+        gloss: a kindly and lenient attitude toward people
+        angloform:
+          status: gap
+      - wordnet: "01089635"
+        gloss: an activity or gift that benefits the public at large
+        angloform:
+          status: gap
+      - wordnet: "12809626"
+        gloss: pinnate-leaved European perennial having bright blue or white flowers
+        angloform:
+          status: gap
+      - wordnet: "08055824"
+        gloss: an institution set up to provide help to the needy
+        angloform:
+          status: gap

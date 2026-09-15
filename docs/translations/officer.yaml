@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10317007"
+        gloss: "any person in the armed services who holds a position of authority or command; \"an officer is responsible for the lives of his men\""
+        angloform:
+          status: gap
+      - wordnet: "10371450"
+        gloss: "someone who is appointed or elected to an office and who holds a position of trust; \"he is an officer of the court\"; \"the club elected its officers for the coming year\""
+        angloform:
+          status: gap
+      - wordnet: "10448983"
+        gloss: "a member of a police force; \"it was an accident, officer\""
+        angloform:
+          status: gap
+      - wordnet: "10371741"
+        gloss: "a person authorized to serve in a position of authority on a vessel; \"he is the officer in charge of the ship's engines\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00752335"
+        gloss: direct or command as an officer
+        angloform:
+          status: gap

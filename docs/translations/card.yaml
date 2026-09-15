@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02962545"
+        gloss: "one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes; \"he collected cards and traded them with the other boys\""
+        angloform:
+          status: gap
+      - wordnet: "06477371"
+        gloss: "a card certifying the identity of the bearer; \"he had to show his card to get in\""
+        angloform:
+          status: gap
+      - wordnet: "06627006"
+        gloss: "a rectangular piece of stiff paper used to send messages (may have printed greetings or pictures); \"they sent us a card from Miami\""
+        angloform:
+          status: gap
+      - wordnet: "14800034"
+        gloss: thin cardboard, usually rectangular
+        angloform:
+          status: gap
+      - wordnet: "10762342"
+        gloss: a witty amusing person who makes jokes
+        angloform:
+          status: gap
+      - wordnet: "06793426"
+        gloss: "a sign posted in a public place as an advertisement; \"a poster advertised the coming attractions\""
+        angloform:
+          status: gap
+      - wordnet: "06633205"
+        gloss: a printed or written greeting that is left to indicate that you have visited
+        angloform:
+          status: gap
+      - wordnet: "06507941"
+        gloss: "(golf) a record of scores (as in golf); \"you have to turn in your card to get a handicap\""
+        angloform:
+          status: gap
+      - wordnet: "06492939"
+        gloss: "a list of dishes available at a restaurant; \"the menu was in French\""
+        angloform:
+          status: gap
+      - wordnet: "06486161"
+        gloss: "(baseball) a list of batters in the order in which they will bat; \"the managers presented their cards to the umpire at home plate\""
+        angloform:
+          status: gap
+      - wordnet: "03033986"
+        gloss: "a printed circuit that can be inserted into expansion slots in a computer to increase the computer's capabilities"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01356256"
+        gloss: "separate the fibers of; \"tease wool\""
+        angloform:
+          status: gap
+      - wordnet: "00663894"
+        gloss: "ask someone for identification to determine whether he or she is old enough to consume liquor; \"I was carded when I tried to buy a beer!\""
+        angloform:
+          status: gap

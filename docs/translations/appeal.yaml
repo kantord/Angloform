@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07186828"
+        gloss: "earnest or urgent request; \"an entreaty to stop the fighting\"; \"an appeal for help\"; \"an appeal to the public to keep calm\""
+        angloform:
+          status: gap
+      - wordnet: "04687333"
+        gloss: "attractiveness that interests or pleases or stimulates; \"his smile was part of his appeal to her\""
+        angloform:
+          status: gap
+      - wordnet: "01185611"
+        gloss: "(law) a legal proceeding in which the appellant resorts to a higher court for the purpose of obtaining a review of a lower court decision and a reversal of the lower court's judgment or the granting of a new trial; \"their appeal was denied in the superior court\""
+        angloform:
+          status: gap
+      - wordnet: "06513764"
+        gloss: "request for a sum of money; \"an appeal to raise money for starving children\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02497586"
+        gloss: "take a court case to a higher court for review; \"He was found guilty but appealed immediately\""
+        angloform:
+          status: gap
+      - wordnet: "00755447"
+        gloss: "request earnestly (something from somebody); ask for aid or protection; \"appeal to somebody for help\"; \"Invoke God in times of trouble\""
+        angloform:
+          status: gap
+      - wordnet: "01807882"
+        gloss: "be attractive to; \"The idea of a vacation appeals to me\"; \"The beautiful garden attracted many people\""
+        angloform:
+          status: gap
+      - wordnet: "02497824"
+        gloss: "challenge (a decision); \"She appealed the verdict\""
+        angloform:
+          status: gap
+      - wordnet: "01024864"
+        gloss: "cite as an authority; resort to; \"He invoked the law that would save him\"; \"I appealed to the law of 1900\"; \"She invoked an ancient law\""
+        angloform:
+          status: gap

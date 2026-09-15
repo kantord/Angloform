@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09983572"
+        gloss: "a person authorized to conduct religious worship; \"clergymen are usually called ministers in Protestant churches\""
+        angloform:
+          status: gap
+      - wordnet: "01577265"
+        gloss: only the rose-colored starlings; in some classifications considered a separate genus
+        angloform:
+          status: gap

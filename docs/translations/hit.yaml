@@ -1,0 +1,106 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00043902"
+        gloss: "(baseball) a successful stroke in an athletic contest (especially in baseball); \"he came all the way around on Williams' hit\""
+        angloform:
+          status: gap
+      - wordnet: "00125629"
+        gloss: "the act of contacting one thing with another; \"repeated hitting raised a large bruise\"; \"after three misses she finally got a hit\""
+        angloform:
+          status: gap
+      - wordnet: "00064504"
+        gloss: "a conspicuous success; \"that song was his first hit and marked the beginning of his career\"; \"that new Broadway show is a real smasher\"; \"the party went with a bang\""
+        angloform:
+          status: gap
+      - wordnet: "07302542"
+        gloss: "(physics) a brief event in which two or more bodies come together; \"the collision of the particles resulted in an exchange of energy and a change of direction\""
+        angloform:
+          status: gap
+      - wordnet: "03522559"
+        gloss: a dose of a narcotic drug
+        angloform:
+          status: gap
+      - wordnet: "01250335"
+        gloss: "a murder carried out by an underworld syndicate; \"it has all the earmarks of a Mafia hit\""
+        angloform:
+          status: gap
+      - wordnet: "00145779"
+        gloss: "a connection made via the internet to another website; \"WordNet gets many hits from users worldwide\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01405044"
+        gloss: "cause to move by striking; \"hit a ball\""
+        angloform:
+          status: gap
+      - wordnet: "01236164"
+        gloss: "hit against; come into sudden contact with; \"The car hit a tree\"; \"He struck the table with his elbow\""
+        angloform:
+          status: gap
+      - wordnet: "01400044"
+        gloss: "deal a blow to, either with the hand or with an instrument; \"He hit her hard in the face\""
+        angloform:
+          status: gap
+      - wordnet: "02020590"
+        gloss: "reach a destination, either real or abstract; \"We hit Detroit by noon\"; \"The water reached the doorstep\"; \"We barely made it to the finish line\"; \"I have to hit the MAC machine before the weekend starts\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "01209135"
+        gloss: "affect or afflict suddenly, usually adversely; \"We were hit by really bad weather\"; \"He was stricken with cancer when he was still a teenager\"; \"The earthquake struck at midnight\""
+        angloform:
+          status: gap
+      - wordnet: "01137138"
+        gloss: hit with a missile from a weapon
+        angloform:
+          status: gap
+      - wordnet: "02206462"
+        gloss: "encounter by chance; \"I stumbled across a long-lost cousin last night in a restaurant\""
+        angloform:
+          status: gap
+      - wordnet: "01111816"
+        gloss: "gain points in a game; \"The home team scored many times\"; \"He hit a home run\"; \"He hit .300 in the past season\""
+        angloform:
+          status: gap
+      - wordnet: "02108791"
+        gloss: "cause to experience suddenly; \"Panic struck me\"; \"An interesting idea hit her\"; \"A thought came to me\"; \"The thought struck terror in our minds\"; \"They were struck with fear\""
+        angloform:
+          status: gap
+      - wordnet: "01123887"
+        gloss: "make a strategic, offensive, assault against an enemy, opponent, or a target; \"The Germans struck Poland on Sept. 1, 1939\"; \"We must strike the enemy's oil fields\"; \"in the fifth inning, the Giants struck, sending three runners home to win the game 5 to 2\""
+        angloform:
+          status: gap
+      - wordnet: "02482425"
+        gloss: "kill intentionally and with premeditation; \"The mafia boss ordered his enemies murdered\""
+        angloform:
+          status: redirect
+          word: remove
+          category: VERB_TRANS
+      - wordnet: "02104161"
+        gloss: "drive something violently into a location; \"he hit his fist on the table\"; \"she struck her head on the low ceiling\""
+        angloform:
+          status: gap
+      - wordnet: "02006834"
+        gloss: "reach a point in time, or a certain state or level; \"The thermometer hit 100 degrees\"; \"This car can reach a speed of 140 miles per hour\""
+        angloform:
+          status: gap
+      - wordnet: "01209426"
+        gloss: "produce by manipulating keys or strings of musical instruments, also metaphorically; \"The pianist strikes a middle C\"; \"strike `z' on the keyboard\"; \"her comments struck a sour note\""
+        angloform:
+          status: gap
+      - wordnet: "01157421"
+        gloss: "consume to excess; \"hit the bottle\""
+        angloform:
+          status: gap
+      - wordnet: "01152396"
+        gloss: hit the intended target or goal
+        angloform:
+          status: gap
+      - wordnet: "00781903"
+        gloss: "pay unsolicited and usually unwanted sexual attention to; \"He tries to hit on women in bars\""
+        angloform:
+          status: gap

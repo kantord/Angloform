@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00708538"
+        gloss: "have in mind as a purpose; \"I mean no harm\"; \"I only meant to help you\"; \"She didn't think to harm me\"; \"We thought to return early that night\""
+        angloform:
+          status: gap
+      - wordnet: "00709379"
+        gloss: "design or destine; \"She was intended to become the director\""
+        angloform:
+          status: gap
+      - wordnet: "00955148"
+        gloss: "mean or intend to express or convey; \"You never understand what I mean!\"; \"what do his words intend?\""
+        angloform:
+          status: gap
+      - wordnet: "00931852"
+        gloss: "denote or connote; \"`maison' means `house' in French\"; \"An example sentence would show what this word means\""
+        angloform:
+          status: gap

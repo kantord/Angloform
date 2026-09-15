@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07640203"
+        gloss: a flat cake of thin batter fried on both sides on a griddle
+        angloform:
+          status: gap

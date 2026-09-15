@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01020885"
+        gloss: "meant or adapted for an occasion or use; \"a tractor suitable (or fit) for heavy duty\"; \"not an appropriate (or fit) time for flippancy\""
+        angloform:
+          status: gap
+      - wordnet: "00852197"
+        gloss: "worthy of being chosen especially as a spouse; \"the parents found the girl suitable for their son\""
+        angloform:
+          status: gap

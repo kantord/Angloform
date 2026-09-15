@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07864934"
+        gloss: ground beef and chili peppers or chili powder often with tomatoes and kidney beans
+        angloform:
+          status: gap
+      - wordnet: "07721456"
+        gloss: very hot and finely tapering pepper of special pungency
+        angloform:
+          status: gap

@@ -1,0 +1,98 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05600637"
+        gloss: "the front of the human head from the forehead to the chin and ear to ear; \"he washed his face\"; \"I wish I had seen the look on his face when he got the news\""
+        angloform:
+          status: gap
+      - wordnet: "04679738"
+        gloss: "the feelings expressed on a person's face; \"a sad expression\"; \"a look of triumph\"; \"an angry face\""
+        angloform:
+          status: redirect
+          word: aspect
+          category: NOUN
+      - wordnet: "04679419"
+        gloss: "the general outward appearance of something; \"the face of the city is changing\""
+        angloform:
+          status: gap
+      - wordnet: "03313873"
+        gloss: the striking or working surface of an implement
+        angloform:
+          status: gap
+      - wordnet: "09618957"
+        gloss: "a part of a person that is used to refer to a person; \"he looked out at a roomful of faces\"; \"when he returned to work he met many new faces\""
+        angloform:
+          status: gap
+      - wordnet: "08510666"
+        gloss: "a surface forming part of the outside of an object; \"he examined all sides of the crystal\"; \"dew dripped from the face of the leaf\""
+        angloform:
+          status: gap
+      - wordnet: "05601198"
+        gloss: the part of an animal corresponding to the human face
+        angloform:
+          status: gap
+      - wordnet: "03313602"
+        gloss: "the side upon which the use of a thing depends (usually the most prominent surface of an object); \"he dealt the cards face down\""
+        angloform:
+          status: gap
+      - wordnet: "06877578"
+        gloss: "a contorted facial expression; \"she made a grimace at the prospect\""
+        angloform:
+          status: gap
+      - wordnet: "06825399"
+        gloss: a specific size and style of type within a type family
+        angloform:
+          status: redirect
+          word: case
+          category: NOUN
+      - wordnet: "05168795"
+        gloss: "status in the eyes of others; \"he lost face\""
+        angloform:
+          status: gap
+      - wordnet: "04838210"
+        gloss: "impudent aggressiveness; \"I couldn't believe her boldness\"; \"he had the effrontery to question my honesty\""
+        angloform:
+          status: gap
+      - wordnet: "03313456"
+        gloss: a vertical surface of a building or cliff
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00812298"
+        gloss: "deal with (something unpleasant) head on; \"You must confront your problems\"; \"He faced the terrible consequences of his mistakes\""
+        angloform:
+          status: gap
+      - wordnet: "01078783"
+        gloss: "oppose, as in hostility or a competition; \"You must confront your opponent\"; \"Jackson faced Smith in the boxing ring\"; \"The two enemies finally confronted each other\""
+        angloform:
+          status: gap
+      - wordnet: "02693319"
+        gloss: "be oriented in a certain direction, often with respect to another reference point; be opposite to; \"The house looks north\"; \"My backyard look onto the pond\"; \"The building faces the park\""
+        angloform:
+          status: gap
+      - wordnet: "02693691"
+        gloss: "be opposite; \"the facing page\"; \"the two sofas face each other\""
+        angloform:
+          status: gap
+      - wordnet: "01908365"
+        gloss: "turn so as to face; turn the face in a certain direction; \"Turn and face your partner now\""
+        angloform:
+          status: gap
+      - wordnet: "01066433"
+        gloss: "present somebody with something, usually to accuse or criticize; \"We confronted him with the evidence\"; \"He was faced with all the evidence and could no longer deny his actions\"; \"An enormous dilemma faces us\""
+        angloform:
+          status: gap
+      - wordnet: "02137907"
+        gloss: "turn so as to expose the face; \"face a playing card\""
+        angloform:
+          status: gap
+      - wordnet: "01271936"
+        gloss: "line the edge (of a garment) with a different material; \"face the lapels of the jacket\""
+        angloform:
+          status: gap
+      - wordnet: "01271189"
+        gloss: "cover the front or surface of; \"The building was faced with beautiful stones\""
+        angloform:
+          status: gap

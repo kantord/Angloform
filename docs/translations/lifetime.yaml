@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15140405"
+        gloss: "the period during which something is functional (as between birth and death); \"the battery had a short life\"; \"he lived a long and happy life\""
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14446493"
+        gloss: "the state of being suitable or opportune; \"chairs arranged for his own convenience\""
+        angloform:
+          status: gap
+      - wordnet: "04718563"
+        gloss: "the quality of being useful and convenient; \"they offered the convenience of an installment plan\""
+        angloform:
+          status: gap
+      - wordnet: "04018667"
+        gloss: a toilet that is available to the public
+        angloform:
+          status: gap
+      - wordnet: "02729965"
+        gloss: a device or control that is very useful for a particular job
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07148573"
+        gloss: negotiation between nations
+        angloform:
+          status: gap
+      - wordnet: "04842029"
+        gloss: subtly skillful handling of a situation
+        angloform:
+          status: gap
+      - wordnet: "04890865"
+        gloss: wisdom in the management of public affairs
+        angloform:
+          status: gap

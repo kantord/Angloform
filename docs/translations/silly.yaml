@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10598641"
+        gloss: "a word used for misbehaving children; \"don't be a silly\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02571536"
+        gloss: "ludicrous, foolish; \"gave me a cockamamie reason for not going\"; \"wore a goofy hat\"; \"a silly idea\"; \"some wacky plan for selling more books\""
+        angloform:
+          status: gap
+      - wordnet: "02120828"
+        gloss: "lacking seriousness; given to frivolity; \"a dizzy blonde\"; \"light-headed teenagers\"; \"silly giggles\""
+        angloform:
+          status: gap
+      - wordnet: "00752847"
+        gloss: "inspiring scornful pity; \"how silly an ardent and unsuccessful wooer can be especially if he is getting on in years\"- Dashiell Hammett"
+        angloform:
+          status: gap
+      - wordnet: "00437223"
+        gloss: "dazed from or as if from repeated blows; \"knocked silly by the impact\"; \"slaphappy with exhaustion\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10511069"
+        gloss: a secretary whose main duty is to answer the telephone and receive visitors
+        angloform:
+          status: gap

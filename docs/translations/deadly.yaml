@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00993667"
+        gloss: "causing or capable of causing death; \"a fatal accident\"; \"a deadly enemy\"; \"mortal combat\"; \"a mortal illness\""
+        angloform:
+          status: gap
+      - wordnet: "00993885"
+        gloss: "of an instrument of certain death; \"deadly poisons\"; \"lethal weapon\"; \"a lethal injection\""
+        angloform:
+          status: gap
+      - wordnet: "02449952"
+        gloss: "extremely poisonous or injurious; producing venom; \"venomous snakes\"; \"a virulent insect bite\""
+        angloform:
+          status: gap
+      - wordnet: "01721691"
+        gloss: "involving loss of divine grace or spiritual death; \"the seven deadly sins\""
+        angloform:
+          status: gap
+      - wordnet: "01611329"
+        gloss: exceedingly harmful
+        angloform:
+          status: gap
+      - wordnet: "00045888"
+        gloss: (of a disease) having a rapid course and violent effect
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00304898"
+        gloss: as if dead
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00046639"
+        gloss: "(used as intensives) extremely; \"she was madly in love\"; \"deadly dull\"; \"deadly earnest\"; \"deucedly clever\"; \"insanely jealous\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

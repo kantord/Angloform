@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07575076"
+        gloss: a midday meal
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01185304"
+        gloss: "take the midday meal; \"At what time are you lunching?\""
+        angloform:
+          status: gap
+      - wordnet: "01185475"
+        gloss: "provide a midday meal for; \"She lunched us well\""
+        angloform:
+          status: gap

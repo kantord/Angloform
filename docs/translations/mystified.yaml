@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01766550"
+        gloss: "totally perplexed and mixed up; \"all this duncical nonsense has my brains metagrobolized\"- Wall Street Journal"
+        angloform:
+          status: gap

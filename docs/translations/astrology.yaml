@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05778131"
+        gloss: a pseudoscience claiming divination by the positions of the planets and sun and moon
+        angloform:
+          status: gap

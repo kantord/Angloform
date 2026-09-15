@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15088308"
+        gloss: a univalent chemical radical derived from ethylene
+        angloform:
+          status: gap
+      - wordnet: "15088183"
+        gloss: shiny and tough and flexible plastic; used especially for floor coverings
+        angloform:
+          status: gap

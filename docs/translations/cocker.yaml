@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02102318"
+        gloss: a small breed with wavy silky hair; originally developed in England
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02570267"
+        gloss: "treat with excessive indulgence; \"grandparents often pamper the children\"; \"Let's not mollycoddle our students!\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05665146"
+        gloss: a practical method or art applied to some particular task
+        angloform:
+          status: gap
+      - wordnet: "05643190"
+        gloss: "skillfulness in the command of fundamentals deriving from practice and familiarity; \"practice greatly improves proficiency\""
+        angloform:
+          status: gap

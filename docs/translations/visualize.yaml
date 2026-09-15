@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01635432"
+        gloss: "imagine; conceive of; see in one's mind; \"I can't see him on horseback!\"; \"I can see what will happen\"; \"I can see a risk in this strategy\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "02151394"
+        gloss: "view the outline of by means of an X-ray; \"The radiologist can visualize the cancerous liver\""
+        angloform:
+          status: gap
+      - wordnet: "01636008"
+        gloss: "form a mental picture of something that is invisible or abstract; \"Mathematicians often visualize\""
+        angloform:
+          status: gap
+      - wordnet: "00581205"
+        gloss: "make visible; \"With this machine, ultrasound can be visualized\""
+        angloform:
+          status: gap

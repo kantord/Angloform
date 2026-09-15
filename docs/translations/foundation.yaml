@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13790712"
+        gloss: "the basis on which something is grounded; \"there is little foundation for his objections\""
+        angloform:
+          status: gap
+      - wordnet: "08406486"
+        gloss: an institution supported by an endowment
+        angloform:
+          status: gap
+      - wordnet: "03387016"
+        gloss: "lowest support of a structure; \"it was built on a base of solid rock\"; \"he stood at the foot of the tower\""
+        angloform:
+          status: gap
+      - wordnet: "05986594"
+        gloss: "education or instruction in the fundamentals of a field of knowledge; \"he lacks the foundation necessary for advanced study\"; \"a good grounding in mathematics\""
+        angloform:
+          status: gap
+      - wordnet: "05793554"
+        gloss: "the fundamental assumptions from which something is begun or developed or calculated or explained; \"the whole argument rested on a basis of conjecture\""
+        angloform:
+          status: gap
+      - wordnet: "03387323"
+        gloss: "a woman's undergarment worn to give shape to the contours of the body"
+        angloform:
+          status: gap
+      - wordnet: "00240184"
+        gloss: "the act of starting something for the first time; introducing something new; \"she looked forward to her initiation as an adult\"; \"the foundation of a new scientific society\""
+        angloform:
+          status: gap

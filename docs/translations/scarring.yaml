@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "scarring" is the gerund of "scar" — WordNet indexes only the base word.
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14363483"
+        gloss: a mark left (usually on the skin) by the healing of injured tissue
+        angloform:
+          status: gap
+          note: no injury/wound vocabulary exists yet
+      - wordnet: "04693900"
+        gloss: an indication of damage
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01551195"
+        gloss: mark with a scar; "The skin disease scarred his face permanently"
+        angloform:
+          status: gap

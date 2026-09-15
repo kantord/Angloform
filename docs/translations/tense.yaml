@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06329506"
+        gloss: a grammatical category of verbs used to express distinctions of time
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01572728"
+        gloss: "become stretched or tense or taut; \"the bodybuilder's neck muscles tensed;\" \"the rope strained when the weight was attached\""
+        angloform:
+          status: gap
+      - wordnet: "00536304"
+        gloss: "increase the tension on; \"alternately relax and tense your calf muscle\"; \"tense the rope manually before tensing the spring\""
+        angloform:
+          status: gap
+      - wordnet: "00026153"
+        gloss: "become tense, nervous, or uneasy; \"He tensed up when he saw his opponent enter the room\""
+        angloform:
+          status: gap
+      - wordnet: "00025203"
+        gloss: "cause to be tense and uneasy or nervous or anxious; \"he got a phone call from his lawyer that tensed him up\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02405326"
+        gloss: in or of a state of physical or nervous tension
+        angloform:
+          status: gap
+      - wordnet: "02404868"
+        gloss: "pronounced with relatively tense tongue muscles (e.g., the vowel sound in `beat')"
+        angloform:
+          status: gap
+      - wordnet: "02403206"
+        gloss: "taut or rigid; stretched tight; \"tense piano strings\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00826509"
+        gloss: "find fault with; express criticism of; point out real or perceived flaws; \"The paper criticized the new movie\"; \"Don't knock the food--it's free\""
+        angloform:
+          status: gap
+      - wordnet: "01096097"
+        gloss: "act as a critic; \"Those who criticize others often are not perfect, either\""
+        angloform:
+          status: gap

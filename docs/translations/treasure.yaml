@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13370669"
+        gloss: "accumulated wealth in the form of money or jewels etc.; \"the pirates hid their treasure on a small island in the West Indies\""
+        angloform:
+          status: gap
+      - wordnet: "03432972"
+        gloss: art highly prized for its beauty or perfection
+        angloform:
+          status: gap
+      - wordnet: "13370448"
+        gloss: "any possession that is highly valued by its owner; \"the children returned from the seashore with their shells and other treasures\""
+        angloform:
+          status: gap
+      - wordnet: "08463969"
+        gloss: "a collection of precious things; \"the trunk held all her meager treasures\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02256109"
+        gloss: "hold dear; \"I prize these old photographs\""
+        angloform:
+          status: gap
+      - wordnet: "01776214"
+        gloss: be fond of; be attached to
+        angloform:
+          status: gap

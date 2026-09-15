@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11443929"
+        gloss: the circulation of cytoplasm within a cell
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "03149478"
+        gloss: "exuding a bodily fluid in profuse amounts; \"his streaming face\"; \"her streaming eyes\""
+        angloform:
+          status: gap
+      - wordnet: "01952907"
+        gloss: "(computer science) using or relating to a form of continuous tape transport; used mainly to provide backup storage of unedited data; \"streaming audio\"; \"streaming video recording\""
+        angloform:
+          status: gap

@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06750804"
+        gloss: (logic) a statement that affirms or denies something and is either true or false
+        angloform:
+          status: gap
+      - wordnet: "07162680"
+        gloss: "a proposal offered for acceptance or rejection; \"it was a suggestion we couldn't refuse\""
+        angloform:
+          status: gap
+      - wordnet: "07161912"
+        gloss: an offer for a private bargain (especially a request for sexual favors)
+        angloform:
+          status: gap
+      - wordnet: "07161429"
+        gloss: "the act of making a proposal; \"they listened to her proposal\""
+        angloform:
+          status: redirect
+          word: proposal
+          category: NOUN
+      - wordnet: "00797581"
+        gloss: "a task to be dealt with; \"securing adequate funding is a time-consuming proposition\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00875951"
+        gloss: "suggest sex to; \"She was propositioned by a stranger at the party\""
+        angloform:
+          status: gap

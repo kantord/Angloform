@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07238694"
+        gloss: "the act of delivering a formal spoken communication to an audience; \"he listened to an address on minor Roman poets\""
+        angloform:
+          status: gap
+      - wordnet: "07109196"
+        gloss: "(language) communication by word of mouth; \"his speech was garbled\"; \"he uttered harsh language\"; \"he recorded the spoken language of the streets\""
+        angloform:
+          status: redirect
+          word: language
+          category: NOUN
+      - wordnet: "07130050"
+        gloss: "something spoken; \"he could hear them uttering merry speeches\""
+        angloform:
+          status: gap
+      - wordnet: "07110457"
+        gloss: "the exchange of spoken words; \"they were perfectly comfortable together without speech\""
+        angloform:
+          status: gap
+      - wordnet: "07071483"
+        gloss: "your characteristic style or manner of expressing yourself orally; \"his manner of speaking was quite abrupt\"; \"her speech was barren of southernisms\"; \"I detected a slight accent in his speech\""
+        angloform:
+          status: gap
+      - wordnet: "06713930"
+        gloss: "a lengthy rebuke; \"a good lecture was my father's idea of discipline\"; \"the teacher gave him a talking to\""
+        angloform:
+          status: gap
+      - wordnet: "07010821"
+        gloss: "words making up the dialogue of a play; \"the actor forgot his speech\""
+        angloform:
+          status: gap
+      - wordnet: "05650820"
+        gloss: "the mental faculty or power of vocal communication; \"language sets homo sapiens apart from all other animals\""
+        angloform:
+          status: redirect
+          word: language
+          category: NOUN

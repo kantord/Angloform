@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10090020"
+        gloss: a person skilled in large scale financial transactions
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02416955"
+        gloss: conduct financial operations, often in an unethical manner
+        angloform:
+          status: gap

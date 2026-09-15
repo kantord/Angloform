@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00951781"
+        gloss: "the act of commercializing something; involving something in commerce; \"my father considered the commercialization of Christmas to be a sacrilege\"; \"the government tried to accelerate the commercialization of this development\"; \"both companies will retain control over the commercialization of their own products\""
+        angloform:
+          status: gap

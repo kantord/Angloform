@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05098942"
+        gloss: "the physical magnitude of something (how big it is); \"a wolf is about the size of a large dog\""
+        angloform:
+          status: gap
+      - wordnet: "05095691"
+        gloss: "the property resulting from being one of a series of graduated measurements (as of clothing); \"he wears a size 13 shoe\""
+        angloform:
+          status: gap
+      - wordnet: "14706372"
+        gloss: "any glutinous material used to fill pores in surfaces or to stiffen fabrics; \"size gives body to a fabric\""
+        angloform:
+          status: gap
+      - wordnet: "13937727"
+        gloss: "the actual state of affairs; \"that's the size of the situation\"; \"she hates me, that's about the size of it\""
+        angloform:
+          status: gap
+      - wordnet: "05099231"
+        gloss: "a large magnitude; \"he blanched when he saw the size of the bill\"; \"the only city of any size in that area\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01610278"
+        gloss: cover or stiffen or glaze a porous material with size or sizing (a glutinous substance)
+        angloform:
+          status: gap
+      - wordnet: "00655987"
+        gloss: sort according to size
+        angloform:
+          status: gap
+      - wordnet: "00319214"
+        gloss: make to a size; bring to a suitable size
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02224362"
+        gloss: "(used in combination) sized; \"the economy-size package\"; \"average-size house\""
+        angloform:
+          status: gap

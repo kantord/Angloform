@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02876657"
+        gloss: a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped
+        angloform:
+          status: gap
+      - wordnet: "13765396"
+        gloss: the quantity contained in a bottle
+        angloform:
+          status: gap
+      - wordnet: "02877266"
+        gloss: a vessel fitted with a flexible teat and filled with milk or formula; used as a substitute for breast feeding infants and very young children
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02283080"
+        gloss: store (liquids or gases) in bottles
+        angloform:
+          status: gap
+      - wordnet: "01502279"
+        gloss: "put into bottles; \"bottle the mineral water\""
+        angloform:
+          status: gap

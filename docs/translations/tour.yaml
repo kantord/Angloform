@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00310666"
+        gloss: "a journey or route all the way around a particular place or area; \"they took an extended tour of Europe\"; \"we took a quick circuit of the park\"; \"a ten-day coach circuit of the island\""
+        angloform:
+          status: gap
+      - wordnet: "15292069"
+        gloss: "a time for working (after which you will be relieved by someone else); \"it's my go\"; \"a spell of work\""
+        angloform:
+          status: gap
+      - wordnet: "15293590"
+        gloss: a period of time spent in military service
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01845229"
+        gloss: "make a tour of a certain place; \"We toured the Provence this summer\""
+        angloform:
+          status: gap

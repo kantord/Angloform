@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02548820"
+        gloss: "slightly wet; \"clothes damp with perspiration\"; \"a moist breeze\"; \"eyes moist with tears\""
+        angloform:
+          status: gap

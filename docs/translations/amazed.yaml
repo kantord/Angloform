@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02357810"
+        gloss: "filled with the emotional impact of overwhelming surprise or shock; \"an amazed audience gave the magician a standing ovation\"; \"I stood enthralled, astonished by the vastness and majesty of the cathedral\"; \"astounded viewers wept at the pictures from the Oklahoma City bombing\"; \"stood in stunned silence\"; \"stunned scientists found not one but at least three viruses\""
+        angloform:
+          status: gap

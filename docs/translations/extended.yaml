@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01439155"
+        gloss: "relatively long in duration; tediously protracted; \"a drawn-out argument\"; \"an extended discussion\"; \"a lengthy visit from her mother-in-law\"; \"a prolonged and bitter struggle\"; \"protracted negotiations\""
+        angloform:
+          status: gap
+      - wordnet: "01431638"
+        gloss: "fully extended or stretched forth; \"an extended telescope\"; \"his extended legs reached almost across the small room\"; \"refused to accept the extended hand\""
+        angloform:
+          status: gap
+      - wordnet: "01434218"
+        gloss: "drawn out or made longer spatially; \"Picasso's elongated Don Quixote\"; \"lengthened skirts are fashionable this year\"; \"the extended airport runways can accommodate larger planes\"; \"a prolonged black line across the page\""
+        angloform:
+          status: gap
+      - wordnet: "01419638"
+        gloss: "beyond the literal or primary sense; \"`hot off the press' shows an extended sense of `hot'\""
+        angloform:
+          status: gap
+      - wordnet: "01386234"
+        gloss: "large in spatial extent or range or scope or quantity; \"an extensive Roman settlement in northwest England\"; \"extended farm lands\"; \"surgeons with extended experience\"; \"they suffered extensive damage\""
+        angloform:
+          status: gap

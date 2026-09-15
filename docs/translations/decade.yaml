@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15204983"
+        gloss: a period of 10 years
+        angloform:
+          status: gap
+      - wordnet: "13746512"
+        gloss: the cardinal number that is the sum of nine and one; the base of the decimal system
+        angloform:
+          status: gap

@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08512736"
+        gloss: a line that indicates a boundary
+        angloform:
+          status: gap
+      - wordnet: "13903387"
+        gloss: the boundary line or the area immediately inside the boundary
+        angloform:
+          status: gap
+      - wordnet: "08565701"
+        gloss: the boundary of a surface
+        angloform:
+          status: gap
+      - wordnet: "03780247"
+        gloss: a decorative recessed or relieved surface on an edge
+        angloform:
+          status: gap
+      - wordnet: "02875013"
+        gloss: "a strip forming the outer edge of something; \"the rug had a wide blue border\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01467370"
+        gloss: "extend on all sides of simultaneously; encircle; \"The forest surrounds my property\""
+        angloform:
+          status: gap
+      - wordnet: "02710673"
+        gloss: form the boundary of; be contiguous to
+        angloform:
+          status: gap
+      - wordnet: "01586850"
+        gloss: "enclose in or as if in a frame; \"frame a picture\""
+        angloform:
+          status: gap
+      - wordnet: "02361600"
+        gloss: "provide with a border or edge; \"edge the tablecloth with embroidery\""
+        angloform:
+          status: gap
+      - wordnet: "01466978"
+        gloss: "lie adjacent to another or share a boundary; \"Canada adjoins the U.S.\"; \"England marches with Scotland\""
+        angloform:
+          status: gap

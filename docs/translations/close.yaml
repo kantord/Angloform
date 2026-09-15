@@ -1,0 +1,166 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15267536"
+        gloss: "the temporal end; the concluding time; \"the stopping point of each round was signaled by a bell\"; \"the market was up at the finish\"; \"they were playing better at the close of the season\""
+        angloform:
+          status: redirect
+          word: conclusion
+          category: NOUN
+      - wordnet: "06398401"
+        gloss: "the last section of a communication; \"in conclusion I want to say...\""
+        angloform:
+          status: redirect
+          word: conclusion
+          category: NOUN
+      - wordnet: "00210797"
+        gloss: the concluding part of any performance
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01345109"
+        gloss: "move so that an opening or passage is obstructed; make shut; \"Close the door\"; \"shut the window\""
+        angloform:
+          status: gap
+      - wordnet: "01346978"
+        gloss: "become closed; \"The windows closed with a loud bang\""
+        angloform:
+          status: gap
+      - wordnet: "02426395"
+        gloss: "cease to operate or cause to cease operating; \"The owners decided to move and to close the factory\"; \"My business closes every night at 8 P.M.\"; \"close up the shop\""
+        angloform:
+          status: redirect
+          word: fold
+          category: VERB_TRANS
+      - wordnet: "02425913"
+        gloss: "finish or terminate (meetings, speeches, etc.); \"The meeting was closed with a charge by the chairman of the board\""
+        angloform:
+          status: gap
+      - wordnet: "02610628"
+        gloss: "come to a close; \"The concert closed with a nocturne by Chopin\""
+        angloform:
+          status: gap
+      - wordnet: "00763831"
+        gloss: "complete a business deal, negotiation, or an agreement; \"We closed on the house on Friday\"; \"They closed the deal on the building\""
+        angloform:
+          status: gap
+      - wordnet: "02754276"
+        gloss: "be priced or listed when trading stops; \"The stock market closed high this Friday\"; \"My new stocks closed at $59 last night\""
+        angloform:
+          status: gap
+      - wordnet: "02375619"
+        gloss: "engage at close quarters; \"close with the enemy\""
+        angloform:
+          status: gap
+      - wordnet: "02140781"
+        gloss: cause a window or an application to disappear on a computer desktop
+        angloform:
+          status: gap
+      - wordnet: "02104503"
+        gloss: "change one's body stance so that the forward shoulder and foot are closer to the intended point of impact"
+        angloform:
+          status: gap
+      - wordnet: "02054541"
+        gloss: "come together, as if in an embrace; \"Her arms closed around her long lost relative\""
+        angloform:
+          status: gap
+      - wordnet: "02054382"
+        gloss: "draw near; \"The probe closed with the space station\""
+        angloform:
+          status: gap
+      - wordnet: "01607288"
+        gloss: "bring together all the elements or parts of; \"Management closed ranks\""
+        angloform:
+          status: gap
+      - wordnet: "01478423"
+        gloss: "bar access to; \"Due to the accident, the road had to be closed for several hours\""
+        angloform:
+          status: gap
+      - wordnet: "01423285"
+        gloss: "fill or stop up; \"Can you close the cracks with caulking?\""
+        angloform:
+          status: gap
+      - wordnet: "01291941"
+        gloss: "unite or bring into contact or bring together the edges of; \"close the circuit\"; \"close a wound\"; \"close a book\"; \"close up an umbrella\""
+        angloform:
+          status: gap
+      - wordnet: "00352137"
+        gloss: "finish a game in baseball by protecting a lead; \"The relief pitcher closed with two runs in the second inning\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00446921"
+        gloss: "at or within a short distance in space or time or having elements near each other; \"close to noon\"; \"how close are we to town?\"; \"a close formation of ships\""
+        angloform:
+          status: gap
+      - wordnet: "00451510"
+        gloss: "close in relevance or relationship; \"a close family\"; \"we are all...in close sympathy with...\"; \"close kin\"; \"a close resemblance\""
+        angloform:
+          status: gap
+      - wordnet: "00444519"
+        gloss: "not far distant in time or space or degree or circumstances; \"near neighbors\"; \"in the near future\"; \"they are near equals\"; \"his nearest approach to success\"; \"a very near thing\"; \"a near hit by the bomb\"; \"she was near tears\"; \"she was close to tears\"; \"had a close call\""
+        angloform:
+          status: gap
+      - wordnet: "00309945"
+        gloss: "rigorously attentive; strict and thorough; \"close supervision\"; \"paid close attention\"; \"a close study\"; \"kept a close watch on expenditures\""
+        angloform:
+          status: gap
+      - wordnet: "00022219"
+        gloss: "marked by fidelity to an original; \"a close translation\"; \"a faithful copy of the portrait\"; \"a faithful rendering of the observed facts\""
+        angloform:
+          status: gap
+      - wordnet: "00890622"
+        gloss: "(of a contest or contestants) evenly matched; \"a close contest\"; \"a close election\"; \"a tight game\""
+        angloform:
+          status: gap
+      - wordnet: "00558738"
+        gloss: "crowded; \"close quarters\""
+        angloform:
+          status: gap
+      - wordnet: "02509484"
+        gloss: "lacking fresh air; \"a dusty airless attic\"; \"the dreadfully close atmosphere\"; \"hot and stuffy and the air was blue with smoke\""
+        angloform:
+          status: gap
+      - wordnet: "02232739"
+        gloss: "of textiles; \"a close weave\"; \"smooth percale with a very tight weave\""
+        angloform:
+          status: gap
+      - wordnet: "02000298"
+        gloss: "strictly confined or guarded; \"kept under close custody\""
+        angloform:
+          status: gap
+      - wordnet: "01859368"
+        gloss: "confined to specific persons; \"a close secret\""
+        angloform:
+          status: gap
+      - wordnet: "01447937"
+        gloss: "fitting closely but comfortably; \"a close fit\""
+        angloform:
+          status: gap
+      - wordnet: "01436567"
+        gloss: "used of hair or haircuts; \"a close military haircut\""
+        angloform:
+          status: gap
+      - wordnet: "01113225"
+        gloss: "giving or spending with reluctance; \"our cheeseparing administration\"; \"very close (or near) with his money\"; \"a penny-pinching miserly old man\""
+        angloform:
+          status: gap
+      - wordnet: "00501004"
+        gloss: "inclined to secrecy or reticence about divulging information; \"although they knew her whereabouts her friends kept close about it\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00409709"
+        gloss: "near in time or place or relationship; \"as the wedding day drew near\"; \"stood near the door\"; \"don't shoot until they come near\"; \"getting near to the true explanation\"; \"her mother is always near\"; \"The end draws nigh\"; \"the bullet didn't come close\"; \"don't get too close to the fire\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00505226"
+        gloss: "in an attentive manner; \"he remained close on his guard\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

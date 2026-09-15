@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00093483"
+        gloss: "recovery or preservation from loss or danger; \"work is the deliverance of mankind\"; \"a surgeon's job is the saving of lives\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02551144"
+        gloss: free from harm or evil
+        angloform:
+          status: gap
+      - wordnet: "02206920"
+        gloss: "take forcibly from legal custody; \"rescue prisoners\""
+        angloform:
+          status: gap

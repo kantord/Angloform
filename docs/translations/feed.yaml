@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07800091"
+        gloss: food for domestic livestock
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01182021"
+        gloss: "provide as food; \"Feed the guests the nuts\""
+        angloform:
+          status: gap
+      - wordnet: "01178565"
+        gloss: "give food to; \"Feed the starving children in India\"; \"don't give the child this tough meat\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "01181166"
+        gloss: "feed into; supply; \"Her success feeds her vanity\""
+        angloform:
+          status: gap
+      - wordnet: "00189511"
+        gloss: "introduce continuously; \"feed carrots into a food processor\""
+        angloform:
+          status: gap
+      - wordnet: "02555787"
+        gloss: "support or promote; \"His admiration fed her vanity\""
+        angloform:
+          status: gap
+      - wordnet: "01179865"
+        gloss: "take in food; used of animals only; \"This dog doesn't eat certain kinds of meat\"; \"What do whales eat?\""
+        angloform:
+          status: gap
+      - wordnet: "01180206"
+        gloss: "serve as food for; be the food for; \"This dish feeds six\""
+        angloform:
+          status: gap
+      - wordnet: "02066939"
+        gloss: "move along, of liquids; \"Water flowed into the cave\"; \"the Missouri feeds into the Mississippi\""
+        angloform:
+          status: gap
+      - wordnet: "01203715"
+        gloss: "profit from in an exploitatory manner; \"He feeds on her insecurity\""
+        angloform:
+          status: gap
+      - wordnet: "01182152"
+        gloss: "gratify; \"feed one's eyes on a gorgeous view\""
+        angloform:
+          status: gap
+      - wordnet: "00502757"
+        gloss: "provide with fertilizers or add nutrients to; \"We should fertilize soil if we want to grow healthy plants\""
+        angloform:
+          status: gap

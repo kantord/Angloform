@@ -1,0 +1,31 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01825671"
+        gloss: "having great power or force or potency or effect; \"the most powerful government in western Europe\"; \"his powerful arms\"; \"a powerful bomb\"; \"the horse's powerful kick\"; \"powerful drugs\"; \"a powerful argument\""
+        angloform:
+          status: gap
+      - wordnet: "02323072"
+        gloss: "strong enough to knock down or overwhelm; \"a knock-down blow\""
+        angloform:
+          status: gap
+      - wordnet: "01830599"
+        gloss: having great influence
+        angloform:
+          status: gap
+      - wordnet: "02321809"
+        gloss: "(of a person) possessing physical strength and weight; rugged and powerful; \"a hefty athlete\"; \"a muscular boxer\"; \"powerful arms\""
+        angloform:
+          status: gap
+      - wordnet: "01261363"
+        gloss: "displaying superhuman strength or power; \"herculean exertions\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00032299"
+        gloss: "(Southern regional intensive) very; to a great degree; \"the baby is mighty cute\"; \"he's mighty tired\"; \"it is powerful humid\"; \"that boy is powerful big now\"; \"they have a right nice place\"; \"they rejoiced mightily\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

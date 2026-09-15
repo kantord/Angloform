@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "else" has zero WordNet senses (a pure function word).
+by_upos:
+  ADV:
+    senses:
+      - gloss: in addition; besides; other than that already mentioned; "something else"; "or else"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08305942"
+        gloss: a friendly nation
+        angloform:
+          status: gap
+      - wordnet: "09785042"
+        gloss: "an associate who provides cooperation or assistance; \"he's a good ally in fight\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02430191"
+        gloss: "become an ally or associate, as by a treaty or marriage; \"He allied himself with the Communists\""
+        angloform:
+          status: gap

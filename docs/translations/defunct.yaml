@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00834048"
+        gloss: "no longer in force or use; inactive; \"a defunct law\"; \"a defunct organization\""
+        angloform:
+          status: gap
+      - wordnet: "00097147"
+        gloss: "having ceased to exist or live; \"the will of a defunct aunt\"; \"a defunct Indian tribe\""
+        angloform:
+          status: gap

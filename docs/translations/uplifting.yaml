@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07376008"
+        gloss: "the rise of something; \"the uplifting of the clouds revealed the blue of a summer sky\""
+        angloform:
+          status: gap

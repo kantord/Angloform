@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00137120"
+        gloss: "past due; not paid at the scheduled time; \"an overdue installment\"; \"a delinquent account\""
+        angloform:
+          status: gap

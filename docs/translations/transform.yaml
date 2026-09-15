@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00544011"
+        gloss: subject to a mathematical transformation
+        angloform:
+          status: gap
+      - wordnet: "00382635"
+        gloss: "change or alter in form, appearance, or nature; \"This experience transformed her completely\"; \"She transformed the clay into a beautiful sculpture\"; \"transubstantiate one element into another\""
+        angloform:
+          status: gap
+      - wordnet: "00381601"
+        gloss: "change in outward structure or looks; \"He transformed into a monster\"; \"The salesman metamorphosed into an ugly beetle\""
+        angloform:
+          status: gap
+      - wordnet: "00383542"
+        gloss: "change from one form or medium into another; \"Braque translated collage into oil\""
+        angloform:
+          status: gap
+      - wordnet: "00382256"
+        gloss: "convert (one form of energy) to another; \"transform energy to light\""
+        angloform:
+          status: gap
+      - wordnet: "00382010"
+        gloss: change (a bacterial cell) into a genetically distinct cell by the introduction of DNA from another cell of the same or closely related species
+        angloform:
+          status: gap
+      - wordnet: "00381850"
+        gloss: increase or decrease (an alternating current or voltage)
+        angloform:
+          status: gap

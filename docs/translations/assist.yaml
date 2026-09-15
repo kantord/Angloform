@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01207609"
+        gloss: "the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose; \"he gave me an assist with the housework\"; \"could not walk without assistance\"; \"rescue party went to their aid\"; \"offered his help in unloading\""
+        angloform:
+          status: gap
+      - wordnet: "00558008"
+        gloss: (sports) the act of enabling another player to make a good play
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02547586"
+        gloss: "give help or assistance; be of service; \"Everyone helped out during the earthquake\"; \"Can you help me carry this table?\"; \"She never helps around the house\""
+        angloform:
+          status: redirect
+          word: help
+          category: VERB_TRANS
+      - wordnet: "02414710"
+        gloss: act as an assistant in a subordinate or supportive function
+        angloform:
+          status: gap
+      - wordnet: "02540670"
+        gloss: "work for or be a servant to; \"May I serve you?\"; \"She attends the old lady in the wheelchair\"; \"Can you wait on our table, please?\"; \"Is a salesperson assisting you?\"; \"The minister served the King for many years\""
+        angloform:
+          status: gap

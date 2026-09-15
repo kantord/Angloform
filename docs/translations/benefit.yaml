@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13296899"
+        gloss: financial assistance in time of need
+        angloform:
+          status: gap
+      - wordnet: "05142641"
+        gloss: "something that aids or promotes well-being; \"for the benefit of all\""
+        angloform:
+          status: gap
+      - wordnet: "06892534"
+        gloss: a performance to raise money for a charitable cause
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02290461"
+        gloss: "derive a benefit from; \"She profited from his vast experience\""
+        angloform:
+          status: redirect
+          word: gain
+          category: VERB_TRANS
+      - wordnet: "02290956"
+        gloss: "be beneficial for; \"This will do you good\""
+        angloform:
+          status: gap

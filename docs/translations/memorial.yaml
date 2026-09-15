@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06688522"
+        gloss: a recognition of meritorious service
+        angloform:
+          status: gap
+      - wordnet: "06513624"
+        gloss: a written statement of facts submitted in conjunction with a petition to an authority
+        angloform:
+          status: gap
+      - wordnet: "03743902"
+        gloss: a structure erected to commemorate persons or events
+        angloform:
+          status: gap

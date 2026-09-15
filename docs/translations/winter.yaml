@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15237782"
+        gloss: the coldest season of the year; in the northern hemisphere it extends from the winter solstice to the vernal equinox
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02709573"
+        gloss: "spend the winter; \"We wintered on the Riviera\"; \"Shackleton's men overwintered on Elephant Island\""
+        angloform:
+          status: gap

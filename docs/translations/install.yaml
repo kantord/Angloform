@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01569566"
+        gloss: "set up for use; \"install the washer and dryer\"; \"We put in a new sink\""
+        angloform:
+          status: gap
+      - wordnet: "02384041"
+        gloss: "put into an office or a position; \"the new president was installed immediately after the election\""
+        angloform:
+          status: gap
+      - wordnet: "01570108"
+        gloss: "place; \"Her manager had set her up at the Ritz\""
+        angloform:
+          status: gap

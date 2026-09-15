@@ -1,0 +1,196 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09269882"
+        gloss: a gully that is shallower than a ravine
+        angloform:
+          status: gap
+      - wordnet: "10032676"
+        gloss: "an entertainer who attracts large audiences; \"he was the biggest drawing card they had\""
+        angloform:
+          status: gap
+      - wordnet: "07353716"
+        gloss: "the finish of a contest in which the score is tied and the winner is undecided; \"the game ended in a draw\"; \"their record was 3 wins, 6 losses and a tie\""
+        angloform:
+          status: gap
+      - wordnet: "03233423"
+        gloss: "anything (straws or pebbles etc.) taken or chosen at random; \"the luck of the draw\"; \"they drew lots for it\""
+        angloform:
+          status: gap
+      - wordnet: "03233246"
+        gloss: "a playing card or cards dealt or taken from the pack; \"he got a pair of kings in the draw\""
+        angloform:
+          status: gap
+      - wordnet: "00572285"
+        gloss: "a golf shot that curves to the left for a right-handed golfer; \"he took lessons to cure his hooking\""
+        angloform:
+          status: gap
+      - wordnet: "00559329"
+        gloss: (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+        angloform:
+          status: gap
+      - wordnet: "00497536"
+        gloss: "poker in which a player can discard cards and receive substitutes from the dealer; \"he played only draw and stud\""
+        angloform:
+          status: gap
+      - wordnet: "00115036"
+        gloss: "the act of drawing or hauling something; \"the haul up the hill went very slowly\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01448100"
+        gloss: "cause to move by pulling; \"draw a wagon\"; \"pull a sled\""
+        angloform:
+          status: gap
+      - wordnet: "02293148"
+        gloss: "get or derive; \"He drew great benefits from his membership in the association\""
+        angloform:
+          status: gap
+      - wordnet: "01582645"
+        gloss: "make a mark or lines on a surface; \"draw a line\"; \"trace the outline of a figure in the sand\""
+        angloform:
+          status: redirect
+          word: describe
+          category: VERB_TRANS
+      - wordnet: "00730758"
+        gloss: "make, formulate, or derive in the mind; \"I draw a line here\"; \"draw a conclusion\"; \"draw parallels\"; \"make an estimate\"; \"What do you make of his remarks?\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "01995211"
+        gloss: "bring, take, or pull out of a container or from under a cover; \"draw a weapon\"; \"pull out a gun\"; \"The mugger pulled a knife on his victim\""
+        angloform:
+          status: gap
+      - wordnet: "01690294"
+        gloss: "represent by making a drawing of, as with a pencil, chalk, etc. on a surface; \"She drew an elephant\"; \"Draw me a horse\""
+        angloform:
+          status: gap
+      - wordnet: "01854132"
+        gloss: "take liquid out of a container or well; \"She drew water from the barrel\""
+        angloform:
+          status: gap
+      - wordnet: "00987071"
+        gloss: "give a description of; \"He drew an elaborate plan of attack\""
+        angloform:
+          status: redirect
+          word: describe
+          category: VERB_TRANS
+      - wordnet: "00675901"
+        gloss: "select or take in from a given group or region; \"The participants in the experiment were drawn from a representative population\""
+        angloform:
+          status: gap
+      - wordnet: "01760300"
+        gloss: "elicit responses, such as objections, criticism, applause, etc.; \"The President's comments drew sharp criticism from the Republicans\"; \"The comedian drew a lot of laughter\""
+        angloform:
+          status: gap
+      - wordnet: "01199009"
+        gloss: "suck in or take (air); \"draw a deep breath\"; \"draw on a cigarette\""
+        angloform:
+          status: gap
+      - wordnet: "02088107"
+        gloss: "move or go steadily or gradually; \"The ship drew near the shore\""
+        angloform:
+          status: gap
+      - wordnet: "02311387"
+        gloss: "remove (a commodity) from (a supply source); \"She drew $2,000 from the account\"; \"The doctors drew medical supplies from the hospital's emergency bank\""
+        angloform:
+          status: gap
+      - wordnet: "01078050"
+        gloss: "choose at random; \"draw a card\"; \"cast lots\""
+        angloform:
+          status: gap
+      - wordnet: "01643297"
+        gloss: "earn or achieve a base by being walked by the pitcher; \"He drew a base on balls\""
+        angloform:
+          status: redirect
+          word: get
+          category: VERB_TRANS
+      - wordnet: "00556593"
+        gloss: "bring or lead someone to a certain action or condition; \"She was drawn to despair\"; \"The President refused to be drawn into delivering an ultimatum\"; \"The session was drawn to a close\""
+        angloform:
+          status: gap
+      - wordnet: "02097800"
+        gloss: "cause to flow; \"The nurse drew blood\""
+        angloform:
+          status: gap
+      - wordnet: "01690816"
+        gloss: "write a legal document or paper; \"The deed was drawn in the lawyer's office\""
+        angloform:
+          status: gap
+      - wordnet: "01643464"
+        gloss: "engage in drawing; \"He spent the day drawing in the garden\""
+        angloform:
+          status: gap
+      - wordnet: "01243148"
+        gloss: "move or pull so as to cover or uncover something; \"draw the shades\"; \"draw the curtains\""
+        angloform:
+          status: gap
+      - wordnet: "02742107"
+        gloss: "allow a draft; \"This chimney draws very well\""
+        angloform:
+          status: gap
+      - wordnet: "02628832"
+        gloss: "require a specified depth for floating; \"This boat draws 70 inches\""
+        angloform:
+          status: gap
+      - wordnet: "02483564"
+        gloss: "pull (a person) apart with four horses tied to his extremities, so as to execute him; \"in the old days, people were drawn and quartered for certain crimes\""
+        angloform:
+          status: gap
+      - wordnet: "02103162"
+        gloss: "cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense; \"A declining dollar pulled down the export figures for the last quarter\""
+        angloform:
+          status: gap
+      - wordnet: "01539063"
+        gloss: "take in, also metaphorically; \"The sponge absorbs water well\"; \"She drew strength from the minister's words\""
+        angloform:
+          status: gap
+      - wordnet: "01505254"
+        gloss: "direct toward itself or oneself by means of some psychological power or physical attributes; \"Her good looks attract the stares of many men\"; \"The ad pulled in many potential customers\"; \"This pianist pulls huge crowds\"; \"The store owner was happy that the ad drew in many new customers\""
+        angloform:
+          status: gap
+      - wordnet: "01359432"
+        gloss: "thread on or as if on a string; \"string pearls on a string\"; \"the child drew glass beads on a string\"; \"thread dried cranberries\""
+        angloform:
+          status: gap
+      - wordnet: "01243298"
+        gloss: "stretch back a bowstring (on an archer's bow); \"The archers were drawing their bows\""
+        angloform:
+          status: gap
+      - wordnet: "01212230"
+        gloss: "pass over, across, or through; \"He ran his eyes over her body\"; \"She ran her fingers along the carved figurine\"; \"He drew her hair through his fingers\""
+        angloform:
+          status: gap
+      - wordnet: "01115190"
+        gloss: "finish a game with an equal number of points, goals, etc.; \"The teams drew a tie\""
+        angloform:
+          status: redirect
+          word: tie
+          category: VERB_INTRANS
+      - wordnet: "00476965"
+        gloss: "contract; \"The material drew after it was washed in hot water\""
+        angloform:
+          status: gap
+      - wordnet: "00430808"
+        gloss: "reduce the diameter of (a wire or metal rod) by pulling it through a die; \"draw wire\""
+        angloform:
+          status: gap
+      - wordnet: "00327982"
+        gloss: "steep; pass through a strainer; \"draw pulp from the fruit\""
+        angloform:
+          status: gap
+      - wordnet: "00197590"
+        gloss: "remove the entrails of; \"draw a chicken\""
+        angloform:
+          status: gap
+      - wordnet: "00143338"
+        gloss: "flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching; \"draw steel\""
+        angloform:
+          status: gap
+      - wordnet: "00097029"
+        gloss: "cause to localize at one point; \"Draw blood and pus\""
+        angloform:
+          status: gap

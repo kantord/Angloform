@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13350702"
+        gloss: "a deposit of personal property as security for a debt; \"his saxophone was in pledge\""
+        angloform:
+          status: gap
+      - wordnet: "10441410"
+        gloss: someone accepted for membership but not yet fully admitted to the group
+        angloform:
+          status: gap
+      - wordnet: "07884413"
+        gloss: a drink in honor of or to the health of a person or event
+        angloform:
+          status: gap
+      - wordnet: "07227772"
+        gloss: "a binding commitment to do or give or refrain from something; \"an assurance of help when needed\"; \"signed a pledge never to reveal the secret\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00884540"
+        gloss: "promise solemnly and formally; \"I pledge that I will honor my wife\""
+        angloform:
+          status: gap
+      - wordnet: "02299269"
+        gloss: "pay (an amount of money) as a contribution to a charity or service, especially at regular intervals; \"I pledged $10 a month to my favorite radio station\""
+        angloform:
+          status: gap
+      - wordnet: "01175467"
+        gloss: "propose a toast to; \"Let us toast the birthday girl!\"; \"Let's drink to the New Year\""
+        angloform:
+          status: gap
+      - wordnet: "00886281"
+        gloss: "give as a guarantee; \"I pledge my honor\""
+        angloform:
+          status: gap
+      - wordnet: "00884946"
+        gloss: "bind or secure by a pledge; \"I was pledged to silence\""
+        angloform:
+          status: gap

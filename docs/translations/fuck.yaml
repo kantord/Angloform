@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00846021"
+        gloss: slang for sexual intercourse
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01426397"
+        gloss: "have sexual intercourse with; \"This student sleeps with everyone in her dorm\"; \"Adam knew Eve\"; \"Were you ever intimate with this man?\""
+        angloform:
+          status: redirect
+          word: know
+          category: VERB_TRANS

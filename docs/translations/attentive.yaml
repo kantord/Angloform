@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00163592"
+        gloss: "(often followed by `to') giving care or attention; \"attentive to details\"; \"the nurse was attentive to her patient\"; \"an attentive suitor\""
+        angloform:
+          status: gap
+      - wordnet: "01194483"
+        gloss: "taking heed; giving close and thoughtful attention; \"heedful of the warnings\"; \"so heedful a writer\"; \"heedful of what they were doing\""
+        angloform:
+          status: gap

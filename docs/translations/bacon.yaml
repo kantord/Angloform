@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07670433"
+        gloss: back and sides of a hog salted and dried or smoked; usually sliced thin and fried
+        angloform:
+          status: gap
+      - wordnet: "10830731"
+        gloss: English scientist and Franciscan monk who stressed the importance of experimentation; first showed that air is required for combustion and first used lenses to correct vision (1220-1292)
+        angloform:
+          status: gap
+      - wordnet: "10830456"
+        gloss: English statesman and philosopher; precursor of British empiricism; advocated inductive reasoning (1561-1626)
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00357556"
+        gloss: "of a feature that helps to distinguish a person or thing; \"Jerusalem has a distinctive Middle East flavor\"- Curtis Wilkie; \"that is typical of you!\""
+        angloform:
+          status: gap
+      - wordnet: "01272718"
+        gloss: capable of being classified
+        angloform:
+          status: gap

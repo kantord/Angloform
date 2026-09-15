@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06770275"
+        gloss: "the statement (oral or written) of an exchange of promises; \"they had an agreement that they would not interfere in each other's business\"; \"there was an understanding between management and the workers\""
+        angloform:
+          status: gap
+      - wordnet: "04713428"
+        gloss: "compatibility of observations; \"there was no agreement between theory and measurement\"; \"the results of two tests were in correspondence\""
+        angloform:
+          status: gap
+      - wordnet: "13971065"
+        gloss: "harmony of people's opinions or actions or characters; \"the two parties were in agreement\""
+        angloform:
+          status: gap
+      - wordnet: "05795044"
+        gloss: "the thing arranged or agreed to; \"they made arrangements to meet in Chicago\""
+        angloform:
+          status: gap
+      - wordnet: "13797313"
+        gloss: the determination of grammatical inflection on the basis of word relations
+        angloform:
+          status: gap
+      - wordnet: "07175241"
+        gloss: the verbal act of agreeing
+        angloform:
+          status: gap

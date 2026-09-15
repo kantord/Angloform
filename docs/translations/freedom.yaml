@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13991823"
+        gloss: the condition of being free; the power to act or speak or think without externally imposed restraints
+        angloform:
+          status: gap
+      - wordnet: "14528873"
+        gloss: immunity from an obligation or duty
+        angloform:
+          status: gap

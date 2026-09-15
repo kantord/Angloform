@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07374633"
+        gloss: combining into a solid mass
+        angloform:
+          status: gap
+      - wordnet: "01237415"
+        gloss: "the act of combining into an integral whole; \"a consolidation of two corporations\"; \"after their consolidation the two bills were passed unanimously\"; \"the defendants asked for a consolidation of the actions against them\""
+        angloform:
+          status: gap
+      - wordnet: "09252586"
+        gloss: "something that has consolidated into a compact mass; \"he dropped the consolidation into the acid bath\""
+        angloform:
+          status: gap

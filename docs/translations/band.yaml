@@ -1,0 +1,68 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08240169"
+        gloss: "an unofficial association of people or groups; \"the smart set goes there\"; \"they were an angry lot\""
+        angloform:
+          status: redirect
+          word: set
+          category: NOUN
+      - wordnet: "08249038"
+        gloss: instrumentalists not including string players
+        angloform:
+          status: gap
+      - wordnet: "04680465"
+        gloss: "a stripe or stripes of contrasting color; \"chromosomes exhibit characteristic bands\"; \"the black and yellow banding of bees and wasps\""
+        angloform:
+          status: gap
+      - wordnet: "02784732"
+        gloss: an adornment consisting of a strip of a contrasting color or material
+        angloform:
+          status: gap
+      - wordnet: "08249960"
+        gloss: a group of musicians playing popular music for dancing
+        angloform:
+          status: gap
+      - wordnet: "06260518"
+        gloss: a range of frequencies between two limits
+        angloform:
+          status: gap
+      - wordnet: "02784218"
+        gloss: a thin flat strip of flexible material that is worn around the body or one of the limbs (especially to decorate the body)
+        angloform:
+          status: gap
+      - wordnet: "05267211"
+        gloss: a cord-like tissue connecting two larger parts of an anatomical structure
+        angloform:
+          status: gap
+      - wordnet: "04092609"
+        gloss: "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger; \"she had rings on every finger\"; \"he noted that she wore a wedding band\""
+        angloform:
+          status: gap
+      - wordnet: "02785570"
+        gloss: a driving belt in machinery
+        angloform:
+          status: gap
+      - wordnet: "02785365"
+        gloss: a thin flat strip or loop of flexible material that goes around or over something else, typically to hold it together or as a decoration
+        angloform:
+          status: gap
+      - wordnet: "02785191"
+        gloss: a strip of material attached to the leg of a bird to identify it (as in studies of bird migration)
+        angloform:
+          status: gap
+      - wordnet: "02784998"
+        gloss: a restraint put around something to hold it together
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01304342"
+        gloss: bind or tie together, as with a band
+        angloform:
+          status: gap
+      - wordnet: "01297401"
+        gloss: "attach a ring to the foot of, in order to identify; \"ring birds\"; \"band the geese to observe their migratory patterns\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10293172"
+        gloss: someone who attacks in search of booty
+        angloform:
+          status: gap
+      - wordnet: "02152740"
+        gloss: any animal that lives by preying on other animals
+        angloform:
+          status: gap

@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07191279"
+        gloss: "an urgent or peremptory request; \"his demands for attention were unceasing\""
+        angloform:
+          status: gap
+      - wordnet: "13461162"
+        gloss: "the ability and desire to purchase goods and services; \"the automobile reduced the demand for buggywhips\"; \"the demand exceeded the supply\""
+        angloform:
+          status: gap
+      - wordnet: "05892651"
+        gloss: "required activity; \"the requirements of his work affected his health\"; \"there were many demands on his time\""
+        angloform:
+          status: gap
+      - wordnet: "01061333"
+        gloss: "the act of demanding; \"the kidnapper's exorbitant demands for money\""
+        angloform:
+          status: gap
+      - wordnet: "14449126"
+        gloss: "a condition requiring relief; \"she satisfied his need for affection\"; \"God has no need of men to accomplish His work\"; \"there is a demand for jobs\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00754942"
+        gloss: "request urgently and forcefully; \"The victim's family is demanding compensation\"; \"The boss demanded that he be fired immediately\"; \"She demanded to see the manager\""
+        angloform:
+          status: gap
+      - wordnet: "02627934"
+        gloss: "require as useful, just, or proper; \"It takes nerve to do what she did\"; \"success usually requires hard work\"; \"This job asks a lot of patience and skill\"; \"This position demands a lot of personal sacrifice\"; \"This dinner calls for a spectacular dessert\"; \"This intervention does not postulate a patient's consent\""
+        angloform:
+          status: redirect
+          word: require
+          category: VERB_TRANS
+      - wordnet: "01017826"
+        gloss: "claim as due or just; \"The bank demanded payment of the loan\""
+        angloform:
+          status: gap
+      - wordnet: "01069090"
+        gloss: lay legal claim to
+        angloform:
+          status: gap
+      - wordnet: "01068985"
+        gloss: summon to court
+        angloform:
+          status: gap
+      - wordnet: "01018065"
+        gloss: "ask to be informed of; \"I demand an explanation\""
+        angloform:
+          status: gap

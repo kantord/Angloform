@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08216176"
+        gloss: a detachment used for security or reconnaissance
+        angloform:
+          status: gap
+      - wordnet: "00824808"
+        gloss: the activity of going around or through an area at regular intervals for security purposes
+        angloform:
+          status: gap
+      - wordnet: "08329113"
+        gloss: a group that goes through a region at regular intervals for the purpose of security
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02454939"
+        gloss: maintain the security of by carrying out a patrol
+        angloform:
+          status: gap

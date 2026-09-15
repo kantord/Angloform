@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07948971"
+        gloss: "people collectively who are mentally retarded; \"he started a school for the retarded\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01840366"
+        gloss: "relatively slow in mental or emotional or physical development; \"providing a secure and sometimes happy life for the retarded\""
+        angloform:
+          status: gap

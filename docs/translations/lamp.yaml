@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03636248"
+        gloss: an artificial source of visible illumination
+        angloform:
+          status: gap
+      - wordnet: "03636649"
+        gloss: a piece of furniture holding one or more electric light bulbs
+        angloform:
+          status: gap

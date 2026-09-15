@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02071301"
+        gloss: "other than as supposed or expected; \"the outcome was otherwise\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00046002"
+        gloss: "in other respects or ways; \"he is otherwise normal\"; \"the funds are not otherwise available\"; \"an otherwise hopeless situation\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00113082"
+        gloss: "in another and different manner; \"very soon you will know differently\"; \"she thought otherwise\"; \"there is no way out other than the fire escape\";"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13645132"
+        gloss: a unit of electrical power in an AC circuit equal to the power dissipated when 1 volt produces a current of 1 ampere
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14491271"
+        gloss: "the state of being rich and affluent; having a plentiful supply of material goods and money; \"great wealth is not a sign of great intelligence\""
+        angloform:
+          status: gap
+      - wordnet: "05116128"
+        gloss: "the quality of profuse abundance; \"she has a wealth of talent\""
+        angloform:
+          status: gap
+      - wordnet: "13353280"
+        gloss: an abundance of material possessions and resources
+        angloform:
+          status: gap
+      - wordnet: "13250398"
+        gloss: "property that has economic utility: a monetary value or an exchange value"
+        angloform:
+          status: gap

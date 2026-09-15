@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00839619"
+        gloss: "being effective without wasting time or effort or expense; \"an efficient production manager\"; \"efficient engines save gas\""
+        angloform:
+          status: gap
+      - wordnet: "00510644"
+        gloss: "able to accomplish a purpose; functioning effectively; \"people who will do nothing unless they get something out of it for themselves are often highly effective persons...\"-G.B.Shaw; \"effective personnel\"; \"an efficient secretary\"; \"the efficient cause of the revolution\""
+        angloform:
+          status: gap

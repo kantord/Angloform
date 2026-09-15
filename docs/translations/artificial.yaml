@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01571363"
+        gloss: "contrived by art rather than nature; \"artificial flowers\"; \"artificial flavoring\"; \"an artificial diamond\"; \"artificial fibers\"; \"artificial sweeteners\""
+        angloform:
+          status: gap
+      - wordnet: "00073465"
+        gloss: "artificially formal; \"that artificial humility that her husband hated\"; \"contrived coyness\"; \"a stilted letter of acknowledgment\"; \"when people try to correct their speech they develop a stilted pronunciation\""
+        angloform:
+          status: gap
+      - wordnet: "01680417"
+        gloss: not arising from natural growth or characterized by vital processes
+        angloform:
+          status: gap

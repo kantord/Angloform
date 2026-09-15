@@ -1,0 +1,80 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00644503"
+        gloss: a detailed critical inspection
+        angloform:
+          status: gap
+      - wordnet: "05755883"
+        gloss: "applying the mind to learning and understanding a subject (especially by reading); \"mastering a second language requires a lot of work\"; \"no schools offer graduate study in interior design\""
+        angloform:
+          status: redirect
+          word: work
+          category: NOUN
+      - wordnet: "07218470"
+        gloss: "a written document describing the findings of some individual or group; \"this accords with the recent study by Hill and Dale\""
+        angloform:
+          status: redirect
+          word: report
+          category: NOUN
+      - wordnet: "05705355"
+        gloss: "a state of deep mental absorption; \"she is in a deep study\""
+        angloform:
+          status: gap
+      - wordnet: "04345028"
+        gloss: "a room used for reading and writing and studying; \"he knocked lightly on the closed door of the study\""
+        angloform:
+          status: gap
+      - wordnet: "05996646"
+        gloss: "a branch of knowledge; \"in what discipline is his doctorate?\"; \"teachers should be well trained in their subject\"; \"anthropology is the study of human beings\""
+        angloform:
+          status: redirect
+          word: subject
+          category: NOUN
+      - wordnet: "04227144"
+        gloss: "preliminary drawing for later elaboration; \"he made several studies before starting to paint\""
+        angloform:
+          status: gap
+      - wordnet: "05784242"
+        gloss: "attentive consideration and meditation; \"after much cogitation he rejected the offer\""
+        angloform:
+          status: gap
+      - wordnet: "10666464"
+        gloss: "someone who memorizes quickly and easily (as the lines for a part in a play); \"he is a quick study\""
+        angloform:
+          status: gap
+      - wordnet: "07048627"
+        gloss: "a composition intended to develop one aspect of the performer's technique; \"a study in spiccato bowing\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00644583"
+        gloss: "consider in detail and subject to an analysis in order to discover essential features or meaning; \"analyze a sonnet by Shakespeare\"; \"analyze the evidence in a criminal trial\"; \"analyze your real motives\""
+        angloform:
+          status: gap
+      - wordnet: "00607405"
+        gloss: be a student; follow a course of study; be enrolled at an institute of learning
+        angloform:
+          status: gap
+      - wordnet: "02166460"
+        gloss: "give careful consideration to; \"consider the possibility of moving\""
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "00599992"
+        gloss: "be a student of a certain subject; \"She is reading for the bar exam\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "00607114"
+        gloss: "learn by reading books; \"He is studying geology in his room\"; \"I have an exam next week; I must hit the books now\""
+        angloform:
+          status: gap
+      - wordnet: "00704388"
+        gloss: "think intently and at length, as for spiritual purposes; \"He is meditating in his study\""
+        angloform:
+          status: gap

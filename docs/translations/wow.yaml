@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06778925"
+        gloss: a joke that seems extremely funny
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01770252"
+        gloss: "impress greatly; \"The speaker wowed the audience\""
+        angloform:
+          status: gap

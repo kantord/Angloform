@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13301328"
+        gloss: money extracted as a penalty
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02498716"
+        gloss: "issue a ticket or a fine to as a penalty; \"I was fined for parking on the wrong side of the street\"; \"Move your car or else you will be ticketed!\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02081114"
+        gloss: "being satisfactory or in satisfactory condition; \"an all-right movie\"; \"the passengers were shaken up but are all right\"; \"is everything all right?\"; \"everything's fine\"; \"things are okay\"; \"dinner and the movies had been fine\"; \"another minute I'd have been fine\""
+        angloform:
+          status: gap
+      - wordnet: "01838253"
+        gloss: "minutely precise especially in differences in meaning; \"a fine distinction\""
+        angloform:
+          status: gap
+      - wordnet: "02414031"
+        gloss: "thin in thickness or diameter; \"a fine film of oil\"; \"fine hairs\"; \"read the fine print\""
+        angloform:
+          status: gap
+      - wordnet: "00850183"
+        gloss: "characterized by elegance or refinement or accomplishment; \"fine wine\"; \"looking fine in her Easter suit\"; \"a fine gentleman\"; \"fine china and crystal\"; \"a fine violinist\"; \"the fine hand of a master\""
+        angloform:
+          status: gap
+      - wordnet: "02232251"
+        gloss: "of textures that are smooth to the touch or substances consisting of relatively small particles; \"wood with a fine grain\"; \"fine powdery snow\"; \"fine rain\"; \"batiste is a cotton fabric with a fine weave\"; \"covered with a fine film of dust\""
+        angloform:
+          status: gap
+      - wordnet: "01906817"
+        gloss: "free from impurities; having a high or specified degree of purity; \"gold 21 carats fine\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00053004"
+        gloss: an expression of agreement normally occurring at the beginning of a sentence
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00102463"
+        gloss: "in a delicate manner; \"finely shaped features\"; \"her fine drawn body\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

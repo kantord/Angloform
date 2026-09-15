@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01640855"
+        gloss: "put in effect; \"carry out a task\"; \"execute the decision of the people\"; \"He actioned the operation\""
+        angloform:
+          status: gap
+      - wordnet: "02526085"
+        gloss: "to gain with effort; \"she achieved her goal despite setbacks\""
+        angloform:
+          status: gap

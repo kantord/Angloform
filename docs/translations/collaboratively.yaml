@@ -1,0 +1,11 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "collaboratively" is the adverb form of "collaborate" — WordNet indexes
+# only the base verb. Tagged ADV in the corpus.
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "02416278"
+        gloss: work together on a common enterprise or project; "We joined forces with another research group"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

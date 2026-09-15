@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: the other party in a financial or legal agreement
+        angloform:
+          status: gap
+          note: no finance/legal-party vocabulary exists yet; zero WordNet attestation

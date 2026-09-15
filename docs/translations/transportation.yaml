@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04473432"
+        gloss: a facility consisting of the means and equipment necessary for the movement of passengers or goods
+        angloform:
+          status: gap
+      - wordnet: "00315986"
+        gloss: the act of moving something from one location to another
+        angloform:
+          status: gap
+      - wordnet: "13308147"
+        gloss: the sum charged for riding in a public conveyance
+        angloform:
+          status: gap
+      - wordnet: "08143653"
+        gloss: the United States federal department that institutes and coordinates national transportation programs; created in 1966
+        angloform:
+          status: gap
+      - wordnet: "01105259"
+        gloss: the commercial enterprise of moving goods and materials
+        angloform:
+          status: gap
+      - wordnet: "00207761"
+        gloss: "the act of expelling a person from their native land; \"men in exile dream of hope\"; \"his deportation to a penal colony\"; \"the expatriation of wealthy farmers\"; \"the sentence was one of transportation for life\""
+        angloform:
+          status: gap

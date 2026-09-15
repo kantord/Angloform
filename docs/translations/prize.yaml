@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13268146"
+        gloss: "something given for victory or superiority in a contest or competition or for winning a lottery; \"the prize was a free trip to Europe\""
+        angloform:
+          status: gap
+      - wordnet: "13262663"
+        gloss: goods or money obtained illegally
+        angloform:
+          status: gap
+      - wordnet: "04487996"
+        gloss: something given as a token of victory
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02256109"
+        gloss: "hold dear; \"I prize these old photographs\""
+        angloform:
+          status: gap
+      - wordnet: "01593254"
+        gloss: "to move or force, especially in an effort to get something open; \"The burglar jimmied the lock\": \"Raccoons managed to pry the lid off the garbage pail\""
+        angloform:
+          status: gap
+      - wordnet: "00694068"
+        gloss: "regard highly; think much of; \"I respect his judgement\"; \"We prize his creativity\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02342899"
+        gloss: "of superior grade; \"choice wines\"; \"prime beef\"; \"prize carnations\"; \"quality paper\"; \"select peaches\""
+        angloform:
+          status: gap

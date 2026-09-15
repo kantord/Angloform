@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00934082"
+        gloss: "too costly for the value; \"overpriced items at resort shops\""
+        angloform:
+          status: gap

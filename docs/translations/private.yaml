@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10476467"
+        gloss: "an enlisted man of the lowest rank in the Army or Marines; \"our prisoner was just a private and knew nothing of value\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01858094"
+        gloss: "confined to particular persons or groups or providing privacy; \"a private place\"; \"private discussions\"; \"private lessons\"; \"a private club\"; \"a private secretary\"; \"private property\"; \"the former President is now a private citizen\"; \"public figures struggle to maintain a private life\""
+        angloform:
+          status: gap
+      - wordnet: "01769378"
+        gloss: "concerning things deeply private and personal; \"private correspondence\"; \"private family matters\""
+        angloform:
+          status: gap
+      - wordnet: "01768086"
+        gloss: "concerning one person exclusively; \"we all have individual cars\"; \"each room has a private bath\""
+        angloform:
+          status: gap
+      - wordnet: "00952181"
+        gloss: "not expressed; \"secret (or private) thoughts\""
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03570709"
+        gloss: a component of a mixture or compound
+        angloform:
+          status: gap
+      - wordnet: "05868954"
+        gloss: "an abstract part of something; \"jealousy was a component of his character\"; \"two constituents of a musical composition are melody and harmony\"; \"the grammatical elements of a sentence\"; \"a key factor in her success\"; \"humor: an effective ingredient of a speech\""
+        angloform:
+          status: gap
+      - wordnet: "07809096"
+        gloss: "food that is a component of a mixture in cooking; \"the recipe lists all the fixings for a salad\""
+        angloform:
+          status: gap

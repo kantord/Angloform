@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07226545"
+        gloss: a verbal commitment by one person to another agreeing to do (or not to do) something in the future
+        angloform:
+          status: gap
+      - wordnet: "05950733"
+        gloss: "grounds for feeling hopeful about the future; \"there is little or no promise that he will recover\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00884011"
+        gloss: make a promise or commitment
+        angloform:
+          status: gap
+      - wordnet: "00884317"
+        gloss: "promise to undertake or give; \"I promise you my best effort\""
+        angloform:
+          status: gap
+      - wordnet: "00917772"
+        gloss: "make a prediction about; tell in advance; \"Call the outcome of an election\""
+        angloform:
+          status: redirect
+          word: predict
+          category: VERB_TRANS
+      - wordnet: "02740552"
+        gloss: "give grounds for expectations; \"The new results were promising\"; \"The results promised fame and glory\""
+        angloform:
+          status: gap

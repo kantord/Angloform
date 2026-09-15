@@ -1,0 +1,102 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07445896"
+        gloss: process or result of distributing or extending over a wide expanse of space
+        angloform:
+          status: gap
+      - wordnet: "04752859"
+        gloss: "a conspicuous disparity or difference as between two figures; \"gap between income and outgo\"; \"the spread between lending and borrowing costs\""
+        angloform:
+          status: gap
+      - wordnet: "04052442"
+        gloss: farm consisting of a large tract of land along with facilities needed to raise livestock (especially cattle)
+        angloform:
+          status: gap
+      - wordnet: "05088324"
+        gloss: a haphazard distribution in all directions
+        angloform:
+          status: gap
+      - wordnet: "07856270"
+        gloss: a tasty mixture to be spread on bread or crackers or used in preparing other dishes
+        angloform:
+          status: gap
+      - wordnet: "07578093"
+        gloss: "a meal that is well prepared and greatly enjoyed; \"a banquet for the graduating seniors\"; \"the Thanksgiving feast\"; \"they put out quite a spread\""
+        angloform:
+          status: gap
+      - wordnet: "06258031"
+        gloss: two facing pages of a book or other publication
+        angloform:
+          status: gap
+      - wordnet: "05101512"
+        gloss: "the expansion of a person's girth (especially at middle age); \"she exercised to avoid that middle-aged spread\""
+        angloform:
+          status: gap
+      - wordnet: "02822220"
+        gloss: decorative cover for a bed
+        angloform:
+          status: gap
+      - wordnet: "00367976"
+        gloss: act of extending over a wider scope or expanse of space or time
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01378556"
+        gloss: "distribute or disperse widely; \"The invaders spread their language all over the country\""
+        angloform:
+          status: gap
+      - wordnet: "01380122"
+        gloss: "become distributed or widespread; \"the infection spread\"; \"Optimism spread among the population\""
+        angloform:
+          status: gap
+      - wordnet: "02689299"
+        gloss: "spread across or over; \"A big oil spot spread across the water\""
+        angloform:
+          status: gap
+      - wordnet: "01579813"
+        gloss: "spread out or open from a closed or folded state; \"open the map\"; \"spread your arms\""
+        angloform:
+          status: redirect
+          word: unfold
+          category: VERB_TRANS
+      - wordnet: "00968211"
+        gloss: "cause to become widely known; \"spread information\"; \"circulate a rumor\"; \"broadcast the news\""
+        angloform:
+          status: gap
+      - wordnet: "00969873"
+        gloss: "become widely known and passed on; \"the rumor spread\"; \"the story went around in the office\""
+        angloform:
+          status: gap
+      - wordnet: "02082690"
+        gloss: "strew or distribute over an area; \"He spread fertilizer over the lawn\"; \"scatter cards across the table\""
+        angloform:
+          status: gap
+      - wordnet: "02060141"
+        gloss: "move outward; \"The soldiers fanned out\""
+        angloform:
+          status: gap
+      - wordnet: "01611901"
+        gloss: "cover by spreading something over; \"spread the bread with cheese\""
+        angloform:
+          status: gap
+      - wordnet: "01611746"
+        gloss: "distribute over a surface in a layer; \"spread cheese on a piece of bread\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00540977"
+        gloss: "distributed or spread over a considerable extent; \"has ties with many widely dispersed friends\"; \"eleven million Jews are spread throughout Europe\""
+        angloform:
+          status: gap
+      - wordnet: "01844858"
+        gloss: "prepared or arranged for a meal; especially having food set out; \"a table spread with food\""
+        angloform:
+          status: gap
+      - wordnet: "01431938"
+        gloss: "fully extended in width; \"outspread wings\"; \"with arms spread wide\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01683496"
+        gloss: "(used in combination) mentally oriented toward something specified; \"civic-minded\"; \"career-minded\""
+        angloform:
+          status: gap
+      - wordnet: "01292411"
+        gloss: "(usually followed by `to') naturally disposed toward; \"he is apt to ignore matters he considers unimportant\"; \"I am not minded to answer any questions\""
+        angloform:
+          status: gap

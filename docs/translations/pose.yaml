@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04788011"
+        gloss: "affected manners intended to impress others; \"don't put on airs with me\""
+        angloform:
+          status: gap
+      - wordnet: "05081300"
+        gloss: a posture assumed by models for photographic or artistic purposes
+        angloform:
+          status: gap
+      - wordnet: "00755673"
+        gloss: a deliberate pretense or exaggerated display
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02722663"
+        gloss: "introduce; \"This poses an interesting question\""
+        angloform:
+          status: gap
+      - wordnet: "02142775"
+        gloss: "assume a posture as for artistic purposes; \"We don't know the woman who posed for Leonardo so often\""
+        angloform:
+          status: redirect
+          word: sit
+          category: VERB_INTRANS
+      - wordnet: "00837288"
+        gloss: "pretend to be someone you are not; sometimes with fraudulent intentions; \"She posed as the Czar's daughter\""
+        angloform:
+          status: gap
+      - wordnet: "02519183"
+        gloss: "behave affectedly or unnaturally in order to impress others; \"Don't pay any attention to him--he is always posing to impress his peers!\"; \"She postured and made a total fool of herself\""
+        angloform:
+          status: gap
+      - wordnet: "01494310"
+        gloss: "put into a certain place or abstract location; \"Put your things here\"; \"Set the tray down\"; \"Set the dogs on the scent of the missing children\"; \"Place emphasis on a certain point\""
+        angloform:
+          status: redirect
+          word: put
+          category: VERB_TRANS
+      - wordnet: "00622384"
+        gloss: "be a mystery or bewildering to; \"This beats me!\"; \"Got me--I don't know the answer!\"; \"a vexing problem\"; \"This question really stuck me\""
+        angloform:
+          status: redirect
+          word: beat
+          category: VERB_TRANS

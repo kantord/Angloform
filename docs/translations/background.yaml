@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04921417"
+        gloss: "a person's social heritage: previous experience or training; \"he is a lawyer with a sports background\""
+        angloform:
+          status: gap
+      - wordnet: "05933834"
+        gloss: "the part of a scene (or picture) that lies behind objects in the foreground; \"he posed her against a background of rolling hills\""
+        angloform:
+          status: gap
+      - wordnet: "05823517"
+        gloss: "information that is essential to understanding a situation or problem; \"the embassy filled him in on the background of the incident\""
+        angloform:
+          status: gap
+      - wordnet: "07430480"
+        gloss: "extraneous signals that can be confused with the phenomenon to be observed or measured; \"they got a bad connection and could hardly hear one another over the background signals\""
+        angloform:
+          status: gap
+      - wordnet: "07285191"
+        gloss: "relatively unimportant or inconspicuous accompanying situation; \"when the rain came he could hear the sound of thunder in the background\""
+        angloform:
+          status: gap
+      - wordnet: "14513259"
+        gloss: "the state of the environment in which a situation exists; \"you can't do that in a university setting\""
+        angloform:
+          status: redirect
+          word: scope
+          category: NOUN
+      - wordnet: "02769075"
+        gloss: (computer science) the area of the screen in graphical user interfaces against which icons and windows appear
+        angloform:
+          status: gap
+      - wordnet: "02768864"
+        gloss: scenery hung at back of stage
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00513492"
+        gloss: "understate the importance or quality of; \"he played down his royal ancestry\""
+        angloform:
+          status: gap

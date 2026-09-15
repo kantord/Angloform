@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02108377"
+        gloss: "pass through; \"The chemical undergoes a sudden change\"; \"The fluid undergoes shear\"; \"undergo a strange sensation\""
+        angloform:
+          status: gap

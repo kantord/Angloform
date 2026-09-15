@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13845239"
+        gloss: "the relation that exists when things occur at the same time; \"the drug produces an increased synchrony of the brain waves\""
+        angloform:
+          status: gap
+      - wordnet: "01001097"
+        gloss: an adjustment that causes something to occur or recur in unison
+        angloform:
+          status: gap
+      - wordnet: "00807500"
+        gloss: "coordinating by causing to indicate the same time; \"the synchronization of their watches was an important preliminary\""
+        angloform:
+          status: gap

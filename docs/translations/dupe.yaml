@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10752480"
+        gloss: a person who is tricked or swindled
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00854904"
+        gloss: "fool or hoax; \"The immigrant was duped because he trusted everyone\"; \"You can't fool me!\""
+        angloform:
+          status: gap

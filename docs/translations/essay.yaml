@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06409562"
+        gloss: an analytic or interpretive literary composition
+        angloform:
+          status: gap
+      - wordnet: "00787218"
+        gloss: a tentative attempt
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02530167"
+        gloss: "make an effort or attempt; \"He tried to shake off his fears\"; \"The infant had essayed a few wobbly steps\"; \"The police attempted to stop the thief\"; \"He sought to improve himself\"; \"She always seeks to do good in the world\""
+        angloform:
+          status: gap
+      - wordnet: "02531625"
+        gloss: "put to the test, as for its quality, or give experimental use to; \"This approach has been tried with good results\"; \"Test this recipe\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10004282"
+        gloss: a person qualified to practice dentistry
+        angloform:
+          status: gap

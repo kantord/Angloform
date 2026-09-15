@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00196203"
+        gloss: "in the right manner; \"please do your job properly!\"; \"can't you carry me decent?\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00505450"
+        gloss: with reason or justice
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

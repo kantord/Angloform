@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00897241"
+        gloss: express greetings upon meeting someone
+        angloform:
+          status: redirect
+          word: recognize
+          category: VERB_TRANS
+      - wordnet: "00897125"
+        gloss: send greetings to
+        angloform:
+          status: gap
+      - wordnet: "00718907"
+        gloss: "react to in a certain way; \"The President was greeted with catcalls\""
+        angloform:
+          status: gap
+      - wordnet: "02197505"
+        gloss: "be perceived by; \"Loud music greeted him when he entered the apartment\""
+        angloform:
+          status: gap

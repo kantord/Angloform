@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04605446"
+        gloss: cloak that is folded or wrapped around a person
+        angloform:
+          status: gap
+      - wordnet: "07698782"
+        gloss: a sandwich in which the filling is rolled up in a soft tortilla
+        angloform:
+          status: gap
+      - wordnet: "04605726"
+        gloss: the covering (usually paper or cellophane) in which something is wrapped
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01283208"
+        gloss: "arrange or fold as a cover or protection; \"wrap the baby before taking her out\"; \"Wrap the present\""
+        angloform:
+          status: gap
+      - wordnet: "01522276"
+        gloss: "arrange or or coil around; \"roll your hair around your finger\"; \"Twine the thread around the spool\"; \"She wrapped her arms around the child\""
+        angloform:
+          status: gap
+      - wordnet: "01580467"
+        gloss: "enclose or enfold completely with or as if with a covering; \"Fog enveloped the house\""
+        angloform:
+          status: gap
+      - wordnet: "01562478"
+        gloss: "crash into so as to coil around; \"The teenager wrapped his car around the fire hydrant\""
+        angloform:
+          status: gap

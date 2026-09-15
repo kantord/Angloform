@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02343110"
+        gloss: "very good;of the highest quality; \"made an excellent speech\"; \"the school has excellent teachers\"; \"a first-class mind\""
+        angloform:
+          status: gap

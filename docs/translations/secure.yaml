@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02238770"
+        gloss: "get by special effort; \"He procured extra cigarettes even though they were rationed\""
+        angloform:
+          status: gap
+      - wordnet: "01340439"
+        gloss: "cause to be firmly attached; \"fasten the lock onto the door\"; \"she fixed her gaze on the man\""
+        angloform:
+          status: redirect
+          word: fix
+          category: VERB_TRANS
+      - wordnet: "02349706"
+        gloss: assure payment of
+        angloform:
+          status: gap
+      - wordnet: "00890590"
+        gloss: "make certain of; \"This nest egg will ensure a nice retirement for us\"; \"Preparation will guarantee success!\""
+        angloform:
+          status: gap
+      - wordnet: "01422886"
+        gloss: "fill or close tightly with or as if with a plug; \"plug the hole\"; \"stop up the leak\""
+        angloform:
+          status: gap
+      - wordnet: "01306425"
+        gloss: "furnish with battens; \"batten ships\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02093305"
+        gloss: "free from fear or doubt; easy in mind; \"he was secure that nothing will be held against him\""
+        angloform:
+          status: gap
+      - wordnet: "02093888"
+        gloss: "free from danger or risk; \"secure from harm\"; \"his fortune was secure\"; \"made a secure place for himself in his field\""
+        angloform:
+          status: gap
+      - wordnet: "02095311"
+        gloss: "not likely to fail or give way; \"the lock was secure\"; \"a secure foundation\"; \"a secure hold on her wrist\""
+        angloform:
+          status: gap
+      - wordnet: "02526124"
+        gloss: "immune to attack; incapable of being tampered with; \"an impregnable fortress\"; \"fortifications that made the frontier inviolable\"; \"a secure telephone connection\""
+        angloform:
+          status: redirect
+          word: strong
+          category: ADJ
+      - wordnet: "02273643"
+        gloss: "financially sound; \"a good investment\"; \"a secure investment\""
+        angloform:
+          status: redirect
+          word: good
+          category: ADJ

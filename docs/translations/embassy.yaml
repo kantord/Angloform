@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03282295"
+        gloss: a diplomatic building where ambassadors live or work
+        angloform:
+          status: gap
+      - wordnet: "08402828"
+        gloss: an ambassador and his entourage collectively
+        angloform:
+          status: gap

@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08387035"
+        gloss: "the best people or things in a group; \"the cream of England's young men were killed in the Great War\""
+        angloform:
+          status: gap
+      - wordnet: "07847198"
+        gloss: the part of milk containing the butterfat
+        angloform:
+          status: gap
+      - wordnet: "03128519"
+        gloss: toiletry consisting of any of various substances in the form of a thick liquid that have a soothing and moisturizing effect when applied to the skin
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01418037"
+        gloss: "make creamy by beating; \"Cream the butter\""
+        angloform:
+          status: gap
+      - wordnet: "01412912"
+        gloss: "beat thoroughly and conclusively in a competition or fight; \"We licked the other team on Sunday!\""
+        angloform:
+          status: gap
+      - wordnet: "01364483"
+        gloss: "put on cream, as on one's face or body; \"She creams her face every night\""
+        angloform:
+          status: gap
+      - wordnet: "01261018"
+        gloss: "remove from the surface; \"skim cream from the surface of milk\""
+        angloform:
+          status: gap
+      - wordnet: "00171339"
+        gloss: "add cream to one's coffee, for example"
+        angloform:
+          status: gap

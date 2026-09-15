@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11258501"
+        gloss: American silversmith remembered for his midnight ride (celebrated in a poem by Longfellow) to warn the colonists in Lexington and Concord that British troops were coming (1735-1818)
+        angloform:
+          status: gap
+      - wordnet: "04084889"
+        gloss: "a lapel on a woman's garment; turned back to show the reverse side"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01778017"
+        gloss: "love unquestioningly and uncritically or to excess; venerate as an idol; \"Many teenagers idolized the Beatles\""
+        angloform:
+          status: gap
+      - wordnet: "01778568"
+        gloss: "regard with feelings of respect and reverence; consider hallowed or exalted or be in awe of; \"Fear God as your father\"; \"We venerate genius\""
+        angloform:
+          status: gap

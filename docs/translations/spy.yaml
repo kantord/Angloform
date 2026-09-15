@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10641755"
+        gloss: (military) a secret agent hired by a state to obtain information about its enemies or by a business to obtain industrial secrets from competitors
+        angloform:
+          status: gap
+      - wordnet: "10642151"
+        gloss: "a secret watcher; someone who secretly watches other people; \"my spies tell me that you had a good time last night\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02154312"
+        gloss: catch sight of
+        angloform:
+          status: gap
+      - wordnet: "00785690"
+        gloss: watch, observe, or inquire secretly
+        angloform:
+          status: gap
+      - wordnet: "02163746"
+        gloss: "catch sight of; to perceive with the eyes; \"he caught sight of the king's men coming over the ridge\""
+        angloform:
+          status: gap
+      - wordnet: "00785470"
+        gloss: "secretly collect sensitive or classified information; engage in espionage; \"spy for the Russians\""
+        angloform:
+          status: gap

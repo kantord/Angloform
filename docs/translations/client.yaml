@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09985075"
+        gloss: a person who seeks the advice of a lawyer
+        angloform:
+          status: gap
+      - wordnet: "09984659"
+        gloss: someone who pays for goods or services
+        angloform:
+          status: redirect
+          word: customer
+          category: NOUN
+      - wordnet: "03827107"
+        gloss: (computer science) any computer that is hooked up to a computer network
+        angloform:
+          status: gap

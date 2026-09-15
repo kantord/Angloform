@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06642138"
+        gloss: "information about recent and important events; \"they awaited news of the outcome\""
+        angloform:
+          status: redirect
+          word: word
+          category: NOUN
+      - wordnet: "06681177"
+        gloss: "information reported in a newspaper or news magazine; \"the news of my death was greatly exaggerated\""
+        angloform:
+          status: gap
+      - wordnet: "06619850"
+        gloss: "a program devoted to current events, often using interviews and commentary; \"we watch the 7 o'clock news every night\""
+        angloform:
+          status: gap
+      - wordnet: "06642356"
+        gloss: "informal information of any kind that is not previously known to someone; \"it was news to me\""
+        angloform:
+          status: gap
+      - wordnet: "05192897"
+        gloss: "the quality of being sufficiently interesting to be reported in news bulletins; \"the judge conceded the newsworthiness of the trial\"; \"he is no longer news in the fashion world\""
+        angloform:
+          status: gap

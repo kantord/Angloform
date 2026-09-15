@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05624461"
+        gloss: "a natural talent; \"he has a flair for mathematics\"; \"he has a genius for interior decorating\""
+        angloform:
+          status: gap
+      - wordnet: "04812871"
+        gloss: "distinctive and stylish elegance; \"he wooed her with the confident dash of a cavalry officer\""
+        angloform:
+          status: redirect
+          word: style
+          category: NOUN
+      - wordnet: "13862644"
+        gloss: "a shape that spreads outward; \"the skirt had a wide flare\""
+        angloform:
+          status: gap

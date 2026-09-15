@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00791078"
+        gloss: "the act of testing something; \"in the experimental trials the amount of carbon was measured separately\"; \"he called each flip of the coin a new trial\""
+        angloform:
+          status: redirect
+          word: run
+          category: NOUN
+      - wordnet: "05799212"
+        gloss: "trying something to find out about it; \"a sample for ten days free trial\"; \"a trial of progesterone failed to relieve the pain\""
+        angloform:
+          status: redirect
+          word: test
+          category: NOUN
+      - wordnet: "00794367"
+        gloss: "the act of undergoing testing; \"he survived the great test of battle\"; \"candidates must compete in a trial of skill\""
+        angloform:
+          status: redirect
+          word: test
+          category: NOUN
+      - wordnet: "01195867"
+        gloss: "(law) the determination of a person's innocence or guilt by due process of law; \"he had a fair trial and the jury found him guilty\"; \"most of these complaints are settled before they go to trial\""
+        angloform:
+          status: gap
+      - wordnet: "07477231"
+        gloss: "(sports) a preliminary competition to determine qualifications; \"the trials for the semifinals began yesterday\""
+        angloform:
+          status: gap
+      - wordnet: "07372959"
+        gloss: "an annoying or frustrating or catastrophic event; \"his mother-in-law's visits were a great trial for him\"; \"life is full of tribulations\"; \"a visitation of the plague\""
+        angloform:
+          status: gap

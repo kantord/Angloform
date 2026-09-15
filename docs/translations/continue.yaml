@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02684924"
+        gloss: "continue a certain state, condition, or activity; \"Keep on working!\"; \"We continued to work into the night\"; \"Keep smiling\"; \"We went on working until well past midnight\""
+        angloform:
+          status: redirect
+          word: keep
+          category: VERB_TRANS
+      - wordnet: "00781000"
+        gloss: "continue talking; \"I know it's hard,\" he continued, \"but there is no choice\"; \"carry on--pretend we are not in the room\""
+        angloform:
+          status: gap
+      - wordnet: "02679899"
+        gloss: "keep or maintain in unaltered condition; cause to remain or last; \"preserve the peace in the family\"; \"continue the family tradition\"; \"Carry on the old traditions\""
+        angloform:
+          status: gap
+      - wordnet: "01995549"
+        gloss: "move ahead; travel onward in time or space; \"We proceeded towards Washington\"; \"She continued in the direction of the hills\"; \"We are moving ahead in time now\""
+        angloform:
+          status: gap
+      - wordnet: "02410175"
+        gloss: "allow to remain in a place or position or maintain a property or feature; \"We cannot continue several servants any longer\"; \"She retains a lawyer\"; \"The family's fortune waned and they could not keep their household staff\"; \"Our grant has run out and we cannot keep you on\"; \"We kept the work going as long as we could\"; \"She retained her composure\"; \"this garment retains its shape even after many washings\""
+        angloform:
+          status: redirect
+          word: keep
+          category: VERB_TRANS
+      - wordnet: "02747922"
+        gloss: "do something repeatedly and showing no intention to stop; \"We continued our research into the cause of the illness\"; \"The landlord persists in asking us to move\""
+        angloform:
+          status: gap
+      - wordnet: "02747709"
+        gloss: "continue after an interruption; \"The demonstration continued after a break for lunch\""
+        angloform:
+          status: gap
+      - wordnet: "02727462"
+        gloss: "continue in a place, position, or situation; \"After graduation, she stayed on in Cambridge as a student adviser\"; \"Stay with me, please\"; \"despite student protests, he remained Dean for another year\"; \"She continued as deputy mayor for another year\""
+        angloform:
+          status: redirect
+          word: stay
+          category: VERB_INTRANS
+      - wordnet: "02687916"
+        gloss: "span an interval of distance, space or time; \"The war extended over five years\"; \"The period covered the turn of the century\"; \"My land extends over the hills on the horizon\"; \"This farm covers some 200 acres\"; \"The Archipelago continues for another 500 miles\""
+        angloform:
+          status: redirect
+          word: cover
+          category: VERB_TRANS
+      - wordnet: "00118523"
+        gloss: "exist over a prolonged period of time; \"The bad weather continued for two more weeks\""
+        angloform:
+          status: gap

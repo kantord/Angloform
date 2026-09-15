@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04074482"
+        gloss: a medicine or therapy that cures disease or relieve pain
+        angloform:
+          status: redirect
+          word: remedy
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "00081725"
+        gloss: "provide a cure for, make healthy again; \"The treatment cured the boy's acne\"; \"The quack pretended to heal patients but never managed to\""
+        angloform:
+          status: gap
+      - wordnet: "00527572"
+        gloss: "prepare by drying, salting, or chemical processing in order to preserve; \"cure meats\"; \"cure pickles\"; \"cure hay\""
+        angloform:
+          status: gap
+      - wordnet: "00527935"
+        gloss: "make (substances) hard and improve their usability; \"cure resin\"; \"cure cement\"; \"cure soap\""
+        angloform:
+          status: gap
+      - wordnet: "00527801"
+        gloss: "be or become preserved; \"the apricots cure in the sun\""
+        angloform:
+          status: gap

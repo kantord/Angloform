@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00224901"
+        gloss: "lessen the strength of; \"The fever weakened his body\""
+        angloform:
+          status: gap
+      - wordnet: "00223500"
+        gloss: "become weaker; \"The prisoner's resistance weakened after seven days\""
+        angloform:
+          status: gap
+      - wordnet: "02543607"
+        gloss: "destroy property or hinder normal operations; \"The Resistance sabotaged railroad operations during the war\""
+        angloform:
+          status: gap
+      - wordnet: "00290740"
+        gloss: "reduce the level or intensity or size or scope of; \"de-escalate a crisis\""
+        angloform:
+          status: gap
+      - wordnet: "00390215"
+        gloss: "lessen in force or effect; \"soften a shock\"; \"break a fall\""
+        angloform:
+          status: redirect
+          word: break
+          category: VERB_TRANS

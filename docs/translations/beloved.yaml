@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09849598"
+        gloss: a beloved person; used as terms of endearment
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01462324"
+        gloss: dearly loved
+        angloform:
+          status: gap

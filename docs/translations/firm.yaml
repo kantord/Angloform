@@ -1,0 +1,69 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08059870"
+        gloss: "the members of a business organization that owns or operates one or more establishments; \"he worked for a brokerage house\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00420549"
+        gloss: "become taut or tauter; \"Your muscles will firm when you exercise regularly\"; \"the rope tautened\""
+        angloform:
+          status: gap
+      - wordnet: "00420434"
+        gloss: "make taut or tauter; \"tauten a rope\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01990653"
+        gloss: "marked by firm determination or resolution; not shakable; \"firm convictions\"; \"a firm mouth\"; \"steadfast resolve\"; \"a man of unbendable perseverence\"; \"unwavering loyalty\""
+        angloform:
+          status: gap
+      - wordnet: "01151740"
+        gloss: "not soft or yielding to pressure; \"a firm mattress\"; \"the snow was firm underfoot\"; \"solid ground\""
+        angloform:
+          status: gap
+      - wordnet: "00842199"
+        gloss: "strong and sure; \"a firm grasp\"; \"gave a strong pull on the rope\""
+        angloform:
+          status: redirect
+          word: strong
+          category: ADJ
+      - wordnet: "02130272"
+        gloss: "not subject to revision or change; \"a firm contract\"; \"a firm offer\""
+        angloform:
+          status: gap
+      - wordnet: "02302366"
+        gloss: "(of especially a person's physical features) not shaking or trembling; \"his voice was firm and confident\"; \"a firm step\""
+        angloform:
+          status: gap
+      - wordnet: "02291336"
+        gloss: "not liable to fluctuate or especially to fall; \"stocks are still firm\""
+        angloform:
+          status: gap
+      - wordnet: "02094388"
+        gloss: "securely established; \"holds a firm position as the country's leading poet\""
+        angloform:
+          status: gap
+      - wordnet: "01171076"
+        gloss: "possessing the tone and resiliency of healthy tissue; \"firm muscles\""
+        angloform:
+          status: gap
+      - wordnet: "01059711"
+        gloss: "securely fixed in place; \"the post was still firm after being hit by the car\""
+        angloform:
+          status: gap
+      - wordnet: "00959244"
+        gloss: "unwavering in devotion to friend or vow or cause; \"a firm ally\"; \"loyal supporters\"; \"the true-hearted soldier...of Tippecanoe\"- Campaign song for William Henry Harrison; \"fast friends\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00050817"
+        gloss: "with resolute determination; \"we firmly believed it\"; \"you must stand firm\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

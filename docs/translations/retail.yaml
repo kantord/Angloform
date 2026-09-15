@@ -1,0 +1,25 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01114458"
+        gloss: the selling of goods to consumers; usually in small quantities and not for resale
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02728570"
+        gloss: "be sold at the retail level; \"These gems retail at thousands of dollars each\""
+        angloform:
+          status: gap
+      - wordnet: "02247028"
+        gloss: sell on the retail market
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00442669"
+        gloss: "at a retail price; \"I'll sell it to you retail only\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

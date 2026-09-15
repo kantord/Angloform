@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10116370"
+        gloss: a supporter of fundamentalism
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02953235"
+        gloss: of or relating to or tending toward fundamentalism
+        angloform:
+          status: gap

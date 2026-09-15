@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10667477"
+        gloss: an artist who is a master of a particular style
+        angloform:
+          status: gap
+      - wordnet: "10155849"
+        gloss: someone who cuts or beautifies hair
+        angloform:
+          status: gap

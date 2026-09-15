@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00713558"
+        gloss: "compelling immediate action; \"too pressing to permit of longer delay\"; \"the urgent words `Hurry! Hurry!'\"; \"bridges in urgent need of repair\""
+        angloform:
+          status: gap

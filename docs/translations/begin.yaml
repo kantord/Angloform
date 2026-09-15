@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10841657"
+        gloss: Israeli statesman (born in Russia) who (as prime minister of Israel) negotiated a peace treaty with Anwar Sadat (then the president of Egypt) (1913-1992)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00345761"
+        gloss: "take the first step or steps in carrying out an action; \"We began working at dawn\"; \"Who will start?\"; \"Get working as soon as the sun rises!\"; \"The first tourists began to arrive in Cambodia\"; \"He began early in the day\"; \"Let's get down to work now\""
+        angloform:
+          status: redirect
+          word: start
+          category: VERB_TRANS
+      - wordnet: "02608347"
+        gloss: "have a beginning, in a temporal, spatial, or evaluative sense; \"The DMZ begins right over the hill\"; \"The second movement begins after the Allegro\"; \"Prices for these homes start at $250,000\""
+        angloform:
+          status: redirect
+          word: start
+          category: VERB_TRANS
+      - wordnet: "00348746"
+        gloss: "set in motion, cause to start; \"The U.S. started a war in the Middle East\"; \"The Iraqis began hostilities\"; \"begin a new chapter in your life\""
+        angloform:
+          status: redirect
+          word: start
+          category: VERB_TRANS
+      - wordnet: "00747640"
+        gloss: "begin to speak or say; \"Now listen, friends,\" he began"
+        angloform:
+          status: gap
+      - wordnet: "02679227"
+        gloss: "be the first item or point, constitute the beginning or start, come first in a series; \"The number `one' begins the sequence\"; \"A terrible murder begins the novel\"; \"The convocation ceremony officially begins the semester\""
+        angloform:
+          status: gap
+      - wordnet: "02609203"
+        gloss: "have a beginning, of a temporal event; \"WW II began in 1939 when Hitler marched into Poland\"; \"The company's Asia tour begins next month\""
+        angloform:
+          status: gap
+      - wordnet: "02608823"
+        gloss: "have a beginning characterized in some specified way; \"The novel begins with a murder\"; \"My property begins with the three maple trees\"; \"Her day begins with a workout\"; \"The semester begins with a convocation ceremony\""
+        angloform:
+          status: redirect
+          word: start
+          category: VERB_TRANS
+      - wordnet: "02600948"
+        gloss: "begin an event that is implied and limited by the nature or inherent function of the direct object; \"begin a cigar\"; \"She started the soup while it was still hot\"; \"We started physics in 10th grade\""
+        angloform:
+          status: redirect
+          word: start
+          category: VERB_TRANS
+      - wordnet: "02526509"
+        gloss: "achieve or accomplish in the least degree, usually used in the negative; \"This economic measure doesn't even begin to deal with the problem of inflation\"; \"You cannot even begin to understand the problem we had to deal with during the war\""
+        angloform:
+          status: gap
+      - wordnet: "01070777"
+        gloss: "begin to speak, understand, read, and write a language; \"She began Russian at an early age\"; \"We started French in fourth grade\""
+        angloform:
+          status: gap

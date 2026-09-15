@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05832264"
+        gloss: "something or someone that causes anxiety; a source of unhappiness; \"New York traffic is a constant concern\"; \"it's a major worry\""
+        angloform:
+          status: gap
+      - wordnet: "07524242"
+        gloss: "a strong feeling of anxiety; \"his worry over the prospect of being fired\"; \"it is not work but worry that kills\"; \"he wanted to die and end his troubles\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01767163"
+        gloss: "be worried, concerned, anxious, troubled, or uneasy; \"I worry about my job\""
+        angloform:
+          status: gap
+      - wordnet: "01766748"
+        gloss: "be concerned with; \"I worry about my grades\""
+        angloform:
+          status: gap
+      - wordnet: "01765908"
+        gloss: "disturb the peace of mind of; afflict with mental agitation or distress; \"I cannot sleep--my daughter's health is worrying me\""
+        angloform:
+          status: gap
+      - wordnet: "02678438"
+        gloss: "be on the mind of; \"I worry about the second Germanic consonant shift\""
+        angloform:
+          status: gap
+      - wordnet: "01559473"
+        gloss: "lacerate by biting; \"the dog worried his bone\""
+        angloform:
+          status: gap
+      - wordnet: "01251109"
+        gloss: "touch or rub constantly; \"The old man worried his beads\""
+        angloform:
+          status: gap

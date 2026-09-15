@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01101913"
+        gloss: "come out better in a competition, race, or conflict; \"Agassi beat Becker in the tennis championship\"; \"We beat the competition\"; \"Harvard defeated Yale in the last football game\""
+        angloform:
+          status: redirect
+          word: beat
+          category: VERB_TRANS

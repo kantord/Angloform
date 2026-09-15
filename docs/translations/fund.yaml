@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13358549"
+        gloss: a reserve of money set aside for some purpose
+        angloform:
+          status: gap
+      - wordnet: "13367070"
+        gloss: "a supply of something available for future use; \"he brought back a large store of Cuban cigars\""
+        angloform:
+          status: gap
+      - wordnet: "08070850"
+        gloss: a financial institution that sells shares to individuals and invests in securities issued by other companies
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02218924"
+        gloss: convert (short-term floating debt) into long-term debt that bears fixed interest and is represented by bonds
+        angloform:
+          status: gap
+      - wordnet: "02218635"
+        gloss: place or store up in a fund for accumulation
+        angloform:
+          status: gap
+      - wordnet: "02216083"
+        gloss: provide a fund for the redemption of principal or payment of interest
+        angloform:
+          status: gap
+      - wordnet: "02215966"
+        gloss: invest money in government securities
+        angloform:
+          status: gap
+      - wordnet: "02215790"
+        gloss: "accumulate a fund for the discharge of a recurrent liability; \"fund a medical care plan\""
+        angloform:
+          status: gap
+      - wordnet: "02215506"
+        gloss: "furnish money for; \"The government funds basic research in many areas\""
+        angloform:
+          status: gap

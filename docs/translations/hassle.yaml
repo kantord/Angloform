@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07372565"
+        gloss: "an angry disturbance; \"he didn't want to make a fuss\"; \"they had labor trouble\"; \"a spot of bother\""
+        angloform:
+          status: gap
+      - wordnet: "01172441"
+        gloss: disorderly fighting
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01789514"
+        gloss: "annoy continually or chronically; \"He is known to harry his staff when he is overworked\"; \"This man harasses his female co-workers\""
+        angloform:
+          status: gap

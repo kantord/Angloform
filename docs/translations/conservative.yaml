@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09957156"
+        gloss: a person who is reluctant to accept changes and new ideas
+        angloform:
+          status: gap
+      - wordnet: "09957523"
+        gloss: a member of a Conservative Party
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00574422"
+        gloss: resistant to change
+        angloform:
+          status: gap
+      - wordnet: "02030312"
+        gloss: having social or political views favoring conservatism
+        angloform:
+          status: gap
+      - wordnet: "01532149"
+        gloss: "avoiding excess; \"a conservative estimate\""
+        angloform:
+          status: gap
+      - wordnet: "00607656"
+        gloss: "unimaginatively conventional; \"a colorful character in the buttoned-down, dull-grey world of business\"- Newsweek"
+        angloform:
+          status: gap
+      - wordnet: "00260780"
+        gloss: "conforming to the standards and conventions of the middle class; \"a bourgeois mentality\""
+        angloform:
+          status: gap

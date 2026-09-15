@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "12433081"
+        gloss: the bulb of an onion plant
+        angloform:
+          status: gap
+      - wordnet: "12432808"
+        gloss: bulbous plant having hollow leaves cultivated worldwide for its rounded edible bulb
+        angloform:
+          status: gap
+      - wordnet: "07722217"
+        gloss: an aromatic flavorful vegetable
+        angloform:
+          status: gap

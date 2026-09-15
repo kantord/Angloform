@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15290337"
+        gloss: "any distinct time period in a sequence of events; \"we are in a transitional stage in which many former ideas must be revised or rejected\""
+        angloform:
+          status: gap
+      - wordnet: "13939892"
+        gloss: "a specific identifiable position in a continuum or series or especially in a process; \"a remarkable degree of frankness\"; \"at what stage are the social sciences?\""
+        angloform:
+          status: redirect
+          word: point
+          category: NOUN
+      - wordnet: "04296562"
+        gloss: "a large platform on which people can stand and can be seen by an audience; \"he clambered up onto the stage and got the actors to help him into the box\""
+        angloform:
+          status: gap
+      - wordnet: "07006712"
+        gloss: "the theater as a profession (usually `the stage'); \"an early movie simply showed a long kiss by two actors of the contemporary stage\""
+        angloform:
+          status: gap
+      - wordnet: "04297098"
+        gloss: "a large coach-and-four formerly used to carry passengers and mail on regular routes between towns; \"we went out of town together by stage about ten or twelve miles\""
+        angloform:
+          status: gap
+      - wordnet: "00306900"
+        gloss: "a section or portion of a journey or course; \"then we embarked on the second stage of our Caribbean cruise\""
+        angloform:
+          status: gap
+      - wordnet: "08646566"
+        gloss: "any scene regarded as a setting for exhibiting or doing something; \"All the world's a stage\"--Shakespeare; \"it set the stage for peaceful negotiations\""
+        angloform:
+          status: gap
+      - wordnet: "04296949"
+        gloss: a small platform on a microscope where the specimen is mounted for examination
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01711445"
+        gloss: "perform (a play), especially on a stage; \"we are going to stage `Othello'\""
+        angloform:
+          status: gap
+      - wordnet: "01648126"
+        gloss: "plan, organize, and carry out (an event); \"the neighboring tribe staged an invasion\""
+        angloform:
+          status: gap

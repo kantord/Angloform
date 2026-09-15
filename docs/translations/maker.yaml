@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10284064"
+        gloss: a person who makes things
+        angloform:
+          status: gap
+      - wordnet: "09536363"
+        gloss: terms referring to the Judeo-Christian God
+        angloform:
+          status: gap
+      - wordnet: "08060446"
+        gloss: a business engaged in manufacturing some product
+        angloform:
+          status: gap

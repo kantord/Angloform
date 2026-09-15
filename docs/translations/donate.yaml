@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02263027"
+        gloss: "give to a charity or good cause; \"I donated blood to the Red Cross for the victims of the earthquake\"; \"donate money to the orphanage\"; \"She donates to her favorite charity every month\""
+        angloform:
+          status: gap

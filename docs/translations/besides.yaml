@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00029037"
+        gloss: "making an additional point; anyway; \"I don't want to go to a restaurant; besides, we can't afford it\"; \"she couldn't shelter behind him all the time and in any case he wasn't always with her\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00047534"
+        gloss: "in addition; \"he has a Mercedes, too\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

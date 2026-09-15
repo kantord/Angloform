@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07486229"
+        gloss: "a specific feeling of desire; \"he got his wish\"; \"he was above all wishing and desire\""
+        angloform:
+          status: gap
+      - wordnet: "07185870"
+        gloss: "an expression of some desire or inclination; \"I could tell that it was his wish that the guests leave\"; \"his crying was an indirect request for attention\""
+        angloform:
+          status: gap
+      - wordnet: "06630627"
+        gloss: "(usually plural) a polite expression of desire for someone's welfare; \"give him my kind regards\"; \"my best wishes\""
+        angloform:
+          status: gap
+      - wordnet: "05791602"
+        gloss: "the particular preference that you have; \"it was his last wish\"; \"they should respect the wishes of the people\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01824339"
+        gloss: "hope for; have a wish; \"I wish I could go home now\""
+        angloform:
+          status: gap
+      - wordnet: "01824736"
+        gloss: "prefer or wish to do something; \"Do you care to try this dish?\"; \"Would you like to come along to the movies?\""
+        angloform:
+          status: gap
+      - wordnet: "00903212"
+        gloss: "make or express a wish; \"I wish that Christmas were over\""
+        angloform:
+          status: gap
+      - wordnet: "01824532"
+        gloss: feel or express a desire or hope concerning the future or fortune of
+        angloform:
+          status: gap
+      - wordnet: "00903098"
+        gloss: order politely; express a wish for
+        angloform:
+          status: gap
+      - wordnet: "00902932"
+        gloss: "invoke upon; \"wish you a nice evening\"; \"bid farewell\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03547658"
+        gloss: the central part of a car wheel (or fan or propeller etc) through which the shaft or axle passes
+        angloform:
+          status: gap
+      - wordnet: "08543223"
+        gloss: "a center of activity or interest or commerce or transportation; a focal point around which events revolve; \"the playground is the hub of parental supervision\"; \"the airport is the economic hub of the area\""
+        angloform:
+          status: gap

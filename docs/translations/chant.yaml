@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07034634"
+        gloss: a repetitive song in which as many syllables as necessary are assigned to a single tone
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01049737"
+        gloss: "recite with musical intonation; recite as a chant or a psalm; \"The rabbi chanted a prayer\""
+        angloform:
+          status: gap
+      - wordnet: "01066775"
+        gloss: "utter monotonously and repetitively and rhythmically; \"The students chanted the same slogan over and over again\""
+        angloform:
+          status: gap

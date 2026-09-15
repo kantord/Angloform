@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02411705"
+        gloss: woolly usually horned ruminant mammal related to the goat
+        angloform:
+          status: gap
+      - wordnet: "10588074"
+        gloss: a timid defenseless simpleton who is readily preyed upon
+        angloform:
+          status: gap
+      - wordnet: "10587894"
+        gloss: "a docile and vulnerable person who would rather follow than make an independent decision; \"his students followed him like sheep\""
+        angloform:
+          status: gap

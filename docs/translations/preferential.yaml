@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00065184"
+        gloss: "manifesting partiality; \"a discriminatory tax\"; \"preferential tariff rates\"; \"preferential treatment\"; \"a preferential shop gives priority or advantage to union members in hiring or promoting\""
+        angloform:
+          status: gap

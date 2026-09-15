@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00744916"
+        gloss: "not easy; requiring great physical or mental effort to accomplish or comprehend or endure; \"a difficult task\"; \"nesting places on the cliffs are difficult of access\"; \"difficult times\"; \"why is it so hard for you to keep a secret?\""
+        angloform:
+          status: gap
+      - wordnet: "01475282"
+        gloss: "hard to control; \"a difficult child\", \"an unmanageable situation\""
+        angloform:
+          status: gap

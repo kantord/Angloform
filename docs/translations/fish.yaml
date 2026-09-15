@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02512053"
+        gloss: "any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing through gills; \"the shark is a large fish\"; \"in the living room there was a tank of colorful fish\""
+        angloform:
+          status: gap
+      - wordnet: "07775375"
+        gloss: "the flesh of fish used as food; \"in Japan most fish is eaten raw\"; \"after the scare about foot-and-mouth disease a lot of people started eating fish instead of meat\"; \"they have a chef who specializes in fish\""
+        angloform:
+          status: gap
+      - wordnet: "09753792"
+        gloss: (astrology) a person who is born while the sun is in Pisces
+        angloform:
+          status: gap
+      - wordnet: "08688076"
+        gloss: the twelfth sign of the zodiac; the sun is in this sign from about February 19 to March 20
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01319346"
+        gloss: "seek indirectly; \"fish for compliments\""
+        angloform:
+          status: gap
+      - wordnet: "01140794"
+        gloss: "catch or try to catch fish or shellfish; \"I like to go fishing on weekends\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01792042"
+        gloss: young bird especially of domestic fowl
+        angloform:
+          status: gap
+      - wordnet: "09989045"
+        gloss: informal terms for a (young) woman
+        angloform:
+          status: gap

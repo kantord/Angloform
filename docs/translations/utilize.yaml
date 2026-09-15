@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01158872"
+        gloss: "put into service; make work or employ for a particular purpose or for its inherent or natural purpose; \"use your head!\"; \"we only use Spanish at home\"; \"I can't use this tool\"; \"Apply a magnetic field here\"; \"This thinking was applied to many projects\"; \"How do you utilize this tool?\"; \"I apply this rule to get good results\"; \"use the plastic bags to store the food\"; \"He doesn't know how to use a computer\""
+        angloform:
+          status: redirect
+          word: use
+          category: VERB_TRANS
+      - wordnet: "00161872"
+        gloss: convert (from an investment trust to a unit trust)
+        angloform:
+          status: gap

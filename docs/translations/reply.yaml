@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06746005"
+        gloss: "a statement (either spoken or written) that is made to reply to a question or request or criticism or accusation; \"I waited several days for his answer\"; \"he wrote replies to several of his critics\""
+        angloform:
+          status: gap
+      - wordnet: "07199565"
+        gloss: "the speech act of continuing a conversational exchange; \"he growled his reply\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00815686"
+        gloss: "react verbally; \"She didn't want to answer\"; \"answer the question\"; \"We answered that we would accept the invitation\""
+        angloform:
+          status: redirect
+          word: answer
+          category: VERB_TRANS

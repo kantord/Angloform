@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09815790"
+        gloss: "a person who contributes to the fulfillment of a need or furtherance of an effort or purpose; \"my invaluable assistant\"; \"they hired additional help to finish the work\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00793250"
+        gloss: of or relating to a person who is subordinate to another
+        angloform:
+          status: gap

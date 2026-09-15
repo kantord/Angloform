@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08628921"
+        gloss: "the limits within which something can be effective; \"range of motion\"; \"he was beyond the reach of their fire\""
+        angloform:
+          status: redirect
+          word: range
+          category: NOUN
+      - wordnet: "05125377"
+        gloss: "an area in which something acts or operates or has power or control: \"the range of a supersonic jet\"; \"a piano has a greater range than the human voice\"; \"the ambit of municipal legislation\"; \"within the compass of this article\"; \"within the scope of an investigation\"; \"outside the reach of the law\"; \"in the political orbit of a world power\""
+        angloform:
+          status: redirect
+          word: scope
+          category: NOUN
+      - wordnet: "00341243"
+        gloss: the act of physically reaching or thrusting out
+        angloform:
+          status: gap
+      - wordnet: "05623628"
+        gloss: "the limit of capability; \"within the compass of education\""
+        angloform:
+          status: redirect
+          word: range
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "02020590"
+        gloss: "reach a destination, either real or abstract; \"We hit Detroit by noon\"; \"The water reached the doorstep\"; \"We barely made it to the finish line\"; \"I have to hit the MAC machine before the weekend starts\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "02006834"
+        gloss: "reach a point in time, or a certain state or level; \"The thermometer hit 100 degrees\"; \"This car can reach a speed of 140 miles per hour\""
+        angloform:
+          status: gap
+      - wordnet: "01440139"
+        gloss: "move forward or upward in order to touch; also in a metaphorical sense; \"Government reaches out to the people\""
+        angloform:
+          status: gap
+      - wordnet: "00743344"
+        gloss: "be in or establish communication with; \"Our advertisements reach millions\"; \"He never contacted his children after he emigrated to Australia\""
+        angloform:
+          status: gap
+      - wordnet: "02526085"
+        gloss: "to gain with effort; \"she achieved her goal despite setbacks\""
+        angloform:
+          status: gap
+      - wordnet: "02685665"
+        gloss: "to extend as far as; \"The sunlight reached the wall\"; \"Can he reach?\" \"The chair must not touch the wall\""
+        angloform:
+          status: redirect
+          word: touch
+          category: VERB_TRANS
+      - wordnet: "02022162"
+        gloss: "reach a goal, e.g., \"make the first team\"; \"We made it!\"; \"She may not make the grade\""
+        angloform:
+          status: redirect
+          word: make
+          category: VERB_TRANS
+      - wordnet: "02230772"
+        gloss: "place into the hands or custody of; \"hand me the spoon, please\"; \"Turn the files over to me, please\"; \"He turned over the prisoner to his lawyers\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "01146051"
+        gloss: "to exert much effort or energy; \"straining our ears to hear\""
+        angloform:
+          status: gap

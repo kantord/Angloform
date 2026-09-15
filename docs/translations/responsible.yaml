@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01996377"
+        gloss: "worthy of or requiring responsibility or trust; or held accountable; \"a responsible adult\"; \"responsible journalism\"; \"a responsible position\"; \"the captain is responsible for the ship's safety\"; \"the cabinet is responsible to the parliament\""
+        angloform:
+          status: gap
+      - wordnet: "00324878"
+        gloss: "being the agent or cause; \"determined who was the responsible party\"; \"termites were responsible for the damage\""
+        angloform:
+          status: gap
+      - wordnet: "02465350"
+        gloss: "having an acceptable credit rating; \"a responsible borrower\""
+        angloform:
+          status: gap

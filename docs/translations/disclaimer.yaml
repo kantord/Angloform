@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07207680"
+        gloss: "(law) a voluntary repudiation of a person's legal claim to something"
+        angloform:
+          status: gap
+      - wordnet: "07205946"
+        gloss: denial of any connection with or knowledge of
+        angloform:
+          status: gap

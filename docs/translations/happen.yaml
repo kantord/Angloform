@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00339934"
+        gloss: "come to pass; \"What is happening?\"; \"The meeting took place off without an incidence\"; \"Nothing occurred that seemed important\""
+        angloform:
+          status: redirect
+          word: occur
+          category: VERB_INTRANS
+      - wordnet: "00344643"
+        gloss: "happen, occur, or be the case in the course of events or by chance; \"It happens that today is my birthday\"; \"These things befell\" (Santayana)"
+        angloform:
+          status: gap
+      - wordnet: "02593912"
+        gloss: "chance to be or do something, without intention or causation; \"I happen to have just what you need!\""
+        angloform:
+          status: gap
+      - wordnet: "00344174"
+        gloss: "come into being; become reality; \"Her dream really materialized\""
+        angloform:
+          status: gap
+      - wordnet: "02248465"
+        gloss: "come upon, as if by accident; meet with; \"We find this idea in Plato\"; \"I happened upon the most wonderful bakery not very far from here\"; \"She chanced upon an interesting book in the bookstore the other day\""
+        angloform:
+          status: redirect
+          word: find
+          category: VERB_TRANS

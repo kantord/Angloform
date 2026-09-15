@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02465115"
+        gloss: "conforming to fact and therefore worthy of belief; \"an authentic account by an eyewitness\"; \"reliable information\""
+        angloform:
+          status: gap
+      - wordnet: "01115635"
+        gloss: "not counterfeit or copied; \"an authentic signature\"; \"a bona fide manuscript\"; \"an unquestionable antique\"; \"photographs taken in a veritable bull ring\""
+        angloform:
+          status: gap

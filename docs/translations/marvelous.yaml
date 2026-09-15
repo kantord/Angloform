@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01676517"
+        gloss: "extraordinarily good or great ; used especially as intensifiers; \"a fantastic trip to the Orient\"; \"the film was fantastic!\"; \"a howling success\"; \"a marvelous collection of rare books\"; \"had a rattling conversation about politics\"; \"a tremendous achievement\""
+        angloform:
+          status: gap
+      - wordnet: "00646117"
+        gloss: "too improbable to admit of belief; \"a tall story\""
+        angloform:
+          status: gap
+      - wordnet: "01576551"
+        gloss: being or having the character of a miracle
+        angloform:
+          status: gap

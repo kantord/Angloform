@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04401088"
+        gloss: "electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds; \"I talked to him on the telephone\""
+        angloform:
+          status: gap
+      - wordnet: "07111047"
+        gloss: (phonetics) an individual sound unit of speech without concern as to whether or not it is a phoneme of some language
+        angloform:
+          status: gap
+      - wordnet: "03261776"
+        gloss: "electro-acoustic transducer for converting electric signals into sounds; it is held over or inserted into the ear; \"it was not the typing but the earphones that she disliked\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00789448"
+        gloss: "get or try to get into communication (with someone) by telephone; \"I tried to call you all night\"; \"Take two aspirin and call me in the morning\""
+        angloform:
+          status: gap

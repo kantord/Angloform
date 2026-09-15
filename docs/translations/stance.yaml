@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05082507"
+        gloss: standing posture
+        angloform:
+          status: gap
+      - wordnet: "06196284"
+        gloss: a rationalized mental attitude
+        angloform:
+          status: redirect
+          word: position
+          category: NOUN

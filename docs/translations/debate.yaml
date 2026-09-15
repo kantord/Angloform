@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07140978"
+        gloss: "a discussion in which reasons are advanced for and against some proposition or proposal; \"the argument over foreign aid goes on and on\""
+        angloform:
+          status: redirect
+          word: argument
+          category: NOUN
+      - wordnet: "07242104"
+        gloss: the formal presentation of a stated proposition and the opposition to it (usually followed by a vote)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00714884"
+        gloss: "argue with one another; \"We debated the question of abortion\"; \"John debated Mary\""
+        angloform:
+          status: gap
+      - wordnet: "00813044"
+        gloss: "think about carefully; weigh; \"They considered the possibility of a strike\"; \"Turn the proposal over in your mind\""
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "00812580"
+        gloss: discuss the pros and cons of an issue
+        angloform:
+          status: gap
+      - wordnet: "00773432"
+        gloss: have an argument about something
+        angloform:
+          status: gap

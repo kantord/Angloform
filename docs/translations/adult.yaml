@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09605289"
+        gloss: a fully developed person from maturity onward
+        angloform:
+          status: gap
+      - wordnet: "01321456"
+        gloss: any mature animal
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01488616"
+        gloss: "(of animals) fully developed; \"an adult animal\"; \"a grown woman\""
+        angloform:
+          status: redirect
+          word: big
+          category: ADJ
+      - wordnet: "02134397"
+        gloss: "designed to arouse lust; \"pornographic films and magazines\"; \"adult movies\""
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09787293"
+        gloss: a large strong and aggressive woman
+        angloform:
+          status: gap
+      - wordnet: "09787076"
+        gloss: (Greek mythology) one of a nation of women warriors of Scythia (who burned off the right breast in order to use a bow and arrow more effectively)
+        angloform:
+          status: gap
+      - wordnet: "09195372"
+        gloss: "a major South American river; arises in the Andes and flows eastward into the South Atlantic; the world's 2nd longest river (4000 miles)"
+        angloform:
+          status: gap
+      - wordnet: "01818299"
+        gloss: mainly green tropical American parrots
+        angloform:
+          status: gap

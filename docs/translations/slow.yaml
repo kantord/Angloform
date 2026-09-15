@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00439958"
+        gloss: "lose velocity; move more slowly; \"The car decelerated\""
+        angloform:
+          status: gap
+      - wordnet: "00440580"
+        gloss: "become slow or slower; \"Production slowed\""
+        angloform:
+          status: gap
+      - wordnet: "00440786"
+        gloss: "cause to proceed more slowly; \"The illness slowed him down\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00980527"
+        gloss: "not moving quickly; taking a comparatively long time; \"a slow walker\"; \"the slow lane of traffic\"; \"her steps were slow\"; \"he was slow in reacting to the news\"; \"slow but steady growth\""
+        angloform:
+          status: gap
+      - wordnet: "00982602"
+        gloss: "at a slow tempo; \"the band played a slow waltz\""
+        angloform:
+          status: gap
+      - wordnet: "00440579"
+        gloss: "slow to learn or understand; lacking intellectual acuity; \"so dense he never understands anything I say to him\"; \"never met anyone quite so dim\"; \"although dull at classical learning, at mathematics he was uncommonly quick\"- Thackeray; \"dumb officials make some really dumb decisions\"; \"he was either normally stupid or being deliberately obtuse\"; \"worked with the slow students\""
+        angloform:
+          status: redirect
+          word: dense
+          category: ADJ
+      - wordnet: "00983722"
+        gloss: "(used of timepieces) indicating a time earlier than the correct time; \"the clock is slow\""
+        angloform:
+          status: gap
+      - wordnet: "01345307"
+        gloss: "so lacking in interest as to cause mental weariness; \"a boring evening with uninteresting people\"; \"the deadening effect of some routine tasks\"; \"a dull play\"; \"his competent but dull performance\"; \"a ho-hum speaker who couldn't capture their attention\"; \"what an irksome task the writing of long letters is\"- Edmund Burke; \"tedious days on the train\"; \"the tiresome chirping of a cricket\"- Mark Twain; \"other people's dreams are dreadfully wearisome\""
+        angloform:
+          status: gap
+      - wordnet: "00036998"
+        gloss: "(of business) not active or brisk; \"business is dull (or slow)\"; \"a sluggish market\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00161630"
+        gloss: "without speed (`slow' is sometimes used informally for `slowly'); \"he spoke slowly\"; \"go easy here--the road is slippery\"; \"glaciers move tardily\"; \"please go slow so I can see the sights\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00222879"
+        gloss: "of timepieces; \"the clock is almost an hour slow\"; \"my watch is running behind\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

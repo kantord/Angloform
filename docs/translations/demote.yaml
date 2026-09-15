@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02399331"
+        gloss: "assign to a lower position; reduce in rank; \"She was demoted because she always speaks up\"; \"He was broken down to Sergeant\""
+        angloform:
+          status: redirect
+          word: break
+          category: VERB_TRANS

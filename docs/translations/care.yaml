@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00654885"
+        gloss: "the work of providing treatment for or attending to someone or something; \"no medical care was required\"; \"the old car needs constant attention\""
+        angloform:
+          status: gap
+      - wordnet: "05615869"
+        gloss: "judiciousness in avoiding harm or danger; \"he exercised caution in opening the door\"; \"he handled the vase with care\""
+        angloform:
+          status: gap
+      - wordnet: "07524529"
+        gloss: "an anxious feeling; \"care had aged him\"; \"they hushed it up out of fear of public reaction\""
+        angloform:
+          status: gap
+      - wordnet: "07505047"
+        gloss: "a cause for feeling concern; \"his major care was the illness of his wife\""
+        angloform:
+          status: gap
+      - wordnet: "00829378"
+        gloss: "attention and management implying responsibility for safety; \"he is in the care of a bodyguard\""
+        angloform:
+          status: gap
+      - wordnet: "00267522"
+        gloss: "activity involved in maintaining something in good working order; \"he wrote the manual on car care\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01822936"
+        gloss: "feel concern or interest; \"I really care about my work\"; \"I don't care\""
+        angloform:
+          status: gap
+      - wordnet: "02550296"
+        gloss: "provide care for; \"The nurse was caring for the wounded\""
+        angloform:
+          status: gap
+      - wordnet: "01824736"
+        gloss: "prefer or wish to do something; \"Do you care to try this dish?\"; \"Would you like to come along to the movies?\""
+        angloform:
+          status: gap
+      - wordnet: "02436349"
+        gloss: "be in charge of, act on, or dispose of; \"I can deal with this crew of workers\"; \"This blender can't handle nuts\"; \"She managed her parents' affairs after they got too old\""
+        angloform:
+          status: gap
+      - wordnet: "01766748"
+        gloss: "be concerned with; \"I worry about my grades\""
+        angloform:
+          status: gap

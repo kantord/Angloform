@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00717358"
+        gloss: show a response or a reaction to something
+        angloform:
+          status: gap
+      - wordnet: "00815686"
+        gloss: "react verbally; \"She didn't want to answer\"; \"answer the question\"; \"We answered that we would accept the invitation\""
+        angloform:
+          status: redirect
+          word: answer
+          category: VERB_TRANS
+      - wordnet: "00718737"
+        gloss: "respond favorably or as hoped; \"The cancer responded to the aggressive therapy\""
+        angloform:
+          status: gap

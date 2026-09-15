@@ -1,0 +1,132 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05110185"
+        gloss: "the amount a salary is increased; \"he got a 3% raise\"; \"he got a wage hike\""
+        angloform:
+          status: gap
+      - wordnet: "09206985"
+        gloss: "an upward slope or grade (as in a road); \"the car couldn't make it up the rise\""
+        angloform:
+          status: gap
+      - wordnet: "00803208"
+        gloss: "increasing the size of a bet (as in poker); \"I'll see your raise and double it\""
+        angloform:
+          status: gap
+      - wordnet: "00116376"
+        gloss: "the act of raising something; \"he responded with a lift of his eyebrow\"; \"fireman learn several different raises for getting ladders up\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00158503"
+        gloss: "raise the level or amount of something; \"raise my salary\"; \"raise the price of bread\""
+        angloform:
+          status: gap
+      - wordnet: "01974062"
+        gloss: "raise from a lower to a higher position; \"Raise your hands\"; \"Lift a load\""
+        angloform:
+          status: gap
+      - wordnet: "00941166"
+        gloss: "cause to be heard or known; express or utter; \"raise a shout\"; \"raise a protest\"; \"raise a sad cry\""
+        angloform:
+          status: gap
+      - wordnet: "02306281"
+        gloss: "collect funds for a specific purpose; \"The President raised several million dollars for his college\""
+        angloform:
+          status: gap
+      - wordnet: "01739814"
+        gloss: "cultivate by growing, often involving improvements by means of agricultural techniques; \"The Bordeaux region produces great red wines\"; \"They produce good ham in Parma\"; \"We grow wheat here\"; \"We raise hogs here\""
+        angloform:
+          status: redirect
+          word: grow
+          category: VERB_INTRANS
+      - wordnet: "02539788"
+        gloss: "bring up; \"raise a family\"; \"bring up children\""
+        angloform:
+          status: gap
+      - wordnet: "01629958"
+        gloss: "summon into action or bring into existence, often as if by magic; \"raise the specter of unemployment\"; \"he conjured wild birds in the air\"; \"call down the spirits from the mountain\""
+        angloform:
+          status: gap
+      - wordnet: "01973759"
+        gloss: "move upwards; \"lift one's eyes\""
+        angloform:
+          status: gap
+      - wordnet: "01661243"
+        gloss: "construct, build, or erect; \"Raise a barn\""
+        angloform:
+          status: gap
+      - wordnet: "01759326"
+        gloss: "call forth (emotions, feelings, and responses); \"arouse pity\"; \"raise a smile\"; \"evoke sympathy\""
+        angloform:
+          status: gap
+      - wordnet: "01755651"
+        gloss: "create a disturbance, especially by making a great noise; \"raise hell\"; \"raise the roof\"; \"raise Cain\""
+        angloform:
+          status: gap
+      - wordnet: "00544549"
+        gloss: "raise in rank or condition; \"The new law lifted many people from poverty\""
+        angloform:
+          status: gap
+      - wordnet: "00229605"
+        gloss: "increase; \"This will enhance your enjoyment\"; \"heighten the tension\""
+        angloform:
+          status: gap
+      - wordnet: "02397637"
+        gloss: "give a promotion to or assign to a higher position; \"John was kicked upstairs when a replacement was hired\"; \"Women tend not to advance in the major law firms\"; \"I got promoted after many years of hard work\""
+        angloform:
+          status: gap
+      - wordnet: "01975587"
+        gloss: "cause to puff up with a leaven; \"unleavened bread\""
+        angloform:
+          status: gap
+      - wordnet: "01156406"
+        gloss: "bid (one's partner's suit) at a higher level"
+        angloform:
+          status: gap
+      - wordnet: "01156291"
+        gloss: bet more than the previous player
+        angloform:
+          status: gap
+      - wordnet: "01098452"
+        gloss: "cause to assemble or enlist in the military; \"raise an army\"; \"recruit new soldiers\""
+        angloform:
+          status: gap
+      - wordnet: "01025246"
+        gloss: "put forward for consideration or discussion; \"raise the question of promotions\"; \"bring up an unpleasant topic\""
+        angloform:
+          status: gap
+      - wordnet: "00950782"
+        gloss: "pronounce (vowels) by bringing the tongue closer to the roof of the mouth; \"raise your `o'\""
+        angloform:
+          status: gap
+      - wordnet: "00851625"
+        gloss: "activate or stir up; \"raise a mutiny\""
+        angloform:
+          status: gap
+      - wordnet: "00744070"
+        gloss: "establish radio communications with; \"They managed to raise Hanoi last night\""
+        angloform:
+          status: gap
+      - wordnet: "00641929"
+        gloss: "multiply (a number) by itself a specified number of times: 8 is 2 raised to the power 3"
+        angloform:
+          status: gap
+      - wordnet: "00557537"
+        gloss: "bring (a surface or a design) into relief and cause to project; \"raised edges\""
+        angloform:
+          status: gap
+      - wordnet: "00549982"
+        gloss: "invigorate or heighten; \"lift my spirits\"; \"lift his ego\""
+        angloform:
+          status: gap
+      - wordnet: "00354195"
+        gloss: "put an end to; \"lift a ban\"; \"raise a siege\""
+        angloform:
+          status: gap
+      - wordnet: "00098517"
+        gloss: "cause to become alive again; \"raise from the dead\"; \"Slavery is already dead, and cannot be resurrected\"; \"Upraising ghosts\""
+        angloform:
+          status: gap

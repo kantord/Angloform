@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00219012"
+        gloss: the act of terminating a life
+        angloform:
+          status: gap
+      - wordnet: "00217593"
+        gloss: "the destruction of an enemy plane or ship or tank or missile; \"the pilot reported two kills during the mission\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01323958"
+        gloss: "cause to die; put to death, usually intentionally or knowingly; \"This man killed several people when he tried to rob a bank\"; \"The farmer killed a pig for the holidays\""
+        angloform:
+          status: gap
+      - wordnet: "02473688"
+        gloss: "thwart the passage of; \"kill a motion\"; \"he shot down the student's proposal\""
+        angloform:
+          status: gap
+      - wordnet: "00355038"
+        gloss: "end or extinguish by forceful means; \"Stamp out poverty!\""
+        angloform:
+          status: gap
+      - wordnet: "02748495"
+        gloss: "be fatal; \"cigarettes kill\"; \"drunken driving kills\""
+        angloform:
+          status: gap
+      - wordnet: "02198819"
+        gloss: "be the source of great pain for; \"These new shoes are killing me!\""
+        angloform:
+          status: gap
+      - wordnet: "01809617"
+        gloss: "overwhelm with hilarity, pleasure, or admiration; \"The comedian was so funny, he was killing me!\""
+        angloform:
+          status: gap
+      - wordnet: "01407376"
+        gloss: "hit with so much force as to make a return impossible, in racket games; \"She killed the ball\""
+        angloform:
+          status: gap
+      - wordnet: "01407235"
+        gloss: "hit with great force; \"He killed the ball\""
+        angloform:
+          status: gap
+      - wordnet: "01325774"
+        gloss: "deprive of life; \"AIDS has killed thousands in Africa\""
+        angloform:
+          status: gap
+      - wordnet: "01325536"
+        gloss: "cause the death of, without intention; \"She was killed in the collision of three cars\""
+        angloform:
+          status: gap
+      - wordnet: "01202374"
+        gloss: "drink down entirely; \"He downed three martinis before dinner\"; \"She killed a bottle of brandy that night\"; \"They popped a few beer after work\""
+        angloform:
+          status: gap
+      - wordnet: "00478830"
+        gloss: "mark for deletion, rub off, or erase; \"kill these lines in the President's speech\""
+        angloform:
+          status: gap
+      - wordnet: "00355524"
+        gloss: "tire out completely; \"The daily stress of her work is killing her\""
+        angloform:
+          status: gap
+      - wordnet: "00355365"
+        gloss: "cause to cease operating; \"kill the engine\""
+        angloform:
+          status: gap
+      - wordnet: "00355177"
+        gloss: "destroy a vitally essential quality of or in; \"Eating artichokes kills the taste of all other foods\""
+        angloform:
+          status: gap

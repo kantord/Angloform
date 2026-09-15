@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06338158"
+        gloss: a name that has been assumed temporarily
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00270446"
+        gloss: "as known or named at another time or place; \"Mr. Smith, alias Mr. Lafayette\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

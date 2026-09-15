@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10283170"
+        gloss: a commissioned military officer in the United States Army or Air Force or Marines; below lieutenant colonel and above captain
+        angloform:
+          status: gap
+      - wordnet: "11150634"
+        gloss: British statesman who was prime minister from 1990 until 1997 (born in 1943)
+        angloform:
+          status: gap
+      - wordnet: "10283366"
+        gloss: "a university student who is studying a particular field as the principal subject; \"she is a linguistics major\""
+        angloform:
+          status: gap
+      - wordnet: "05997659"
+        gloss: "the principal field of study of a student at a university; \"her major is linguistics\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00607609"
+        gloss: "have as one's principal field of study; \"She is majoring in linguistics\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01472628"
+        gloss: "of greater importance or stature or rank; \"a major artist\"; \"a major role\"; \"major highways\""
+        angloform:
+          status: gap
+      - wordnet: "01471538"
+        gloss: "greater in scope or effect; \"a major contribution\"; \"a major improvement\"; \"a major break with tradition\"; \"a major misunderstanding\""
+        angloform:
+          status: gap
+      - wordnet: "01471002"
+        gloss: "greater in number or size or amount; \"a major portion (a majority) of the population\"; \"Ursa Major\"; \"a major portion of the winnings\""
+        angloform:
+          status: gap
+      - wordnet: "01472351"
+        gloss: "of the field of academic study in which one concentrates or specializes; \"his major field was mathematics\""
+        angloform:
+          status: gap
+      - wordnet: "01472098"
+        gloss: "of a scale or mode; \"major scales\"; \"the key of D major\""
+        angloform:
+          status: gap
+      - wordnet: "01473680"
+        gloss: "of greater seriousness or danger; \"a major earthquake\"; \"a major hurricane\"; \"a major illness\""
+        angloform:
+          status: gap
+      - wordnet: "01471848"
+        gloss: of full legal age
+        angloform:
+          status: gap
+      - wordnet: "02100236"
+        gloss: "of the elder of two boys with the same family name; \"Jones major\""
+        angloform:
+          status: gap

@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01976957"
+        gloss: decapod having eyes on short stalks and a broad flattened carapace with a small abdomen folded under the thorax and pincers
+        angloform:
+          status: gap
+      - wordnet: "09974054"
+        gloss: a quarrelsome grouch
+        angloform:
+          status: gap
+      - wordnet: "09752657"
+        gloss: (astrology) a person who is born while the sun is in Cancer
+        angloform:
+          status: gap
+      - wordnet: "08686658"
+        gloss: the fourth sign of the zodiac; the sun is in this sign from about June 21 to July 22
+        angloform:
+          status: gap
+      - wordnet: "07787715"
+        gloss: the edible flesh of any of various crabs
+        angloform:
+          status: gap
+      - wordnet: "02185167"
+        gloss: a louse that infests the pubic region of the human body
+        angloform:
+          status: gap
+      - wordnet: "00445529"
+        gloss: "a stroke of the oar that either misses the water or digs too deeply; \"he caught a crab and lost the race\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01932586"
+        gloss: direct (an aircraft) into a crosswind
+        angloform:
+          status: gap
+      - wordnet: "01902678"
+        gloss: scurry sideways like a crab
+        angloform:
+          status: gap
+      - wordnet: "01140065"
+        gloss: fish for crab
+        angloform:
+          status: gap
+      - wordnet: "00910973"
+        gloss: "complain; \"What was he hollering about?\""
+        angloform:
+          status: gap

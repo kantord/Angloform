@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10401829"
+        gloss: someone who takes part in an activity
+        angloform:
+          status: gap
+      - wordnet: "10439851"
+        gloss: a person who participates in or is skilled at some game
+        angloform:
+          status: gap

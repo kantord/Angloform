@@ -1,0 +1,59 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07889814"
+        gloss: English term for a dry sharp-tasting ale with strong flavor of hops (usually on draft)
+        angloform:
+          status: gap
+      - wordnet: "05717115"
+        gloss: the taste experience when quinine or coffee is taken into the mouth
+        angloform:
+          status: gap
+      - wordnet: "04994824"
+        gloss: the property of having a harsh unpleasant taste
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02195751"
+        gloss: make bitter
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00116744"
+        gloss: "marked by strong resentment or cynicism; \"an acrimonious dispute\"; \"bitter about the divorce\""
+        angloform:
+          status: gap
+      - wordnet: "02435901"
+        gloss: "very difficult to accept or bear; \"the bitter truth\"; \"a bitter sorrow\""
+        angloform:
+          status: gap
+      - wordnet: "01802165"
+        gloss: "harsh or corrosive in tone; \"an acerbic tone piercing otherwise flowery prose\"; \"a barrage of acid comments\"; \"her acrid remarks make her many enemies\"; \"bitter words\"; \"blistering criticism\"; \"caustic jokes about political assassination, talk-show hosts and medical ethics\"; \"a sulfurous denunciation\"; \"a vitriolic critique\""
+        angloform:
+          status: gap
+      - wordnet: "01364993"
+        gloss: "expressive of severe grief or regret; \"shed bitter tears\""
+        angloform:
+          status: gap
+      - wordnet: "01245610"
+        gloss: "proceeding from or exhibiting great hostility or animosity; \"a bitter struggle\"; \"bitter enemies\""
+        angloform:
+          status: gap
+      - wordnet: "02396098"
+        gloss: "causing a sharp and acrid taste experience;\"quinine is bitter\""
+        angloform:
+          status: gap
+      - wordnet: "01711910"
+        gloss: "causing a sharply painful or stinging sensation; used especially of cold; \"bitter cold\"; \"a biting wind\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00422435"
+        gloss: "extremely and sharply; \"it was bitterly cold\"; \"bitter cold\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00867983"
+        gloss: a reflex motion caused by cold or fear or excitement
+        angloform:
+          status: gap
+      - wordnet: "07520112"
+        gloss: "an almost pleasurable sensation of fright; \"a frisson of surprise shot through him\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01888946"
+        gloss: tremble convulsively, as from fear or excitement
+        angloform:
+          status: gap
+      - wordnet: "00014201"
+        gloss: "shake, as from cold; \"The children are shivering--turn on the heat!\""
+        angloform:
+          status: gap

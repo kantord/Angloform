@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11669921"
+        gloss: a plant cultivated for its blooms or blossoms
+        angloform:
+          status: gap
+      - wordnet: "11669335"
+        gloss: reproductive organ of angiosperm plants especially one having showy or colorful parts
+        angloform:
+          status: gap
+      - wordnet: "15295045"
+        gloss: the period of greatest prosperity or productivity
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00294245"
+        gloss: "produce or yield flowers; \"The cherry tree bloomed\""
+        angloform:
+          status: gap

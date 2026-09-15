@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00632438"
+        gloss: "not correct; not in conformity with fact or truth; \"an incorrect calculation\"; \"the report in the paper is wrong\"; \"your information is wrong\"; \"the clock showed the wrong time\"; \"found themselves on the wrong road\"; \"based on the wrong assumptions\""
+        angloform:
+          status: redirect
+          word: wrong
+          category: ADJ
+      - wordnet: "01881478"
+        gloss: "not in accord with established usage or procedure; \"the wrong medicine\"; \"the wrong way to shuck clams\"; \"it is incorrect for a policeman to accept gifts\""
+        angloform:
+          status: redirect
+          word: wrong
+          category: ADJ
+      - wordnet: "01146371"
+        gloss: (of a word or expression) not agreeing with grammatical principles
+        angloform:
+          status: gap
+      - wordnet: "00023854"
+        gloss: "characterized by errors; not agreeing with a model or not following established rules; \"he submitted a faulty report\"; \"an incorrect transcription\"; the wrong side of the road\""
+        angloform:
+          status: redirect
+          word: wrong
+          category: ADJ

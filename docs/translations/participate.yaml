@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02450256"
+        gloss: share in something
+        angloform:
+          status: gap
+      - wordnet: "01082606"
+        gloss: "become a participant; be involved in; \"enter a race\"; \"enter an agreement\"; \"enter a drug treatment program\"; \"enter negotiations\""
+        angloform:
+          status: redirect
+          word: enter
+          category: VERB_TRANS

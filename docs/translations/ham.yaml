@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07669891"
+        gloss: meat cut from the thigh of a hog (usually smoked)
+        angloform:
+          status: gap
+      - wordnet: "10158222"
+        gloss: (Old Testament) son of Noah
+        angloform:
+          status: gap
+      - wordnet: "10158139"
+        gloss: a licensed amateur radio operator
+        angloform:
+          status: gap
+      - wordnet: "10158010"
+        gloss: an unskilled actor who overacts
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01751173"
+        gloss: "exaggerate one's acting"
+        angloform:
+          status: gap

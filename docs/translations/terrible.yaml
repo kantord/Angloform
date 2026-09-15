@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00193799"
+        gloss: "causing fear or dread or terror; \"the awful war\"; \"an awful risk\"; \"dire news\"; \"a career or vengeance so direful that London was shocked\"; \"the dread presence of the headmaster\"; \"polio is no longer the dreaded disease it once was\"; \"a dreadful storm\"; \"a fearful howling\"; \"horrendous explosions shook the city\"; \"a terrible curse\""
+        angloform:
+          status: gap
+      - wordnet: "01126291"
+        gloss: "exceptionally bad or displeasing; \"atrocious taste\"; \"abominable workmanship\"; \"an awful voice\"; \"dreadful manners\"; \"a painful performance\"; \"terrible handwriting\"; \"an unspeakable odor came sweeping into the room\""
+        angloform:
+          status: gap
+      - wordnet: "01513050"
+        gloss: "intensely or extremely bad or unpleasant in degree or quality; \"severe pain\"; \"a severe case of flu\"; \"a terrible cough\"; \"under wicked fire from the enemy's guns\"; \"a wicked cough\""
+        angloform:
+          status: gap
+      - wordnet: "01677200"
+        gloss: "extreme in degree or extent or amount or impact; \"in a frightful hurry\"; \"spent a frightful amount of money\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00518164"
+        gloss: "bound or obligated, as under a pledge to a particular cause, action, or attitude; \"committed church members\"; \"a committed Marxist\""
+        angloform:
+          status: gap
+      - wordnet: "00157925"
+        gloss: associated in an exclusive sexual relationship
+        angloform:
+          status: gap

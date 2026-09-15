@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13916721"
+        gloss: a hexahedron with six equal squares as faces
+        angloform:
+          status: gap
+      - wordnet: "13914608"
+        gloss: a three-dimensional shape with six square or rectangular sides
+        angloform:
+          status: gap
+      - wordnet: "13731241"
+        gloss: the product of three equal terms
+        angloform:
+          status: gap
+      - wordnet: "12544862"
+        gloss: any of several tropical American woody plants of the genus Lonchocarpus whose roots are used locally as a fish poison and commercially as a source of rotenone
+        angloform:
+          status: gap
+      - wordnet: "03144592"
+        gloss: a block in the (approximate) shape of a cube
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00640262"
+        gloss: raise to the third power
+        angloform:
+          status: gap
+      - wordnet: "01256867"
+        gloss: "cut into cubes; \"cube the cheese\""
+        angloform:
+          status: gap

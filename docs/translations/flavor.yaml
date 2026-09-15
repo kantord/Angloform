@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14526182"
+        gloss: "the general atmosphere of a place or situation and the effect that it has on people; \"the feel of the city excited him\"; \"a clergyman improved the tone of the meeting\"; \"it had the smell of treason\""
+        angloform:
+          status: gap
+      - wordnet: "05715864"
+        gloss: the taste experience when a savoury condiment is taken into the mouth
+        angloform:
+          status: gap
+      - wordnet: "05844282"
+        gloss: (physics) the six kinds of quarks
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02191766"
+        gloss: "lend flavor to; \"Season the chicken breast after roasting it\""
+        angloform:
+          status: gap

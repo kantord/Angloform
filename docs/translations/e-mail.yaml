@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06279326"
+        gloss: "(computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that can be regenerated at the recipient's terminal when the recipient logs in; \"you cannot send packages by electronic mail\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01032451"
+        gloss: "communicate electronically on the computer; \"she e-mailed me the good news\""
+        angloform:
+          status: gap

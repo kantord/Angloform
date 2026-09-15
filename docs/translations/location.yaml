@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00027167"
+        gloss: a point or extent in space
+        angloform:
+          status: gap
+      - wordnet: "01051331"
+        gloss: the act of putting something in a certain place
+        angloform:
+          status: redirect
+          word: position
+          category: NOUN
+      - wordnet: "00155487"
+        gloss: "a determination of the place where something is; \"he got a good fix on the target\""
+        angloform:
+          status: gap
+      - wordnet: "03682189"
+        gloss: "a workplace away from a studio at which some or all of a movie may be made; \"they shot the film on location in Nevada\""
+        angloform:
+          status: gap

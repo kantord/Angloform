@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07197889"
+        gloss: "an intensive examination testing a student's proficiency in some special field of knowledge; \"she took her comps in English literature\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00525453"
+        gloss: "including all or everything; \"comprehensive coverage\"; \"a comprehensive history of the revolution\"; \"a comprehensive survey\"; \"a comprehensive education\""
+        angloform:
+          status: gap
+      - wordnet: "01863970"
+        gloss: "broad in scope; \"a comprehensive survey of world affairs\""
+        angloform:
+          status: gap

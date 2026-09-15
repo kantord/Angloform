@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01873985"
+        gloss: "appearing as such but not necessarily so; \"for all his apparent wealth he had no money to pay the rent\"; \"the committee investigated some apparent discrepancies\"; \"the ostensible truth of their theories\"; \"his seeming honesty\""
+        angloform:
+          status: redirect
+          word: apparent
+          category: ADJ
+      - wordnet: "01117942"
+        gloss: "represented or appearing as such; pretended; \"His ostensible purpose was charity, his real goal popularity\""
+        angloform:
+          status: gap

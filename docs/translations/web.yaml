@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09477037"
+        gloss: "an intricate network suggesting something that was formed by weaving or interweaving; \"the trees cast a delicate web of shadows over the lawn\""
+        angloform:
+          status: gap
+      - wordnet: "04568557"
+        gloss: an intricate trap that entangles or ensnares its victim
+        angloform:
+          status: gap
+      - wordnet: "01897991"
+        gloss: the flattened weblike part of a feather consisting of a series of barbs on either side of the shaft
+        angloform:
+          status: gap
+      - wordnet: "08434259"
+        gloss: "an interconnected system of things or people; \"he owned a network of shops\"; \"retirement meant dropping out of a whole network of people who had been part of my life\"; \"tangled in a web of cloth\""
+        angloform:
+          status: gap
+      - wordnet: "04604276"
+        gloss: computer network consisting of a collection of internet sites that offer text and graphics and sound and animation resources through the hypertext transfer protocol
+        angloform:
+          status: gap
+      - wordnet: "04568713"
+        gloss: a fabric (especially a fabric in the process of being woven)
+        angloform:
+          status: gap
+      - wordnet: "01898328"
+        gloss: membrane connecting the toes of some aquatic birds and mammals
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01672168"
+        gloss: construct or form a web, as if by weaving
+        angloform:
+          status: gap

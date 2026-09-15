@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00796886"
+        gloss: "a purposeful or industrious undertaking (especially one that requires effort or boldness); \"he had doubts about the whole enterprise\""
+        angloform:
+          status: gap
+      - wordnet: "08056231"
+        gloss: "an organization created for business ventures; \"a growing enterprise must have a bold leader\""
+        angloform:
+          status: gap
+      - wordnet: "04836074"
+        gloss: readiness to embark on bold new ventures
+        angloform:
+          status: gap

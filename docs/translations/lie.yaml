@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06756831"
+        gloss: a statement that deviates from or perverts the truth
+        angloform:
+          status: gap
+      - wordnet: "11131808"
+        gloss: Norwegian diplomat who was the first Secretary General of the United Nations (1896-1968)
+        angloform:
+          status: gap
+      - wordnet: "08624196"
+        gloss: position or manner in which something is situated
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02690708"
+        gloss: be located or situated somewhere; occupy a certain position
+        angloform:
+          status: gap
+      - wordnet: "01547001"
+        gloss: "be lying, be prostrate; be in a horizontal position; \"The sick man lay in bed all day\"; \"the books are lying on the shelf\""
+        angloform:
+          status: gap
+      - wordnet: "02653381"
+        gloss: "originate (in); \"The problems dwell in the social injustices in this country\""
+        angloform:
+          status: gap
+      - wordnet: "02734338"
+        gloss: "be and remain in a particular state or condition; \"lie dormant\""
+        angloform:
+          status: gap
+      - wordnet: "00834259"
+        gloss: "tell an untruth; pretend with intent to deceive; \"Don't lie to your parents\"; \"She lied when she told me she was only 29\""
+        angloform:
+          status: gap
+      - wordnet: "02731390"
+        gloss: "have a place in relation to something else; \"The fate of Bosnia lies in the hands of the West\"; \"The responsibility rests with the Allies\""
+        angloform:
+          status: gap
+      - wordnet: "01985029"
+        gloss: "assume a reclining position; \"lie down on the bed until you feel better\""
+        angloform:
+          status: gap

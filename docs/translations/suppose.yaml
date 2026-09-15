@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00917300"
+        gloss: "express a supposition; \"Let us say that he did not tell the truth\"; \"Let's say you had a lot of money--what would you do?\""
+        angloform:
+          status: redirect
+          word: say
+          category: VERB_TRANS
+      - wordnet: "00631737"
+        gloss: "expect, believe, or suppose; \"I imagine she earned a lot of money with her new novel\"; \"I thought to find her in a bad state\"; \"he didn't think to find her in the kitchen\"; \"I guess she is angry at me for standing her up\""
+        angloform:
+          status: redirect
+          word: guess
+          category: VERB_TRANS
+      - wordnet: "00633443"
+        gloss: "to believe especially on uncertain or tentative grounds; \"Scientists supposed that large dinosaurs lived in swamps\""
+        angloform:
+          status: gap
+      - wordnet: "00716531"
+        gloss: "take for granted or as a given; suppose beforehand; \"I presuppose that you have done your work\""
+        angloform:
+          status: gap
+      - wordnet: "00716345"
+        gloss: "require as a necessary antecedent or precondition; \"This step presupposes two prior ones\""
+        angloform:
+          status: gap

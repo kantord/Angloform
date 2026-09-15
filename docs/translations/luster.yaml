@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04954920"
+        gloss: a quality that outshines the usual
+        angloform:
+          status: gap
+      - wordnet: "04954683"
+        gloss: the visual property of something that shines with reflected light
+        angloform:
+          status: gap
+      - wordnet: "04701162"
+        gloss: a surface coating for ceramics or porcelain
+        angloform:
+          status: gap

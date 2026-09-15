@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02480855"
+        gloss: largest anthropoid ape; terrestrial and vegetarian; of forests of central west Africa
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07712959"
+        gloss: a tortilla chip topped with cheese and chili-pepper and broiled
+        angloform:
+          status: gap

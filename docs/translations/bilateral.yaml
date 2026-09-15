@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02372118"
+        gloss: having identical parts on each side of an axis
+        angloform:
+          status: gap
+      - wordnet: "01946012"
+        gloss: "affecting or undertaken by two parties; \"a bilateral agreement between the United States and Japan\""
+        angloform:
+          status: gap
+      - wordnet: "00237788"
+        gloss: having two sides or parts
+        angloform:
+          status: gap

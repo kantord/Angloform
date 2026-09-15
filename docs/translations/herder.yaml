@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11044789"
+        gloss: German philosopher who advocated intuition over reason (1744-1803)
+        angloform:
+          status: gap
+      - wordnet: "10171567"
+        gloss: someone who drives a herd
+        angloform:
+          status: gap

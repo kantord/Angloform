@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "mmbtu" has zero WordNet senses (a technical unit abbreviation, million
+# British thermal units).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: a unit of energy, one million British thermal units
+        angloform:
+          status: gap
+          note: no energy-unit vocabulary exists yet; extremely narrow technical jargon

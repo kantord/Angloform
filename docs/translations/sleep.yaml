@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14024882"
+        gloss: "a natural and periodic state of rest during which consciousness of the world is suspended; \"he didn't get enough sleep last night\"; \"calm as a child in dreamless slumber\""
+        angloform:
+          status: gap
+      - wordnet: "14025993"
+        gloss: a torpid state resembling deep sleep
+        angloform:
+          status: gap
+      - wordnet: "15273626"
+        gloss: "a period of time spent sleeping; \"he felt better after a little sleep\"; \"there wasn't time for a nap\""
+        angloform:
+          status: gap
+      - wordnet: "13962765"
+        gloss: "euphemisms for death (based on an analogy between lying in a bed and in a tomb); \"she was laid to rest beside her husband\"; \"they had to put their family pet to sleep\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00014742"
+        gloss: be asleep
+        angloform:
+          status: gap
+      - wordnet: "02701445"
+        gloss: "be able to accommodate for sleeping; \"This tent sleeps six people\""
+        angloform:
+          status: gap

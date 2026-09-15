@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00606370"
+        gloss: "the skilled practice of a practical occupation; \"he learned his trade as an apprentice\""
+        angloform:
+          status: gap
+      - wordnet: "03125870"
+        gloss: a vehicle designed for navigation in or on water or air or through outer space
+        angloform:
+          status: gap
+      - wordnet: "08436562"
+        gloss: "people who perform a particular kind of skilled work; \"he represented the craft of brewers\"; \"as they say in the trade\""
+        angloform:
+          status: gap
+      - wordnet: "05638063"
+        gloss: skill in an occupation or trade
+        angloform:
+          status: gap
+      - wordnet: "05621178"
+        gloss: shrewdness as demonstrated by being skilled in deception
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01658762"
+        gloss: "make by hand and with much skill; \"The artisan crafted a complicated tool\""
+        angloform:
+          status: gap

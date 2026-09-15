@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05687338"
+        gloss: "a source of difficulty; \"one trouble after another delayed the job\"; \"what's the problem?\""
+        angloform:
+          status: redirect
+          word: problem
+          category: NOUN
+      - wordnet: "07372565"
+        gloss: "an angry disturbance; \"he didn't want to make a fuss\"; \"they had labor trouble\"; \"a spot of bother\""
+        angloform:
+          status: gap
+      - wordnet: "07289014"
+        gloss: "an event causing distress or pain; \"what is the trouble?\"; \"heart trouble\""
+        angloform:
+          status: gap
+      - wordnet: "00623862"
+        gloss: "an effort that is inconvenient; \"I went to a lot of trouble\"; \"he won without any trouble\"; \"had difficulty walking\"; \"finished the test only with great difficulty\""
+        angloform:
+          status: redirect
+          word: difficulty
+          category: NOUN
+      - wordnet: "07524242"
+        gloss: "a strong feeling of anxiety; \"his worry over the prospect of being fired\"; \"it is not work but worry that kills\"; \"he wanted to die and end his troubles\""
+        angloform:
+          status: gap
+      - wordnet: "14046751"
+        gloss: "an unwanted pregnancy; \"he got several girls in trouble\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01770501"
+        gloss: "move deeply; \"This book upset me\"; \"A troubling thought\""
+        angloform:
+          status: gap
+      - wordnet: "02507736"
+        gloss: "to cause inconvenience or discomfort to; \"Sorry to trouble you, but...\""
+        angloform:
+          status: gap
+      - wordnet: "01764171"
+        gloss: "disturb in mind or make uneasy or cause to be worried or alarmed; \"She was rather perturbed by the news that her father was seriously ill\""
+        angloform:
+          status: gap
+      - wordnet: "02507464"
+        gloss: "take the trouble to do something; concern oneself; \"He did not trouble to call his mother on her birthday\"; \"Don't bother, please\""
+        angloform:
+          status: gap
+      - wordnet: "00070816"
+        gloss: cause bodily suffering to and make sick or indisposed
+        angloform:
+          status: gap

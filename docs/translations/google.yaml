@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06578905"
+        gloss: "a widely used search engine that uses text-matching techniques to find web pages that are important and relevant to a user's search"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00648764"
+        gloss: "search the internet (for information) using the Google search engine; \"He googled the woman he had met at the party\"; \"My children are googling all day\""
+        angloform:
+          status: gap

@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10149867"
+        gloss: someone who guards prisoners
+        angloform:
+          status: gap
+      - wordnet: "04154340"
+        gloss: a simple machine of the inclined-plane type consisting of a spirally threaded cylindrical rod that engages with a similarly threaded hole
+        angloform:
+          status: gap
+      - wordnet: "04154152"
+        gloss: a propeller with several angled blades that rotates to push against water or air
+        angloform:
+          status: gap
+      - wordnet: "04153751"
+        gloss: a fastener with a tapered threaded shank and a slotted head
+        angloform:
+          status: gap
+      - wordnet: "00846021"
+        gloss: slang for sexual intercourse
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01426397"
+        gloss: "have sexual intercourse with; \"This student sleeps with everyone in her dorm\"; \"Adam knew Eve\"; \"Were you ever intimate with this man?\""
+        angloform:
+          status: redirect
+          word: know
+          category: VERB_TRANS
+      - wordnet: "01353169"
+        gloss: turn like a screw
+        angloform:
+          status: gap
+      - wordnet: "01352996"
+        gloss: "cause to penetrate, as with a circular motion; \"drive in screws or bolts\""
+        angloform:
+          status: gap
+      - wordnet: "01352806"
+        gloss: "tighten or fasten by means of screwing motions; \"Screw the bottle cap on\""
+        angloform:
+          status: gap
+      - wordnet: "01104624"
+        gloss: defeat someone through trickery or deceit
+        angloform:
+          status: redirect
+          word: cheat
+          category: VERB_INTRANS

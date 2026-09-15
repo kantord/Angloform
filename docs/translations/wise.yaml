@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04931733"
+        gloss: "a way of doing or being; \"in no wise\"; \"in this wise\""
+        angloform:
+          status: gap
+      - wordnet: "11393315"
+        gloss: United States Jewish leader (born in Hungary) (1874-1949)
+        angloform:
+          status: gap
+      - wordnet: "11393124"
+        gloss: United States religious leader (born in Bohemia) who united reform Jewish organizations in the United States (1819-1900)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02569130"
+        gloss: "having or prompted by wisdom or discernment; \"a wise leader\"; \"a wise and perceptive comment\""
+        angloform:
+          status: gap
+      - wordnet: "01898722"
+        gloss: "marked by the exercise of good judgment or common sense in practical matters; \"judicious use of one's money\"; \"a wise decision\""
+        angloform:
+          status: gap
+      - wordnet: "01307690"
+        gloss: evidencing the possession of inside information
+        angloform:
+          status: gap
+      - wordnet: "00205295"
+        gloss: "improperly forward or bold; \"don't be fresh with me\"; \"impertinent of a child to lecture a grownup\"; \"an impudent boy given to insulting strangers\"; \"Don't get wise with me!\""
+        angloform:
+          status: gap

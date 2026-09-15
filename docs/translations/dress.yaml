@@ -1,0 +1,92 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03236735"
+        gloss: a one-piece garment for a woman; has skirt and bodice
+        angloform:
+          status: gap
+      - wordnet: "02756098"
+        gloss: "clothing of a distinctive style or for a particular occasion; \"formal attire\"; \"battle dress\""
+        angloform:
+          status: gap
+      - wordnet: "02728440"
+        gloss: "clothing in general; \"she was refined in her choice of apparel\"; \"he always bought his clothes at the same store\"; \"fastidious about his dress\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00046534"
+        gloss: "put on clothes; \"we had to dress quickly\"; \"dress the patient\"; \"Can the child dress by herself?\""
+        angloform:
+          status: gap
+      - wordnet: "00047945"
+        gloss: "provide with clothes or put clothes on; \"Parents must feed and dress their child\""
+        angloform:
+          status: gap
+      - wordnet: "01266269"
+        gloss: "put a finish on; \"dress the surface smooth\""
+        angloform:
+          status: gap
+      - wordnet: "00044797"
+        gloss: "dress in a certain manner; \"She dresses in the latest Paris fashion\"; \"he dressed up in a suit and tie\""
+        angloform:
+          status: gap
+      - wordnet: "00043683"
+        gloss: "dress or groom with elaborate care; \"She likes to dress when going to the opera\""
+        angloform:
+          status: gap
+      - wordnet: "00542809"
+        gloss: "kill and prepare for market or consumption; \"dress a turkey\""
+        angloform:
+          status: gap
+      - wordnet: "02036650"
+        gloss: "arrange in ranks; \"dress troops\""
+        angloform:
+          status: gap
+      - wordnet: "01679433"
+        gloss: decorate (food), as with parsley or other ornamental foods
+        angloform:
+          status: gap
+      - wordnet: "01466543"
+        gloss: "provide with decoration; \"dress the windows\""
+        angloform:
+          status: gap
+      - wordnet: "01364184"
+        gloss: "put a dressing on; \"dress the salads\""
+        angloform:
+          status: gap
+      - wordnet: "01321002"
+        gloss: "cultivate, tend, and cut back the growth of; \"dress the plants in the garden\""
+        angloform:
+          status: gap
+      - wordnet: "01262813"
+        gloss: cut down rough-hewn (lumber) to standard thickness and width
+        angloform:
+          status: gap
+      - wordnet: "00511636"
+        gloss: "convert into leather; \"dress the tanned skins\""
+        angloform:
+          status: gap
+      - wordnet: "00082714"
+        gloss: "apply a bandage or medication to; \"dress the victim's wounds\""
+        angloform:
+          status: gap
+      - wordnet: "00045639"
+        gloss: "give a neat appearance to; \"groom the dogs\"; \"dress the horses\""
+        angloform:
+          status: gap
+      - wordnet: "00038849"
+        gloss: "arrange attractively; \"dress my hair for the wedding\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01043226"
+        gloss: "suitable for formal occasions; \"formal wear\"; \"a full-dress uniform\"; \"dress shoes\""
+        angloform:
+          status: gap
+      - wordnet: "01042921"
+        gloss: "(of an occasion) requiring formal clothes; \"a dress dinner\"; \"a full-dress ceremony\""
+        angloform:
+          status: gap

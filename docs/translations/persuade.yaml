@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02586121"
+        gloss: "win approval or support for; \"Carry all before one\"; \"His speech did not sway the voters\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "00766418"
+        gloss: "cause somebody to adopt a certain position, belief, or course of action; twist somebody's arm; \"You can't persuade me to buy this ugly vase!\""
+        angloform:
+          status: gap

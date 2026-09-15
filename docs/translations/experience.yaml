@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05758059"
+        gloss: "the accumulation of knowledge or skill that results from direct participation in events or activities; \"a man of experience\"; \"experience is the best teacher\""
+        angloform:
+          status: gap
+      - wordnet: "05984584"
+        gloss: "the content of direct observation or participation in an event; \"he had a religious experience\"; \"he recalled the experience vividly\""
+        angloform:
+          status: gap
+      - wordnet: "07285403"
+        gloss: "an event as apprehended; \"a surprising experience\"; \"that painful experience certainly got our attention\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02110220"
+        gloss: "go or live through; \"We had many trials to go through\"; \"he saw action in Viet Nam\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "00596644"
+        gloss: "have firsthand knowledge of states, situations, emotions, or sensations; \"I know the feeling!\"; \"have you ever known hunger?\"; \"I have lived a kind of hell when I was a drug addict\"; \"The holocaust survivors have lived a nightmare\"; \"I lived through two divorces\""
+        angloform:
+          status: redirect
+          word: know
+          category: VERB_TRANS
+      - wordnet: "02108026"
+        gloss: "go through (mental or physical states or experiences); \"get an idea\"; \"experience vertigo\"; \"get nauseous\"; \"receive injuries\"; \"have a feeling\""
+        angloform:
+          status: redirect
+          word: have
+          category: VERB_TRANS
+      - wordnet: "01771535"
+        gloss: "undergo an emotional sensation or be in a particular state of mind; \"She felt resentful\"; \"He felt regret\""
+        angloform:
+          status: gap
+      - wordnet: "00121046"
+        gloss: "undergo; \"The stocks had a fast run-up\""
+        angloform:
+          status: redirect
+          word: have
+          category: VERB_TRANS

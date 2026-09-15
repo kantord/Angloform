@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00992331"
+        gloss: use of chemical analysis to estimate the age of geological specimens
+        angloform:
+          status: gap

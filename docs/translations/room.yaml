@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04105893"
+        gloss: "an area within a building enclosed by walls and floor and ceiling; \"the rooms were very small but they had a nice view\""
+        angloform:
+          status: gap
+      - wordnet: "13777764"
+        gloss: "space for movement; \"room to pass\"; \"make way for\"; \"hardly enough elbow room to turn around\""
+        angloform:
+          status: redirect
+          word: way
+          category: NOUN
+      - wordnet: "14485436"
+        gloss: "opportunity for; \"room for improvement\""
+        angloform:
+          status: gap
+      - wordnet: "07985948"
+        gloss: "the people who are present in a room; \"the whole room was cheering\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02656763"
+        gloss: "live and take one's meals at or in; \"she rooms in an old boarding house\""
+        angloform:
+          status: gap

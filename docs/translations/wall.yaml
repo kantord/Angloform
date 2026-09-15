@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04546855"
+        gloss: "an architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure; \"the south wall had a small window\"; \"the walls were covered with pictures\""
+        angloform:
+          status: gap
+      - wordnet: "09474162"
+        gloss: "anything that suggests a wall in structure or function or effect; \"a wall of water\"; \"a wall of smoke\"; \"a wall of prejudice\"; \"negotiations ran into a brick wall\""
+        angloform:
+          status: gap
+      - wordnet: "05604254"
+        gloss: "(anatomy) a layer (a lining or membrane) that encloses a structure; \"stomach walls\""
+        angloform:
+          status: gap
+      - wordnet: "14564779"
+        gloss: "a difficult or awkward situation; \"his back was to the wall\"; \"competition was pushing them to the wall\""
+        angloform:
+          status: gap
+      - wordnet: "09474412"
+        gloss: a vertical (or almost vertical) smooth rock face (as of a cave or mountain)
+        angloform:
+          status: gap
+      - wordnet: "04547821"
+        gloss: "a layer of material that encloses space; \"the walls of the cylinder were perforated\"; \"the container's walls were blue\""
+        angloform:
+          status: gap
+      - wordnet: "04547592"
+        gloss: "a masonry fence (as around an estate or garden); \"the wall followed the road\"; \"he ducked behind the garden wall and waited\""
+        angloform:
+          status: gap
+      - wordnet: "04051825"
+        gloss: "an embankment built around a space for defensive purposes; \"they stormed the ramparts of the city\"; \"they blew the trumpet and the walls came tumbling down\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01130607"
+        gloss: surround with a wall in order to fortify
+        angloform:
+          status: gap

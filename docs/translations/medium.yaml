@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06254669"
+        gloss: a means or instrumentality for storing or communicating information
+        angloform:
+          status: gap
+      - wordnet: "08568142"
+        gloss: "the surrounding environment; \"fish require an aqueous medium\""
+        angloform:
+          status: gap
+      - wordnet: "06254475"
+        gloss: an intervening substance through which signals can travel as a means for communication
+        angloform:
+          status: gap
+      - wordnet: "14899328"
+        gloss: (bacteriology) a nutrient substance (solid or liquid) that is used to cultivate micro-organisms
+        angloform:
+          status: gap
+      - wordnet: "14899888"
+        gloss: a liquid with which pigment is mixed by a painter
+        angloform:
+          status: gap
+      - wordnet: "14899530"
+        gloss: (biology) a substance in which specimens are preserved or displayed
+        angloform:
+          status: gap
+      - wordnet: "14899152"
+        gloss: "an intervening substance through which something is achieved; \"the dissolving medium is called a solvent\""
+        angloform:
+          status: gap
+      - wordnet: "13920169"
+        gloss: "a state that is intermediate between extremes; a middle position; \"a happy medium\""
+        angloform:
+          status: gap
+      - wordnet: "10306279"
+        gloss: "someone who serves as an intermediary between the living and the dead; \"he consulted several mediums\""
+        angloform:
+          status: gap
+      - wordnet: "06261586"
+        gloss: (usually plural) transmissions that are disseminated widely to the public
+        angloform:
+          status: gap
+      - wordnet: "00610222"
+        gloss: "an occupation for which you are especially well suited; \"in law he found his true metier\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01531957"
+        gloss: "around the middle of a scale of evaluation; \"an orange of average size\"; \"intermediate capacity\"; \"medium bombers\""
+        angloform:
+          status: gap
+      - wordnet: "00617752"
+        gloss: (meat) cooked until there is just a little pink meat inside
+        angloform:
+          status: gap

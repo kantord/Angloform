@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09871364"
+        gloss: "a man who is the lover of a girl or young woman; \"if I'd known he was her boyfriend I wouldn't have asked\""
+        angloform:
+          status: gap

@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07493280"
+        gloss: "the feeling that comes when something burdensome is removed or reduced; \"as he heard the news he was suddenly flooded with relief\""
+        angloform:
+          status: gap
+      - wordnet: "14445749"
+        gloss: "the condition of being comfortable or relieved (especially after being relieved of distress); \"he enjoyed his relief from responsibility\"; \"getting it off his conscience gave him some ease\""
+        angloform:
+          status: gap
+      - wordnet: "13290991"
+        gloss: "(law) redress awarded by a court; \"was the relief supposed to be protection from future harm or compensation for past injury?\""
+        angloform:
+          status: gap
+      - wordnet: "10648237"
+        gloss: "someone who takes the place of another (as when things get dangerous or difficult); \"the star had a stand-in for dangerous scenes\"; \"we need extra employees for summer fill-ins\""
+        angloform:
+          status: gap
+      - wordnet: "01209220"
+        gloss: "assistance in time of difficulty; \"the contributions provided some relief for the victims\""
+        angloform:
+          status: gap
+      - wordnet: "15274074"
+        gloss: "a pause for relaxation; \"people actually accomplish more when they take time for short rests\""
+        angloform:
+          status: gap
+      - wordnet: "07357101"
+        gloss: a change for the better
+        angloform:
+          status: gap
+      - wordnet: "01088168"
+        gloss: "aid for the aged or indigent or handicapped; \"he has been on relief for many years\""
+        angloform:
+          status: gap
+      - wordnet: "00354884"
+        gloss: "the act of reducing something unpleasant (as pain or annoyance); \"he asked the nurse for relief from the constant pain\""
+        angloform:
+          status: gap
+      - wordnet: "04073669"
+        gloss: sculpture consisting of shapes carved on a surface so as to stand out from the surrounding background
+        angloform:
+          status: gap
+      - wordnet: "01075567"
+        gloss: "the act of freeing a city or town that has been besieged; \"he asked for troops for the relief of Atlanta\""
+        angloform:
+          status: gap

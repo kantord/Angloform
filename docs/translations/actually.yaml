@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00149510"
+        gloss: "in actual fact; \"to be nominally but not actually independent\"; \"no one actually saw the shark\"; \"large meteorites actually come from the asteroid belt\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00149138"
+        gloss: "used to imply that one would expect the fact to be the opposite of that stated; surprisingly; \"you may actually be doing the right thing by walking out\"; \"she actually spoke Latin\"; \"they thought they made the rules but in reality they were only puppets\"; \"people who seem stand-offish are in reality often simply nervous\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00150003"
+        gloss: "at the present moment; \"the transmission screen shows the picture that is actually on the air\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00149744"
+        gloss: "as a sentence modifier to add slight emphasis; \"actually, we all help clear up after a meal\"; \"actually, I haven't seen the film\"; \"I'm not all that surprised actually\"; \"she hasn't proved to be too satisfactory, actually\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

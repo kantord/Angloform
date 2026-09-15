@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04212282"
+        gloss: badminton equipment consisting of a ball of cork or rubber with a crown of feathers
+        angloform:
+          status: gap
+      - wordnet: "04211970"
+        gloss: public transport that consists of a bus or train or airplane that plies back and forth between two points
+        angloform:
+          status: gap
+      - wordnet: "04211857"
+        gloss: bobbin that passes the weft thread between the warp threads
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02062081"
+        gloss: travel back and forth between two points
+        angloform:
+          status: gap

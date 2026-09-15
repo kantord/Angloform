@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06518719"
+        gloss: a commercial document showing that the holder is entitled to something (as to ride on public transportation or to enter a public entertainment)
+        angloform:
+          status: gap
+      - wordnet: "07273136"
+        gloss: a label written or printed on paper, cardboard, or plastic that is attached to something to indicate its owner, nature, price, etc.
+        angloform:
+          status: gap
+      - wordnet: "06558678"
+        gloss: a summons issued to an offender (especially to someone who violates a traffic regulation)
+        angloform:
+          status: gap
+      - wordnet: "06495948"
+        gloss: a list of candidates nominated by a political party to run for election to public offices
+        angloform:
+          status: gap
+      - wordnet: "04716703"
+        gloss: "the appropriate or desirable thing; \"this car could be just the ticket for a small family\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02498716"
+        gloss: "issue a ticket or a fine to as a penalty; \"I was fined for parking on the wrong side of the street\"; \"Move your car or else you will be ticketed!\""
+        angloform:
+          status: gap
+      - wordnet: "02329413"
+        gloss: "provide with a ticket for passage or admission; \"Ticketed passengers can board now\""
+        angloform:
+          status: gap

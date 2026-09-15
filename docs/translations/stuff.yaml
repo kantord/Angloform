@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14580897"
+        gloss: "the tangible substance that goes into the makeup of a physical object; \"coal is a hard black material\"; \"wheat is the stuff they use to make bread\""
+        angloform:
+          status: gap
+      - wordnet: "04345288"
+        gloss: "miscellaneous unspecified objects; \"the trunk was full of stuff\""
+        angloform:
+          status: gap
+      - wordnet: "13251154"
+        gloss: "informal terms for personal possessions; \"did you take all your clobber?\""
+        angloform:
+          status: gap
+      - wordnet: "06609909"
+        gloss: "senseless talk; \"don't give me that stuff\""
+        angloform:
+          status: gap
+      - wordnet: "05210534"
+        gloss: "unspecified qualities required to do or be something; \"the stuff of heros\"; \"you don't have the stuff to be a United States Marine\""
+        angloform:
+          status: gap
+      - wordnet: "07219004"
+        gloss: "information in some unspecified form; \"it was stuff I had heard before\"; \"there's good stuff in that book\""
+        angloform:
+          status: gap
+      - wordnet: "05922305"
+        gloss: "a critically important or characteristic component; \"suspense is the very stuff of narrative\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01524871"
+        gloss: "cram into a cavity; \"The child stuffed candy into his pockets\""
+        angloform:
+          status: gap
+      - wordnet: "02094569"
+        gloss: "press or force; \"Stuff money into an envelope\"; \"She thrust the letter into his hand\""
+        angloform:
+          status: gap
+      - wordnet: "01479333"
+        gloss: "obstruct; \"My nose is all stuffed\"; \"Her arteries are blocked\""
+        angloform:
+          status: gap
+      - wordnet: "01193099"
+        gloss: "overeat or eat immodestly; make a pig of oneself; \"She stuffed herself at the dinner\"; \"The kids binged on ice cream\""
+        angloform:
+          status: gap
+      - wordnet: "00497555"
+        gloss: "treat with grease, fill, and prepare for mounting; \"stuff a bearskin\""
+        angloform:
+          status: gap
+      - wordnet: "00321148"
+        gloss: "fill tightly with a material; \"stuff a pillow with feathers\""
+        angloform:
+          status: gap
+      - wordnet: "00320681"
+        gloss: "fill with a stuffing while cooking; \"Have you stuffed the turkey yet?\""
+        angloform:
+          status: gap

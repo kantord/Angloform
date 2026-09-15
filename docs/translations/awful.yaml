@@ -1,0 +1,35 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01126291"
+        gloss: "exceptionally bad or displeasing; \"atrocious taste\"; \"abominable workmanship\"; \"an awful voice\"; \"dreadful manners\"; \"a painful performance\"; \"terrible handwriting\"; \"an unspeakable odor came sweeping into the room\""
+        angloform:
+          status: gap
+      - wordnet: "00193799"
+        gloss: "causing fear or dread or terror; \"the awful war\"; \"an awful risk\"; \"dire news\"; \"a career or vengeance so direful that London was shocked\"; \"the dread presence of the headmaster\"; \"polio is no longer the dreaded disease it once was\"; \"a dreadful storm\"; \"a fearful howling\"; \"horrendous explosions shook the city\"; \"a terrible curse\""
+        angloform:
+          status: gap
+      - wordnet: "01587077"
+        gloss: "offensive or even (of persons) malicious; \"in a nasty mood\"; \"a nasty accident\"; \"a nasty shock\"; \"a nasty smell\"; \"a nasty trick to pull\"; \"Will he say nasty things at my funeral?\"- Ezra Pound"
+        angloform:
+          status: gap
+      - wordnet: "02012157"
+        gloss: "inspired by a feeling of fearful wonderment or reverence; \"awed by the silence\"; \"awful worshippers with bowed heads\""
+        angloform:
+          status: gap
+      - wordnet: "01677200"
+        gloss: "extreme in degree or extent or amount or impact; \"in a frightful hurry\"; \"spent a frightful amount of money\""
+        angloform:
+          status: gap
+      - wordnet: "01282510"
+        gloss: "inspiring awe or admiration or wonder; \"New York is an amazing city\"; \"the Grand Canyon is an awe-inspiring sight\"; \"the awesome complexity of the universe\"; \"this sea, whose gently awful stirrings seem to speak of some hidden soul beneath\"- Melville; \"Westminster Hall's awing majesty, so vast, so high, so silent\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00054950"
+        gloss: "used as intensifiers; \"terribly interesting\"; \"I'm awful sorry\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

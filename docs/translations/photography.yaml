@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00903559"
+        gloss: the act of taking and printing photographs
+        angloform:
+          status: gap
+      - wordnet: "13536794"
+        gloss: the process of producing images of objects on photosensitive surfaces
+        angloform:
+          status: gap
+      - wordnet: "00620554"
+        gloss: the occupation of taking and printing photographs or making movies
+        angloform:
+          status: gap

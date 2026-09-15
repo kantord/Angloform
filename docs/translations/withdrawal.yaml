@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07206302"
+        gloss: a retraction of a previously held position
+        angloform:
+          status: gap
+      - wordnet: "01262713"
+        gloss: the act of taking out money or other capital
+        angloform:
+          status: gap
+      - wordnet: "00053913"
+        gloss: "the act of withdrawing; \"the withdrawal of French troops from Vietnam\""
+        angloform:
+          status: gap
+      - wordnet: "07506031"
+        gloss: avoiding emotional involvement
+        angloform:
+          status: gap
+      - wordnet: "01262868"
+        gloss: "the act of withdrawing blood, tumors, etc.; \"the nurse was expert at the withdrawal of blood\""
+        angloform:
+          status: gap
+      - wordnet: "01202799"
+        gloss: the act of ceasing to participate in an activity
+        angloform:
+          status: gap
+      - wordnet: "00849059"
+        gloss: a method of birth control in which coitus is initiated but the penis is deliberately withdrawn before ejaculation
+        angloform:
+          status: gap
+      - wordnet: "00384933"
+        gloss: formal separation from an alliance or federation
+        angloform:
+          status: gap
+      - wordnet: "00228911"
+        gloss: the termination of drug taking
+        angloform:
+          status: gap

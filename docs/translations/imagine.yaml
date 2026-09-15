@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01636397"
+        gloss: "form a mental image of something that is not present or that is not the case; \"Can you conceive of him as the president?\""
+        angloform:
+          status: gap
+      - wordnet: "00631737"
+        gloss: "expect, believe, or suppose; \"I imagine she earned a lot of money with her new novel\"; \"I thought to find her in a bad state\"; \"he didn't think to find her in the kitchen\"; \"I guess she is angry at me for standing her up\""
+        angloform:
+          status: redirect
+          word: guess
+          category: VERB_TRANS

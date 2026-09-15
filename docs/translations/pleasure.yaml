@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07490713"
+        gloss: "a fundamental feeling that is hard to define but that people desire to experience; \"he was tingling with pleasure\""
+        angloform:
+          status: gap
+      - wordnet: "05829782"
+        gloss: "something or someone that provides a source of happiness; \"a joy to behold\"; \"the pleasure of his company\"; \"the new car is a delight\""
+        angloform:
+          status: gap
+      - wordnet: "05790452"
+        gloss: "a formal expression; \"he serves at the pleasure of the President\""
+        angloform:
+          status: gap
+      - wordnet: "01071746"
+        gloss: "an activity that affords enjoyment; \"he puts duty before pleasure\""
+        angloform:
+          status: gap
+      - wordnet: "00846326"
+        gloss: "sexual gratification; \"he took his pleasure of her\""
+        angloform:
+          status: gap

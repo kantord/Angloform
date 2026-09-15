@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13949802"
+        gloss: "status established in order of importance or urgency; \"...its precedence as the world's leading manufacturer of pharmaceuticals\"; \"national independence takes priority over class struggle\""
+        angloform:
+          status: gap
+      - wordnet: "05047279"
+        gloss: preceding in time
+        angloform:
+          status: gap

@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05817845"
+        gloss: "an isolated fact that is considered separately from the whole; \"several of the details are similar\"; \"a point of information\""
+        angloform:
+          status: redirect
+          word: point
+          category: NOUN
+      - wordnet: "13809920"
+        gloss: "a small part that can be considered separately from the whole; \"it was perfect in all details\""
+        angloform:
+          status: redirect
+          word: item
+          category: NOUN
+      - wordnet: "07137807"
+        gloss: "extended treatment of particulars; \"the essay contained too much detail\""
+        angloform:
+          status: gap
+      - wordnet: "08243081"
+        gloss: "a crew of workers selected for a particular task; \"a detail was sent to remove the fallen trees\""
+        angloform:
+          status: gap
+      - wordnet: "08404549"
+        gloss: "a temporary military unit; \"the peacekeeping force includes one British contingent\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00956250"
+        gloss: provide details for
+        angloform:
+          status: gap
+      - wordnet: "00678105"
+        gloss: "assign to a specific task; \"The ambulances were detailed to the fire station\""
+        angloform:
+          status: gap

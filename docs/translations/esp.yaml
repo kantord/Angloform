@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07256695"
+        gloss: apparent power to perceive things that are not present to the senses
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10787470"
+        gloss: "an adult female person (as opposed to a man); \"the woman kept house while the man hunted\""
+        angloform:
+          status: gap
+      - wordnet: "10788852"
+        gloss: "a female person who plays a significant role (wife or mistress or girlfriend) in the life of a particular man; \"he was faithful to his woman\""
+        angloform:
+          status: gap
+      - wordnet: "09911226"
+        gloss: "a human female employed to do housework; \"the char will clean the carpet\"; \"I have a woman who comes in four hours a day while I write\""
+        angloform:
+          status: gap
+      - wordnet: "08477634"
+        gloss: "women as a class; \"it's an insult to American womanhood\"; \"woman is the glory of creation\"; \"the fair sex gathered on the veranda\""
+        angloform:
+          status: gap

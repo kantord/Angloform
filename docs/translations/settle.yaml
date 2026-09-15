@@ -1,0 +1,102 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04177820"
+        gloss: a long wooden bench with a back
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01988458"
+        gloss: "settle into a position, usually on a surface or ground; \"dust settled on the roofs\""
+        angloform:
+          status: gap
+      - wordnet: "00698855"
+        gloss: "bring to an end; settle conclusively; \"The case was decided\"; \"The judge decided the case in favor of the plaintiff\"; \"The father adjudicated when the sons were quarreling over their inheritance\""
+        angloform:
+          status: redirect
+          word: resolve
+          category: VERB_TRANS
+      - wordnet: "00763399"
+        gloss: "settle conclusively; come to terms; \"We finally settled the argument\""
+        angloform:
+          status: gap
+      - wordnet: "00413876"
+        gloss: "take up residence and become established; \"The immigrants settled in the Midwest\""
+        angloform:
+          status: gap
+      - wordnet: "00764902"
+        gloss: "come to terms; \"After some discussion we finally made up\""
+        angloform:
+          status: gap
+      - wordnet: "01989873"
+        gloss: "go under, \"The raft sank and its occupants drowned\""
+        angloform:
+          status: gap
+      - wordnet: "00415398"
+        gloss: "become settled or established and stable in one's residence or life style; \"He finally settled down\""
+        angloform:
+          status: gap
+      - wordnet: "00558673"
+        gloss: "become resolved, fixed, established, or quiet; \"The roar settled to a thunder\"; \"The wind settled in the West\"; \"it is settling to rain\"; \"A cough settled in her chest\"; \"Her mood settled into lethargy\""
+        angloform:
+          status: gap
+      - wordnet: "00539338"
+        gloss: "establish or develop as a residence; \"He settled the farm 200 years ago\"; \"This land was settled by Germans\""
+        angloform:
+          status: gap
+      - wordnet: "01987058"
+        gloss: come to rest
+        angloform:
+          status: gap
+      - wordnet: "01465921"
+        gloss: "arrange or fix in the desired order; \"She settled the teacart\""
+        angloform:
+          status: gap
+      - wordnet: "00798091"
+        gloss: "accept despite lack of complete satisfaction; \"We settled for a lower price\""
+        angloform:
+          status: gap
+      - wordnet: "00764032"
+        gloss: "end a legal dispute by arriving at a settlement; \"The two parties finally settled\""
+        angloform:
+          status: gap
+      - wordnet: "02254258"
+        gloss: dispose of; make a financial settlement
+        angloform:
+          status: gap
+      - wordnet: "01986715"
+        gloss: "become clear by the sinking of particles; \"the liquid gradually settled\""
+        angloform:
+          status: gap
+      - wordnet: "01986551"
+        gloss: cause to become clear by forming a sediment (of liquids)
+        angloform:
+          status: gap
+      - wordnet: "01986185"
+        gloss: "sink down or precipitate; \"the mud subsides when the waters become calm\""
+        angloform:
+          status: gap
+      - wordnet: "01493619"
+        gloss: "fix firmly; \"He ensconced himself in the chair\""
+        angloform:
+          status: gap
+      - wordnet: "01092128"
+        gloss: "get one's revenge for a wrong or an injury; \"I finally settled with my old enemy\""
+        angloform:
+          status: gap
+      - wordnet: "00481941"
+        gloss: "make final; put the last touches on; put into final form; \"let's finalize the proposal\""
+        angloform:
+          status: gap
+      - wordnet: "00415044"
+        gloss: "form a community; \"The Swedes settled in Minnesota\""
+        angloform:
+          status: gap
+      - wordnet: "00342164"
+        gloss: "come as if by falling; \"Night fell\"; \"Silence fell\""
+        angloform:
+          status: redirect
+          word: fall
+          category: VERB_INTRANS

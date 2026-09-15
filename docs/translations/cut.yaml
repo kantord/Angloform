@@ -1,0 +1,300 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13289159"
+        gloss: "a share of the profits; \"everyone got a cut of the earnings\""
+        angloform:
+          status: gap
+      - wordnet: "06618234"
+        gloss: "(film) an immediate transition from one shot to the next; \"the cut from the accident scene to the hospital seemed too abrupt\""
+        angloform:
+          status: gap
+      - wordnet: "03152619"
+        gloss: a trench resembling a furrow that was made by erosion or excavation
+        angloform:
+          status: gap
+      - wordnet: "14429885"
+        gloss: "a step on some scale; \"he is a cut above the rest\""
+        angloform:
+          status: gap
+      - wordnet: "14287113"
+        gloss: "a wound made by cutting; \"he put a bandage over the cut\""
+        angloform:
+          status: gap
+      - wordnet: "07653394"
+        gloss: a piece of meat that has been cut from an animal carcass
+        angloform:
+          status: gap
+      - wordnet: "06721461"
+        gloss: "a remark capable of wounding mentally; \"the unkindest cut of all\""
+        angloform:
+          status: gap
+      - wordnet: "06612865"
+        gloss: "a distinct selection of music from a recording or a compact disc; \"he played the first cut on the cd\"; \"the title track of the album\""
+        angloform:
+          status: gap
+      - wordnet: "06428216"
+        gloss: "the omission that is made when an editorial change shortens a written passage; \"an editor's deletions frequently upset young authors\"; \"both parties agreed on the excision of the proposed clause\""
+        angloform:
+          status: gap
+      - wordnet: "05750948"
+        gloss: "the style in which a garment is cut; \"a dress of traditional cut\""
+        angloform:
+          status: gap
+      - wordnet: "03152743"
+        gloss: a canal made by erosion or excavation
+        angloform:
+          status: gap
+      - wordnet: "01225997"
+        gloss: "a refusal to recognize someone you know; \"the snub was clearly intentional\""
+        angloform:
+          status: gap
+      - wordnet: "00571444"
+        gloss: "in baseball; a batter's attempt to hit a pitched ball; \"he took a vicious cut at the ball\""
+        angloform:
+          status: gap
+      - wordnet: "00565809"
+        gloss: "(sports) a stroke that puts reverse spin on the ball; \"cuts do not bother a good tennis player\""
+        angloform:
+          status: gap
+      - wordnet: "00489475"
+        gloss: "the division of a deck of cards before dealing; \"he insisted that we give him the last cut before every deal\"; \"the cutting of the cards soon became a ritual\""
+        angloform:
+          status: gap
+      - wordnet: "00387657"
+        gloss: "the act of penetrating or opening open with a sharp edge; \"his cut in the lining revealed the hidden jewels\""
+        angloform:
+          status: gap
+      - wordnet: "00386915"
+        gloss: "the act of cutting something into parts; \"his cuts were skillful\"; \"his cutting of the cake made a terrible mess\""
+        angloform:
+          status: gap
+      - wordnet: "00359238"
+        gloss: "the act of shortening something by chopping off the ends; \"the barber gave him a good cut\""
+        angloform:
+          status: gap
+      - wordnet: "00352331"
+        gloss: "the act of reducing the amount or number; \"the mayor proposed extensive cuts in the city budget\""
+        angloform:
+          status: gap
+      - wordnet: "00067254"
+        gloss: "an unexcused absence from class; \"he was punished for taking too many cuts in his math class\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01552519"
+        gloss: "separate with or as if with an instrument; \"Cut the rope\""
+        angloform:
+          status: gap
+      - wordnet: "00429060"
+        gloss: "cut down on; make a reduction in; \"reduce your daily fat intake\"; \"The employer wants to cut back health benefits\""
+        angloform:
+          status: redirect
+          word: reduce
+          category: VERB_TRANS
+      - wordnet: "02033295"
+        gloss: "turn sharply; change direction abruptly; \"The car cut to the left at the intersection\"; \"The motorbike veered to the right\""
+        angloform:
+          status: gap
+      - wordnet: "01610834"
+        gloss: "make an incision or separation; \"cut along the dotted line\""
+        angloform:
+          status: gap
+      - wordnet: "02422283"
+        gloss: "discharge from a group; \"The coach cut two players from the team\""
+        angloform:
+          status: gap
+      - wordnet: "01754915"
+        gloss: "form by probing, penetrating, or digging; \"cut a hole\"; \"cut trenches\"; \"The sweat cut little rivulets into her face\""
+        angloform:
+          status: gap
+      - wordnet: "01666717"
+        gloss: "style and tailor in a certain fashion; \"cut a dress\""
+        angloform:
+          status: gap
+      - wordnet: "01413917"
+        gloss: "hit (a ball) with a spin so that it turns in the opposite direction; \"cut a Ping-Pong ball\""
+        angloform:
+          status: gap
+      - wordnet: "01064799"
+        gloss: "make out and issue; \"write out a check\"; \"cut a ticket\"; \"Please make the check out to me\""
+        angloform:
+          status: gap
+      - wordnet: "00201722"
+        gloss: "cut and assemble the components of; \"edit film\"; \"cut recording tape\""
+        angloform:
+          status: redirect
+          word: edit
+          category: VERB_TRANS
+      - wordnet: "02613860"
+        gloss: "intentionally fail to attend; \"cut class\""
+        angloform:
+          status: redirect
+          word: skip
+          category: VERB_TRANS
+      - wordnet: "02588280"
+        gloss: "be able to manage or manage successfully; \"I can't hack it anymore\"; \"she could not cut the long days in the office\""
+        angloform:
+          status: gap
+      - wordnet: "02134232"
+        gloss: "give the appearance or impression of; \"cut a nice figure\""
+        angloform:
+          status: gap
+      - wordnet: "02101649"
+        gloss: "move (one's fist); \"his opponent cut upward toward his chin\""
+        angloform:
+          status: gap
+      - wordnet: "01915865"
+        gloss: "pass directly and often in haste; \"We cut through the neighbor's yard to get home sooner\""
+        angloform:
+          status: gap
+      - wordnet: "01915730"
+        gloss: "pass through or across; \"The boat cut the water\""
+        angloform:
+          status: gap
+      - wordnet: "01860107"
+        gloss: "make an abrupt change of image or sound; \"cut from one scene to another\""
+        angloform:
+          status: gap
+      - wordnet: "01859995"
+        gloss: "stop filming; \"cut a movie scene\""
+        angloform:
+          status: gap
+      - wordnet: "01756563"
+        gloss: "make a recording of; \"cut the songs\"; \"She cut all of her major titles again\""
+        angloform:
+          status: gap
+      - wordnet: "01756416"
+        gloss: "record a performance on (a medium); \"cut a record\""
+        angloform:
+          status: gap
+      - wordnet: "01756277"
+        gloss: "create by duplicating data; \"cut a disk\"; \"burn a CD\""
+        angloform:
+          status: gap
+      - wordnet: "01754737"
+        gloss: "form or shape by cutting or incising; \"cut paper dolls\""
+        angloform:
+          status: gap
+      - wordnet: "01713491"
+        gloss: "perform or carry out; \"cut a caper\""
+        angloform:
+          status: gap
+      - wordnet: "01611123"
+        gloss: "function as a cutting instrument; \"This knife cuts well\""
+        angloform:
+          status: gap
+      - wordnet: "01610990"
+        gloss: "allow incision or separation; \"This bread cuts easily\""
+        angloform:
+          status: gap
+      - wordnet: "01555437"
+        gloss: "divide a deck of cards at random into two parts to make selection difficult; \"Wayne cut\"; \"She cut the deck for a long time\""
+        angloform:
+          status: gap
+      - wordnet: "01510576"
+        gloss: "cause to stop operating by disengaging a switch; \"Turn off the stereo, please\"; \"cut the engine\"; \"turn out the lights\""
+        angloform:
+          status: gap
+      - wordnet: "01320424"
+        gloss: "reap or harvest; \"cut grain\""
+        angloform:
+          status: gap
+      - wordnet: "01319738"
+        gloss: "fell by sawing; hew; \"The Vietnamese cut a lot of timber while they occupied Cambodia\""
+        angloform:
+          status: gap
+      - wordnet: "01227088"
+        gloss: "penetrate injuriously; \"The glass from the shattered windshield cut into her forehead\""
+        angloform:
+          status: gap
+      - wordnet: "01059564"
+        gloss: "refuse to acknowledge; \"She cut him dead at the meeting\""
+        angloform:
+          status: redirect
+          word: ignore
+          category: VERB_TRANS
+      - wordnet: "00561090"
+        gloss: "shorten as if by severing the edges or ends of; \"cut my hair\""
+        angloform:
+          status: gap
+      - wordnet: "00473322"
+        gloss: "weed out unwanted or unnecessary things; \"We had to lose weight, so we cut the sugar from our diet\""
+        angloform:
+          status: gap
+      - wordnet: "00447654"
+        gloss: "dissolve by breaking down the fat of; \"soap cuts grease\""
+        angloform:
+          status: gap
+      - wordnet: "00429968"
+        gloss: "have a reducing effect; \"This cuts into my earnings\""
+        angloform:
+          status: gap
+      - wordnet: "00292507"
+        gloss: "cease, stop; \"cut the noise\"; \"We had to cut short the conversation\""
+        angloform:
+          status: gap
+      - wordnet: "00243900"
+        gloss: "reduce in scope while retaining essential elements; \"The manuscript must be shortened\""
+        angloform:
+          status: redirect
+          word: reduce
+          category: VERB_TRANS
+      - wordnet: "00226071"
+        gloss: "lessen the strength or flavor of a solution or mixture; \"cut bourbon\""
+        angloform:
+          status: redirect
+          word: reduce
+          category: VERB_TRANS
+      - wordnet: "00108475"
+        gloss: "have grow through the gums; \"The baby cut a tooth\""
+        angloform:
+          status: gap
+      - wordnet: "00096136"
+        gloss: "grow through the gums; \"The new tooth is cutting\""
+        angloform:
+          status: gap
+      - wordnet: "00061219"
+        gloss: "cut off the testicles (of male animals such as horses); \"the vet gelded the young horse\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00661278"
+        gloss: "separated into parts or laid open or penetrated with a sharp edge or instrument; \"the cut surface was mottled\"; \"cut tobacco\"; \"blood from his cut forehead\"; \"bandages on her cut wrists\""
+        angloform:
+          status: gap
+      - wordnet: "00663267"
+        gloss: "fashioned or shaped by cutting; \"a well-cut suit\"; \"cut diamonds\"; \"cut velvet\""
+        angloform:
+          status: gap
+      - wordnet: "00004615"
+        gloss: "with parts removed; \"the drastically cut film\""
+        angloform:
+          status: gap
+      - wordnet: "02454750"
+        gloss: "made neat and tidy by trimming; \"his neatly trimmed hair\""
+        angloform:
+          status: gap
+      - wordnet: "01566027"
+        gloss: "(used of grass or vegetation) cut down with a hand implement or machine; \"the smell of newly mown hay\""
+        angloform:
+          status: gap
+      - wordnet: "00662958"
+        gloss: "(of pages of a book) having the folds of the leaves trimmed or slit; \"the cut pages of the book\""
+        angloform:
+          status: gap
+      - wordnet: "02137070"
+        gloss: "(of a male animal) having the testicles removed; \"a cut horse\""
+        angloform:
+          status: gap
+      - wordnet: "00882742"
+        gloss: "(used of rates or prices) reduced usually sharply; \"the slashed prices attracted buyers\""
+        angloform:
+          status: gap
+      - wordnet: "00756327"
+        gloss: "mixed with water; \"sold cut whiskey\"; \"a cup of thinned soup\""
+        angloform:
+          status: gap

@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10079893"
+        gloss: an adherent of fascism or other right-wing authoritarian views
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02920769"
+        gloss: "relating to or characteristic of fascism; \"fascist propaganda\""
+        angloform:
+          status: gap

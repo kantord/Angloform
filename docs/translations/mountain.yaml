@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09359803"
+        gloss: a land mass that projects well above its surroundings; higher than a hill
+        angloform:
+          status: gap
+      - wordnet: "13774404"
+        gloss: "(often followed by `of') a large number or amount or extent; \"a batch of letters\"; \"a deal of trouble\"; \"a lot of money\"; \"he made a mint on the stock market\"; \"see the rest of the winners in our huge passel of photos\"; \"it must have cost plenty\"; \"a slew of journalists\"; \"a wad of money\""
+        angloform:
+          status: gap

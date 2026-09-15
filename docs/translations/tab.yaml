@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06517942"
+        gloss: "the bill in a restaurant; \"he asked the waiter for the check\""
+        angloform:
+          status: gap
+      - wordnet: "06267991"
+        gloss: sensationalist journalism
+        angloform:
+          status: gap
+      - wordnet: "04379096"
+        gloss: the key on a typewriter or a word processor that causes a tabulation
+        angloform:
+          status: gap
+      - wordnet: "04378123"
+        gloss: "a short strip of material attached to or projecting from something in order to facilitate opening or identifying or handling it; \"pull the tab to open the can\"; \"files with a red tab will be stored separately\"; \"the collar has a tab with a button hole\"; \"the filing cards were organized by cards having indexed tabs\""
+        angloform:
+          status: gap
+      - wordnet: "03936568"
+        gloss: a dose of medicine in the form of a small pellet
+        angloform:
+          status: gap

@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07369604"
+        gloss: making or becoming suitable; adjusting to circumstances
+        angloform:
+          status: gap
+      - wordnet: "07177437"
+        gloss: "a settlement of differences; \"they reached an accommodation with Japan\""
+        angloform:
+          status: gap
+      - wordnet: "05755486"
+        gloss: "in the theories of Jean Piaget: the modification of internal representations in order to accommodate a changing knowledge of reality"
+        angloform:
+          status: gap
+      - wordnet: "02672371"
+        gloss: "living quarters provided for public convenience; \"overnight accommodations are available\""
+        angloform:
+          status: gap
+      - wordnet: "01210816"
+        gloss: the act of providing something (lodging or seat or food) to meet a need
+        angloform:
+          status: gap
+      - wordnet: "00193225"
+        gloss: (physiology) the automatic adjustment in focal length of the natural lens of the eye
+        angloform:
+          status: gap

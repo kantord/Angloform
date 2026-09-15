@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: a row of icon buttons in a software interface
+        angloform:
+          status: gap
+          note: no software-UI vocabulary exists yet; narrow technical jargon, zero WordNet attestation

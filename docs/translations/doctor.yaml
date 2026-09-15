@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10020890"
+        gloss: "a licensed medical practitioner; \"I felt so bad I went to see my doctor\""
+        angloform:
+          status: gap
+      - wordnet: "10022111"
+        gloss: "(Roman Catholic Church) a title conferred on 33 saints who distinguished themselves through the orthodoxy of their theological teaching; \"the Doctors of the Church greatly influenced Christian thought down to the late Middle Ages\""
+        angloform:
+          status: gap
+      - wordnet: "00432356"
+        gloss: "children take the roles of physician or patient or nurse and pretend they are at the physician's office; \"the children explored each other's bodies by playing the game of doctor\""
+        angloform:
+          status: gap
+      - wordnet: "10021892"
+        gloss: "a person who holds Ph.D. degree (or the equivalent) from an academic institution; \"she is a doctor of philosophy in physics\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00488430"
+        gloss: "alter and make impure, as with the intention to deceive; \"Sophisticate rose water with geraniol\""
+        angloform:
+          status: gap
+      - wordnet: "00080304"
+        gloss: give medical treatment to
+        angloform:
+          status: gap
+      - wordnet: "00260648"
+        gloss: "restore by replacing a part or putting together what is torn or broken; \"She repaired her TV set\"; \"Repair my shoes please\""
+        angloform:
+          status: redirect
+          word: fix
+          category: VERB_TRANS

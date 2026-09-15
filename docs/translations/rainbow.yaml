@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09403427"
+        gloss: "an arc of colored light in the sky caused by refraction of the sun's rays by rain"
+        angloform:
+          status: gap
+      - wordnet: "05950982"
+        gloss: "an illusory hope; \"chasing rainbows\""
+        angloform:
+          status: gap

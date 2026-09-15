@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02713232"
+        gloss: "displaying numbers rather than scale positions; \"digital clock\"; \"digital readout\""
+        angloform:
+          status: gap
+      - wordnet: "02713096"
+        gloss: "relating to or performed with the fingers; \"digital examination\""
+        angloform:
+          status: gap
+      - wordnet: "00110701"
+        gloss: "of a circuit or device that represents magnitudes in digits; \"digital computer\""
+        angloform:
+          status: gap

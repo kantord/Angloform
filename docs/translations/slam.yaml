@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07474645"
+        gloss: winning all or all but one of the tricks in bridge
+        angloform:
+          status: redirect
+          word: sweep
+          category: NOUN
+      - wordnet: "07394115"
+        gloss: the noise made by the forceful impact of two objects
+        angloform:
+          status: gap
+      - wordnet: "07338970"
+        gloss: a forceful impact that makes a loud noise
+        angloform:
+          status: gap
+      - wordnet: "06767922"
+        gloss: "an aggressive remark directed at a person like a missile and intended to have a telling effect; \"his parting shot was `drop dead'\"; \"she threw shafts of sarcasm\"; \"she takes a dig at me every chance she gets\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01242832"
+        gloss: "close violently; \"He slammed the door shut\""
+        angloform:
+          status: gap
+      - wordnet: "01242391"
+        gloss: "strike violently; \"slam the ball\""
+        angloform:
+          status: gap
+      - wordnet: "01897885"
+        gloss: dance the slam dance
+        angloform:
+          status: gap
+      - wordnet: "01242689"
+        gloss: "throw violently; \"He slammed the book on the table\""
+        angloform:
+          status: gap

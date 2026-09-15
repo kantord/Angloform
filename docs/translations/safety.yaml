@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14538472"
+        gloss: "the state of being certain that adverse effects will not be caused by some agent under defined conditions; \"insure the safety of the children\"; \"the reciprocal of safety is risk\""
+        angloform:
+          status: gap
+      - wordnet: "08643933"
+        gloss: "a safe place; \"He ran to safety\""
+        angloform:
+          status: gap
+      - wordnet: "03464467"
+        gloss: a device designed to prevent injury or accidents
+        angloform:
+          status: redirect
+          word: guard
+          category: NOUN
+      - wordnet: "00131090"
+        gloss: (baseball) the successful act of striking a baseball in such a way that the batter reaches base safely
+        angloform:
+          status: gap
+      - wordnet: "03088164"
+        gloss: contraceptive device consisting of a sheath of thin rubber or latex that is worn over the penis during intercourse
+        angloform:
+          status: gap
+      - wordnet: "00188620"
+        gloss: a score in American football; a player is tackled behind his own goal line
+        angloform:
+          status: gap

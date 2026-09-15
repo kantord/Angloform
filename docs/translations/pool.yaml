@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03982060"
+        gloss: an excavation that is (usually) filled with water
+        angloform:
+          status: gap
+      - wordnet: "09397391"
+        gloss: "a small lake; \"the pond was too small for sailing\""
+        angloform:
+          status: gap
+      - wordnet: "08481369"
+        gloss: "an organization of people or resources that can be shared; \"a car pool\"; \"a secretarial pool\"; \"when he was first hired he was assigned to the pool\""
+        angloform:
+          status: gap
+      - wordnet: "08236438"
+        gloss: an association of companies for some definite purpose
+        angloform:
+          status: gap
+      - wordnet: "13369857"
+        gloss: "any communal combination of funds; \"everyone contributed to the pool\""
+        angloform:
+          status: gap
+      - wordnet: "09397607"
+        gloss: "a small body of standing water (rainwater) or other liquid; \"there were puddles of muddy water in the road after the rain\"; \"the body lay in a pool of blood\""
+        angloform:
+          status: gap
+      - wordnet: "13369474"
+        gloss: the combined stakes of the betters
+        angloform:
+          status: gap
+      - wordnet: "08665101"
+        gloss: "something resembling a pool of liquid; \"he stood in a pool of light\"; \"his chair sat in a puddle of books and magazines\""
+        angloform:
+          status: gap
+      - wordnet: "00501080"
+        gloss: any of various games played on a pool table having 6 pockets
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02295842"
+        gloss: "combine into a common fund; \"We pooled resources\""
+        angloform:
+          status: gap
+      - wordnet: "01090107"
+        gloss: join or form a pool of people
+        angloform:
+          status: gap

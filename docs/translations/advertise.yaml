@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00975902"
+        gloss: "call attention to; \"Please don't advertise the fact that he has AIDS\""
+        angloform:
+          status: gap
+      - wordnet: "00976653"
+        gloss: "make publicity for; try to sell (a product); \"The salesman is aggressively pushing the new computer model\"; \"The company is heavily advertizing their new laptops\""
+        angloform:
+          status: gap

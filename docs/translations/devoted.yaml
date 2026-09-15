@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00519668"
+        gloss: "zealous in devotion or affection; \"a devoted husband and father\"; \"devoted friends\""
+        angloform:
+          status: gap
+      - wordnet: "00519477"
+        gloss: "(followed by `to') dedicated exclusively to a purpose or use; \"large sums devoted to the care of the poor\"; \"a life devoted to poetry\""
+        angloform:
+          status: gap

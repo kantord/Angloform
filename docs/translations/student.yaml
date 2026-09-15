@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10665698"
+        gloss: a learner who is enrolled in an educational institution
+        angloform:
+          status: gap
+      - wordnet: "10557854"
+        gloss: a learned person (especially in the humanities); someone who by long study has gained mastery in one or more disciplines
+        angloform:
+          status: gap

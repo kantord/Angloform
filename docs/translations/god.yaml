@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09536058"
+        gloss: the supernatural being conceived as the perfect and omnipotent and omniscient originator and ruler of the universe; the object of worship in monotheistic religions
+        angloform:
+          status: gap
+      - wordnet: "09505418"
+        gloss: any supernatural being worshipped as controlling some part of the world or some aspect of life or who is the personification of a force
+        angloform:
+          status: gap
+      - wordnet: "10133307"
+        gloss: "a man of such superior qualities that he seems like a deity to other people; \"he was a god among men\""
+        angloform:
+          status: gap
+      - wordnet: "03560161"
+        gloss: "a material effigy that is worshipped; \"thou shalt not make unto thee any graven image\"; \"money was his god\""
+        angloform:
+          status: gap

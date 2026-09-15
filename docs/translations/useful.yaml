@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02495922"
+        gloss: "being of use or service; \"the girl felt motherly and useful\"; \"a useful job\"; \"a useful member of society\""
+        angloform:
+          status: gap
+      - wordnet: "01090820"
+        gloss: "having a useful function; \"utilitarian steel tables\""
+        angloform:
+          status: gap

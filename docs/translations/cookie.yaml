@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07635155"
+        gloss: "any of various small flat sweet cakes (`biscuit' is the British term)"
+        angloform:
+          status: gap
+      - wordnet: "09963680"
+        gloss: the cook on a ranch or at a camp
+        angloform:
+          status: gap
+      - wordnet: "06387538"
+        gloss: "a short line of text that a web site puts on your computer's hard drive when you access the web site"
+        angloform:
+          status: gap

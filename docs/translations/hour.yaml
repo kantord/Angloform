@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15227846"
+        gloss: "a period of time equal to 1/24th of a day; \"the job will take more than an hour\""
+        angloform:
+          status: gap
+      - wordnet: "15228378"
+        gloss: "clock time; \"the hour is getting late\""
+        angloform:
+          status: gap
+      - wordnet: "15228910"
+        gloss: "a special and memorable period; \"it was their finest hour\""
+        angloform:
+          status: gap
+      - wordnet: "05131023"
+        gloss: "distance measured by the time taken to cover it; \"we live an hour from the airport\"; \"its just 10 minutes away\""
+        angloform:
+          status: redirect
+          word: minute
+          category: NOUN

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01128390"
+        gloss: social control by dominating
+        angloform:
+          status: gap
+      - wordnet: "14442530"
+        gloss: "power to dominate or defeat; \"mastery of the seas\""
+        angloform:
+          status: gap

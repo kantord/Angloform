@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08053576"
+        gloss: an organization founded and united for a specific purpose
+        angloform:
+          status: gap
+      - wordnet: "03574555"
+        gloss: an establishment consisting of a building or complex of buildings where an organization for the promotion of some cause is situated
+        angloform:
+          status: gap
+      - wordnet: "05669350"
+        gloss: "a custom that for a long time has been an important feature of some group or society; \"the institution of marriage\"; \"the institution of slavery\"; \"he had become an institution in the theater\""
+        angloform:
+          status: gap
+      - wordnet: "00240184"
+        gloss: "the act of starting something for the first time; introducing something new; \"she looked forward to her initiation as an adult\"; \"the foundation of a new scientific society\""
+        angloform:
+          status: gap
+      - wordnet: "03746574"
+        gloss: a hospital for mentally incompetent or unbalanced person
+        angloform:
+          status: gap

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09977660"
+        gloss: someone who has committed a crime or has been legally convicted of a crime
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02480923"
+        gloss: "declare illegal; outlaw; \"Marijuana is criminalized in the U.S.\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01403760"
+        gloss: "contrary to or forbidden by law; \"an illegitimate seizure of power\"; \"illicit trade\"; \"an outlaw strike\"; \"unlawful measures\""
+        angloform:
+          status: gap
+      - wordnet: "01396333"
+        gloss: "disobedient to or defiant of law; \"lawless bands roaming the plains\""
+        angloform:
+          status: gap

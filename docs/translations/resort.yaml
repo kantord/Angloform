@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08640531"
+        gloss: a hotel located in a resort area
+        angloform:
+          status: gap
+      - wordnet: "08581503"
+        gloss: a frequently visited place
+        angloform:
+          status: redirect
+          word: repair
+          category: NOUN
+      - wordnet: "05155123"
+        gloss: "something or someone turned to for assistance or security; \"his only recourse was the police\"; \"took refuge in lying\""
+        angloform:
+          status: gap
+      - wordnet: "01208597"
+        gloss: "act of turning to for assistance; \"have recourse to the courts\"; \"an appeal to his uncle was his last resort\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02590072"
+        gloss: "have recourse to; \"The government resorted to rationing meat\""
+        angloform:
+          status: gap
+      - wordnet: "01843497"
+        gloss: "move, travel, or proceed toward some place; \"He repaired to his cabin in the woods\""
+        angloform:
+          status: gap

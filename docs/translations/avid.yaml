@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00888477"
+        gloss: "(often followed by `for') ardently or excessively desirous; \"avid for adventure\"; \"an avid ambition to succeed\"; \"fierce devouring affection\"; \"the esurient eyes of an avid curiosity\"; \"greedy for fame\""
+        angloform:
+          status: gap
+      - wordnet: "00886253"
+        gloss: "marked by active interest and enthusiasm; \"an avid sports fan\""
+        angloform:
+          status: gap

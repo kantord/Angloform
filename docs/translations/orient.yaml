@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08562620"
+        gloss: the countries of Asia
+        angloform:
+          status: gap
+      - wordnet: "08562243"
+        gloss: the hemisphere that includes Eurasia and Africa and Australia
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02713184"
+        gloss: "be oriented; \"The weather vane points North\"; \"the dancers toes pointed outward\""
+        angloform:
+          status: gap
+      - wordnet: "02159197"
+        gloss: "determine one's position with reference to another point; \"We had to orient ourselves in the forest\""
+        angloform:
+          status: gap
+      - wordnet: "02712914"
+        gloss: "cause to point; \"Orient the house towards the West\""
+        angloform:
+          status: gap
+      - wordnet: "00874537"
+        gloss: "familiarize (someone) with new surroundings or circumstances; \"The dean of students tries to orient the freshmen\""
+        angloform:
+          status: gap
+      - wordnet: "00301662"
+        gloss: "adjust to a specific need or market; \"a magazine oriented towards young people\"; \"tailor your needs to your surroundings\""
+        angloform:
+          status: gap

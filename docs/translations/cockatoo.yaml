@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01819115"
+        gloss: white or light-colored crested parrot of the Australian region; often kept as cage birds
+        angloform:
+          status: gap

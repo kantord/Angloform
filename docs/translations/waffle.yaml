@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07641699"
+        gloss: pancake batter baked in a waffle iron
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02640440"
+        gloss: "pause or hold back in uncertainty or unwillingness; \"Authorities hesitate to quote exact figures\""
+        angloform:
+          status: gap

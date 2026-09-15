@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07829412"
+        gloss: flavorful relish or dressing or topping served as an accompaniment to food
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02518956"
+        gloss: behave saucily or impudently towards
+        angloform:
+          status: gap
+      - wordnet: "01364357"
+        gloss: dress (food) with a relish
+        angloform:
+          status: gap
+      - wordnet: "00535844"
+        gloss: "add zest or flavor to, make more interesting; \"sauce the roast\""
+        angloform:
+          status: gap

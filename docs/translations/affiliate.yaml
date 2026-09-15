@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09776346"
+        gloss: a subordinate or subsidiary associate; a person who is affiliated with another or with an organization
+        angloform:
+          status: gap
+      - wordnet: "08009478"
+        gloss: "a subsidiary or subordinate organization that is affiliated with another organization; \"network affiliates\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02589245"
+        gloss: "keep company with; hang out with; \"He associates with strange people\"; \"She affiliates with her colleagues\""
+        angloform:
+          status: gap
+      - wordnet: "02435311"
+        gloss: "join in an affiliation; \"The two colleges affiliated\"; \"They affiliated with a national group\""
+        angloform:
+          status: gap

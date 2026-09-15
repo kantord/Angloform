@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "where" has zero WordNet senses (a pure wh-word) and is already a
+# permanent Ban in seed/seed.json with real advice (ADR 0010) — this file
+# records that existing verdict in the per-sense format.
+by_upos:
+  ADV:
+    senses:
+      - gloss: subordinating/question word introducing a locative clause or question; "where did you go?"; "the file where the data lives"
+        angloform:
+          status: construction
+          pattern: the data lives in the file. the file...
+          note: 'ADR 0010: "where" is banned outright (no relative clauses); split the sentence and repeat the noun — matches seed.json''s existing BANNED advice for this lemma'

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00681429"
+        gloss: "evaluate or estimate the nature, quality, ability, extent, or significance of; \"I will have the family jewels appraised by a professional\"; \"access all the factors when taking a risk\""
+        angloform:
+          status: redirect
+          word: measure
+          category: VERB_TRANS
+      - wordnet: "00670261"
+        gloss: "form a critical opinion of; \"I cannot judge some works of modern art\"; \"How do you evaluate this grant proposal?\" \"We shouldn't pass judgment on other people\""
+        angloform:
+          status: redirect
+          word: judge
+          category: VERB_TRANS

@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14289504"
+        gloss: a lump on the body caused by a blow
+        angloform:
+          status: gap
+      - wordnet: "13894434"
+        gloss: "something that bulges out or is protuberant or projects from its surroundings; \"the gun in his pocket made an obvious bulge\"; \"the hump of a camel\"; \"he stood on the rocky prominence\"; \"the occipital protuberance was well developed\"; \"the bony excrescence between its horns\""
+        angloform:
+          status: gap
+      - wordnet: "07338681"
+        gloss: "an impact (as from a collision); \"the bump threw him off the bicycle\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01239619"
+        gloss: "knock against with force or violence; \"My car bumped into the tree\""
+        angloform:
+          status: gap
+      - wordnet: "02248465"
+        gloss: "come upon, as if by accident; meet with; \"We find this idea in Plato\"; \"I happened upon the most wonderful bakery not very far from here\"; \"She chanced upon an interesting book in the bookstore the other day\""
+        angloform:
+          status: redirect
+          word: find
+          category: VERB_TRANS
+      - wordnet: "01895383"
+        gloss: "dance erotically or dance with the pelvis thrust forward; \"bump and grind\""
+        angloform:
+          status: gap
+      - wordnet: "02399331"
+        gloss: "assign to a lower position; reduce in rank; \"She was demoted because she always speaks up\"; \"He was broken down to Sergeant\""
+        angloform:
+          status: redirect
+          word: break
+          category: VERB_TRANS
+      - wordnet: "01527508"
+        gloss: "remove or force from a position of dwelling previously occupied; \"The new employee dislodged her by moving into her office space\""
+        angloform:
+          status: gap

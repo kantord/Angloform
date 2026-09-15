@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02991711"
+        gloss: "any small compartment; \"the cells of a honeycomb\""
+        angloform:
+          status: gap
+      - wordnet: "00006484"
+        gloss: (biology) the basic structural and functional unit of all organisms; they may exist as independent units of life (as in monads) or may form colonies or tissues as in higher plants and animals
+        angloform:
+          status: gap
+      - wordnet: "02991048"
+        gloss: a device that delivers an electric current as the result of a chemical reaction
+        angloform:
+          status: gap
+      - wordnet: "08358594"
+        gloss: a small unit serving as part of or as the nucleus of a larger political movement
+        angloform:
+          status: gap
+      - wordnet: "02992529"
+        gloss: a hand-held mobile radiotelephone for use in an area divided into small sections, each with its own short-range transmitter/receiver
+        angloform:
+          status: gap
+      - wordnet: "02991555"
+        gloss: small room in which a monk or nun lives
+        angloform:
+          status: gap
+      - wordnet: "02991302"
+        gloss: a room where a prisoner is kept
+        angloform:
+          status: gap

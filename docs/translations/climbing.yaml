@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07370410"
+        gloss: an event that involves rising to a higher point (as in altitude or temperature or intensity etc.)
+        angloform:
+          status: gap

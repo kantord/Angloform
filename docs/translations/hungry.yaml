@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01269073"
+        gloss: "feeling hunger; feeling a need or desire to eat food; \"a world full of hungry people\""
+        angloform:
+          status: gap
+      - wordnet: "00888200"
+        gloss: "(usually followed by `for') extremely desirous; \"athirst for knowledge\"; \"hungry for recognition\"; \"thirsty for informaton\""
+        angloform:
+          status: gap

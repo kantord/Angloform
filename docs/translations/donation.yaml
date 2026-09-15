@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13270038"
+        gloss: a voluntary gift (as of money or service or ideas) made to some worthwhile cause
+        angloform:
+          status: gap
+      - wordnet: "01089778"
+        gloss: act of giving in common with others for a common purpose especially to a charity
+        angloform:
+          status: gap

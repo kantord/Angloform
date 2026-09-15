@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02151625"
+        gloss: a movable organ for flying (one of a pair)
+        angloform:
+          status: gap
+      - wordnet: "04592741"
+        gloss: one of the horizontal airfoils on either side of the fuselage of an airplane
+        angloform:
+          status: gap
+      - wordnet: "04592962"
+        gloss: a stage area out of sight of the audience
+        angloform:
+          status: gap
+      - wordnet: "08219493"
+        gloss: a unit of military aircraft
+        angloform:
+          status: gap
+      - wordnet: "08482113"
+        gloss: "the side of military or naval formation; \"they attacked the enemy's right flank\""
+        angloform:
+          status: gap
+      - wordnet: "10782135"
+        gloss: a hockey player stationed in a forward position on either side
+        angloform:
+          status: gap
+      - wordnet: "08493825"
+        gloss: (in flight formation) a position to the side and just to the rear of another aircraft
+        angloform:
+          status: gap
+      - wordnet: "08486306"
+        gloss: "a group within a political party or legislature or other organization that holds distinct views or has a particular function; \"they are the progressive wing of the Republican Party\""
+        angloform:
+          status: gap
+      - wordnet: "07648549"
+        gloss: "the wing of a fowl; \"he preferred the drumsticks to the wings\""
+        angloform:
+          status: gap
+      - wordnet: "03327841"
+        gloss: "a barrier that surrounds the wheels of a vehicle to block splashing water or mud; \"in Britain they call a fender a wing\""
+        angloform:
+          status: gap
+      - wordnet: "02713594"
+        gloss: an addition that extends a main building
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01940403"
+        gloss: "travel through the air; be airborne; \"Man cannot fly\""
+        angloform:
+          status: gap

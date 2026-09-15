@@ -1,0 +1,25 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00228127"
+        gloss: "cover with blood; \"bloody your hands\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00247439"
+        gloss: "having or covered with or accompanied by blood; \"a bloody nose\"; \"your scarf is all bloody\"; \"the effects will be violent and probably bloody\"; \"a bloody fight\""
+        angloform:
+          status: gap
+      - wordnet: "01520655"
+        gloss: "informal intensifiers; \"what a bally (or blinking) nuisance\"; \"a bloody fool\"; \"a crashing bore\"; \"you flaming idiot\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00025144"
+        gloss: "extremely; \"you are bloody right\"; \"Why are you so all-fired aggressive?\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

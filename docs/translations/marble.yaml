@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14947807"
+        gloss: a hard crystalline metamorphic rock that takes a high polish; used for sculpture and as building material
+        angloform:
+          status: gap
+      - wordnet: "03721047"
+        gloss: a small ball of glass that is used in various games
+        angloform:
+          status: gap
+      - wordnet: "03721169"
+        gloss: a sculpture carved from marble
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01681492"
+        gloss: "paint or stain like marble; \"marble paper\""
+        angloform:
+          status: gap

@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02374451"
+        gloss: solid-hoofed herbivorous quadruped domesticated since prehistoric times
+        angloform:
+          status: gap
+      - wordnet: "03538037"
+        gloss: a padded gymnastic apparatus on legs
+        angloform:
+          status: gap
+      - wordnet: "08397856"
+        gloss: "troops trained to fight on horseback; \"500 horse led the attack\""
+        angloform:
+          status: gap
+      - wordnet: "04140631"
+        gloss: a framework for holding wood that is being sawed
+        angloform:
+          status: gap
+      - wordnet: "03624767"
+        gloss: a chessman shaped to resemble the head of a horse; can move two squares horizontally and one vertically (or vice versa)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01184058"
+        gloss: provide with a horse or horses
+        angloform:
+          status: gap

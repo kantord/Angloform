@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05714466"
+        gloss: a distinctive odor that is pleasant
+        angloform:
+          status: gap
+      - wordnet: "05714161"
+        gloss: an odor left in passing by which a person or animal can be traced
+        angloform:
+          status: gap
+      - wordnet: "04980008"
+        gloss: any property detected by the olfactory system
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02125641"
+        gloss: cause to smell or be smelly
+        angloform:
+          status: gap
+      - wordnet: "02125223"
+        gloss: "catch the scent of; get wind of; \"The dog nosed out the drugs\""
+        angloform:
+          status: gap
+      - wordnet: "00043480"
+        gloss: "apply perfume to; \"She perfumes herself every day\""
+        angloform:
+          status: gap

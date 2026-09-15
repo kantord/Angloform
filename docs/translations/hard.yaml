@@ -1,0 +1,110 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00744916"
+        gloss: "not easy; requiring great physical or mental effort to accomplish or comprehend or endure; \"a difficult task\"; \"nesting places on the cliffs are difficult of access\"; \"difficult times\"; \"why is it so hard for you to keep a secret?\""
+        angloform:
+          status: gap
+      - wordnet: "01155354"
+        gloss: "dispassionate; \"took a hard look\"; \"a hard bargainer\";"
+        angloform:
+          status: gap
+      - wordnet: "01150915"
+        gloss: resisting weight or pressure
+        angloform:
+          status: gap
+      - wordnet: "02322512"
+        gloss: "very strong or vigorous; \"strong winds\"; \"a hard left to the chin\"; \"a knockout punch\"; \"a severe blow\""
+        angloform:
+          status: gap
+      - wordnet: "00836544"
+        gloss: "characterized by effort to the point of exhaustion; especially physical effort; \"worked their arduous way up the mining valley\"; \"a grueling campaign\"; \"hard labor\"; \"heavy work\"; \"heavy going\"; \"spent many laborious hours on the project\"; \"set a punishing pace\""
+        angloform:
+          status: redirect
+          word: heavy
+          category: ADJ
+      - wordnet: "02286294"
+        gloss: "produced without vibration of the vocal cords; \"unvoiced consonants such as `p' and `k' and `s'\""
+        angloform:
+          status: gap
+      - wordnet: "01157762"
+        gloss: (of light) transmitted directly from a pointed light source
+        angloform:
+          status: gap
+      - wordnet: "01156505"
+        gloss: "(of speech sounds); produced with the back of the tongue raised toward or touching the velum; \"Russian distinguished between hard consonants and palatalized or soft consonants\""
+        angloform:
+          status: gap
+      - wordnet: "01299173"
+        gloss: "given to excessive indulgence of bodily appetites especially for intoxicating liquors; \"a hard drinker\""
+        angloform:
+          status: redirect
+          word: heavy
+          category: ADJ
+      - wordnet: "01158974"
+        gloss: "being distilled rather than fermented; having a high alcoholic content; \"hard liquor\""
+        angloform:
+          status: redirect
+          word: strong
+          category: ADJ
+      - wordnet: "01127302"
+        gloss: "unfortunate or hard to bear; \"had hard luck\"; \"a tough break\""
+        angloform:
+          status: gap
+      - wordnet: "01069715"
+        gloss: "dried out; \"hard dry rolls left over from the day before\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00091332"
+        gloss: "with effort or force or vigor; \"the team played hard\"; \"worked hard all day\"; \"pressed hard on the lever\"; \"hit the ball hard\"; \"slammed the door hard\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00091964"
+        gloss: "with firmness; \"held hard to the railing\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00092047"
+        gloss: "earnestly or intently; \"thought hard about it\"; \"stared hard at the accused\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00091778"
+        gloss: "causing great damage or hardship; \"industries hit hard by the depression\"; \"she was severely affected by the bank's failure\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00091678"
+        gloss: "slowly and with difficulty; \"prejudices die hard\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00176518"
+        gloss: "indulging excessively; \"he drank heavily\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00092450"
+        gloss: "into a solid condition; \"concrete that sets hard within a few hours\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00092259"
+        gloss: "very near or close in space or time; \"it stands hard by the railroad tracks\"; \"they were hard on his heels\"; \"a strike followed hard upon the plant's opening\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00092156"
+        gloss: "with pain or distress or bitterness; \"he took the rejection very hard\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00091534"
+        gloss: "to the full extent possible; all the way; \"hard alee\"; \"the ship went hard astern\"; \"swung the wheel hard left\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

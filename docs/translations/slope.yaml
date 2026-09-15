@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09437454"
+        gloss: "an elevated geological formation; \"he climbed the steep slope\"; \"the house was built on the side of a mountain\""
+        angloform:
+          status: gap
+      - wordnet: "05068461"
+        gloss: "the property possessed by a line or surface that departs from the horizontal; \"a five-degree gradient\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02037090"
+        gloss: "be at an angle; \"The terrain sloped down\""
+        angloform:
+          status: gap

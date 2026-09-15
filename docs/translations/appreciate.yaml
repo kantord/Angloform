@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01805982"
+        gloss: recognize with gratitude; be grateful for
+        angloform:
+          status: gap
+      - wordnet: "00592341"
+        gloss: "be fully aware of; realize fully; \"Do you appreciate the full meaning of this letter?\""
+        angloform:
+          status: gap
+      - wordnet: "02256109"
+        gloss: "hold dear; \"I prize these old photographs\""
+        angloform:
+          status: gap
+      - wordnet: "00316195"
+        gloss: "gain in value; \"The yen appreciated again!\""
+        angloform:
+          status: gap
+      - wordnet: "00315605"
+        gloss: "increase the value of; \"The Germans want to appreciate the Deutsche Mark\""
+        angloform:
+          status: gap

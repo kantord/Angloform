@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08054076"
+        gloss: a medical establishment run by a group of medical specialists
+        angloform:
+          status: gap
+      - wordnet: "07146300"
+        gloss: meeting for diagnosis of problems and instruction or remedial work in a particular activity
+        angloform:
+          status: gap
+      - wordnet: "03043274"
+        gloss: a healthcare facility for outpatient care
+        angloform:
+          status: gap

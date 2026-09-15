@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09356639"
+        gloss: a river in southwestern Alabama; flows into Mobile Bay
+        angloform:
+          status: gap
+      - wordnet: "09054480"
+        gloss: a port in southwestern Alabama on Mobile Bay
+        angloform:
+          status: gap
+      - wordnet: "03776291"
+        gloss: sculpture suspended in midair whose delicately balanced parts can be set in motion by air currents
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02128084"
+        gloss: "migratory; \"a restless mobile society\"; \"the nomadic habits of the Bedouins\"; \"believed the profession of a peregrine typist would have a happy future\"; \"wandering tribes\""
+        angloform:
+          status: gap
+      - wordnet: "01522376"
+        gloss: "moving or capable of moving readily (especially from place to place); \"a mobile missile system\"; \"the tongue is...the most mobile articulator\""
+        angloform:
+          status: gap
+      - wordnet: "01563494"
+        gloss: having transportation available
+        angloform:
+          status: gap
+      - wordnet: "00346103"
+        gloss: "capable of changing quickly from one state or condition to another; \"a highly mobile face\""
+        angloform:
+          status: gap
+      - wordnet: "00345694"
+        gloss: "affording change (especially in social status); \"Britain is not a truly fluid society\"; \"upwardly mobile\""
+        angloform:
+          status: gap

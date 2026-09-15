@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01146493"
+        gloss: "feeling or showing gratitude; \"a grateful heart\"; \"grateful for the tree's shade\"; \"a thankful smile\""
+        angloform:
+          status: gap
+      - wordnet: "01801327"
+        gloss: "affording comfort or pleasure; \"the grateful warmth of the fire\""
+        angloform:
+          status: gap

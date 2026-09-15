@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03660909"
+        gloss: "a room where books are kept; \"they had brandy in the library\""
+        angloform:
+          status: gap
+      - wordnet: "07977870"
+        gloss: a collection of literary documents or records kept for reference or borrowing
+        angloform:
+          status: gap
+      - wordnet: "03660664"
+        gloss: a depository built to contain books and other materials for reading and study
+        angloform:
+          status: gap
+      - wordnet: "07977592"
+        gloss: (computing) a collection of standard programs and subroutines that are stored and available for immediate use
+        angloform:
+          status: gap
+      - wordnet: "03661043"
+        gloss: a building that houses a collection of books and other materials
+        angloform:
+          status: gap

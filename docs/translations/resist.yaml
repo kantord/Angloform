@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02707800"
+        gloss: "elude, especially in a baffling way; \"This behavior defies explanation\""
+        angloform:
+          status: gap
+      - wordnet: "01116585"
+        gloss: stand up or offer resistance to somebody or something
+        angloform:
+          status: gap
+      - wordnet: "02521410"
+        gloss: "express opposition through action or words; \"dissent to the laws of the country\""
+        angloform:
+          status: gap
+      - wordnet: "01115916"
+        gloss: "withstand the force of something; \"The trees resisted her\"; \"stand the test of time\"; \"The mountain climbers had to fend against the ice and snow\""
+        angloform:
+          status: gap
+      - wordnet: "02755017"
+        gloss: "resist immunologically the introduction of some foreign tissue or organ; \"His body rejected the liver of the donor\""
+        angloform:
+          status: redirect
+          word: reject
+          category: VERB_TRANS
+      - wordnet: "02583545"
+        gloss: refuse to comply
+        angloform:
+          status: gap

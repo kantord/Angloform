@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09159958"
+        gloss: a town in central Wyoming
+        angloform:
+          status: gap
+      - wordnet: "03638180"
+        gloss: a space vehicle that is designed to land on the moon or another planet
+        angloform:
+          status: gap

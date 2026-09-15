@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06731802"
+        gloss: a group of symbols that make a mathematical statement
+        angloform:
+          status: gap
+      - wordnet: "06788785"
+        gloss: directions for making something
+        angloform:
+          status: gap
+      - wordnet: "06732013"
+        gloss: a conventionalized statement expressing some fundamental principle
+        angloform:
+          status: gap
+      - wordnet: "06816935"
+        gloss: a representation of a substance using symbols for its constituent elements
+        angloform:
+          status: gap
+      - wordnet: "05667613"
+        gloss: "something regarded as a normative example; \"the convention of not naming the main character\"; \"violence is the rule not the exception\"; \"his formula for impressing visitors\""
+        angloform:
+          status: redirect
+          word: rule
+          category: NOUN
+      - wordnet: "07845087"
+        gloss: a liquid food for infants
+        angloform:
+          status: gap
+      - wordnet: "05846932"
+        gloss: "(mathematics) a standard procedure for solving a class of mathematical problems; \"he determined the upper bound with Descartes' rule of signs\"; \"he gave us a general formula for attacking polynomials\""
+        angloform:
+          status: redirect
+          word: rule
+          category: NOUN

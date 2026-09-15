@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15280497"
+        gloss: the rate of moving (especially walking or running)
+        angloform:
+          status: gap
+      - wordnet: "13757249"
+        gloss: "the distance covered by a step; \"he stepped off ten paces from the old tree and began to dig\""
+        angloform:
+          status: redirect
+          word: step
+          category: NOUN
+      - wordnet: "05058580"
+        gloss: "the relative speed of progress or change; \"he lived at a fast pace\"; \"he works at a great rate\"; \"the pace of events accelerated\""
+        angloform:
+          status: gap
+      - wordnet: "00285889"
+        gloss: a step in walking or running
+        angloform:
+          status: gap
+      - wordnet: "15283097"
+        gloss: the rate of some repeating event
+        angloform:
+          status: gap
+      - wordnet: "13650447"
+        gloss: a unit of length equal to 3 feet; defined as 91.44 centimeters; originally taken to be the average length of a stride
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01929254"
+        gloss: "walk with slow or fast paces; \"He paced up and down the hall\""
+        angloform:
+          status: gap
+      - wordnet: "02091165"
+        gloss: "go at a pace; \"The horse paced\""
+        angloform:
+          status: gap
+      - wordnet: "00490722"
+        gloss: "measure (distances) by pacing; \"step off ten yards\""
+        angloform:
+          status: gap
+      - wordnet: "00702601"
+        gloss: "regulate or set the pace of; \"Pace your efforts\""
+        angloform:
+          status: gap

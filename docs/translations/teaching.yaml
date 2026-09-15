@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00887081"
+        gloss: "the profession of a teacher; \"he prepared for teaching while still in college\"; \"pedagogy is recognized as an important profession\""
+        angloform:
+          status: redirect
+          word: instruction
+          category: NOUN
+      - wordnet: "06185955"
+        gloss: "a doctrine that is taught; \"the teachings of religion\"; \"he believed all the Christian precepts\""
+        angloform:
+          status: gap
+      - wordnet: "00883297"
+        gloss: "the activities of educating or instructing; activities that impart knowledge or skill; \"he received no formal education\"; \"our instruction was carefully programmed\"; \"good classroom teaching is seldom rewarded\""
+        angloform:
+          status: redirect
+          word: instruction
+          category: NOUN

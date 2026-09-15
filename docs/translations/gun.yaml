@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03467984"
+        gloss: a weapon that discharges a missile at high velocity (especially from a metal tube or barrel)
+        angloform:
+          status: gap
+      - wordnet: "02746365"
+        gloss: large but transportable armament
+        angloform:
+          status: gap
+      - wordnet: "10593392"
+        gloss: a person who shoots a gun (as regards their ability)
+        angloform:
+          status: gap
+      - wordnet: "10152083"
+        gloss: a professional killer who uses a gun
+        angloform:
+          status: gap
+      - wordnet: "03456299"
+        gloss: a hand-operated pump that resembles a revolver; forces grease into parts of a machine
+        angloform:
+          status: gap
+      - wordnet: "02670683"
+        gloss: "a pedal that controls the throttle valve; \"he stepped on the gas\""
+        angloform:
+          status: gap
+      - wordnet: "00123430"
+        gloss: "the discharge of a firearm as signal or as a salute in military ceremonies; \"two runners started before the gun\"; \"a twenty gun salute\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01136614"
+        gloss: shoot with a gun
+        angloform:
+          status: gap

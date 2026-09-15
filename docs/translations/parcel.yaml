@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03871083"
+        gloss: a wrapped container
+        angloform:
+          status: gap
+      - wordnet: "01085098"
+        gloss: "the allotment of some amount by dividing something; \"death gets more than its share of attention from theologians\""
+        angloform:
+          status: redirect
+          word: share
+          category: NOUN
+      - wordnet: "08673395"
+        gloss: an extended area of land
+        angloform:
+          status: gap
+      - wordnet: "08008017"
+        gloss: a collection of things wrapped or boxed together
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02469085"
+        gloss: "divide into parts; \"The developers parceled the land\""
+        angloform:
+          status: gap
+      - wordnet: "01336334"
+        gloss: "cover with strips of canvas; \"parcel rope\""
+        angloform:
+          status: gap
+      - wordnet: "01283746"
+        gloss: make into a wrapped container
+        angloform:
+          status: gap

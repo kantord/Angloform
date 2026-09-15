@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09387222"
+        gloss: "a line or route along which something travels or moves; \"the hurricane demolished houses in its path\"; \"the track of an animal\"; \"the course of the river\""
+        angloform:
+          status: gap
+      - wordnet: "05826914"
+        gloss: "evidence pointing to a possible solution; \"the police are following a promising lead\"; \"the trail led straight to the perpetrator\""
+        angloform:
+          status: gap
+      - wordnet: "04463983"
+        gloss: a pair of parallel rails providing a runway for wheels
+        angloform:
+          status: gap
+      - wordnet: "04037625"
+        gloss: a course over which races are run
+        angloform:
+          status: gap
+      - wordnet: "06612865"
+        gloss: "a distinct selection of music from a recording or a compact disc; \"he played the first cut on the cd\"; \"the title track of the album\""
+        angloform:
+          status: gap
+      - wordnet: "04464418"
+        gloss: an endless metal belt on which tracked vehicles move over the ground
+        angloform:
+          status: gap
+      - wordnet: "04464211"
+        gloss: (computer science) one of the circular magnetic paths on a magnetic disk that serve as a guide for writing and reading data
+        angloform:
+          status: gap
+      - wordnet: "04464125"
+        gloss: a groove on a phonograph recording
+        angloform:
+          status: gap
+      - wordnet: "04463679"
+        gloss: a bar or pair of parallel bars of rolled steel making the railway along which railroad cars or other vehicles can roll
+        angloform:
+          status: gap
+      - wordnet: "04463510"
+        gloss: any road or path affording passage especially a rough one
+        angloform:
+          status: gap
+      - wordnet: "00440039"
+        gloss: the act of participating in an athletic competition involving running on a track
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02078453"
+        gloss: "carry on the feet and deposit; \"track mud into the house\""
+        angloform:
+          status: gap
+      - wordnet: "02197629"
+        gloss: "observe or plot the moving path of something; \"track a missile\""
+        angloform:
+          status: gap
+      - wordnet: "02001858"
+        gloss: "go after with the intent to catch; \"The policeman chased the mugger down the alley\"; \"the dog chased the rabbit\""
+        angloform:
+          status: gap
+      - wordnet: "01912159"
+        gloss: "travel across or pass over; \"The caravan covered almost 100 miles each day\""
+        angloform:
+          status: redirect
+          word: cover
+          category: VERB_TRANS
+      - wordnet: "01618468"
+        gloss: make tracks upon
+        angloform:
+          status: gap

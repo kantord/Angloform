@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04521987"
+        gloss: a coating that provides a hard, lustrous, transparent finish to a surface
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01269008"
+        gloss: cover with varnish
+        angloform:
+          status: gap

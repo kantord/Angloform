@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05164673"
+        gloss: "a drawback or difficulty that is not readily evident; \"it sounds good but what's the catch?\""
+        angloform:
+          status: gap
+      - wordnet: "03218545"
+        gloss: "something unspecified whose name is either forgotten or not known; \"she eased the ball-shaped doodad back into its socket\"; \"there may be some great new gizmo around the corner that you will want to use\""
+        angloform:
+          status: gap
+      - wordnet: "00171249"
+        gloss: "any clever maneuver; \"he would stoop to any device to win a point\"; \"it was a great sales gimmick\"; \"a cheap promotions gimmick for greedy businessmen\""
+        angloform:
+          status: gap

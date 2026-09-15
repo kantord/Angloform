@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03306207"
+        gloss: commodities (goods or services) sold to a foreign country
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02346409"
+        gloss: "sell or transfer abroad; \"we export less than we import and have a negative trade balance\""
+        angloform:
+          status: gap
+      - wordnet: "02232877"
+        gloss: transfer (electronic data) out of a database or document in a format that can be used by other programs
+        angloform:
+          status: gap
+      - wordnet: "01379097"
+        gloss: "cause to spread in another part of the world; \"The Russians exported Marxism to Africa\""
+        angloform:
+          status: gap

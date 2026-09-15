@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09928136"
+        gloss: a clergyman or other person in religious orders
+        angloform:
+          status: gap

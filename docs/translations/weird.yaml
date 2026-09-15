@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09586442"
+        gloss: fate personified; any one of the three Weird Sisters
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01575424"
+        gloss: "suggesting the operation of supernatural influences; \"an eldritch screech\"; \"the three weird sisters\"; \"stumps...had uncanny shapes as of monstrous creatures\"- John Galsworthy; \"an unearthly light\"; \"he could hear the unearthly scream of some curlew piercing the din\"- Henry Kingsley"
+        angloform:
+          status: gap
+      - wordnet: "00970081"
+        gloss: "strikingly odd or unusual; \"some trick of the moonlight; some weird effect of shadow\"- Bram Stoker"
+        angloform:
+          status: gap

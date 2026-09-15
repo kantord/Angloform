@@ -1,0 +1,5 @@
+status: exempt
+exempt_kind: proper-noun
+reason: a capitalized word from a corpus proper-noun phrase or title (e.g. "Botanical Court", "Botanical
+  News"), out of scope regardless of vocabulary state — its lowercase common-noun/adjective sense (if
+  any) is covered separately under the lowercase lemma

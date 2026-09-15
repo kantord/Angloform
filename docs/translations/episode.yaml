@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07289956"
+        gloss: a happening that is distinctive in a series of related events
+        angloform:
+          status: gap
+      - wordnet: "06396330"
+        gloss: a brief section of a literary or dramatic work that forms part of a connected series
+        angloform:
+          status: gap
+      - wordnet: "06621771"
+        gloss: a part of a broadcast serial
+        angloform:
+          status: gap
+      - wordnet: "04173172"
+        gloss: film consisting of a succession of related shots that develop a given subject in a movie
+        angloform:
+          status: redirect
+          word: sequence
+          category: NOUN

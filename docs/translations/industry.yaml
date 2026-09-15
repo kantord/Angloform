@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08065234"
+        gloss: "the people or companies engaged in a particular kind of commercial enterprise; \"each industry has its own trade publications\""
+        angloform:
+          status: gap
+      - wordnet: "00923444"
+        gloss: "the organized action of making of goods and services for sale; \"American industry is making increased use of computers to control production\""
+        angloform:
+          status: gap
+      - wordnet: "04865114"
+        gloss: "persevering determination to perform a task; \"his diligence won him quick promotions\"; \"frugality and industry are still regarded as virtues\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04162998"
+        gloss: "an area that includes places where several people can sit; \"there is seating for 40 students in this classroom\""
+        angloform:
+          status: gap
+      - wordnet: "01210699"
+        gloss: the service of ushering people to their seats
+        angloform:
+          status: gap

@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00250259"
+        gloss: "act of improving by expanding or enlarging or refining; \"he congratulated them on their development of a plan to meet the emergency\"; \"they funded research and development\""
+        angloform:
+          status: gap
+      - wordnet: "13464820"
+        gloss: "a process in which something passes by degrees to a different stage (especially a more advanced or mature stage); \"the development of his ideas took many years\"; \"the evolution of Greek civilization\"; \"the slow development of her skill as a writer\""
+        angloform:
+          status: gap
+      - wordnet: "13489037"
+        gloss: "(biology) the process of an individual organism growing organically; a purely biological unfolding of events involved in an organism changing gradually from a simple to a more complex level; \"he proposed an indicator of osseous development in children\""
+        angloform:
+          status: gap
+      - wordnet: "07423560"
+        gloss: "a recent event that has some relevance for the present situation; \"recent developments in Iraq\"; \"what a revolting development!\""
+        angloform:
+          status: gap
+      - wordnet: "00948206"
+        gloss: "the act of making some area of land or water more profitable or productive or useful; \"the development of Alaskan resources\"; \"the exploitation of copper deposits\""
+        angloform:
+          status: gap
+      - wordnet: "08549070"
+        gloss: "a district that has been developed to serve some purpose; \"such land is practical for small park developments\""
+        angloform:
+          status: gap
+      - wordnet: "14422871"
+        gloss: "a state in which things are improving; the result of developing (as in the early part of a game of chess); \"after he saw the latest development he changed his mind and became a supporter\"; \"in chess your should take care of your development before moving your queen\""
+        angloform:
+          status: gap
+      - wordnet: "13464557"
+        gloss: "processing a photosensitive material in order to make an image visible; \"the development and printing of his pictures took only two hours\""
+        angloform:
+          status: gap
+      - wordnet: "07068631"
+        gloss: (music) the section of a composition or movement (especially in sonata form) where the major musical themes are developed and elaborated
+        angloform:
+          status: gap

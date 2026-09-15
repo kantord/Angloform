@@ -1,0 +1,25 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09284433"
+        gloss: a river in southern Scotland that flows eastward to the Firth of Forth
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00232936"
+        gloss: "from a particular thing or place or position (`forth' is obsolete); \"ran away from the lion\"; \"wanted to get away from there\"; \"sent the children away to boarding school\"; \"the teacher waved the children away from the dead animal\"; \"went off to school\"; \"they drove off\"; \"go forth and preach\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00103859"
+        gloss: "forward in time or order or degree; \"from that time forth\"; \"from the sixth century onward\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00103761"
+        gloss: "out into view; \"came forth from the crowd\"; \"put my ideas forth\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

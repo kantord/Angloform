@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "03014288"
+        gloss: "pertaining to a process or series of actions for achieving a result; \"operational difficulties\"; \"they assumed their operational positions\""
+        angloform:
+          status: gap
+      - wordnet: "02124253"
+        gloss: "fit or ready for use or service; \"the toaster was still functional even after being dropped\"; \"the lawnmower is a bit rusty but still usable\"; \"an operational aircraft\"; \"the dishwasher is now in working order\""
+        angloform:
+          status: gap
+      - wordnet: "01660267"
+        gloss: (military) of or intended for or involved in military operations
+        angloform:
+          status: gap
+      - wordnet: "00833018"
+        gloss: "being in effect or operation; \"de facto apartheid is still operational even in the `new' African nations\"- Leslie Marmon Silko; \"bus service is in operation during the emergency\"; \"the company had several operating divisions\""
+        angloform:
+          status: gap

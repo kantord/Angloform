@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04988478"
+        gloss: "the timbre of a musical sound; \"the recording fails to capture the true color of the original music\""
+        angloform:
+          status: gap
+      - wordnet: "04975988"
+        gloss: "appearance with regard to color; \"her healthy coloration\""
+        angloform:
+          status: gap
+      - wordnet: "00161739"
+        gloss: choice and use of colors (as by an artist)
+        angloform:
+          status: gap

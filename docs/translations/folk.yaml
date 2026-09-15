@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07947255"
+        gloss: "people in general (often used in the plural); \"they're just country folk\"; \"folks around here drink moonshine\"; \"the common people determine the group character and preserve its customs from one generation to the next\""
+        angloform:
+          status: gap
+      - wordnet: "08372411"
+        gloss: a social division of (usually preliterate) people
+        angloform:
+          status: gap
+      - wordnet: "07970721"
+        gloss: "people descended from a common ancestor; \"his family has lived in Massachusetts since the Mayflower\""
+        angloform:
+          status: gap
+      - wordnet: "07060167"
+        gloss: the traditional and typically anonymous music that is an expression of the life of people in a community
+        angloform:
+          status: gap

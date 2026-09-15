@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02339341"
+        gloss: "greatest in importance or degree or significance or achievement; \"our greatest statesmen\"; \"the country's leading poet\"; \"a preeminent archeologist\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00217728"
+        gloss: "delighting the senses or exciting intellectual or emotional admiration; \"a beautiful child\"; \"beautiful country\"; \"a beautiful painting\"; \"a beautiful theory\"; \"a beautiful party\""
+        angloform:
+          status: gap
+      - wordnet: "01800764"
+        gloss: "(of weather) highly enjoyable; \"what a beautiful day\""
+        angloform:
+          status: gap

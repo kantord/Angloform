@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06400510"
+        gloss: "a passage selected from a larger work; \"he presented excerpts from William James' philosophical writings\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00677021"
+        gloss: take out of a literary work in order to cite or copy
+        angloform:
+          status: gap

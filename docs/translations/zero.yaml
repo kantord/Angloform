@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json (ADR 0022).
+by_upos:
+  NUM:
+    senses:
+      - gloss: the number 0; "zero files remain"
+        angloform:
+          status: construction
+          pattern: no file remains.
+          note: 'ADR 0022: for none write "no <noun> …" as the subject, or "… does not <verb> <nouns>"; matches seed.json''s existing BANNED advice for this lemma'

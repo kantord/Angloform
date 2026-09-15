@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02136892"
+        gloss: "manifest or bring back; \"This action reflects his true beliefs\""
+        angloform:
+          status: gap
+      - wordnet: "00630380"
+        gloss: "reflect deeply on a subject; \"I mulled over the events of the afternoon\"; \"philosophers have speculated on the question of God for thousands of years\"; \"The scientist must stop to observe and start to excogitate\""
+        angloform:
+          status: gap
+      - wordnet: "02136271"
+        gloss: "to throw or bend back (from a surface); \"Sound is reflected well in this auditorium\""
+        angloform:
+          status: gap
+      - wordnet: "02765924"
+        gloss: "be bright by reflecting or casting light; \"Drive carefully--the wet road reflects\""
+        angloform:
+          status: gap
+      - wordnet: "02136754"
+        gloss: "show an image of; \"her sunglasses reflected his image\""
+        angloform:
+          status: gap
+      - wordnet: "00821765"
+        gloss: "give evidence of a certain behavior; \"His lack of interest in the project reflects badly on him\""
+        angloform:
+          status: gap
+      - wordnet: "00821580"
+        gloss: "give evidence of the quality of; \"The mess in his dorm room reflects on the student\""
+        angloform:
+          status: gap

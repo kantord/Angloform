@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09445008"
+        gloss: a steep place (as on a hill)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00601043"
+        gloss: "devote (oneself) fully to; \"He immersed himself into his studies\""
+        angloform:
+          status: gap
+      - wordnet: "00327362"
+        gloss: "let sit in a liquid to extract a flavor or to cleanse; \"steep the blossoms in oil\"; \"steep the fruit in alcohol\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01144887"
+        gloss: "having a sharp inclination; \"the steep attic stairs\"; \"steep cliffs\""
+        angloform:
+          status: gap
+      - wordnet: "01534282"
+        gloss: "greatly exceeding bounds of reason or moderation; \"exorbitant rent\"; \"extortionate prices\"; \"spends an outrageous amount on entertainment\"; \"usurious interest rate\"; \"unconscionable spending\""
+        angloform:
+          status: gap
+      - wordnet: "01206164"
+        gloss: "of a slope; set at a high angle; \"note the steep incline\"; \"a steep roof sheds snow\""
+        angloform:
+          status: gap

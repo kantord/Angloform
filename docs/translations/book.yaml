@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06410904"
+        gloss: "a written work or composition that has been published (printed on pages bound together); \"I am reading a good book on economics\""
+        angloform:
+          status: gap
+      - wordnet: "02870092"
+        gloss: "physical objects consisting of a number of pages bound together; \"he used a large book as a doorstop\""
+        angloform:
+          status: gap
+      - wordnet: "06636524"
+        gloss: "a compilation of the known facts regarding something or someone; \"Al Smith used to say, `Let's look at the record'\"; \"his name is in all the record books\""
+        angloform:
+          status: gap
+      - wordnet: "07009946"
+        gloss: a written version of a play or other dramatic composition; used in preparing for a performance
+        angloform:
+          status: redirect
+          word: script
+          category: NOUN
+      - wordnet: "13404248"
+        gloss: "a record in which commercial accounts are recorded; \"they got a subpoena to examine our books\""
+        angloform:
+          status: gap
+      - wordnet: "07954441"
+        gloss: a collection of playing cards satisfying the rules of a card game
+        angloform:
+          status: gap
+      - wordnet: "07954211"
+        gloss: "a collection of rules or prescribed standards on the basis of which decisions are made; \"they run things by the book around here\""
+        angloform:
+          status: gap
+      - wordnet: "06461609"
+        gloss: the sacred writings of Islam revealed by God to the prophet Muhammad during his life at Mecca and Medina
+        angloform:
+          status: gap
+      - wordnet: "06431740"
+        gloss: "the sacred writings of the Christian religions; \"he went to carry the Word to the heathen\""
+        angloform:
+          status: redirect
+          word: word
+          category: NOUN
+      - wordnet: "06394865"
+        gloss: "a major division of a long written composition; \"the book of Isaiah\""
+        angloform:
+          status: gap
+      - wordnet: "02870526"
+        gloss: "a number of sheets (ticket or stamps etc.) bound together on one edge; \"he bought a book of stamps\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00678777"
+        gloss: "engage for a performance; \"Her agent had booked her for several concerts in Tokyo\""
+        angloform:
+          status: gap
+      - wordnet: "02498320"
+        gloss: "arrange for and reserve (something for someone else) in advance; \"reserve me a seat on a flight\"; \"The agent booked tickets to the show for the whole family\"; \"please hold a table at Maxim's\""
+        angloform:
+          status: redirect
+          word: reserve
+          category: VERB_TRANS
+      - wordnet: "02498136"
+        gloss: "record a charge in a police register; \"The policeman booked her when she tried to solicit a man\""
+        angloform:
+          status: gap
+      - wordnet: "02599754"
+        gloss: register in a hotel booker
+        angloform:
+          status: gap

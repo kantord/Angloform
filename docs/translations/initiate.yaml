@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10363913"
+        gloss: someone new to a field or activity
+        angloform:
+          status: gap
+      - wordnet: "10206887"
+        gloss: someone who has been admitted to membership in a scholarly field
+        angloform:
+          status: gap
+      - wordnet: "07948518"
+        gloss: "people who have been introduced to the mysteries of some field or activity; \"it is very familiar to the initiate\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01628449"
+        gloss: "bring into being; \"He initiated a new program\"; \"Start a foundation\""
+        angloform:
+          status: redirect
+          word: start
+          category: VERB_TRANS
+      - wordnet: "01641914"
+        gloss: "take the lead or initiative in; participate in the development of; \"This South African surgeon pioneered heart transplants\""
+        angloform:
+          status: gap
+      - wordnet: "02390470"
+        gloss: "accept people into an exclusive society or group, usually with some rite; \"African men are initiated when they reach puberty\""
+        angloform:
+          status: gap
+      - wordnet: "00964911"
+        gloss: bring up a topic for discussion
+        angloform:
+          status: gap
+      - wordnet: "00539546"
+        gloss: "set in motion, start an event or prepare the way for; \"Hitler's attack on Poland led up to World War II\""
+        angloform:
+          status: gap

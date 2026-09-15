@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: an internet discussion forum organized by topic (Usenet-era terminology)
+        angloform:
+          status: gap
+          note: no internet-forum vocabulary exists yet; dated technical jargon

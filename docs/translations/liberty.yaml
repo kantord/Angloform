@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13992514"
+        gloss: "immunity from arbitrary exercise of authority: political independence"
+        angloform:
+          status: gap
+      - wordnet: "13994456"
+        gloss: "freedom of choice; \"liberty of opinion\"; \"liberty of worship\"; \"liberty--perfect liberty--to think or feel or do just as one pleases\"; \"at liberty to choose whatever occupation one wishes\""
+        angloform:
+          status: gap
+      - wordnet: "13996061"
+        gloss: personal freedom from servitude or confinement or oppression
+        angloform:
+          status: gap
+      - wordnet: "15140080"
+        gloss: leave granted to a sailor or naval officer
+        angloform:
+          status: gap
+      - wordnet: "00737070"
+        gloss: an act of undue intimacy
+        angloform:
+          status: redirect
+          word: familiarity
+          category: NOUN

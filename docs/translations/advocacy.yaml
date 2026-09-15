@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01214171"
+        gloss: active support of an idea or cause etc.; especially the act of pleading or arguing for something
+        angloform:
+          status: gap

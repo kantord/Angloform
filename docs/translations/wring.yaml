@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07351031"
+        gloss: "a twisting squeeze; \"gave the wet cloth a wring\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01350699"
+        gloss: twist and press out of shape
+        angloform:
+          status: gap
+      - wordnet: "01349130"
+        gloss: "twist and compress, as if in pain or anguish; \"Wring one's hand\""
+        angloform:
+          status: gap
+      - wordnet: "02241107"
+        gloss: "obtain by coercion or intimidation; \"They extorted money from the executive by threatening to reveal his past to the company boss\"; \"They squeezed money from the owner of the business by threatening him\""
+        angloform:
+          status: gap
+      - wordnet: "01350971"
+        gloss: "twist, squeeze, or compress in order to extract liquid; \"wring the towels\""
+        angloform:
+          status: gap

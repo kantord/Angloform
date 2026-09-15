@@ -1,0 +1,84 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05097536"
+        gloss: "a lofty level or position or degree; \"summer temperatures reached an all-time high\""
+        angloform:
+          status: gap
+      - wordnet: "14520670"
+        gloss: "an air mass of higher than normal pressure; \"the east coast benefits from a Bermuda high\""
+        angloform:
+          status: gap
+      - wordnet: "14405621"
+        gloss: "a state of sustained elation; \"I'm on a permanent high these days\""
+        angloform:
+          status: gap
+      - wordnet: "14405452"
+        gloss: "a state of altered consciousness induced by alcohol or narcotics; \"they took drugs to get a high on\""
+        angloform:
+          status: gap
+      - wordnet: "08584618"
+        gloss: "a high place; \"they stood on high and observed the countryside\"; \"he doesn't like heights\""
+        angloform:
+          status: gap
+      - wordnet: "08409617"
+        gloss: "a public secondary school usually including grades 9 through 12; \"he goes to the neighborhood highschool\""
+        angloform:
+          status: gap
+      - wordnet: "03518631"
+        gloss: a forward gear with a gear ratio that gives the greatest vehicle velocity for a given engine speed
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01210854"
+        gloss: "greater than normal in degree or intensity or amount; \"a high temperature\"; \"a high price\"; \"the high point of his career\"; \"high risks\"; \"has high hopes\"; \"the river is high\"; \"he has a high opinion of himself\""
+        angloform:
+          status: gap
+      - wordnet: "01204557"
+        gloss: "(literal meaning) being at or having a relatively great or specific elevation or upward extension (sometimes used in combinations like `knee-high'); \"a high mountain\"; \"high ceilings\"; \"high buildings\"; \"a high forehead\"; \"a high incline\"; \"a foot high\""
+        angloform:
+          status: gap
+      - wordnet: "02339120"
+        gloss: "standing above others in quality or position; \"people in high places\"; \"the high priest\"; \"eminent members of the community\""
+        angloform:
+          status: gap
+      - wordnet: "01213197"
+        gloss: used of sounds and voices; high in pitch or frequency
+        angloform:
+          status: gap
+      - wordnet: "00705498"
+        gloss: happy and excited and energetic
+        angloform:
+          status: gap
+      - wordnet: "01054047"
+        gloss: (used of the smell of meat) smelling spoiled or tainted
+        angloform:
+          status: gap
+      - wordnet: "00799224"
+        gloss: slightly and pleasantly intoxicated from alcohol or a drug (especially marijuana)
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00356957"
+        gloss: "at a great altitude; \"he climbed high on the ladder\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00357139"
+        gloss: "in or to a high position, amount, or degree; \"prices have gone up far too high\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00357251"
+        gloss: "in a rich manner; \"he lives high\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00357052"
+        gloss: "far up toward the source; \"he lives high up the river\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07886849"
+        gloss: a general name for alcoholic beverages made by fermenting a cereal (or mixture of cereals) flavored with hops
+        angloform:
+          status: gap

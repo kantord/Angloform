@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07282006"
+        gloss: music intended to be performed by one or more singers, usually with instrumental accompaniment
+        angloform:
+          status: gap
+      - wordnet: "07048000"
+        gloss: "a short musical composition with words; \"a successful musical must have at least three good songs\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02825533"
+        gloss: "relating to or designed for or using the singing voice; \"vocal technique\"; \"the vocal repertoire\"; \"organized a vocal group to sing his compositions\""
+        angloform:
+          status: gap
+      - wordnet: "02825355"
+        gloss: "having or using the power to produce speech or sound; \"vocal organs\"; \"all vocal beings hymned their praise\""
+        angloform:
+          status: gap
+      - wordnet: "00499530"
+        gloss: "given to expressing yourself freely or insistently; \"outspoken in their opposition to segregation\"; \"a vocal assembly\""
+        angloform:
+          status: gap
+      - wordnet: "01454494"
+        gloss: "full of the sound of voices; \"a playground vocal with the shouts and laughter of children\""
+        angloform:
+          status: gap

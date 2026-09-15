@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00795863"
+        gloss: "command against; \"I forbid you to call me late at night\"; \"Mother vetoed the trip to the chocolate store\"; \"Dad nixed our plans\""
+        angloform:
+          status: gap
+      - wordnet: "02452885"
+        gloss: "keep from happening or arising; make impossible; \"My sense of tact forbids an honest answer\"; \"Your role in the projects precludes your involvement in the competitive project\""
+        angloform:
+          status: redirect
+          word: prevent
+          category: VERB_TRANS

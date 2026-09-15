@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01972820"
+        gloss: "being connected either logically or causally or by shared characteristics ; \"painting and the related arts\"; \"school-related activities\"; \"related to micelle formation is the...ability of detergent actives to congregate at oil-water interfaces\""
+        angloform:
+          status: gap
+      - wordnet: "01971237"
+        gloss: connected by kinship, common origin, or marriage
+        angloform:
+          status: gap

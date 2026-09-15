@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07314838"
+        gloss: "an event resulting in great loss and misfortune; \"the whole city was affected by the irremediable calamity\"; \"the earthquake was a disaster\""
+        angloform:
+          status: gap
+      - wordnet: "07016948"
+        gloss: drama in which the protagonist is overcome by some superior force or circumstance; excites terror or pity
+        angloform:
+          status: gap

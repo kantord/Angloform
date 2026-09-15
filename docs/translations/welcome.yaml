@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14413265"
+        gloss: "the state of being welcome; \"don't outstay your welcome\""
+        angloform:
+          status: gap
+      - wordnet: "06631322"
+        gloss: "a greeting or reception; \"the proposal got a warm welcome\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02237206"
+        gloss: "accept gladly; \"I welcome your proposals\""
+        angloform:
+          status: gap
+      - wordnet: "00900583"
+        gloss: bid welcome to; greet upon arrival
+        angloform:
+          status: redirect
+          word: receive
+          category: VERB_TRANS
+      - wordnet: "01470098"
+        gloss: "receive someone, as into one's house"
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02539968"
+        gloss: "giving pleasure or satisfaction or received with pleasure or freely granted; \"a welcome relief\"; \"a welcome guest\"; \"made the children feel welcome\"; \"you are welcome to join us\""
+        angloform:
+          status: gap

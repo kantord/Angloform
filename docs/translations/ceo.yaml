@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09916348"
+        gloss: the corporate executive responsible for the operations of the firm; reports to a board of directors; may appoint other managers (including a president)
+        angloform:
+          status: gap

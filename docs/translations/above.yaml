@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06392660"
+        gloss: "an earlier section of a written text; \"for instructions refer to the above\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00125993"
+        gloss: "appearing earlier in the same text; \"flaws in the above interpretation\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00079947"
+        gloss: "at an earlier place; \"see above\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00080169"
+        gloss: in or to a place that is higher
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

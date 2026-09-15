@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json (ADR 0023) — this file records
+# that existing verdict in the per-sense format.
+by_upos:
+  ADJ:
+    senses:
+      - gloss: referring to that very thing already mentioned; "the same file"
+        angloform:
+          status: construction
+          pattern: the file...
+          note: 'ADR 0023: for that very thing, repeat the noun with "the" instead of "the same"; matches seed.json''s existing BANNED advice for this lemma'
+      - gloss: two things that match exactly; "the copies are the same"
+        angloform:
+          status: redirect
+          word: identical
+          category: ADJ

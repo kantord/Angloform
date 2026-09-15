@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04829182"
+        gloss: the quality of being humane
+        angloform:
+          status: gap
+      - wordnet: "04726938"
+        gloss: "the quality of being human; \"he feared the speedy decline of all manhood\""
+        angloform:
+          status: gap
+      - wordnet: "02472987"
+        gloss: "all of the living human inhabitants of the earth; \"all the world loves a lover\"; \"she always used `humankind' because `mankind' seemed to slight the women\""
+        angloform:
+          status: gap

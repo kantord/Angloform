@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11452218"
+        gloss: "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs; \"energy can take a wide variety of forms\""
+        angloform:
+          status: gap
+      - wordnet: "05035961"
+        gloss: "forceful exertion; \"he plays tennis with great energy\"; \"he's full of zip\""
+        angloform:
+          status: gap
+      - wordnet: "04836683"
+        gloss: "enterprising or ambitious drive; \"Europeans often laugh at American energy\""
+        angloform:
+          status: gap
+      - wordnet: "04633197"
+        gloss: "an imaginative lively style (especially style of writing); \"his writing conveys great energy\"; \"a remarkable muscularity of style\""
+        angloform:
+          status: gap
+      - wordnet: "14050143"
+        gloss: "a healthy capacity for vigorous activity; \"jogging works off my excess energy\"; \"he seemed full of vim and vigor\""
+        angloform:
+          status: gap
+      - wordnet: "11452079"
+        gloss: "any source of usable power; \"the DOE is responsible for maintaining the energy policy\""
+        angloform:
+          status: gap
+      - wordnet: "08132955"
+        gloss: the federal department responsible for maintaining a national energy policy of the United States; created in 1977
+        angloform:
+          status: gap

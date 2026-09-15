@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02398378"
+        gloss: having an agreeably pungent taste
+        angloform:
+          status: gap
+      - wordnet: "02397732"
+        gloss: "producing a burning sensation on the taste nerves; \"hot salsa\"; \"jalapeno peppers are very hot\""
+        angloform:
+          status: gap
+      - wordnet: "02132224"
+        gloss: "suggestive of sexual impropriety; \"a blue movie\"; \"blue jokes\"; \"he skips asterisks and gives you the gamy details\"; \"a juicy scandal\"; \"a naughty wink\"; \"naughty words\"; \"racy anecdotes\"; \"a risque story\"; \"spicy gossip\""
+        angloform:
+          status: gap

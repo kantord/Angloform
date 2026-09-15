@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14845743"
+        gloss: binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid; freezes into ice below 0 degrees centigrade and boils above 100 degrees centigrade; widely used as a solvent
+        angloform:
+          status: gap
+      - wordnet: "09225146"
+        gloss: "the part of the earth's surface covered with water (such as a river or lake or ocean); \"they invaded our territorial waters\"; \"they were sitting by the water's edge\""
+        angloform:
+          status: gap
+      - wordnet: "14847357"
+        gloss: once thought to be one of four elements composing the universe (Empedocles)
+        angloform:
+          status: gap
+      - wordnet: "04562658"
+        gloss: "a facility that provides a source of water; \"the town debated the purification of the water supply\"; \"first you have to cut off the water\""
+        angloform:
+          status: gap
+      - wordnet: "14855724"
+        gloss: "liquid excretory product; \"there was blood in his urine\"; \"the child had to make water\""
+        angloform:
+          status: gap
+      - wordnet: "07935504"
+        gloss: "a liquid necessary for the life of most animals and plants; \"he asked for a drink of water\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00228236"
+        gloss: "supply with water, as with channels or ditches or streams; \"Water the fields\""
+        angloform:
+          status: gap
+      - wordnet: "02357873"
+        gloss: "provide with water; \"We watered the buffalo\""
+        angloform:
+          status: gap
+      - wordnet: "00069570"
+        gloss: "secrete or form water, as tears or saliva; \"My mouth watered at the prospect of a good dinner\"; \"His eyes watered\""
+        angloform:
+          status: gap
+      - wordnet: "00452098"
+        gloss: "fill with tears; \"His eyes were watering\""
+        angloform:
+          status: gap

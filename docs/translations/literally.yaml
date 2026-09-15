@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00340133"
+        gloss: "in a literal sense; \"literally translated\"; \"he said so literally\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00111269"
+        gloss: "(intensifier before a figurative expression) without exaggeration; \"our eyes were literally pinned to TV during the Gulf War\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

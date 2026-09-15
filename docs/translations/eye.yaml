@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05311054"
+        gloss: the organ of sight
+        angloform:
+          status: gap
+      - wordnet: "05614476"
+        gloss: "good discernment (either visually or as if visually); \"she has an eye for fresh talent\"; \"he has an artist's eye\""
+        angloform:
+          status: gap
+      - wordnet: "05703307"
+        gloss: "attention to what is seen; \"he tried to catch her eye\""
+        angloform:
+          status: gap
+      - wordnet: "08523483"
+        gloss: "an area that is approximately central within some larger region; \"it is in the center of town\"; \"they ran forward into the heart of the struggle\"; \"they were in the eye of the storm\""
+        angloform:
+          status: gap
+      - wordnet: "03308297"
+        gloss: "a small hole or loop (as in a needle); \"the thread wouldn't go through the eye\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02167052"
+        gloss: look at
+        angloform:
+          status: gap

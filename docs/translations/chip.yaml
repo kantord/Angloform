@@ -1,0 +1,62 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09222051"
+        gloss: "a small fragment of something broken off from the whole; \"a bit of rock caught him in the eye\""
+        angloform:
+          status: gap
+      - wordnet: "03020563"
+        gloss: a triangular wooden float attached to the end of a log line
+        angloform:
+          status: gap
+      - wordnet: "09243906"
+        gloss: a piece of dried bovine dung
+        angloform:
+          status: gap
+      - wordnet: "07712559"
+        gloss: a thin crisp slice of potato fried in deep fat
+        angloform:
+          status: gap
+      - wordnet: "04692908"
+        gloss: a mark left after a small piece has been chopped or broken off of something
+        angloform:
+          status: gap
+      - wordnet: "03020416"
+        gloss: a small disk-shaped counter used to represent money when gambling
+        angloform:
+          status: gap
+      - wordnet: "03020034"
+        gloss: electronic equipment consisting of a small crystal of a silicon semiconductor fabricated to carry out a number of electronic functions in an integrated circuit
+        angloform:
+          status: gap
+      - wordnet: "00573530"
+        gloss: (golf) a low running approach shot
+        angloform:
+          status: gap
+      - wordnet: "00377169"
+        gloss: the act of chipping something
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01259691"
+        gloss: "break off (a piece from a whole); \"Her tooth chipped\""
+        angloform:
+          status: gap
+      - wordnet: "01259005"
+        gloss: cut a nick into
+        angloform:
+          status: gap
+      - wordnet: "01598140"
+        gloss: play a chip shot
+        angloform:
+          status: gap
+      - wordnet: "01260291"
+        gloss: "form by chipping; \"They chipped their names in the stone\""
+        angloform:
+          status: gap
+      - wordnet: "01259458"
+        gloss: "break a small piece off from; \"chip the glass\"; \"chip a tooth\""
+        angloform:
+          status: gap

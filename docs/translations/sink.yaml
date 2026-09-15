@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04223580"
+        gloss: plumbing fixture consisting of a water basin fixed to a wall or floor and having a drainpipe
+        angloform:
+          status: gap
+      - wordnet: "13555915"
+        gloss: "(technology) a process that acts to absorb or remove energy or a substance from a system; \"the ocean is a sink for carbon dioxide\""
+        angloform:
+          status: gap
+      - wordnet: "09435739"
+        gloss: a depression in the ground communicating with a subterranean passage (especially in limestone) and formed by solution or by collapse of a cavern roof
+        angloform:
+          status: gap
+      - wordnet: "02998563"
+        gloss: a covered cistern; waste water and sewage flow into it
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01985923"
+        gloss: "fall or descend to a lower place or level; \"He sank to his knees\""
+        angloform:
+          status: redirect
+          word: drop
+          category: VERB_TRANS
+      - wordnet: "01986869"
+        gloss: "cause to sink; \"The Japanese sank American ships in Pearl Harbor\""
+        angloform:
+          status: gap
+      - wordnet: "01972131"
+        gloss: "pass into a specified state or condition; \"He sank into nirvana\""
+        angloform:
+          status: gap
+      - wordnet: "01989873"
+        gloss: "go under, \"The raft sank and its occupants drowned\""
+        angloform:
+          status: gap
+      - wordnet: "01971929"
+        gloss: "descend into or as if into some soft substance or place; \"He sank into bed\"; \"She subsided into the chair\""
+        angloform:
+          status: gap
+      - wordnet: "02039679"
+        gloss: "appear to move downward; \"The sun dipped below the horizon\"; \"The setting sun sank below the tree line\""
+        angloform:
+          status: gap
+      - wordnet: "00432839"
+        gloss: "fall heavily or suddenly; decline markedly; \"The real estate market fell off\""
+        angloform:
+          status: gap
+      - wordnet: "01988886"
+        gloss: "fall or sink heavily; \"He slumped onto the couch\"; \"My spirits sank\""
+        angloform:
+          status: gap
+      - wordnet: "01530098"
+        gloss: "embed deeply; \"She sank her fingers into the soft sand\"; \"He buried his head in her lap\""
+        angloform:
+          status: gap

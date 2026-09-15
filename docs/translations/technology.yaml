@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00949619"
+        gloss: the practical application of science to commerce or industry
+        angloform:
+          status: gap
+      - wordnet: "06125041"
+        gloss: "the discipline dealing with the art or science of applying scientific knowledge to practical problems; \"he had trouble deciding which branch of engineering to study\""
+        angloform:
+          status: gap

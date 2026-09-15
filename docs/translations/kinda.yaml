@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00018302"
+        gloss: "to some (great or small) extent; \"it was rather cold\"; \"the party was rather nice\"; \"the knife is rather dull\"; \"I rather regret that I cannot attend\"; \"He's rather good at playing the cello\"; \"he is kind of shy\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

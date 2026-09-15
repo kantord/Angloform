@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00258854"
+        gloss: the act of offering an improvement to replace a mistake; setting right
+        angloform:
+          status: gap
+      - wordnet: "13755957"
+        gloss: a quantity that is added or subtracted in order to increase the accuracy of a scientific measure
+        angloform:
+          status: gap
+      - wordnet: "06428537"
+        gloss: something substituted for an error
+        angloform:
+          status: gap
+      - wordnet: "06714288"
+        gloss: a rebuke for making a mistake
+        angloform:
+          status: gap
+      - wordnet: "05111511"
+        gloss: "a drop in stock market activity or stock prices following a period of increases; \"market runups are invariably followed by a correction\""
+        angloform:
+          status: gap
+      - wordnet: "01161821"
+        gloss: "the act of punishing; \"the offenders deserved the harsh discipline they received\""
+        angloform:
+          status: redirect
+          word: discipline
+          category: NOUN
+      - wordnet: "00662527"
+        gloss: "treatment of a specific defect; \"the correction of his vision with eye glasses\""
+        angloform:
+          status: gap

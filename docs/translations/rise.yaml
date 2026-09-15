@@ -1,0 +1,116 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07324917"
+        gloss: a growth in strength or number or importance
+        angloform:
+          status: gap
+      - wordnet: "00324384"
+        gloss: the act of changing location in an upward direction
+        angloform:
+          status: gap
+      - wordnet: "09206985"
+        gloss: "an upward slope or grade (as in a road); \"the car couldn't make it up the rise\""
+        angloform:
+          status: gap
+      - wordnet: "07445480"
+        gloss: "a movement upward; \"they cheered the rise of the hot-air balloon\""
+        angloform:
+          status: gap
+      - wordnet: "05110185"
+        gloss: "the amount a salary is increased; \"he got a 3% raise\"; \"he got a wage hike\""
+        angloform:
+          status: gap
+      - wordnet: "05068918"
+        gloss: the property possessed by a slope or surface that rises
+        angloform:
+          status: gap
+      - wordnet: "07348399"
+        gloss: a wave that lifts the surface of the water or ground
+        angloform:
+          status: gap
+      - wordnet: "07327288"
+        gloss: "(theology) the origination of the Holy Spirit at Pentecost; \"the emanation of the Holy Spirit\"; \"the rising of the Holy Ghost\"; \"the doctrine of the procession of the Holy Spirit from the Father and the Son\""
+        angloform:
+          status: gap
+      - wordnet: "05110408"
+        gloss: "an increase in cost; \"they asked for a 10% rise in rates\""
+        angloform:
+          status: gap
+      - wordnet: "00364260"
+        gloss: "increase in price or value; \"the news caused a general advance on the stock market\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01968569"
+        gloss: "move upward; \"The fog lifted\"; \"The smoke arose from the forest fire\"; \"The mist uprose from the meadows\""
+        angloform:
+          status: gap
+      - wordnet: "00155143"
+        gloss: "increase in value or to a higher point; \"prices climbed steeply\"; \"the value of our house rose sharply last year\""
+        angloform:
+          status: gap
+      - wordnet: "01983264"
+        gloss: "rise to one's feet; \"The audience got up and applauded\""
+        angloform:
+          status: gap
+      - wordnet: "02696801"
+        gloss: "rise up; \"The building rose before them\""
+        angloform:
+          status: gap
+      - wordnet: "01990281"
+        gloss: come to the surface
+        angloform:
+          status: gap
+      - wordnet: "02624263"
+        gloss: "come into existence; take on form or shape; \"A new religious movement originated in that country\"; \"a love that sprang up from friendship\"; \"the idea for the book grew out of a short story\"; \"An interesting phenomenon uprose\""
+        angloform:
+          status: redirect
+          word: grow
+          category: VERB_INTRANS
+      - wordnet: "01969779"
+        gloss: "move to a better position in life or to a better job; \"She ascended from a life of poverty to one of great"
+        angloform:
+          status: gap
+      - wordnet: "00433232"
+        gloss: "go up or advance; \"Sales were climbing after prices were lowered\""
+        angloform:
+          status: gap
+      - wordnet: "00432436"
+        gloss: "become more extreme; \"The tension heightened\""
+        angloform:
+          status: gap
+      - wordnet: "00018158"
+        gloss: "get up and out of bed; \"I get up at 7 A.M. every day\"; \"They rose early\"; \"He uprose at night\""
+        angloform:
+          status: gap
+      - wordnet: "00155547"
+        gloss: "rise in rank or status; \"Her new novel jumped high on the bestseller list\""
+        angloform:
+          status: gap
+      - wordnet: "01818116"
+        gloss: "become heartened or elated; \"Her spirits rose when she heard the good news\""
+        angloform:
+          status: gap
+      - wordnet: "01155545"
+        gloss: "exert oneself to meet a challenge; \"rise to a challenge\"; \"rise to the occasion\""
+        angloform:
+          status: gap
+      - wordnet: "02583139"
+        gloss: take part in a rebellion; renounce a former allegiance
+        angloform:
+          status: gap
+      - wordnet: "01983134"
+        gloss: "increase in volume; \"the dough rose slowly in the warm room\""
+        angloform:
+          status: gap
+      - wordnet: "01970348"
+        gloss: "come up, of celestial bodies; \"The sun also rises\"; \"The sun uprising sees the dusk night fled...\"; \"Jupiter ascends\""
+        angloform:
+          status: gap
+      - wordnet: "00098770"
+        gloss: "return from the dead; \"Christ is risen!\"; \"The dead are to uprise\""
+        angloform:
+          status: gap

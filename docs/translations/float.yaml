@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15294085"
+        gloss: the time interval between the deposit of a check in a bank and its payment
+        angloform:
+          status: gap
+      - wordnet: "13336368"
+        gloss: the number of shares outstanding and available for trading by the public
+        angloform:
+          status: gap
+      - wordnet: "07923034"
+        gloss: a drink with ice cream floating in it
+        angloform:
+          status: gap
+      - wordnet: "03364775"
+        gloss: an elaborate display mounted on a platform carried by a truck (or pulled by a truck) in a procession or parade
+        angloform:
+          status: gap
+      - wordnet: "03364599"
+        gloss: a hand tool with a flat face used for smoothing and finishing the surface of plaster or cement or stucco
+        angloform:
+          status: gap
+      - wordnet: "03364340"
+        gloss: something that floats on the surface of water
+        angloform:
+          status: gap
+      - wordnet: "02467581"
+        gloss: an air-filled sac near the spinal column in many fishes that helps maintain buoyancy
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01902783"
+        gloss: "be in motion due to some air or water current; \"The leaves were blowing in the wind\"; \"the boat drifted on the lake\"; \"The sailboat was adrift on the open sea\"; \"the shipwrecked boat drifted away from the shore\""
+        angloform:
+          status: redirect
+          word: drift
+          category: VERB_INTRANS
+      - wordnet: "01904293"
+        gloss: be afloat either on or below a liquid surface and not sink to the bottom
+        angloform:
+          status: gap
+      - wordnet: "01874568"
+        gloss: "set afloat; \"He floated the logs down the river\"; \"The boy floated his toy boat on the pond\""
+        angloform:
+          status: gap
+      - wordnet: "02532079"
+        gloss: "circulate or discuss tentatively; test the waters with; \"The Republicans are floating the idea of a tax reform\""
+        angloform:
+          status: gap
+      - wordnet: "01838651"
+        gloss: "move lightly, as if suspended; \"The dancer floated across the stage\""
+        angloform:
+          status: gap
+      - wordnet: "01514887"
+        gloss: "put into the water; \"float a ship\""
+        angloform:
+          status: gap
+      - wordnet: "01361998"
+        gloss: "make the surface of level or smooth; \"float the plaster\""
+        angloform:
+          status: gap
+      - wordnet: "00696042"
+        gloss: "allow (currencies) to fluctuate; \"The government floated the ruble for a few months\""
+        angloform:
+          status: gap
+      - wordnet: "00566181"
+        gloss: "convert from a fixed point notation to a floating point notation; \"float data\""
+        angloform:
+          status: gap

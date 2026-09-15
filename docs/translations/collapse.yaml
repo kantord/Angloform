@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14066203"
+        gloss: "an abrupt failure of function or complete physical exhaustion; \"the commander's prostration demoralized his men\""
+        angloform:
+          status: gap
+      - wordnet: "07361128"
+        gloss: "a natural event caused by something suddenly falling down or caving in; \"the roof is in danger of collapse\"; \"the collapse of the old star under its own gravity\""
+        angloform:
+          status: gap
+      - wordnet: "00327510"
+        gloss: "the act of throwing yourself down; \"he landed on the bed with a great flop\""
+        angloform:
+          status: gap
+      - wordnet: "07477945"
+        gloss: a sudden large decline of business or the prices of stocks (especially one that causes additional failures)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01989053"
+        gloss: "break down, literally or metaphorically; \"The wall collapsed\"; \"The business collapsed\"; \"The dam broke\"; \"The roof collapsed\"; \"The wall gave in\"; \"The roof finally gave under the weight of the ice\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "00030647"
+        gloss: collapse due to fatigue, an illness, or a sudden attack
+        angloform:
+          status: gap
+      - wordnet: "02083497"
+        gloss: "fold or close up; \"fold up your umbrella\"; \"collapse the music stand\""
+        angloform:
+          status: gap
+      - wordnet: "02041877"
+        gloss: "fall apart; \"the building crumbled after the explosion\"; \"Negotiations broke down\""
+        angloform:
+          status: gap
+      - wordnet: "01989562"
+        gloss: "cause to burst; \"The ice broke the pipe\""
+        angloform:
+          status: gap
+      - wordnet: "01785579"
+        gloss: suffer a nervous breakdown
+        angloform:
+          status: gap
+      - wordnet: "00224460"
+        gloss: "lose significance, effectiveness, or value; \"The school system is collapsing\"; \"The stock market collapsed\""
+        angloform:
+          status: gap

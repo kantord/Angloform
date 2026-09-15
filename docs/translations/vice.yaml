@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04853873"
+        gloss: moral weakness
+        angloform:
+          status: gap
+      - wordnet: "00747029"
+        gloss: "a specific form of evildoing; \"vice offends the moral standards of the community\""
+        angloform:
+          status: gap

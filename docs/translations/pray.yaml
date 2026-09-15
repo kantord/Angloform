@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00759944"
+        gloss: "address a deity, a prophet, a saint or an object of worship; say a prayer; \"pray to the Lord\""
+        angloform:
+          status: gap
+      - wordnet: "00759269"
+        gloss: "call upon in supplication; entreat; \"I beg you to stop!\""
+        angloform:
+          status: gap

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00098714"
+        gloss: "on the contrary; \"rather than disappoint the children, he did two quick tricks before he left\"; \"he didn't call; rather (or instead), he wrote her a letter\"; \"used English terms instead of Latin ones\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00018302"
+        gloss: "to some (great or small) extent; \"it was rather cold\"; \"the party was rather nice\"; \"the knife is rather dull\"; \"I rather regret that I cannot attend\"; \"He's rather good at playing the cello\"; \"he is kind of shy\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00115554"
+        gloss: "more readily or willingly; \"clean it well, preferably with warm water\"; \"I'd rather be in Philadelphia\"; \"I'd sooner die than give up\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00018781"
+        gloss: "to a degree (not used with a negative); \"quite tasty\"; \"quite soon\"; \"quite ill\"; \"quite rich\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

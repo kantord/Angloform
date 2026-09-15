@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15205532"
+        gloss: a period of 100 years
+        angloform:
+          status: gap
+      - wordnet: "13750415"
+        gloss: ten 10s
+        angloform:
+          status: gap

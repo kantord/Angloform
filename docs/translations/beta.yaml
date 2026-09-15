@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06834245"
+        gloss: the 2nd letter of the Greek alphabet
+        angloform:
+          status: gap
+      - wordnet: "11832108"
+        gloss: beets
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01276693"
+        gloss: "second in order of importance; \"the candidate, considered a beta male, was perceived to be unable to lead his party to victory\""
+        angloform:
+          status: gap
+      - wordnet: "00877938"
+        gloss: "preliminary or testing stage of a software or hardware product; \"a beta version\"; \"beta software\""
+        angloform:
+          status: gap

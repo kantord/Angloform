@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02399595"
+        gloss: "lacking taste or flavor or tang; \"a bland diet\"; \"insipid hospital food\"; \"flavorless supermarket tomatoes\"; \"vapid beer\"; \"vapid tea\""
+        angloform:
+          status: redirect
+          word: flat
+          category: ADJ
+      - wordnet: "02307563"
+        gloss: "lacking stimulating characteristics; uninteresting; \"a bland little drama\"; \"a flat joke\""
+        angloform:
+          status: redirect
+          word: flat
+          category: ADJ
+      - wordnet: "00758800"
+        gloss: "smoothly agreeable and courteous with a degree of sophistication; \"he was too politic to quarrel with so important a personage\"; \"the manager pacified the customer with a smooth apology for the error\""
+        angloform:
+          status: gap

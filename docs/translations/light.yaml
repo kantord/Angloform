@@ -1,0 +1,207 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11473954"
+        gloss: "(physics) electromagnetic radiation that can produce a visual sensation; \"the light was filtered through a soft glass window\""
+        angloform:
+          status: gap
+      - wordnet: "03665366"
+        gloss: "any device serving as a source of illumination; \"he stopped the car and turned off the lights\""
+        angloform:
+          status: gap
+      - wordnet: "06210791"
+        gloss: "a particular perspective or aspect of a situation; \"although he saw it in a different light, he still did not understand\""
+        angloform:
+          status: gap
+      - wordnet: "05018103"
+        gloss: "the quality of being luminous; emitting or reflecting light; \"its luminosity is measured relative to that of our sun\""
+        angloform:
+          status: gap
+      - wordnet: "08646188"
+        gloss: "an illuminated area; \"he stepped into the light\""
+        angloform:
+          status: gap
+      - wordnet: "14563784"
+        gloss: "a condition of spiritual awareness; divine illumination; \"follow God's light\""
+        angloform:
+          status: gap
+      - wordnet: "04951373"
+        gloss: "the visual effect of illumination on objects or scenes as created in pictures; \"he could paint the lightest light and the darkest dark\""
+        angloform:
+          status: gap
+      - wordnet: "10276659"
+        gloss: "a person regarded very fondly; \"the light of my life\""
+        angloform:
+          status: gap
+      - wordnet: "13983304"
+        gloss: "having abundant light or illumination; \"they played as long as it was light\"; \"as long as the lighting was good\""
+        angloform:
+          status: gap
+      - wordnet: "05807933"
+        gloss: "mental understanding as an enlightening experience; \"he finally saw the light\"; \"can you shed light on this problem?\""
+        angloform:
+          status: gap
+      - wordnet: "04953380"
+        gloss: "merriment expressed by a brightness or gleam or animation of countenance; \"he had a sparkle in his eye\"; \"there's a perpetual twinkle in his eyes\""
+        angloform:
+          status: gap
+      - wordnet: "05612706"
+        gloss: "public awareness; \"it brought the scandal to light\""
+        angloform:
+          status: gap
+      - wordnet: "09184668"
+        gloss: a divine presence believed by Quakers to enlighten and guide the soul
+        angloform:
+          status: gap
+      - wordnet: "06874019"
+        gloss: "a visual warning signal; \"they saw the light of the beacon\"; \"there was a light at every corner\""
+        angloform:
+          status: gap
+      - wordnet: "03666591"
+        gloss: "a device for lighting or igniting fuel or charges or fires; \"do you have a light?\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00291873"
+        gloss: "make lighter or brighter; \"This lamp lightens the room a bit\""
+        angloform:
+          status: gap
+      - wordnet: "01199881"
+        gloss: "begin to smoke; \"After the meal, some of the diners lit up\""
+        angloform:
+          status: gap
+      - wordnet: "01978700"
+        gloss: "to come to rest, settle; \"Misfortune lighted upon him\""
+        angloform:
+          status: gap
+      - wordnet: "02759614"
+        gloss: "cause to start burning; subject to fire or great heat; \"Great heat can ignite almost any dry matter\"; \"Light a cigarette\""
+        angloform:
+          status: gap
+      - wordnet: "02229828"
+        gloss: "fall to somebody by assignment or lot; \"The task fell to me\"; \"It fell to me to notify the parents of the victims\""
+        angloform:
+          status: redirect
+          word: fall
+          category: VERB_INTRANS
+      - wordnet: "01958452"
+        gloss: alight from (a horse)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01186408"
+        gloss: "of comparatively little physical weight or density; \"a light load\"; \"magnesium is a light metal--having a specific gravity of 1.74 at 20 degrees C\""
+        angloform:
+          status: gap
+      - wordnet: "00408660"
+        gloss: "(used of color) having a relatively small amount of coloring agent; \"light blue\"; \"light colors such as pastels\"; \"a light-colored powder\""
+        angloform:
+          status: gap
+      - wordnet: "01193046"
+        gloss: "of the military or industry; using (or being) relatively small or light arms or equipment; \"light infantry\"; \"light cavalry\"; \"light industry\"; \"light weapons\""
+        angloform:
+          status: gap
+      - wordnet: "01190993"
+        gloss: "not great in degree or quantity or number; \"a light sentence\"; \"a light accent\"; \"casualties were light\"; \"light snow was falling\"; \"light misty rain\"; \"light smoke from the chimney\""
+        angloform:
+          status: gap
+      - wordnet: "01190316"
+        gloss: "psychologically light; especially free from sadness or troubles; \"a light heart\""
+        angloform:
+          status: gap
+      - wordnet: "00269989"
+        gloss: "characterized by or emitting light; \"a room that is light when the shutters are open\"; \"the inside of the house was airy and light\""
+        angloform:
+          status: gap
+      - wordnet: "02320442"
+        gloss: "(used of vowels or syllables) pronounced with little or no stress; \"a syllable that ends in a short vowel is a light syllable\"; \"a weak stress on the second syllable\""
+        angloform:
+          status: gap
+      - wordnet: "01182414"
+        gloss: "easily assimilated in the alimentary canal; not rich or heavily seasoned; \"a light diet\""
+        angloform:
+          status: gap
+      - wordnet: "00503527"
+        gloss: "(used of soil) loose and large-grained in consistency; \"light soil\""
+        angloform:
+          status: gap
+      - wordnet: "01906464"
+        gloss: "(of sound or color) free from anything that dulls or dims; \"efforts to obtain a clean bass in orchestral recordings\"; \"clear laughter like a waterfall\"; \"clear reds and blues\"; \"a light lilting voice like a silver bell\""
+        angloform:
+          status: redirect
+          word: clear
+          category: ADJ
+      - wordnet: "01192393"
+        gloss: "moving easily and quickly; nimble; \"the dancer was light and graceful\"; \"a lightsome buoyant step\"; \"walked with a light tripping step\""
+        angloform:
+          status: gap
+      - wordnet: "00712186"
+        gloss: "demanding little effort; not burdensome; \"light housework\"; \"light exercise\""
+        angloform:
+          status: gap
+      - wordnet: "01191876"
+        gloss: "of little intensity or power or force; \"the light touch of her fingers\"; \"a light breeze\""
+        angloform:
+          status: gap
+      - wordnet: "01191448"
+        gloss: "(physics, chemistry) not having atomic weight greater than average; \"light water is ordinary water\""
+        angloform:
+          status: gap
+      - wordnet: "02544525"
+        gloss: "weak and likely to lose consciousness; \"suddenly felt faint from the pain\"; \"was sick and faint from hunger\"; \"felt light in the head\"; \"a swooning fit\"; \"light-headed with wine\"; \"light-headed from lack of sleep\""
+        angloform:
+          status: gap
+      - wordnet: "02414188"
+        gloss: "very thin and insubstantial; \"thin paper\"; \"light summer dresses\""
+        angloform:
+          status: gap
+      - wordnet: "02401863"
+        gloss: "marked by temperance in indulgence; \"abstemious with the use of adverbs\"; \"a light eater\"; \"a light smoker\"; \"ate a light supper\""
+        angloform:
+          status: gap
+      - wordnet: "02337329"
+        gloss: "less than the correct or legal or full amount often deliberately so; \"a light pound\"; \"a scant cup of sugar\"; \"regularly gives short weight\""
+        angloform:
+          status: redirect
+          word: short
+          category: ADJ
+      - wordnet: "02165318"
+        gloss: "having little importance; \"losing his job was no light matter\""
+        angloform:
+          status: gap
+      - wordnet: "02121572"
+        gloss: "intended primarily as entertainment; not serious or profound; \"light verse\"; \"a light comedy\""
+        angloform:
+          status: gap
+      - wordnet: "02121424"
+        gloss: "silly or trivial; \"idle pleasure\"; \"light banter\"; \"light idle chatter\""
+        angloform:
+          status: gap
+      - wordnet: "01188186"
+        gloss: "designed for ease of movement or to carry little weight; \"light aircraft\"; \"a light truck\""
+        angloform:
+          status: gap
+      - wordnet: "00993117"
+        gloss: "having relatively few calories; \"diet cola\"; \"light (or lite) beer\"; \"lite (or light) mayonnaise\"; \"a low-cal diet\""
+        angloform:
+          status: gap
+      - wordnet: "00693570"
+        gloss: "(of sleep) easily disturbed; \"in a light doze\"; \"a light sleeper\"; \"a restless wakeful night\""
+        angloform:
+          status: gap
+      - wordnet: "00361837"
+        gloss: "casual and unrestrained in sexual behavior; \"her easy virtue\"; \"he was told to avoid loose (or light) women\"; \"wanton behavior\""
+        angloform:
+          status: redirect
+          word: easy
+          category: ADJ
+  ADV:
+    senses:
+      - wordnet: "00390941"
+        gloss: "with few burdens; \"experienced travellers travel light\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

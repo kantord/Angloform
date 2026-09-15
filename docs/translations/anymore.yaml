@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00031606"
+        gloss: "at the present or from now on; usually used with a negative; \"Alice doesn't live here anymore\"; \"the children promised not to quarrel any more\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

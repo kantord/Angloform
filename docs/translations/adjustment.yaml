@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07369604"
+        gloss: making or becoming suitable; adjusting to circumstances
+        angloform:
+          status: gap
+      - wordnet: "00199707"
+        gloss: the act of making something different (as e.g. the size of a garment)
+        angloform:
+          status: gap
+      - wordnet: "00999787"
+        gloss: the act of adjusting something to match a standard
+        angloform:
+          status: gap
+      - wordnet: "13427078"
+        gloss: the process of adapting to something (such as environmental conditions)
+        angloform:
+          status: gap
+      - wordnet: "13274092"
+        gloss: "an amount added or deducted on the basis of qualifying circumstances; \"an allowance for profit\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09936215"
+        gloss: an associate that one works with
+        angloform:
+          status: gap
+      - wordnet: "09935990"
+        gloss: "a person who is member of one's class or profession; \"the surgeon consulted his colleagues\"; \"he sent e-mail to his fellow hackers\""
+        angloform:
+          status: gap

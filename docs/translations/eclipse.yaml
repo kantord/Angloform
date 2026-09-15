@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07368646"
+        gloss: one celestial body obscures another
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02744280"
+        gloss: "be greater in significance than; \"the tragedy overshadowed the couple's happiness\""
+        angloform:
+          status: gap
+      - wordnet: "02158340"
+        gloss: "cause an eclipse of (a celestial body) by intervention; \"The Sun eclipses the moon today\"; \"Planets and stars often are occulted by other celestial bodies\""
+        angloform:
+          status: gap

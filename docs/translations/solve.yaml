@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00634906"
+        gloss: "find the solution to (a problem or question) or understand the meaning of; \"did you solve the problem?\"; \"Work out your problems with the boss\"; \"this unpleasant situation isn't going to work itself out\"; \"did you get it?\"; \"Did you get my meaning?\"; \"He could not work the math problem\""
+        angloform:
+          status: gap
+      - wordnet: "00733044"
+        gloss: "find the solution; \"solve an equation\"; \"solve for x\""
+        angloform:
+          status: redirect
+          word: resolve
+          category: VERB_TRANS
+      - wordnet: "00761454"
+        gloss: "settle, as of a debt; \"clear a debt\"; \"solve an old debt\""
+        angloform:
+          status: gap

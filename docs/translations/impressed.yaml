@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00071142"
+        gloss: deeply or markedly affected or influenced
+        angloform:
+          status: gap

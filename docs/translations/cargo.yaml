@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02964389"
+        gloss: goods carried by a large vehicle
+        angloform:
+          status: redirect
+          word: load
+          category: NOUN

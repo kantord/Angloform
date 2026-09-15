@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09206985"
+        gloss: "an upward slope or grade (as in a road); \"the car couldn't make it up the rise\""
+        angloform:
+          status: gap
+      - wordnet: "06903255"
+        gloss: software that provides better performance than an earlier version did
+        angloform:
+          status: gap
+      - wordnet: "05795654"
+        gloss: "a reservation that is improved; \"I got an upgrade to first class when coach class was full\""
+        angloform:
+          status: gap
+      - wordnet: "05068918"
+        gloss: the property possessed by a slope or surface that rises
+        angloform:
+          status: gap
+      - wordnet: "04513686"
+        gloss: hardware that provides better performance than an earlier version did
+        angloform:
+          status: gap
+      - wordnet: "01267588"
+        gloss: "the act of improving something (especially machinery) by raising it to a higher grade (as by adding or replacing components); \"the power plant received a new upgrade\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00660851"
+        gloss: rate higher; raise in value or esteem
+        angloform:
+          status: gap
+      - wordnet: "00207184"
+        gloss: "to improve what was old or outdated; \"I've upgraded my computer so I can run better software\"; \"The company upgraded their personnel\""
+        angloform:
+          status: gap
+      - wordnet: "02397637"
+        gloss: "give a promotion to or assign to a higher position; \"John was kicked upstairs when a replacement was hired\"; \"Women tend not to advance in the major law firms\"; \"I got promoted after many years of hard work\""
+        angloform:
+          status: gap
+      - wordnet: "00584220"
+        gloss: "get better travel conditions; \"I upgraded to First Class when Coach Class was overbooked\""
+        angloform:
+          status: gap
+      - wordnet: "00583991"
+        gloss: "give better travel conditions to; \"The airline upgraded me when I arrived late and Coach Class was full\""
+        angloform:
+          status: gap

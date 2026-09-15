@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01225783"
+        gloss: a deliberate discourteous act (usually as an expression of anger or disapproval)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00617413"
+        gloss: "pay no attention to, disrespect; \"She cold-shouldered her ex-fiance\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01554510"
+        gloss: "(quantifier used with mass nouns) small in quantity or degree; not much or almost none or (with `a') at least some; \"little rain fell in May\"; \"gave it little thought\"; \"little time is left\"; \"we still have little money\"; \"a little hope remained\"; \"there's slight chance that it will work\"; \"there's a slight chance it will work\""
+        angloform:
+          status: gap
+      - wordnet: "02164913"
+        gloss: "lacking substance or significance; \"slight evidence\"; \"a tenuous argument\"; \"a thin plot\"; a fragile claim to fame\""
+        angloform:
+          status: gap
+      - wordnet: "00990855"
+        gloss: "being of delicate or slender build; \"she was slender as a willow shoot is slender\"- Frank Norris; \"a slim girl with straight blonde hair\"; \"watched her slight figure cross the street\""
+        angloform:
+          status: gap

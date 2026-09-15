@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09876454"
+        gloss: "a male with the same parents as someone else; \"my brother still lives with our parents\""
+        angloform:
+          status: gap
+      - wordnet: "09876892"
+        gloss: "a male person who is a fellow member (of a fraternity or religion or other group); \"none of his brothers would betray him\""
+        angloform:
+          status: gap
+      - wordnet: "09877951"
+        gloss: a close friend who accompanies his buddies in their activities
+        angloform:
+          status: gap
+      - wordnet: "09877124"
+        gloss: "used as a term of address for those male persons engaged in the same movement; \"Greetings, comrade!\""
+        angloform:
+          status: gap
+      - wordnet: "09876701"
+        gloss: "(Roman Catholic Church) a title given to a monk and used as form of address; \"a Benedictine Brother\""
+        angloform:
+          status: gap

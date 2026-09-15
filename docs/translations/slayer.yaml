@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10231087"
+        gloss: someone who causes the death of a person or animal
+        angloform:
+          status: gap

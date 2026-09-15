@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15286249"
+        gloss: "a magnitude or frequency relative to a time unit; \"they traveled at a rate of 55 miles per hour\"; \"the rate of change was faster than expected\""
+        angloform:
+          status: gap
+      - wordnet: "13325010"
+        gloss: "amount of a charge or payment relative to some basis; \"a 10-minute phone call at that rate would cost $5\""
+        angloform:
+          status: gap
+      - wordnet: "05058580"
+        gloss: "the relative speed of progress or change; \"he lived at a fast pace\"; \"he works at a great rate\"; \"the pace of events accelerated\""
+        angloform:
+          status: gap
+      - wordnet: "13816649"
+        gloss: "a quantity or amount or measure considered as a proportion of another quantity or amount or measure; \"the literacy rate\"; \"the retention rate\"; \"the dropout rate\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00658052"
+        gloss: "assign a rank or rating to; \"how would you rank these students?\"; \"The restaurant is rated highly in the food guide\""
+        angloform:
+          status: redirect
+          word: rank
+          category: VERB_TRANS
+      - wordnet: "02646227"
+        gloss: "be worthy of or have a certain rating; \"This bond rates highly\""
+        angloform:
+          status: gap
+      - wordnet: "00660971"
+        gloss: "estimate the value of; \"How would you rate his chances to become President?\"; \"Gold was rated highly among the Romans\""
+        angloform:
+          status: gap

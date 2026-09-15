@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15271008"
+        gloss: a time interval during which there is a temporary cessation of something
+        angloform:
+          status: gap
+      - wordnet: "01062817"
+        gloss: temporary inactivity
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02641035"
+        gloss: "interrupt temporarily an activity before continuing; \"The speaker paused\""
+        angloform:
+          status: gap
+      - wordnet: "00779061"
+        gloss: "cease an action temporarily; \"We pause for station identification\"; \"let's break for lunch\""
+        angloform:
+          status: redirect
+          word: break
+          category: VERB_TRANS

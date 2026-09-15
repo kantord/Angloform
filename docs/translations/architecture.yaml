@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02734725"
+        gloss: an architectural product or work
+        angloform:
+          status: gap
+      - wordnet: "06123363"
+        gloss: "the discipline dealing with the principles of design and construction and ornamentation of fine buildings; \"architecture and eloquence are mixed arts whose end is sometimes beauty and sometimes use\""
+        angloform:
+          status: gap
+      - wordnet: "00610738"
+        gloss: the profession of designing buildings and environments with consideration for their esthetic effect
+        angloform:
+          status: gap
+      - wordnet: "04932278"
+        gloss: "(computer science) the structure and organization of a computer's hardware or system software; \"the architecture of a computer's system software\""
+        angloform:
+          status: gap

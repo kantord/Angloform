@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05560787"
+        gloss: a human limb; commonly used to refer to a whole limb but technically only the part of the limb between the knee and ankle
+        angloform:
+          status: gap
+      - wordnet: "05561507"
+        gloss: a structure in animals that is similar to a human leg and used for locomotion
+        angloform:
+          status: gap
+      - wordnet: "03654826"
+        gloss: one of the supports for a piece of furniture
+        angloform:
+          status: gap
+      - wordnet: "13913849"
+        gloss: "a part of a forked or branching shape; \"he broke off one of the branches\""
+        angloform:
+          status: redirect
+          word: branch
+          category: NOUN
+      - wordnet: "07655505"
+        gloss: the limb of an animal used for food
+        angloform:
+          status: gap
+      - wordnet: "03906106"
+        gloss: a prosthesis that replaces a missing leg
+        angloform:
+          status: gap
+      - wordnet: "03654576"
+        gloss: "a cloth covering consisting of the part of a pair of trousers that covers a person's leg"
+        angloform:
+          status: gap
+      - wordnet: "00307176"
+        gloss: (nautical) the distance traveled by a sailing vessel on a single tack
+        angloform:
+          status: gap
+      - wordnet: "00306900"
+        gloss: "a section or portion of a journey or course; \"then we embarked on the second stage of our Caribbean cruise\""
+        angloform:
+          status: gap

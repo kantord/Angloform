@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02820210"
+        gloss: coverings that are used on a bed
+        angloform:
+          status: gap
+      - wordnet: "02820432"
+        gloss: material used to provide a bed for animals
+        angloform:
+          status: gap

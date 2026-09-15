@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00941604"
+        gloss: "a line of approach; \"they explored every avenue they could think of\"; \"it promises to open new avenues to understanding\""
+        angloform:
+          status: gap
+      - wordnet: "02763472"
+        gloss: a wide street or thoroughfare
+        angloform:
+          status: gap

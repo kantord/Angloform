@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01149494"
+        gloss: "experiencing or marked by or causing sadness or sorrow or discontent; \"unhappy over her departure\"; \"unhappy with her raise\"; \"after the argument they lapsed into an unhappy silence\"; \"had an unhappy time at school\"; \"the unhappy (or sad) news\"; \"he looks so sad\""
+        angloform:
+          status: gap
+      - wordnet: "00909363"
+        gloss: generalized feeling of distress
+        angloform:
+          status: gap
+      - wordnet: "01805064"
+        gloss: "causing discomfort; \"the unhappy truth\""
+        angloform:
+          status: gap
+      - wordnet: "01051814"
+        gloss: "marked by or producing unhappiness; \"infelicitous circumstances\"; \"unhappy caravans, straggling afoot through swamps and canebrakes\"- American Guide Series"
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00921160"
+        gloss: working as a landscape gardener
+        angloform:
+          status: gap
+      - wordnet: "03640288"
+        gloss: "a garden laid out for esthetic effect; \"they spent a great deal of money on the landscaping\""
+        angloform:
+          status: gap

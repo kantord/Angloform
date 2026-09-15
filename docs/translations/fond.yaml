@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01464700"
+        gloss: "having or displaying warmth or affection; \"affectionate children\"; \"a fond embrace\"; \"fond of his nephew\"; \"a tender glance\"; \"a warm embrace\""
+        angloform:
+          status: gap
+      - wordnet: "01464433"
+        gloss: "extravagantly or foolishly loving and indulgent; \"adoring grandparents\"; \"deceiving her preoccupied and doting husband with a young captain\"; \"hopelessly spoiled by a fond mother\""
+        angloform:
+          status: gap
+      - wordnet: "01292683"
+        gloss: "(followed by `of' or `to') having a strong preference or liking for; \"fond of chocolate\"; \"partial to horror movies\""
+        angloform:
+          status: gap
+      - wordnet: "02571903"
+        gloss: "absurd or silly because unlikely; \"fond hopes of becoming President\"; \"fond fancies\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00643250"
+        gloss: "having the ability or power to create; \"a creative imagination\""
+        angloform:
+          status: gap
+      - wordnet: "00585202"
+        gloss: "promoting construction or creation; \"creative work\""
+        angloform:
+          status: gap

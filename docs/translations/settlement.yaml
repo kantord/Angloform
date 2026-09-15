@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08374049"
+        gloss: "a body of people who settle far from home but maintain ties with their homeland; inhabitants remain nationals of their home state but are not literally under the home state's system of government; \"the American colony in Paris\""
+        angloform:
+          status: gap
+      - wordnet: "08226699"
+        gloss: a community of people smaller than a town
+        angloform:
+          status: gap
+      - wordnet: "07177924"
+        gloss: a conclusive resolution of a matter and disposition of it
+        angloform:
+          status: gap
+      - wordnet: "01252280"
+        gloss: "the act of colonizing; the establishment of colonies; \"the British colonization of America\""
+        angloform:
+          status: gap
+      - wordnet: "05789089"
+        gloss: "something settled or resolved; the outcome of decision making; \"they finally reached a settlement with the union\"; \"they never did achieve a final resolution of their differences\"; \"he needed to grieve before he could achieve a sense of closure\""
+        angloform:
+          status: redirect
+          word: resolution
+          category: NOUN
+      - wordnet: "08672562"
+        gloss: an area where a group of families live together
+        angloform:
+          status: gap
+      - wordnet: "00228535"
+        gloss: termination of a business operation by using its assets to discharge its liabilities
+        angloform:
+          status: gap

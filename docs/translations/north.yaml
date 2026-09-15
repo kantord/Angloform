@@ -1,0 +1,45 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09052652"
+        gloss: the region of the United States lying to the north of the Mason-Dixon line
+        angloform:
+          status: gap
+      - wordnet: "09052314"
+        gloss: "the United States (especially the northern states during the American Civil War); \"he has visited every state in the Union\"; \"Lee hoped to detach Maryland from the Union\"; \"the North's superior resources turned the scale\""
+        angloform:
+          status: gap
+      - wordnet: "13831176"
+        gloss: the cardinal compass point that is at 0 or 360 degrees
+        angloform:
+          status: gap
+      - wordnet: "08561081"
+        gloss: a location in the northern part of a country, region, or city
+        angloform:
+          status: gap
+      - wordnet: "13835427"
+        gloss: the direction corresponding to the northward cardinal compass point
+        angloform:
+          status: gap
+      - wordnet: "13831441"
+        gloss: the direction in which a compass needle points
+        angloform:
+          status: gap
+      - wordnet: "11209790"
+        gloss: British statesman under George III whose policies led to rebellion in the American colonies (1732-1792)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01600333"
+        gloss: "situated in or facing or moving toward or coming from the north; \"artists like north light\"; \"the north portico\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00244043"
+        gloss: "in a northern direction; \"they earn more up north\"; \"Let's go north!\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

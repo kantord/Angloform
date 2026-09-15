@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08101410"
+        gloss: "a special variety of domesticated animals within a species; \"he experimented on a particular breed of white rats\"; \"he created a new strain of sheep\""
+        angloform:
+          status: gap
+      - wordnet: "05839547"
+        gloss: "a special type; \"Google represents a new breed of entrepreneurs\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01649024"
+        gloss: call forth
+        angloform:
+          status: gap
+      - wordnet: "01430447"
+        gloss: "copulate with a female, used especially of horses; \"The horse covers the mare\""
+        angloform:
+          status: redirect
+          word: cover
+          category: VERB_TRANS
+      - wordnet: "01429455"
+        gloss: "cause to procreate (animals); \"She breeds dogs\""
+        angloform:
+          status: gap
+      - wordnet: "00056334"
+        gloss: "have young (animals) or reproduce (organisms); \"pandas rarely breed in captivity\"; \"These bacteria reproduce\""
+        angloform:
+          status: gap

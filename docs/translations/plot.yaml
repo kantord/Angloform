@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05907682"
+        gloss: "a secret scheme to do something (especially something underhand or illegal); \"they concocted a plot to discredit the governor\"; \"I saw through his little game from the start\""
+        angloform:
+          status: redirect
+          word: game
+          category: NOUN
+      - wordnet: "08674739"
+        gloss: "a small area of ground covered by specific vegetation; \"a bean plot\"; \"a cabbage patch\"; \"a briar patch\""
+        angloform:
+          status: gap
+      - wordnet: "06373314"
+        gloss: "the story that is told in a novel or play or movie etc.; \"the characters were well drawn but the plot was banal\""
+        angloform:
+          status: gap
+      - wordnet: "07000065"
+        gloss: a chart or map showing the movements or progress of an object
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00708128"
+        gloss: "plan secretly, usually something illegal; \"They plotted the overthrow of the government\""
+        angloform:
+          status: gap
+      - wordnet: "01693453"
+        gloss: make a schematic or technical drawing of that shows interactions among variables or how something is constructed
+        angloform:
+          status: gap
+      - wordnet: "00710922"
+        gloss: "make a plat of; \"Plat the town\""
+        angloform:
+          status: gap
+      - wordnet: "01638825"
+        gloss: "devise the sequence of events in (a literary work or a play, movie, or ballet); \"the writer is plotting a new novel\""
+        angloform:
+          status: gap

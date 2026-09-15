@@ -1,0 +1,3 @@
+status: exempt
+exempt_kind: garbage
+reason: a computing performance unit (million instructions per second), narrow technical jargon

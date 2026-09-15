@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09617867"
+        gloss: a person with special knowledge or ability who performs skillfully
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02226162"
+        gloss: "having or showing knowledge and skill and aptitude; \"adept in handicrafts\"; \"an adept juggler\"; \"an expert job\"; \"a good mechanic\"; \"a practiced marksman\"; \"a proficient engineer\"; \"a lesser-known but no less skillful composer\"; \"the effect was achieved by skillful retouching\""
+        angloform:
+          status: redirect
+          word: good
+          category: ADJ
+      - wordnet: "02227946"
+        gloss: "of or relating to or requiring special knowledge to be understood; \"technical terminology\"; \"a technical report\"; \"technical language\""
+        angloform:
+          status: redirect
+          word: technical
+          category: ADJ

@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06778102"
+        gloss: "a humorous anecdote or remark intended to provoke laughter; \"he told a very funny joke\"; \"he knows a million gags\"; \"thanks for the laugh\"; \"he laughed unpleasantly at his own jest\"; \"even a schoolboy's jape is supposed to have some ascertainable point\""
+        angloform:
+          status: gap
+      - wordnet: "00431005"
+        gloss: activity characterized by good humor
+        angloform:
+          status: gap
+      - wordnet: "00427580"
+        gloss: a ludicrous or grotesque act done for fun and amusement
+        angloform:
+          status: gap
+      - wordnet: "05173443"
+        gloss: "a triviality not to be taken seriously; \"I regarded his campaign for mayor as a joke\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00853633"
+        gloss: "tell a joke; speak humorously; \"He often jokes even when he appears serious\""
+        angloform:
+          status: gap
+      - wordnet: "00105554"
+        gloss: act in a funny or teasing way
+        angloform:
+          status: gap

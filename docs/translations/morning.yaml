@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15165289"
+        gloss: "the time period between dawn and noon; \"I spent the morning running errands\""
+        angloform:
+          status: gap
+      - wordnet: "06632671"
+        gloss: a conventional expression of greeting or farewell
+        angloform:
+          status: gap
+      - wordnet: "15168790"
+        gloss: "the first light of day; \"we got up before dawn\"; \"they talked until morning\""
+        angloform:
+          status: gap
+      - wordnet: "07326108"
+        gloss: "the earliest period; \"the dawn of civilization\"; \"the morning of the world\""
+        angloform:
+          status: gap

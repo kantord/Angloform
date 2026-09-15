@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07609840"
+        gloss: a dish served as the last course of a meal
+        angloform:
+          status: gap

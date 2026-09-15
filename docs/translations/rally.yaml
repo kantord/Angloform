@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08358332"
+        gloss: a large gathering of people intended to arouse enthusiasm
+        angloform:
+          status: gap
+      - wordnet: "00045646"
+        gloss: "the feat of mustering strength for a renewed effort; \"he singled to start a rally in the 9th inning\"; \"he feared the rallying of their troops for a counterattack\""
+        angloform:
+          status: gap
+      - wordnet: "13545845"
+        gloss: a marked recovery of strength or spirits during an illness
+        angloform:
+          status: gap
+      - wordnet: "07459157"
+        gloss: an automobile race run over public roads
+        angloform:
+          status: gap
+      - wordnet: "01166517"
+        gloss: "(sports) an unbroken sequence of several successive strokes; \"after a short rally Connors won the point\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01385643"
+        gloss: "gather; \"drum up support\""
+        angloform:
+          status: gap
+      - wordnet: "01097960"
+        gloss: call to arms; of military personnel
+        angloform:
+          status: gap
+      - wordnet: "01381549"
+        gloss: "gather or bring together; \"muster the courage to do something\"; \"she rallied her intellect\"; \"Summon all your courage\""
+        angloform:
+          status: gap
+      - wordnet: "00528608"
+        gloss: "return to a former condition; \"The jilted lover soon rallied and found new friends\"; \"The stock market rallied\""
+        angloform:
+          status: gap
+      - wordnet: "00850501"
+        gloss: "harass with persistent criticism or carping; \"The children teased the new teacher\"; \"Don't ride me so hard over my failure\"; \"His fellow workers razzed him when he wore a jacket and tie\""
+        angloform:
+          status: gap

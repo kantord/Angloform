@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00448314"
+        gloss: "close in time; about to occur; \"retribution is at hand\"; \"some people believe the day of judgment is close at hand\"; \"in imminent danger\"; \"his impending retirement\""
+        angloform:
+          status: gap

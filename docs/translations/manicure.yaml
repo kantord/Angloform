@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00660783"
+        gloss: professional care for the hands and fingernails
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00042641"
+        gloss: "trim carefully and neatly; \"manicure fingernails\""
+        angloform:
+          status: gap
+      - wordnet: "00042479"
+        gloss: "care for (one's hand) by cutting and shaping the nails, etc."
+        angloform:
+          status: gap

@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06315638"
+        gloss: a word or phrase used to complete a grammatical construction
+        angloform:
+          status: gap
+      - wordnet: "13591998"
+        gloss: "a complete number or quantity; \"a full complement\""
+        angloform:
+          status: gap
+      - wordnet: "08218212"
+        gloss: "number needed to make up a whole force; \"a full complement of workers\""
+        angloform:
+          status: gap
+      - wordnet: "05109511"
+        gloss: "something added to complete or embellish or make perfect; \"a fine wine is a perfect complement to the dinner\"; \"wild rice was served as an accompaniment to the main dish\""
+        angloform:
+          status: gap
+      - wordnet: "14736201"
+        gloss: one of a series of enzymes in the blood serum that are part of the immune response
+        angloform:
+          status: gap
+      - wordnet: "05696297"
+        gloss: either of two parts that mutually complete each other
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00455919"
+        gloss: "make complete or perfect; supply what is wanting or form the complement to; \"I need some pepper to complement the sweet touch in the soup\""
+        angloform:
+          status: gap

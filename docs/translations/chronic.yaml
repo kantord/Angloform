@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00045123"
+        gloss: "being long-lasting and recurrent or characterized by long suffering; \"chronic indigestion\"; \"a chronic shortage of funds\"; \"a chronic invalid\""
+        angloform:
+          status: gap
+      - wordnet: "01438963"
+        gloss: "of long duration; \"chronic money problems\""
+        angloform:
+          status: gap
+      - wordnet: "00489768"
+        gloss: "habitual; \"a chronic smoker\""
+        angloform:
+          status: gap

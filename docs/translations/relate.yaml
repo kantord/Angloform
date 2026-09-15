@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00713167"
+        gloss: "make a logical or causal connection; \"I cannot connect these two pieces of evidence in my mind\"; \"colligate these facts\"; \"I cannot relate these events at all\""
+        angloform:
+          status: redirect
+          word: link
+          category: VERB_TRANS
+      - wordnet: "02676054"
+        gloss: "be relevant to; \"There were lots of questions referring to her talk\"; \"My remark pertained to your earlier comments\""
+        angloform:
+          status: redirect
+          word: refer
+          category: VERB_INTRANS
+      - wordnet: "00953058"
+        gloss: "give an account of; \"The witness related the events\""
+        angloform:
+          status: gap
+      - wordnet: "02724417"
+        gloss: "be in a relationship with; \"How are these two observations related?\""
+        angloform:
+          status: gap
+      - wordnet: "02458103"
+        gloss: "have or establish a relationship to; \"She relates well to her peers\""
+        angloform:
+          status: gap

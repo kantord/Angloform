@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02524171"
+        gloss: "attain success or reach a desired goal; \"The enterprise succeeded\"; \"We succeeded in getting tickets to the show\"; \"she struggled to overcome her handicap and won\""
+        angloform:
+          status: redirect
+          word: win
+          category: VERB_INTRANS
+      - wordnet: "02406585"
+        gloss: "be the successor (of); \"Carter followed Ford\"; \"Will Charles succeed to the throne?\""
+        angloform:
+          status: redirect
+          word: follow
+          category: VERB_TRANS

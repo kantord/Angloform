@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00219389"
+        gloss: "having great beauty and splendor; \"a glorious spring morning\"; \"a glorious sunset\"; \"splendid costumes\"; \"a kind of splendiferous native simplicity\""
+        angloform:
+          status: gap
+      - wordnet: "02343110"
+        gloss: "very good;of the highest quality; \"made an excellent speech\"; \"the school has excellent teachers\"; \"a first-class mind\""
+        angloform:
+          status: gap
+      - wordnet: "01285376"
+        gloss: "characterized by grandeur; \"the brilliant court life at Versailles\"; \"a glorious work of art\"; \"magnificent cathedrals\"; \"the splendid coronation ceremony\""
+        angloform:
+          status: gap

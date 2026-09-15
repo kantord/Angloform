@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03540267"
+        gloss: socks and stockings and tights collectively (the British include underwear)
+        angloform:
+          status: gap
+      - wordnet: "03540090"
+        gloss: "man's close-fitting garment of the 16th and 17th centuries covering the legs and reaching up to the waist; worn with a doublet"
+        angloform:
+          status: gap
+      - wordnet: "03539875"
+        gloss: a flexible pipe for conveying a liquid or gas
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00228521"
+        gloss: "water with a hose; \"hose the lawn\""
+        angloform:
+          status: gap

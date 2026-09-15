@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08179879"
+        gloss: "the people who inhabit a territory or state; \"the population seemed to be well fed and clothed\""
+        angloform:
+          status: gap
+      - wordnet: "08178741"
+        gloss: "a group of organisms of the same species inhabiting a given area; \"they hired hunters to keep down the deer population\""
+        angloform:
+          status: gap
+      - wordnet: "06026276"
+        gloss: "(statistics) the entire aggregation of items from which samples can be drawn; \"it is an estimate of the mean of the population\""
+        angloform:
+          status: gap
+      - wordnet: "13779804"
+        gloss: "the number of inhabitants (either the total number or the number of a particular race or class) in a given place (country or city etc.); \"people come and go, but the population of this town has remained approximately constant for the past decade\"; \"the African-American population of Salt Lake City has been increasing\""
+        angloform:
+          status: gap
+      - wordnet: "01257969"
+        gloss: "the act of populating (causing to live in a place); \"he deplored the population of colonies with convicted criminals\""
+        angloform:
+          status: gap

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07858978"
+        gloss: a sweet yellow liquid produced by bees
+        angloform:
+          status: gap
+      - wordnet: "09849598"
+        gloss: a beloved person; used as terms of endearment
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02195852"
+        gloss: sweeten with honey
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00376537"
+        gloss: of something having the color of honey
+        angloform:
+          status: gap

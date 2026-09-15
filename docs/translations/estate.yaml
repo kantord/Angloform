@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13250930"
+        gloss: everything you own; all of your assets (whether real property or personal property) and liabilities
+        angloform:
+          status: gap
+      - wordnet: "13246662"
+        gloss: "extensive landed property (especially in the country) retained by the owner for his own use; \"the family owned a large estate on Long Island\""
+        angloform:
+          status: gap
+      - wordnet: "08167365"
+        gloss: a major social class or order of persons regarded collectively as part of the body politic of the country (especially in the United Kingdom) and formerly possessing distinct political rights
+        angloform:
+          status: gap

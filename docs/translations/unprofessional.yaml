@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01870321"
+        gloss: "not characteristic of or befitting a profession or one engaged in a profession; \"described in unprofessional language so that high school students could understand it\"; \"was censured for unprofessional conduct\"; \"unprofessional repairs\""
+        angloform:
+          status: gap

@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15293590"
+        gloss: a period of time spent in military service
+        angloform:
+          status: gap
+      - wordnet: "14010927"
+        gloss: "the state of inactivity following an interruption; \"the negotiations were in arrest\"; \"held them in check\"; \"during the halt he got some lunch\"; \"the momentary stay enabled him to escape the blow\"; \"he spent the entire stop in his seat\""
+        angloform:
+          status: gap
+      - wordnet: "05691144"
+        gloss: an unforeseen obstacle
+        angloform:
+          status: gap
+      - wordnet: "03522863"
+        gloss: a connection between a vehicle and the load that it pulls
+        angloform:
+          status: gap
+      - wordnet: "03522634"
+        gloss: a knot that can be undone by pulling against the strain that holds it; a temporary knot
+        angloform:
+          status: gap
+      - wordnet: "03520811"
+        gloss: any obstruction that impedes or is burdensome
+        angloform:
+          status: gap
+      - wordnet: "00286756"
+        gloss: the uneven manner of walking that results from an injured leg
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01327816"
+        gloss: "to hook or entangle; \"One foot caught in the stirrup\""
+        angloform:
+          status: redirect
+          word: catch
+          category: VERB_TRANS
+      - wordnet: "01917244"
+        gloss: "walk impeded by some physical limitation or injury; \"The old woman hobbles down to the store every day\""
+        angloform:
+          status: gap
+      - wordnet: "01884383"
+        gloss: "jump vertically, with legs stiff and back arched; \"the yung filly bucked\""
+        angloform:
+          status: gap
+      - wordnet: "01956955"
+        gloss: travel by getting free rides from motorists
+        angloform:
+          status: gap
+      - wordnet: "01614774"
+        gloss: "connect to a vehicle: \"hitch the trailer to the car\""
+        angloform:
+          status: gap

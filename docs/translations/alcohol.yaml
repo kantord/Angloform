@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07884567"
+        gloss: "a liquor or brew containing alcohol as the active agent; \"alcohol (or drink) ruined him\""
+        angloform:
+          status: gap
+      - wordnet: "14708720"
+        gloss: any of a series of volatile hydroxyl compounds that are made from hydrocarbons by distillation
+        angloform:
+          status: gap

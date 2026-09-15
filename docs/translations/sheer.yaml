@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02033295"
+        gloss: "turn sharply; change direction abruptly; \"The car cut to the left at the intersection\"; \"The motorbike veered to the right\""
+        angloform:
+          status: gap
+      - wordnet: "01841471"
+        gloss: "cause to sheer; \"She sheered her car around the obstacle\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00520892"
+        gloss: "complete and without restriction or qualification; sometimes used informally as intensifiers; \"absolute freedom\"; \"an absolute dimwit\"; \"a downright lie\"; \"out-and-out mayhem\"; \"an out-and-out lie\"; \"a rank outsider\"; \"many right-down vices\"; \"got the job through sheer persistence\"; \"sheer stupidity\""
+        angloform:
+          status: redirect
+          word: absolute
+          category: ADJ
+      - wordnet: "01907103"
+        gloss: "not mixed with extraneous elements; \"plain water\"; \"sheer wine\"; \"not an unmixed blessing\""
+        angloform:
+          status: redirect
+          word: plain
+          category: ADJ
+      - wordnet: "01145422"
+        gloss: "very steep; having a prominent and almost vertical front; \"a bluff headland\"; \"where the bold chalk cliffs of England rise\"; \"a sheer descent of rock\""
+        angloform:
+          status: gap
+      - wordnet: "02413390"
+        gloss: "so thin as to transmit light; \"a hat with a diaphanous veil\"; \"filmy wings of a moth\"; \"gauzy clouds of dandelion down\"; \"gossamer cobwebs\"; \"sheer silk stockings\"; \"transparent chiffon\"; \"vaporous silks\""
+        angloform:
+          status: redirect
+          word: transparent
+          category: ADJ
+  ADV:
+    senses:
+      - wordnet: "00452126"
+        gloss: straight up or down without a break
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00452052"
+        gloss: "directly; \"he fell sheer into the water\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

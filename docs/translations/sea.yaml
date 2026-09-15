@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09426788"
+        gloss: a division of an ocean or a large body of salt water partially enclosed by land
+        angloform:
+          status: gap
+      - wordnet: "13776971"
+        gloss: anything apparently limitless in quantity or volume
+        angloform:
+          status: gap
+      - wordnet: "11521404"
+        gloss: "turbulent water with swells of considerable size; \"heavy seas\""
+        angloform:
+          status: gap

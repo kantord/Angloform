@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03225238"
+        gloss: a measured portion of medicine taken at any one time
+        angloform:
+          status: gap
+      - wordnet: "13772106"
+        gloss: the quantity of an active agent (substance or radiation) taken in or absorbed at any one time
+        angloform:
+          status: gap
+      - wordnet: "14133159"
+        gloss: a communicable infection transmitted by sexual intercourse or genital contact
+        angloform:
+          status: gap
+      - wordnet: "02675657"
+        gloss: street name for lysergic acid diethylamide
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00516584"
+        gloss: "treat with an agent; add (an agent) to; \"The ray dosed the paint\""
+        angloform:
+          status: gap
+      - wordnet: "00084738"
+        gloss: "administer a drug to; \"They drugged the kidnapped tourist\""
+        angloform:
+          status: gap

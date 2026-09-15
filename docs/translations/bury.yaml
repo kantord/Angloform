@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02147466"
+        gloss: "cover from sight; \"Afghani women buried under their burkas\""
+        angloform:
+          status: gap
+      - wordnet: "02456493"
+        gloss: "place in a grave or tomb; \"Stalin was buried behind the Kremlin wall on Red Square\"; \"The pharaohs were entombed in the pyramids\"; \"My grandfather was laid to rest last Sunday\""
+        angloform:
+          status: gap
+      - wordnet: "01234625"
+        gloss: "place in the earth and cover with soil; \"They buried the stolen goods\""
+        angloform:
+          status: gap
+      - wordnet: "01582409"
+        gloss: "enclose or envelop completely, as if by swallowing; \"The huge waves swallowed the small boat and it sank shortly thereafter\""
+        angloform:
+          status: gap
+      - wordnet: "01530098"
+        gloss: "embed deeply; \"She sank her fingers into the soft sand\"; \"He buried his head in her lap\""
+        angloform:
+          status: gap
+      - wordnet: "00610167"
+        gloss: "dismiss from the mind; stop remembering; \"I tried to bury these unpleasant memories\""
+        angloform:
+          status: gap

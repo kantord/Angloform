@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01325777"
+        gloss: "tending to increase knowledge or dissipate ignorance; \"an enlightening glimpse of government in action\"; \"an illuminating lecture\""
+        angloform:
+          status: gap
+      - wordnet: "01323449"
+        gloss: serving to instruct or enlighten or inform
+        angloform:
+          status: gap
+      - wordnet: "01304570"
+        gloss: providing or conveying information
+        angloform:
+          status: gap

@@ -1,0 +1,95 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10173895"
+        gloss: a heterosexual person; someone having a sexual orientation to persons of the opposite sex
+        angloform:
+          status: gap
+      - wordnet: "07958294"
+        gloss: a poker hand with 5 consecutive cards (regardless of suit)
+        angloform:
+          status: gap
+      - wordnet: "04331126"
+        gloss: a straight segment of a roadway or racecourse
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00596511"
+        gloss: "successive (without a break); \"sick for five straight days\""
+        angloform:
+          status: gap
+      - wordnet: "02310895"
+        gloss: "having no deviations; \"straight lines\"; \"straight roads across the desert\"; \"straight teeth\"; \"straight shoulders\""
+        angloform:
+          status: gap
+      - wordnet: "01030826"
+        gloss: "(of hair) having no waves or curls; \"her naturally straight hair hung long and silky\""
+        angloform:
+          status: gap
+      - wordnet: "01237754"
+        gloss: "erect in posture; \"sit straight\"; \"stood defiantly with unbowed back\""
+        angloform:
+          status: gap
+      - wordnet: "00022962"
+        gloss: "in keeping with the facts; \"set the record straight\"; \"made sure the facts were straight in the report\""
+        angloform:
+          status: gap
+      - wordnet: "02318464"
+        gloss: "characterized by honesty and fairness; \"straight dealing\"; \"a square deal\""
+        angloform:
+          status: gap
+      - wordnet: "02318272"
+        gloss: no longer coiled
+        angloform:
+          status: gap
+      - wordnet: "02314584"
+        gloss: "free from curves or angles; \"a straight line\""
+        angloform:
+          status: gap
+      - wordnet: "02423981"
+        gloss: "neatly arranged; not disorderly; \"the room is straight now\""
+        angloform:
+          status: gap
+      - wordnet: "01201298"
+        gloss: not homosexual
+        angloform:
+          status: gap
+      - wordnet: "00911204"
+        gloss: "accurately fitted; level; \"the window frame isn't quite true\""
+        angloform:
+          status: gap
+      - wordnet: "00766102"
+        gloss: "without evasion or compromise; \"a square contradiction\"; \"he is not being as straightforward as it appears\""
+        angloform:
+          status: gap
+      - wordnet: "00757120"
+        gloss: "without water; \"took his whiskey neat\""
+        angloform:
+          status: gap
+      - wordnet: "00632306"
+        gloss: "following a correct or logical method; \"straight reasoning\""
+        angloform:
+          status: gap
+      - wordnet: "00607857"
+        gloss: rigidly conventional or old-fashioned
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00051848"
+        gloss: "without deviation; \"the path leads directly to the lake\"; \"went direct to the office\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00058128"
+        gloss: "in a forthright manner; candidly or frankly; \"he didn't answer directly\"; \"told me straight out\"; \"came out flat for less work and more pay\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00509432"
+        gloss: "in a straight line; in a direct course; \"the road runs straight\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

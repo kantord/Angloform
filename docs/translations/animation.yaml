@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13961642"
+        gloss: "the condition of living or the state of being alive; \"while there's life there's hope\"; \"life depends on many chemical and physical processes\""
+        angloform:
+          status: gap
+      - wordnet: "05005809"
+        gloss: "the property of being able to survive and grow; \"the vitality of a seed\""
+        angloform:
+          status: gap
+      - wordnet: "04631700"
+        gloss: quality of being active or spirited or alive and vigorous
+        angloform:
+          status: gap
+      - wordnet: "01048466"
+        gloss: the activity of giving vitality and vigour to something
+        angloform:
+          status: gap
+      - wordnet: "00908405"
+        gloss: the making of animated cartoons
+        angloform:
+          status: gap
+      - wordnet: "00552436"
+        gloss: general activity and motion
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03642806"
+        gloss: a portable computer small enough to use in your lap
+        angloform:
+          status: gap

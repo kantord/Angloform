@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00015388"
+        gloss: a living organism characterized by voluntary movement
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01778572"
+        gloss: "marked by the appetites and passions of the body; \"animal instincts\"; \"carnal knowledge\"; \"fleshly desire\"; \"a sensual delight in eating\"; \"music is the only sensual pleasure without vice\""
+        angloform:
+          status: gap

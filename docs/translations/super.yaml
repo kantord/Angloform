@@ -1,0 +1,29 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10675721"
+        gloss: a caretaker for an apartment house; represents the owner as janitor and rent collector
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02341864"
+        gloss: "of the highest quality; \"an ace reporter\"; \"a crack shot\"; \"a first-rate golfer\"; \"a super party\"; \"played top-notch tennis\"; \"an athlete in tiptop condition\"; \"she is absolutely tops\""
+        angloform:
+          status: gap
+      - wordnet: "00528761"
+        gloss: "including more than a specified category; \"a super experiment\""
+        angloform:
+          status: gap
+      - wordnet: "01390588"
+        gloss: "extremely large; \"another super skyscraper\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00046299"
+        gloss: "to an extreme degree; \"extremely cold\"; \"extremely unpleasant\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

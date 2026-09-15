@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14416668"
+        gloss: "the state of being secret; \"you must respect the confidentiality of your client's communications\""
+        angloform:
+          status: gap
+      - wordnet: "05615749"
+        gloss: discretion in keeping secret information
+        angloform:
+          status: gap

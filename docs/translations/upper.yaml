@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04514648"
+        gloss: the higher of two berths
+        angloform:
+          status: gap
+      - wordnet: "04514359"
+        gloss: "piece of leather or synthetic material that forms the part of a shoe or boot above the sole that encases the foot; \"Uppers come in many styles\""
+        angloform:
+          status: gap
+      - wordnet: "02704153"
+        gloss: a central nervous system stimulant that increases energy and decreases appetite; used to treat narcolepsy and some forms of depression
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02440617"
+        gloss: the topmost one of two
+        angloform:
+          status: gap
+      - wordnet: "01206318"
+        gloss: "higher in place or position; \"the upper bunk\"; \"in the upper center of the picture\"; \"the upper stories\""
+        angloform:
+          status: gap
+      - wordnet: "02340096"
+        gloss: "superior in rank or accomplishment; \"the upper half of the class\""
+        angloform:
+          status: gap

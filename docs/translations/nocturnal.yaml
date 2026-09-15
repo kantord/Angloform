@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00678923"
+        gloss: "belonging to or active during the night; \"nocturnal animals are active at night\"; \"nocturnal plants have flowers that open at night and close by day\""
+        angloform:
+          status: gap
+      - wordnet: "02931826"
+        gloss: "of or relating to or occurring in the night; \"nocturnal darkness\""
+        angloform:
+          status: gap

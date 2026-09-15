@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06271288"
+        gloss: a short newspaper article about a particular person or group
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01767329"
+        gloss: "concerning or affecting a particular person or his or her private life and personality; \"a personal favor\"; \"for your personal use\"; \"personal papers\"; \"I have something personal to tell you\"; \"a personal God\"; \"he has his personal bank account and she has hers\""
+        angloform:
+          status: gap
+      - wordnet: "01616157"
+        gloss: particular to a given individual
+        angloform:
+          status: gap
+      - wordnet: "02858816"
+        gloss: "of or arising from personality; \"personal magnetism\""
+        angloform:
+          status: gap
+      - wordnet: "01779428"
+        gloss: "intimately concerning a person's body or physical being; \"personal hygiene\""
+        angloform:
+          status: gap
+      - wordnet: "02858707"
+        gloss: "indicating grammatical person; \"personal verb endings\""
+        angloform:
+          status: gap

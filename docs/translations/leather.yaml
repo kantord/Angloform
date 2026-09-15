@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14759722"
+        gloss: an animal skin made smooth and flexible by removing the hair and then tanning
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01398682"
+        gloss: whip with a leather strap
+        angloform:
+          status: gap

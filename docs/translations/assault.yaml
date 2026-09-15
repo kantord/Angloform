@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00974444"
+        gloss: close fighting during the culmination of a military attack
+        angloform:
+          status: gap
+      - wordnet: "00767826"
+        gloss: a threatened or attempted physical attack by someone who appears to be able to cause bodily harm if not stopped
+        angloform:
+          status: gap
+      - wordnet: "02384225"
+        gloss: thoroughbred that won the triple crown in 1946
+        angloform:
+          status: gap
+      - wordnet: "00773402"
+        gloss: the crime of forcing a woman to submit to sexual intercourse against her will
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01120069"
+        gloss: "attack someone physically or emotionally; \"The mugger assaulted the woman\"; \"Nightmares assailed him regularly\""
+        angloform:
+          status: gap
+      - wordnet: "02567519"
+        gloss: "force (someone) to have sex against their will; \"The woman was raped on her way home at night\""
+        angloform:
+          status: redirect
+          word: violate
+          category: VERB_TRANS
+      - wordnet: "00862683"
+        gloss: "attack in speech or writing; \"The editors of the left-leaning paper attacked the new House Speaker\""
+        angloform:
+          status: gap

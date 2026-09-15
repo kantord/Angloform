@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02378625"
+        gloss: formerly a strong swift horse ridden into battle
+        angloform:
+          status: gap
+      - wordnet: "03008976"
+        gloss: a device for charging or recharging batteries
+        angloform:
+          status: gap

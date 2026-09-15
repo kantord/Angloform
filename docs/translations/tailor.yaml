@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10689564"
+        gloss: a person whose occupation is making and altering garments
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00301662"
+        gloss: "adjust to a specific need or market; \"a magazine oriented towards young people\"; \"tailor your needs to your surroundings\""
+        angloform:
+          status: gap
+      - wordnet: "01666717"
+        gloss: "style and tailor in a certain fashion; \"cut a dress\""
+        angloform:
+          status: gap
+      - wordnet: "01666327"
+        gloss: "create (clothes) with cloth; \"Can the seamstress sew me a suit by next week?\""
+        angloform:
+          status: gap

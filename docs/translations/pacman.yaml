@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: a named video game character (Pac-Man), lowercased by the corpus tagger
+        angloform:
+          status: gap
+          note: a named-work/character sense (a proper noun in substance) — out of scope regardless of vocabulary state

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02268268"
+        gloss: "(used with count nouns) of an indefinite number more than 2 or 3 but not many; \"several letters came in the mail\"; \"several people were injured in the accident\""
+        angloform:
+          status: gap
+      - wordnet: "00494409"
+        gloss: "considered individually; \"the respective club members\"; \"specialists in their several fields\"; \"the various reports all agreed\""
+        angloform:
+          status: gap
+      - wordnet: "02068174"
+        gloss: "distinct and individual; \"three several times\""
+        angloform:
+          status: gap

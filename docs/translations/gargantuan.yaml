@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01385773"
+        gloss: "of great mass; huge and bulky; \"a jumbo jet\"; \"jumbo shrimp\""
+        angloform:
+          status: gap

@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07885223"
+        gloss: "a single serving of a beverage; \"I asked for a hot drink\"; \"likes a drink before dinner\""
+        angloform:
+          status: gap
+      - wordnet: "00748515"
+        gloss: "the act of drinking alcoholic beverages to excess; \"drink was his downfall\""
+        angloform:
+          status: gap
+      - wordnet: "07881800"
+        gloss: "any liquid suitable for drinking; \"may I take your beverage order?\""
+        angloform:
+          status: gap
+      - wordnet: "09270508"
+        gloss: "any large deep body of water; \"he jumped into the drink and had to be rescued\""
+        angloform:
+          status: gap
+      - wordnet: "00839778"
+        gloss: "the act of swallowing; \"one swallow of the liquid was enough\"; \"he took a drink of his beer and smacked his lips\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01170052"
+        gloss: "take in liquids; \"The patient must drink several liters each day\"; \"The children like to drink soda\""
+        angloform:
+          status: gap
+      - wordnet: "01171183"
+        gloss: "consume alcohol; \"We were up drinking all night\""
+        angloform:
+          status: gap
+      - wordnet: "01175467"
+        gloss: "propose a toast to; \"Let us toast the birthday girl!\"; \"Let's drink to the New Year\""
+        angloform:
+          status: gap
+      - wordnet: "00737005"
+        gloss: "be fascinated or spell-bound by; pay close attention to; \"The mother drinks in every word of her son on the stage\""
+        angloform:
+          status: gap
+      - wordnet: "01172275"
+        gloss: "drink excessive amounts of alcohol; be an alcoholic; \"The husband drinks and beats his wife\""
+        angloform:
+          status: gap

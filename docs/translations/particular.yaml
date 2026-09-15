@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05818182"
+        gloss: "a fact about some part (as opposed to general); \"he always reasons from the particular to the general\""
+        angloform:
+          status: gap
+      - wordnet: "13809920"
+        gloss: "a small part that can be considered separately from the whole; \"it was perfect in all details\""
+        angloform:
+          status: redirect
+          word: item
+          category: NOUN
+      - wordnet: "06751142"
+        gloss: (logic) a proposition that asserts something about some (but not all) members of a class
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01104026"
+        gloss: "unique or specific to a person or thing or category; \"the particular demands of the job\"; \"has a particular preference for Chinese art\"; \"a peculiar bond of sympathy between them\"; \"an expression peculiar to Canadians\"; \"rights peculiar to the rich\"; \"the special features of a computer\"; \"my own special chair\""
+        angloform:
+          status: gap
+      - wordnet: "01104460"
+        gloss: "separate and distinct from others of the same group or category; \"interested in one particular artist\"; \"a man who wishes to make a particular woman fall in love with him\""
+        angloform:
+          status: gap
+      - wordnet: "00488187"
+        gloss: "surpassing what is common or usual or expected; \"he paid especial attention to her\"; \"exceptional kindness\"; \"a matter of particular and unusual importance\"; \"a special occasion\"; \"a special reason to confide in her\"; \"what's so special about the year 2000?\""
+        angloform:
+          status: gap
+      - wordnet: "01853228"
+        gloss: "first and most important; \"his special interest is music\"; \"she gets special (or particular) satisfaction from her volunteer work\""
+        angloform:
+          status: gap
+      - wordnet: "00984624"
+        gloss: "exacting especially about details; \"a finicky eater\"; \"fussy about clothes\"; \"very particular about how her food was prepared\""
+        angloform:
+          status: gap
+      - wordnet: "00311044"
+        gloss: "providing specific details or circumstances; \"a particular description of the room\""
+        angloform:
+          status: gap

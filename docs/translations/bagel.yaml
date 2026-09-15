@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07693725"
+        gloss: (Yiddish) glazed yeast-raised doughnut-shaped roll with hard crust
+        angloform:
+          status: gap

@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00724081"
+        gloss: "worthy of reliance or trust; \"a reliable source of information\"; \"a dependable worker\""
+        angloform:
+          status: gap
+      - wordnet: "02465519"
+        gloss: "worthy of being depended on; \"a dependable worker\"; \"an honest working stiff\"; \"a reliable sourcSFLe of information\"; \"he was true to his word\"; \"I would be true for there are those who trust me\""
+        angloform:
+          status: redirect
+          word: honest
+          category: ADJ
+      - wordnet: "02465115"
+        gloss: "conforming to fact and therefore worthy of belief; \"an authentic account by an eyewitness\"; \"reliable information\""
+        angloform:
+          status: gap

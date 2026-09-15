@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04412901"
+        gloss: station where transport vehicles load or unload passengers or goods
+        angloform:
+          status: gap
+      - wordnet: "04413151"
+        gloss: a contact on an electrical device (such as a battery) at which electric current enters or leaves
+        angloform:
+          status: gap
+      - wordnet: "08566028"
+        gloss: "either extremity of something that has length; \"the end of the pier\"; \"she knotted the end of the thread\"; \"they rode to the end of the line\"; \"the terminals of the anterior arches of the fornix\""
+        angloform:
+          status: gap
+      - wordnet: "04413419"
+        gloss: electronic equipment consisting of a device providing access to a computer; has a keyboard and display
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02812306"
+        gloss: "of or relating to or situated at the ends of a delivery route; \"freight pickup is a terminal service\"; \"terminal charges\""
+        angloform:
+          status: gap
+      - wordnet: "02812147"
+        gloss: "relating to or occurring in a term or fixed period of time; \"terminal examinations\"; \"terminal payments\""
+        angloform:
+          status: gap
+      - wordnet: "01016035"
+        gloss: "being or situated at an end; \"the endmost pillar\"; \"terminal buds on a branch\"; \"a terminal station\"; \"the terminal syllable\""
+        angloform:
+          status: gap
+      - wordnet: "01010271"
+        gloss: "occurring at or forming an end or termination; \"his concluding words came as a surprise\"; \"the final chapter\"; \"the last days of the dinosaurs\"; \"terminal leave\""
+        angloform:
+          status: redirect
+          word: last
+          category: ADJ
+      - wordnet: "00994073"
+        gloss: "causing or ending in or approaching death; \"a terminal patient\"; \"terminal cancer\""
+        angloform:
+          status: gap

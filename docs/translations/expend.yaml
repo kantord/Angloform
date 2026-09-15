@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01158572"
+        gloss: "use up, consume fully; \"The legislature expended its time on school questions\""
+        angloform:
+          status: redirect
+          word: use
+          category: VERB_TRANS
+      - wordnet: "02267060"
+        gloss: "pay out; \"spend money\""
+        angloform:
+          status: redirect
+          word: drop
+          category: VERB_TRANS

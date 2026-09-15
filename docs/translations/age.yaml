@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04924103"
+        gloss: "how long something has existed; \"it was replaced because of its age\""
+        angloform:
+          status: gap
+      - wordnet: "15254028"
+        gloss: "an era of history having some distinctive feature; \"we live in a litigious age\""
+        angloform:
+          status: gap
+      - wordnet: "15145171"
+        gloss: "a time of life (usually defined in years) at which some particular qualification or power arises; \"she was now of school age\"; \"tall for his eld\""
+        angloform:
+          status: gap
+      - wordnet: "15242955"
+        gloss: "a prolonged period of time; \"we've known each other for ages\"; \"I haven't been there for years and years\""
+        angloform:
+          status: gap
+      - wordnet: "15153787"
+        gloss: "a late time of life; \"old age is not for sissies\"; \"he's showing his years\"; \"age hasn't slowed him down at all\"; \"a beard white with eld\"; \"on the brink of geezerhood\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00248512"
+        gloss: "begin to seem older; get older; \"The death of his wife caused him to age fast\""
+        angloform:
+          status: gap
+      - wordnet: "00248026"
+        gloss: "grow old or older; \"She aged gracefully\"; \"we age every day--what a depressing thought!\"; \"Young men senesce\""
+        angloform:
+          status: gap
+      - wordnet: "00249679"
+        gloss: "make older; \"The death of his child aged him tremendously\""
+        angloform:
+          status: gap

@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09206985"
+        gloss: "an upward slope or grade (as in a road); \"the car couldn't make it up the rise\""
+        angloform:
+          status: gap
+      - wordnet: "07370410"
+        gloss: an event that involves rising to a higher point (as in altitude or temperature or intensity etc.)
+        angloform:
+          status: gap
+      - wordnet: "00325110"
+        gloss: "the act of climbing something; \"it was a difficult climb to the top\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01921964"
+        gloss: "go upward with gradual or continuous progress; \"Did you ever climb up the hill behind your house?\""
+        angloform:
+          status: gap
+      - wordnet: "01923909"
+        gloss: move with difficulty, by grasping
+        angloform:
+          status: gap
+      - wordnet: "00433232"
+        gloss: "go up or advance; \"Sales were climbing after prices were lowered\""
+        angloform:
+          status: gap
+      - wordnet: "02037989"
+        gloss: "slope upward; \"The path climbed all the way to the top of the hill\""
+        angloform:
+          status: gap
+      - wordnet: "00249017"
+        gloss: "improve one's social status; \"This young man knows how to climb the social ladder\""
+        angloform:
+          status: gap
+      - wordnet: "00155143"
+        gloss: "increase in value or to a higher point; \"prices climbed steeply\"; \"the value of our house rose sharply last year\""
+        angloform:
+          status: gap

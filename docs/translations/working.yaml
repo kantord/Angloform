@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04601473"
+        gloss: a mine or quarry that is being or has been worked
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00864461"
+        gloss: "actively engaged in paid work; \"the working population\"; \"the ratio of working men to unemployed\"; \"a working mother\"; \"robots can be on the job day and night\""
+        angloform:
+          status: gap
+      - wordnet: "01836117"
+        gloss: "adequate for practical use; especially sufficient in strength or numbers to accomplish something; \"the party has a working majority in the House\"; \"a working knowledge of Spanish\""
+        angloform:
+          status: gap
+      - wordnet: "01758194"
+        gloss: "adopted as a temporary basis for further work; \"a working draft\"; \"a working hypothesis\""
+        angloform:
+          status: gap
+      - wordnet: "01091728"
+        gloss: "(of e.g. a machine) performing or capable of performing; \"in running (or working) order\"; \"a functional set of brakes\""
+        angloform:
+          status: gap
+      - wordnet: "00833334"
+        gloss: "serving to permit or facilitate further work or activity; \"discussed the working draft of a peace treaty\"; \"they need working agreements with their neighbor states on interstate projects\""
+        angloform:
+          status: gap

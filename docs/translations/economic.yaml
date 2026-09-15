@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02716739"
+        gloss: "of or relating to an economy, the system of production and management of material wealth; \"economic growth\"; \"aspects of social, political, and economical life\""
+        angloform:
+          status: gap
+      - wordnet: "02716605"
+        gloss: "of or relating to the science of economics; \"economic theory\""
+        angloform:
+          status: gap
+      - wordnet: "00840212"
+        gloss: "using the minimum of time or resources necessary for effectiveness; \"an economic use of home heating oil\"; \"a modern economical heating system\"; \"an economical use of her time\""
+        angloform:
+          status: gap
+      - wordnet: "02577454"
+        gloss: "concerned with worldly necessities of life (especially money); \"he wrote the book primarily for economic reasons\"; \"gave up the large house for economic reasons\"; \"in economic terms they are very privileged\""
+        angloform:
+          status: gap
+      - wordnet: "01871565"
+        gloss: "financially rewarding; \"it was no longer economic to keep the factory open\"; \"have to keep prices high enough to make it economic to continue the service\""
+        angloform:
+          status: gap

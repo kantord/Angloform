@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11454591"
+        gloss: "the rising of a body of water and its overflowing onto normally dry land; \"plains fertilized by annual inundations\""
+        angloform:
+          status: gap
+      - wordnet: "13775706"
+        gloss: "an overwhelming number or amount; \"a flood of requests\"; \"a torrent of abuse\""
+        angloform:
+          status: gap
+      - wordnet: "03365374"
+        gloss: light that is a source of artificial illumination having a broad beam; used in photography
+        angloform:
+          status: gap
+      - wordnet: "00329819"
+        gloss: a large flow
+        angloform:
+          status: gap
+      - wordnet: "01257542"
+        gloss: the act of flooding; filling to overflowing
+        angloform:
+          status: gap
+      - wordnet: "07403030"
+        gloss: "the occurrence of incoming water (between a low tide and the following high tide); \"a tide in the affairs of men which, taken at the flood, leads on to fortune\" -Shakespeare"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01524523"
+        gloss: "fill quickly beyond capacity; as with a liquid; \"the basement was inundated after the storm\"; \"The images flooded his mind\""
+        angloform:
+          status: gap
+      - wordnet: "00217152"
+        gloss: "cover with liquid, usually water; \"The swollen river flooded the village\"; \"The broken vein had flooded blood in her eyes\""
+        angloform:
+          status: gap
+      - wordnet: "02356704"
+        gloss: "supply with an excess of; \"flood the market with tennis shoes\"; \"Glut the country with cheap imports from the Orient\""
+        angloform:
+          status: gap
+      - wordnet: "00452220"
+        gloss: "become filled to overflowing; \"Our basement flooded during the heavy rains\""
+        angloform:
+          status: gap

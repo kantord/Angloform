@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03579355"
+        gloss: decoration consisting of the layout and furnishings of a livable interior
+        angloform:
+          status: gap

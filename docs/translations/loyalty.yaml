@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04877530"
+        gloss: the quality of being loyal
+        angloform:
+          status: gap
+      - wordnet: "07546389"
+        gloss: feelings of allegiance
+        angloform:
+          status: gap
+      - wordnet: "01206153"
+        gloss: "the act of binding yourself (intellectually or emotionally) to a course of action; \"his long commitment to public service\"; \"they felt no loyalty to a losing team\""
+        angloform:
+          status: gap

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14055408"
+        gloss: an often persistent bodily disorder or disease; a cause for complaining
+        angloform:
+          status: gap
+      - wordnet: "07208930"
+        gloss: (formerly) a loud cry (or repeated cries) of pain or rage or sorrow
+        angloform:
+          status: gap
+      - wordnet: "07208708"
+        gloss: an expression of grievance or resentment
+        angloform:
+          status: gap
+      - wordnet: "06562217"
+        gloss: (civil law) the first pleading of the plaintiff setting out the facts on which the claim for relief is based
+        angloform:
+          status: gap
+      - wordnet: "06561942"
+        gloss: "(criminal law) a pleading describing some wrong or offense; \"he was arrested on a charge of larceny\""
+        angloform:
+          status: gap

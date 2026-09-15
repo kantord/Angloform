@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09860506"
+        gloss: a person with fair skin and hair
+        angloform:
+          status: gap
+      - wordnet: "04966017"
+        gloss: a light grayish yellow to near white
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00243606"
+        gloss: "being or having light colored skin and hair and usually blue or grey eyes; \"blond Scandinavians\"; \"a house full of light-haired children\""
+        angloform:
+          status: gap

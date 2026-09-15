@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00183505"
+        gloss: "a choice that is made by counting the number of people in favor of each alternative; \"there were only 17 votes in favor of the motion\"; \"they allowed just one vote per person\""
+        angloform:
+          status: gap
+      - wordnet: "00182213"
+        gloss: "the opinion of a group as determined by voting; \"they put the question to a vote\""
+        angloform:
+          status: gap
+      - wordnet: "05186306"
+        gloss: "a legal right guaranteed by the 15th amendment to the US Constitution; guaranteed to women by the 19th amendment; \"American women got the vote in 1920\""
+        angloform:
+          status: gap
+      - wordnet: "08480662"
+        gloss: "a body of voters who have the same interests; \"he failed to get the Black vote\""
+        angloform:
+          status: gap
+      - wordnet: "05857165"
+        gloss: "the total number of voters who participated; \"they are expecting a large vote\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02461314"
+        gloss: "express one's preference for a candidate or for a measure or resolution; cast a vote; \"He voted for the motion\"; \"None of the Democrats voted last night\""
+        angloform:
+          status: gap
+      - wordnet: "02462580"
+        gloss: "express one's choice or preference by vote; \"vote the Democratic ticket\""
+        angloform:
+          status: gap
+      - wordnet: "02462386"
+        gloss: "express a choice or opinion; \"I vote that we all go home\"; \"She voted for going to the Chinese restaurant\""
+        angloform:
+          status: gap
+      - wordnet: "02473890"
+        gloss: "be guided by in voting; \"vote one's conscience\""
+        angloform:
+          status: gap
+      - wordnet: "02462201"
+        gloss: "bring into existence or make available by vote; \"They voted aid for the underdeveloped countries in Asia\""
+        angloform:
+          status: gap

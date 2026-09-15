@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00001740"
+        gloss: "(usually followed by `to') having the necessary means or skill or know-how or authority to do something; \"able to swim\"; \"she was able to program her computer\"; \"we were at last able to buy a car\"; \"able to get a grant for the project\""
+        angloform:
+          status: gap
+      - wordnet: "00510348"
+        gloss: "have the skills and qualifications to do things well; \"able teachers\"; \"a capable administrator\"; \"children as young as 14 can be extremely capable and dependable\""
+        angloform:
+          status: gap
+      - wordnet: "00306663"
+        gloss: "having inherent physical or mental ability or capacity; \"able to learn\"; \"human beings are able to walk on two feet\"; \"Superman is able to leap tall buildings\""
+        angloform:
+          status: gap
+      - wordnet: "01017439"
+        gloss: "having a strong healthy body; \"an able seaman\"; \"every able-bodied young man served in the army\""
+        angloform:
+          status: gap

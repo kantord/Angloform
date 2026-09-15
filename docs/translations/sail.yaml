@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04127904"
+        gloss: a large piece of fabric (usually canvas fabric) by means of which wind is used to propel a sailing vessel
+        angloform:
+          status: gap
+      - wordnet: "00312932"
+        gloss: an ocean trip taken for pleasure
+        angloform:
+          status: gap
+      - wordnet: "04128413"
+        gloss: any structure that resembles a sail
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01846658"
+        gloss: "traverse or travel on (a body of water); \"We sailed the Atlantic\"; \"He sailed the Pacific all alone\""
+        angloform:
+          status: gap
+      - wordnet: "01869563"
+        gloss: "move with sweeping, effortless, gliding motions; \"The diva swept into the room\"; \"Shreds of paper sailed through the air\"; \"The searchlights swept across the sky\""
+        angloform:
+          status: gap
+      - wordnet: "01945516"
+        gloss: "travel on water propelled by wind; \"I love sailing, especially on the open sea\"; \"the ship sails on\""
+        angloform:
+          status: gap
+      - wordnet: "01846320"
+        gloss: "travel on water propelled by wind or by other means; \"The QE2 will sail to Southampton tomorrow\""
+        angloform:
+          status: gap

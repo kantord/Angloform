@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04683814"
+        gloss: the qualities that give pleasure to the senses
+        angloform:
+          status: gap
+      - wordnet: "10613996"
+        gloss: a very attractive or seductive looking woman
+        angloform:
+          status: gap
+      - wordnet: "05925702"
+        gloss: "an outstanding example of its kind; \"his roses were beauties\"; \"when I make a mistake it's a beaut\""
+        angloform:
+          status: gap

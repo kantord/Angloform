@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02466111"
+        gloss: "not worthy of trust or belief; \"an untrustworthy person\""
+        angloform:
+          status: gap

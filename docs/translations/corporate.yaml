@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02984781"
+        gloss: "of or belonging to a corporation; \"corporate rates\"; \"corporate structure\""
+        angloform:
+          status: gap
+      - wordnet: "00630466"
+        gloss: "possessing or existing in bodily form; \"what seemed corporal melted as breath into the wind\"- Shakespeare; \"an incarnate spirit\"; \"`corporate' is an archaic term\""
+        angloform:
+          status: gap
+      - wordnet: "02112701"
+        gloss: "done by or characteristic of individuals acting together; \"a joint identity\"; \"the collective mind\"; \"the corporate good\""
+        angloform:
+          status: gap
+      - wordnet: "01670669"
+        gloss: "organized and maintained as a legal corporation; \"a special agency set up in corporate form\"; \"an incorporated town\""
+        angloform:
+          status: gap

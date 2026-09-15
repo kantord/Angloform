@@ -1,0 +1,68 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04981658"
+        gloss: "a characteristic sound; \"it has the ring of sincerity\""
+        angloform:
+          status: gap
+      - wordnet: "13875392"
+        gloss: "a toroidal shape; \"a ring of ships in the harbor\"; \"a halo of smoke\""
+        angloform:
+          status: gap
+      - wordnet: "03533972"
+        gloss: "a rigid circular band of metal or wood or other material used for holding or fastening or hanging or pulling; \"there was still a rusty iron hoop for tying a horse\""
+        angloform:
+          status: gap
+      - wordnet: "09246883"
+        gloss: (chemistry) a chain of atoms in a molecule that forms a closed loop
+        angloform:
+          status: gap
+      - wordnet: "08244062"
+        gloss: "an association of criminals; \"police tried to break up the gang\"; \"a pack of thieves\""
+        angloform:
+          status: redirect
+          word: pack
+          category: NOUN
+      - wordnet: "07391863"
+        gloss: "the sound of a bell ringing; \"the distinctive ring of the church bell\"; \"the ringing of the telephone\"; \"the tintinnabulation that so voluminously swells from the ringing and the dinging of the bells\"--E. A. Poe"
+        angloform:
+          status: gap
+      - wordnet: "04092959"
+        gloss: a platform usually marked off by ropes in which contestants box or wrestle
+        angloform:
+          status: gap
+      - wordnet: "04092609"
+        gloss: "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger; \"she had rings on every finger\"; \"he noted that she wore a wedding band\""
+        angloform:
+          status: gap
+      - wordnet: "02785191"
+        gloss: a strip of material attached to the leg of a bird to identify it (as in studies of bird migration)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02180898"
+        gloss: "sound loudly and sonorously; \"the bells rang\""
+        angloform:
+          status: gap
+      - wordnet: "02183787"
+        gloss: "ring or echo with sound; \"the hall resounded with laughter\""
+        angloform:
+          status: gap
+      - wordnet: "02181538"
+        gloss: "make (bells) ring, often for the purposes of musical edification; \"Ring the bells\"; \"My uncle rings every Sunday at the local church\""
+        angloform:
+          status: gap
+      - wordnet: "00789448"
+        gloss: "get or try to get into communication (with someone) by telephone; \"I tried to call you all night\"; \"Take two aspirin and call me in the morning\""
+        angloform:
+          status: gap
+      - wordnet: "01467370"
+        gloss: "extend on all sides of simultaneously; encircle; \"The forest surrounds my property\""
+        angloform:
+          status: gap
+      - wordnet: "01297401"
+        gloss: "attach a ring to the foot of, in order to identify; \"ring birds\"; \"band the geese to observe their migratory patterns\""
+        angloform:
+          status: gap

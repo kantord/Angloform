@@ -1,0 +1,82 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00519333"
+        gloss: a traveling show; having sideshows and rides and games of skill etc.
+        angloform:
+          status: gap
+      - wordnet: "08408557"
+        gloss: "gathering of producers to promote business; \"world fair\"; \"trade fair\"; \"book fair\""
+        angloform:
+          status: gap
+      - wordnet: "08408267"
+        gloss: "a competitive exhibition of farm products; \"she won a blue ribbon for her baking at the county fair\""
+        angloform:
+          status: gap
+      - wordnet: "01118182"
+        gloss: "a sale of miscellany; often for charity; \"the church bazaar\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01294778"
+        gloss: join so that the external surfaces blend smoothly
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00956131"
+        gloss: "free from favoritism or self-interest or bias or deception; conforming with established standards or rules; \"a fair referee\"; \"fair deal\"; \"on a fair footing\"; \"a fair fight\"; \"by fair means or foul\""
+        angloform:
+          status: gap
+      - wordnet: "01532261"
+        gloss: "not excessive or extreme; \"a fairish income\"; \"reasonable prices\""
+        angloform:
+          status: gap
+      - wordnet: "00218440"
+        gloss: "very pleasing to the eye; \"my bonny lass\"; \"there's a bonny bay beyond\"; \"a comely face\"; \"young fair maidens\""
+        angloform:
+          status: gap
+      - wordnet: "00955626"
+        gloss: "(of a baseball) hit between the foul lines; \"he hit a fair ball over the third base bag\""
+        angloform:
+          status: gap
+      - wordnet: "01673061"
+        gloss: "lacking exceptional quality or ability; \"a novel of average merit\"; \"only a fair performance of the sonata\"; \"in fair health\"; \"the caliber of the students has gone from mediocre to above average\"; \"the performance was middling at best\""
+        angloform:
+          status: gap
+      - wordnet: "01484342"
+        gloss: "attractively feminine; \"the fair sex\""
+        angloform:
+          status: gap
+      - wordnet: "01404898"
+        gloss: "(of a manuscript) having few alterations or corrections; \"fair copy\"; \"a clean manuscript\""
+        angloform:
+          status: gap
+      - wordnet: "00958475"
+        gloss: "gained or earned without cheating or stealing; \"an honest wage\"; \"an fair penny\""
+        angloform:
+          status: redirect
+          word: honest
+          category: ADJ
+      - wordnet: "00461091"
+        gloss: "free of clouds or rain; \"today will be fair and warm\""
+        angloform:
+          status: gap
+      - wordnet: "00244054"
+        gloss: "(used of hair or skin) pale or light-colored; \"a fair complexion\";"
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00285092"
+        gloss: "in conformity with the rules or laws and without fraud or cheating; \"they played fairly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00106759"
+        gloss: "without favoring one party, in a fair evenhanded manner; \"deal fairly with one another\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

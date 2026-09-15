@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04228054"
+        gloss: narrow wood or metal or plastic runners used in pairs for gliding over snow
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01938426"
+        gloss: "move along on skis; \"We love to ski the Rockies\"; \"My children don't ski\""
+        angloform:
+          status: gap

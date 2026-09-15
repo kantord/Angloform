@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13764342"
+        gloss: "an indefinite quantity of something having a specified value; \"10 dollars worth of gasoline\""
+        angloform:
+          status: gap
+      - wordnet: "05138208"
+        gloss: the quality that renders something desirable or valuable or useful
+        angloform:
+          status: gap
+      - wordnet: "11397885"
+        gloss: French couturier (born in England) regarded as the founder of Parisian haute couture; noted for introducing the bustle (1825-1895)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02586206"
+        gloss: "worthy of being treated in a particular way; \"an idea worth considering\"; \"the deserving poor\" (often used ironically)"
+        angloform:
+          status: gap
+      - wordnet: "02502016"
+        gloss: "having a specified value; \"not worth his salt\"; \"worth her weight in gold\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01631072"
+        gloss: "reestablish on a new, usually improved, basis or make new or like new; \"We renewed our friendship after a hiatus of twenty years\"; \"They renewed their membership\""
+        angloform:
+          status: gap
+      - wordnet: "00167652"
+        gloss: "cause to appear in a new form; \"the old product was reincarnated to appeal to a younger market\""
+        angloform:
+          status: gap

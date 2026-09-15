@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06616035"
+        gloss: a film about life in the western United States during the period of exploration and development
+        angloform:
+          status: gap
+      - wordnet: "07698672"
+        gloss: a sandwich made from a western omelet
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00825089"
+        gloss: "relating to or characteristic of the western parts of the world or the West as opposed to the eastern or oriental parts; \"the Western world\"; \"Western thought\"; \"Western thought\""
+        angloform:
+          status: gap
+      - wordnet: "00825970"
+        gloss: "of or characteristic of regions of the United States west of the Mississippi River; \"a Western ranch\""
+        angloform:
+          status: gap
+      - wordnet: "00824631"
+        gloss: "lying toward or situated in the west; \"our company's western office\""
+        angloform:
+          status: gap
+      - wordnet: "00824753"
+        gloss: of wind; from the west
+        angloform:
+          status: gap

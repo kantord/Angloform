@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02594940"
+        gloss: "relating to or affected with cancer; \"a cancerous growth\""
+        angloform:
+          status: gap
+      - wordnet: "00227301"
+        gloss: "like a cancer; an evil that grows and spreads; \"remorse was cancerous within him\"; \"pornography is cancerous to the moral development of our children\""
+        angloform:
+          status: gap

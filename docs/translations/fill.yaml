@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13580723"
+        gloss: "a quantity sufficient to satisfy; \"he ate his fill of potatoes\"; \"she had heard her fill of gossip\""
+        angloform:
+          status: gap
+      - wordnet: "14868243"
+        gloss: "any material that fills a space or container; \"there was not enough fill for the trench\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00452512"
+        gloss: "make full, also in a metaphorical sense; \"fill a container\"; \"fill the child with pride\""
+        angloform:
+          status: gap
+      - wordnet: "00451838"
+        gloss: "become full; \"The pool slowly filled with water\"; \"The theater filled up slowly\""
+        angloform:
+          status: gap
+      - wordnet: "02649042"
+        gloss: "occupy the whole of; \"The liquid fills the container\""
+        angloform:
+          status: gap
+      - wordnet: "02394183"
+        gloss: "assume, as of positions or roles; \"She took the job as director of development\"; \"he occupies the position of manager\"; \"the young prince will soon occupy the throne\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "01183573"
+        gloss: fill or meet a want or need
+        angloform:
+          status: redirect
+          word: meet
+          category: VERB_TRANS
+      - wordnet: "02394081"
+        gloss: appoint someone to (a position or a job)
+        angloform:
+          status: gap
+      - wordnet: "01203893"
+        gloss: "eat until one is sated; \"He filled up on turkey\""
+        angloform:
+          status: gap
+      - wordnet: "01193721"
+        gloss: "fill to satisfaction; \"I am sated\""
+        angloform:
+          status: gap
+      - wordnet: "00261533"
+        gloss: "plug with a substance; \"fill a cavity\""
+        angloform:
+          status: gap

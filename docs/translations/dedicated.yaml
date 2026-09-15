@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00519211"
+        gloss: "devoted to a cause or ideal or purpose; \"a dedicated dancer\"; \"dedicated teachers\"; \"dedicated to the proposition that all men are created equal\"- A.Lincoln"
+        angloform:
+          status: gap
+      - wordnet: "00573225"
+        gloss: "solemnly dedicated to or set apart for a high purpose; \"a life consecrated to science\"; \"the consecrated chapel\"; \"a chapel dedicated to the dead of World War II\""
+        angloform:
+          status: gap

@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08439955"
+        gloss: "personnel who assist their superior in carrying out an assigned task; \"the hospital has an excellent nursing staff\"; \"the general relied on his staff to make routine decisions\""
+        angloform:
+          status: gap
+      - wordnet: "04296261"
+        gloss: "a strong rod or stick with a specialized utilitarian purpose; \"he walked with the help of a wooden staff\""
+        angloform:
+          status: gap
+      - wordnet: "08287586"
+        gloss: "the body of teachers and administrators at a school; \"the dean addressed the letter to the entire staff of the university\""
+        angloform:
+          status: gap
+      - wordnet: "15050320"
+        gloss: building material consisting of plaster and hair; used to cover external surfaces of temporary structure (as at an exposition) or for decoration
+        angloform:
+          status: gap
+      - wordnet: "07267160"
+        gloss: a rod carried as a symbol
+        angloform:
+          status: gap
+      - wordnet: "06861860"
+        gloss: (music) the system of five horizontal lines on which the musical notes are written
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01088749"
+        gloss: "provide with staff; \"This position is not always staffed\""
+        angloform:
+          status: gap
+      - wordnet: "01095739"
+        gloss: "serve on the staff of; \"The two men staff the reception desk\""
+        angloform:
+          status: gap

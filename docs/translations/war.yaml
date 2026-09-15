@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00973077"
+        gloss: "the waging of armed conflict against an enemy; \"thousands of people were killed in the war\""
+        angloform:
+          status: gap
+      - wordnet: "13981403"
+        gloss: "a legal state created by a declaration of war and ended by official declaration during which the international rules of war apply; \"war was declared in November but actual fighting did not begin until the following spring\""
+        angloform:
+          status: gap
+      - wordnet: "01236296"
+        gloss: "an active struggle between competing entities; \"a price war\"; \"a war of wits\"; \"diplomatic warfare\""
+        angloform:
+          status: gap
+      - wordnet: "00801125"
+        gloss: "a concerted campaign to end something that is injurious; \"the war on poverty\"; \"the war against crime\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01093172"
+        gloss: make or wage war
+        angloform:
+          status: gap

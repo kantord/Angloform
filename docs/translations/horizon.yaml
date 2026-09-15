@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08585657"
+        gloss: the line at which the sky and Earth appear to meet
+        angloform:
+          status: gap
+      - wordnet: "05127782"
+        gloss: "the range of interest or activity that can be anticipated; \"It is beyond the horizon of present knowledge\""
+        angloform:
+          status: gap
+      - wordnet: "08658118"
+        gloss: a specific layer or stratum of soil or subsoil in a vertical cross section of land
+        angloform:
+          status: gap
+      - wordnet: "08585846"
+        gloss: the great circle on the celestial sphere whose plane passes through the sensible horizon and the center of the Earth
+        angloform:
+          status: gap

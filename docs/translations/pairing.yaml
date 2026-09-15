@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00847340"
+        gloss: "the act of pairing a male and female for reproductive purposes; \"the casual couplings of adolescents\"; \"the mating of some species occurs only in the spring\""
+        angloform:
+          status: gap
+      - wordnet: "00389610"
+        gloss: the act of grouping things or people in pairs
+        angloform:
+          status: gap

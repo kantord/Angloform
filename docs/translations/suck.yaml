@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00842692"
+        gloss: the act of sucking
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01169704"
+        gloss: "draw into the mouth by creating a practical vacuum in the mouth; \"suck the poison from the place where the snake bit\"; \"suck on a straw\"; \"the baby sucked on the mother's breast\""
+        angloform:
+          status: gap
+      - wordnet: "01854888"
+        gloss: "draw something in by or as if by a vacuum; \"Mud was sucking at her feet\""
+        angloform:
+          status: gap
+      - wordnet: "02765692"
+        gloss: "attract by using an inexorable force, inducement, etc.; \"The current boom in the economy sucked many workers in from abroad\""
+        angloform:
+          status: gap
+      - wordnet: "02674340"
+        gloss: "be inadequate or objectionable; \"this sucks!\""
+        angloform:
+          status: gap
+      - wordnet: "02117170"
+        gloss: provide sexual gratification through oral stimulation
+        angloform:
+          status: gap
+      - wordnet: "01539063"
+        gloss: "take in, also metaphorically; \"The sponge absorbs water well\"; \"She drew strength from the minister's words\""
+        angloform:
+          status: gap
+      - wordnet: "01186428"
+        gloss: "give suck to; \"The wetnurse suckled the infant\"; \"You cannot nurse your baby in public in some places\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00480993"
+        gloss: a game played on a court by two opposing teams of 5 players; points are scored by throwing the ball through an elevated horizontal hoop
+        angloform:
+          status: gap
+      - wordnet: "02802426"
+        gloss: an inflated ball used in playing basketball
+        angloform:
+          status: gap

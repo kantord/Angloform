@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00138221"
+        gloss: the act of caressing with the lips (or an instance thereof)
+        angloform:
+          status: gap
+      - wordnet: "07636869"
+        gloss: a cookie made of egg whites and sugar
+        angloform:
+          status: gap
+      - wordnet: "07606764"
+        gloss: any of several bite-sized candies
+        angloform:
+          status: gap
+      - wordnet: "00138078"
+        gloss: "a light glancing touch; \"there was a brief kiss of their hands in passing\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01431230"
+        gloss: "touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.; \"The newly married couple kissed\"; \"She kissed her grandfather on the forehead when she entered the room\""
+        angloform:
+          status: gap
+      - wordnet: "01431723"
+        gloss: "touch lightly or gently; \"the blossoms were kissed by the soft rain\""
+        angloform:
+          status: gap

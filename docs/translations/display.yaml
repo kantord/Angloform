@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06879521"
+        gloss: "something intended to communicate a particular impression; \"made a display of strength\"; \"a show of impatience\"; \"a good show of looking interested\""
+        angloform:
+          status: gap
+      - wordnet: "00521209"
+        gloss: "something shown to the public; \"the museum had many exhibits of oriental art\""
+        angloform:
+          status: gap
+      - wordnet: "03210940"
+        gloss: a visual representation of something
+        angloform:
+          status: gap
+      - wordnet: "07213717"
+        gloss: "behavior that makes your feelings public; \"a display of emotion\""
+        angloform:
+          status: gap
+      - wordnet: "06887726"
+        gloss: "exhibiting openly in public view; \"a display of courage\""
+        angloform:
+          status: gap
+      - wordnet: "03211117"
+        gloss: an electronic device that represents information in visual form
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02140033"
+        gloss: "to show, make visible or apparent; \"The Metropolitan Museum is exhibiting Goya's works this month\"; \"Why don't you show your nice legs and wear shorter skirts?\"; \"National leaders will have to display the highest skills of statesmanship\""
+        angloform:
+          status: gap
+      - wordnet: "02535227"
+        gloss: attract attention by displaying some body part or posing; of animals
+        angloform:
+          status: gap

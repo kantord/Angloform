@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: point of sale (retail jargon abbreviation)
+        angloform:
+          status: gap
+          note: extremely narrow technical/retail jargon abbreviation

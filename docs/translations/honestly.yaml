@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00314835"
+        gloss: "(used as intensives reflecting the speaker's attitude) it is sincerely the case that; \"honestly, I don't believe it\"; \"candidly, I think she doesn't have a conscience\"; \"frankly, my dear, I don't give a damn\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00314384"
+        gloss: "in an honest manner; \"in he can't get it honestly, he is willing to steal it\"; \"was known for dealing aboveboard in everything\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

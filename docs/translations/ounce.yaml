@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13722522"
+        gloss: a unit of apothecary weight equal to 480 grains or one twelfth of a pound
+        angloform:
+          status: gap
+      - wordnet: "13719922"
+        gloss: a unit of weight equal to one sixteenth of a pound or 16 drams or 28.349 grams
+        angloform:
+          status: gap
+      - wordnet: "02128757"
+        gloss: large feline of upland central Asia having long thick whitish fur
+        angloform:
+          status: gap

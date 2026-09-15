@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00264776"
+        gloss: "lacking courage; ignobly timid and faint-hearted; \"cowardly dogs, ye will not aid me then\"- P.B.Shelley"
+        angloform:
+          status: gap

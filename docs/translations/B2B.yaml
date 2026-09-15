@@ -1,0 +1,4 @@
+status: exempt
+exempt_kind: garbage
+reason: a single capital letter, almost certainly an OCR/abbreviation/initial artifact, zero real lexical
+  content

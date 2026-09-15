@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00953559"
+        gloss: "a hostile meeting of opposing military forces in the course of a war; \"Grant won a decisive victory in the battle of Chickamauga\"; \"he lost his romantic ideas about war when he got into a real engagement\""
+        angloform:
+          status: gap
+      - wordnet: "00788973"
+        gloss: "an energetic attempt to achieve something; \"getting through the crowd was a real struggle\"; \"he fought a battle for recognition\""
+        angloform:
+          status: gap
+      - wordnet: "00958896"
+        gloss: "an open clash between two opposing groups (or individuals); \"the harder the conflict the more glorious the triumph\"--Thomas Paine; \"police tried to control the battle between the pro- and anti-abortion mobs\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01092366"
+        gloss: "battle or contend against in or as if in a battle; \"The Kurds are combating Iraqi troops in Northern Iraq\"; \"We must combat the prejudices against other races\"; \"they battled over the budget\""
+        angloform:
+          status: gap

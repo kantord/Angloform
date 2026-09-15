@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03430551"
+        gloss: a toothed wheel that engages another toothed mechanism in order to change the speed or direction of transmitted motion
+        angloform:
+          status: gap
+      - wordnet: "03431745"
+        gloss: "wheelwork consisting of a connected set of rotating gears by which force is transmitted or motion or torque is changed; \"the fool got his tie caught in the geartrain\""
+        angloform:
+          status: gap
+      - wordnet: "03431243"
+        gloss: a mechanism for transmitting motion for some specific purpose (as the steering gear of a vehicle)
+        angloform:
+          status: gap
+      - wordnet: "03430959"
+        gloss: equipment consisting of miscellaneous articles needed for a particular operation or sport etc.
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00298244"
+        gloss: "set the level or character of; \"She pitched her speech to the teenagers in the audience\""
+        angloform:
+          status: gap

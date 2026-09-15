@@ -1,0 +1,94 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07945657"
+        gloss: "people who are no longer living; \"they buried the dead\""
+        angloform:
+          status: gap
+      - wordnet: "15123362"
+        gloss: "a time when coldness (or some other quality associated with death) is intense; \"the dead of winter\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00095280"
+        gloss: "no longer having or seeming to have or expecting to have life; \"the nerve is dead\"; \"a dead pallor\"; \"he was marked as a dead man by the assassin\""
+        angloform:
+          status: gap
+      - wordnet: "00099874"
+        gloss: "not showing characteristics of life especially the capacity to sustain life; no longer exerting force or having energy or heat; \"Mars is a dead planet\"; \"dead soil\"; \"dead coals\"; \"the fire is dead\""
+        angloform:
+          status: gap
+      - wordnet: "02432154"
+        gloss: "very tired; \"was all in at the end of the day\"; \"so beat I could flop down and go to sleep anywhere\"; \"bushed after all that exercise\"; \"I'm dead after that long trip\""
+        angloform:
+          status: gap
+      - wordnet: "01838151"
+        gloss: "unerringly accurate; \"a dead shot\"; \"took dead aim\""
+        angloform:
+          status: gap
+      - wordnet: "00041202"
+        gloss: "physically inactive; \"Crater Lake is in the crater of a dead volcano of the Cascade Range\""
+        angloform:
+          status: gap
+      - wordnet: "02107386"
+        gloss: "(followed by `to') not showing human feeling or sensitivity; unresponsive; \"passersby were dead to our plea for help\"; \"numb to the cries for mercy\""
+        angloform:
+          status: gap
+      - wordnet: "02105603"
+        gloss: "devoid of physical sensation; numb; \"his gums were dead from the novocain\"; \"she felt no discomfort as the dentist drilled her deadened tooth\"; \"a public desensitized by continuous television coverage of atrocities\""
+        angloform:
+          status: gap
+      - wordnet: "02011445"
+        gloss: "lacking acoustic resonance; \"dead sounds characteristic of some compact discs\"; \"the dead wall surfaces of a recording studio\""
+        angloform:
+          status: gap
+      - wordnet: "01872265"
+        gloss: "not yielding a return; \"dead capital\"; \"idle funds\""
+        angloform:
+          status: gap
+      - wordnet: "01241248"
+        gloss: "not circulating or flowing; \"dead air\"; \"dead water\"; \"stagnant water\""
+        angloform:
+          status: gap
+      - wordnet: "00929443"
+        gloss: "not surviving in active use; \"Latin is a dead language\""
+        angloform:
+          status: gap
+      - wordnet: "00845737"
+        gloss: "lacking resilience or bounce; \"a dead tennis ball\""
+        angloform:
+          status: gap
+      - wordnet: "00833878"
+        gloss: "out of use or operation because of a fault or breakdown; \"a dead telephone line\"; \"the motor is dead\""
+        angloform:
+          status: gap
+      - wordnet: "00668919"
+        gloss: "no longer having force or relevance; \"a dead issue\""
+        angloform:
+          status: gap
+      - wordnet: "00522349"
+        gloss: "complete; \"came to a dead stop\"; \"utter seriousness\""
+        angloform:
+          status: gap
+      - wordnet: "00359260"
+        gloss: "drained of electric charge; discharged; \"a dead battery\"; \"left the lights on and came back to find the battery drained\""
+        angloform:
+          status: gap
+      - wordnet: "00036879"
+        gloss: "devoid of activity; \"this is a dead town; nothing ever happens here\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00061528"
+        gloss: "quickly and without warning; \"he stopped suddenly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00008997"
+        gloss: "completely and without qualification; used informally as intensifiers; \"an absolutely magnificent painting\"; \"a perfectly idiotic idea\"; \"you're perfectly right\"; \"utterly miserable\"; \"you can be dead sure of my innocence\"; \"was dead tired\"; \"dead right\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

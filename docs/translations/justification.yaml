@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05823054"
+        gloss: "something (such as a fact or circumstance) that shows an action to be reasonable or necessary; \"he considered misrule a justification for revolution\""
+        angloform:
+          status: gap
+      - wordnet: "06740183"
+        gloss: a statement in explanation of some action or belief
+        angloform:
+          status: gap
+      - wordnet: "01241767"
+        gloss: "the act of defending or explaining or making excuses for by reasoning; \"the justification of barbarous means by holy ends\"- H.J.Muller"
+        angloform:
+          status: gap

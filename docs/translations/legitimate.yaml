@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02481436"
+        gloss: "make legal; \"Marijuana should be legalized\""
+        angloform:
+          status: gap
+      - wordnet: "00896677"
+        gloss: show or affirm to be just and legitimate
+        angloform:
+          status: gap
+      - wordnet: "00575359"
+        gloss: "make (an illegitimate child) legitimate; declare the legitimacy of (someone); \"They legitimized their natural child\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01406640"
+        gloss: of marriages and offspring; recognized as lawful
+        angloform:
+          status: gap
+      - wordnet: "02499301"
+        gloss: "based on known statements or events or conditions; \"rain was a logical expectation, given the time of year\""
+        angloform:
+          status: gap
+      - wordnet: "01636205"
+        gloss: "in accordance with recognized or accepted standards or principles; \"legitimate advertising practices\""
+        angloform:
+          status: gap
+      - wordnet: "01401224"
+        gloss: "authorized, sanctioned by, or in accordance with law; \"a legitimate government\""
+        angloform:
+          status: gap

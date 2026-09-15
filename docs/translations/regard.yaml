@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05820170"
+        gloss: "(usually preceded by `in') a detail or point; \"it differs in that respect\""
+        angloform:
+          status: gap
+      - wordnet: "05702726"
+        gloss: "paying particular notice (as to children or helpless people); \"his attentiveness to her wishes\"; \"he spends without heed to the consequences\""
+        angloform:
+          status: gap
+      - wordnet: "06630627"
+        gloss: "(usually plural) a polite expression of desire for someone's welfare; \"give him my kind regards\"; \"my best wishes\""
+        angloform:
+          status: gap
+      - wordnet: "00878648"
+        gloss: "a long fixed look; \"he fixed his paternal gaze on me\""
+        angloform:
+          status: gap
+      - wordnet: "14437552"
+        gloss: "the condition of being honored (esteemed or respected or well regarded); \"it is held in esteem\"; \"a man who has earned high regard\""
+        angloform:
+          status: gap
+      - wordnet: "07545415"
+        gloss: "a feeling of friendship and esteem; \"she mistook his manly regard for love\"; \"he inspires respect\""
+        angloform:
+          status: gap
+      - wordnet: "06206800"
+        gloss: "an attitude of admiration or esteem; \"she lost all respect for him\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00690614"
+        gloss: "deem to be; \"She views this quite differently from me\"; \"I consider her to be shallow\"; \"I don't see the situation quite as negatively as you do\""
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "02133185"
+        gloss: look at attentively
+        angloform:
+          status: redirect
+          word: consider
+          category: VERB_TRANS
+      - wordnet: "02677097"
+        gloss: "connect closely and often incriminatingly; \"This new ruling affects your business\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00453803"
+        gloss: "fill something that had previously been emptied; \"refill my glass, please\""
+        angloform:
+          status: gap

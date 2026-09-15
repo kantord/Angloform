@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06492939"
+        gloss: "a list of dishes available at a restaurant; \"the menu was in French\""
+        angloform:
+          status: gap
+      - wordnet: "07565083"
+        gloss: the dishes making up a meal
+        angloform:
+          status: gap
+      - wordnet: "06493392"
+        gloss: (computer science) a list of options available to a computer user
+        angloform:
+          status: gap
+      - wordnet: "05911124"
+        gloss: "an agenda of things to do; \"they worked rapidly down the menu of reports\""
+        angloform:
+          status: gap

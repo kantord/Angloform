@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01191158"
+        gloss: "the reason for a court's judgment (as opposed to the decision itself)"
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01827432"
+        gloss: exercising power or authority
+        angloform:
+          status: gap

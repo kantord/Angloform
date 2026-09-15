@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01048697"
+        gloss: "the activity of formally presenting something (as a prize or reward); \"she gave the trophy but he made the presentation\""
+        angloform:
+          status: gap
+      - wordnet: "00521562"
+        gloss: "a show or display; the act of presenting something to sight or view; \"the presentation of new data\"; \"he gave the customer a demonstration\""
+        angloform:
+          status: gap
+      - wordnet: "06891022"
+        gloss: "the act of making something publicly available; presenting news or other information by broadcasting or printing it; \"he prepared his presentation carefully in advance\""
+        angloform:
+          status: gap
+      - wordnet: "07167415"
+        gloss: the act of presenting a proposal
+        angloform:
+          status: gap
+      - wordnet: "03210940"
+        gloss: a visual representation of something
+        angloform:
+          status: gap
+      - wordnet: "07217349"
+        gloss: formally making a person known to another or to the public
+        angloform:
+          status: redirect
+          word: intro
+          category: NOUN
+      - wordnet: "05081434"
+        gloss: "(obstetrics) position of the fetus in the uterus relative to the birth canal; \"Cesarean sections are sometimes the result of abnormal presentations\""
+        angloform:
+          status: gap

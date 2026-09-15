@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02719399"
+        gloss: "have a tendency or disposition to do or be something; be inclined; \"She tends to be nervous before her lectures\"; \"These dresses run small\"; \"He inclined to corpulence\""
+        angloform:
+          status: gap
+      - wordnet: "02549847"
+        gloss: "have care of or look after; \"She tends to the children\""
+        angloform:
+          status: gap
+      - wordnet: "02439047"
+        gloss: "manage or run; \"tend a store\""
+        angloform:
+          status: gap

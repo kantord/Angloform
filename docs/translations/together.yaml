@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01586194"
+        gloss: "mentally and emotionally stable; \"she's really together\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00116791"
+        gloss: "in contact with each other or in proximity; \"the leaves stuck together\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00116994"
+        gloss: "assembled in one place; \"we were gathered together\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00507927"
+        gloss: "in each other's company; \"we went to the movies together\"; \"the family that prays together stays together\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00116510"
+        gloss: "at the same time; \"we graduated together\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00116588"
+        gloss: "with cooperation and interchange; \"we worked together on the project\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00116705"
+        gloss: "with a common plan; \"act in concert\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

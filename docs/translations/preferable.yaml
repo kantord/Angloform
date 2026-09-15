@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00733743"
+        gloss: "more desirable than another; \"coffee is preferable to tea\"; \"Danny's preferred name is `Dan'\""
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11418138"
+        gloss: "an unknown and unpredictable phenomenon that causes an event to result one way rather than another; \"bad luck caused his downfall\"; \"we ran into each other by pure chance\""
+        angloform:
+          status: gap
+      - wordnet: "13370938"
+        gloss: a large amount of wealth or prosperity
+        angloform:
+          status: gap
+      - wordnet: "11418460"
+        gloss: "an unknown and unpredictable phenomenon that leads to a favorable outcome; \"it was my good luck to be there\"; \"they say luck is a lady\"; \"it was as if fortune guided his hand\""
+        angloform:
+          status: gap
+      - wordnet: "14473222"
+        gloss: "your overall circumstances or condition in life (including everything that happens to you); \"whatever my fortune may be\"; \"deserved a better fate\"; \"has a happy lot\"; \"the luck of the Irish\"; \"a victim of circumstances\"; \"success that was her portion\""
+        angloform:
+          status: gap

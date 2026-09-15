@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07944900"
+        gloss: "people who are fearful and cautious; \"whitewater rafting is not for the timid\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00251809"
+        gloss: showing fear and lack of confidence
+        angloform:
+          status: gap
+      - wordnet: "00339941"
+        gloss: "lacking self-confidence; \"stood in the doorway diffident and abashed\"; \"problems that call for bold not timid responses\"; \"a very unsure young man\""
+        angloform:
+          status: gap
+      - wordnet: "00265989"
+        gloss: "lacking conviction or boldness or courage; \"faint heart ne'er won fair lady\""
+        angloform:
+          status: gap

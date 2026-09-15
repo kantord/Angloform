@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04622932"
+        gloss: the quality of being secluded from the presence or view of others
+        angloform:
+          status: gap
+      - wordnet: "14416089"
+        gloss: the condition of being concealed or hidden
+        angloform:
+          status: gap

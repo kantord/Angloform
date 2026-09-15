@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00202284"
+        gloss: "the action of opposing something that you disapprove or disagree with; \"he encountered a general feeling of resistance from many citizens\"; \"despite opposition from the newspapers he went ahead\""
+        angloform:
+          status: gap
+      - wordnet: "11503644"
+        gloss: any mechanical force that tends to retard or oppose motion
+        angloform:
+          status: gap
+      - wordnet: "11503968"
+        gloss: "a material's opposition to the flow of electric current; measured in ohms"
+        angloform:
+          status: gap
+      - wordnet: "00955987"
+        gloss: "the military action of resisting the enemy's advance; \"the enemy offered little resistance\""
+        angloform:
+          status: gap
+      - wordnet: "14527171"
+        gloss: (medicine) the condition in which an organism can resist disease
+        angloform:
+          status: gap
+      - wordnet: "14526954"
+        gloss: "the capacity of an organism to defend itself against harmful environmental agents; \"these trees are widely planted because of their resistance to salt and smog\""
+        angloform:
+          status: gap
+      - wordnet: "08360672"
+        gloss: a secret group organized to overthrow a government or occupation force
+        angloform:
+          status: gap
+      - wordnet: "05213894"
+        gloss: the degree of unresponsiveness of a disease-causing microorganism to antibiotics or other drugs (as in penicillin-resistant bacteria)
+        angloform:
+          status: gap
+      - wordnet: "04646372"
+        gloss: (psychiatry) an unwillingness to bring repressed feelings into conscious awareness
+        angloform:
+          status: gap
+      - wordnet: "04079933"
+        gloss: an electrical device that resists the flow of electrical current
+        angloform:
+          status: gap
+      - wordnet: "01169317"
+        gloss: group action in opposition to those in power
+        angloform:
+          status: gap

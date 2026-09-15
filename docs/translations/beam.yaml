@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06792645"
+        gloss: a signal transmitted along a narrow path; guides airplane pilots in darkness or bad weather
+        angloform:
+          status: gap
+      - wordnet: "02815950"
+        gloss: long thick piece of wood or metal or concrete, etc., used in construction
+        angloform:
+          status: gap
+      - wordnet: "11428379"
+        gloss: a group of nearly parallel lines of electromagnetic radiation
+        angloform:
+          status: gap
+      - wordnet: "11428023"
+        gloss: a column of light (as from a beacon)
+        angloform:
+          status: gap
+      - wordnet: "05136546"
+        gloss: (nautical) breadth amidships
+        angloform:
+          status: gap
+      - wordnet: "02816381"
+        gloss: "the broad side of a ship; \"they sighted land on the port beam\""
+        angloform:
+          status: gap
+      - wordnet: "02777292"
+        gloss: a gymnastic apparatus used by women gymnasts
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00029214"
+        gloss: "smile radiantly; express joy through one's facial expression"
+        angloform:
+          status: gap
+      - wordnet: "02763740"
+        gloss: "emit light; be bright, as of the sun or a light; \"The sun shone bright that day\"; \"The fire beamed on their faces\""
+        angloform:
+          status: gap
+      - wordnet: "01067380"
+        gloss: "express with a beaming face or smile; \"he beamed his approval\""
+        angloform:
+          status: gap
+      - wordnet: "00973056"
+        gloss: "broadcast over the airwaves, as in radio or television; \"We cannot air this X-rated song\""
+        angloform:
+          status: redirect
+          word: send
+          category: VERB_TRANS
+      - wordnet: "02161530"
+        gloss: "have a complexion with a strong bright color, such as red or pink; \"Her face glowed when she came out of the sauna\""
+        angloform:
+          status: gap
+      - wordnet: "01829747"
+        gloss: "experience a feeling of well-being or happiness, as from good health or an intense emotion; \"She was beaming with joy\"; \"Her face radiated with happiness\""
+        angloform:
+          status: gap

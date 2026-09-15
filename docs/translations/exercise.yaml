@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00624738"
+        gloss: "the activity of exerting your muscles in various ways to keep fit; \"the doctor recommended regular exercise\"; \"he did some exercising\"; \"the physical exertion required by his work kept him fit\""
+        angloform:
+          status: gap
+      - wordnet: "00947128"
+        gloss: "the act of using; \"he warned against the use of narcotic drugs\"; \"skilled in the utilization of computers\""
+        angloform:
+          status: redirect
+          word: usage
+          category: NOUN
+      - wordnet: "00894552"
+        gloss: "systematic training by multiple repetitions; \"practice makes perfect\""
+        angloform:
+          status: gap
+      - wordnet: "00729919"
+        gloss: "a task performed or problem solved in order to develop skill or understanding; \"you must work the examples at the end of each chapter in the textbook\""
+        angloform:
+          status: redirect
+          word: example
+          category: NOUN
+      - wordnet: "07454452"
+        gloss: "(usually plural) a ceremony that involves processions and speeches; \"academic exercises\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01166093"
+        gloss: "put to use; \"exert one's power or influence\""
+        angloform:
+          status: gap
+      - wordnet: "02568672"
+        gloss: "carry out or practice; as of jobs and professions; \"practice law\""
+        angloform:
+          status: gap
+      - wordnet: "00100551"
+        gloss: "give a workout to; \"Some parents exercise their infants\"; \"My personal trainer works me hard\"; \"work one's muscles\"; \"this puzzle will exercise your mind\""
+        angloform:
+          status: gap
+      - wordnet: "00099721"
+        gloss: "do physical exercise; \"She works out in the gym every day\""
+        angloform:
+          status: gap
+      - wordnet: "00606093"
+        gloss: "learn by repetition; \"We drilled French verbs every day\"; \"Pianists practice scales\""
+        angloform:
+          status: gap

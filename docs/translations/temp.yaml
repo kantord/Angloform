@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10699415"
+        gloss: a worker (especially in an office) hired on a temporary basis
+        angloform:
+          status: gap

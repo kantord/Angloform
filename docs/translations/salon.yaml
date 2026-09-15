@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04131113"
+        gloss: gallery where works of art can be displayed
+        angloform:
+          status: gap
+      - wordnet: "04131208"
+        gloss: a shop where hairdressers and beauticians work
+        angloform:
+          status: gap
+      - wordnet: "04131015"
+        gloss: elegant sitting room where guests are received
+        angloform:
+          status: gap

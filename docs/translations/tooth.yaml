@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05282746"
+        gloss: hard bonelike structures in the jaws of vertebrates; used for biting and chewing or for attack and defense
+        angloform:
+          status: gap
+      - wordnet: "04452848"
+        gloss: something resembling the tooth of an animal
+        angloform:
+          status: gap
+      - wordnet: "02155872"
+        gloss: toothlike structure in invertebrates found in the mouth or alimentary canal or on a shell
+        angloform:
+          status: gap
+      - wordnet: "00179576"
+        gloss: "a means of enforcement; \"the treaty had no teeth in it\""
+        angloform:
+          status: gap
+      - wordnet: "04453037"
+        gloss: one of a number of uniform projections on a gear
+        angloform:
+          status: gap

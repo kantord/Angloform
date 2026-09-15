@@ -1,0 +1,86 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08640962"
+        gloss: the part of a golf course bordering the fairway where the grass is not cut short
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01754452"
+        gloss: prepare in preliminary or sketchy form
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02238462"
+        gloss: "having or caused by an irregular surface; \"trees with rough bark\"; \"rough ground\"; \"rough skin\"; \"rough blankets\"; \"his unsmooth face\""
+        angloform:
+          status: gap
+      - wordnet: "01951197"
+        gloss: "(of persons or behavior) lacking refinement or finesse; \"she was a diamond in the rough\"; \"rough manners\""
+        angloform:
+          status: gap
+      - wordnet: "00915976"
+        gloss: "not quite exact or correct; \"the approximate time was 10 o'clock\"; \"a rough guess\"; \"a ballpark estimate\""
+        angloform:
+          status: redirect
+          word: approximate
+          category: ADJ
+      - wordnet: "00747910"
+        gloss: "full of hardship or trials; \"the rocky road to success\"; \"they were having a rough time\""
+        angloform:
+          status: gap
+      - wordnet: "00304949"
+        gloss: "violently agitated and turbulent; \"boisterous winds and waves\"; \"the fierce thunders roar me their music\"- Ezra Pound; \"rough weather\"; \"rough seas\""
+        angloform:
+          status: gap
+      - wordnet: "00299476"
+        gloss: "unpleasantly harsh or grating in sound; \"a gravelly voice\""
+        angloform:
+          status: gap
+      - wordnet: "00084353"
+        gloss: "ready and able to resort to force or violence; \"pugnacious spirits...lamented that there was so little prospect of an exhilarating disturbance\"- Herman Melville; \"they were rough and determined fighting men\""
+        angloform:
+          status: gap
+      - wordnet: "02245403"
+        gloss: of the margin of a leaf shape; having the edge cut or fringed or scalloped
+        angloform:
+          status: gap
+      - wordnet: "02243567"
+        gloss: "causing or characterized by jolts and irregular movements; \"a rough ride\""
+        angloform:
+          status: gap
+      - wordnet: "00664167"
+        gloss: "not shaped by cutting or trimming; \"an uncut diamond\"; \"rough gemstones\""
+        angloform:
+          status: gap
+      - wordnet: "02229584"
+        gloss: "not carefully or expertly made; \"managed to make a crude splint\"; \"a crude cabin of logs with bark still on them\"; \"rough carpentry\""
+        angloform:
+          status: gap
+      - wordnet: "01813183"
+        gloss: "not perfected; \"a rough draft\"; \"a few rough sketches\""
+        angloform:
+          status: gap
+      - wordnet: "01803583"
+        gloss: "unpleasantly stern; \"wild and harsh country full of hot sand and cactus\"; \"the nomad life is rough and hazardous\""
+        angloform:
+          status: gap
+      - wordnet: "01374183"
+        gloss: "unkind or cruel or uncivil; \"had harsh words\"; \"a harsh and unlovable old tyrant\"; \"a rough answer\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00354033"
+        gloss: "with roughness or violence (`rough' is an informal variant for `roughly'); \"he was pushed roughly aside\"; \"they treated him rough\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00353916"
+        gloss: "with rough motion as over a rough surface; \"ride rough\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

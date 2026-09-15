@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00466651"
+        gloss: "make into a whole or make part of a whole; \"She incorporated his suggestions into her proposal\""
+        angloform:
+          status: redirect
+          word: integrate
+          category: VERB_TRANS
+      - wordnet: "02629535"
+        gloss: "include or contain; have as a component; \"A totally new idea is comprised in this paper\"; \"The record contains many old songs from the 1930's\""
+        angloform:
+          status: redirect
+          word: contain
+          category: VERB_TRANS
+      - wordnet: "02448079"
+        gloss: form a corporation
+        angloform:
+          status: gap
+      - wordnet: "01541000"
+        gloss: "unite or merge with something already in existence; \"incorporate this document with those pertaining to the same case\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02477557"
+        gloss: formed or united into a whole
+        angloform:
+          status: gap

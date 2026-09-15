@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07574602"
+        gloss: the first meal of the day (usually in the morning)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01185740"
+        gloss: "eat an early morning meal; \"We breakfast at seven\""
+        angloform:
+          status: gap
+      - wordnet: "01185875"
+        gloss: provide breakfast for
+        angloform:
+          status: gap

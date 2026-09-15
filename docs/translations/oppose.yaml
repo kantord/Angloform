@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00775831"
+        gloss: "be against; express opposition to; \"We oppose the ban on abortion\""
+        angloform:
+          status: gap
+      - wordnet: "01091427"
+        gloss: "fight against or resist strongly; \"The senator said he would oppose the bill\"; \"Don't fight it!\""
+        angloform:
+          status: gap
+      - wordnet: "02666531"
+        gloss: contrast with equal weight or force
+        angloform:
+          status: gap
+      - wordnet: "01081152"
+        gloss: "set into opposition or rivalry; \"let them match their best athletes against ours\"; \"pit a chess player against the Russian champion\"; \"He plays his two children off against each other\""
+        angloform:
+          status: redirect
+          word: match
+          category: VERB_TRANS
+      - wordnet: "02378623"
+        gloss: "act against or in opposition to; \"She reacts negatively to everything I say\""
+        angloform:
+          status: gap
+      - wordnet: "00776059"
+        gloss: "be resistant to; \"The board opposed his motion\""
+        angloform:
+          status: gap

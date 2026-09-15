@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04565375"
+        gloss: "any instrument or instrumentality used in fighting or hunting; \"he was licensed to carry a weapon\""
+        angloform:
+          status: gap
+      - wordnet: "07246932"
+        gloss: "a means of persuading or arguing; \"he used all his conversational weapons\""
+        angloform:
+          status: gap

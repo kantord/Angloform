@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15282696"
+        gloss: distance travelled per unit time
+        angloform:
+          status: gap
+      - wordnet: "05058140"
+        gloss: "a rate (usually rapid) at which something happens; \"the project advanced with gratifying speed\""
+        angloform:
+          status: gap
+      - wordnet: "00330160"
+        gloss: changing location rapidly
+        angloform:
+          status: gap
+      - wordnet: "13821408"
+        gloss: the ratio of the focal length to the diameter of a (camera) lens system
+        angloform:
+          status: gap
+      - wordnet: "02704153"
+        gloss: a central nervous system stimulant that increases energy and decreases appetite; used to treat narcolepsy and some forms of depression
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02058994"
+        gloss: "move fast; \"He rushed down the hall to receive his guests\"; \"The cars raced down the street\""
+        angloform:
+          status: gap
+      - wordnet: "00438178"
+        gloss: "move faster; \"The car accelerated\""
+        angloform:
+          status: gap
+      - wordnet: "02055649"
+        gloss: "move very fast; \"The runner zipped past us at breakneck speed\""
+        angloform:
+          status: gap
+      - wordnet: "02055975"
+        gloss: "travel at an excessive or illegal velocity; \"I got a ticket for speeding\""
+        angloform:
+          status: gap
+      - wordnet: "00439343"
+        gloss: "cause to move faster; \"He accelerated the car\""
+        angloform:
+          status: gap

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01150475"
+        gloss: "feeling or expressing regret or sorrow or a sense of loss over something done or undone; \"felt regretful over his vanished youth\"; \"regretful over mistakes she had made\"; \"he felt bad about breaking the vase\""
+        angloform:
+          status: redirect
+          word: bad
+          category: ADJ
+      - wordnet: "01126841"
+        gloss: "bad; unfortunate; \"my finances were in a deplorable state\"; \"a lamentable decision\"; \"her clothes were in sad shape\"; \"a sorry state of affairs\""
+        angloform:
+          status: gap
+      - wordnet: "02502578"
+        gloss: "without merit; \"a sorry horse\"; \"a sorry excuse\"; \"a lazy no-count, good-for-nothing goldbrick\"; \"the car was a no-good piece of junk\""
+        angloform:
+          status: gap
+      - wordnet: "00364881"
+        gloss: "causing dejection; \"a blue day\"; \"the dark days of the war\"; \"a week of rainy depressing weather\"; \"a disconsolate winter landscape\"; \"the first dismal dispiriting days of November\"; \"a dark gloomy day\"; \"grim rainy weather\""
+        angloform:
+          status: gap

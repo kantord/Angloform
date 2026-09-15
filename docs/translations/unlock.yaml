@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01348705"
+        gloss: "open the lock of; \"unlock the door\""
+        angloform:
+          status: gap
+      - wordnet: "01511289"
+        gloss: set free or release
+        angloform:
+          status: gap
+      - wordnet: "00219963"
+        gloss: "become unlocked; \"The door unlocked from the inside\""
+        angloform:
+          status: gap

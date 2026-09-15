@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06402202"
+        gloss: "a shared on-line journal where people can post diary entries about their personal experiences and hobbies; \"postings on a blog are usually in chronological order\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00865280"
+        gloss: read, write, or edit a shared on-line journal
+        angloform:
+          status: gap

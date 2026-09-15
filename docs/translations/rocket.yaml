@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04099429"
+        gloss: any vehicle self-propelled by a rocket engine
+        angloform:
+          status: gap
+      - wordnet: "04099175"
+        gloss: a jet engine containing its own propellant and driven by reaction propulsion
+        angloform:
+          status: gap
+      - wordnet: "11886537"
+        gloss: erect European annual often grown as a salad crop to be harvested when young and tender
+        angloform:
+          status: gap
+      - wordnet: "07263053"
+        gloss: propels bright light high in the sky, or used to propel a lifesaving line or harpoon
+        angloform:
+          status: gap
+      - wordnet: "04232902"
+        gloss: sends a firework display high into the sky
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01944086"
+        gloss: "shoot up abruptly, like a rocket; \"prices skyrocketed\""
+        angloform:
+          status: gap
+      - wordnet: "01241753"
+        gloss: propel with a rocket
+        angloform:
+          status: gap

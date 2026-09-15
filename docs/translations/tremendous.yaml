@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01385255"
+        gloss: "extraordinarily large in size or extent or amount or power or degree; \"an enormous boulder\"; \"enormous expenses\"; \"tremendous sweeping plains\"; \"a tremendous fact in human experience; that a whole civilization should be dependent on technology\"- Walter Lippman; \"a plane took off with a tremendous noise\""
+        angloform:
+          status: gap
+      - wordnet: "01676517"
+        gloss: "extraordinarily good or great ; used especially as intensifiers; \"a fantastic trip to the Orient\"; \"the film was fantastic!\"; \"a howling success\"; \"a marvelous collection of rare books\"; \"had a rattling conversation about politics\"; \"a tremendous achievement\""
+        angloform:
+          status: gap
+      - wordnet: "01677200"
+        gloss: "extreme in degree or extent or amount or impact; \"in a frightful hurry\"; \"spent a frightful amount of money\""
+        angloform:
+          status: gap

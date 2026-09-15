@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01943406"
+        gloss: "showing reason or sound judgment; \"a sensible choice\"; \"a sensible person\""
+        angloform:
+          status: gap
+      - wordnet: "02102484"
+        gloss: "able to feel or perceive; \"even amoeba are sensible creatures\"; \"the more sensible parts of the skin\""
+        angloform:
+          status: gap
+      - wordnet: "01748152"
+        gloss: "readily perceived by the senses; \"the sensible universe\"; \"a sensible odor\""
+        angloform:
+          status: gap
+      - wordnet: "00191265"
+        gloss: "aware intuitively or intellectually of something sensed; \"made sensible of his mistakes\"; \"I am sensible that the mention of such a circumstance may appear trifling\"- Henry Hallam; \"sensible that a good deal more is still to be done\"- Edmund Burke"
+        angloform:
+          status: gap

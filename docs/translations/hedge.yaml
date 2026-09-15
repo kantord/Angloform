@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03511175"
+        gloss: a fence formed by a row of closely planted shrubs or bushes
+        angloform:
+          status: gap
+      - wordnet: "13344462"
+        gloss: any technique designed to reduce or eliminate financial risk; for example, taking two positions that will offset each other if prices change
+        angloform:
+          status: gap
+      - wordnet: "06761603"
+        gloss: "an intentionally noncommittal or ambiguous statement; \"when you say `maybe' you are just hedging\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00809654"
+        gloss: "avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues); \"He dodged the issue\"; \"she skirted the problem\"; \"They tend to evade their responsibilities\"; \"he evaded the questions skillfully\""
+        angloform:
+          status: gap
+      - wordnet: "01615190"
+        gloss: "hinder or restrict with or as if with a hedge; \"The animals were hedged in\""
+        angloform:
+          status: gap
+      - wordnet: "01615020"
+        gloss: "enclose or bound in with or as it with a hedge or hedges; \"hedge the property\""
+        angloform:
+          status: gap
+      - wordnet: "00428067"
+        gloss: "minimize loss or risk; \"diversify your financial portfolio to hedge price risks\"; \"hedge your bets\""
+        angloform:
+          status: gap

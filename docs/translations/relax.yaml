@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00026385"
+        gloss: "become less tense, rest, or take one's ease; \"He relaxed in the hot tub\"; \"Let's all relax after a hard day's work\""
+        angloform:
+          status: gap
+      - wordnet: "00419685"
+        gloss: "make less taut; \"relax the tension on the rope\""
+        angloform:
+          status: gap
+      - wordnet: "00419137"
+        gloss: "become loose or looser or less tight; \"The noose loosened\"; \"the rope relaxed\""
+        angloform:
+          status: gap
+      - wordnet: "00025654"
+        gloss: "cause to feel relaxed; \"A hot bath always relaxes me\""
+        angloform:
+          status: gap
+      - wordnet: "02602212"
+        gloss: "become less tense, less formal, or less restrained, and assume a friendlier manner; \"our new colleague relaxed when he saw that we were a friendly group\""
+        angloform:
+          status: gap
+      - wordnet: "02601996"
+        gloss: "make less severe or strict; \"The government relaxed the curfew after most of the rebels were caught\""
+        angloform:
+          status: gap
+      - wordnet: "02601808"
+        gloss: "become less severe or strict; \"The rules relaxed after the new director arrived\""
+        angloform:
+          status: gap
+      - wordnet: "00441212"
+        gloss: "make less active or fast; \"He slackened his pace as he got tired\"; \"Don't relax your efforts now\""
+        angloform:
+          status: gap

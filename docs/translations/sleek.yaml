@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01245986"
+        gloss: make slick or smooth
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02427981"
+        gloss: "well-groomed and neatly tailored; especially too well-groomed; \"sleek figures in expensive clothes\""
+        angloform:
+          status: gap
+      - wordnet: "02238128"
+        gloss: "designed or arranged to offer the least resistant to fluid flow; \"a streamlined convertible\""
+        angloform:
+          status: gap
+      - wordnet: "00282675"
+        gloss: "having a smooth, gleaming surface reflecting light; \"glossy auburn hair\"; \"satiny gardenia petals\"; \"sleek black fur\"; \"silken eyelashes\"; \"silky skin\"; \"a silklike fabric\"; \"slick seals and otters\""
+        angloform:
+          status: gap

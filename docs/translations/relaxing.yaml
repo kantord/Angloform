@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01922227"
+        gloss: "affording physical or mental rest; \"she spent a restful night at home\""
+        angloform:
+          status: gap

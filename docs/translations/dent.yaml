@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11413661"
+        gloss: "an appreciable consequence (especially a lessening); \"it made a dent in my bank account\""
+        angloform:
+          status: gap
+      - wordnet: "13904843"
+        gloss: a depression scratched or carved into a surface
+        angloform:
+          status: gap
+      - wordnet: "04693384"
+        gloss: an impression in a surface (as made by a blow)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01279631"
+        gloss: "make a depression into; \"The bicycle dented my car\""
+        angloform:
+          status: gap

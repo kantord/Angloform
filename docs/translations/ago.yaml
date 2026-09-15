@@ -1,0 +1,15 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01728476"
+        gloss: "gone by; or in the past; \"two years ago\"; \"`agone' is an archaic word for `ago'\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00074095"
+        gloss: "in the past; \"long ago\"; \"sixty years ago my grandfather came to the U.S.\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

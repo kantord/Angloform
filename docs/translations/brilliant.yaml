@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02342608"
+        gloss: "of surpassing excellence; \"a brilliant performance\"; \"a superb actor\""
+        angloform:
+          status: gap
+      - wordnet: "01335156"
+        gloss: "having or marked by unusual and impressive intelligence; \"some men dislike brainy women\"; \"a brilliant mind\"; \"a brilliant solution to the problem\""
+        angloform:
+          status: gap
+      - wordnet: "01285376"
+        gloss: "characterized by grandeur; \"the brilliant court life at Versailles\"; \"a glorious work of art\"; \"magnificent cathedrals\"; \"the splendid coronation ceremony\""
+        angloform:
+          status: gap
+      - wordnet: "00402855"
+        gloss: "having striking color; \"bright dress\"; \"brilliant tapestries\"; \"a bird with vivid plumage\""
+        angloform:
+          status: gap
+      - wordnet: "00281173"
+        gloss: "full of light; shining intensely; \"a brilliant star\"; \"brilliant chandeliers\""
+        angloform:
+          status: gap
+      - wordnet: "02009688"
+        gloss: "clear and sharp and ringing; \"the bright sound of the trumpet section\"; \"the brilliant sound of the trumpets\""
+        angloform:
+          status: gap

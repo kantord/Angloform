@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03639497"
+        gloss: "a telephone line that travels over terrestrial circuits; \"a land line can be wire or fiber optics or microwave\""
+        angloform:
+          status: gap

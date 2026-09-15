@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13650447"
+        gloss: a unit of length equal to 3 feet; defined as 91.44 centimeters; originally taken to be the average length of a stride
+        angloform:
+          status: gap
+      - wordnet: "04610879"
+        gloss: "the enclosed land around a house or other building; \"it was a small house with almost no yard\""
+        angloform:
+          status: gap
+      - wordnet: "08684294"
+        gloss: "a tract of land enclosed for particular activities (sometimes paved and usually associated with buildings); \"they opened a repair yard on the edge of town\""
+        angloform:
+          status: gap
+      - wordnet: "13750844"
+        gloss: the cardinal number that is the product of 10 and 100
+        angloform:
+          status: gap
+      - wordnet: "13618076"
+        gloss: a unit of volume (as for sand or gravel)
+        angloform:
+          status: gap
+      - wordnet: "08684676"
+        gloss: a tract of land where logs are accumulated
+        angloform:
+          status: gap
+      - wordnet: "04611154"
+        gloss: an area having a network of railway tracks and sidings for storage and maintenance of cars and engines
+        angloform:
+          status: gap
+      - wordnet: "04610676"
+        gloss: a long horizontal spar tapered at the end and used to support and spread a square sail or lateen
+        angloform:
+          status: gap
+      - wordnet: "04610503"
+        gloss: an enclosure for animals (as chicken or livestock)
+        angloform:
+          status: gap

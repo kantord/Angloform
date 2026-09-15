@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13750415"
+        gloss: ten 10s
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02196107"
+        gloss: being ten more than ninety
+        angloform:
+          status: gap

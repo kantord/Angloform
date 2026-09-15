@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00929839"
+        gloss: express or state indirectly
+        angloform:
+          status: gap
+      - wordnet: "00930599"
+        gloss: suggest as a logically necessary consequence; in logic
+        angloform:
+          status: gap
+      - wordnet: "02635189"
+        gloss: "have as a logical consequence; \"The water shortage means that we have to stop taking long showers\""
+        angloform:
+          status: gap
+      - wordnet: "02636921"
+        gloss: suggest that someone is guilty
+        angloform:
+          status: gap
+      - wordnet: "02636132"
+        gloss: "have as a necessary feature; \"This decision involves many changes\""
+        angloform:
+          status: gap

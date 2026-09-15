@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06358747"
+        gloss: the address of a web page on the world wide web
+        angloform:
+          status: gap

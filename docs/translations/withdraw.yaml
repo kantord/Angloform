@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01994442"
+        gloss: "pull back or move away or backward; \"The enemy withdrew\"; \"The limo pulled away from the curb\""
+        angloform:
+          status: gap
+      - wordnet: "02380009"
+        gloss: "withdraw from active participation; \"He retired from chess\""
+        angloform:
+          status: gap
+      - wordnet: "01511380"
+        gloss: "release from something that holds fast, connects, or entangles; \"I want to disengage myself from his influence\"; \"disengage the gears\""
+        angloform:
+          status: gap
+      - wordnet: "02312478"
+        gloss: "cause to be returned; \"recall the defective auto tires\"; \"The manufacturer tried to call back the spoilt yoghurt\""
+        angloform:
+          status: gap
+      - wordnet: "00799076"
+        gloss: "take back what one has said; \"He swallowed his words\""
+        angloform:
+          status: gap
+      - wordnet: "00495998"
+        gloss: "keep away from others; \"He sequestered himself in his study to write a book\""
+        angloform:
+          status: gap
+      - wordnet: "02428487"
+        gloss: "break from a meeting or gathering; \"We adjourned for lunch\"; \"The men retired to the library\""
+        angloform:
+          status: gap
+      - wordnet: "02380760"
+        gloss: "retire gracefully; \"He bowed out when he realized he could no longer handle the demands of the chairmanship\""
+        angloform:
+          status: gap
+      - wordnet: "02311387"
+        gloss: "remove (a commodity) from (a supply source); \"She drew $2,000 from the account\"; \"The doctors drew medical supplies from the hospital's emergency bank\""
+        angloform:
+          status: gap
+      - wordnet: "01766952"
+        gloss: "lose interest; \"he retired from life when his wife died\""
+        angloform:
+          status: gap
+      - wordnet: "00799383"
+        gloss: "make a retreat from an earlier commitment or activity; \"We'll have to crawfish out from meeting with him\"; \"He backed out of his earlier promise\"; \"The aggressive investment company pulled in its horns\""
+        angloform:
+          status: gap
+      - wordnet: "00173338"
+        gloss: "remove something concrete, as by lifting, pushing, or taking off, or remove something abstract; \"remove a threat\"; \"remove a wrapper\"; \"Remove the dirty dishes from the table\"; \"take the gun from your pocket\"; \"This machine withdraws heat from the environment\""
+        angloform:
+          status: redirect
+          word: remove
+          category: VERB_TRANS

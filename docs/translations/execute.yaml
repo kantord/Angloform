@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02483267"
+        gloss: "kill as a means of socially sanctioned punishment; \"In some states, criminals are executed\""
+        angloform:
+          status: gap
+      - wordnet: "02484208"
+        gloss: "murder in a planned fashion; \"The Mafioso who collaborated with the police was executed\""
+        angloform:
+          status: gap
+      - wordnet: "01640855"
+        gloss: "put in effect; \"carry out a task\"; \"execute the decision of the people\"; \"He actioned the operation\""
+        angloform:
+          status: gap
+      - wordnet: "02563860"
+        gloss: "carry out the legalities of; \"execute a will or a deed\""
+        angloform:
+          status: gap
+      - wordnet: "02563327"
+        gloss: "carry out a process or program, as on a computer or a machine; \"Run the dishwasher\"; \"run a new program on the Mac\"; \"the computer executed the instruction\""
+        angloform:
+          status: gap
+      - wordnet: "01712704"
+        gloss: "carry out or perform an action; \"John did the painting, the weeding, and he cleaned out the gutters\"; \"the skater executed a triple pirouette\"; \"she did a little dance\""
+        angloform:
+          status: gap
+      - wordnet: "00997659"
+        gloss: "sign in the presence of witnesses; \"The President executed the treaty\""
+        angloform:
+          status: gap

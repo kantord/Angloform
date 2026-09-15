@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14539268"
+        gloss: "the state of being free from danger or injury; \"we support the armed services in the name of national security\""
+        angloform:
+          status: gap
+      - wordnet: "13344071"
+        gloss: "defense against financial failure; financial independence; \"his pension gave him security in his old age\"; \"insurance provided protection against loss of wages due to illness\""
+        angloform:
+          status: gap
+      - wordnet: "07526338"
+        gloss: "freedom from anxiety or fear; \"the watch dog gave her a feeling of security\""
+        angloform:
+          status: gap
+      - wordnet: "13416345"
+        gloss: "a formal declaration that documents a fact of relevance to finance and investment; the holder has a right to receive interest or dividends; \"he held several valuable securities\""
+        angloform:
+          status: gap
+      - wordnet: "13349395"
+        gloss: "property that your creditor can claim in case you default on your obligation; \"bankers are reluctant to lend without good security\""
+        angloform:
+          status: gap
+      - wordnet: "08120910"
+        gloss: "a department responsible for the security of the institution's property and workers; \"the head of security was a former policeman\""
+        angloform:
+          status: gap
+      - wordnet: "06685754"
+        gloss: a guarantee that an obligation will be met
+        angloform:
+          status: gap
+      - wordnet: "04165945"
+        gloss: an electrical device that sets off an alarm when someone tries to break in
+        angloform:
+          status: gap
+      - wordnet: "00823316"
+        gloss: "measures taken as a precaution against theft or espionage or sabotage etc.; \"military security has been stepped up since the recent uprising\""
+        angloform:
+          status: gap

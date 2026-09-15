@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08220534"
+        gloss: a formation of aircraft in flight
+        angloform:
+          status: gap
+      - wordnet: "00302394"
+        gloss: "an instance of traveling by air; \"flying was still an exciting adventure for him\""
+        angloform:
+          status: gap
+      - wordnet: "03363059"
+        gloss: a stairway (set of steps) between one floor or landing and the next
+        angloform:
+          status: gap
+      - wordnet: "00058743"
+        gloss: "the act of escaping physically; \"he made his escape from the mental hospital\"; \"the canary escaped from its cage\"; \"his flight was an indication of his guilt\""
+        angloform:
+          status: gap
+      - wordnet: "08220440"
+        gloss: an air force unit smaller than a squadron
+        angloform:
+          status: gap
+      - wordnet: "05625210"
+        gloss: "passing above and beyond ordinary bounds; \"a flight of fancy\"; \"flights of rhetoric\"; \"flights of imagination\""
+        angloform:
+          status: gap
+      - wordnet: "11481334"
+        gloss: the path followed by an object moving through space
+        angloform:
+          status: gap
+      - wordnet: "08220620"
+        gloss: a flock of flying birds
+        angloform:
+          status: gap
+      - wordnet: "00301192"
+        gloss: "a scheduled trip by plane between designated airports; \"I took the noon flight to Chicago\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02484771"
+        gloss: shoot a bird in flight
+        angloform:
+          status: gap
+      - wordnet: "01940868"
+        gloss: "fly in a flock; \"flighting wild geese\""
+        angloform:
+          status: gap
+      - wordnet: "01669792"
+        gloss: "decorate with feathers; \"fledge an arrow\""
+        angloform:
+          status: gap

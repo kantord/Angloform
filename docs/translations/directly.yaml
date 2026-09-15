@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00051848"
+        gloss: "without deviation; \"the path leads directly to the lake\"; \"went direct to the office\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00504281"
+        gloss: "without anyone or anything intervening; \"these two factors are directly related\"; \"he was directly responsible\"; \"measured the physical properties directly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00048739"
+        gloss: "without delay or hesitation; with no time intervening; \"he answered immediately\"; \"found an answer straightaway\"; \"an official accused of dishonesty should be suspended forthwith\"; \"Come here now!\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00058128"
+        gloss: "in a forthright manner; candidly or frankly; \"he didn't answer directly\"; \"told me straight out\"; \"came out flat for less work and more pay\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

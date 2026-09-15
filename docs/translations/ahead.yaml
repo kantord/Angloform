@@ -1,0 +1,45 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02490631"
+        gloss: "having the leading position or higher score in a contest; \"he is ahead by a pawn\"; \"the leading team in the pennant race\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00066781"
+        gloss: "at or in the front; \"I see the lights of a town ahead\"; \"the road ahead is foggy\"; \"staring straight ahead\"; \"we couldn't see over the heads of the people in front\"; \"with the cross of Jesus marching on before\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00075442"
+        gloss: "toward the future; forward in time; \"I like to look ahead in imagination to what the future may bring\"; \"I look forward to seeing you\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00067265"
+        gloss: "in a forward direction; \"go ahead\"; \"the train moved ahead slowly\"; \"the boat lurched ahead\"; \"moved onward into the forest\"; \"they went slowly forward in the mud\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00067045"
+        gloss: "ahead of time; in anticipation; \"when you pay ahead (or in advance) you receive a discount\"; \"We like to plan ahead\"; \"should have made reservations beforehand\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00068070"
+        gloss: "to a more advanced or advantageous position; \"a young man sure to get ahead\"; \"pushing talented students ahead\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00067823"
+        gloss: "to a different or a more advanced time (meaning advanced either toward the present or toward the future); \"moved the appointment ahead from Tuesday to Monday\"; \"pushed the deadline ahead from Tuesday to Wednesday\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00067513"
+        gloss: "leading or ahead in a competition; \"the horse was three lengths ahead going into the home stretch\"; \"ahead by two pawns\"; \"our candidate is in the lead in the polls\"; \"way out front in the race\"; \"the advertising campaign put them out front in sales\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

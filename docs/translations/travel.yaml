@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00295701"
+        gloss: "the act of going from one place to another; \"he enjoyed selling but he hated the travel\""
+        angloform:
+          status: gap
+      - wordnet: "07311115"
+        gloss: a movement through space that changes the location of something
+        angloform:
+          status: gap
+      - wordnet: "00283127"
+        gloss: self-propelled movement
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01835496"
+        gloss: "change location; move, travel, or proceed, also metaphorically; \"How fast does your new car go?\"; \"We travelled from Rome to Naples by bus\"; \"The policemen went from door to door looking for the suspect\"; \"The soldiers moved towards the city in an attempt to take it before night fell\"; \"news travelled fast\""
+        angloform:
+          status: redirect
+          word: move
+          category: VERB_TRANS
+      - wordnet: "01845720"
+        gloss: undertake a journey or trip
+        angloform:
+          status: gap
+      - wordnet: "01843055"
+        gloss: make a trip for pleasure
+        angloform:
+          status: gap
+      - wordnet: "01846916"
+        gloss: "travel upon or across; \"travel the oceans\""
+        angloform:
+          status: gap
+      - wordnet: "01841079"
+        gloss: "undergo transportation as in a vehicle; \"We travelled North on Rte. 508\""
+        angloform:
+          status: gap
+      - wordnet: "02102002"
+        gloss: travel from place to place, as for the purpose of finding work, preaching, or acting as a judge
+        angloform:
+          status: gap

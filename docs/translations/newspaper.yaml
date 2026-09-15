@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06267145"
+        gloss: "a daily or weekly publication on folded sheets; contains news and articles and advertisements; \"he read his newspaper at breakfast\""
+        angloform:
+          status: gap
+      - wordnet: "08062970"
+        gloss: "a business firm that publishes newspapers; \"Murdoch owns many newspapers\""
+        angloform:
+          status: gap
+      - wordnet: "03822171"
+        gloss: "the physical object that is the product of a newspaper publisher; \"when it began to rain he covered his head with a newspaper\""
+        angloform:
+          status: gap
+      - wordnet: "14961722"
+        gloss: "cheap paper made from wood pulp and used for printing newspapers; \"they used bales of newspaper every day\""
+        angloform:
+          status: gap

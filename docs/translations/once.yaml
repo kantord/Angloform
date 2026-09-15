@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00118869"
+        gloss: "on one occasion; \"once I ran into her\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00181342"
+        gloss: "as soon as; \"once we are home, we can rest\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00118965"
+        gloss: "at a previous time; \"at one time he loved her\"; \"her erstwhile writing\"; \"she was a dancer once\";"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

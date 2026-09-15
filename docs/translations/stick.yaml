@@ -1,0 +1,110 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04317420"
+        gloss: "an implement consisting of a length of wood; \"he collected dry sticks for a campfire\"; \"the kid had a candied apple on a stick\""
+        angloform:
+          status: gap
+      - wordnet: "13165646"
+        gloss: a small thin branch of a tree
+        angloform:
+          status: gap
+      - wordnet: "04317976"
+        gloss: a lever used by a pilot to control the ailerons and elevators of an airplane
+        angloform:
+          status: gap
+      - wordnet: "07848645"
+        gloss: a rectangular quarter pound block of butter or margarine
+        angloform:
+          status: gap
+      - wordnet: "05561707"
+        gloss: "informal terms for the leg; \"fever left him weak on his sticks\""
+        angloform:
+          status: gap
+      - wordnet: "04318131"
+        gloss: a long implement (usually made of wood) that is shaped so that hockey or polo players can hit a puck or ball
+        angloform:
+          status: gap
+      - wordnet: "04317833"
+        gloss: "a long thin implement resembling a length of wood; \"cinnamon sticks\"; \"a stick of dynamite\""
+        angloform:
+          status: gap
+      - wordnet: "03600806"
+        gloss: marijuana leaves rolled into a cigarette for smoking
+        angloform:
+          status: gap
+      - wordnet: "01162928"
+        gloss: "threat of a penalty; \"the policy so far is all stick and no carrot\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01528069"
+        gloss: "put, fix, force, or implant; \"lodge a bullet in the table\"; \"stick your thumb in the crack\""
+        angloform:
+          status: gap
+      - wordnet: "01857392"
+        gloss: "stay put (in a certain place); \"We are staying in Detroit; we are not moving to Cincinnati\"; \"Stay put in the corner here!\"; \"Stick around and you will learn something!\""
+        angloform:
+          status: redirect
+          word: stay
+          category: VERB_INTRANS
+      - wordnet: "01356750"
+        gloss: "stick to firmly; \"Will this wallpaper adhere to the wall?\""
+        angloform:
+          status: gap
+      - wordnet: "02754032"
+        gloss: "be or become fixed; \"The door sticks--we will have to plane it\""
+        angloform:
+          status: gap
+      - wordnet: "02647798"
+        gloss: "endure; \"The label stuck to her for the rest of her life\""
+        angloform:
+          status: gap
+      - wordnet: "02638845"
+        gloss: "be a devoted follower or supporter; \"The residents of this village adhered to Catholicism\"; \"She sticks to her principles\""
+        angloform:
+          status: gap
+      - wordnet: "02638630"
+        gloss: "be loyal to; \"She stood by her husband in times of trouble\"; \"The friends stuck together through the war\""
+        angloform:
+          status: gap
+      - wordnet: "01667969"
+        gloss: "cover and decorate with objects that pierce the surface; \"stick some feathers in the turkey before you serve it\""
+        angloform:
+          status: gap
+      - wordnet: "01614581"
+        gloss: "fasten with an adhesive material like glue; \"stick the poster onto the wall\""
+        angloform:
+          status: gap
+      - wordnet: "01614426"
+        gloss: "fasten with or as with pins or nails; \"stick the photo onto the corkboard\""
+        angloform:
+          status: gap
+      - wordnet: "01614235"
+        gloss: "fasten into place by fixing an end or point into something; \"stick the corner of the sheet under the mattress\""
+        angloform:
+          status: gap
+      - wordnet: "01441993"
+        gloss: "pierce with a thrust using a pointed instrument; \"he stuck the cloth with the needle\""
+        angloform:
+          status: gap
+      - wordnet: "01441793"
+        gloss: "pierce or penetrate or puncture with something pointed; \"He stuck the needle into his finger\""
+        angloform:
+          status: gap
+      - wordnet: "01220885"
+        gloss: "come or be in close contact with; stick or hold together and resist separation; \"The dress clings to her body\"; \"The label stuck to the box\"; \"The sushi rice grains cohere\""
+        angloform:
+          status: gap
+      - wordnet: "00748084"
+        gloss: "saddle with something disagreeable or disadvantageous; \"They stuck me with the dinner bill\"; \"I was stung with a huge tax bill\""
+        angloform:
+          status: gap
+      - wordnet: "00622384"
+        gloss: "be a mystery or bewildering to; \"This beats me!\"; \"Got me--I don't know the answer!\"; \"a vexing problem\"; \"This question really stuck me\""
+        angloform:
+          status: redirect
+          word: beat
+          category: VERB_TRANS

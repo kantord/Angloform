@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09444100"
+        gloss: (astronomy) a celestial body of hot gases that radiates energy derived from thermonuclear reactions in the interior
+        angloform:
+          status: gap
+      - wordnet: "09762509"
+        gloss: someone who is dazzlingly skilled in any field
+        angloform:
+          status: gap
+      - wordnet: "09444783"
+        gloss: any celestial body visible (as a point of light) from the Earth at night
+        angloform:
+          status: gap
+      - wordnet: "10648696"
+        gloss: an actor who plays a principal role
+        angloform:
+          status: gap
+      - wordnet: "13881644"
+        gloss: a plane figure with 5 or more points; often used as an emblem
+        angloform:
+          status: gap
+      - wordnet: "10163723"
+        gloss: a performer who receives prominent billing
+        angloform:
+          status: gap
+      - wordnet: "06828389"
+        gloss: "a star-shaped character * used in printing"
+        angloform:
+          status: gap
+      - wordnet: "05730930"
+        gloss: the topology of a network whose components are connected to a hub
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02631349"
+        gloss: "feature as the star; \"The movie stars Dustin Hoffman as an autistic man\""
+        angloform:
+          status: gap
+      - wordnet: "01720980"
+        gloss: be the star in a performance
+        angloform:
+          status: gap
+      - wordnet: "00510869"
+        gloss: "mark with an asterisk; \"Linguists star unacceptable sentences\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01472790"
+        gloss: "indicating the most important performer or role; \"the leading man\"; \"prima ballerina\"; \"prima donna\"; \"a star figure skater\"; \"the starring role\"; \"a stellar role\"; \"a stellar performance\""
+        angloform:
+          status: gap

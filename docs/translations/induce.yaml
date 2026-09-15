@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01644050"
+        gloss: "cause to arise; \"induce a crisis\""
+        angloform:
+          status: gap
+      - wordnet: "00770437"
+        gloss: "cause to do; cause to act in a specified manner; \"The ads induced me to buy a VCR\"; \"My children finally got me to buy a computer\"; \"My wife made me buy a new sofa\""
+        angloform:
+          status: redirect
+          word: have
+          category: VERB_TRANS
+      - wordnet: "01644522"
+        gloss: "cause to occur rapidly; \"the infection precipitated a high fever and allergic reactions\""
+        angloform:
+          status: gap
+      - wordnet: "00636441"
+        gloss: reason or establish by induction
+        angloform:
+          status: gap
+      - wordnet: "01737417"
+        gloss: produce electric current by electrostatic or magnetic processes
+        angloform:
+          status: gap

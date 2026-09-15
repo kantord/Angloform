@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00072897"
+        gloss: urinate, of cattle and horses
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01068726"
+        gloss: "lacking freshness, palatability, or showing deterioration from age; \"stale bread\"; \"the beer was stale\""
+        angloform:
+          status: gap
+      - wordnet: "01689580"
+        gloss: "lacking originality or spontaneity; no longer new; \"moth-eaten theories about race\"; \"stale news\""
+        angloform:
+          status: gap

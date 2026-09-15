@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00545746"
+        gloss: "marked by blithe unconcern; \"an ability to interest casual students\"; \"showed a casual disregard for cold weather\"; \"an utterly insouciant financial policy\"; \"an elegantly insouciant manner\"; \"drove his car with nonchalant abandon\"; \"was polite in a teasing nonchalant manner\""
+        angloform:
+          status: gap
+      - wordnet: "01798484"
+        gloss: "without or seeming to be without plan or method; offhand; \"a casual remark\"; \"information collected by casual methods and in their spare time\""
+        angloform:
+          status: gap
+      - wordnet: "01044557"
+        gloss: "appropriate for ordinary or routine occasions; \"casual clothes\"; \"everyday clothes\""
+        angloform:
+          status: gap
+      - wordnet: "01798162"
+        gloss: "occurring or appearing or singled out by chance; \"seek help from casual passers-by\"; \"a casual meeting\"; \"a chance occurrence\""
+        angloform:
+          status: gap
+      - wordnet: "00312234"
+        gloss: "hasty and without attention to detail; not thorough; \"a casual (or cursory) inspection failed to reveal the house's structural flaws\"; \"a passing glance\"; \"perfunctory courtesy\""
+        angloform:
+          status: gap
+      - wordnet: "01961205"
+        gloss: "occurring from time to time; \"casual employment\"; \"a casual correspondence with a former teacher\"; \"an occasional worker\""
+        angloform:
+          status: gap
+      - wordnet: "01190484"
+        gloss: "characterized by a feeling of irresponsibility; \"a broken back is nothing to be casual about; it is no fooling matter\""
+        angloform:
+          status: gap
+      - wordnet: "01044730"
+        gloss: "natural and unstudied; \"using their Christian names in a casual way\"; \"lectured in a free-and-easy style\""
+        angloform:
+          status: gap
+      - wordnet: "00749749"
+        gloss: "not showing effort or strain; \"a difficult feat performed with casual mastery\"; \"careless grace\""
+        angloform:
+          status: redirect
+          word: effortless
+          category: ADJ

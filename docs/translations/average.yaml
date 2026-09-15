@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06021761"
+        gloss: "a statistic describing the location of a distribution; \"it set the norm for American homes\""
+        angloform:
+          status: gap
+      - wordnet: "13820655"
+        gloss: (sports) the ratio of successful performances to opportunities
+        angloform:
+          status: gap
+      - wordnet: "05856979"
+        gloss: "an intermediate scale value regarded as normal or usual; \"he is about average in height\"; \"the snowfall this month is below average\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02645389"
+        gloss: "amount to or come to an average, without loss or gain; \"The number of hours I work per work averages out to 40\""
+        angloform:
+          status: gap
+      - wordnet: "02527294"
+        gloss: "achieve or reach on average; \"He averaged a C\""
+        angloform:
+          status: gap
+      - wordnet: "00639998"
+        gloss: compute the average of
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01594146"
+        gloss: "approximating the statistical norm or average or expected value; \"the average income in New England is below that of the nation\"; \"of average height for his age\"; \"the mean annual rainfall\""
+        angloform:
+          status: gap
+      - wordnet: "00486290"
+        gloss: "lacking special distinction, rank, or status; commonly encountered; \"average people\"; \"the ordinary (or common) man in the street\""
+        angloform:
+          status: redirect
+          word: ordinary
+          category: ADJ
+      - wordnet: "01673061"
+        gloss: "lacking exceptional quality or ability; \"a novel of average merit\"; \"only a fair performance of the sonata\"; \"in fair health\"; \"the caliber of the students has gone from mediocre to above average\"; \"the performance was middling at best\""
+        angloform:
+          status: gap
+      - wordnet: "01531957"
+        gloss: "around the middle of a scale of evaluation; \"an orange of average size\"; \"intermediate capacity\"; \"medium bombers\""
+        angloform:
+          status: gap
+      - wordnet: "01594811"
+        gloss: "relating to or constituting the most frequent value in a distribution; \"the modal age at which American novelists reach their peak is 30\""
+        angloform:
+          status: gap
+      - wordnet: "01594472"
+        gloss: "relating to or constituting the middle value of an ordered set of values (or the average of the middle two in a set with an even number of values); \"the median value of 17, 20, and 36 is 20\"; \"the median income for the year was $15,000\""
+        angloform:
+          status: gap

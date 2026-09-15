@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02347564"
+        gloss: "moderate to inferior in quality; \"they improved the quality from mediocre to above average\""
+        angloform:
+          status: gap
+      - wordnet: "01673061"
+        gloss: "lacking exceptional quality or ability; \"a novel of average merit\"; \"only a fair performance of the sonata\"; \"in fair health\"; \"the caliber of the students has gone from mediocre to above average\"; \"the performance was middling at best\""
+        angloform:
+          status: gap
+      - wordnet: "01128253"
+        gloss: "poor to middling in quality; \"there have been good and mediocre and bad artists\""
+        angloform:
+          status: gap

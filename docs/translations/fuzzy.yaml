@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00214165"
+        gloss: "covering with fine light hairs; \"his head fuzzed like a dandelion gone to seed\""
+        angloform:
+          status: gap
+      - wordnet: "00781644"
+        gloss: "indistinct or hazy in outline; \"a landscape of blurred outlines\"; \"the trees were just blurry shapes\""
+        angloform:
+          status: gap
+      - wordnet: "00465585"
+        gloss: "confused and not coherent; not clearly thought out; \"a vague and fuzzy idea of the world of finance\""
+        angloform:
+          status: gap

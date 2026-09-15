@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00331950"
+        gloss: "a change of position that does not entail a change of location; \"the reflex motion of his eyebrows revealed his surprise\"; \"movement is a sign of life\"; \"an impatient move of his hand\"; \"gastrointestinal motility\""
+        angloform:
+          status: gap
+      - wordnet: "00279835"
+        gloss: "the act of changing location from one place to another; \"police controlled the motion of the crowd\"; \"the movement of people from the farms to the cities\"; \"his move put him directly in my path\""
+        angloform:
+          status: gap
+      - wordnet: "07309781"
+        gloss: a natural event that involves a change in the position or location of something
+        angloform:
+          status: gap
+      - wordnet: "08464601"
+        gloss: "a group of people with a common ideology who try together to achieve certain general goals; \"he was a charter member of the movement\"; \"politicians have to respect a mass movement\"; \"he led the national liberation front\""
+        angloform:
+          status: redirect
+          word: front
+          category: NOUN
+      - wordnet: "07046339"
+        gloss: "a major self-contained part of a symphony or sonata; \"the second movement is slow and melodic\""
+        angloform:
+          status: gap
+      - wordnet: "00798245"
+        gloss: "a series of actions advancing a principle or tending toward a particular end; \"he supported populist campaigns\"; \"they worked in the cause of world peace\"; \"the team was ready for a drive toward the pennant\"; \"the movement to end slavery\"; \"contributed to the war effort\""
+        angloform:
+          status: gap
+      - wordnet: "11425088"
+        gloss: "an optical illusion of motion produced by viewing a rapid succession of still pictures of a moving object; \"the cinema relies on apparent motion\"; \"the succession of flashing lights gave an illusion of movement\""
+        angloform:
+          status: gap
+      - wordnet: "13441387"
+        gloss: "a euphemism for defecation; \"he had a bowel movement\""
+        angloform:
+          status: gap
+      - wordnet: "06197664"
+        gloss: "a general tendency to change (as of opinion); \"not openly liberal but that is the trend of the book\"; \"a broad movement of the electorate to the right\""
+        angloform:
+          status: gap
+      - wordnet: "03795758"
+        gloss: "the driving and regulating parts of a mechanism (as of a watch or clock); \"it was an expensive watch with a diamond movement\""
+        angloform:
+          status: gap
+      - wordnet: "00280586"
+        gloss: "the act of changing the location of something; \"the movement of cargo onto the vessel\""
+        angloform:
+          status: gap

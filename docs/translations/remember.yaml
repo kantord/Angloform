@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00607780"
+        gloss: "recall knowledge from memory; have a recollection; \"I can't remember saying any such thing\"; \"I can't think what her last name was\"; \"can you remember her phone number?\"; \"Do you remember that he once loved you?\"; \"call up memories\""
+        angloform:
+          status: gap
+      - wordnet: "00609683"
+        gloss: "keep in mind for attention or consideration; \"Remember the Alamo\"; \"Remember to call your mother every day!\"; \"Think of the starving children in India!\""
+        angloform:
+          status: gap
+      - wordnet: "00611256"
+        gloss: "recapture the past; indulge in memories; \"he remembered how he used to pick flowers\""
+        angloform:
+          status: gap
+      - wordnet: "02356567"
+        gloss: "show appreciation to; \"He remembered her in his will\""
+        angloform:
+          status: gap
+      - wordnet: "00882802"
+        gloss: "mention favorably, as in prayer; \"remember me in your prayers\""
+        angloform:
+          status: gap
+      - wordnet: "00882523"
+        gloss: "mention as by way of greeting or to indicate friendship; \"Remember me to your wife\""
+        angloform:
+          status: gap
+      - wordnet: "00611802"
+        gloss: "exercise, or have the power of, memory; \"After the shelling, many people lost the ability to remember\"; \"some remember better than others\""
+        angloform:
+          status: gap
+      - wordnet: "00611481"
+        gloss: "call to remembrance; keep alive the memory of someone or something, as in a ceremony; \"We remembered the 50th anniversary of the liberation of Auschwitz\"; \"Remember the dead of the First World War\""
+        angloform:
+          status: gap

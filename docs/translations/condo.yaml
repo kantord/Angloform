@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03088580"
+        gloss: one of the dwelling units in a condominium
+        angloform:
+          status: gap

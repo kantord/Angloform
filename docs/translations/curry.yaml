@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07823951"
+        gloss: (East Indian cookery) a pungent dish of vegetables or meats flavored with curry powder and usually eaten with rice
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02192225"
+        gloss: season with a mixture of spices; typical of Indian cooking
+        angloform:
+          status: gap
+      - wordnet: "00516294"
+        gloss: "treat by incorporating fat; \"curry tanned leather\""
+        angloform:
+          status: gap
+      - wordnet: "00045639"
+        gloss: "give a neat appearance to; \"groom the dogs\"; \"dress the horses\""
+        angloform:
+          status: gap

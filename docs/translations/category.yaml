@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07997703"
+        gloss: "a collection of things sharing a common attribute; \"there are two classes of detergents\""
+        angloform:
+          status: redirect
+          word: class
+          category: NOUN
+      - wordnet: "05838765"
+        gloss: a general concept that marks divisions or coordinations in a conceptual scheme
+        angloform:
+          status: gap

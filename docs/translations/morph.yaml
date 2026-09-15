@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00469187"
+        gloss: "cause to change shape in a computer animation; \"The computer programmer morphed the image\""
+        angloform:
+          status: gap
+      - wordnet: "00469030"
+        gloss: "change shape as via computer animation; \"In the video, Michael Jackson morphed into a panther\""
+        angloform:
+          status: gap

@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05254795"
+        gloss: "a covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss; \"he combed his hair\"; \"each hair consists of layers of dead keratinized cells\""
+        angloform:
+          status: gap
+      - wordnet: "13761603"
+        gloss: "a very small distance or space; \"they escaped by a hair's-breadth\"; \"they lost the election by a whisker\""
+        angloform:
+          status: gap
+      - wordnet: "13090091"
+        gloss: "filamentous hairlike growth on a plant; \"peach fuzz\""
+        angloform:
+          status: gap
+      - wordnet: "05254393"
+        gloss: "any of the cylindrical filaments characteristically growing from the epidermis of a mammal; \"there is a hair in my soup\""
+        angloform:
+          status: gap
+      - wordnet: "03475674"
+        gloss: cloth woven from horsehair or camelhair; used for upholstery or stiffening in garments
+        angloform:
+          status: gap
+      - wordnet: "01900150"
+        gloss: a filamentous projection or process on an organism
+        angloform:
+          status: gap

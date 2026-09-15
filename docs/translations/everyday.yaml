@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01674242"
+        gloss: "found in the ordinary course of events; \"a placid everyday scene\"; \"it was a routine day\"; \"there's nothing quite like a real...train conductor to add color to a quotidian commute\"- Anita Diamant"
+        angloform:
+          status: gap
+      - wordnet: "01044557"
+        gloss: "appropriate for ordinary or routine occasions; \"casual clothes\"; \"everyday clothes\""
+        angloform:
+          status: gap
+      - wordnet: "00970947"
+        gloss: "commonplace and ordinary; \"the familiar everyday world\""
+        angloform:
+          status: gap

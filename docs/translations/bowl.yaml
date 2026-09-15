@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02881193"
+        gloss: a round vessel that is open at the top; used chiefly for holding food or liquids;
+        angloform:
+          status: gap
+      - wordnet: "13893694"
+        gloss: a concave shape with an open top
+        angloform:
+          status: gap
+      - wordnet: "02880940"
+        gloss: a dish that is round and open at the top for serving foods
+        angloform:
+          status: gap
+      - wordnet: "13765531"
+        gloss: the quantity contained in a bowl
+        angloform:
+          status: gap
+      - wordnet: "04295881"
+        gloss: a large structure for open-air sports or entertainments
+        angloform:
+          status: redirect
+          word: stadium
+          category: NOUN
+      - wordnet: "02882301"
+        gloss: a large ball with finger holes used in the sport of bowling
+        angloform:
+          status: gap
+      - wordnet: "02881546"
+        gloss: a wooden ball (with flattened sides so that it rolls on a curved course) used in the game of lawn bowling
+        angloform:
+          status: gap
+      - wordnet: "02881397"
+        gloss: a small round container that is open at the top for holding tobacco
+        angloform:
+          status: gap
+      - wordnet: "00104409"
+        gloss: the act of rolling something (as the ball in bowling)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01887324"
+        gloss: roll (a ball)
+        angloform:
+          status: gap
+      - wordnet: "01616738"
+        gloss: hurl a cricket ball from one end of the pitch towards the batsman at the other end
+        angloform:
+          status: gap
+      - wordnet: "01146507"
+        gloss: "engage in the sport of bowling; \"My parents like to bowl on Friday nights\""
+        angloform:
+          status: gap

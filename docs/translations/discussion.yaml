@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07138085"
+        gloss: "an extended communication (often interactive) dealing with some particular topic; \"the book contains an excellent discussion of modal logic\"; \"his treatment of the race question is badly biased\""
+        angloform:
+          status: redirect
+          word: discourse
+          category: NOUN
+      - wordnet: "07140659"
+        gloss: "an exchange of views on some topic; \"we had a good discussion\"; \"we had a word or two about it\""
+        angloform:
+          status: redirect
+          word: word
+          category: NOUN

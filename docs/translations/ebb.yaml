@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13470491"
+        gloss: a gradual decline (in size or strength or power or number)
+        angloform:
+          status: gap
+      - wordnet: "07402147"
+        gloss: the outward flow of the tide
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01903935"
+        gloss: "flow back or recede; \"the tides ebbed at noon\""
+        angloform:
+          status: gap
+      - wordnet: "01127638"
+        gloss: hem in fish with stakes and nets so as to prevent them from going back into the sea with the ebb
+        angloform:
+          status: gap
+      - wordnet: "00570907"
+        gloss: "fall away or decline; \"The patient's strength ebbed away\""
+        angloform:
+          status: gap

@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06839190"
+        gloss: "a blank character used to separate successive words in writing or printing; \"he said the space is the most important character in the alphabet\""
+        angloform:
+          status: gap
+      - wordnet: "03632189"
+        gloss: a blank gap or missing part
+        angloform:
+          status: gap
+      - wordnet: "02849051"
+        gloss: a piece of material ready to be made into something
+        angloform:
+          status: gap
+      - wordnet: "02848921"
+        gloss: a cartridge containing an explosive charge but no bullet
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02451261"
+        gloss: keep the opposing (baseball) team from winning
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01087093"
+        gloss: "(of a surface) not written or printed on; \"blank pages\"; \"fill in the blank spaces\"; \"a clean page\"; \"wide white margins\""
+        angloform:
+          status: gap
+      - wordnet: "00500889"
+        gloss: "void of expression; \"a blank stare\""
+        angloform:
+          status: gap
+      - wordnet: "01425056"
+        gloss: "not charged with a bullet; \"a blank cartridge\""
+        angloform:
+          status: gap

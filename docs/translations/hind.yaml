@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02569484"
+        gloss: any of several mostly spotted fishes that resemble groupers
+        angloform:
+          status: gap
+      - wordnet: "02431441"
+        gloss: a female deer, especially an adult female red deer
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00131692"
+        gloss: "located at or near the back of an animal; \"back (or hind) legs\"; \"the hinder part of a carcass\""
+        angloform:
+          status: gap

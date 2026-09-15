@@ -1,0 +1,41 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05597980"
+        gloss: any area of the body that is highly sensitive to pain (as the flesh underneath the skin or a fingernail or toenail)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00979366"
+        gloss: "accomplished rapidly and without delay; \"was quick to make friends\"; \"his quick reaction prevented an accident\"; \"hoped for a speedy resolution of the problem\"; \"a speedy recovery\"; \"he has a right to a speedy trial\""
+        angloform:
+          status: gap
+      - wordnet: "01270486"
+        gloss: "hurried and brief; \"paid a flying visit\"; \"took a flying glance at the book\"; \"a quick inspection\"; \"a fast visit\""
+        angloform:
+          status: gap
+      - wordnet: "00032733"
+        gloss: "moving quickly and lightly; \"sleek and agile as a gymnast\"; \"as nimble as a deer\"; \"nimble fingers\"; \"quick of foot\"; \"the old dog was so spry it was halfway up the stairs before we could stop it\""
+        angloform:
+          status: gap
+      - wordnet: "01335903"
+        gloss: "apprehending and responding with speed and sensitivity; \"a quick mind\"; \"a ready wit\""
+        angloform:
+          status: gap
+      - wordnet: "00978754"
+        gloss: "performed with little or no delay; \"an immediate reply to my letter\"; \"a prompt reply\"; \"was quick to respond\"; \"a straightaway denial\""
+        angloform:
+          status: gap
+      - wordnet: "00919018"
+        gloss: "easily aroused or excited; \"a quick temper\"; \"a warm temper\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00105603"
+        gloss: "with little or no delay; \"the rescue squad arrived promptly\"; \"come here, quick!\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07950418"
+        gloss: "people who are sick; \"they devote their lives to caring for the sick\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00076400"
+        gloss: "eject the contents of the stomach through the mouth; \"After drinking too much, the students vomited\"; \"He purged continuously\"; \"The patient regurgitated the food we gave him last night\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02541302"
+        gloss: "affected by an impairment of normal physical or mental function; \"ill from the monotony of his suffering\""
+        angloform:
+          status: gap
+      - wordnet: "02545689"
+        gloss: feeling nausea; feeling about to vomit
+        angloform:
+          status: gap
+      - wordnet: "02075321"
+        gloss: "affected with madness or insanity; \"a man who had gone mad\""
+        angloform:
+          status: gap
+      - wordnet: "01806677"
+        gloss: "having a strong distaste from surfeit; \"grew more and more disgusted\"; \"fed up with their complaints\"; \"sick of it all\"; \"sick to death of flattery\"; \"gossip that makes one sick\"; \"tired of the noise and smoke\""
+        angloform:
+          status: gap
+      - wordnet: "02325984"
+        gloss: "(of light) lacking in intensity or brightness; dim or feeble; \"the pale light of a half moon\"; \"a pale sun\"; \"the late afternoon light coming through the el tracks fell in pale oblongs on the street\"; \"a pallid sky\"; \"the pale (or wan) stars\"; \"the wan light of dawn\""
+        angloform:
+          status: gap
+      - wordnet: "01560165"
+        gloss: "deeply affected by a strong feeling; \"sat completely still, sick with envy\"; \"she was sick with longing\""
+        angloform:
+          status: gap
+      - wordnet: "00195684"
+        gloss: "shockingly repellent; inspiring horror; \"ghastly wounds\"; \"the grim aftermath of the bombing\"; \"the grim task of burying the victims\"; \"a grisly murder\"; \"gruesome evidence of human sacrifice\"; \"macabre tales of war and plague in the Middle ages\"; \"macabre tortures conceived by madmen\""
+        angloform:
+          status: gap

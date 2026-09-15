@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03592245"
+        gloss: a correctional institution used to detain persons who are in the lawful custody of the government (either accused persons awaiting trial or convicted persons serving a sentence)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02494356"
+        gloss: "lock up or confine, in or as in a jail; \"The suspects were imprisoned without trial\"; \"the murderer was incarcerated for the rest of his life\""
+        angloform:
+          status: gap

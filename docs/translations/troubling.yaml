@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01189386"
+        gloss: "causing distress or worry or anxiety; \"distressing (or disturbing) news\"; \"lived in heroic if something distressful isolation\"; \"a disturbing amount of crime\"; \"a revelation that was most perturbing\"; \"a new and troubling thought\"; \"in a particularly worrisome predicament\"; \"a worrying situation\"; \"a worrying time\""
+        angloform:
+          status: gap

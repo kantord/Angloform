@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07408965"
+        gloss: the backward escape of gases and unburned gunpowder after a gun is fired
+        angloform:
+          status: gap
+      - wordnet: "07408621"
+        gloss: a loud noise made by the explosion of fuel in the manifold or exhaust of an internal combustion engine
+        angloform:
+          status: gap
+      - wordnet: "07303153"
+        gloss: a fire that is set intentionally in order to slow an approaching forest fire or grassfire by clearing a burned area in its path
+        angloform:
+          status: gap
+      - wordnet: "00073032"
+        gloss: a miscalculation that recoils on its maker
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02378950"
+        gloss: "come back to the originator of an action with an undesired effect; \"Your comments may backfire and cause you a lot of trouble\""
+        angloform:
+          status: gap
+      - wordnet: "02173663"
+        gloss: "emit a loud noise as a result of undergoing a backfire; \"My old car backfires all the time\""
+        angloform:
+          status: gap
+      - wordnet: "00379023"
+        gloss: set a controlled fire to halt an advancing forest to prairie fire
+        angloform:
+          status: gap

@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01182654"
+        gloss: "a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy; \"the family brought suit against the landlord\""
+        angloform:
+          status: redirect
+          word: case
+          category: NOUN

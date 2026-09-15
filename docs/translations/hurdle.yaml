@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03549589"
+        gloss: a light movable barrier that competitors must leap over in certain races
+        angloform:
+          status: gap
+      - wordnet: "05691241"
+        gloss: "an obstacle that you are expected to overcome; \"the last hurdle before graduation\""
+        angloform:
+          status: gap
+      - wordnet: "00120515"
+        gloss: the act of jumping over an obstacle
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01967205"
+        gloss: jump a hurdle
+        angloform:
+          status: gap

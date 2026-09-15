@@ -1,0 +1,63 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03116530"
+        gloss: table consisting of a horizontal surface over which business is transacted
+        angloform:
+          status: gap
+      - wordnet: "03117199"
+        gloss: game equipment (as a piece of wood, plastic, or ivory) used for keeping a count or reserving a space in various card or board games
+        angloform:
+          status: gap
+      - wordnet: "03116767"
+        gloss: a calculator that keeps a record of the number of times something happens
+        angloform:
+          status: gap
+      - wordnet: "02912065"
+        gloss: a piece of furniture that stands at the side of a dining room; has shelves and drawers
+        angloform:
+          status: gap
+      - wordnet: "09969491"
+        gloss: a person who counts things
+        angloform:
+          status: gap
+      - wordnet: "07199922"
+        gloss: "a quick reply to a question or remark (especially a witty or critical one); \"it brought a sharp rejoinder from the teacher\""
+        angloform:
+          status: gap
+      - wordnet: "03117420"
+        gloss: (computer science) a register whose contents go through a regular series of states (usually states indicating consecutive integers)
+        angloform:
+          status: gap
+      - wordnet: "03116942"
+        gloss: "a piece of leather forming the back of a shoe or boot; \"a counter may be used to stiffen the material around the heel and to give support to the foot\""
+        angloform:
+          status: gap
+      - wordnet: "00135504"
+        gloss: a return punch (especially by a boxer)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00815379"
+        gloss: "speak in response; \"He countered with some very persuasive arguments\""
+        angloform:
+          status: gap
+      - wordnet: "02565491"
+        gloss: act in advance of; deal with ahead of time
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01818680"
+        gloss: indicating opposition or resistance
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00293253"
+        gloss: "in the opposite direction; \"run counter\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

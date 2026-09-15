@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04728786"
+        gloss: the quality of excelling; possessing good qualities in high degree
+        angloform:
+          status: gap
+      - wordnet: "05851744"
+        gloss: "an outstanding feature; something in which something or someone excels; \"a center of manufacturing excellence\"; \"the use of herbs is one of the excellencies of French cuisine\""
+        angloform:
+          status: gap

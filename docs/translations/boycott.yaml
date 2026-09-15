@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00206130"
+        gloss: "a group's refusal to have commercial dealings with some organization in protest against its policies"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02465494"
+        gloss: refuse to sponsor; refuse to do business with
+        angloform:
+          status: gap

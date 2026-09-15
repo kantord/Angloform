@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06695227"
+        gloss: a remark (or act) expressing praise and admiration
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00881661"
+        gloss: "say something to someone that expresses praise; \"He complimented her on her last physics paper\""
+        angloform:
+          status: gap
+      - wordnet: "00881901"
+        gloss: express respect or esteem for
+        angloform:
+          status: gap

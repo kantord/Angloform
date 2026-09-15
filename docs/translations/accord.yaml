@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13971065"
+        gloss: "harmony of people's opinions or actions or characters; \"the two parties were in agreement\""
+        angloform:
+          status: gap
+      - wordnet: "07176804"
+        gloss: "concurrence of opinion; \"we are in accord with your proposal\""
+        angloform:
+          status: gap
+      - wordnet: "06773434"
+        gloss: a written agreement between two states or sovereigns
+        angloform:
+          status: gap
+      - wordnet: "04713332"
+        gloss: sympathetic compatibility
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02700104"
+        gloss: "go together; \"The colors don't harmonize\"; \"Their ideas concorded\""
+        angloform:
+          status: gap
+      - wordnet: "02255268"
+        gloss: "allow to have; \"grant a privilege\""
+        angloform:
+          status: gap

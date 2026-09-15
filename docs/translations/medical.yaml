@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00142361"
+        gloss: a thorough physical examination; includes a variety of tests depending on the age and sex and health of the person
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02760116"
+        gloss: "relating to the study or practice of medicine; \"the medical profession\"; \"a medical student\"; \"medical school\""
+        angloform:
+          status: gap
+      - wordnet: "01168988"
+        gloss: "requiring or amenable to treatment by medicine especially as opposed to surgery; \"medical treatment\"; \"pneumonia is a medical disease\""
+        angloform:
+          status: gap
+      - wordnet: "02607455"
+        gloss: of or belonging to Aesculapius or the healing art
+        angloform:
+          status: gap

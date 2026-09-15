@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00641460"
+        gloss: "exhibiting courtesy and politeness; \"a nice gesture\""
+        angloform:
+          status: gap
+      - wordnet: "00639842"
+        gloss: "characterized by courtesy and gracious good manners; \"if a man be gracious and courteous to strangers it shows he is a citizen of the world\"-Francis Bacon"
+        angloform:
+          status: gap

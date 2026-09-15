@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10771990"
+        gloss: a person who is regarded as treacherous or sneaky
+        angloform:
+          status: gap
+      - wordnet: "02441942"
+        gloss: small carnivorous mammal with short legs and elongated body and neck
+        angloform:
+          status: gap

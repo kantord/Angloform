@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05176188"
+        gloss: the right to enter
+        angloform:
+          status: gap
+      - wordnet: "05175467"
+        gloss: the right to obtain or make use of or take advantage of something (as services or membership)
+        angloform:
+          status: gap
+      - wordnet: "02671062"
+        gloss: "a way of entering or leaving; \"he took a wrong turn on the access to the bridge\""
+        angloform:
+          status: gap
+      - wordnet: "06354204"
+        gloss: a code (a series of characters or digits) that must be entered in some way (typed or dialed or spoken) to get the use of something (a telephone line or a computer or a local area network etc.)
+        angloform:
+          status: gap
+      - wordnet: "02671224"
+        gloss: (computer science) the operation of reading or writing stored information
+        angloform:
+          status: gap
+      - wordnet: "00281132"
+        gloss: "the act of approaching or entering; \"he gained access to the building\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02248808"
+        gloss: obtain or retrieve from a storage device; as of information on a computer
+        angloform:
+          status: gap
+      - wordnet: "02007417"
+        gloss: "reach or gain access to; \"How does one access the attic in this house?\"; \"I cannot get to the T.V. antenna, even if I climb on the roof\""
+        angloform:
+          status: gap

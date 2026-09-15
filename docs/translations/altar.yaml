@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02699629"
+        gloss: the table in Christian churches where communion is given
+        angloform:
+          status: gap
+      - wordnet: "02699494"
+        gloss: a raised structure on which gifts or sacrifices to a god are made
+        angloform:
+          status: gap

@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07050177"
+        gloss: the part of a song where a soloist is joined by a group of singers
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02725714"
+        gloss: "resist doing something; \"He refrained from hitting him back\"; \"she could not forbear weeping\""
+        angloform:
+          status: gap
+      - wordnet: "01196037"
+        gloss: "choose not to consume; \"I abstain from alcohol\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10254392"
+        gloss: someone who lends money or gives credit in business matters
+        angloform:
+          status: gap

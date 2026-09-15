@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00281462"
+        gloss: "approaching a particular destination; a coming closer; a narrowing of a gap; \"the ship's rapid rate of closing gave them little time to avoid a collision\""
+        angloform:
+          status: gap
+      - wordnet: "06666829"
+        gloss: a rule for limiting or ending debate in a deliberative body
+        angloform:
+          status: gap
+      - wordnet: "06249421"
+        gloss: a Gestalt principle of organization holding that there is an innate tendency to perceive incomplete objects as complete and to close or fill gaps and to perceive asymmetric stimuli as symmetric
+        angloform:
+          status: gap
+      - wordnet: "05789089"
+        gloss: "something settled or resolved; the outcome of decision making; \"they finally reached a settlement with the union\"; \"they never did achieve a final resolution of their differences\"; \"he needed to grieve before he could achieve a sense of closure\""
+        angloform:
+          status: redirect
+          word: resolution
+          category: NOUN
+      - wordnet: "02853449"
+        gloss: "an obstruction in a pipe or tube; \"we had to call a plumber to clear out the blockage in the drainpipe\""
+        angloform:
+          status: gap
+      - wordnet: "01074694"
+        gloss: the act of blocking
+        angloform:
+          status: gap
+      - wordnet: "00229260"
+        gloss: "termination of operations; \"they regretted the closure of the day care center\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00527034"
+        gloss: "terminate debate by calling for a vote; \"debate was closured\"; \"cloture the discussion\""
+        angloform:
+          status: gap

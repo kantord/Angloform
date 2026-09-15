@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14959939"
+        gloss: plant fiber used e.g. for making baskets and hats or as fodder
+        angloform:
+          status: gap
+      - wordnet: "14805899"
+        gloss: material consisting of seed coverings and small pieces of stem or leaves that have been separated from the seeds
+        angloform:
+          status: gap
+      - wordnet: "04966941"
+        gloss: a variable yellow tint; dull yellow, often diluted with white
+        angloform:
+          status: gap
+      - wordnet: "04334232"
+        gloss: a thin paper or plastic tube used to suck liquids into the mouth
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01608340"
+        gloss: "cover or provide with or as if with straw; \"cows were strawed to weather the snowstorm\""
+        angloform:
+          status: gap
+      - wordnet: "01378123"
+        gloss: "spread by scattering (\"straw\" is archaic); \"strew toys all over the carpet\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00384292"
+        gloss: of a pale yellow color like straw; straw-colored
+        angloform:
+          status: gap

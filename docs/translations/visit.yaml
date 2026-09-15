@@ -1,0 +1,60 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01233156"
+        gloss: "the act of going to see some person or place or thing for a short time; \"he dropped by for a visit\""
+        angloform:
+          status: gap
+      - wordnet: "08385280"
+        gloss: "a meeting arranged by the visitor to see someone (such as a doctor or lawyer) for treatment or advice; \"he scheduled a visit to the dentist\""
+        angloform:
+          status: gap
+      - wordnet: "01232842"
+        gloss: the act of visiting in an official capacity (as for an inspection)
+        angloform:
+          status: gap
+      - wordnet: "01232684"
+        gloss: "the act of going to see some person in a professional capacity; \"a visit to the dentist\""
+        angloform:
+          status: gap
+      - wordnet: "01055360"
+        gloss: a temporary stay (e.g., as a guest)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02493030"
+        gloss: "go to see a place, as for entertainment; \"We went to see the Eiffel Tower in the morning\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "01843689"
+        gloss: "go to certain places as for sightseeing; \"Did you ever visit Paris?\""
+        angloform:
+          status: gap
+      - wordnet: "02487573"
+        gloss: "pay a brief visit; \"The mayor likes to call on some of the prominent citizens\""
+        angloform:
+          status: gap
+      - wordnet: "01844048"
+        gloss: "come to see in an official or professional capacity; \"The governor visited the prison\"; \"The grant administrator visited the laboratory\""
+        angloform:
+          status: gap
+      - wordnet: "00748282"
+        gloss: "impose something unpleasant; \"The principal visited his rage on the students\""
+        angloform:
+          status: gap
+      - wordnet: "01038666"
+        gloss: "talk socially without exchanging too much information; \"the men were sitting in the cafe and shooting the breeze\""
+        angloform:
+          status: gap
+      - wordnet: "02619424"
+        gloss: "stay with as a guest; \"Every summer, we visited our relatives in the country for a month\""
+        angloform:
+          status: gap
+      - wordnet: "00260142"
+        gloss: "assail; \"He was visited with a terrible illness that killed him quickly\""
+        angloform:
+          status: gap

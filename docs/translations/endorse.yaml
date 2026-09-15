@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02453889"
+        gloss: "be behind; approve of; \"He plumped for the Labor Party\"; \"I backed Kennedy in 1960\""
+        angloform:
+          status: gap
+      - wordnet: "02556817"
+        gloss: "give support or one's approval to; \"I'll second that motion\"; \"I can't back this plan\"; \"endorse a new project\""
+        angloform:
+          status: gap
+      - wordnet: "02447793"
+        gloss: "guarantee as meeting a certain standard; \"certified grade AAA meat\""
+        angloform:
+          status: gap
+      - wordnet: "00997794"
+        gloss: "sign as evidence of legal transfer; \"endorse cheques\""
+        angloform:
+          status: gap

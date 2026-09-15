@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07597365"
+        gloss: a rich sweet made of flavored sugar and often combined with fruit or nuts
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02196378"
+        gloss: coat with something sweet, such as a hard sugar glaze
+        angloform:
+          status: gap

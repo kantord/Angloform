@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05910940"
+        gloss: a temporally organized plan for matters to be attended to
+        angloform:
+          status: gap
+      - wordnet: "06495328"
+        gloss: an ordered list of times at which things are planned to occur
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00678282"
+        gloss: "plan for an activity or event; \"I've scheduled a concert next week\""
+        angloform:
+          status: gap
+      - wordnet: "00794981"
+        gloss: "make a schedule; plan the time and place for events; \"I scheduled an exam for this afternoon\""
+        angloform:
+          status: gap

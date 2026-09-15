@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06524935"
+        gloss: a secret agreement between two or more people to perform an unlawful act
+        angloform:
+          status: gap
+      - wordnet: "05908882"
+        gloss: a plot to carry out some harmful or illegal act (especially a political plot)
+        angloform:
+          status: gap
+      - wordnet: "08251303"
+        gloss: a group of conspirators banded together to achieve some harmful or illegal purpose
+        angloform:
+          status: gap

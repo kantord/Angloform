@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10187130"
+        gloss: a person who invites guests to a social event (such as a party in his or her own home) and who is responsible for them while they are there
+        angloform:
+          status: gap
+      - wordnet: "08182962"
+        gloss: a vast multitude
+        angloform:
+          status: gap
+      - wordnet: "01385527"
+        gloss: an animal or plant that nourishes and supports a parasite; it does not benefit and is often harmed by the association
+        angloform:
+          status: gap
+      - wordnet: "10299250"
+        gloss: a person who acts as host at formal occasions (makes an introductory speech and introduces other speakers)
+        angloform:
+          status: gap
+      - wordnet: "08183802"
+        gloss: archaic terms for army
+        angloform:
+          status: gap
+      - wordnet: "08481184"
+        gloss: "any organization that provides resources and facilities for a function or event; \"Atlanta was chosen to be host for the Olympic Games\""
+        angloform:
+          status: gap
+      - wordnet: "10187356"
+        gloss: (medicine) recipient of transplanted tissue or organ from a donor
+        angloform:
+          status: gap
+      - wordnet: "10186774"
+        gloss: the owner or manager of an inn
+        angloform:
+          status: gap
+      - wordnet: "07683138"
+        gloss: a technical name for the bread used in the service of Mass or Holy Communion
+        angloform:
+          status: gap
+      - wordnet: "04175147"
+        gloss: (computer science) a computer that provides client stations with access to files and printers as shared resources to a computer network
+        angloform:
+          status: redirect
+          word: server
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01194418"
+        gloss: "be the host of or for; \"We hosted 4 couples last night\""
+        angloform:
+          status: gap

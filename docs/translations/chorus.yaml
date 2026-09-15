@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07379695"
+        gloss: "any utterance produced simultaneously by a group; \"a chorus of boos\""
+        angloform:
+          status: gap
+      - wordnet: "08187837"
+        gloss: a group of people assembled to sing together
+        angloform:
+          status: gap
+      - wordnet: "07050177"
+        gloss: the part of a song where a soloist is joined by a group of singers
+        angloform:
+          status: gap
+      - wordnet: "08188449"
+        gloss: a body of dancers or singers who perform together
+        angloform:
+          status: gap
+      - wordnet: "08187988"
+        gloss: a company of actors who comment (by speaking or singing in unison) on the action in a classical Greek play
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00986750"
+        gloss: "utter in unison; \"`yes,' the children chorused\""
+        angloform:
+          status: gap
+      - wordnet: "01730799"
+        gloss: sing in a choir
+        angloform:
+          status: gap

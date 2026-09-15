@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07221094"
+        gloss: "a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program; \"his narrative was interesting\"; \"Disney's stories entertain adults as well as children\""
+        angloform:
+          status: gap
+      - wordnet: "06369829"
+        gloss: "a piece of fiction that narrates a chain of related events; \"he writes stories for the magazines\""
+        angloform:
+          status: gap
+      - wordnet: "03365991"
+        gloss: "a structure consisting of a room or set of rooms at a single position along a vertical scale; \"what level is the office on?\""
+        angloform:
+          status: redirect
+          word: floor
+          category: NOUN
+      - wordnet: "06514093"
+        gloss: "a record or narrative description of past events; \"a history of France\"; \"he gave an inaccurate account of the plot to kill the president\"; \"the story of exposure to lead\""
+        angloform:
+          status: redirect
+          word: history
+          category: NOUN
+      - wordnet: "06681551"
+        gloss: "a short account of the news; \"the report of his speech\"; \"the story was on the 11 o'clock news\"; \"the account of his speech that was given on the evening news made the governor furious\""
+        angloform:
+          status: redirect
+          word: report
+          category: NOUN
+      - wordnet: "06757057"
+        gloss: "a trivial lie; \"he told a fib about eating his spinach\"; \"how can I stop my child from telling stories?\""
+        angloform:
+          status: gap

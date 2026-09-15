@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00816556"
+        gloss: "declare untrue; contradict; \"He denied the allegations\"; \"She denied that she had taken money\""
+        angloform:
+          status: gap
+      - wordnet: "00817003"
+        gloss: "refuse to accept or believe; \"He denied his fatal illness\""
+        angloform:
+          status: gap
+      - wordnet: "02214190"
+        gloss: "refuse to grant, as of a petition or request; \"The dean denied the students' request for more physics courses\"; \"the prisoners were denied the right to exercise for more than 2 hours a day\""
+        angloform:
+          status: gap
+      - wordnet: "02212825"
+        gloss: "refuse to let have; \"She denies me every pleasure\"; \"he denies her her weekly allowance\""
+        angloform:
+          status: gap
+      - wordnet: "02213074"
+        gloss: "deny oneself (something); restrain, especially from indulging in some pleasure; \"She denied herself wine and spirits\""
+        angloform:
+          status: gap
+      - wordnet: "01068380"
+        gloss: deny formally (an allegation of fact by the opposing party) in a legal suit
+        angloform:
+          status: gap
+      - wordnet: "00817167"
+        gloss: "refuse to recognize or acknowledge; \"Peter denied Jesus\""
+        angloform:
+          status: gap

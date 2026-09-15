@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# already a permanent Ban in seed/seed.json (ADR 0042, epistemic hedge).
+by_upos:
+  ADV:
+    senses:
+      - gloss: by chance; "could this possibly be true?"
+        angloform:
+          status: excluded
+          reason: 'ADR 0042: epistemic hedges are permanently banned — state the claim directly, or name the source and let the reader judge it; matches seed.json''s existing BANNED advice for this lemma'

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13282550"
+        gloss: something (such as money) given or received as payment or reparation (as for a service or loss or injury)
+        angloform:
+          status: gap
+      - wordnet: "13450636"
+        gloss: (psychiatry) a defense mechanism that conceals your undesirable shortcomings by exaggerating desirable behaviors
+        angloform:
+          status: gap
+      - wordnet: "00259643"
+        gloss: the act of compensating for service or loss or injury
+        angloform:
+          status: gap

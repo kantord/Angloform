@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00126972"
+        gloss: "with regard to technique; \"technically lagging behind the Japanese\"; \"a technically brilliant boxer\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00126837"
+        gloss: "with regard to technical skill and the technology available; \"a technically brilliant solution\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00127130"
+        gloss: "according to the exact meaning; according to the facts; \"technically, a bank's reserves belong to the stockholders\"; \"technically, the term is no longer used by experts\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

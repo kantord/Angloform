@@ -1,0 +1,9 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00060632"
+        gloss: "at an earlier time or formerly; \"she had previously lived in Chicago\"; \"he was previously president of a bank\"; \"better than anything previously proposed\"; \"a previously unquestioned attitude\"; \"antecedently arranged\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

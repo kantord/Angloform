@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03082979"
+        gloss: a machine for performing calculations automatically
+        angloform:
+          status: gap
+      - wordnet: "09887034"
+        gloss: an expert at calculation (or at operating calculating machines)
+        angloform:
+          status: gap

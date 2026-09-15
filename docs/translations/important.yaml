@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01275562"
+        gloss: "of great significance or value; \"important people\"; \"the important questions of the day\""
+        angloform:
+          status: gap
+      - wordnet: "02161432"
+        gloss: "important in effect or meaning; \"a significant change in tax laws\"; \"a significant change in the Constitution\"; \"a significant contribution\"; \"significant details\"; \"statistically significant\""
+        angloform:
+          status: gap
+      - wordnet: "00655779"
+        gloss: "of extreme importance; vital to the resolution of a crisis; \"a crucial moment in his career\"; \"a crucial election\"; \"a crucial issue for women\""
+        angloform:
+          status: gap
+      - wordnet: "01830403"
+        gloss: "having authority or ascendancy or influence; \"an important official\"; \"the captain's authoritative manner\""
+        angloform:
+          status: gap
+      - wordnet: "01539887"
+        gloss: "having or suggesting a consciousness of high position; \"recited the decree with an important air\"; \"took long important strides in the direction of his office\""
+        angloform:
+          status: gap

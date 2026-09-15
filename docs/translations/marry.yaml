@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02488834"
+        gloss: take in marriage
+        angloform:
+          status: gap
+      - wordnet: "02489456"
+        gloss: "perform a marriage ceremony; \"The minister married us on Saturday\"; \"We were wed the following week\"; \"The couple got spliced on Hawaii\""
+        angloform:
+          status: redirect
+          word: tie
+          category: VERB_INTRANS

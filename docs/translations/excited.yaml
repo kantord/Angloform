@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00085630"
+        gloss: "(of persons) excessively affected by emotion; \"he would become emotional over nothing at all\"; \"she was worked up about all the noise\""
+        angloform:
+          status: gap
+      - wordnet: "00919542"
+        gloss: in an aroused state
+        angloform:
+          status: gap
+      - wordnet: "02390724"
+        gloss: "marked by uncontrolled excitement or emotion; \"a crowd of delirious baseball fans\"; \"something frantic in their gaiety\"; \"a mad whirl of pleasure\""
+        angloform:
+          status: gap
+      - wordnet: "01928926"
+        gloss: (of e.g. a molecule) made reactive or more reactive
+        angloform:
+          status: gap

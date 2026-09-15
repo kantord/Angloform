@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09987239"
+        gloss: a male monarch or emperor (especially of Russia prior to 1917)
+        angloform:
+          status: gap
+      - wordnet: "09987161"
+        gloss: a person having great power
+        angloform:
+          status: gap

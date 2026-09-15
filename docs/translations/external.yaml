@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05852007"
+        gloss: "outward features; \"he enjoyed the solemn externals of religion\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00948103"
+        gloss: "happening or arising or located outside or beyond some limits or especially surface; \"the external auditory canal\"; \"external pressures\""
+        angloform:
+          status: gap
+      - wordnet: "01350225"
+        gloss: "coming from the outside; \"extraneous light in the camera spoiled the photograph\"; \"relying upon an extraneous income\"; \"disdaining outside pressure groups\""
+        angloform:
+          status: gap
+      - wordnet: "01037885"
+        gloss: "from or between other countries; \"external commerce\"; \"international trade\"; \"developing nations need outside help\""
+        angloform:
+          status: gap
+      - wordnet: "00951003"
+        gloss: "purely outward or superficial; \"external composure\"; \"an external concern for reputation\"- A.R.Gurney,Jr."
+        angloform:
+          status: gap

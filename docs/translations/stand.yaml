@@ -1,0 +1,104 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02797692"
+        gloss: "a support or foundation; \"the base of the lamp\""
+        angloform:
+          status: gap
+      - wordnet: "08653706"
+        gloss: the position where a thing or person stands
+        angloform:
+          status: gap
+      - wordnet: "08438384"
+        gloss: "a growth of similar plants (usually trees) in a particular area; \"they cut down a stand of trees\""
+        angloform:
+          status: gap
+      - wordnet: "04301000"
+        gloss: "a small table for holding articles of various kinds; \"a bedside stand\""
+        angloform:
+          status: gap
+      - wordnet: "04038440"
+        gloss: "a support for displaying various articles; \"the newspapers were arranged on a rack\""
+        angloform:
+          status: gap
+      - wordnet: "07366145"
+        gloss: an interruption of normal activity
+        angloform:
+          status: gap
+      - wordnet: "06210363"
+        gloss: "a mental position from which things are viewed; \"we should consider this problem from the viewpoint of the Russians\"; \"teaching history gave him a special point of view toward current events\""
+        angloform:
+          status: gap
+      - wordnet: "04299215"
+        gloss: a booth where articles are displayed for sale
+        angloform:
+          status: gap
+      - wordnet: "01057053"
+        gloss: "a stop made by a touring musical or theatrical group to give a performance; \"a one-night stand\""
+        angloform:
+          status: gap
+      - wordnet: "04300741"
+        gloss: tiered seats consisting of a structure (often made of wood) where people can sit to watch an event (game or parade)
+        angloform:
+          status: gap
+      - wordnet: "02786984"
+        gloss: a platform where a (brass) band can play in the open air
+        angloform:
+          status: gap
+      - wordnet: "00960851"
+        gloss: "a defensive effort; \"the army made a final stand at the Rhone\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01546111"
+        gloss: "be standing; be upright; \"We had to stand for the entire performance!\""
+        angloform:
+          status: gap
+      - wordnet: "02611373"
+        gloss: "be in some specified state or condition; \"I stand corrected\""
+        angloform:
+          status: gap
+      - wordnet: "02734488"
+        gloss: "occupy a place or location, also metaphorically; \"We stand on common ground\""
+        angloform:
+          status: gap
+      - wordnet: "02702120"
+        gloss: "hold one's ground; maintain a position; be steadfast or upright; \"I am standing my ground and won't give in!\""
+        angloform:
+          status: gap
+      - wordnet: "00668099"
+        gloss: "put up with something or somebody unpleasant; \"I cannot bear his constant criticism\"; \"The new secretary had to endure a lot of unprofessional remarks\"; \"he learned to tolerate the heat\"; \"She stuck out two years in a miserable marriage\""
+        angloform:
+          status: redirect
+          word: tolerate
+          category: VERB_TRANS
+      - wordnet: "00670991"
+        gloss: "have or maintain a position or stand on an issue; \"Where do you stand on the War?\""
+        angloform:
+          status: gap
+      - wordnet: "02707125"
+        gloss: "remain inactive or immobile; \"standing water\""
+        angloform:
+          status: gap
+      - wordnet: "02703018"
+        gloss: "be in effect; be or remain in force; \"The law stands!\""
+        angloform:
+          status: gap
+      - wordnet: "02702368"
+        gloss: "be tall; have a height of; copula; \"She stands 6 feet tall\""
+        angloform:
+          status: gap
+      - wordnet: "01546768"
+        gloss: "put into an upright position; \"Can you stand the bookshelf up?\""
+        angloform:
+          status: gap
+      - wordnet: "01115916"
+        gloss: "withstand the force of something; \"The trees resisted her\"; \"stand the test of time\"; \"The mountain climbers had to fend against the ice and snow\""
+        angloform:
+          status: gap
+      - wordnet: "01428203"
+        gloss: "be available for stud services; \"male domestic animals such as stallions serve selected females\""
+        angloform:
+          status: gap

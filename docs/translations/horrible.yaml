@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00193480"
+        gloss: "provoking horror; \"an atrocious automobile accident\"; \"a frightful crime of decapitation\"; \"an alarming, even horrifying, picture\"; \"war is beyond all words horrible\"- Winston Churchill; \"an ugly wound\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11525779"
+        gloss: a more or less vertical column of air whirling around itself as it moves over the surface of the Earth
+        angloform:
+          status: gap

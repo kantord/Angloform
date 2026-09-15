@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00568430"
+        gloss: "(sports) a stroke that puts the ball in play; \"his powerful serves won the game\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02670890"
+        gloss: "serve a purpose, role, or function; \"The tree stump serves as a table\"; \"The female students served as a control group\"; \"This table would serve very well\"; \"His freedom served him well\"; \"The table functions as a desk\""
+        angloform:
+          status: gap
+      - wordnet: "01095218"
+        gloss: "do duty or hold offices; serve in a specific function; \"He served as head of the department for three years\"; \"She served in Congress for two terms\""
+        angloform:
+          status: gap
+      - wordnet: "02670398"
+        gloss: "contribute or conduce to; \"The scandal served to increase his popularity\""
+        angloform:
+          status: gap
+      - wordnet: "02541251"
+        gloss: "be used by; as of a utility; \"The sewage plant served the neighboring communities\"; \"The garage served to shelter his horses\""
+        angloform:
+          status: gap
+      - wordnet: "01181295"
+        gloss: "help to some food; help with food or drink; \"I served him three times, and after that he helped himself\""
+        angloform:
+          status: redirect
+          word: help
+          category: VERB_TRANS
+      - wordnet: "01180351"
+        gloss: "provide (usually but not necessarily food); \"We serve meals for the homeless\"; \"She dished out the soup at 8 P.M.\"; \"The entertainers served up a lively show\""
+        angloform:
+          status: gap
+      - wordnet: "02593107"
+        gloss: "devote (part of) one's life or efforts to, as of countries, institutions, or ideas; \"She served the art of music\"; \"He served the church\"; \"serve the country\""
+        angloform:
+          status: gap
+      - wordnet: "02670578"
+        gloss: "promote, benefit, or be useful or beneficial to; \"Art serves commerce\"; \"Their interests are served\"; \"The lake serves recreation\"; \"The President's wisdom has served the country well\""
+        angloform:
+          status: gap
+      - wordnet: "02709107"
+        gloss: "spend time in prison or in a labor camp; \"He did six years for embezzlement\""
+        angloform:
+          status: gap
+      - wordnet: "02540670"
+        gloss: "work for or be a servant to; \"May I serve you?\"; \"She attends the old lady in the wheelchair\"; \"Can you wait on our table, please?\"; \"Is a salesperson assisting you?\"; \"The minister served the King for many years\""
+        angloform:
+          status: gap
+      - wordnet: "01438681"
+        gloss: "deliver a warrant or summons to someone; \"He was processed by the sheriff\""
+        angloform:
+          status: gap
+      - wordnet: "02669789"
+        gloss: "be sufficient; be adequate, either in quality or quantity; \"A few words would answer\"; \"This car suits my purpose well\"; \"Will $100 do?\"; \"A 'B' grade doesn't suffice to get me into medical school\"; \"Nothing else will serve\""
+        angloform:
+          status: redirect
+          word: answer
+          category: VERB_TRANS
+      - wordnet: "02411621"
+        gloss: "do military service; \"She served in Vietnam\"; \"My sons never served, because they are short-sighted\""
+        angloform:
+          status: gap
+      - wordnet: "01428011"
+        gloss: "mate with; \"male animals serve the females for breeding purposes\""
+        angloform:
+          status: gap
+      - wordnet: "01077568"
+        gloss: "put the ball into play; \"It was Agassi's turn to serve\""
+        angloform:
+          status: gap

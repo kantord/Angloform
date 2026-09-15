@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10786033"
+        gloss: someone who sees an event and reports what happened
+        angloform:
+          status: gap
+      - wordnet: "10633450"
+        gloss: "a close observer; someone who looks at something (such as an exhibition of some kind); \"the spectators applauded the performance\"; \"television viewers\"; \"sky watchers discovered a new star\""
+        angloform:
+          status: gap
+      - wordnet: "06734702"
+        gloss: testimony by word or deed to your religious faith
+        angloform:
+          status: gap
+      - wordnet: "10786270"
+        gloss: (law) a person who attests to the genuineness of a document or signature by adding their own signature
+        angloform:
+          status: gap
+      - wordnet: "10786517"
+        gloss: (law) a person who testifies under oath in a court of law
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02128286"
+        gloss: "be a witness to; \"She witnessed the accident and had to testify in court\""
+        angloform:
+          status: gap
+      - wordnet: "02128873"
+        gloss: "perceive or be contemporaneous with; \"We found Republicans winning the offices\"; \"You'll see a lot of cheating in this school\"; \"The 1960's saw the rebellion of the younger generation against established traditions\"; \"I want to see results\""
+        angloform:
+          status: redirect
+          word: find
+          category: VERB_TRANS

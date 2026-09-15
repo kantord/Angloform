@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14939900"
+        gloss: a substance that is fluid at room temperature and pressure
+        angloform:
+          status: gap
+      - wordnet: "14939445"
+        gloss: "continuous amorphous matter that tends to flow and to conform to the outline of its container: a liquid or a gas"
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00345494"
+        gloss: "subject to change; variable; \"a fluid situation fraught with uncertainty\"; \"everything was unstable following the coup\""
+        angloform:
+          status: gap
+      - wordnet: "02261746"
+        gloss: characteristic of a fluid; capable of flowing and easily changing shape
+        angloform:
+          status: gap
+      - wordnet: "01139832"
+        gloss: "smooth and unconstrained in movement; \"a long, smooth stride\"; \"the fluid motion of a cat\"; \"the liquid grace of a ballerina\""
+        angloform:
+          status: gap
+      - wordnet: "00778017"
+        gloss: "in cash or easily convertible to cash; \"liquid (or fluid) assets\""
+        angloform:
+          status: gap
+      - wordnet: "00345694"
+        gloss: "affording change (especially in social status); \"Britain is not a truly fluid society\"; \"upwardly mobile\""
+        angloform:
+          status: gap

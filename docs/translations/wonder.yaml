@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07509996"
+        gloss: the feeling aroused by something strange and surprising
+        angloform:
+          status: gap
+      - wordnet: "07289588"
+        gloss: "something that causes feelings of wonder; \"the wonders of modern science\""
+        angloform:
+          status: gap
+      - wordnet: "05682570"
+        gloss: a state in which you want to learn more about something
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00729378"
+        gloss: "have a wish or desire to know something; \"He wondered who had built this beautiful church\""
+        angloform:
+          status: gap
+      - wordnet: "00925110"
+        gloss: "place in doubt or express doubtful speculation; \"I wonder whether this was the right thing to do\"; \"she wondered whether it would snow tonight\""
+        angloform:
+          status: gap
+      - wordnet: "00925490"
+        gloss: "be amazed at; \"We marvelled at the child's linguistic abilities\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04718999"
+        gloss: the quality of being at hand when needed
+        angloform:
+          status: gap
+      - wordnet: "04655649"
+        gloss: the attribute of being easy to meet or deal with
+        angloform:
+          status: gap

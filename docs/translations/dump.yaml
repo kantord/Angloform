@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13555775"
+        gloss: "a coarse term for defecation; \"he took a shit\""
+        angloform:
+          status: gap
+      - wordnet: "08560027"
+        gloss: a piece of land where waste materials are dumped
+        angloform:
+          status: gap
+      - wordnet: "06390227"
+        gloss: (computer science) a copy of the contents of a computer storage device; sometimes used in debugging programs
+        angloform:
+          status: gap
+      - wordnet: "03255790"
+        gloss: "a place where supplies can be stored; \"an ammunition dump\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02225204"
+        gloss: "throw away as refuse; \"No dumping in these woods!\""
+        angloform:
+          status: gap
+      - wordnet: "02224945"
+        gloss: "sever all ties with, usually unceremoniously or irresponsibly; \"The company dumped him after many years of service\"; \"She dumped her boyfriend when she fell in love with a rich man\""
+        angloform:
+          status: gap
+      - wordnet: "02350878"
+        gloss: sell at artificially low prices
+        angloform:
+          status: gap
+      - wordnet: "01977545"
+        gloss: "drop (stuff) in a heap or mass; \"The truck dumped the garbage in the street\""
+        angloform:
+          status: gap
+      - wordnet: "01977080"
+        gloss: "fall abruptly; \"It plunged to the bottom of the well\""
+        angloform:
+          status: gap
+      - wordnet: "01412346"
+        gloss: "knock down with force; \"He decked his opponent\""
+        angloform:
+          status: gap

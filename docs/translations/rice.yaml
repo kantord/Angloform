@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07804323"
+        gloss: grains used as food either unpolished or more often polished
+        angloform:
+          status: gap
+      - wordnet: "12125890"
+        gloss: annual or perennial rhizomatous marsh grasses; seed used for food; straw used for paper
+        angloform:
+          status: gap
+      - wordnet: "11259777"
+        gloss: English lyricist who frequently worked with Andrew Lloyd Webber (born in 1944)
+        angloform:
+          status: gap
+      - wordnet: "11259635"
+        gloss: United States playwright (1892-1967)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01460408"
+        gloss: "sieve so that it becomes the consistency of rice; \"rice the potatoes\""
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14543231"
+        gloss: "something that is a source of danger; \"earthquakes are a constant threat in Japan\""
+        angloform:
+          status: gap
+      - wordnet: "07226015"
+        gloss: "a warning that something unpleasant is imminent; \"they were under threat of arrest\""
+        angloform:
+          status: gap
+      - wordnet: "06733476"
+        gloss: "declaration of an intention or a determination to inflict harm on another; \"his threat to kill me was quite explicit\""
+        angloform:
+          status: gap
+      - wordnet: "10702615"
+        gloss: "a person who inspires fear or dread; \"he was the terror of the neighborhood\""
+        angloform:
+          status: gap

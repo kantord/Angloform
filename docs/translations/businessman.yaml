@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09882007"
+        gloss: a person engaged in commercial or industrial business (especially an owner or executive)
+        angloform:
+          status: gap

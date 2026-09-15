@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00026571"
+        gloss: "used to indicate that a statement explains or supports a previous statement; \"Anyhow, he is dead now\"; \"I think they're asleep; anyhow, they're quiet\"; \"I don't know what happened to it; anyway, it's gone\"; \"anyway, there is another factor to consider\"; \"I don't know how it started; in any case, there was a brief scuffle\"; \"in any event, the government faced a serious protest\"; \"but at any rate he got a knighthood for it\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00027258"
+        gloss: "in any way whatsoever; \"they came anyhow they could\"; \"get it done anyway you can\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

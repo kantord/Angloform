@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00818974"
+        gloss: "be emphatic or resolute and refuse to budge; \"I must insist!\""
+        angloform:
+          status: gap
+      - wordnet: "00777931"
+        gloss: "beg persistently and urgently; \"I importune you to help them\""
+        angloform:
+          status: gap
+      - wordnet: "00717045"
+        gloss: "assert to be true; \"The letter asserts a free society\""
+        angloform:
+          status: redirect
+          word: assert
+          category: VERB_TRANS

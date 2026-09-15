@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00786195"
+        gloss: "earnest and conscientious activity intended to do or accomplish something; \"made an effort to cover all the reading material\"; \"wished him luck in his endeavor\"; \"she gave it a good try\""
+        angloform:
+          status: gap
+      - wordnet: "00621627"
+        gloss: "use of physical or mental energy; hard work; \"he got an A for effort\"; \"they managed only with great exertion\""
+        angloform:
+          status: gap
+      - wordnet: "00036762"
+        gloss: "a notable achievement; \"he performed a great feat\"; \"the book was her finest effort\""
+        angloform:
+          status: gap
+      - wordnet: "00798245"
+        gloss: "a series of actions advancing a principle or tending toward a particular end; \"he supported populist campaigns\"; \"they worked in the cause of world peace\"; \"the team was ready for a drive toward the pennant\"; \"the movement to end slavery\"; \"contributed to the war effort\""
+        angloform:
+          status: gap

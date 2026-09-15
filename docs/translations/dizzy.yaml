@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00532328"
+        gloss: "make dizzy or giddy; \"a dizzying pace\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02544048"
+        gloss: "having or causing a whirling sensation; liable to falling; \"had a dizzy spell\"; \"a dizzy pinnacle\"; \"had a headache and felt giddy\"; \"a giddy precipice\"; \"feeling woozy from the blow on his head\"; \"a vertiginous climb up the face of the cliff\""
+        angloform:
+          status: gap
+      - wordnet: "02120828"
+        gloss: "lacking seriousness; given to frivolity; \"a dizzy blonde\"; \"light-headed teenagers\"; \"silly giggles\""
+        angloform:
+          status: gap

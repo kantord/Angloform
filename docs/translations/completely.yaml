@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00008007"
+        gloss: "to a complete degree or to the full or entire extent (`whole' is often used informally for `wholly'); \"he was wholly convinced\"; \"entirely satisfied with the meal\"; \"it was completely different from what we expected\"; \"was completely at fault\"; \"a totally new situation\"; \"the directions were all wrong\"; \"it was not altogether her fault\"; \"an altogether new approach\"; \"a whole new idea\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00157624"
+        gloss: "so as to be complete; with everything necessary; \"he had filled out the form completely\"; \"the apartment was completely furnished\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

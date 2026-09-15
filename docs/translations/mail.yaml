@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06275634"
+        gloss: the bags of letters and packages that are transported by the postal service
+        angloform:
+          status: gap
+      - wordnet: "06264398"
+        gloss: "the system whereby messages are transmitted via the post office; \"the mail handles billions of items every day\"; \"he works for the United States mail service\"; \"in England they call mail `the post'\""
+        angloform:
+          status: gap
+      - wordnet: "03709644"
+        gloss: a conveyance that transports the letters and packages that are conveyed by the postal system
+        angloform:
+          status: gap
+      - wordnet: "08463063"
+        gloss: "any particular collection of letters or packages that is delivered; \"your mail is on the table\"; \"is there any post for me?\"; \"she was opening her post\""
+        angloform:
+          status: gap
+      - wordnet: "03000247"
+        gloss: (Middle Ages) flexible armor made of interlinked metal rings
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01437888"
+        gloss: "send via the postal service; \"I'll mail you the check tomorrow\""
+        angloform:
+          status: gap
+      - wordnet: "01031256"
+        gloss: "cause to be directed or transmitted to another place; \"send me your latest results\"; \"I'll mail you the paper when it's written\""
+        angloform:
+          status: redirect
+          word: send
+          category: VERB_TRANS

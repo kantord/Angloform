@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02866578"
+        gloss: an explosive device fused to explode under specific conditions
+        angloform:
+          status: gap
+      - wordnet: "02867592"
+        gloss: strong sealed vessel for measuring heat of combustion
+        angloform:
+          status: gap
+      - wordnet: "07365193"
+        gloss: "an event that fails badly or is totally ineffectual; \"the first experiment was a real turkey\"; \"the meeting was a dud as far as new business was concerned\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01131902"
+        gloss: "throw bombs at or attack with bombs; \"The Americans bombed Dresden\""
+        angloform:
+          status: gap
+      - wordnet: "02523521"
+        gloss: "fail to get a passing grade; \"She studied hard but failed nevertheless\"; \"Did I fail the test?\""
+        angloform:
+          status: redirect
+          word: fail
+          category: VERB_INTRANS

@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10202363"
+        gloss: someone who is not competent to take effective action
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00512261"
+        gloss: "legally not qualified or sufficient; \"a wife is usually considered unqualified to testify against her husband\"; \"incompetent witnesses\""
+        angloform:
+          status: gap
+      - wordnet: "00511214"
+        gloss: "not qualified or suited for a purpose; \"an incompetent secret service\"; \"the filming was hopeless incompetent\""
+        angloform:
+          status: gap
+      - wordnet: "02229324"
+        gloss: "showing lack of skill or aptitude; \"a bungling workman\"; \"did a clumsy job\"; \"his fumbling attempt to put up a shelf\""
+        angloform:
+          status: gap
+      - wordnet: "01128103"
+        gloss: "not doing a good job; \"incompetent at chess\""
+        angloform:
+          status: gap
+      - wordnet: "00052246"
+        gloss: "not meeting requirements; \"unequal to the demands put upon him\""
+        angloform:
+          status: gap

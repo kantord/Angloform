@@ -1,0 +1,68 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00972621"
+        gloss: "(military) an offensive against an enemy (using weapons); \"the attack began at dawn\""
+        angloform:
+          status: gap
+      - wordnet: "00457723"
+        gloss: "an offensive move in a sport or game; \"they won the game with a 10-hit attack in the 9th inning\""
+        angloform:
+          status: gap
+      - wordnet: "06711159"
+        gloss: "intense adverse criticism; \"Clinton directed his fire at the Republican Party\"; \"the government has come under attack\"; \"don't give me any flak\""
+        angloform:
+          status: redirect
+          word: fire
+          category: NOUN
+      - wordnet: "00941140"
+        gloss: "ideas or actions intended to deal with a problem or situation; \"his approach to every problem is to draw up a list of pros and cons\"; \"an attack on inflation\"; \"his plan of attack was misguided\""
+        angloform:
+          status: gap
+      - wordnet: "00773814"
+        gloss: "the act of attacking; \"attacks on women increased last year\"; \"they made an attempt on his life\""
+        angloform:
+          status: gap
+      - wordnet: "00236953"
+        gloss: a decisive manner of beginning a musical tone or phrase
+        angloform:
+          status: gap
+      - wordnet: "14081375"
+        gloss: "a sudden occurrence of an uncontrollable condition; \"an attack of diarrhea\""
+        angloform:
+          status: gap
+      - wordnet: "13435548"
+        gloss: "the onset of a corrosive or destructive process (as by a chemical agent); \"the film was sensitive to attack by acids\"; \"open to attack by the elements\""
+        angloform:
+          status: gap
+      - wordnet: "01220619"
+        gloss: "strong criticism; \"he published an unexpected attack on my work\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01119169"
+        gloss: "launch an attack or assault on; begin hostilities or start warfare with; \"Hitler attacked Poland on September 1, 1939 and started World War II\"; \"Serbian forces assailed Bosnian towns all week\""
+        angloform:
+          status: gap
+      - wordnet: "00862683"
+        gloss: "attack in speech or writing; \"The editors of the left-leaning paper attacked the new House Speaker\""
+        angloform:
+          status: gap
+      - wordnet: "01118449"
+        gloss: "take the initiative and go on the offensive; \"The Serbs attacked the village at night\"; \"The visiting team started to attack\""
+        angloform:
+          status: gap
+      - wordnet: "01120069"
+        gloss: "attack someone physically or emotionally; \"The mugger assaulted the woman\"; \"Nightmares assailed him regularly\""
+        angloform:
+          status: gap
+      - wordnet: "00347610"
+        gloss: "set to work upon; turn one's energies vigorously to a task; \"I attacked the problem as soon as I got out of bed\""
+        angloform:
+          status: gap
+      - wordnet: "00019792"
+        gloss: "begin to injure; \"The cancer cells are attacking his liver\"; \"Rust is attacking the metal\""
+        angloform:
+          status: gap

@@ -1,0 +1,3 @@
+status: exempt
+exempt_kind: garbage
+reason: an abbreviation (fast-forward, or a name-prefix convention), zero WordNet attestation

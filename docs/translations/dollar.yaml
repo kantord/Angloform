@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13661273"
+        gloss: the basic monetary unit in many countries; equal to 100 cents
+        angloform:
+          status: gap
+      - wordnet: "13395897"
+        gloss: a piece of paper money worth one dollar
+        angloform:
+          status: gap
+      - wordnet: "13391967"
+        gloss: "a United States coin worth one dollar; \"the dollar coin has never been popular in the United States\""
+        angloform:
+          status: gap
+      - wordnet: "06821581"
+        gloss: "a symbol of commercialism or greed; \"he worships the almighty dollar\"; \"the dollar sign means little to him\""
+        angloform:
+          status: gap

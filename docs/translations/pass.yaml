@@ -1,0 +1,188 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00127286"
+        gloss: "(baseball) an advance to first base by a batter who receives four balls; \"he worked the pitcher for a base on balls\""
+        angloform:
+          status: gap
+      - wordnet: "15139552"
+        gloss: "(military) a written leave of absence; \"he had a pass for three days\""
+        angloform:
+          status: gap
+      - wordnet: "00560529"
+        gloss: "(American football) a play that involves one player throwing the ball to a teammate; \"the coach sent in a passing play on third and long\""
+        angloform:
+          status: gap
+      - wordnet: "09386842"
+        gloss: "the location in a range of mountains of a geological formation that is lower than the surrounding peaks; \"we got through the pass before it started to snow\""
+        angloform:
+          status: gap
+      - wordnet: "06691083"
+        gloss: "any authorization to pass or go somewhere; \"the pass to visit had a strict time limit\""
+        angloform:
+          status: gap
+      - wordnet: "06690408"
+        gloss: "a document indicating permission to do something without restrictions; \"the media representatives had special passes\""
+        angloform:
+          status: gap
+      - wordnet: "00304592"
+        gloss: "a flight or run by an aircraft over a target; \"the plane turned to make a second pass\""
+        angloform:
+          status: gap
+      - wordnet: "13936939"
+        gloss: a bad or difficult situation or state of affairs
+        angloform:
+          status: gap
+      - wordnet: "07418822"
+        gloss: "a difficult juncture; \"a pretty pass\"; \"matters came to a head yesterday\""
+        angloform:
+          status: redirect
+          word: head
+          category: NOUN
+      - wordnet: "07341860"
+        gloss: "one complete cycle of operations (as by a computer); \"it was not possible to complete the computation in a single pass\""
+        angloform:
+          status: gap
+      - wordnet: "07176499"
+        gloss: "you advance to the next round in a tournament without playing an opponent; \"he had a bye in the first round\""
+        angloform:
+          status: gap
+      - wordnet: "06690226"
+        gloss: "a permit to enter or leave a military installation; \"he had to show his pass in order to get out\""
+        angloform:
+          status: gap
+      - wordnet: "06519369"
+        gloss: "a complimentary ticket; \"the star got passes for his family\""
+        angloform:
+          status: gap
+      - wordnet: "00787061"
+        gloss: "a usually brief attempt; \"he took a crack at it\"; \"I gave it a whirl\""
+        angloform:
+          status: gap
+      - wordnet: "00105820"
+        gloss: "(sports) the act of throwing the ball to another member of your team; \"the pass was fumbled\""
+        angloform:
+          status: gap
+      - wordnet: "00065575"
+        gloss: "success in satisfying a test or requirement; \"his future depended on his passing that test\"; \"he got a pass in introductory chemistry\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02050132"
+        gloss: "go across or through; \"We passed the point where the police car had parked\"; \"A terrible thought went through his mind\""
+        angloform:
+          status: gap
+      - wordnet: "02051694"
+        gloss: "move past; \"A black limousine passed by when she looked out the window\"; \"He passed his professor in the hall\"; \"One line of soldiers surpassed the other\""
+        angloform:
+          status: gap
+      - wordnet: "02466670"
+        gloss: "make laws, bills, etc. or bring into effect by legislation; \"They passed the amendment\"; \"We cannot legislate how people spend their free time\""
+        angloform:
+          status: gap
+      - wordnet: "02072849"
+        gloss: "pass by; \"three years elapsed\""
+        angloform:
+          status: gap
+      - wordnet: "02230772"
+        gloss: "place into the hands or custody of; \"hand me the spoon, please\"; \"Turn the files over to me, please\"; \"He turned over the prisoner to his lawyers\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "02685951"
+        gloss: "stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point; \"Service runs all the way to Cranbury\"; \"His knowledge doesn't go very far\"; \"My memory extends back to my fourth year of life\"; \"The facts extend beyond a consideration of her personal assets\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "02049696"
+        gloss: "travel past; \"The sports car passed all the trucks\""
+        angloform:
+          status: gap
+      - wordnet: "00339934"
+        gloss: "come to pass; \"What is happening?\"; \"The meeting took place off without an incidence\"; \"Nothing occurred that seemed important\""
+        angloform:
+          status: redirect
+          word: occur
+          category: VERB_INTRANS
+      - wordnet: "02523351"
+        gloss: "go unchallenged; be approved; \"The bill cleared the House\""
+        angloform:
+          status: gap
+      - wordnet: "02708420"
+        gloss: "pass time in a specific way; \"how are you spending your summer vacation?\""
+        angloform:
+          status: gap
+      - wordnet: "01212230"
+        gloss: "pass over, across, or through; \"He ran his eyes over her body\"; \"She ran her fingers along the carved figurine\"; \"He drew her hair through his fingers\""
+        angloform:
+          status: gap
+      - wordnet: "00742320"
+        gloss: "transmit information ; \"Please communicate this message to all employees\"; \"pass along the good news\""
+        angloform:
+          status: gap
+      - wordnet: "00421691"
+        gloss: "disappear gradually; \"The pain eventually passed off\""
+        angloform:
+          status: gap
+      - wordnet: "02525044"
+        gloss: "go successfully through a test or a selection process; \"She passed the new Jersey Bar Exam and can practice law now\""
+        angloform:
+          status: gap
+      - wordnet: "02669081"
+        gloss: "be superior or better than some standard; \"She exceeded our expectations\"; \"She topped her performance of last year\""
+        angloform:
+          status: gap
+      - wordnet: "02523953"
+        gloss: "accept or judge as acceptable; \"The teacher passed the student although he was weak\""
+        angloform:
+          status: gap
+      - wordnet: "02423513"
+        gloss: "allow to go without comment or censure; \"the insult passed as if unnoticed\""
+        angloform:
+          status: gap
+      - wordnet: "02221635"
+        gloss: "transfer to another; of rights or property; \"Our house passed under his official control\""
+        angloform:
+          status: gap
+      - wordnet: "01972131"
+        gloss: "pass into a specified state or condition; \"He sank into nirvana\""
+        angloform:
+          status: gap
+      - wordnet: "02231473"
+        gloss: "throw (a ball) to another player; \"Smith passed\""
+        angloform:
+          status: gap
+      - wordnet: "02229550"
+        gloss: "be inherited by; \"The estate fell to my sister\"; \"The land returned to the family\"; \"The estate devolved to an heir that everybody had assumed to be dead\""
+        angloform:
+          status: redirect
+          word: return
+          category: VERB_TRANS
+      - wordnet: "02052476"
+        gloss: "cause to pass; \"She passed around the plates\""
+        angloform:
+          status: gap
+      - wordnet: "00803325"
+        gloss: "grant authorization or clearance for; \"Clear the manuscript for publication\"; \"The rock star never authorized this slanderous biography\""
+        angloform:
+          status: gap
+      - wordnet: "00358431"
+        gloss: "pass from physical life and lose all bodily attributes and functions necessary to sustain life; \"She died from cancer\"; \"The children perished in the fire\"; \"The patient went peacefully\"; \"The old guy kicked the bucket at the age of 102\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "00072989"
+        gloss: "eliminate from the body; \"Pass a kidney stone\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01241927"
+        gloss: "of advancing the ball by throwing it; \"a team with a good passing attack\"; \"a pass play\""
+        angloform:
+          status: gap

@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00084223"
+        gloss: "to a distinctly greater extent or degree than is common; \"he was particularly fussy about spelling\"; \"a particularly gruesome attack\"; \"under peculiarly tragic circumstances\"; \"an especially (or specially) cautious approach to the danger\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00248765"
+        gloss: "specifically or especially distinguished from others; \"loves Bach, particularly his partitas\"; \"recommended one book in particular\"; \"trace major population movements for the Pueblo groups in particular\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00248488"
+        gloss: "uniquely or characteristically; \"these peculiarly cinematic elements\"; \"a peculiarly French phenomenon\"; \"everyone has a moment in history which belongs particularly to him\"- John Knowles"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

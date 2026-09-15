@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00921014"
+        gloss: "creating or arousing excitement; \"an exciting account of her trip\""
+        angloform:
+          status: gap
+      - wordnet: "02306763"
+        gloss: "stimulating interest and discussion; \"an exciting novel\""
+        angloform:
+          status: gap

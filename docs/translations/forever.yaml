@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00087542"
+        gloss: "for a limitless time; \"no one can live forever\"; \"brightly beams our Father's mercy from his lighthouse evermore\"- P.P.Bliss"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00089076"
+        gloss: "for a very long or seemingly endless time; \"she took forever to write the paper\"; \"we had to wait forever and a day\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00020280"
+        gloss: "without interruption; \"the world is constantly changing\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

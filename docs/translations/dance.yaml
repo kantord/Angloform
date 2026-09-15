@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07020538"
+        gloss: an artistic form of nonverbal communication
+        angloform:
+          status: gap
+      - wordnet: "08253141"
+        gloss: a party of people assembled for dancing
+        angloform:
+          status: gap
+      - wordnet: "00428270"
+        gloss: taking a series of rhythmical steps (and movements) in time to music
+        angloform:
+          status: gap
+      - wordnet: "07448717"
+        gloss: a party for social dancing
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01894649"
+        gloss: "move in a graceful and rhythmical way; \"The young girl danced into the room\""
+        angloform:
+          status: gap
+      - wordnet: "01708676"
+        gloss: "move in a pattern; usually to musical accompaniment; do or perform a dance; \"My husband and I like to dance at home to the radio\""
+        angloform:
+          status: gap
+      - wordnet: "02099075"
+        gloss: "skip, leap, or move up and down or sideways; \"Dancing flames\"; \"The children danced with joy\""
+        angloform:
+          status: gap

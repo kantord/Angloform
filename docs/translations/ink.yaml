@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14917635"
+        gloss: a liquid used for printing or writing or drawing
+        angloform:
+          status: gap
+      - wordnet: "05404598"
+        gloss: dark protective fluid ejected into the water by cuttlefish and other cephalopods
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00997020"
+        gloss: "append one's signature to; \"They inked the contract\""
+        angloform:
+          status: gap
+      - wordnet: "00509100"
+        gloss: "mark, coat, cover, or stain with ink; \"he inked his finger\""
+        angloform:
+          status: gap
+      - wordnet: "00453680"
+        gloss: "fill with ink; \"ink a pen\""
+        angloform:
+          status: gap

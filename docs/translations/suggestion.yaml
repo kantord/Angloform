@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05916155"
+        gloss: "an idea that is suggested; \"the picnic was her suggestion\""
+        angloform:
+          status: gap
+      - wordnet: "07162680"
+        gloss: "a proposal offered for acceptance or rejection; \"it was a suggestion we couldn't refuse\""
+        angloform:
+          status: gap
+      - wordnet: "13773361"
+        gloss: "a just detectable amount; \"he speaks French with a trace of an accent\""
+        angloform:
+          status: gap
+      - wordnet: "07246582"
+        gloss: persuasion formulated as a suggestion
+        angloform:
+          status: gap
+      - wordnet: "05771679"
+        gloss: the sequential mental process in which one thought leads to another by association
+        angloform:
+          status: gap
+      - wordnet: "00158996"
+        gloss: the act of inducing hypnosis
+        angloform:
+          status: gap

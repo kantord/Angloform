@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05945642"
+        gloss: "a personal belief or judgment that is not founded on proof or certainty; \"my opinion differs from yours\"; \"I am not of your persuasion\"; \"what are your thoughts on Haiti?\""
+        angloform:
+          status: gap
+      - wordnet: "06782019"
+        gloss: "a message expressing a belief about something; the expression of a belief that is held with confidence but not substantiated by positive knowledge or proof; \"his opinions appeared frequently on the editorial page\""
+        angloform:
+          status: gap
+      - wordnet: "05949726"
+        gloss: "a belief or sentiment shared by most people; the voice of the people; \"he asked for a poll of public opinion\""
+        angloform:
+          status: gap
+      - wordnet: "06551784"
+        gloss: "the legal document stating the reasons for a judicial decision; \"opinions are usually written by a single judge\""
+        angloform:
+          status: gap
+      - wordnet: "01191158"
+        gloss: "the reason for a court's judgment (as opposed to the decision itself)"
+        angloform:
+          status: gap
+      - wordnet: "05916739"
+        gloss: "a vague idea in which some confidence is placed; \"his impression of her was favorable\"; \"what are your feelings about the crisis?\"; \"it strengthened my belief in his sincerity\"; \"I had a feeling that she was lying\""
+        angloform:
+          status: gap

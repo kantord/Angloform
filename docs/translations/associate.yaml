@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09816771"
+        gloss: "a person who joins with others in some activity or endeavor; \"he had to consult his associate before continuing\""
+        angloform:
+          status: gap
+      - wordnet: "09945905"
+        gloss: "a friend who is frequently in the company of another; \"drinking companions\"; \"comrades in arms\""
+        angloform:
+          status: gap
+      - wordnet: "09817174"
+        gloss: "a person with subordinate membership in a society, institution, or commercial enterprise; \"associates in the law firm bill at a lower rate than do partners\""
+        angloform:
+          status: gap
+      - wordnet: "07284848"
+        gloss: "any event that usually accompanies or is closely connected with another; \"first was the lightning and then its thunderous associate\""
+        angloform:
+          status: gap
+      - wordnet: "06697703"
+        gloss: a degree granted by a two-year college on successful completion of the undergraduates course of studies
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00713167"
+        gloss: "make a logical or causal connection; \"I cannot connect these two pieces of evidence in my mind\"; \"colligate these facts\"; \"I cannot relate these events at all\""
+        angloform:
+          status: redirect
+          word: link
+          category: VERB_TRANS
+      - wordnet: "02589245"
+        gloss: "keep company with; hang out with; \"He associates with strange people\"; \"She affiliates with her colleagues\""
+        angloform:
+          status: gap
+      - wordnet: "02470175"
+        gloss: "bring or come into association or action; \"The churches consociated to fight their dissolution\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00793426"
+        gloss: "having partial rights and privileges or subordinate status; \"an associate member\"; \"an associate professor\""
+        angloform:
+          status: gap

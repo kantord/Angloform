@@ -1,0 +1,3 @@
+status: exempt
+exempt_kind: garbage
+reason: an OCR/typo artifact (likely "please" or a company abbreviation), zero WordNet attestation, unclear intended meaning from a single corpus occurrence

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04599235"
+        gloss: a fabric made from the hair of sheep
+        angloform:
+          status: gap
+      - wordnet: "15104217"
+        gloss: fiber sheared from animals (such as sheep) and twisted into yarn for weaving
+        angloform:
+          status: gap
+      - wordnet: "01899593"
+        gloss: outer coat of especially sheep and yaks
+        angloform:
+          status: gap

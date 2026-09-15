@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07020895"
+        gloss: an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner
+        angloform:
+          status: gap
+      - wordnet: "05718556"
+        gloss: "any agreeable (pleasing and harmonious) sounds; \"he fell asleep to the music of the wind chimes\""
+        angloform:
+          status: gap
+      - wordnet: "00543233"
+        gloss: "musical activity (singing or whistling etc.); \"his music was his central interest\""
+        angloform:
+          status: gap
+      - wordnet: "05718935"
+        gloss: (music) the sounds produced by singers or musical instruments (or reproductions of such sounds)
+        angloform:
+          status: gap
+      - wordnet: "01162529"
+        gloss: "punishment for one's actions; \"you have to face the music\"; \"take your medicine\""
+        angloform:
+          status: gap

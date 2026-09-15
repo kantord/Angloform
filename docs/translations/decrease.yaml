@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07355887"
+        gloss: "a change downward; \"there was a decrease in his temperature as the fever subsided\"; \"there was a sharp drop-off in sales\""
+        angloform:
+          status: gap
+      - wordnet: "13458571"
+        gloss: a process of becoming smaller or shorter
+        angloform:
+          status: gap
+      - wordnet: "05109808"
+        gloss: the amount by which something decreases
+        angloform:
+          status: gap
+      - wordnet: "00351638"
+        gloss: the act of decreasing or reducing something
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00151689"
+        gloss: "decrease in size, extent, or range; \"The amount of homework decreased towards the end of the semester\"; \"The cabin pressure fell dramatically\"; \"her weight fell to under a hundred pounds\"; \"his voice fell to a whisper\""
+        angloform:
+          status: redirect
+          word: fall
+          category: VERB_INTRANS
+      - wordnet: "00441445"
+        gloss: "make smaller; \"He decreased his staff\""
+        angloform:
+          status: gap

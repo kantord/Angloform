@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02566453"
+        gloss: "unwillingness to do something contrary to your custom; \"a reluctant smile\"; \"loath to admit a mistake\""
+        angloform:
+          status: gap
+      - wordnet: "01293882"
+        gloss: "disinclined to become involved; \"they were usually reluctant to socialize\"; \"reluctant to help\""
+        angloform:
+          status: gap
+      - wordnet: "00811969"
+        gloss: "not eager; \"foreigners stubbornly reluctant to accept our ways\"; \"fresh from college and reluctant for the moment to marry him\""
+        angloform:
+          status: gap

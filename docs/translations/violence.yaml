@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00965404"
+        gloss: "an act of aggression (as one against a person who resists); \"he may accomplish by craft in the long run what he cannot do by force and violence in the short one\""
+        angloform:
+          status: redirect
+          word: force
+          category: NOUN
+      - wordnet: "05037813"
+        gloss: "the property of being wild or turbulent; \"the storm's violence\""
+        angloform:
+          status: gap
+      - wordnet: "13979977"
+        gloss: a turbulent state resulting in injuries and destruction etc.
+        angloform:
+          status: gap

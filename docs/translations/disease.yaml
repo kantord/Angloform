@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14070360"
+        gloss: an impairment of health or a condition of abnormal functioning
+        angloform:
+          status: gap

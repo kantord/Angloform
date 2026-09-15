@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00220869"
+        gloss: "make strong or stronger; \"This exercise will strengthen your upper body\"; \"strengthen the relations between the two countries\""
+        angloform:
+          status: gap
+      - wordnet: "00220461"
+        gloss: "gain strength; \"His body strengthened\""
+        angloform:
+          status: gap
+      - wordnet: "00101277"
+        gloss: "give a healthy elasticity to; \"Let's tone our muscles\""
+        angloform:
+          status: gap

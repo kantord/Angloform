@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13754293"
+        gloss: "a quantity that is added; \"there was an addition to property taxes this year\"; \"they recorded the cattle's gain in weight over a period of weeks\""
+        angloform:
+          status: gap
+      - wordnet: "07356676"
+        gloss: "a change resulting in an increase; \"the increase is scheduled for next month\""
+        angloform:
+          status: gap
+      - wordnet: "13497135"
+        gloss: "a process of becoming larger or longer or more numerous or more important; \"the increase in unemployment\"; \"the growth of population\""
+        angloform:
+          status: gap
+      - wordnet: "05108947"
+        gloss: "the amount by which something increases; \"they proposed an increase of 15 percent in the fare\""
+        angloform:
+          status: gap
+      - wordnet: "00363260"
+        gloss: "the act of increasing something; \"he gave me an increase in salary\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00156601"
+        gloss: "become bigger or greater in amount; \"The amount of work increased\""
+        angloform:
+          status: gap
+      - wordnet: "00153263"
+        gloss: "make bigger or more; \"The boss finally increased her salary\"; \"The university increased the number of students it admitted\""
+        angloform:
+          status: gap

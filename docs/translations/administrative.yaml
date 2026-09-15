@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02904075"
+        gloss: of or relating to or responsible for administration
+        angloform:
+          status: gap

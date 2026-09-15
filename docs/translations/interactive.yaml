@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00623356"
+        gloss: used especially of drugs or muscles that work together so the total effect is greater than the sum of the two (or more)
+        angloform:
+          status: gap
+      - wordnet: "01946439"
+        gloss: capable of acting on or influencing each other
+        angloform:
+          status: gap

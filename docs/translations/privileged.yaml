@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01864123"
+        gloss: "blessed with privileges; \"the privileged few\""
+        angloform:
+          status: gap
+      - wordnet: "02366078"
+        gloss: "not subject to usual rules or penalties; \"a privileged statement\""
+        angloform:
+          status: gap
+      - wordnet: "01863066"
+        gloss: "confined to an exclusive group; \"privy to inner knowledge\"; \"inside information\"; \"privileged information\""
+        angloform:
+          status: redirect
+          word: inner
+          category: ADJ

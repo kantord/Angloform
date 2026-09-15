@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08482700"
+        gloss: "the back of a military formation or procession; \"infantrymen were in the rear\""
+        angloform:
+          status: gap
+      - wordnet: "08629508"
+        gloss: "the side of an object that is opposite its front; \"his room was toward the rear of the hotel\""
+        angloform:
+          status: gap
+      - wordnet: "08625846"
+        gloss: "the part of something that is furthest from the normal viewer; \"he stood at the back of the stage\"; \"it was hidden in the rear of the store\""
+        angloform:
+          status: gap
+      - wordnet: "05559256"
+        gloss: "the fleshy part of the human body that you sit on; \"he deserves a good kick in the butt\"; \"are you going to sit on your fanny and do nothing?\""
+        angloform:
+          status: gap
+      - wordnet: "04059701"
+        gloss: "the side that goes last or is not normally seen; \"he wrote the date on the back of the photograph\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01981623"
+        gloss: "stand up on the hind legs, of quadrupeds; \"The horse reared in terror\""
+        angloform:
+          status: gap
+      - wordnet: "02539788"
+        gloss: "bring up; \"raise a family\"; \"bring up children\""
+        angloform:
+          status: gap
+      - wordnet: "02696801"
+        gloss: "rise up; \"The building rose before them\""
+        angloform:
+          status: gap
+      - wordnet: "01982866"
+        gloss: cause to rise up
+        angloform:
+          status: gap
+      - wordnet: "01661243"
+        gloss: "construct, build, or erect; \"Raise a barn\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00197891"
+        gloss: "located in or toward the back or rear; \"the chair's rear legs\"; \"the rear door of the plane\"; \"on the rearward side\""
+        angloform:
+          status: gap

@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00070939"
+        gloss: acted upon; influenced
+        angloform:
+          status: gap
+      - wordnet: "00073048"
+        gloss: speaking or behaving in an artificial way to make an impression
+        angloform:
+          status: redirect
+          word: unnatural
+          category: ADJ
+      - wordnet: "01559903"
+        gloss: "being excited or provoked to the expression of an emotion; \"too moved to speak\"; \"very touched by the stranger's kindness\""
+        angloform:
+          status: gap

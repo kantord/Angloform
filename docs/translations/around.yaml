@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00071165"
+        gloss: "in the area or vicinity; \"a few spectators standing about\"; \"hanging around\"; \"waited around for the next flight\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00071601"
+        gloss: "by a circular or circuitous route; \"He came all the way around the base\"; \"the road goes around the pond\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00072329"
+        gloss: "used of movement to or among many different places or in no particular direction; \"wandering about with no place to go\"; \"people were rushing about\"; \"news gets around (or about)\"; \"traveled around in Asia\"; \"he needs advice from someone who's been around\"; \"she sleeps around\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00071741"
+        gloss: "in a circle or circular motion; \"The wheels are spinning around\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00007015"
+        gloss: "(of quantities) imprecise but fairly close to correct; \"lasted approximately an hour\"; \"in just about a minute\"; \"he's about 30 years old\"; \"I've had about all I can stand\"; \"we meet about once a month\"; \"some forty people came\"; \"weighs around a hundred pounds\"; \"roughly $3,000\"; \"holds 3 gallons, more or less\"; \"20 or so people were at the party\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00072201"
+        gloss: "in or to a reversed position or direction; \"about face\"; \"suddenly she turned around\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00072043"
+        gloss: "to a particular destination either specified or understood; \"she came around to see me\"; \"I invited them around for supper\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00071840"
+        gloss: "all around or on all sides; \"dirty clothes lying around (or about)\"; \"let's look about for help\"; \"There were trees growing all around\"; \"she looked around her\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00071050"
+        gloss: "in circumference; \"the trunk is ten feet around\"; \"the pond is two miles around\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00071456"
+        gloss: "from beginning to end; throughout; \"It rains all year round on Skye\"; \"frigid weather the year around\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,98 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08663860"
+        gloss: "the upper part of anything; \"the mower cuts off the tops of the grass\"; \"the title should be written at the top of the first page\""
+        angloform:
+          status: gap
+      - wordnet: "08663354"
+        gloss: "the highest or uppermost side of anything; \"put your books on top of the desk\"; \"only the top side of the box was painted\""
+        angloform:
+          status: gap
+      - wordnet: "08617963"
+        gloss: "the top or extreme point of something (usually a mountain or hill); \"the view from the peak was magnificent\"; \"they clambered to the tip of Monadnock\"; \"the region is a few molecules wide at the summit\""
+        angloform:
+          status: gap
+      - wordnet: "15256022"
+        gloss: "the first half of an inning; while the visiting team is at bat; \"a relief pitcher took over in the top of the fifth\""
+        angloform:
+          status: gap
+      - wordnet: "13940456"
+        gloss: "the highest level or degree attainable; the highest stage of development; \"his landscapes were deemed the acme of beauty\"; \"the artist's gifts are at their acme\"; \"at the height of her career\"; \"the peak of perfection\"; \"summer was at its peak\"; \"...catapulted Einstein to the pinnacle of fame\"; \"the summit of his ambition\"; \"so many highest superlatives achieved by man\"; \"at the top of his profession\""
+        angloform:
+          status: redirect
+          word: superlative
+          category: NOUN
+      - wordnet: "05037617"
+        gloss: "the greatest possible intensity; \"he screamed at the top of his lungs\""
+        angloform:
+          status: gap
+      - wordnet: "04454540"
+        gloss: platform surrounding the head of a lower mast
+        angloform:
+          status: gap
+      - wordnet: "04454240"
+        gloss: "a conical child's plaything tapering to a steel point on which it can be made to spin; \"he got a bright red top and string for his birthday\""
+        angloform:
+          status: gap
+      - wordnet: "04453910"
+        gloss: "covering for a hole (especially a hole in the top of a container); \"he removed the top of the carton\"; \"he couldn't get the top off of the bottle\"; \"put the cover back on the kettle\""
+        angloform:
+          status: gap
+      - wordnet: "04453666"
+        gloss: "a garment (especially for women) that extends from the shoulders to the waist or hips; \"he stared as she buttoned her top\""
+        angloform:
+          status: gap
+      - wordnet: "03035252"
+        gloss: "a canvas tent to house the audience at a circus performance; \"he was afraid of a fire in the circus tent\"; \"they had the big top up in less than an hour\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02669081"
+        gloss: "be superior or better than some standard; \"She exceeded our expectations\"; \"She topped her performance of last year\""
+        angloform:
+          status: gap
+      - wordnet: "02081178"
+        gloss: "pass by, over, or under without making contact; \"the balloon cleared the tree tops\""
+        angloform:
+          status: gap
+      - wordnet: "02691722"
+        gloss: "be at the top of or constitute the top or highest point; \"A star tops the Christmas Tree\""
+        angloform:
+          status: gap
+      - wordnet: "02687385"
+        gloss: "be ahead of others; be the first; \"she topped her class every year\""
+        angloform:
+          status: gap
+      - wordnet: "02360497"
+        gloss: "provide with a top or finish the top (of a structure); \"the towers were topped with conical roofs\""
+        angloform:
+          status: gap
+      - wordnet: "02021376"
+        gloss: "reach or ascend the top of; \"The hikers topped the mountain just before noon\""
+        angloform:
+          status: gap
+      - wordnet: "01406897"
+        gloss: strike (the top part of a ball in golf, baseball, or pool) giving it a forward spin
+        angloform:
+          status: gap
+      - wordnet: "01321509"
+        gloss: "cut the top off; \"top trees and bushes\""
+        angloform:
+          status: gap
+      - wordnet: "00485891"
+        gloss: "be the culminating event; \"The speech crowned the meeting\""
+        angloform:
+          status: gap
+      - wordnet: "00484712"
+        gloss: "finish up or conclude; \"They topped off their dinner with a cognac\"; \"top the evening with champagne\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02439949"
+        gloss: "situated at the top or highest position; \"the top shelf\""
+        angloform:
+          status: gap

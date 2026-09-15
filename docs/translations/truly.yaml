@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00037226"
+        gloss: "in accordance with truth or fact or reality; \"she was now truly American\"; \"a genuinely open society\"; \"they don't really listen to us\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00223000"
+        gloss: "by right; \"baseball rightfully is the nation's pastime\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00378365"
+        gloss: "with sincerity; without pretense; \"she praised him sincerely for his victory\"; \"was unfeignedly glad to see his old teacher\"; \"we are truly sorry for the inconvenience\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00038013"
+        gloss: "in fact (used as intensifiers or sentence modifiers); \"in truth, moral decay hastened the decline of the Roman Empire\"; \"really, you shouldn't have done it\"; \"a truly awful book\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

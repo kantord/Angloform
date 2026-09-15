@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07475870"
+        gloss: an unfortunate happening that hinders or impedes; something that is thwarting or frustrating
+        angloform:
+          status: redirect
+          word: reversal
+          category: NOUN

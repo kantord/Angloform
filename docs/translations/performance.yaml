@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06891493"
+        gloss: "a dramatic or musical entertainment; \"they listened to ten different performances\"; \"the play ran for 100 performances\"; \"the frequent performances of the symphony testify to its popularity\""
+        angloform:
+          status: gap
+      - wordnet: "00550771"
+        gloss: "the act of presenting a play or a piece of music or other entertainment; \"we congratulated him on his performance at the rehearsal\"; \"an inspired performance of Mozart's C minor concerto\""
+        angloform:
+          status: gap
+      - wordnet: "00097504"
+        gloss: "the act of performing; of doing something successfully; using knowledge as distinguished from merely possessing it; \"they criticised his performance as mayor\"; \"experience generally improves performance\""
+        angloform:
+          status: gap
+      - wordnet: "00047106"
+        gloss: "any recognized accomplishment; \"they admired his performance under stress\"; \"when Roger Maris powered four home runs in one game his performance merits awe\""
+        angloform:
+          status: gap
+      - wordnet: "13525549"
+        gloss: "process or manner of functioning or operating; \"the power of its engine determines its operation\"; \"the plane's operation in high winds\"; \"they compared the cooking performance of each oven\"; \"the jet's performance conformed to high standards\""
+        angloform:
+          status: gap

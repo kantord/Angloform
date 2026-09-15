@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10216106"
+        gloss: someone who commits capital in order to gain financial returns
+        angloform:
+          status: gap

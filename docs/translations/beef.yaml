@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02404186"
+        gloss: cattle that are reared for their meat
+        angloform:
+          status: gap
+      - wordnet: "07663592"
+        gloss: meat from an adult domestic bovine
+        angloform:
+          status: gap
+      - wordnet: "07209965"
+        gloss: "informal terms for objecting; \"I have a gripe about the service here\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00910973"
+        gloss: "complain; \"What was he hollering about?\""
+        angloform:
+          status: gap

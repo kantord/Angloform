@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07873807"
+        gloss: Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese
+        angloform:
+          status: gap

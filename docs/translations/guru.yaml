@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10152616"
+        gloss: a Hindu or Buddhist religious leader and spiritual teacher
+        angloform:
+          status: gap
+      - wordnet: "10152889"
+        gloss: each of the first ten leaders of the Sikh religion
+        angloform:
+          status: gap
+      - wordnet: "10152763"
+        gloss: "a recognized leader in some field or of some movement; \"a guru of genomics\""
+        angloform:
+          status: gap

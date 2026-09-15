@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03686470"
+        gloss: floor consisting of a large unpartitioned space over a factory or warehouse or other commercial space
+        angloform:
+          status: gap
+      - wordnet: "03686130"
+        gloss: floor consisting of open space at the top of a house just below roof; often used for storage
+        angloform:
+          status: gap
+      - wordnet: "05069447"
+        gloss: (golf) the backward slant on the head of some golf clubs that is designed to drive the ball high in the air
+        angloform:
+          status: gap
+      - wordnet: "03686363"
+        gloss: a raised shelter in which pigeons are kept
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02282252"
+        gloss: store in a loft
+        angloform:
+          status: gap
+      - wordnet: "01604442"
+        gloss: "propel through the air; \"The rocket lofted the space shuttle into the air\""
+        angloform:
+          status: gap
+      - wordnet: "01604012"
+        gloss: "kick or strike high in the air; \"loft a ball\""
+        angloform:
+          status: gap
+      - wordnet: "00711420"
+        gloss: "lay out a full-scale working drawing of the lines of a vessel's hull"
+        angloform:
+          status: gap

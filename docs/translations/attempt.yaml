@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00786195"
+        gloss: "earnest and conscientious activity intended to do or accomplish something; \"made an effort to cover all the reading material\"; \"wished him luck in his endeavor\"; \"she gave it a good try\""
+        angloform:
+          status: gap
+      - wordnet: "00773814"
+        gloss: "the act of attacking; \"attacks on women increased last year\"; \"they made an attempt on his life\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02530167"
+        gloss: "make an effort or attempt; \"He tried to shake off his fears\"; \"The infant had essayed a few wobbly steps\"; \"The police attempted to stop the thief\"; \"He sought to improve himself\"; \"She always seeks to do good in the world\""
+        angloform:
+          status: gap
+      - wordnet: "01651293"
+        gloss: enter upon an activity or enterprise
+        angloform:
+          status: gap

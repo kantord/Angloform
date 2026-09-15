@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14580897"
+        gloss: "the tangible substance that goes into the makeup of a physical object; \"coal is a hard black material\"; \"wheat is the stuff they use to make bread\""
+        angloform:
+          status: gap
+      - wordnet: "06635509"
+        gloss: "information (data or ideas or observations) that can be used or reworked into a finished form; \"the archives provided rich material for a definitive biography\""
+        angloform:
+          status: gap
+      - wordnet: "03309808"
+        gloss: "artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers; \"the fabric in the curtains was light and semitransparent\"; \"woven cloth originated in Mesopotamia around 5000 BC\"; \"she measured off enough material for a dress\""
+        angloform:
+          status: redirect
+          word: cloth
+          category: NOUN
+      - wordnet: "03729951"
+        gloss: "things needed for doing or making something; \"writing materials\"; \"useful teaching materials\""
+        angloform:
+          status: gap
+      - wordnet: "10300654"
+        gloss: "a person judged suitable for admission or employment; \"he was university material\"; \"she was vice-presidential material\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02577734"
+        gloss: "concerned with worldly rather than spiritual interests; \"material possessions\"; \"material wealth\"; \"material comforts\""
+        angloform:
+          status: gap
+      - wordnet: "00626800"
+        gloss: "derived from or composed of matter; \"the material universe\""
+        angloform:
+          status: gap
+      - wordnet: "01487627"
+        gloss: "directly relevant to a matter especially a law case; \"his support made a material difference\"; \"evidence material to the issue at hand\"; \"facts likely to influence the judgment are called material facts\"; \"a material witness\""
+        angloform:
+          status: gap
+      - wordnet: "01779193"
+        gloss: "concerned with or affecting physical as distinct from intellectual or psychological well-being; \"material needs\"; \"the moral and material welfare of all good citizens\"- T.Roosevelt"
+        angloform:
+          status: gap
+      - wordnet: "00629997"
+        gloss: "having material or physical form or substance; \"that which is created is of necessity corporeal and visible and tangible\" - Benjamin Jowett"
+        angloform:
+          status: gap
+      - wordnet: "00625393"
+        gloss: "having substance or capable of being treated as fact; not imaginary; \"the substantial world\"; \"a mere dream, neither substantial nor practical\"; \"most ponderous and substantial things\"- Shakespeare"
+        angloform:
+          status: redirect
+          word: real
+          category: ADJ

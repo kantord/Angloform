@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14864360"
+        gloss: "a soft greasy substance occurring in organic tissue and consisting of a mixture of lipids (mostly triglycerides); \"pizza has too much fat\""
+        angloform:
+          status: gap
+      - wordnet: "05268965"
+        gloss: "a kind of body tissue containing stored fat that serves as a source of energy; it also cushions and insulates vital organs; \"fatty tissue protected them from the severe cold\""
+        angloform:
+          status: gap
+      - wordnet: "04999401"
+        gloss: "excess bodily weight; \"she disliked fatness in herself as well as in others\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01194938"
+        gloss: "make fat or plump; \"We will plump out that poor starving child\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00986027"
+        gloss: "having an (over)abundance of flesh; \"he hadn't remembered how fat she was\""
+        angloform:
+          status: gap
+      - wordnet: "02411224"
+        gloss: "having a relatively large diameter; \"a fat rope\""
+        angloform:
+          status: gap
+      - wordnet: "00991838"
+        gloss: "containing or composed of fat; \"fatty food\"; \"fat tissue\""
+        angloform:
+          status: gap
+      - wordnet: "01871349"
+        gloss: "lucrative; \"a juicy contract\"; \"a nice fat job\""
+        angloform:
+          status: gap
+      - wordnet: "01081340"
+        gloss: "marked by great fruitfulness; \"fertile farmland\"; \"a fat land\"; \"a productive vineyard\"; \"rich soil\""
+        angloform:
+          status: gap

@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01005063"
+        gloss: "(of materials or goods) brought to the desired final state; \"a finished product\""
+        angloform:
+          status: gap
+      - wordnet: "01003050"
+        gloss: "ended or brought to an end; \"are you finished?\"; \"gave me the finished manuscript\""
+        angloform:
+          status: gap
+      - wordnet: "01812630"
+        gloss: "(of skills or the products of skills) brought to or having the greatest excellence; perfected; \"a dazzling and finished piece of writing\"; \"a finished violinist\""
+        angloform:
+          status: gap
+      - wordnet: "01713550"
+        gloss: "having a surface coating or finish applied; \"the finished bookcase costs much more than the unfinished ones\""
+        angloform:
+          status: gap
+      - wordnet: "00736299"
+        gloss: "brought to ruin; \"after the revolution the aristocracy was finished\"; \"the unsuccessful run for office left him ruined politically and economically\""
+        angloform:
+          status: gap

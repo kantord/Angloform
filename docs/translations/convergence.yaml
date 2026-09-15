@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07414740"
+        gloss: the occurrence of two or more things coming together
+        angloform:
+          status: gap
+      - wordnet: "05863106"
+        gloss: the approach of an infinite series to a finite limit
+        angloform:
+          status: gap
+      - wordnet: "05764365"
+        gloss: "a representation of common ground between theories or phenomena; \"there was no overlap between their proposals\""
+        angloform:
+          status: gap
+      - wordnet: "00146572"
+        gloss: the act of converging (coming closer)
+        angloform:
+          status: gap

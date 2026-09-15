@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10182913"
+        gloss: someone who practices homosexuality; having a sexual attraction to persons of the same sex
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00363938"
+        gloss: "bright and pleasant; promoting a feeling of cheer; \"a cheery hello\"; \"a gay sunny room\"; \"a sunny smile\""
+        angloform:
+          status: gap
+      - wordnet: "01367651"
+        gloss: "full of or showing high-spirited merriment; \"when hearts were young and gay\"; \"a poet could not but be gay, in such a jocund company\"- Wordsworth; \"the jolly crowd at the reunion\"; \"jolly old Saint Nick\"; \"a jovial old gentleman\"; \"have a merry Christmas\"; \"peals of merry laughter\"; \"a mirthful laugh\""
+        angloform:
+          status: gap
+      - wordnet: "01298708"
+        gloss: "given to social pleasures often including dissipation; \"led a gay Bohemian life\"; \"a gay old rogue with an eye for the ladies\""
+        angloform:
+          status: gap
+      - wordnet: "00407151"
+        gloss: "brightly colored and showy; \"girls decked out in brave new dresses\"; \"brave banners flying\"; \"`braw' is a Scottish word\"; \"a dress a bit too gay for her years\"; \"birds with gay plumage\""
+        angloform:
+          status: gap
+      - wordnet: "01367431"
+        gloss: "offering fun and gaiety; \"a festive (or festal) occasion\"; \"gay and exciting night life\"; \"a merry evening\""
+        angloform:
+          status: gap
+      - wordnet: "01201937"
+        gloss: homosexual or arousing homosexual desires
+        angloform:
+          status: gap

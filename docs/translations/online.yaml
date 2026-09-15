@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01650883"
+        gloss: "on a regular route of a railroad or bus or airline system; \"on-line industries\""
+        angloform:
+          status: gap
+      - wordnet: "01650401"
+        gloss: "connected to a computer network or accessible by computer; \"an on-line database\""
+        angloform:
+          status: gap
+      - wordnet: "00667936"
+        gloss: "being in progress now; \"on-line editorial projects\""
+        angloform:
+          status: gap

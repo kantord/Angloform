@@ -1,0 +1,81 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00129527"
+        gloss: "(baseball) a failure by a batter or runner to reach a base safely in baseball; \"you only get 3 outs per inning\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00935456"
+        gloss: "to state openly and publicly one's homosexuality; \"This actor outed last year\""
+        angloform:
+          status: gap
+      - wordnet: "00935264"
+        gloss: "reveal (something) about somebody's identity or lifestyle; \"The gay actor was outed last week\"; \"Someone outed a CIA agent\""
+        angloform:
+          status: gap
+      - wordnet: "00935141"
+        gloss: "be made known; be disclosed or revealed; \"The truth will out\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02061487"
+        gloss: "not allowed to continue to bat or run; \"he was tagged out at second on a close play\"; \"he fanned out\""
+        angloform:
+          status: gap
+      - wordnet: "00100213"
+        gloss: "being out or having grown cold; \"threw his extinct cigarette into the stream\"; \"the fire is out\""
+        angloform:
+          status: gap
+      - wordnet: "01823948"
+        gloss: "not worth considering as a possibility; \"a picnic is out because of the weather\""
+        angloform:
+          status: gap
+      - wordnet: "02334973"
+        gloss: "out of power; especially having been unsuccessful in an election; \"now the Democrats are out\""
+        angloform:
+          status: gap
+      - wordnet: "01761375"
+        gloss: "excluded from use or mention; \"forbidden fruit\"; \"in our house dancing and playing cards were out\"; \"a taboo subject\""
+        angloform:
+          status: gap
+      - wordnet: "01295946"
+        gloss: "directed outward or serving to direct something outward; \"the out doorway\"; \"the out basket\""
+        angloform:
+          status: gap
+      - wordnet: "00974908"
+        gloss: "no longer fashionable; \"that style is out these days\""
+        angloform:
+          status: gap
+      - wordnet: "00952653"
+        gloss: "outside or external; \"the out surface of a ship's hull\""
+        angloform:
+          status: gap
+      - wordnet: "00949797"
+        gloss: "outer or outlying; \"the out islands\""
+        angloform:
+          status: gap
+      - wordnet: "00572714"
+        gloss: knocked unconscious by a heavy blow
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00232862"
+        gloss: "away from home; \"they went out last night\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00233413"
+        gloss: "moving or appearing to move away from a place, especially one that is enclosed or hidden; \"the cat came out from under the bed\";"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00233295"
+        gloss: "from one's possession; \"he gave out money to the poor\"; \"gave away the tickets\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

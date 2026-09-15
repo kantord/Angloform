@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10834439"
+        gloss: United States composer (1910-1981)
+        angloform:
+          status: gap
+      - wordnet: "09838895"
+        gloss: a hairdresser who cuts hair and shaves beards as a trade
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00042792"
+        gloss: "perform the services of a barber: cut the hair and/or beard of"
+        angloform:
+          status: gap

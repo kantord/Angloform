@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07301336"
+        gloss: an unfortunate mishap; especially one causing damage or injury
+        angloform:
+          status: gap
+      - wordnet: "07300960"
+        gloss: "anything that happens suddenly or by chance without an apparent cause; \"winning the lottery was a happy accident\"; \"the pregnancy was a stroke of bad luck\"; \"it was due to an accident or fortuity\""
+        angloform:
+          status: gap

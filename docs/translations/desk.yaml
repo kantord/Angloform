@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03179701"
+        gloss: a piece of furniture with a writing surface and usually drawers or other compartments
+        angloform:
+          status: gap

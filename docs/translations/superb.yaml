@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02342608"
+        gloss: "of surpassing excellence; \"a brilliant performance\"; \"a superb actor\""
+        angloform:
+          status: gap
+      - wordnet: "01125154"
+        gloss: "surpassingly good; \"a superb meal\""
+        angloform:
+          status: gap

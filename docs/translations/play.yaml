@@ -1,0 +1,216 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07007945"
+        gloss: "a dramatic work intended for performance by actors on a stage; \"he wrote several plays but only one was produced on Broadway\""
+        angloform:
+          status: gap
+      - wordnet: "07018931"
+        gloss: "a theatrical performance of a drama; \"the play lasted two hours\""
+        angloform:
+          status: gap
+      - wordnet: "00557588"
+        gloss: "a preset plan of action in team sports; \"the coach drew up the plays for her team\""
+        angloform:
+          status: gap
+      - wordnet: "00556313"
+        gloss: "a deliberate coordinated movement requiring dexterity and skill; \"he made a great maneuver\"; \"the runner was out on a play by the shortstop\""
+        angloform:
+          status: gap
+      - wordnet: "14009763"
+        gloss: "a state in which action is feasible; \"the ball was still in play\"; \"insiders said the company's stock was in play\""
+        angloform:
+          status: gap
+      - wordnet: "00947596"
+        gloss: "utilization or exercise; \"the play of the imagination\""
+        angloform:
+          status: gap
+      - wordnet: "00786887"
+        gloss: "an attempt to get something; \"they made a futile play for power\"; \"he made a bid to gain attention\""
+        angloform:
+          status: gap
+      - wordnet: "00431893"
+        gloss: "activity by children that is guided more by imagination than by fixed rules; \"Freud believed in the utility of play to a small child\""
+        angloform:
+          status: gap
+      - wordnet: "15256915"
+        gloss: "(in games or plays or other performances) the time during which play proceeds; \"rain stopped play in the 4th inning\""
+        angloform:
+          status: gap
+      - wordnet: "13993842"
+        gloss: "the removal of constraints; \"he gave free rein to his impulses\"; \"they gave full play to the artist's talent\""
+        angloform:
+          status: gap
+      - wordnet: "07411851"
+        gloss: "a weak and tremulous light; \"the shimmer of colors on iridescent feathers\"; \"the play of light on the water\""
+        angloform:
+          status: gap
+      - wordnet: "06780882"
+        gloss: "verbal wit or mockery (often at another's expense but not to be taken seriously); \"he became a figure of fun\"; \"he said it in sport\""
+        angloform:
+          status: gap
+      - wordnet: "04774511"
+        gloss: "movement or space for movement; \"there was too much play in the steering wheel\""
+        angloform:
+          status: gap
+      - wordnet: "00511817"
+        gloss: "gay or light-hearted recreational activity for diversion or amusement; \"it was all done in play\"; \"their frolic in the surf threatened to become ugly\""
+        angloform:
+          status: gap
+      - wordnet: "00457382"
+        gloss: "(game) the activity of doing something in an agreed succession; \"it is my turn\"; \"it is still my play\""
+        angloform:
+          status: gap
+      - wordnet: "00430140"
+        gloss: "the act of playing for stakes in the hope of winning (including the payment of a price for a chance to win a prize); \"his gambling cost him a fortune\"; \"there was heavy play at the blackjack table\""
+        angloform:
+          status: gap
+      - wordnet: "00041468"
+        gloss: the act using a sword (or other weapon) vigorously and skillfully
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01072949"
+        gloss: "participate in games or sport; \"We played hockey all afternoon\"; \"play cards\"; \"Pele played for the Brazilian teams in many important matches\""
+        angloform:
+          status: gap
+      - wordnet: "02370650"
+        gloss: "act or have an effect in a specified way or with a specific effect or outcome; \"This factor played only a minor part in his decision\"; \"This development played into her hands\"; \"I played no role in your dismissal\""
+        angloform:
+          status: gap
+      - wordnet: "01725051"
+        gloss: "play on an instrument; \"The band played all night long\""
+        angloform:
+          status: gap
+      - wordnet: "01719302"
+        gloss: "play a role or part; \"Gielgud played Hamlet\"; \"She wants to act Lady Macbeth, but she is too young for the role\"; \"She played the servant to her husband's master\""
+        angloform:
+          status: gap
+      - wordnet: "02418686"
+        gloss: "be at play; be engaged in playful activity; amuse oneself in a way characteristic of children; \"The kids were playing outside all day\"; \"I used to play with trucks as a little girl\""
+        angloform:
+          status: gap
+      - wordnet: "01724459"
+        gloss: "replay (as a melody); \"Play it again, Sam\"; \"She played the third movement very beautifully\""
+        angloform:
+          status: gap
+      - wordnet: "01726172"
+        gloss: "perform music on (a musical instrument); \"He plays the flute\"; \"Can you play on this old recorder?\""
+        angloform:
+          status: gap
+      - wordnet: "00013615"
+        gloss: "pretend to have certain qualities or state of mind; \"He acted the idiot\"; \"She plays deaf when the news are bad\""
+        angloform:
+          status: gap
+      - wordnet: "01903385"
+        gloss: "move or seem to move quickly, lightly, or irregularly; \"The spotlights played on the politicians\""
+        angloform:
+          status: gap
+      - wordnet: "01138911"
+        gloss: "bet or wager (money); \"He played $20 on the new horse\"; \"She plays the races\""
+        angloform:
+          status: gap
+      - wordnet: "02418421"
+        gloss: "engage in recreational activities rather than work; occupy oneself in a diversion; \"On weekends I play\"; \"The students all recreate alike\""
+        angloform:
+          status: gap
+      - wordnet: "01722077"
+        gloss: "pretend to be somebody in the framework of a game or playful activity; \"Let's play like I am mommy\"; \"Play cowboy and Indians\""
+        angloform:
+          status: gap
+      - wordnet: "01717436"
+        gloss: "emit recorded sound; \"The tape was playing for hours\"; \"the stereo was playing Beethoven when I entered\""
+        angloform:
+          status: gap
+      - wordnet: "01716619"
+        gloss: "perform on a certain location; \"The prodigy played Carnegie Hall at the age of 16\"; \"She has been playing on Broadway for years\""
+        angloform:
+          status: gap
+      - wordnet: "01149470"
+        gloss: "put (a card or piece) into play during a game, or act strategically as if in a card game; \"He is playing his cards close to his chest\"; \"The Democrats still have some cards to play before they will concede the electoral victory\""
+        angloform:
+          status: gap
+      - wordnet: "00013328"
+        gloss: "engage in an activity as if it were a game rather than take it seriously; \"They played games on their opponents\"; \"play the stock market\"; \"play with her feelings\"; \"toy with an idea\""
+        angloform:
+          status: gap
+      - wordnet: "02597601"
+        gloss: "behave in a certain way; \"play safe\"; \"play it safe\"; \"play fair\""
+        angloform:
+          status: gap
+      - wordnet: "01717169"
+        gloss: "cause to emit recorded audio or video; \"They ran the tapes over and over again\"; \"I'll play you my favorite record\"; \"He never tires of playing that video\""
+        angloform:
+          status: gap
+      - wordnet: "01586278"
+        gloss: "manipulate manually or in one's mind or imagination; \"She played nervously with her wedding ring\"; \"Don't fiddle with the screws\"; \"He played with the idea of running for the Senate\""
+        angloform:
+          status: gap
+      - wordnet: "01163355"
+        gloss: "use to one's advantage; \"She plays on her clients' emotions\""
+        angloform:
+          status: gap
+      - wordnet: "00711932"
+        gloss: "consider not very seriously; \"He is trifling with her\"; \"She plays with the thought of moving to Tasmania\""
+        angloform:
+          status: gap
+      - wordnet: "02722449"
+        gloss: "be received or accepted or interpreted in a specific way; \"This speech didn't play well with the American public\"; \"His remarks played to the suspicions of the committee\""
+        angloform:
+          status: gap
+      - wordnet: "02437465"
+        gloss: "behave carelessly or indifferently; \"Play about with a young girl's affection\""
+        angloform:
+          status: gap
+      - wordnet: "01903562"
+        gloss: "cause to move or operate freely within a bounded space; \"The engine has a wheel that is playing in a rack\""
+        angloform:
+          status: gap
+      - wordnet: "01719921"
+        gloss: "perform on a stage or theater; \"She acts in this play\"; \"He acted in `Julius Caesar'\"; \"I played in `A Christmas Carol'\""
+        angloform:
+          status: gap
+      - wordnet: "01716882"
+        gloss: "be performed or presented for public viewing; \"What's playing in the local movie theater?\"; \"`Cats' has been playing on Broadway for many years\""
+        angloform:
+          status: gap
+      - wordnet: "01629589"
+        gloss: "cause to happen or to occur as a consequence; \"I cannot work a miracle\"; \"wreak havoc\"; \"bring comments\"; \"play a joke\"; \"The rain brought relief to the drought-stricken area\""
+        angloform:
+          status: gap
+      - wordnet: "01377239"
+        gloss: "discharge or direct or be discharged or directed as if in a continuous stream; \"play water from a hose\"; \"The fountains played all day\""
+        angloform:
+          status: gap
+      - wordnet: "01156115"
+        gloss: "make bets; \"Play the races\"; \"play the casinos in Trouville\""
+        angloform:
+          status: gap
+      - wordnet: "01155687"
+        gloss: "stake on the outcome of an issue; \"I bet $100 on that new horse\"; \"She played all her money on the dark horse\""
+        angloform:
+          status: gap
+      - wordnet: "01080691"
+        gloss: "shoot or hit in a particular manner; \"She played a good backhand last night\""
+        angloform:
+          status: gap
+      - wordnet: "01080064"
+        gloss: "use or move; \"I had to play my queen\""
+        angloform:
+          status: gap
+      - wordnet: "01079873"
+        gloss: "employ in a game or in a specific position; \"They played him on first base\""
+        angloform:
+          status: gap
+      - wordnet: "01079480"
+        gloss: "contend against an opponent in a sport, game, or battle; \"Princeton plays Yale this weekend\"; \"Charlie likes to play Mary\""
+        angloform:
+          status: redirect
+          word: meet
+          category: VERB_TRANS
+      - wordnet: "00075875"
+        gloss: "exhaust by allowing to pull on the line; \"play a hooked fish\""
+        angloform:
+          status: gap

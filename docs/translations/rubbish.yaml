@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14857497"
+        gloss: worthless material that is to be disposed of
+        angloform:
+          status: gap
+      - wordnet: "06611998"
+        gloss: nonsensical talk or writing
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01062165"
+        gloss: attack strongly
+        angloform:
+          status: gap

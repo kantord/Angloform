@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02684971"
+        gloss: "relating to or inhabiting a divine heaven; \"celestial beings\"; \"heavenly hosts\""
+        angloform:
+          status: gap
+      - wordnet: "02685153"
+        gloss: "of or relating to the sky; \"celestial map\"; \"a heavenly body\""
+        angloform:
+          status: gap
+      - wordnet: "01178974"
+        gloss: of or belonging to heaven or god
+        angloform:
+          status: gap

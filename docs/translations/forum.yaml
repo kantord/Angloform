@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08309754"
+        gloss: a public meeting or assembly for open discussion
+        angloform:
+          status: gap
+      - wordnet: "03386420"
+        gloss: a public facility to meet for open discussion
+        angloform:
+          status: gap

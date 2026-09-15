@@ -1,0 +1,90 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04553389"
+        gloss: a thin coat of water-base paint
+        angloform:
+          status: gap
+      - wordnet: "00255710"
+        gloss: the work of cleansing (usually with soap and water)
+        angloform:
+          status: gap
+      - wordnet: "09474895"
+        gloss: the dry bed of an intermittent stream (as at the bottom of a canyon)
+        angloform:
+          status: gap
+      - wordnet: "13574193"
+        gloss: "the erosive process of washing away soil or gravel by water (as from a roadway); \"from the house they watched the washout of their newly seeded lawn by the water\""
+        angloform:
+          status: gap
+      - wordnet: "11423197"
+        gloss: the flow of air that is driven backwards by an aircraft propeller
+        angloform:
+          status: gap
+      - wordnet: "04553245"
+        gloss: a watercolor made by applying a series of monochrome washes one over the other
+        angloform:
+          status: gap
+      - wordnet: "03648219"
+        gloss: garments or white goods that can be cleaned by laundering
+        angloform:
+          status: gap
+      - wordnet: "01096674"
+        gloss: "any enterprise in which losses and gains cancel out; \"at the end of the year the accounting department showed that it was a wash\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01270199"
+        gloss: clean with some chemical process
+        angloform:
+          status: gap
+      - wordnet: "00036362"
+        gloss: "cleanse (one's body) with soap and water"
+        angloform:
+          status: gap
+      - wordnet: "01535246"
+        gloss: "cleanse with a cleaning agent, such as soap, and water; \"Wash the towels, please!\""
+        angloform:
+          status: gap
+      - wordnet: "02098179"
+        gloss: "move by or as if by water; \"The swollen river washed away the footbridge\""
+        angloform:
+          status: gap
+      - wordnet: "02742842"
+        gloss: "be capable of being washed; \"Does this material wash?\""
+        angloform:
+          status: gap
+      - wordnet: "02703153"
+        gloss: "admit to testing or proof; \"This silly excuse won't wash in traffic court\""
+        angloform:
+          status: gap
+      - wordnet: "01536344"
+        gloss: separate dirt or gravel from (precious minerals)
+        angloform:
+          status: gap
+      - wordnet: "01269844"
+        gloss: apply a thin coating of paint, metal, etc., to
+        angloform:
+          status: gap
+      - wordnet: "00557686"
+        gloss: "remove by the application of water or other liquid and soap or some other cleaning agent; \"he washed the dirt from his coat\"; \"The nurse washed away the blood\"; \"Can you wash away the spots on the windows?\"; \"he managed to wash out the stains\""
+        angloform:
+          status: gap
+      - wordnet: "00274942"
+        gloss: "form by erosion; \"The river washed a ravine into the mountainside\""
+        angloform:
+          status: gap
+      - wordnet: "00217956"
+        gloss: "make moist; \"The dew moistened the meadows\""
+        angloform:
+          status: gap
+      - wordnet: "00217576"
+        gloss: "wash or flow against; \"the waves laved the shore\""
+        angloform:
+          status: gap
+      - wordnet: "00036178"
+        gloss: "to cleanse (itself or another animal) by licking; \"The cat washes several times a day\""
+        angloform:
+          status: gap

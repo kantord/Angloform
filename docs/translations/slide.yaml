@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04237924"
+        gloss: a small flat rectangular piece of glass on which specimens can be mounted for microscopic study
+        angloform:
+          status: gap
+      - wordnet: "07404944"
+        gloss: (geology) the descent of a large mass of earth or rocks or snow etc.
+        angloform:
+          status: gap
+      - wordnet: "06857264"
+        gloss: "(music) rapid sliding up or down the musical scale; \"the violinist was indulgent with his swoops and slides\""
+        angloform:
+          status: gap
+      - wordnet: "04238128"
+        gloss: plaything consisting of a sloping chute down which children can slide
+        angloform:
+          status: gap
+      - wordnet: "00328502"
+        gloss: "the act of moving smoothly along a surface while remaining in contact with it; \"his slide didn't stop until the bottom of the hill\"; \"the children lined up for a coast down the snowy slope\""
+        angloform:
+          status: gap
+      - wordnet: "04237773"
+        gloss: a transparency mounted in a frame; viewed with a slide projector
+        angloform:
+          status: gap
+      - wordnet: "03029603"
+        gloss: sloping channel through which things can descend
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01870275"
+        gloss: "move obliquely or sideways, usually in an uncontrolled manner; \"the wheels skidded against the sidewalk\""
+        angloform:
+          status: gap
+      - wordnet: "01886488"
+        gloss: "to pass or move unobtrusively or smoothly; \"They slid through the wicket in the big gate\""
+        angloform:
+          status: gap
+      - wordnet: "02090990"
+        gloss: "move smoothly along a surface; \"He slid the money over to the other gambler\""
+        angloform:
+          status: gap

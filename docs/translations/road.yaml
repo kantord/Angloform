@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04096066"
+        gloss: an open way (generally public) for travel or transportation
+        angloform:
+          status: gap
+      - wordnet: "00174003"
+        gloss: "a way or means to achieve something; \"the road to fame\""
+        angloform:
+          status: gap

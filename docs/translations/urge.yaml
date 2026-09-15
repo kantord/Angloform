@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09180431"
+        gloss: "an instinctive motive; \"profound religious impulses\""
+        angloform:
+          status: gap
+      - wordnet: "07490451"
+        gloss: "a strong restless desire; \"why this urge to travel?\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00765649"
+        gloss: "force or impel in an indicated direction; \"I urged him to finish his studies\""
+        angloform:
+          status: gap
+      - wordnet: "00875141"
+        gloss: "push for something; \"The travel agent recommended strongly that we not travel on Thanksgiving Day\""
+        angloform:
+          status: gap
+      - wordnet: "00858781"
+        gloss: "spur on or encourage especially by cheers and shouts; \"The crowd cheered the demonstrating strikers\""
+        angloform:
+          status: gap

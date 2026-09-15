@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00105603"
+        gloss: "with little or no delay; \"the rescue squad arrived promptly\"; \"come here, quick!\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00105341"
+        gloss: "in a punctual manner; \"he did his homework promptly\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00105467"
+        gloss: "at once (usually modifies an undesirable occurrence); \"he promptly forgot the address\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

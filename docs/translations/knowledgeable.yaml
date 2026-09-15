@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00830051"
+        gloss: "highly educated; having extensive information or understanding; \"knowing instructors\"; \"a knowledgeable critic\"; \"a knowledgeable audience\""
+        angloform:
+          status: gap
+      - wordnet: "01307850"
+        gloss: "alert and fully informed; \"a knowing collector of rare books\"; \"surprisingly knowledgeable about what was going on\""
+        angloform:
+          status: gap
+      - wordnet: "00936038"
+        gloss: "thoroughly acquainted through study or experience; \"this girl, so intimate with nature\"-W.H.Hudson; \"knowledgeable about the technique of painting\"- Herbert Read"
+        angloform:
+          status: gap

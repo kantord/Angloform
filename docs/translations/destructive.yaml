@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00586183"
+        gloss: "causing destruction or much damage; \"a policy that is destructive to the economy\"; \"destructive criticism\""
+        angloform:
+          status: gap

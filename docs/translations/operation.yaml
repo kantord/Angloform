@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14008806"
+        gloss: "the state of being in effect or being operative; \"that rule is no longer in operation\""
+        angloform:
+          status: gap
+      - wordnet: "01095966"
+        gloss: "a business especially one run on a large scale; \"a large-scale farming operation\"; \"a multinational operation\"; \"they paid taxes on every stage of the operation\"; \"they had to consolidate their operations\""
+        angloform:
+          status: gap
+      - wordnet: "00409483"
+        gloss: "a planned activity involving many people performing various actions; \"they organized a rescue operation\"; \"the biggest police operation in French history\"; \"running a restaurant is quite an operation\"; \"consolidate the companies various operations\""
+        angloform:
+          status: gap
+      - wordnet: "13524925"
+        gloss: "(computer science) data processing in which the result is completely specified by a rule (especially the processing that results from a single instruction); \"it can perform millions of operations per second\""
+        angloform:
+          status: gap
+      - wordnet: "00955060"
+        gloss: "activity by a military or naval force (as a maneuver or campaign); \"it was a joint operation of the navy and air force\""
+        angloform:
+          status: gap
+      - wordnet: "00671351"
+        gloss: "a medical procedure involving an incision with instruments; performed to repair damage or arrest disease in a living body; \"they will schedule the operation as soon as an operating room is available\"; \"he died while undergoing surgery\""
+        angloform:
+          status: gap
+      - wordnet: "00577068"
+        gloss: "a process or series of acts especially of a practical or mechanical nature involved in a particular form of work; \"the operations in building a house\"; \"certain machine tool operations\""
+        angloform:
+          status: redirect
+          word: procedure
+          category: NOUN
+      - wordnet: "13525549"
+        gloss: "process or manner of functioning or operating; \"the power of its engine determines its operation\"; \"the plane's operation in high winds\"; \"they compared the cooking performance of each oven\"; \"the jet's performance conformed to high standards\""
+        angloform:
+          status: gap
+      - wordnet: "05701363"
+        gloss: "(psychology) the performance of some composite cognitive activity; an operation that affects mental contents; \"the process of thinking\"; \"the cognitive operation of remembering\""
+        angloform:
+          status: redirect
+          word: process
+          category: NOUN
+      - wordnet: "00869583"
+        gloss: "(mathematics) calculation by mathematical methods; \"the problems at the end of the chapter demonstrated the mathematical processes involved in the derivation\"; \"they were learning the basic operations of arithmetic\""
+        angloform:
+          status: gap
+      - wordnet: "00409211"
+        gloss: "the activity of operating something (a machine or business etc.); \"her smooth operation of the vehicle gave us a surprisingly comfortable ride\""
+        angloform:
+          status: gap

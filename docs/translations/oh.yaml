@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09130076"
+        gloss: a midwestern state in north central United States in the Great Lakes region
+        angloform:
+          status: gap

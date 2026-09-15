@@ -1,0 +1,82 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06356515"
+        gloss: (computer science) the code that identifies where a piece of information is stored
+        angloform:
+          status: redirect
+          word: reference
+          category: NOUN
+      - wordnet: "08491027"
+        gloss: the place where a person or organization can be found or communicated with
+        angloform:
+          status: gap
+      - wordnet: "07238694"
+        gloss: "the act of delivering a formal spoken communication to an audience; \"he listened to an address on minor Roman poets\""
+        angloform:
+          status: gap
+      - wordnet: "07067591"
+        gloss: "the manner of speaking to another individual; \"he failed in his manner of address to the captain\""
+        angloform:
+          status: gap
+      - wordnet: "06794216"
+        gloss: a sign in front of a house or business carrying the conventional form by which its location is described
+        angloform:
+          status: gap
+      - wordnet: "06787150"
+        gloss: written directions for finding some location; written on letters or packages that are to be delivered to that location
+        angloform:
+          status: gap
+      - wordnet: "05082648"
+        gloss: the stance assumed by a golfer in preparation for hitting a golf ball
+        angloform:
+          status: gap
+      - wordnet: "04842232"
+        gloss: social skill
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00897564"
+        gloss: "speak to; \"He addressed the crowd outside the window\""
+        angloform:
+          status: gap
+      - wordnet: "00989201"
+        gloss: "give a speech to; \"The chairman addressed the board of trustees\""
+        angloform:
+          status: gap
+      - wordnet: "00990812"
+        gloss: put an address on (an envelope)
+        angloform:
+          status: gap
+      - wordnet: "01150981"
+        gloss: direct a question at someone
+        angloform:
+          status: gap
+      - wordnet: "01160899"
+        gloss: "address or apply oneself to something, direct one's efforts towards something, such as a question"
+        angloform:
+          status: gap
+      - wordnet: "02601456"
+        gloss: "greet, as with a prescribed form, title, or name; \"He always addresses me with `Sir'\"; \"Call me Mister\"; \"She calls him by first name\""
+        angloform:
+          status: gap
+      - wordnet: "02249018"
+        gloss: access or locate by address
+        angloform:
+          status: gap
+      - wordnet: "01033527"
+        gloss: "act on verbally or in some form of artistic expression; \"This book deals with incest\"; \"The course covered all of Western Civilization\"; \"The new book treats the history of China\""
+        angloform:
+          status: redirect
+          word: cover
+          category: VERB_TRANS
+      - wordnet: "00990655"
+        gloss: speak to someone
+        angloform:
+          status: gap
+      - wordnet: "00464687"
+        gloss: adjust and aim (a golf ball) at in preparation of hitting
+        angloform:
+          status: gap

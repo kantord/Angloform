@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13649791"
+        gloss: a unit of length equal to one twelfth of a foot
+        angloform:
+          status: gap
+      - wordnet: "13713300"
+        gloss: a unit of measurement for advertising space
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02072501"
+        gloss: "advance slowly, as if by inches; \"He edged towards the car\""
+        angloform:
+          status: gap

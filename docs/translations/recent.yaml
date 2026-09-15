@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15124713"
+        gloss: approximately the last 10,000 years
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01642477"
+        gloss: "new; \"recent graduates\"; \"a recent addition to the house\"; \"recent buds on the apple trees\""
+        angloform:
+          status: gap
+      - wordnet: "01730444"
+        gloss: "of the immediate past or just previous to the present time; \"a late development\"; \"their late quarrel\"; \"his recent trip to Africa\"; \"in recent months\"; \"a recent issue of the journal\""
+        angloform:
+          status: redirect
+          word: late
+          category: ADJ

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06506757"
+        gloss: "a message that helps you remember something; \"he ignored his wife's reminders\""
+        angloform:
+          status: gap
+      - wordnet: "05813626"
+        gloss: an experience that causes you to remember something
+        angloform:
+          status: gap
+      - wordnet: "09771855"
+        gloss: someone who gives a warning so that a mistake can be avoided
+        angloform:
+          status: gap

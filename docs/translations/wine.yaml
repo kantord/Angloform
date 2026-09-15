@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07891726"
+        gloss: fermented juice (of grapes especially)
+        angloform:
+          status: gap
+      - wordnet: "04964162"
+        gloss: a red as dark as red wine
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01190840"
+        gloss: drink wine
+        angloform:
+          status: gap
+      - wordnet: "01176567"
+        gloss: "treat to wine; \"Our relatives in Italy wined and dined us for a week\""
+        angloform:
+          status: gap

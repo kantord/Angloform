@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07869775"
+        gloss: cubes of meat marinated and cooked on a skewer usually with vegetables
+        angloform:
+          status: gap

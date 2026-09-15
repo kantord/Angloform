@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14562683"
+        gloss: "impairment resulting from long use; \"the tires showed uneven wear\""
+        angloform:
+          status: gap
+      - wordnet: "03051540"
+        gloss: "a covering designed to be worn on a person's body"
+        angloform:
+          status: gap
+      - wordnet: "00830257"
+        gloss: "the act of having on your person as a covering or adornment; \"she bought it for everyday wear\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00052374"
+        gloss: "be dressed in; \"She was wearing yellow that day\""
+        angloform:
+          status: gap
+      - wordnet: "00047745"
+        gloss: "have on one's person; \"He wore a red ribbon\"; \"bear a scar\""
+        angloform:
+          status: gap
+      - wordnet: "02740034"
+        gloss: "have in one's aspect; wear an expression of one's attitude or personality; \"He always wears a smile\""
+        angloform:
+          status: gap
+      - wordnet: "00469382"
+        gloss: "deteriorate through use or stress; \"The constant friction wore out the cloth\""
+        angloform:
+          status: gap
+      - wordnet: "00047610"
+        gloss: "have or show an appearance of; \"wear one's hair in a certain way\""
+        angloform:
+          status: gap
+      - wordnet: "02705132"
+        gloss: "last and be usable; \"This dress wore well for almost ten years\""
+        angloform:
+          status: gap
+      - wordnet: "01369346"
+        gloss: "go to pieces; \"The lawn mower finally broke\"; \"The gears wore out\"; \"The old chair finally fell apart completely\""
+        angloform:
+          status: redirect
+          word: break
+          category: VERB_TRANS
+      - wordnet: "00075021"
+        gloss: "exhaust or get tired through overuse or great strain or stress; \"We wore ourselves out on this hike\""
+        angloform:
+          status: gap
+      - wordnet: "00050652"
+        gloss: "put clothing on one's body; \"What should I wear today?\"; \"He put on his best suit for the wedding\"; \"The princess donned a long blue dress\"; \"The queen assumed the stately robes\"; \"He got into his jeans\""
+        angloform:
+          status: gap

@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00310063"
+        gloss: to travel for the purpose of discovery
+        angloform:
+          status: gap
+      - wordnet: "00945777"
+        gloss: a careful systematic search
+        angloform:
+          status: gap
+      - wordnet: "05785311"
+        gloss: "a systematic consideration; \"he called for a careful exploration of the consequences\""
+        angloform:
+          status: gap

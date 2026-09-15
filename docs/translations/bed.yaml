@@ -1,0 +1,64 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02818832"
+        gloss: "a piece of furniture that provides a place to sleep; \"he sat on the edge of the bed\"; \"the room had only a bed and chair\""
+        angloform:
+          status: gap
+      - wordnet: "02819474"
+        gloss: "a plot of ground in which plants are growing; \"the gardener planted a bed of roses\""
+        angloform:
+          status: gap
+      - wordnet: "09217638"
+        gloss: "a depression forming the ground under a body of water; \"he searched for treasure on the ocean bed\""
+        angloform:
+          status: gap
+      - wordnet: "09217867"
+        gloss: "(geology) a stratum of rock (especially sedimentary rock); \"they found a bed of sandstone\""
+        angloform:
+          status: gap
+      - wordnet: "08659076"
+        gloss: "a stratum of ore or coal thick enough to be mined with profit; \"he worked in the coal beds\""
+        angloform:
+          status: redirect
+          word: seam
+          category: NOUN
+      - wordnet: "03650173"
+        gloss: "single thickness of usually some homogeneous substance; \"slices of hard-boiled egg on a bed of spinach\""
+        angloform:
+          status: redirect
+          word: layer
+          category: NOUN
+      - wordnet: "02819881"
+        gloss: the flat surface of a printing press on which the type form is laid in the last stage of producing a newspaper or magazine or book etc.
+        angloform:
+          status: gap
+      - wordnet: "02819697"
+        gloss: "a foundation of earth or rock supporting a road or railroad track; \"the track bed had washed away\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02337066"
+        gloss: "furnish with a bed; \"The inn keeper could bed all the new arrivals\""
+        angloform:
+          status: gap
+      - wordnet: "01567653"
+        gloss: place (plants) in a prepared bed of soil
+        angloform:
+          status: gap
+      - wordnet: "01500082"
+        gloss: "put to bed; \"The children were bedded at ten o'clock\""
+        angloform:
+          status: gap
+      - wordnet: "01426397"
+        gloss: "have sexual intercourse with; \"This student sleeps with everyone in her dorm\"; \"Adam knew Eve\"; \"Were you ever intimate with this man?\""
+        angloform:
+          status: redirect
+          word: know
+          category: VERB_TRANS
+      - wordnet: "00017865"
+        gloss: "prepare for sleep; \"I usually turn in at midnight\"; \"He goes to bed at the crack of dawn\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00355258"
+        gloss: "not made or become different; \"the causes that produced them have remained unchanged\""
+        angloform:
+          status: gap
+      - wordnet: "00353206"
+        gloss: "remaining in an original state; \"persisting unaltered through time\""
+        angloform:
+          status: gap

@@ -1,0 +1,25 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09131654"
+        gloss: a state in south central United States
+        angloform:
+          status: gap
+      - wordnet: "06687701"
+        gloss: "an endorsement; \"they gave us the O.K. to go ahead\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02081114"
+        gloss: "being satisfactory or in satisfactory condition; \"an all-right movie\"; \"the passengers were shaken up but are all right\"; \"is everything all right?\"; \"everything's fine\"; \"things are okay\"; \"dinner and the movies had been fine\"; \"another minute I'd have been fine\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00053004"
+        gloss: an expression of agreement normally occurring at the beginning of a sentence
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

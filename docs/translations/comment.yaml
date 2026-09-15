@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06765044"
+        gloss: "a statement that expresses a personal opinion or belief or adds information; \"from time to time she contributed a personal comment on his account\""
+        angloform:
+          status: redirect
+          word: input
+          category: NOUN
+      - wordnet: "06762711"
+        gloss: "a written explanation or criticism or illustration that is added to a book or other textual material; \"he wrote an extended comment on the proposal\""
+        angloform:
+          status: gap
+      - wordnet: "07223170"
+        gloss: "a report (often malicious) about the behavior of other people; \"the divorce caused much gossip\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01058574"
+        gloss: "make or write a comment on; \"he commented the paper of his colleague\""
+        angloform:
+          status: gap
+      - wordnet: "01033189"
+        gloss: explain or interpret something
+        angloform:
+          status: gap
+      - wordnet: "00961329"
+        gloss: "provide interlinear explanations for words or phrases; \"He annotated on what his teacher had written\""
+        angloform:
+          status: gap

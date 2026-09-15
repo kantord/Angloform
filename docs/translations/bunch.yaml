@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07959943"
+        gloss: "a grouping of a number of similar things; \"a bunch of trees\"; \"a cluster of admirers\""
+        angloform:
+          status: gap
+      - wordnet: "08273843"
+        gloss: "an informal body of friends; \"he still hangs out with the same crowd\""
+        angloform:
+          status: gap
+      - wordnet: "07954731"
+        gloss: "any collection in its entirety; \"she bought the whole caboodle\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02027411"
+        gloss: "form into a bunch; \"The frightened children bunched together in the corner of the classroom\""
+        angloform:
+          status: gap
+      - wordnet: "01484392"
+        gloss: "gather or cause to gather into a cluster; \"She bunched her fingers into a fist\""
+        angloform:
+          status: gap

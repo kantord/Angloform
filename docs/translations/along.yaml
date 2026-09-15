@@ -1,0 +1,29 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00068368"
+        gloss: "with a forward motion; \"we drove along admiring the view\"; \"the horse trotted along at a steady pace\"; \"the circus traveled on to the next city\"; \"move along\"; \"march on\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00068577"
+        gloss: "in accompaniment or as a companion; \"his little sister came along to the movies\"; \"I brought my camera along\"; \"working along with his father\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00068986"
+        gloss: "to a more advanced state; \"the work is moving along\"; \"well along in their research\"; \"hurrying their education along\"; \"getting along in years\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00068753"
+        gloss: "in addition (usually followed by `with'); \"we sent them food and some clothing went along in the package\"; \"along with the package came a bill\"; \"consider the advantages along with the disadvantages\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00069164"
+        gloss: "in line with a length or direction (often followed by `by' or `beside'); \"pass the word along\"; \"ran along beside me\"; \"cottages along by the river\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

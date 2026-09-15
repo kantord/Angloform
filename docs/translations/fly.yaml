@@ -1,0 +1,88 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02190166"
+        gloss: two-winged insects characterized by active flight
+        angloform:
+          status: gap
+      - wordnet: "04412097"
+        gloss: flap consisting of a piece of canvas that can be drawn back to provide entrance to a tent
+        angloform:
+          status: gap
+      - wordnet: "03373060"
+        gloss: an opening in a garment that is closed by a zipper or by buttons concealed under a fold of cloth
+        angloform:
+          status: gap
+      - wordnet: "00128638"
+        gloss: (baseball) a hit that flies up in the air
+        angloform:
+          status: gap
+      - wordnet: "03373237"
+        gloss: "fisherman's lure consisting of a fishhook decorated to look like an insect"
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01940403"
+        gloss: "travel through the air; be airborne; \"Man cannot fly\""
+        angloform:
+          status: gap
+      - wordnet: "01842068"
+        gloss: "move quickly or suddenly; \"He flew about the place\""
+        angloform:
+          status: gap
+      - wordnet: "01941093"
+        gloss: "operate an airplane; \"The pilot flew to Cuba\""
+        angloform:
+          status: gap
+      - wordnet: "01451842"
+        gloss: "transport by aeroplane; \"We fly flowers from the Caribbean to North America\""
+        angloform:
+          status: gap
+      - wordnet: "01848058"
+        gloss: "cause to fly or float; \"fly a kite\""
+        angloform:
+          status: gap
+      - wordnet: "01839404"
+        gloss: "be dispersed or disseminated; \"Rumors and accusations are flying\""
+        angloform:
+          status: gap
+      - wordnet: "00545292"
+        gloss: "change quickly from one emotional state to another; \"fly into a rage\""
+        angloform:
+          status: gap
+      - wordnet: "02073065"
+        gloss: "pass away rapidly; \"Time flies like an arrow\"; \"Time fleeing beneath him\""
+        angloform:
+          status: gap
+      - wordnet: "01840238"
+        gloss: "travel in an airplane; \"she is flying to Cincinnati tonight\"; \"Are we driving or flying?\""
+        angloform:
+          status: gap
+      - wordnet: "02140965"
+        gloss: "display in the air or cause to float; \"fly a kite\"; \"All nations fly their flags in front of the U.N.\""
+        angloform:
+          status: gap
+      - wordnet: "02075462"
+        gloss: "run away quickly; \"He threw down his gun and fled\""
+        angloform:
+          status: gap
+      - wordnet: "01847845"
+        gloss: "travel over (an area of land or sea) in an aircraft; \"Lindbergh was the first to fly the Atlantic\""
+        angloform:
+          status: gap
+      - wordnet: "01402765"
+        gloss: hit a fly
+        angloform:
+          status: gap
+      - wordnet: "00153061"
+        gloss: "decrease rapidly and disappear; \"the money vanished in las Vegas\"; \"all my stock assets have vaporized\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00092136"
+        gloss: (British informal) not to be deceived or hoodwinked
+        angloform:
+          status: gap

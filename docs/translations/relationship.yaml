@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13780719"
+        gloss: "a relation between people; (`relationship' is often used where `relation' would serve, as in `the relationship between inflation and unemployment', but the preferred usage of `relationship' is for human relations or states of relatedness); \"the relationship between mothers and their children\""
+        angloform:
+          status: gap
+      - wordnet: "13928388"
+        gloss: "a state of connectedness between people (especially an emotional connection); \"he didn't want his wife to know of the relationship\""
+        angloform:
+          status: gap
+      - wordnet: "13928668"
+        gloss: a state involving mutual dealings between people or parties or countries
+        angloform:
+          status: gap
+      - wordnet: "13812607"
+        gloss: (anthropology) relatedness or connection by blood or marriage or adoption
+        angloform:
+          status: gap

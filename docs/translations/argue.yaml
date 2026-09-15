@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00772189"
+        gloss: present reasons and arguments
+        angloform:
+          status: gap
+      - wordnet: "00773432"
+        gloss: have an argument about something
+        angloform:
+          status: gap
+      - wordnet: "00772640"
+        gloss: "give evidence of; \"The evidence argues for your claim\"; \"The results indicate the need for more work\""
+        angloform:
+          status: gap

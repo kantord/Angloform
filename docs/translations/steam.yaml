@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15055181"
+        gloss: water at boiling temperature diffused in the atmosphere
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01944976"
+        gloss: "travel by means of steam power; \"The ship steamed off into the Pacific\""
+        angloform:
+          status: gap
+      - wordnet: "02768579"
+        gloss: "emit steam; \"The rain forest was literally steaming\""
+        angloform:
+          status: gap
+      - wordnet: "01970272"
+        gloss: rise as vapor
+        angloform:
+          status: gap
+      - wordnet: "01787319"
+        gloss: "get very angry; \"her indifference to his amorous advances really steamed the young man\""
+        angloform:
+          status: gap
+      - wordnet: "01245325"
+        gloss: "clean by means of steaming; \"steam-clean the upholstered sofa\""
+        angloform:
+          status: gap
+      - wordnet: "00327145"
+        gloss: "cook something by letting steam pass over it; \"just steam the vegetables\""
+        angloform:
+          status: gap

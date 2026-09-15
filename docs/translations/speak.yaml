@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00941990"
+        gloss: "express in speech; \"She talks a lot of nonsense\"; \"This depressed patient does not verbalize\""
+        angloform:
+          status: gap
+      - wordnet: "00962447"
+        gloss: "exchange thoughts; talk with; \"We often talk business\"; \"Actions talk louder than words\""
+        angloform:
+          status: gap
+      - wordnet: "00963570"
+        gloss: "use language; \"the baby talks already\"; \"the prisoner won't speak\"; \"they speak a strange dialect\""
+        angloform:
+          status: gap
+      - wordnet: "00989201"
+        gloss: "give a speech to; \"The chairman addressed the board of trustees\""
+        angloform:
+          status: gap
+      - wordnet: "02135607"
+        gloss: "make a characteristic or natural sound; \"The drums spoke\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: a suffix-form abstract noun of mental disposition (e.g. "open-mindedness")
+        angloform:
+          status: gap
+          note: no mind/disposition vocabulary exists yet; zero WordNet attestation as a standalone lemma

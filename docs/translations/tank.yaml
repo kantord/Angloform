@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04389033"
+        gloss: an enclosed armored military vehicle; has a cannon and moves on caterpillar treads
+        angloform:
+          status: gap
+      - wordnet: "04388743"
+        gloss: a large (usually metallic) vessel for holding gases or liquids
+        angloform:
+          status: gap
+      - wordnet: "13770529"
+        gloss: as much as a tank will hold
+        angloform:
+          status: gap
+      - wordnet: "04389521"
+        gloss: a freight car that transports liquids or gases in bulk
+        angloform:
+          status: gap
+      - wordnet: "03102771"
+        gloss: a cell for violent prisoners
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02282082"
+        gloss: store in a tank by causing (something) to flow into it
+        angloform:
+          status: gap
+      - wordnet: "01171563"
+        gloss: consume excessive amounts of alcohol
+        angloform:
+          status: gap
+      - wordnet: "00185348"
+        gloss: "treat in a tank; \"tank animal refuse\""
+        angloform:
+          status: gap

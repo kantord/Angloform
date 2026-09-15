@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15287830"
+        gloss: "an interval during which a recurring sequence of events occurs; \"the never-ending cycle of the seasons\""
+        angloform:
+          status: gap
+      - wordnet: "08377332"
+        gloss: "a series of poems or songs on the same theme; \"Schubert's song cycles\""
+        angloform:
+          status: gap
+      - wordnet: "07342495"
+        gloss: "a periodically repeated sequence of events; \"a cycle of reprisal and retaliation\""
+        angloform:
+          status: gap
+      - wordnet: "15279104"
+        gloss: the unit of frequency; one hertz has a periodic interval of one second
+        angloform:
+          status: gap
+      - wordnet: "07341038"
+        gloss: "a single complete execution of a periodically repeated phenomenon; \"a year constitutes a cycle of the seasons\""
+        angloform:
+          status: gap
+      - wordnet: "02834778"
+        gloss: a wheeled vehicle that has two wheels and is moved by foot pedals
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02052675"
+        gloss: "cause to go through a recurring sequence; \"cycle the laundry in this washing program\""
+        angloform:
+          status: gap
+      - wordnet: "02051270"
+        gloss: "pass through a cycle; \"This machine automatically cycles\""
+        angloform:
+          status: gap
+      - wordnet: "01936048"
+        gloss: ride a motorcycle
+        angloform:
+          status: gap
+      - wordnet: "01935476"
+        gloss: ride a bicycle
+        angloform:
+          status: gap
+      - wordnet: "00343771"
+        gloss: recur in repeating sequences
+        angloform:
+          status: gap

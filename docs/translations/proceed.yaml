@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00781000"
+        gloss: "continue talking; \"I know it's hard,\" he continued, \"but there is no choice\"; \"carry on--pretend we are not in the room\""
+        angloform:
+          status: gap
+      - wordnet: "01995549"
+        gloss: "move ahead; travel onward in time or space; \"We proceeded towards Washington\"; \"She continued in the direction of the hills\"; \"We are moving ahead in time now\""
+        angloform:
+          status: gap
+      - wordnet: "02372605"
+        gloss: "follow a procedure or take a course; \"We should go farther in this matter\"; \"She went through a lot of trouble\"; \"go about the world in a certain manner\"; \"Messages must go through diplomatic channels\""
+        angloform:
+          status: redirect
+          word: move
+          category: VERB_TRANS
+      - wordnet: "00341560"
+        gloss: "follow a certain course; \"The inauguration went well\"; \"how did your interview go?\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "02684924"
+        gloss: "continue a certain state, condition, or activity; \"Keep on working!\"; \"We continued to work into the night\"; \"Keep smiling\"; \"We went on working until well past midnight\""
+        angloform:
+          status: redirect
+          word: keep
+          category: VERB_TRANS

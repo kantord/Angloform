@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07135734"
+        gloss: "an exchange of ideas via conversation; \"let's have more work and less talk around here\""
+        angloform:
+          status: gap
+      - wordnet: "07139316"
+        gloss: "discussion; (`talk about' is a less formal alternative for `discussion of'); \"his poetry contains much talk about love and anger\""
+        angloform:
+          status: gap
+      - wordnet: "00893243"
+        gloss: "the act of giving a talk to an audience; \"I attended an interesting talk on local history\""
+        angloform:
+          status: gap
+      - wordnet: "07240549"
+        gloss: "a speech that is open to the public; \"he attended a lecture on telecommunications\""
+        angloform:
+          status: gap
+      - wordnet: "07223985"
+        gloss: "idle gossip or rumor; \"there has been talk about you lately\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00962447"
+        gloss: "exchange thoughts; talk with; \"We often talk business\"; \"Actions talk louder than words\""
+        angloform:
+          status: gap
+      - wordnet: "00941990"
+        gloss: "express in speech; \"She talks a lot of nonsense\"; \"This depressed patient does not verbalize\""
+        angloform:
+          status: gap
+      - wordnet: "00963570"
+        gloss: "use language; \"the baby talks already\"; \"the prisoner won't speak\"; \"they speak a strange dialect\""
+        angloform:
+          status: gap
+      - wordnet: "00952841"
+        gloss: "reveal information; \"If you don't oblige me, I'll talk!\"; \"The former employee spilled all the details\""
+        angloform:
+          status: gap
+      - wordnet: "00937208"
+        gloss: "divulge confidential information or secrets; \"Be careful--his secretary talks\""
+        angloform:
+          status: gap
+      - wordnet: "00830761"
+        gloss: "deliver a lecture or talk; \"She will talk at Rutgers next week\"; \"Did you ever lecture at Harvard?\""
+        angloform:
+          status: gap

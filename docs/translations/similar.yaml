@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02071420"
+        gloss: "marked by correspondence or resemblance; \"similar food at similar prices\"; \"problems similar to mine\"; \"they wore similar coats\""
+        angloform:
+          status: gap
+      - wordnet: "01410606"
+        gloss: "having the same or similar characteristics; \"all politicians are alike\"; \"they looked utterly alike\"; \"friends are generally alike in background and taste\""
+        angloform:
+          status: gap
+      - wordnet: "01409581"
+        gloss: "resembling or similar; having the same or some of the same characteristics; often used in combination; \"suits of like design\"; \"a limited circle of like minds\"; \"members of the cat family have like dispositions\"; \"as like as two peas in a pod\"; \"doglike devotion\"; \"a dreamlike quality\""
+        angloform:
+          status: gap
+      - wordnet: "02381495"
+        gloss: (of words) expressing closely related meanings
+        angloform:
+          status: gap
+      - wordnet: "01978532"
+        gloss: "capable of replacing or changing places with something else; permitting mutual substitution without loss of function or suitability; \"interchangeable electric outlets\" \"interchangeable parts\""
+        angloform:
+          status: gap

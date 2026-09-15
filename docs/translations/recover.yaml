@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02247977"
+        gloss: "get or find back; recover the use of; \"She regained control of herself\"; \"She found her voice and replied quickly\""
+        angloform:
+          status: redirect
+          word: find
+          category: VERB_TRANS
+      - wordnet: "00092690"
+        gloss: "get over an illness or shock; \"The patient is recuperating\""
+        angloform:
+          status: gap
+      - wordnet: "00528339"
+        gloss: "regain a former condition after a financial loss; \"We expect the stocks to recover to $2.90\"; \"The company managed to recuperate\""
+        angloform:
+          status: gap
+      - wordnet: "02249438"
+        gloss: "regain or make up for; \"recuperate one's losses\""
+        angloform:
+          status: gap
+      - wordnet: "02226833"
+        gloss: reuse (materials from waste products)
+        angloform:
+          status: gap
+      - wordnet: "01336541"
+        gloss: "cover anew; \"recover a chair\""
+        angloform:
+          status: gap

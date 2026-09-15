@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02082611"
+        gloss: "not up to expectations; \"a disappointing performance from one who had seemed so promising\""
+        angloform:
+          status: gap

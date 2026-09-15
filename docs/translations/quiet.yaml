@@ -1,0 +1,63 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14522956"
+        gloss: "a period of calm weather; \"there was a lull in the storm\""
+        angloform:
+          status: gap
+      - wordnet: "13969101"
+        gloss: an untroubled state; free from disturbances
+        angloform:
+          status: gap
+      - wordnet: "04982207"
+        gloss: "the absence of sound; \"he needed silence in order to sleep\"; \"the street was quiet\""
+        angloform:
+          status: gap
+      - wordnet: "04904352"
+        gloss: a disposition free from stress or emotion
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02190188"
+        gloss: "become quiet or quieter; \"The audience fell silent when the speaker entered\""
+        angloform:
+          status: gap
+      - wordnet: "01764800"
+        gloss: "make calm or still; \"quiet the dragons of worry and fear\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01922763"
+        gloss: "characterized by an absence or near absence of agitation or activity; \"a quiet life\"; \"a quiet throng of onlookers\"; \"quiet peace-loving people\"; \"the factions remained quiet for almost 10 years\""
+        angloform:
+          status: gap
+      - wordnet: "01918984"
+        gloss: "free of noise or uproar; or making little if any sound; \"a quiet audience at the concert\"; \"the room was dark and quiet\""
+        angloform:
+          status: gap
+      - wordnet: "01849170"
+        gloss: "not showy or obtrusive; \"clothes in quiet good taste\""
+        angloform:
+          status: gap
+      - wordnet: "01455540"
+        gloss: "in a softened tone; \"hushed voices\"; \"muted trumpets\"; \"a subdued whisper\"; \"a quiet reprimand\""
+        angloform:
+          status: gap
+      - wordnet: "00302951"
+        gloss: "(of a body of water) free from disturbance by heavy waves; \"a ribbon of sand between the angry sea and the placid bay\"; \"the quiet waters of a lagoon\"; \"a lake of tranquil blue water reflecting a tranquil blue sky\"; \"a smooth channel crossing\"; \"scarcely a ripple on the still water\"; \"unruffled water\""
+        angloform:
+          status: gap
+      - wordnet: "00043615"
+        gloss: of the sun characterized by a low level of surface phenomena like sunspots e.g.
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00229568"
+        gloss: "with little or no activity or no agitation (`quiet' is a nonstandard variant for `quietly'); \"her hands rested quietly in her lap\"; \"the rock star was quietly led out the back door\"; \"sit here as quiet as you can\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,80 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14406303"
+        gloss: "a display of bad temper; \"he had a fit\"; \"she threw a tantrum\"; \"he made a scene\""
+        angloform:
+          status: gap
+      - wordnet: "14082788"
+        gloss: "a sudden uncontrollable attack; \"a paroxysm of giggling\"; \"a fit of coughing\"; \"convulsions of laughter\""
+        angloform:
+          status: gap
+      - wordnet: "04930307"
+        gloss: "the manner in which something fits; \"I admired the fit of her coat\""
+        angloform:
+          status: gap
+      - wordnet: "00555325"
+        gloss: "a sudden flurry of activity (often for no obvious reason); \"a burst of applause\"; \"a fit of housecleaning\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02702830"
+        gloss: "be agreeable or acceptable to; \"This suits my needs\""
+        angloform:
+          status: gap
+      - wordnet: "02659763"
+        gloss: "be the right size or shape; fit correctly or as desired; \"This piece won't fit into the puzzle\""
+        angloform:
+          status: redirect
+          word: go
+          category: VERB_INTRANS
+      - wordnet: "02667900"
+        gloss: "satisfy a condition or restriction; \"Does this paper meet the requirements for the degree?\""
+        angloform:
+          status: redirect
+          word: meet
+          category: VERB_TRANS
+      - wordnet: "00300537"
+        gloss: "make fit; \"fit a dress\"; \"He fitted other pieces of paper to his cut-out\""
+        angloform:
+          status: gap
+      - wordnet: "00300113"
+        gloss: "insert or adjust several objects or people; \"Can you fit the toy into the box?\"; \"This man can't fit himself into our work environment\""
+        angloform:
+          status: gap
+      - wordnet: "02657219"
+        gloss: "be compatible, similar or consistent; coincide in their characteristics; \"The two stories don't agree in many details\"; \"The handwriting checks with the signature on the check\"; \"The suspect's fingerprints don't match those on the gun\""
+        angloform:
+          status: redirect
+          word: match
+          category: VERB_TRANS
+      - wordnet: "02735753"
+        gloss: "conform to some shape or size; \"How does this shirt fit?\""
+        angloform:
+          status: gap
+      - wordnet: "02339413"
+        gloss: "provide with (something) usually for a specific purpose; \"The expedition was equipped with proper clothing, food, and other necessities\""
+        angloform:
+          status: gap
+      - wordnet: "00456740"
+        gloss: "make correspond or harmonize; \"Match my sweater\""
+        angloform:
+          status: redirect
+          word: match
+          category: VERB_TRANS
+  ADJ:
+    senses:
+      - wordnet: "01020393"
+        gloss: "meeting adequate standards for a purpose; \"a fit subject for discussion\"; \"it is fit and proper that you be there\"; \"water fit to drink\"; \"fit for duty\"; \"do as you see fit to\""
+        angloform:
+          status: gap
+      - wordnet: "01931203"
+        gloss: "(usually followed by `to' or `for') on the point of or strongly disposed; \"in no fit state to continue\"; \"fit to drop\"; \"laughing fit to burst\"; \"she was fit to scream\"; \"primed for a fight\"; \"we are set to go at any time\""
+        angloform:
+          status: gap
+      - wordnet: "01017161"
+        gloss: "physically and mentally sound or healthy; \"felt relaxed and fit after their holiday\"; \"keeps fit with diet and exercise\""
+        angloform:
+          status: gap

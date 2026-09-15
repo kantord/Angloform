@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06802785"
+        gloss: a slight indication
+        angloform:
+          status: gap
+      - wordnet: "06643763"
+        gloss: evidence that helps to solve a problem
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01523401"
+        gloss: roll into a ball
+        angloform:
+          status: gap

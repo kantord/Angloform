@@ -1,0 +1,72 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14856263"
+        gloss: "any materials unused and rejected as worthless or unwanted; \"they collect the waste once a week\"; \"much of the waste material is carried off in the sewers\""
+        angloform:
+          status: gap
+      - wordnet: "00742645"
+        gloss: "useless or profitless activity; using or expending or consuming thoughtlessly or carelessly; \"if the effort brings no compensating gain it is a waste\"; \"mindless dissipation of natural resources\""
+        angloform:
+          status: gap
+      - wordnet: "04894964"
+        gloss: "the trait of wasting resources; \"a life characterized by thriftlessness and waste\"; \"the wastefulness of missed opportunities\""
+        angloform:
+          status: gap
+      - wordnet: "08504594"
+        gloss: "an uninhabited wilderness that is worthless for cultivation; \"the barrens of central Africa\"; \"the trackless wastes of the desert\""
+        angloform:
+          status: gap
+      - wordnet: "01252124"
+        gloss: (law) reduction in the value of an estate caused by act or neglect
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02268351"
+        gloss: "spend thoughtlessly; throw away; \"He wasted his inheritance on his insincere friends\"; \"You squandered the opportunity to get and advanced degree\""
+        angloform:
+          status: gap
+      - wordnet: "01161087"
+        gloss: "use inefficiently or inappropriately; \"waste heat\"; \"waste a joke on an unappreciative audience\""
+        angloform:
+          status: gap
+      - wordnet: "02223479"
+        gloss: "get rid of; \"We waste the dirty water by channeling it into the sewer\""
+        angloform:
+          status: gap
+      - wordnet: "02067889"
+        gloss: "run off as waste; \"The water wastes back into the ocean\""
+        angloform:
+          status: gap
+      - wordnet: "01327301"
+        gloss: "get rid of (someone who may be a threat) by killing; \"The mafia liquidated the informer\"; \"the double agent was neutralized\""
+        angloform:
+          status: gap
+      - wordnet: "01158181"
+        gloss: "spend extravagantly; \"waste not, want not\""
+        angloform:
+          status: gap
+      - wordnet: "00389992"
+        gloss: "lose vigor, health, or flesh, as through grief; \"After her husband died, she just pined away\""
+        angloform:
+          status: gap
+      - wordnet: "00389406"
+        gloss: "cause to grow thin or weak; \"The treatment emaciated him\""
+        angloform:
+          status: gap
+      - wordnet: "00388635"
+        gloss: "cause extensive destruction or ruin utterly; \"The enemy lay waste to the countryside after the invasion\""
+        angloform:
+          status: gap
+      - wordnet: "00093775"
+        gloss: "become physically weaker; \"Political prisoners are wasting away in many prisons all over the world\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01243102"
+        gloss: "located in a dismal or remote area; desolate; \"a desert island\"; \"a godforsaken wilderness crossroads\"; \"a wild stretch of land\"; \"waste places\""
+        angloform:
+          status: gap

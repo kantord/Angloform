@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05928513"
+        gloss: a mental representation of the meaning or significance of something
+        angloform:
+          status: redirect
+          word: version
+          category: NOUN
+      - wordnet: "00100543"
+        gloss: "the act of interpreting something as expressed in an artistic performance; \"her rendition of Milton's verse was extraordinarily moving\""
+        angloform:
+          status: redirect
+          word: rendering
+          category: NOUN
+      - wordnet: "07170753"
+        gloss: "an explanation that results from interpreting something; \"the report included his interpretation of the forensic evidence\""
+        angloform:
+          status: gap
+      - wordnet: "05766247"
+        gloss: "an explanation of something that is not immediately obvious; \"the edict was subject to many interpretations\"; \"he annoyed us with his interpreting of parables\"; \"often imitations are extended to provide a more accurate rendition of the child's intended meaning\""
+        angloform:
+          status: redirect
+          word: rendering
+          category: NOUN

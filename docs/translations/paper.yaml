@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14974264"
+        gloss: a material made of cellulose pulp derived mainly from wood or rags or certain grasses
+        angloform:
+          status: gap
+      - wordnet: "06409752"
+        gloss: "an essay (especially one written as an assignment); \"he got an A on his composition\""
+        angloform:
+          status: redirect
+          word: report
+          category: NOUN
+      - wordnet: "06267145"
+        gloss: "a daily or weekly publication on folded sheets; contains news and articles and advertisements; \"he read his newspaper at breakfast\""
+        angloform:
+          status: gap
+      - wordnet: "06255613"
+        gloss: "a medium for written communication; \"the notion of an office running without paper is absurd\""
+        angloform:
+          status: gap
+      - wordnet: "06269956"
+        gloss: "a scholarly article describing the results of observations or stating hypotheses; \"he has written many scientific papers\""
+        angloform:
+          status: gap
+      - wordnet: "08062970"
+        gloss: "a business firm that publishes newspapers; \"Murdoch owns many newspapers\""
+        angloform:
+          status: gap
+      - wordnet: "03822171"
+        gloss: "the physical object that is the product of a newspaper publisher; \"when it began to rain he covered his head with a newspaper\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01268457"
+        gloss: "cover with paper; \"paper the box\""
+        angloform:
+          status: gap
+      - wordnet: "01268112"
+        gloss: cover with wallpaper
+        angloform:
+          status: gap

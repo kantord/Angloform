@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13371958"
+        gloss: a transparent piece of diamond that has been cut and polished and is valued as a precious gem
+        angloform:
+          status: gap
+      - wordnet: "14834563"
+        gloss: very hard native crystalline carbon valued as a gem
+        angloform:
+          status: gap
+      - wordnet: "13882961"
+        gloss: a parallelogram with four equal sides; an oblique-angled equilateral parallelogram
+        angloform:
+          status: gap
+      - wordnet: "03187972"
+        gloss: "a playing card in the minor suit that has one or more red rhombuses on it; \"he led a small diamond\"; \"diamonds were trumps\""
+        angloform:
+          status: gap
+      - wordnet: "02799593"
+        gloss: the area of a baseball field that is enclosed by 3 bases and home plate
+        angloform:
+          status: gap
+      - wordnet: "02780916"
+        gloss: the baseball playing field
+        angloform:
+          status: gap

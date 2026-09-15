@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02691156"
+        gloss: "an aircraft that has a fixed wing and is powered by propellers or jets; \"the flight was delayed due to trouble with the airplane\""
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08366753"
+        gloss: the system of production and distribution and consumption
+        angloform:
+          status: gap
+      - wordnet: "05644727"
+        gloss: "the efficient use of resources; \"economy of effort\""
+        angloform:
+          status: gap
+      - wordnet: "04893787"
+        gloss: "frugality in the expenditure of money or resources; \"the Scots are famous for their economy\""
+        angloform:
+          status: gap
+      - wordnet: "00192613"
+        gloss: "an act of economizing; reduction in cost; \"it was a small economy to walk to work every day\"; \"there was a saving of 50 cents\""
+        angloform:
+          status: gap

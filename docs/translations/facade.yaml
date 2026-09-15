@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03313333"
+        gloss: the face or front of a building
+        angloform:
+          status: gap
+      - wordnet: "06758698"
+        gloss: a showy misrepresentation intended to conceal something unpleasant
+        angloform:
+          status: gap

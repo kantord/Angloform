@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00842989"
+        gloss: "bring an accusation against; level a charge against; \"The neighbors accused the man of spousal abuse\""
+        angloform:
+          status: gap
+      - wordnet: "00843468"
+        gloss: "blame for, make a claim of wrongdoing or misbehavior against; \"he charged the director with indifference\""
+        angloform:
+          status: gap

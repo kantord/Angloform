@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01989446"
+        gloss: "so strong as to be irresistible; \"an overpowering need for solitude\"; \"the temptation to despair may become overwhelming\"; \"an overwhelming majority\""
+        angloform:
+          status: gap
+      - wordnet: "01511152"
+        gloss: "very intense; \"politics is his consuming passion\"; \"overwhelming joy\""
+        angloform:
+          status: gap

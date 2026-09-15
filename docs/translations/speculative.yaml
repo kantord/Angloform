@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02274537"
+        gloss: "not financially safe or secure; \"a bad investment\"; \"high risk investments\"; \"anything that promises to pay too much can't help being risky\"; \"speculative business enterprises\""
+        angloform:
+          status: redirect
+          word: bad
+          category: ADJ
+      - wordnet: "00861818"
+        gloss: "not based on fact or investigation; \"a notional figure of cost helps in determining production costs\"; \"speculative knowledge\""
+        angloform:
+          status: gap
+      - wordnet: "00664879"
+        gloss: "showing curiosity; \"if someone saw a man climbing a light post they might get inquisitive\"; \"raised a speculative eyebrow\""
+        angloform:
+          status: gap

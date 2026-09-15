@@ -1,0 +1,70 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13266892"
+        gloss: any monetary aid
+        angloform:
+          status: gap
+      - wordnet: "00087423"
+        gloss: the act of providing a subsidy
+        angloform:
+          status: gap
+      - wordnet: "13254237"
+        gloss: (law) a transfer of property by deed of conveyance
+        angloform:
+          status: gap
+      - wordnet: "11011559"
+        gloss: Scottish painter; cousin of Lytton Strachey and member of the Bloomsbury Group (1885-1978)
+        angloform:
+          status: gap
+      - wordnet: "11011398"
+        gloss: United States actor (born in England) who was the elegant leading man in many films (1904-1986)
+        angloform:
+          status: gap
+      - wordnet: "11011123"
+        gloss: 18th President of the United States; commander of the Union armies in the American Civil War (1822-1885)
+        angloform:
+          status: gap
+      - wordnet: "06526619"
+        gloss: "a contract granting the right to operate a subsidiary business; \"he got the beer concession at the ball park\""
+        angloform:
+          status: gap
+      - wordnet: "05176477"
+        gloss: a right or privilege that has been granted
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02255462"
+        gloss: "let have; \"grant permission\"; \"Mandela was allowed few visitors in prison\""
+        angloform:
+          status: redirect
+          word: allow
+          category: VERB_TRANS
+      - wordnet: "02262278"
+        gloss: "give as judged due or on the basis of merit; \"the referee awarded a free kick to the team\"; \"the jury awarded a million dollars to the plaintiff\";\"Funds are granted to qualified researchers\""
+        angloform:
+          status: gap
+      - wordnet: "00806049"
+        gloss: "be willing to concede; \"I grant you this much\""
+        angloform:
+          status: gap
+      - wordnet: "02255268"
+        gloss: "allow to have; \"grant a privilege\""
+        angloform:
+          status: gap
+      - wordnet: "02317094"
+        gloss: "bestow, especially officially; \"grant a degree\"; \"give a divorce\"; \"This bill grants us new rights\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "02316649"
+        gloss: give over; surrender or relinquish to the physical control of another
+        angloform:
+          status: gap
+      - wordnet: "02255942"
+        gloss: "transfer by deed; \"grant land\""
+        angloform:
+          status: gap

@@ -1,0 +1,63 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10105733"
+        gloss: the person who plays the position of forward in certain games, such as basketball, soccer, or hockey
+        angloform:
+          status: gap
+      - wordnet: "00725383"
+        gloss: a position on a basketball, soccer, or hockey team
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01955508"
+        gloss: "send or ship onward from an intermediate post or station in transit; \"forward my mail\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00203237"
+        gloss: "at or near or directed toward the front; \"the forward section of the aircraft\"; \"a forward plunge down the stairs\"; \"forward motion\""
+        angloform:
+          status: gap
+      - wordnet: "00204491"
+        gloss: "used of temperament or behavior; lacking restraint or modesty; \"a forward child badly in need of discipline\""
+        angloform:
+          status: gap
+      - wordnet: "00203774"
+        gloss: "of the transmission gear causing forward movement in a motor vehicle; \"in a forward gear\""
+        angloform:
+          status: gap
+      - wordnet: "01876555"
+        gloss: moving forward
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00074641"
+        gloss: "at or to or toward the front; \"he faced forward\"; \"step forward\"; \"she practiced sewing backward as well as frontward on her new sewing machine\"; (`forrad' and `forrard' are dialectal variations)"
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00103859"
+        gloss: "forward in time or order or degree; \"from that time forth\"; \"from the sixth century onward\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00075442"
+        gloss: "toward the future; forward in time; \"I like to look ahead in imagination to what the future may bring\"; \"I look forward to seeing you\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00067265"
+        gloss: "in a forward direction; \"go ahead\"; \"the train moved ahead slowly\"; \"the boat lurched ahead\"; \"moved onward into the forest\"; \"they went slowly forward in the mud\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00275694"
+        gloss: "near or toward the bow of a ship or cockpit of a plane; \"the captain went fore (or forward) to check the instruments\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

@@ -1,0 +1,86 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03532919"
+        gloss: a catch for locking a door
+        angloform:
+          status: gap
+      - wordnet: "13869547"
+        gloss: a sharp curve or crook; a shape resembling a hook
+        angloform:
+          status: gap
+      - wordnet: "05695232"
+        gloss: anything that serves as an enticement
+        angloform:
+          status: gap
+      - wordnet: "03532672"
+        gloss: a mechanical device that is curved or bent to suspend or hold or pull something
+        angloform:
+          status: gap
+      - wordnet: "03532342"
+        gloss: a curved or bent implement for suspending or pulling something
+        angloform:
+          status: gap
+      - wordnet: "00572285"
+        gloss: "a golf shot that curves to the left for a right-handed golfer; \"he took lessons to cure his hooking\""
+        angloform:
+          status: gap
+      - wordnet: "00135799"
+        gloss: a short swinging punch delivered from the side with the elbow bent
+        angloform:
+          status: gap
+      - wordnet: "00111358"
+        gloss: a basketball shot made over the head with the hand that is farther from the basket
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01365549"
+        gloss: fasten with a hook
+        angloform:
+          status: gap
+      - wordnet: "02319050"
+        gloss: rip off; ask an unreasonable price
+        angloform:
+          status: gap
+      - wordnet: "01672490"
+        gloss: "make a piece of needlework by interlocking and looping thread with a hooked needle; \"She sat there crocheting all day\""
+        angloform:
+          status: gap
+      - wordnet: "01409177"
+        gloss: hit a ball and put a spin on it so that it travels to the left
+        angloform:
+          status: gap
+      - wordnet: "02322230"
+        gloss: "take by theft; \"Someone snitched my wallet!\""
+        angloform:
+          status: gap
+      - wordnet: "02276866"
+        gloss: make off with belongings of others
+        angloform:
+          status: gap
+      - wordnet: "01396790"
+        gloss: "hit with a hook; \"His opponent hooked him badly\""
+        angloform:
+          status: gap
+      - wordnet: "01365709"
+        gloss: "catch with a hook; \"hook a fish\""
+        angloform:
+          status: gap
+      - wordnet: "01165290"
+        gloss: to cause (someone or oneself) to become dependent (on something, especially a narcotic drug)
+        angloform:
+          status: gap
+      - wordnet: "01080883"
+        gloss: "secure with the foot; \"hook the ball\""
+        angloform:
+          status: gap
+      - wordnet: "00783042"
+        gloss: "entice and trap; \"The car salesman had snared three potential customers\""
+        angloform:
+          status: gap
+      - wordnet: "00781652"
+        gloss: "approach with an offer of sexual favors; \"he was solicited by a prostitute\"; \"The young man was caught soliciting in the park\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09179606"
+        gloss: "the cause or intention underlying an action or situation, especially in the phrase `the whys and wherefores'"
+        angloform:
+          status: gap

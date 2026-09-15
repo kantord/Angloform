@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07951464"
+        gloss: several things grouped together or considered as a whole
+        angloform:
+          status: gap
+      - wordnet: "06591442"
+        gloss: a publication containing a variety of works
+        angloform:
+          status: gap
+      - wordnet: "06513764"
+        gloss: "request for a sum of money; \"an appeal to raise money for starving children\""
+        angloform:
+          status: gap
+      - wordnet: "01014066"
+        gloss: the act of gathering something together
+        angloform:
+          status: gap

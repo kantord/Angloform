@@ -1,0 +1,80 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13810818"
+        gloss: "something left after other parts have been taken away; \"there was no remainder\"; \"he threw away the rest\"; \"he took what he wanted and I got the balance\""
+        angloform:
+          status: gap
+      - wordnet: "01064148"
+        gloss: "freedom from activity (work or strain or responsibility); \"took his repose by the swimming pool\""
+        angloform:
+          status: gap
+      - wordnet: "15274074"
+        gloss: "a pause for relaxation; \"people actually accomplish more when they take time for short rests\""
+        angloform:
+          status: gap
+      - wordnet: "14012501"
+        gloss: "a state of inaction; \"a body will continue in a state of rest until acted upon\""
+        angloform:
+          status: gap
+      - wordnet: "13962765"
+        gloss: "euphemisms for death (based on an analogy between lying in a bed and in a tomb); \"she was laid to rest beside her husband\"; \"they had to put their family pet to sleep\""
+        angloform:
+          status: gap
+      - wordnet: "04081044"
+        gloss: "a support on which things can be put; \"the gun was steadied on a special rest\""
+        angloform:
+          status: gap
+      - wordnet: "06865177"
+        gloss: a musical notation indicating a silence of a specified duration
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01545883"
+        gloss: not move; be in a resting position
+        angloform:
+          status: gap
+      - wordnet: "00779360"
+        gloss: "take a short break from one's activities in order to relax"
+        angloform:
+          status: gap
+      - wordnet: "00779601"
+        gloss: "give a rest to; \"He rested his bad leg\"; \"Rest the dogs for a moment\""
+        angloform:
+          status: gap
+      - wordnet: "02731390"
+        gloss: "have a place in relation to something else; \"The fate of Bosnia lies in the hands of the West\"; \"The responsibility rests with the Allies\""
+        angloform:
+          status: gap
+      - wordnet: "00014405"
+        gloss: be at rest
+        angloform:
+          status: gap
+      - wordnet: "00117985"
+        gloss: "stay the same; remain in a certain state; \"The dress remained wet after repeated attempts to dry it\"; \"rest assured\"; \"stay alone\"; \"He remained unmoved by her tears\"; \"The bad weather continued for another week\""
+        angloform:
+          status: redirect
+          word: stay
+          category: VERB_INTRANS
+      - wordnet: "02664664"
+        gloss: be inherent or innate in;
+        angloform:
+          status: gap
+      - wordnet: "01610101"
+        gloss: "put something in a resting position, as for support or steadying; \"Rest your head on my shoulder\""
+        angloform:
+          status: gap
+      - wordnet: "01543731"
+        gloss: "sit, as on a branch; \"The birds perched high in the tree\""
+        angloform:
+          status: gap
+      - wordnet: "01502946"
+        gloss: "rest on or as if on a pillow; \"pillow your head\""
+        angloform:
+          status: gap
+      - wordnet: "02595840"
+        gloss: "be inactive, refrain from acting; \"The committee is resting over the summer\""
+        angloform:
+          status: gap

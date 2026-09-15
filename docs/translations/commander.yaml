@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09941964"
+        gloss: an officer in command of a military unit
+        angloform:
+          status: gap
+      - wordnet: "09941383"
+        gloss: someone in an official position of authority who can command or control others
+        angloform:
+          status: gap
+      - wordnet: "09941571"
+        gloss: a commissioned naval officer who ranks above a lieutenant commander and below a captain
+        angloform:
+          status: gap
+      - wordnet: "09780828"
+        gloss: an officer in the airforce
+        angloform:
+          status: gap

@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08179205"
+        gloss: "people without possessions or wealth (considered as a group); \"the urban poor need assistance\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01050890"
+        gloss: "deserving or inciting pity; \"a hapless victim\"; \"miserable victims of war\"; \"the shabby room struck her as extraordinarily pathetic\"- Galsworthy; \"piteous appeals for help\"; \"pitiable homeless children\"; \"a pitiful fate\"; \"Oh, you poor thing\"; \"his poor distorted limbs\"; \"a wretched life\""
+        angloform:
+          status: gap
+      - wordnet: "02022953"
+        gloss: "having little money or few possessions; \"deplored the gap between rich and poor countries\"; \"the proverbial poor artist living in a garret\""
+        angloform:
+          status: gap
+      - wordnet: "02025498"
+        gloss: "characterized by or indicating poverty; \"the country had a poor economy\"; \"they lived in the poor section of town\""
+        angloform:
+          status: gap
+      - wordnet: "02024411"
+        gloss: "lacking in specific resources, qualities or substances; \"a poor land\"; \"the area was poor in timber and coal\"; \"food poor in nutritive value\""
+        angloform:
+          status: gap
+      - wordnet: "02336904"
+        gloss: "not sufficient to meet a need; \"an inadequate income\"; \"a poor salary\"; \"money is short\"; \"on short rations\"; \"food is in short supply\"; \"short on experience\""
+        angloform:
+          status: redirect
+          word: short
+          category: ADJ
+      - wordnet: "01128719"
+        gloss: "unsatisfactory; \"a poor light for reading\"; \"poor morale\"; \"expectations were poor\""
+        angloform:
+          status: gap

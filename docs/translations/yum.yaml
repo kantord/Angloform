@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  INTJ:
+    senses:
+      - gloss: expressing enjoyment of taste; "Yum, that's delicious"
+        angloform:
+          status: excluded
+          reason: informal interjection, incompatible with Angloform's formal, unambiguous prose register by design — permanent, not a missing word

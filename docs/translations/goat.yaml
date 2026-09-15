@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02416519"
+        gloss: any of numerous agile ruminants related to sheep but having a beard and straight horns
+        angloform:
+          status: gap
+      - wordnet: "09884666"
+        gloss: a victim of ridicule or pranks
+        angloform:
+          status: gap
+      - wordnet: "09753498"
+        gloss: (astrology) a person who is born while the sun is in Capricorn
+        angloform:
+          status: gap
+      - wordnet: "08687709"
+        gloss: the tenth sign of the zodiac; the sun is in this sign from about December 22 to January 19
+        angloform:
+          status: gap

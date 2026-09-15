@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05564590"
+        gloss: "the (prehensile) extremity of the superior limb; \"he had the hands of a surgeon\"; \"he extended his mitt\""
+        angloform:
+          status: gap
+      - wordnet: "10176679"
+        gloss: "a hired laborer on a farm or ranch; \"the hired hand fixed the railing\"; \"a ranch hand\""
+        angloform:
+          status: gap
+      - wordnet: "06403393"
+        gloss: "something written by hand; \"she recognized his handwriting\"; \"his hand was illegible\""
+        angloform:
+          status: redirect
+          word: script
+          category: NOUN
+      - wordnet: "05637965"
+        gloss: "ability; \"he wanted to try his hand at singing\""
+        angloform:
+          status: gap
+      - wordnet: "08650157"
+        gloss: "a position given by its location to the side of an object; \"objections were voiced on every hand\""
+        angloform:
+          status: gap
+      - wordnet: "07956887"
+        gloss: "the cards held in a card game by a given player at any given time; \"I didn't hold a good hand all evening\"; \"he kept trying to see my hand\""
+        angloform:
+          status: gap
+      - wordnet: "05852973"
+        gloss: "one of two sides of an issue; \"on the one hand..., but on the other hand...\""
+        angloform:
+          status: gap
+      - wordnet: "03482523"
+        gloss: "a rotating pointer on the face of a timepiece; \"the big hand counts the minutes\""
+        angloform:
+          status: gap
+      - wordnet: "13654093"
+        gloss: "a unit of length equal to 4 inches; used in measuring horses; \"the horse stood 20 hands\""
+        angloform:
+          status: gap
+      - wordnet: "10158506"
+        gloss: "a member of the crew of a ship; \"all hands on deck\""
+        angloform:
+          status: gap
+      - wordnet: "09875353"
+        gloss: "a card player in a game of bridge; \"we need a 4th hand for bridge\""
+        angloform:
+          status: gap
+      - wordnet: "06692238"
+        gloss: "a round of applause to signify approval; \"give the little lady a great big hand\""
+        angloform:
+          status: gap
+      - wordnet: "02440250"
+        gloss: "terminal part of the forelimb in certain vertebrates (e.g. apes or kangaroos); \"the kangaroo's forearms seem undeveloped but the powerful five-fingered hands are skilled at feinting and clouting\"- Springfield (Mass.) Union"
+        angloform:
+          status: gap
+      - wordnet: "01208460"
+        gloss: "physical assistance; \"give me a hand with the chores\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02230772"
+        gloss: "place into the hands or custody of; \"hand me the spoon, please\"; \"Turn the files over to me, please\"; \"He turned over the prisoner to his lawyers\""
+        angloform:
+          status: redirect
+          word: give
+          category: VERB_TRANS
+      - wordnet: "02000133"
+        gloss: "guide or conduct or usher somewhere; \"hand the elderly lady into the taxi\""
+        angloform:
+          status: gap

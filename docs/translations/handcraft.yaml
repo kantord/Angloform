@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03485655"
+        gloss: a work produced by hand labor
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01659007"
+        gloss: "make something by hand; \"We handcraft all our paper\""
+        angloform:
+          status: gap

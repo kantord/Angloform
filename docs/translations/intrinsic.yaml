@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01348258"
+        gloss: "belonging to a thing by its very nature; \"form was treated as something intrinsic, as the very essence of the thing\"- John Dewey"
+        angloform:
+          status: gap
+      - wordnet: "00949374"
+        gloss: "situated within or belonging solely to the organ or body part on which it acts; \"intrinsic muscles\""
+        angloform:
+          status: gap

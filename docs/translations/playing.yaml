@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00101191"
+        gloss: the act of playing a musical instrument
+        angloform:
+          status: gap
+      - wordnet: "00041188"
+        gloss: the action of taking part in a game or sport or other recreation
+        angloform:
+          status: gap
+      - wordnet: "00548326"
+        gloss: the performance of a part or role in a drama
+        angloform:
+          status: gap

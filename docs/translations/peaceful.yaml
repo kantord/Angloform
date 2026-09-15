@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01740892"
+        gloss: "not disturbed by strife or turmoil or war; \"a peaceful nation\"; \"peaceful times\"; \"a far from peaceful Christmas\"; \"peaceful sleep\""
+        angloform:
+          status: gap
+      - wordnet: "02513101"
+        gloss: "peacefully resistant in response to injustice; \"passive resistance\""
+        angloform:
+          status: gap

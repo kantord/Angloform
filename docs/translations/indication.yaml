@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06797169"
+        gloss: "something that serves to indicate or suggest; \"an indication of foul play\"; \"indications of strain\"; \"symptoms are the prime indicants of disease\""
+        angloform:
+          status: gap
+      - wordnet: "07231048"
+        gloss: the act of indicating or pointing out by name
+        angloform:
+          status: gap
+      - wordnet: "06797671"
+        gloss: "(medicine) a reason to prescribe a drug or perform a procedure; \"the presence of bacterial infection was an indication for the use of antibiotics\""
+        angloform:
+          status: gap
+      - wordnet: "06671818"
+        gloss: "something (as a course of action) that is indicated as expedient or necessary; \"there were indications that it was time to leave\""
+        angloform:
+          status: gap
+      - wordnet: "05816790"
+        gloss: "a datum about some physical state that is presented to a user by a meter or similar instrument; \"he could not believe the meter reading\"; \"the barometer gave clear indications of an approaching storm\""
+        angloform:
+          status: gap

@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02663141"
+        gloss: be in contradiction with
+        angloform:
+          status: gap
+      - wordnet: "00823436"
+        gloss: deny the truth of
+        angloform:
+          status: gap
+      - wordnet: "00776059"
+        gloss: "be resistant to; \"The board opposed his motion\""
+        angloform:
+          status: gap
+      - wordnet: "00666886"
+        gloss: prove negative; show to be false
+        angloform:
+          status: gap

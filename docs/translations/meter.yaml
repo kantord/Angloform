@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13659162"
+        gloss: "the basic unit of length adopted under the Systeme International d'Unites (approximately 1.094 yards)"
+        angloform:
+          status: gap
+      - wordnet: "03753077"
+        gloss: any of various measuring instruments for measuring a quantity
+        angloform:
+          status: gap
+      - wordnet: "07094093"
+        gloss: (prosody) the accent in a metrical foot of verse
+        angloform:
+          status: gap
+      - wordnet: "04991738"
+        gloss: rhythm as given by division into parts of equal duration
+        angloform:
+          status: redirect
+          word: time
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "00490586"
+        gloss: "measure with a meter; \"meter the flow of water\""
+        angloform:
+          status: gap
+      - wordnet: "01273974"
+        gloss: "stamp with a meter indicating the postage; \"meter the mail\""
+        angloform:
+          status: gap

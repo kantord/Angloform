@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13694367"
+        gloss: a fractional monetary unit of Ireland and the United Kingdom; equal to one hundredth of a pound
+        angloform:
+          status: gap
+      - wordnet: "13390626"
+        gloss: a coin worth one-hundredth of the value of the basic unit
+        angloform:
+          status: gap

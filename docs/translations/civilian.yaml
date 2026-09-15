@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09924742"
+        gloss: a nonmilitary citizen
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01517921"
+        gloss: "associated with civil life or performed by persons who are not active members of the military; \"civilian clothing\"; \"civilian life\""
+        angloform:
+          status: gap

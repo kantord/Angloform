@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10129133"
+        gloss: a very large person; impressive in size or qualities
+        angloform:
+          status: gap
+      - wordnet: "02062744"
+        gloss: any of the larger cetacean mammals having a streamlined body and breathing through a blowhole on the head
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01141938"
+        gloss: hunt for whales
+        angloform:
+          status: gap

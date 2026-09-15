@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11005972"
+        gloss: (Old Testament) a giant Philistine warrior who was slain by David with a slingshot
+        angloform:
+          status: gap
+      - wordnet: "10128909"
+        gloss: someone or something that is abnormally large and powerful
+        angloform:
+          status: gap

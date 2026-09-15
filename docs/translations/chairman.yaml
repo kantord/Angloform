@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10468962"
+        gloss: "the officer who presides at the meetings of an organization; \"address your remarks to the chairperson\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02440020"
+        gloss: "act or preside as chair, as of an academic department in a university; \"She chaired the department for many years\""
+        angloform:
+          status: gap

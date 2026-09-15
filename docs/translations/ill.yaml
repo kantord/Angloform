@@ -1,0 +1,47 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14055408"
+        gloss: an often persistent bodily disorder or disease; a cause for complaining
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02541302"
+        gloss: "affected by an impairment of normal physical or mental function; \"ill from the monotony of his suffering\""
+        angloform:
+          status: gap
+      - wordnet: "01162267"
+        gloss: "resulting in suffering or adversity; \"ill effects\"; \"it's an ill wind that blows no good\""
+        angloform:
+          status: gap
+      - wordnet: "01128010"
+        gloss: "distressing; \"ill manners\"; \"of ill repute\""
+        angloform:
+          status: gap
+      - wordnet: "01246004"
+        gloss: "indicating hostility or enmity; \"you certainly did me an ill turn\"; \"ill feelings\"; \"ill will\""
+        angloform:
+          status: gap
+      - wordnet: "00178126"
+        gloss: "presaging ill fortune; \"ill omens\"; \"ill predictions\"; \"my words with inauspicious thunderings shook heaven\"- P.B.Shelley; \"a dead and ominous silence prevailed\"; \"a by-election at a time highly unpropitious for the Government\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00011516"
+        gloss: "(`ill' is often used as a combining form) in a poor or improper or unsatisfactory manner; not well; \"he was ill prepared\"; \"it ill befits a man to betray old friends\"; \"the car runs badly\"; \"he performed badly on the exam\"; \"the team played poorly\"; \"ill-fitting clothes\"; \"an ill-conceived plan\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00013236"
+        gloss: "unfavorably or with disapproval; \"tried not to speak ill of the dead\"; \"thought badly of him for his lack of concern\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00011916"
+        gloss: "with difficulty or inconvenience; scarcely or hardly; \"we can ill afford to buy a new car just now\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

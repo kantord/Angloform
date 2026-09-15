@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00357254"
+        gloss: "characteristic or indicative of a disease; \"a diagnostic sign of yellow fever\"; \"a rash symptomatic of scarlet fever\"; \"symptomatic of insanity\"; \"a rise in crime symptomatic of social breakdown\""
+        angloform:
+          status: gap
+      - wordnet: "02807249"
+        gloss: "relating to or according to or affecting a symptom or symptoms; \"symptomatic relief\"; \"symptomatic treatment\"; \"a symptomatic classification of diseases\""
+        angloform:
+          status: gap

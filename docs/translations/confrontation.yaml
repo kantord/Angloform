@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07231728"
+        gloss: a bold challenge
+        angloform:
+          status: gap
+      - wordnet: "07181713"
+        gloss: discord resulting from a clash of ideas or opinions
+        angloform:
+          status: gap
+      - wordnet: "07181043"
+        gloss: a hostile disagreement face-to-face
+        angloform:
+          status: gap
+      - wordnet: "01169744"
+        gloss: "the act of hostile groups opposing each other; \"the government was not ready for a confrontation with the unions\"; \"the invaders encountered stiff opposition\""
+        angloform:
+          status: gap
+      - wordnet: "00651670"
+        gloss: a focussed comparison; bringing together for a careful comparison
+        angloform:
+          status: gap

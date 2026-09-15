@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01286799"
+        gloss: "capable or worthy of being perceived; \"noticeable shadows under her eyes\"; \"noticeable for its vivid historical background\"; \"a noticeable lack of friendliness\""
+        angloform:
+          status: gap
+      - wordnet: "01746995"
+        gloss: "capable of being detected; \"after a noticeable pause the lecturer continued\""
+        angloform:
+          status: gap
+      - wordnet: "01614778"
+        gloss: "undesirably noticeable; \"the obtrusive behavior of a spoiled child\"; \"equally obtrusive was the graffiti\""
+        angloform:
+          status: gap
+      - wordnet: "02323204"
+        gloss: "readily noticed; \"a noticeable resemblance\""
+        angloform:
+          status: gap

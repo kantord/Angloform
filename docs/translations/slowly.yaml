@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00161630"
+        gloss: "without speed (`slow' is sometimes used informally for `slowly'); \"he spoke slowly\"; \"go easy here--the road is slippery\"; \"glaciers move tardily\"; \"please go slow so I can see the sights\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00388494"
+        gloss: "in music; \"Play this lento, please\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

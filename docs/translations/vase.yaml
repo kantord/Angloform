@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04522168"
+        gloss: an open jar of glass or porcelain used as an ornament or to hold flowers
+        angloform:
+          status: gap

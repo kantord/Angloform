@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06514093"
+        gloss: "a record or narrative description of past events; \"a history of France\"; \"he gave an inaccurate account of the plot to kill the president\"; \"the story of exposure to lead\""
+        angloform:
+          status: redirect
+          word: history
+          category: NOUN
+      - wordnet: "06681551"
+        gloss: "a short account of the news; \"the report of his speech\"; \"the story was on the 11 o'clock news\"; \"the account of his speech that was given on the evening news made the governor furious\""
+        angloform:
+          status: redirect
+          word: report
+          category: NOUN
+      - wordnet: "13929037"
+        gloss: "a formal contractual relationship established to provide for regular banking or brokerage or business services; \"he asked to see the executive who handled his account\""
+        angloform:
+          status: gap
+      - wordnet: "06738281"
+        gloss: "a statement that makes something comprehensible by describing the relevant structure or operation or circumstances etc.; \"the explanation was very simple\"; \"I expected a brief account\""
+        angloform:
+          status: redirect
+          word: explanation
+          category: NOUN
+      - wordnet: "09179382"
+        gloss: "grounds; \"don't do it on my account\"; \"the paper was rejected on account of its length\"; \"he tried to blame the victim but his success on that score was doubtful\""
+        angloform:
+          status: redirect
+          word: score
+          category: NOUN
+      - wordnet: "05169037"
+        gloss: "importance or value; \"a person of considerable account\"; \"he predicted that although it is of small account now it will rapidly increase in importance\""
+        angloform:
+          status: gap
+      - wordnet: "13354985"
+        gloss: "a statement of recent transactions and the resulting balance; \"they send me an accounting every month\""
+        angloform:
+          status: gap
+      - wordnet: "07217924"
+        gloss: "the act of informing by verbal report; \"he heard reports that they were causing trouble\"; \"by all accounts they were a happy couple\""
+        angloform:
+          status: redirect
+          word: report
+          category: NOUN
+      - wordnet: "06516955"
+        gloss: "an itemized statement of money owed for goods shipped or services rendered; \"he paid his bill and left\"; \"send me an account of what I owe\""
+        angloform:
+          status: gap
+      - wordnet: "05157732"
+        gloss: "the quality of taking advantage; \"she turned her writing skills to good account\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02607432"
+        gloss: "be the sole or primary factor in the existence, acquisition, supply, or disposal of something; \"Passing grades account for half of the grades given in this exam\""
+        angloform:
+          status: gap
+      - wordnet: "02265231"
+        gloss: keep an account of
+        angloform:
+          status: gap
+      - wordnet: "00965035"
+        gloss: "to give an account or representation of in words; \"Discreet Italian police described it in a manner typically continental\""
+        angloform:
+          status: redirect
+          word: describe
+          category: VERB_TRANS
+      - wordnet: "00867644"
+        gloss: "furnish a justifying analysis or explanation; \"I can't account for the missing money\""
+        angloform:
+          status: gap

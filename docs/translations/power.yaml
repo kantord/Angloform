@@ -1,0 +1,50 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05190804"
+        gloss: "possession of controlling influence; \"the deterrent power of nuclear weapons\"; \"the power of his love saved her\"; \"his powerfulness was concealed by a gentle facade\""
+        angloform:
+          status: gap
+      - wordnet: "11453016"
+        gloss: (physics) the rate of doing work; measured in watts (= joules/second)
+        angloform:
+          status: gap
+      - wordnet: "05616246"
+        gloss: "possession of the qualities (especially mental qualities) required to do something or get something done; \"danger heightened his powers of discrimination\""
+        angloform:
+          status: redirect
+          word: ability
+          category: NOUN
+      - wordnet: "13945102"
+        gloss: "(of a government or government official) holding an office means being in power; \"being in office already gives a candidate a great advantage\"; \"during his first year in office\"; \"during his first year in power\"; \"the power of the president\""
+        angloform:
+          status: gap
+      - wordnet: "10461424"
+        gloss: "one possessing or exercising power or influence or authority; \"the mysterious presence of an evil power\"; \"may the force be with you\"; \"the forces of evil\""
+        angloform:
+          status: redirect
+          word: force
+          category: NOUN
+      - wordnet: "06812417"
+        gloss: a mathematical notation indicating the number of times a quantity is multiplied by itself
+        angloform:
+          status: gap
+      - wordnet: "05030680"
+        gloss: physical strength
+        angloform:
+          status: gap
+      - wordnet: "08177592"
+        gloss: a state powerful enough to influence events throughout the world
+        angloform:
+          status: gap
+      - wordnet: "09840217"
+        gloss: "a very wealthy or powerful businessman; \"an oil baron\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01181559"
+        gloss: "supply the force or power for the functioning of; \"The gasoline powers the engines\""
+        angloform:
+          status: gap

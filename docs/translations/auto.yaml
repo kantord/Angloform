@@ -1,0 +1,10 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02958343"
+        gloss: "a motor vehicle with four wheels; usually propelled by an internal combustion engine; \"he needs a car to get to work\""
+        angloform:
+          status: redirect
+          word: machine
+          category: NOUN

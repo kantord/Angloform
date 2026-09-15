@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00283568"
+        gloss: "the act of traveling by foot; \"walking is a healthy form of exercise\""
+        angloform:
+          status: gap
+      - wordnet: "00127286"
+        gloss: "(baseball) an advance to first base by a batter who receives four balls; \"he worked the pitcher for a base on balls\""
+        angloform:
+          status: gap
+      - wordnet: "05003090"
+        gloss: "manner of walking; \"he had a funny walk\""
+        angloform:
+          status: gap
+      - wordnet: "00284798"
+        gloss: "the act of walking somewhere; \"he took a walk after lunch\""
+        angloform:
+          status: gap
+      - wordnet: "04544979"
+        gloss: "a path set aside for walking; \"after the blizzard he shoveled the front walk\""
+        angloform:
+          status: gap
+      - wordnet: "00287142"
+        gloss: a slow gait of a horse in which two feet are always on the ground
+        angloform:
+          status: gap
+      - wordnet: "00584248"
+        gloss: "careers in general; \"it happens in all walks of life\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01904930"
+        gloss: "use one's feet to advance; advance by steps; \"Walk, don't run!\"; \"We walked instead of driving\"; \"She walks with a slight limp\"; \"The patient cannot walk yet\"; \"Walk over to the cabinet\""
+        angloform:
+          status: gap
+      - wordnet: "01907076"
+        gloss: "accompany or escort; \"I'll walk you to your car\""
+        angloform:
+          status: gap
+      - wordnet: "01113473"
+        gloss: obtain a base on balls
+        angloform:
+          status: gap
+      - wordnet: "01912893"
+        gloss: "traverse or cover by walking; \"Walk the tightrope\"; \"Paul walked the streets of Damascus\"; \"She walks 3 miles every day\""
+        angloform:
+          status: gap
+      - wordnet: "01140654"
+        gloss: give a base on balls to
+        angloform:
+          status: gap
+      - wordnet: "02518839"
+        gloss: "live or behave in a specified manner; \"walk in sadness\""
+        angloform:
+          status: gap
+      - wordnet: "02470518"
+        gloss: "be or act in association with; \"We must walk with our dispossessed brothers and sisters\"; \"Walk with God\""
+        angloform:
+          status: gap
+      - wordnet: "01959776"
+        gloss: "walk at a pace; \"The horses walked across the meadow\""
+        angloform:
+          status: gap
+      - wordnet: "01906823"
+        gloss: "make walk; \"He walks the horse up the mountain\"; \"Walk the dog twice a day\""
+        angloform:
+          status: gap
+      - wordnet: "01882170"
+        gloss: "take a walk; go for a walk; walk for pleasure; \"The lovers held hands while walking\"; \"We like to walk every Sunday\""
+        angloform:
+          status: gap

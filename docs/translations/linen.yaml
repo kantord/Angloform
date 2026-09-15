@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03672521"
+        gloss: a fabric woven with fibers from the flax plant
+        angloform:
+          status: gap
+      - wordnet: "14934998"
+        gloss: a high-quality paper made of linen fibers or with a linen finish
+        angloform:
+          status: gap
+      - wordnet: "03672352"
+        gloss: white goods or clothing made with linen cloth
+        angloform:
+          status: gap

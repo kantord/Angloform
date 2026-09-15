@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05261999"
+        gloss: a small tufted beard worn by Emperor Napoleon III
+        angloform:
+          status: gap
+      - wordnet: "03563611"
+        gloss: a piece of luggage carried on top of a coach
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02747036"
+        gloss: "relating to or associated with an empire; \"imperial colony\"; \"the imperial gallon was standardized legally throughout the British Empire\""
+        angloform:
+          status: gap
+      - wordnet: "02747246"
+        gloss: of or belonging to the British Imperial System of weights and measures
+        angloform:
+          status: gap
+      - wordnet: "02746897"
+        gloss: "befitting or belonging to an emperor or empress; \"imperial palace\""
+        angloform:
+          status: gap
+      - wordnet: "01591394"
+        gloss: "belonging to or befitting a supreme ruler; \"golden age of imperial splendor\"; \"purple tyrant\"; \"regal attire\"; \"treated with royal acclaim\"; \"the royal carriage of a stag's head\""
+        angloform:
+          status: gap

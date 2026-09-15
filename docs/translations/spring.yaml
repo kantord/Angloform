@@ -1,0 +1,52 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15237044"
+        gloss: "the season of growth; \"the emerging buds were a sure sign of spring\"; \"he will hold office until the spring of next year\""
+        angloform:
+          status: gap
+      - wordnet: "04288272"
+        gloss: "a metal elastic device that returns to its shape or position when pushed or pulled or pressed; \"the spring was broken\""
+        angloform:
+          status: gap
+      - wordnet: "09443453"
+        gloss: a natural flow of ground water
+        angloform:
+          status: gap
+      - wordnet: "08508361"
+        gloss: a point at which water issues forth
+        angloform:
+          status: gap
+      - wordnet: "05021151"
+        gloss: the elasticity of something that can be stretched and returns to its original length
+        angloform:
+          status: gap
+      - wordnet: "00120202"
+        gloss: a light, self-propelled movement upwards or forwards
+        angloform:
+          status: redirect
+          word: bound
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01963942"
+        gloss: "move forward by leaps and bounds; \"The horse bounded across the meadow\"; \"The child leapt across the puddle\"; \"Can you jump over the fence?\""
+        angloform:
+          status: gap
+      - wordnet: "02623906"
+        gloss: "develop into a distinctive entity; \"our plans began to take shape\""
+        angloform:
+          status: gap
+      - wordnet: "01892104"
+        gloss: "spring back; spring away from an impact; \"The rubber ball bounced\"; \"These particles do not resile but they unite after they collide\""
+        angloform:
+          status: gap
+      - wordnet: "00095271"
+        gloss: "develop suddenly; \"The tire sprang a leak\""
+        angloform:
+          status: gap
+      - wordnet: "00935827"
+        gloss: "produce or disclose suddenly or unexpectedly; \"He sprang these news on me just as I was leaving\""
+        angloform:
+          status: gap

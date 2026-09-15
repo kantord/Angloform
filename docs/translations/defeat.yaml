@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07475364"
+        gloss: "an unsuccessful ending to a struggle or contest; \"it was a narrow defeat\"; \"the army's only defeat\"; \"they suffered a convincing licking\""
+        angloform:
+          status: gap
+      - wordnet: "07540866"
+        gloss: the feeling that accompanies an experience of being thwarted in attaining your goals
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01108148"
+        gloss: "win a victory over; \"You must overcome all difficulties\"; \"defeat your enemies\"; \"He overcame his shyness\"; \"He overcame his infirmity\"; \"Her anger got the better of her and she blew up\""
+        angloform:
+          status: gap
+      - wordnet: "02473688"
+        gloss: "thwart the passage of; \"kill a motion\"; \"he shot down the student's proposal\""
+        angloform:
+          status: gap

@@ -1,0 +1,11 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# "flattered" is the past-participle/adjectival use of "flatter" — WordNet
+# indexes only the base verb.
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00880227"
+        gloss: praise somewhat dishonestly; feeling pleased by praise or attention
+        angloform:
+          status: gap
+          note: no praise/flatter vocabulary exists yet

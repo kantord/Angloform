@@ -1,0 +1,42 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01097292"
+        gloss: "the world of commercial activity where goods and services are bought and sold; \"without competition there would be no market\"; \"they were driven from the marketplace\""
+        angloform:
+          status: gap
+      - wordnet: "08424951"
+        gloss: "the customers for a particular product or service; \"before they publish any book they try to determine the size of the market for it\""
+        angloform:
+          status: gap
+      - wordnet: "03461385"
+        gloss: "a marketplace where groceries are sold; \"the grocery store included a meat market\""
+        angloform:
+          status: gap
+      - wordnet: "08072837"
+        gloss: "the securities markets in the aggregate; \"the market always frustrates the small investor\""
+        angloform:
+          status: gap
+      - wordnet: "03722288"
+        gloss: an area in a town where a public mercantile establishment is set up
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02298160"
+        gloss: "engage in the commercial promotion, sale, or distribution of; \"The company is marketing its new line of beauty products\""
+        angloform:
+          status: gap
+      - wordnet: "02326198"
+        gloss: "buy household supplies; \"We go marketing every Saturday\""
+        angloform:
+          status: gap
+      - wordnet: "02298471"
+        gloss: deal in a market
+        angloform:
+          status: gap
+      - wordnet: "00470386"
+        gloss: "make commercial; \"Some Amish people have commercialized their way of life\""
+        angloform:
+          status: gap

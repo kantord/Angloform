@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02774411"
+        gloss: "relating to or having the nature of a parliament; \"parliamentary reform\"; \"a parliamentary body\""
+        angloform:
+          status: gap
+      - wordnet: "00715830"
+        gloss: "having the supreme legislative power resting with a body of cabinet ministers chosen from and responsible to the legislature or parliament; \"parliamentary government\""
+        angloform:
+          status: gap
+      - wordnet: "00716056"
+        gloss: "in accord with rules and customs of a legislative or deliberative assembly; \"parliamentary law\""
+        angloform:
+          status: gap

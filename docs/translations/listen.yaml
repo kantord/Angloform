@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02169891"
+        gloss: "hear with intention; \"Listen to the sound of this cello\""
+        angloform:
+          status: gap
+      - wordnet: "02171039"
+        gloss: "listen and pay attention; \"Listen to your father\"; \"We must hear the expert before we make a decision\""
+        angloform:
+          status: gap
+      - wordnet: "02571901"
+        gloss: "pay close attention to; give heed to; \"Heed the advice of the old men\""
+        angloform:
+          status: gap

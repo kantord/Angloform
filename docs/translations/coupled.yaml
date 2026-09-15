@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02477211"
+        gloss: joined together especially in a pair or pairs
+        angloform:
+          status: gap
+      - wordnet: "00567161"
+        gloss: connected by a link, as railway cars or trailer trucks
+        angloform:
+          status: gap

@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09849598"
+        gloss: a beloved person; used as terms of endearment
+        angloform:
+          status: gap
+      - wordnet: "10243872"
+        gloss: a sweet innocent mild-mannered person (especially a child)
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01462324"
+        gloss: dearly loved
+        angloform:
+          status: gap
+      - wordnet: "00452883"
+        gloss: "with or in a close or intimate relationship; \"a good friend\"; \"my sisters and brothers are near and dear\""
+        angloform:
+          status: redirect
+          word: good
+          category: ADJ
+      - wordnet: "02179968"
+        gloss: "earnest; \"one's dearest wish\"; \"devout wishes for their success\"; \"heartfelt condolences\""
+        angloform:
+          status: gap
+      - wordnet: "00933599"
+        gloss: "having a high price; \"costly jewelry\"; \"high-priced merchandise\"; \"much too dear for my pocketbook\"; \"a pricey restaurant\""
+        angloform:
+          status: gap
+  ADV:
+    senses:
+      - wordnet: "00077747"
+        gloss: "with affection; \"she loved him dearly\"; \"he treats her affectionately\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00077619"
+        gloss: "at a great cost; \"he paid dearly for the food\"; \"this cost him dear\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

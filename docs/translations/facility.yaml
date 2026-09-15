@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03315023"
+        gloss: "a building or place that provides a particular service or is used for a particular industry; \"the assembly plant is an enormous facility\""
+        angloform:
+          status: gap
+      - wordnet: "05642175"
+        gloss: "skillful performance or ability without difficulty; \"his quick adeptness was a product of good design\"; \"he was famous for his facility as an archer\""
+        angloform:
+          status: gap
+      - wordnet: "04708796"
+        gloss: "a natural effortlessness; \"they conversed with great facility\"; \"a happy readiness of conversation\"--Jane Austen"
+        angloform:
+          status: gap
+      - wordnet: "00585406"
+        gloss: "something designed and created to serve a particular function and to afford a particular convenience or service; \"catering facilities\"; \"toilet facilities\"; \"educational facilities\""
+        angloform:
+          status: gap
+      - wordnet: "00578549"
+        gloss: "a service that an organization or a piece of equipment offers you; \"a cell phone with internet facility\""
+        angloform:
+          status: gap

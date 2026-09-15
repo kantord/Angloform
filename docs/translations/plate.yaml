@@ -1,0 +1,74 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03528901"
+        gloss: "(baseball) base consisting of a rubber slab where the batter stands; it must be touched by a base runner in order to score; \"he ruled that the runner failed to touch home\""
+        angloform:
+          status: redirect
+          word: home
+          category: NOUN
+      - wordnet: "03959936"
+        gloss: a sheet of metal or wood or glass or plastic
+        angloform:
+          status: gap
+      - wordnet: "03960664"
+        gloss: a full-page illustration (usually on slick paper)
+        angloform:
+          status: gap
+      - wordnet: "03959485"
+        gloss: dish on which food is served or from which food is eaten
+        angloform:
+          status: gap
+      - wordnet: "13768850"
+        gloss: the quantity contained in a plate
+        angloform:
+          status: gap
+      - wordnet: "09395457"
+        gloss: "a rigid layer of the Earth's crust that is believed to drift slowly"
+        angloform:
+          status: gap
+      - wordnet: "07657664"
+        gloss: the thin under portion of the forequarter
+        angloform:
+          status: gap
+      - wordnet: "07579787"
+        gloss: "a main course served on a plate; \"a vegetable plate\"; \"the blue plate special\""
+        angloform:
+          status: gap
+      - wordnet: "05581349"
+        gloss: any flat platelike body structure or part
+        angloform:
+          status: gap
+      - wordnet: "03960950"
+        gloss: the positively charged electrode in a vacuum tube
+        angloform:
+          status: gap
+      - wordnet: "03960783"
+        gloss: a flat sheet of metal or glass on which a photographic image can be recorded
+        angloform:
+          status: gap
+      - wordnet: "03960490"
+        gloss: structural member consisting of a horizontal beam that provides bearing and anchorage
+        angloform:
+          status: gap
+      - wordnet: "03960374"
+        gloss: a shallow receptacle for collection in church
+        angloform:
+          status: gap
+      - wordnet: "03959701"
+        gloss: a metal sheathing of uniform thickness (such as the shield attached to an artillery piece to protect the gunners)
+        angloform:
+          status: redirect
+          word: scale
+          category: NOUN
+      - wordnet: "03176386"
+        gloss: a dental appliance that artificially replaces missing teeth
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01395049"
+        gloss: "coat with a layer of metal; \"plate spoons with silver\""
+        angloform:
+          status: gap

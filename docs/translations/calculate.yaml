@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00637259"
+        gloss: make a mathematical calculation or computation
+        angloform:
+          status: redirect
+          word: compute
+          category: VERB_TRANS
+      - wordnet: "00712135"
+        gloss: judge to be probable
+        angloform:
+          status: gap
+      - wordnet: "02265231"
+        gloss: keep an account of
+        angloform:
+          status: gap
+      - wordnet: "00926472"
+        gloss: predict in advance
+        angloform:
+          status: gap
+      - wordnet: "00713015"
+        gloss: specifically design a product, event, or activity for a certain public
+        angloform:
+          status: gap
+      - wordnet: "00712708"
+        gloss: "have faith or confidence in; \"you can count on me to help you any time\"; \"Look to your friends for support\"; \"You can bet on that!\"; \"Depend on your family in times of crisis\""
+        angloform:
+          status: redirect
+          word: count
+          category: VERB_TRANS

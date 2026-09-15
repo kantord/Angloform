@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08286163"
+        gloss: the body of faculty and students at a university
+        angloform:
+          status: gap
+      - wordnet: "04511002"
+        gloss: establishment where a seat of higher learning is housed, including administrative and living quarters as well as facilities for research and teaching
+        angloform:
+          status: gap
+      - wordnet: "08286569"
+        gloss: a large and diverse institution of higher learning created to educate for life and for a profession and to grant degrees
+        angloform:
+          status: gap

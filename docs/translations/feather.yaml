@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01896031"
+        gloss: the light horny waterproof structure forming the external covering of birds
+        angloform:
+          status: gap
+      - wordnet: "00342565"
+        gloss: turning an oar parallel to the water between pulls
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01272915"
+        gloss: join tongue and groove, in carpentry
+        angloform:
+          status: gap
+      - wordnet: "01272798"
+        gloss: cover or fit with feathers
+        angloform:
+          status: gap
+      - wordnet: "01124964"
+        gloss: turn the paddle; in canoeing
+        angloform:
+          status: gap
+      - wordnet: "01124828"
+        gloss: turn the oar, while rowing
+        angloform:
+          status: gap
+      - wordnet: "00094312"
+        gloss: "grow feathers; \"The young sparrows are fledging already\""
+        angloform:
+          status: gap

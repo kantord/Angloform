@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07456188"
+        gloss: an occasion on which a winner is selected from among two or more contestants
+        angloform:
+          status: gap
+      - wordnet: "01168961"
+        gloss: a struggle between rivals
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00869596"
+        gloss: "to make the subject of dispute, contention, or litigation; \"They contested the outcome of the race\""
+        angloform:
+          status: gap

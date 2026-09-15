@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06055300"
+        gloss: the art and science of preparing and dispensing drugs and medicines,
+        angloform:
+          status: gap
+      - wordnet: "03249342"
+        gloss: a retail shop where medicine and other articles are sold
+        angloform:
+          status: gap

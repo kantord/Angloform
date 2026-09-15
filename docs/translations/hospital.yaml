@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03540595"
+        gloss: a health facility where patients receive treatment
+        angloform:
+          status: gap
+      - wordnet: "08054417"
+        gloss: a medical institution where sick or injured people are given medical or surgical care
+        angloform:
+          status: gap

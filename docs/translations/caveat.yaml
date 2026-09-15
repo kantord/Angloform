@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07225167"
+        gloss: "a warning against certain acts; \"a caveat against unfair practices\""
+        angloform:
+          status: gap
+      - wordnet: "06747907"
+        gloss: "(law) a formal notice filed with a court or officer to suspend a proceeding until filer is given a hearing; \"a caveat filed against the probate of a will\""
+        angloform:
+          status: gap

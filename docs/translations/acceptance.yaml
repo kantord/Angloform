@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06193727"
+        gloss: "the mental attitude that something is believable and should be accepted as true; \"he gave credence to the gossip\"; \"acceptance of Newtonian mechanics was unquestioned for 200 years\""
+        angloform:
+          status: gap
+      - wordnet: "00180413"
+        gloss: "the act of accepting with approval; favorable reception; \"its adoption by society\"; \"the proposal found wide acceptance\""
+        angloform:
+          status: gap
+      - wordnet: "13932421"
+        gloss: "the state of being acceptable and accepted; \"torn jeans received no acceptance at the country club\""
+        angloform:
+          status: gap
+      - wordnet: "07176073"
+        gloss: (contract law) words signifying consent to the terms of an offer (thereby creating a contract)
+        angloform:
+          status: gap
+      - wordnet: "13381602"
+        gloss: "banking: a time draft drawn on and accepted by a bank"
+        angloform:
+          status: gap
+      - wordnet: "04638175"
+        gloss: "a disposition to tolerate or accept people or situations; \"all people should practice toleration and live together in peace\""
+        angloform:
+          status: gap
+      - wordnet: "00082525"
+        gloss: "the act of taking something that is offered; \"her acceptance of the gift encouraged him\"; \"he anticipated their acceptance of his offer\""
+        angloform:
+          status: gap

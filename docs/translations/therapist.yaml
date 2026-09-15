@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10707233"
+        gloss: a person skilled in a particular type of therapy
+        angloform:
+          status: gap

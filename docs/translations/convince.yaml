@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00769553"
+        gloss: "make (someone) agree, understand, or realize the truth or validity of something; \"He had finally convinced several customers of the advantages of his product\""
+        angloform:
+          status: gap

@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01318894"
+        gloss: a domesticated animal kept for companionship or amusement
+        angloform:
+          status: gap
+      - wordnet: "09991867"
+        gloss: a special loved one
+        angloform:
+          status: gap
+      - wordnet: "07553176"
+        gloss: a fit of petulance or sulkiness (especially at what is felt to be a slight)
+        angloform:
+          status: gap
+      - wordnet: "00902376"
+        gloss: using a computerized radiographic technique to examine the metabolic activity in various tissues (especially in the brain)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01425892"
+        gloss: "stroke or caress gently; \"pet the lamb\""
+        angloform:
+          status: gap
+      - wordnet: "01226600"
+        gloss: stroke or caress in an erotic manner, as during lovemaking
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01462882"
+        gloss: "preferred above all others and treated with partiality; \"the favored child\""
+        angloform:
+          status: gap

@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04202417"
+        gloss: "a mercantile establishment for the retail sale of goods or services; \"he bought it at a shop on Cape Cod\""
+        angloform:
+          status: gap
+      - wordnet: "04603081"
+        gloss: small workplace where handcrafts or manufacturing are done
+        angloform:
+          status: gap
+      - wordnet: "00892254"
+        gloss: "a course of instruction in a trade (as carpentry or electricity); \"I built a birdhouse in shop\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02325968"
+        gloss: "do one's shopping; \"She goes shopping every Friday\""
+        angloform:
+          status: gap
+      - wordnet: "02466134"
+        gloss: "do one's shopping at; do business with; be a customer or client of"
+        angloform:
+          status: gap
+      - wordnet: "02326355"
+        gloss: "shop around; not necessarily buying; \"I don't need help, I'm just browsing\""
+        angloform:
+          status: gap
+      - wordnet: "00841986"
+        gloss: "give away information about somebody; \"He told on his classmate who had cheated on the exam\""
+        angloform:
+          status: gap

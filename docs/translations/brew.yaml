@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07886572"
+        gloss: drink made by steeping and boiling and fermenting rather than distilling
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01663920"
+        gloss: "prepare by brewing; \"people have been brewing beer for thousands of years\""
+        angloform:
+          status: gap
+      - wordnet: "00327813"
+        gloss: "sit or let sit in boiling water so as to extract the flavor; \"the tea is brewing\""
+        angloform:
+          status: gap

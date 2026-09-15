@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08389572"
+        gloss: group of guns or missile launchers operated together at one place
+        angloform:
+          status: gap
+      - wordnet: "02810471"
+        gloss: a device that produces electricity; may have several primary or secondary cells arranged in parallel or series
+        angloform:
+          status: gap
+      - wordnet: "07953827"
+        gloss: "a collection of related things intended for use together; \"took a battery of achievement tests\""
+        angloform:
+          status: gap
+      - wordnet: "08077177"
+        gloss: a unit composed of the pitcher and catcher
+        angloform:
+          status: gap
+      - wordnet: "02810782"
+        gloss: a series of stamps operated in one mortar for crushing ores
+        angloform:
+          status: gap
+      - wordnet: "00987863"
+        gloss: "the heavy fire of artillery to saturate an area rather than hit a specific target; \"they laid down a barrage in front of the advancing troops\"; \"the shelling went on for hours without pausing\""
+        angloform:
+          status: gap
+      - wordnet: "00768203"
+        gloss: an assault in which the assailant makes physical contact
+        angloform:
+          status: gap

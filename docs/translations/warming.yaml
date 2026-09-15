@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13491876"
+        gloss: the process of becoming warmer; a rising temperature
+        angloform:
+          status: gap
+      - wordnet: "11482140"
+        gloss: "warm weather following a freeze; snow and ice melt; \"they welcomed the spring thaw\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02529859"
+        gloss: "imparting heat; \"a warming fire\""
+        angloform:
+          status: gap
+      - wordnet: "01248198"
+        gloss: "producing the sensation of heat when applied to the body; \"a mustard plaster is calefacient\""
+        angloform:
+          status: gap

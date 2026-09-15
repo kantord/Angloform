@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00968010"
+        gloss: "beyond or deviating from the usual or expected; \"a curious hybrid accent\"; \"her speech has a funny twang\"; \"they have some funny ideas about war\"; \"had an odd name\"; \"the peculiar aromatic odor of cloves\"; \"something definitely queer about this town\"; \"what a rum fellow\"; \"singular behavior\""
+        angloform:
+          status: redirect
+          word: singular
+          category: ADJ
+      - wordnet: "00664449"
+        gloss: "eager to investigate and learn or learn more (sometimes about others' concerns); \"a curious child is a teacher's delight\"; \"a trap door that made me curious\"; \"curious investigators\"; \"traffic was slowed by curious rubberneckers\"; \"curious about the neighbor's doings\""
+        angloform:
+          status: gap
+      - wordnet: "01342572"
+        gloss: "having curiosity aroused; eagerly interested in learning more; \"a trap door that made me curious\""
+        angloform:
+          status: gap

@@ -1,0 +1,90 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05196375"
+        gloss: "power to direct or determine; \"under control\""
+        angloform:
+          status: gap
+      - wordnet: "13827205"
+        gloss: "a relation of constraint of one entity (thing or person or group) by another; \"measures for the control of disease\"; \"they instituted controls over drinking on campus\""
+        angloform:
+          status: gap
+      - wordnet: "00830448"
+        gloss: "(physiology) regulation or maintenance of a function or action or reflex etc; \"the timing and control of his movements were unimpaired\"; \"he had lost control of his sphincters\""
+        angloform:
+          status: gap
+      - wordnet: "05798569"
+        gloss: "a standard against which other conditions can be compared in a scientific experiment; \"the control condition was inappropriate for the conclusions he wished to draw\""
+        angloform:
+          status: gap
+      - wordnet: "00803617"
+        gloss: "the activity of managing or exerting control over something; \"the control of the mob by the police was admirable\""
+        angloform:
+          status: gap
+      - wordnet: "14441825"
+        gloss: "the state that exists when one person or group has power over another; \"her apparent dominance of her husband was really her attempt to make him pay attention to her\""
+        angloform:
+          status: gap
+      - wordnet: "04882968"
+        gloss: "discipline in personal and social activities; \"he was a model of polite restraint\"; \"she never lost control of herself\""
+        angloform:
+          status: gap
+      - wordnet: "05641959"
+        gloss: "great skillfulness and knowledge of some subject or activity; \"a good command of French\""
+        angloform:
+          status: redirect
+          word: command
+          category: NOUN
+      - wordnet: "03096960"
+        gloss: "a mechanism that controls the operation of a machine; \"the speed controller on his turntable was not working properly\"; \"I turned the controls over to her\""
+        angloform:
+          status: gap
+      - wordnet: "09504790"
+        gloss: a spiritual agency that is assumed to assist the medium during a seance
+        angloform:
+          status: gap
+      - wordnet: "06657202"
+        gloss: "the economic policy of controlling or limiting or curbing prices or wages etc.; \"they wanted to repeal all the legislation that imposed economic controls\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02441022"
+        gloss: "exercise authoritative control or power over; \"control the budget\"; \"Command the military forces\""
+        angloform:
+          status: gap
+      - wordnet: "02510337"
+        gloss: "lessen the intensity of; temper; hold in restraint; hold or keep within limits; \"moderate your alcohol intake\"; \"hold your tongue\"; \"hold your temper\"; \"control your anger\""
+        angloform:
+          status: redirect
+          word: contain
+          category: VERB_TRANS
+      - wordnet: "01224744"
+        gloss: "handle and cause to function; \"do not operate machinery after imbibing alcohol\"; \"control the lever\""
+        angloform:
+          status: gap
+      - wordnet: "01803936"
+        gloss: "control (others or oneself) or influence skillfully, usually to one's advantage; \"She manipulates her boss\"; \"She is a very controlling mother and doesn't let her children grow up\"; \"The teacher knew how to keep the class in line\"; \"she keeps in line\""
+        angloform:
+          status: gap
+      - wordnet: "02520997"
+        gloss: "check or regulate (a scientific experiment) by conducting a parallel experiment or comparing with another standard; \"Are you controlling for the temperature?\""
+        angloform:
+          status: redirect
+          word: verify
+          category: VERB_TRANS
+      - wordnet: "00663160"
+        gloss: "verify by using a duplicate register for comparison; \"control an account\""
+        angloform:
+          status: gap
+      - wordnet: "00662589"
+        gloss: "be careful or certain to do something; make certain of something; \"He verified that the valves were closed\"; \"See that the curtains are closed\"; \"control the quality of the product\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "00597385"
+        gloss: "have a firm understanding or knowledge of; be on top of; \"Do you control these data?\""
+        angloform:
+          status: gap

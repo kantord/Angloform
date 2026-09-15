@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00429949"
+        gloss: "activities that are enjoyable or amusing; \"I do it for the fun of it\"; \"he is fun to have around\""
+        angloform:
+          status: gap
+      - wordnet: "06780882"
+        gloss: "verbal wit or mockery (often at another's expense but not to be taken seriously); \"he became a figure of fun\"; \"he said it in sport\""
+        angloform:
+          status: gap
+      - wordnet: "01260556"
+        gloss: "violent and excited activity; \"she asked for money and then the fun began\"; \"they began to fight like fun\""
+        angloform:
+          status: gap
+      - wordnet: "04649261"
+        gloss: "a disposition to find (or make) causes for amusement; \"her playfulness surprised me\"; \"he was fun to be with\""
+        angloform:
+          status: gap

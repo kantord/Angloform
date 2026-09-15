@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02706816"
+        gloss: "resist or confront with resistance; \"The politician defied public opinion\"; \"The new material withstands even the greatest wear and tear\"; \"The bridge held\""
+        angloform:
+          status: redirect
+          word: hold
+          category: VERB_TRANS
+      - wordnet: "02707800"
+        gloss: "elude, especially in a baffling way; \"This behavior defies explanation\""
+        angloform:
+          status: gap
+      - wordnet: "00868097"
+        gloss: "challenge; \"I dare you!\""
+        angloform:
+          status: gap

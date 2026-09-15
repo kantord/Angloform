@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05122557"
+        gloss: "the property resulting from being or relating to the greater in number of two parts; the main part; \"the majority of his customers prefer it\"; \"the bulk of the work is finished\""
+        angloform:
+          status: gap
+      - wordnet: "13581067"
+        gloss: (elections) more than half of the votes
+        angloform:
+          status: gap
+      - wordnet: "15152062"
+        gloss: the age at which persons are considered competent to manage their own affairs
+        angloform:
+          status: gap

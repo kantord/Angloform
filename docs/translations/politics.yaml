@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "13840719"
+        gloss: "social relations involving intrigue to gain authority or power; \"office politics is often counterproductive\""
+        angloform:
+          status: gap
+      - wordnet: "06148148"
+        gloss: the study of government of states and other political units
+        angloform:
+          status: gap
+      - wordnet: "00611972"
+        gloss: the profession devoted to governing and to political affairs
+        angloform:
+          status: gap
+      - wordnet: "06149192"
+        gloss: the opinion you hold with respect to political questions
+        angloform:
+          status: gap
+      - wordnet: "01124508"
+        gloss: "the activities and affairs involved in managing a state or a government; \"unemployment dominated the politics of the inter-war years\"; \"government agencies multiplied beyond the control of representative politics\""
+        angloform:
+          status: gap

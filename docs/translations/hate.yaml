@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07546465"
+        gloss: the emotion of intense dislike; a feeling of dislike so strong that it demands action
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01774136"
+        gloss: "dislike intensely; feel antipathy or aversion towards; \"I hate Mexican food\"; \"She detests politicians\""
+        angloform:
+          status: gap

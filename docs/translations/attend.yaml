@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02612762"
+        gloss: "be present at (meetings, church services, university), etc.; \"She attends class regularly\"; \"I rarely attend services at my church\"; \"did you go to the meeting?\""
+        angloform:
+          status: gap
+      - wordnet: "02549581"
+        gloss: "take charge of or deal with; \"Could you see about lunch?\"; \"I must attend to this matter\"; \"She took care of this business\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS
+      - wordnet: "02716567"
+        gloss: "to accompany as a circumstance or follow as a result; \"Menuhin's playing was attended by a 15-minute standing ovation\""
+        angloform:
+          status: gap
+      - wordnet: "02540670"
+        gloss: "work for or be a servant to; \"May I serve you?\"; \"She attends the old lady in the wheelchair\"; \"Can you wait on our table, please?\"; \"Is a salesperson assisting you?\"; \"The minister served the King for many years\""
+        angloform:
+          status: gap
+      - wordnet: "02170427"
+        gloss: "give heed (to); \"The children in the audience attended the recital quietly\"; \"She hung on his every word\"; \"They attended to everything he said\""
+        angloform:
+          status: gap

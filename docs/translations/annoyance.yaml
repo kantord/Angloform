@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14406573"
+        gloss: the psychological state of being irritated or annoyed
+        angloform:
+          status: gap
+      - wordnet: "07518261"
+        gloss: anger produced by some annoying irritation
+        angloform:
+          status: gap
+      - wordnet: "09778537"
+        gloss: an unpleasant person who is annoying or exasperating
+        angloform:
+          status: gap
+      - wordnet: "05830059"
+        gloss: "something or someone that causes trouble; a source of unhappiness; \"washing dishes was a nuisance before we got a dish washer\"; \"a bit of a bother\"; \"he's not a friend, he's an infliction\""
+        angloform:
+          status: gap
+      - wordnet: "00418394"
+        gloss: the act of troubling or annoying someone
+        angloform:
+          status: gap

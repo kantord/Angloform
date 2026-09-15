@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10049363"
+        gloss: a person who installs or repairs electrical or telephone lines
+        angloform:
+          status: gap

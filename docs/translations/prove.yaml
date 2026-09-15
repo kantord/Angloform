@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "02633881"
+        gloss: "be shown or be found to be; \"She proved to be right\"; \"The medicine turned out to save her life\"; \"She turned up HIV positive\""
+        angloform:
+          status: gap
+      - wordnet: "00664788"
+        gloss: "establish the validity of something, as by an example, explanation or experiment; \"The experiment demonstrated the instability of the compound\"; \"The mathematician showed the validity of the conjecture\""
+        angloform:
+          status: redirect
+          word: show
+          category: VERB_TRANS
+      - wordnet: "01015244"
+        gloss: "provide evidence for; \"The blood test showed that he was the father\"; \"Her behavior testified to her incompetence\""
+        angloform:
+          status: redirect
+          word: show
+          category: VERB_TRANS
+      - wordnet: "00665630"
+        gloss: prove formally; demonstrate by a mathematical, formal proof
+        angloform:
+          status: gap
+      - wordnet: "02531625"
+        gloss: "put to the test, as for its quality, or give experimental use to; \"This approach has been tried with good results\"; \"Test this recipe\""
+        angloform:
+          status: gap
+      - wordnet: "01983134"
+        gloss: "increase in volume; \"the dough rose slowly in the warm room\""
+        angloform:
+          status: gap
+      - wordnet: "01975587"
+        gloss: "cause to puff up with a leaven; \"unleavened bread\""
+        angloform:
+          status: gap
+      - wordnet: "01745052"
+        gloss: take a trial impression of
+        angloform:
+          status: gap
+      - wordnet: "00665771"
+        gloss: "obtain probate of; \"prove a will\""
+        angloform:
+          status: gap

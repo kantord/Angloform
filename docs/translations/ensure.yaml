@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00890590"
+        gloss: "make certain of; \"This nest egg will ensure a nice retirement for us\"; \"Preparation will guarantee success!\""
+        angloform:
+          status: gap
+      - wordnet: "00662589"
+        gloss: "be careful or certain to do something; make certain of something; \"He verified that the valves were closed\"; \"See that the curtains are closed\"; \"control the quality of the product\""
+        angloform:
+          status: redirect
+          word: see
+          category: VERB_TRANS

@@ -1,0 +1,22 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02484322"
+        gloss: any of various long-tailed primates (excluding the prosimians)
+        angloform:
+          status: gap
+      - wordnet: "10200047"
+        gloss: one who is playfully mischievous
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01586018"
+        gloss: "play around with or alter or falsify, usually secretively or dishonestly; \"Someone tampered with the documents on my desk\"; \"The reporter fiddle with the facts\""
+        angloform:
+          status: gap
+      - wordnet: "01473346"
+        gloss: "do random, unplanned work or activities or spend time idly; \"The old lady is usually mucking about in her little house\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02807731"
+        gloss: a room (as in a residence) containing a bathtub or shower and usually a washbasin and toilet
+        angloform:
+          status: gap
+      - wordnet: "04446276"
+        gloss: a room or building equipped with one or more toilets
+        angloform:
+          status: gap

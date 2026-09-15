@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05702275"
+        gloss: the process whereby a person concentrates on some features of the environment to the (relative) exclusion of others
+        angloform:
+          status: gap
+      - wordnet: "00654885"
+        gloss: "the work of providing treatment for or attending to someone or something; \"no medical care was required\"; \"the old car needs constant attention\""
+        angloform:
+          status: gap
+      - wordnet: "05853636"
+        gloss: "a general interest that leads people to want to know more; \"She was the center of attention\""
+        angloform:
+          status: gap
+      - wordnet: "01228645"
+        gloss: "a courteous act indicating affection; \"she tried to win his heart with her many attentions\""
+        angloform:
+          status: gap
+      - wordnet: "05650579"
+        gloss: "the faculty or power of mental concentration; \"keeping track of all the details requires your complete attention\""
+        angloform:
+          status: gap
+      - wordnet: "05082790"
+        gloss: "a motionless erect stance with arms at the sides and feet together; assumed by military personnel during drill or review; \"the troops stood at attention\""
+        angloform:
+          status: gap

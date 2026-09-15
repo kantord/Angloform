@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03287733"
+        gloss: motor that converts thermal energy to mechanical work
+        angloform:
+          status: gap
+      - wordnet: "11417561"
+        gloss: "something used to achieve a purpose; \"an engine of change\""
+        angloform:
+          status: gap
+      - wordnet: "03684823"
+        gloss: a wheeled vehicle consisting of a self-propelled engine that is used to draw trains along railway tracks
+        angloform:
+          status: gap
+      - wordnet: "03288003"
+        gloss: "an instrument or machine that is used in warfare, such as a battering ram, catapult, artillery piece, etc.; \"medieval engines of war\""
+        angloform:
+          status: gap

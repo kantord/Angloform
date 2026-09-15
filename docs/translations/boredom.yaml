@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07539790"
+        gloss: the feeling of being bored by something tedious
+        angloform:
+          status: gap

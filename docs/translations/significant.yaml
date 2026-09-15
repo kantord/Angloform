@@ -1,0 +1,20 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02161432"
+        gloss: "important in effect or meaning; \"a significant change in tax laws\"; \"a significant change in the Constitution\"; \"a significant contribution\"; \"significant details\"; \"statistically significant\""
+        angloform:
+          status: gap
+      - wordnet: "00625055"
+        gloss: "fairly large; \"won by a substantial margin\""
+        angloform:
+          status: gap
+      - wordnet: "02165655"
+        gloss: "too closely correlated to be attributed to chance and therefore indicating a systematic relation; \"the interaction effect is significant at the .01 level\"; \"no significant difference was found\""
+        angloform:
+          status: gap
+      - wordnet: "01497387"
+        gloss: "rich in significance or implication; \"a meaning look\""
+        angloform:
+          status: gap

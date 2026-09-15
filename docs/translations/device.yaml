@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03183080"
+        gloss: "an instrumentality invented for a particular purpose; \"the device is small enough to wear on your wrist\"; \"a device intended to conserve water\""
+        angloform:
+          status: gap
+      - wordnet: "07068844"
+        gloss: something in an artistic work designed to achieve a particular effect
+        angloform:
+          status: gap
+      - wordnet: "00171249"
+        gloss: "any clever maneuver; \"he would stoop to any device to win a point\"; \"it was a great sales gimmick\"; \"a cheap promotions gimmick for greedy businessmen\""
+        angloform:
+          status: gap
+      - wordnet: "03185746"
+        gloss: any ornamental pattern or design (as in embroidery)
+        angloform:
+          status: gap
+      - wordnet: "03185562"
+        gloss: "an emblematic design (especially in heraldry); \"he was recognized by the device on his shield\""
+        angloform:
+          status: gap

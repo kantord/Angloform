@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00489108"
+        gloss: "occurring or encountered or experienced or observed frequently or in accordance with regular practice or procedure; \"grew the usual vegetables\"; \"the usual summer heat\"; \"came at the usual time\"; \"the child's usual bedtime\""
+        angloform:
+          status: gap
+      - wordnet: "00970610"
+        gloss: "commonly encountered; \"a common (or familiar) complaint\"; \"the usual greeting\""
+        angloform:
+          status: redirect
+          word: common
+          category: ADJ

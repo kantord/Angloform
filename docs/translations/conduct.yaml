@@ -1,0 +1,44 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01220984"
+        gloss: manner of acting or controlling yourself
+        angloform:
+          status: gap
+      - wordnet: "04897762"
+        gloss: (behavioral attributes) the way a person behaves toward other people
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02445509"
+        gloss: "direct the course of; manage or control; \"You cannot conduct business like this\""
+        angloform:
+          status: gap
+      - wordnet: "01732921"
+        gloss: "lead, as in the performance of a composition; \"conduct an orchestra; Barenboim conducted the Chicago symphony for years\""
+        angloform:
+          status: gap
+      - wordnet: "02518161"
+        gloss: "behave in a certain manner; \"She carried herself well\"; \"he bore himself with dignity\"; \"They conducted themselves well during these difficult times\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "01999798"
+        gloss: "take somebody somewhere; \"We lead him to our chief\"; \"can you take me to the main entrance?\"; \"He conducted us to the palace\""
+        angloform:
+          status: redirect
+          word: take
+          category: VERB_TRANS
+      - wordnet: "02079933"
+        gloss: "transmit or serve as the medium for transmission; \"Sound carries well over water\"; \"The airwaves carry the sound\"; \"Many metals conduct heat\""
+        angloform:
+          status: redirect
+          word: carry
+          category: VERB_TRANS
+      - wordnet: "01733213"
+        gloss: "lead musicians in the performance of; \"Bernstein conducted Mahler like no other conductor\"; \"she cannot conduct modern pieces\""
+        angloform:
+          status: gap

@@ -1,0 +1,11 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+# a fixed letter/email valediction ("Best regards,"), not a real sentence
+# use of the verb "regard" (already enabled) — WordNet has no separate
+# noun entry for this fixed phrase.
+by_upos:
+  NOUN:
+    senses:
+      - gloss: fixed valediction closing a letter or message; "Best regards,"
+        angloform:
+          status: gap
+          note: no letter-closing/valediction convention exists yet

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10720453"
+        gloss: someone who purchases and maintains an inventory of goods to be sold
+        angloform:
+          status: gap

@@ -1,0 +1,19 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADV:
+    senses:
+      - wordnet: "00089408"
+        gloss: "to a high degree or extent; favorably or with much respect; \"highly successful\"; \"He spoke highly of her\"; \"does not think highly of his writing\"; \"extremely interesting\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00089643"
+        gloss: "at a high rate or wage; \"highly paid workers\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible
+      - wordnet: "00089267"
+        gloss: "in a high position or level or rank; \"details known by only a few highly placed persons\""
+        angloform:
+          status: excluded
+          reason: ADV — Angloform has no open adverb category, structurally impossible

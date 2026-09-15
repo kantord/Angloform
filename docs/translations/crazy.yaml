@@ -1,0 +1,30 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "09976283"
+        gloss: someone deranged and possibly dangerous
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "02075321"
+        gloss: "affected with madness or insanity; \"a man who had gone mad\""
+        angloform:
+          status: gap
+      - wordnet: "01836766"
+        gloss: "foolish; totally unsound; \"a crazy scheme\"; \"half-baked ideas\"; \"a screwball proposal without a prayer of working\""
+        angloform:
+          status: gap
+      - wordnet: "00919984"
+        gloss: "possessed by inordinate excitement; \"the crowd went crazy\"; \"was crazy to try his new bicycle\""
+        angloform:
+          status: gap
+      - wordnet: "00967897"
+        gloss: "bizarre or fantastic; \"had a crazy dream\"; \"wore a crazy hat\""
+        angloform:
+          status: gap
+      - wordnet: "00886448"
+        gloss: "intensely enthusiastic about or preoccupied with; \"crazy about cars and racing\"; \"he is potty about her\""
+        angloform:
+          status: gap

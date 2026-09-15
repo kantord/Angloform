@@ -1,0 +1,18 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "15137890"
+        gloss: "leisure time away from work devoted to rest or pleasure; \"we get two weeks of vacation every summer\"; \"we took a short holiday in Puerto Rico\""
+        angloform:
+          status: gap
+      - wordnet: "01253665"
+        gloss: the act of making something legally void
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02708707"
+        gloss: spend or take a vacation
+        angloform:
+          status: gap

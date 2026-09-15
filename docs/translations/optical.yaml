@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02861859"
+        gloss: "of or relating to or involving light or optics; \"optical supplies\""
+        angloform:
+          status: gap
+      - wordnet: "02869563"
+        gloss: "relating to or using sight; \"ocular inspection\"; \"an optical illusion\"; \"visual powers\"; \"visual navigation\""
+        angloform:
+          status: gap
+      - wordnet: "02869823"
+        gloss: "of or relating to or resembling the eye; \"ocular muscles\"; \"an ocular organ\"; \"ocular diseases\"; \"the optic (or optical) axis of the eye\"; \"an ocular spot is a pigmented organ or part believed to be sensitive to light\""
+        angloform:
+          status: gap

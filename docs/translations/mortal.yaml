@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00007846"
+        gloss: "a human being; \"there was too much for one person to do\""
+        angloform:
+          status: redirect
+          word: person
+          category: NOUN
+  ADJ:
+    senses:
+      - wordnet: "01557614"
+        gloss: "subject to death; \"mortal beings\""
+        angloform:
+          status: gap
+      - wordnet: "01721691"
+        gloss: "involving loss of divine grace or spiritual death; \"the seven deadly sins\""
+        angloform:
+          status: gap
+      - wordnet: "01507992"
+        gloss: "unrelenting and deadly; \"mortal enemy\""
+        angloform:
+          status: gap
+      - wordnet: "00993667"
+        gloss: "causing or capable of causing death; \"a fatal accident\"; \"a deadly enemy\"; \"mortal combat\"; \"a mortal illness\""
+        angloform:
+          status: gap

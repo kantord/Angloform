@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11411610"
+        gloss: "the consequences of an event (especially a catastrophic event); \"the aftermath of war\"; \"in the wake of the accident no one knew how many had been injured\""
+        angloform:
+          status: gap
+      - wordnet: "07294019"
+        gloss: the outcome of an event especially as relative to an individual
+        angloform:
+          status: gap

@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04137444"
+        gloss: man-made equipment that orbits around the earth or the moon
+        angloform:
+          status: gap
+      - wordnet: "10552639"
+        gloss: a person who follows or serves another
+        angloform:
+          status: gap
+      - wordnet: "09424270"
+        gloss: any celestial body orbiting around a planet or star
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00969137"
+        gloss: broadcast or disseminate via satellite
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00950119"
+        gloss: "surrounding and dominated by a central authority or power; \"a city and its satellite communities\""
+        angloform:
+          status: gap

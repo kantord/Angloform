@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "00903385"
+        gloss: "stop blaming or grant forgiveness; \"I forgave him his infidelity\"; \"She cannot forgive him for forgetting her birthday\""
+        angloform:
+          status: gap
+      - wordnet: "02564426"
+        gloss: "absolve from payment; \"I forgive you your debt\""
+        angloform:
+          status: gap

@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  VERB:
+    senses:
+      - gloss: to cook (food) for too short a time
+        angloform:
+          status: gap
+          note: no cook/food vocabulary exists yet; zero WordNet attestation

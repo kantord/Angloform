@@ -1,0 +1,36 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10326551"
+        gloss: a contemporary person
+        angloform:
+          status: gap
+      - wordnet: "06826726"
+        gloss: a typeface (based on an 18th century design by Gianbattista Bodoni) distinguished by regular shape and hairline serifs and heavy downstrokes
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01535709"
+        gloss: "belonging to the modern era; since the Middle Ages; \"modern art\"; \"modern furniture\"; \"modern history\"; \"totem poles are modern rather than prehistoric\""
+        angloform:
+          status: gap
+      - wordnet: "00972902"
+        gloss: "relating to a recently developed fashion or style; \"their offices are in a modern skyscraper\"; \"tables in modernistic designs\";"
+        angloform:
+          status: gap
+      - wordnet: "00414354"
+        gloss: characteristic of present-day art and music and literature and architecture
+        angloform:
+          status: gap
+      - wordnet: "01876261"
+        gloss: "ahead of the times; \"the advanced teaching methods\"; \"had advanced views on the subject\"; \"a forward-looking corporation\"; \"is British industry innovative enough?\""
+        angloform:
+          status: gap
+      - wordnet: "00820975"
+        gloss: "used of a living language; being the current stage in its development; \"Modern English\"; \"New Hebrew is Israeli Hebrew\""
+        angloform:
+          status: redirect
+          word: new
+          category: ADJ

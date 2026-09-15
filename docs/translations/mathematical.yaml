@@ -1,0 +1,24 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02937876"
+        gloss: "of or pertaining to or of the nature of mathematics; \"a mathematical textbook\"; \"slide rules and other mathematical instruments\"; \"a mathematical solution to a problem\"; \"mathematical proof\""
+        angloform:
+          status: gap
+      - wordnet: "02230795"
+        gloss: "relating to or having ability to think in or work with numbers; \"tests for rating numerical aptitude\"; \"a mathematical whiz\""
+        angloform:
+          status: gap
+      - wordnet: "01918771"
+        gloss: "beyond question; \"a mathematical certainty\""
+        angloform:
+          status: gap
+      - wordnet: "01822933"
+        gloss: "statistically possible though highly improbable; \"have a mathematical chance of making the playoffs\""
+        angloform:
+          status: gap
+      - wordnet: "00915141"
+        gloss: "characterized by the exactness or precision of mathematics; \"mathematical precision\""
+        angloform:
+          status: gap

@@ -1,0 +1,34 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "10372373"
+        gloss: a worker who holds or is invested with an office
+        angloform:
+          status: gap
+      - wordnet: "10372076"
+        gloss: "someone who administers the rules of a game or sport; \"the golfer asked for an official who could give him a ruling\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01632537"
+        gloss: "having official authority or sanction; \"official permission\"; \"an official representative\""
+        angloform:
+          status: gap
+      - wordnet: "02991463"
+        gloss: "of or relating to an office; \"official privileges\""
+        angloform:
+          status: gap
+      - wordnet: "01634736"
+        gloss: "verified officially; \"the election returns are now official\""
+        angloform:
+          status: gap
+      - wordnet: "01959918"
+        gloss: "conforming to set usage, procedure, or discipline; \"in prescribed order\""
+        angloform:
+          status: gap
+      - wordnet: "01636363"
+        gloss: (of a church) given official status as a national or state institution
+        angloform:
+          status: gap

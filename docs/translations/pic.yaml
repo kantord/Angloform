@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "06613686"
+        gloss: "a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement; \"they went to a movie every Saturday night\"; \"the film was shot on location\""
+        angloform:
+          status: redirect
+          word: movie
+          category: NOUN
+      - wordnet: "03925226"
+        gloss: a representation of a person or scene in the form of a print or transparent slide; recorded by a camera on light-sensitive material
+        angloform:
+          status: redirect
+          word: photo
+          category: NOUN

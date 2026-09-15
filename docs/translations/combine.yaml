@@ -1,0 +1,48 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "03075634"
+        gloss: harvester that heads and threshes and cleans grain while moving across the field
+        angloform:
+          status: gap
+      - wordnet: "08236621"
+        gloss: "a consortium of independent organizations formed to limit competition by controlling the production and distribution of a product or service; \"they set up the trust in the hope of gaining a monopoly\""
+        angloform:
+          status: gap
+      - wordnet: "07373803"
+        gloss: an occurrence that results in things being united
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02631163"
+        gloss: "have or possess in combination; \"she unites charm with a good business sense\""
+        angloform:
+          status: gap
+      - wordnet: "00193486"
+        gloss: "put or add together; \"combine resources\""
+        angloform:
+          status: gap
+      - wordnet: "01461328"
+        gloss: "combine so as to form a whole; mix; \"compound the ingredients\""
+        angloform:
+          status: gap
+      - wordnet: "02309008"
+        gloss: "add together from different sources; \"combine resources\""
+        angloform:
+          status: gap
+      - wordnet: "02377938"
+        gloss: "join for a common purpose or in a common action; \"These forces combined with others\""
+        angloform:
+          status: gap
+      - wordnet: "01385170"
+        gloss: gather in a mass, sum, or whole
+        angloform:
+          status: gap
+      - wordnet: "00394813"
+        gloss: "mix together different elements; \"The colors blend well\""
+        angloform:
+          status: redirect
+          word: merge
+          category: VERB_TRANS

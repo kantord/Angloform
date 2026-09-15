@@ -1,0 +1,26 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "01098698"
+        gloss: the commercial activity of providing funds and capital
+        angloform:
+          status: gap
+      - wordnet: "06150633"
+        gloss: the branch of economics that studies the management of money and other assets
+        angloform:
+          status: gap
+      - wordnet: "01134037"
+        gloss: the management of money and credit and banking and investments
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02217266"
+        gloss: "obtain or provide money for; \"Can we finance the addition to our home?\""
+        angloform:
+          status: gap
+      - wordnet: "02217864"
+        gloss: sell or provide on credit
+        angloform:
+          status: gap

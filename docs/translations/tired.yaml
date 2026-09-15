@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "02431728"
+        gloss: "depleted of strength or energy; \"tired mothers with crying babies\"; \"too tired to eat\""
+        angloform:
+          status: gap
+      - wordnet: "01688757"
+        gloss: "repeated too often; overfamiliar through overuse; \"bromidic sermons\"; \"his remarks were trite and commonplace\"; \"hackneyed phrases\"; \"a stock answer\"; \"repeating threadbare jokes\"; \"parroting some timeworn axiom\"; \"the trite metaphor `hard as nails'\""
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "04810035"
+        gloss: lawfulness by virtue of being authorized or in accordance with law
+        angloform:
+          status: gap
+      - wordnet: "04783247"
+        gloss: undisputed credibility
+        angloform:
+          status: gap

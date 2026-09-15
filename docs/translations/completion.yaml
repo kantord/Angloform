@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00557419"
+        gloss: (American football) a successful forward pass in football
+        angloform:
+          status: gap
+      - wordnet: "00211110"
+        gloss: a concluding action
+        angloform:
+          status: gap

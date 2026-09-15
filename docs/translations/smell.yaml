@@ -1,0 +1,46 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05713737"
+        gloss: "the sensation that results when olfactory receptors in the nose are stimulated by particular chemicals in gaseous form; \"she loved the smell of roses\""
+        angloform:
+          status: gap
+      - wordnet: "04980008"
+        gloss: any property detected by the olfactory system
+        angloform:
+          status: gap
+      - wordnet: "14526182"
+        gloss: "the general atmosphere of a place or situation and the effect that it has on people; \"the feel of the city excited him\"; \"a clergyman improved the tone of the meeting\"; \"it had the smell of treason\""
+        angloform:
+          status: gap
+      - wordnet: "05658603"
+        gloss: the faculty that enables us to distinguish scents
+        angloform:
+          status: gap
+      - wordnet: "00882961"
+        gloss: the act of perceiving the odor of something
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02124748"
+        gloss: inhale the odor of; perceive by the olfactory sense
+        angloform:
+          status: gap
+      - wordnet: "02123672"
+        gloss: "emit an odor; \"The soup smells good\""
+        angloform:
+          status: gap
+      - wordnet: "02124332"
+        gloss: "smell bad; \"He rarely washes, and he smells\""
+        angloform:
+          status: gap
+      - wordnet: "02194723"
+        gloss: "have an element suggestive (of something); \"his speeches smacked of racism\"; \"this passage smells of plagiarism\""
+        angloform:
+          status: gap
+      - wordnet: "00589469"
+        gloss: "become aware of not through the senses but instinctively; \"I sense his hostility\"; \"i smell trouble\"; \"smell out corruption\""
+        angloform:
+          status: gap

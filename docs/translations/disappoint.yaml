@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01798936"
+        gloss: "fail to meet the hopes or expectations of; \"Her boyfriend let her down when he did not propose marriage\""
+        angloform:
+          status: gap

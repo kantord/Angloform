@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14717275"
+        gloss: an alloy of copper and tin and sometimes other elements; also any copper-base alloy containing other elements in place of tin
+        angloform:
+          status: gap
+      - wordnet: "02906175"
+        gloss: a sculpture made of bronze
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00281913"
+        gloss: "give the color and appearance of bronze to something; \"bronze baby shoes\""
+        angloform:
+          status: gap
+      - wordnet: "00103875"
+        gloss: get a tan, from wind or sun
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00371945"
+        gloss: of the color of bronze
+        angloform:
+          status: gap
+      - wordnet: "01528644"
+        gloss: made from or consisting of bronze
+        angloform:
+          status: gap

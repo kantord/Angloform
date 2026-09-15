@@ -1,0 +1,54 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05704694"
+        gloss: "the concentration of attention or energy on something; \"the focus of activity shifted to molecular biology\"; \"he had no direction in his life\""
+        angloform:
+          status: gap
+      - wordnet: "04703235"
+        gloss: "maximum clarity or distinctness of an image rendered by an optical system; \"in focus\"; \"out of focus\""
+        angloform:
+          status: gap
+      - wordnet: "04821084"
+        gloss: "maximum clarity or distinctness of an idea; \"the controversy brought clearly into focus an important difference of opinion\""
+        angloform:
+          status: gap
+      - wordnet: "14182697"
+        gloss: "a central point or locus of an infection in an organism; \"the focus of infection\""
+        angloform:
+          status: gap
+      - wordnet: "14435187"
+        gloss: "special emphasis attached to something; \"the stress was more on accuracy than on speed\""
+        angloform:
+          status: gap
+      - wordnet: "11455695"
+        gloss: a point of convergence of light (or other radiation) or a point from which it diverges
+        angloform:
+          status: gap
+      - wordnet: "08572335"
+        gloss: a fixed reference point on the concave side of a conic section
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00722232"
+        gloss: "direct one's attention on something; \"Please focus on your studies and not on your hobbies\""
+        angloform:
+          status: gap
+      - wordnet: "02161922"
+        gloss: "cause to converge on or toward a central point; \"Focus the light on this image\""
+        angloform:
+          status: gap
+      - wordnet: "00731789"
+        gloss: bring into focus or alignment; to converge or cause to converge; of ideas or emotions
+        angloform:
+          status: gap
+      - wordnet: "00314782"
+        gloss: "become focussed or come into focus; \"The light focused\""
+        angloform:
+          status: gap
+      - wordnet: "00314272"
+        gloss: "put (an image) into focus; \"Please focus the image; we cannot enjoy the movie\""
+        angloform:
+          status: gap

@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "02898711"
+        gloss: a structure that allows people or vehicles to cross an obstacle such as a river or canal or railway etc.
+        angloform:
+          status: redirect
+          word: span
+          category: NOUN
+      - wordnet: "02899808"
+        gloss: a circuit consisting of two branches (4 arms arranged in a diamond configuration) across which a meter is connected
+        angloform:
+          status: gap
+      - wordnet: "13793330"
+        gloss: "something resembling a bridge in form or function; \"his letters provided a bridge across the centuries\""
+        angloform:
+          status: gap
+      - wordnet: "05599203"
+        gloss: "the hard ridge that forms the upper part of the nose; \"her glasses left marks on the bridge of her nose\""
+        angloform:
+          status: gap
+      - wordnet: "00490569"
+        gloss: any of various card games based on whist for four players
+        angloform:
+          status: gap
+      - wordnet: "02899694"
+        gloss: a wooden support that holds the strings up
+        angloform:
+          status: gap
+      - wordnet: "02899569"
+        gloss: a denture anchored to teeth on either side of missing teeth
+        angloform:
+          status: gap
+      - wordnet: "02899439"
+        gloss: the link between two lenses; rests on the nose
+        angloform:
+          status: gap
+      - wordnet: "02899257"
+        gloss: an upper deck where a ship is steered and the captain stands
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02623194"
+        gloss: connect or reduce the distance between
+        angloform:
+          status: gap
+      - wordnet: "01296324"
+        gloss: "make a bridge across; \"bridge a river\""
+        angloform:
+          status: gap
+      - wordnet: "01915131"
+        gloss: cross over on a bridge
+        angloform:
+          status: gap

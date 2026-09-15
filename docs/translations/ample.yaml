@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "00105746"
+        gloss: "more than enough in size or scope or capacity; \"had ample food for the party\"; \"an ample supply\""
+        angloform:
+          status: gap
+      - wordnet: "00014490"
+        gloss: "affording an abundant supply; \"had ample food for the party\"; \"copious provisions\"; \"food is plentiful\"; \"a plenteous grape harvest\"; \"a rich supply\""
+        angloform:
+          status: gap
+      - wordnet: "01383394"
+        gloss: "fairly large; \"a sizable fortune\"; \"an ample waistline\"; \"of ample proportions\""
+        angloform:
+          status: gap

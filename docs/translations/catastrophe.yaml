@@ -1,0 +1,16 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "07314838"
+        gloss: "an event resulting in great loss and misfortune; \"the whole city was affected by the irremediable calamity\"; \"the earthquake was a disaster\""
+        angloform:
+          status: gap
+      - wordnet: "14476290"
+        gloss: "a state of extreme (usually irremediable) ruin and misfortune; \"lack of funds has resulted in a catastrophe for our school system\"; \"his policies were a disaster\""
+        angloform:
+          status: gap
+      - wordnet: "11434016"
+        gloss: "a sudden violent change in the earth's surface"
+        angloform:
+          status: gap

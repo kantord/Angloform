@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "11524662"
+        gloss: "the atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation; \"they were hoping for good weather\"; \"every day we have weather conditions and yesterday was no exception\"; \"the conditions were too rainy for playing in the snow\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02707251"
+        gloss: "face and withstand with courage; \"She braved the elements\""
+        angloform:
+          status: gap
+      - wordnet: "02038278"
+        gloss: cause to slope
+        angloform:
+          status: gap
+      - wordnet: "01928283"
+        gloss: sail to the windward of
+        angloform:
+          status: gap
+      - wordnet: "00275088"
+        gloss: "change under the action or influence of the weather; \"A weathered old hut\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01400464"
+        gloss: towards the side exposed to wind
+        angloform:
+          status: gap

@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05768553"
+        gloss: "a series of mental images and emotions occurring during sleep; \"I had a dream about you last night\""
+        angloform:
+          status: gap
+      - wordnet: "05768806"
+        gloss: "imaginative thoughts indulged in while awake; \"he lives in a dream that has nothing to do with reality\""
+        angloform:
+          status: gap
+      - wordnet: "07484547"
+        gloss: "a cherished desire; \"his ambition is to own his own business\""
+        angloform:
+          status: gap
+      - wordnet: "05632732"
+        gloss: "a fantastic but vain hope (from fantasies induced by the opium pipe); \"I have this pipe dream about being emperor of the universe\""
+        angloform:
+          status: gap
+      - wordnet: "05700925"
+        gloss: "a state of mind characterized by abstraction and release from reality; \"he went about his work as if in a dream\""
+        angloform:
+          status: gap
+      - wordnet: "14459715"
+        gloss: "someone or something wonderful; \"this dessert is a dream\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01637633"
+        gloss: have a daydream; indulge in a fantasy
+        angloform:
+          status: gap
+      - wordnet: "02118242"
+        gloss: "experience while sleeping; \"She claims to never dream\"; \"He dreamt a strange scene\""
+        angloform:
+          status: gap

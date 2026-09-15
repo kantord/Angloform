@@ -1,0 +1,56 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05824739"
+        gloss: "any factual evidence that helps to establish the truth of something; \"if you have any proof for what you say, now is the time to produce it\""
+        angloform:
+          status: gap
+      - wordnet: "06647614"
+        gloss: a formal series of statements showing that if one thing is true something else necessarily follows from it
+        angloform:
+          status: gap
+      - wordnet: "13780180"
+        gloss: a measure of alcoholic strength expressed as an integer twice the percentage of alcohol present (by volume)
+        angloform:
+          status: gap
+      - wordnet: "06590885"
+        gloss: (printing) an impression made to check for errors
+        angloform:
+          status: gap
+      - wordnet: "04011130"
+        gloss: a trial photographic print from a negative
+        angloform:
+          status: gap
+      - wordnet: "00153961"
+        gloss: the act of validating; finding or testing the truth of something
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01752316"
+        gloss: make or take a proof of, such as a photographic negative, an etching, or typeset
+        angloform:
+          status: gap
+      - wordnet: "01235558"
+        gloss: "knead to reach proper lightness; \"proof dough\""
+        angloform:
+          status: gap
+      - wordnet: "00628302"
+        gloss: "read for errors; \"I should proofread my manuscripts\""
+        angloform:
+          status: gap
+      - wordnet: "00534545"
+        gloss: "activate by mixing with water and sometimes sugar or milk; \"proof yeast\""
+        angloform:
+          status: gap
+      - wordnet: "00165971"
+        gloss: "make resistant (to harm); \"proof the materials against shrinking in the dryer\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "01774720"
+        gloss: "(used in combination or as a suffix) able to withstand; \"temptation-proof\"; \"childproof locks\""
+        angloform:
+          status: gap

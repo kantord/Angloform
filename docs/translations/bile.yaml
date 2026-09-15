@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05406570"
+        gloss: a digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats
+        angloform:
+          status: gap

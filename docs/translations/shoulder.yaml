@@ -1,0 +1,38 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "05548840"
+        gloss: the part of the body between the neck and the upper arm
+        angloform:
+          status: gap
+      - wordnet: "07661583"
+        gloss: a cut of meat including the upper joint of the foreleg
+        angloform:
+          status: gap
+      - wordnet: "05549061"
+        gloss: a ball-and-socket joint between the head of the humerus and a cavity of the scapula
+        angloform:
+          status: gap
+      - wordnet: "04207151"
+        gloss: "the part of a garment that covers or fits over the shoulder; \"an ornamental gold braid on the shoulder of his uniform\""
+        angloform:
+          status: gap
+      - wordnet: "04206948"
+        gloss: "a narrow edge of land (usually unpaved) along the side of a road; \"the car pulled off onto the shoulder\""
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "01239359"
+        gloss: "lift onto one's shoulders"
+        angloform:
+          status: gap
+      - wordnet: "01238907"
+        gloss: "push with the shoulders; \"He shouldered his way into the crowd\""
+        angloform:
+          status: gap
+      - wordnet: "01239054"
+        gloss: "carry a burden, either real or metaphoric; \"shoulder the burden\""
+        angloform:
+          status: gap

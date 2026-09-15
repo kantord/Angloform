@@ -1,0 +1,14 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "00286360"
+        gloss: a step to one side (as in boxing or dancing)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00809654"
+        gloss: "avoid or try to avoid fulfilling, answering, or performing (duties, questions, or issues); \"He dodged the issue\"; \"she skirted the problem\"; \"They tend to evade their responsibilities\"; \"he evaded the questions skillfully\""
+        angloform:
+          status: gap

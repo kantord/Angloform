@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14541852"
+        gloss: "a source of danger; a possibility of incurring loss or misfortune; \"drinking alcohol is a health hazard\""
+        angloform:
+          status: gap
+      - wordnet: "00802238"
+        gloss: "a venture undertaken without regard to possible loss or injury; \"he saw the rewards but not the risks of crime\"; \"there was a danger he would do the wrong thing\""
+        angloform:
+          status: redirect
+          word: danger
+          category: NOUN
+      - wordnet: "05093418"
+        gloss: the probability of becoming infected given that exposure to an infectious agent has occurred
+        angloform:
+          status: gap
+      - wordnet: "05093293"
+        gloss: the probability of being exposed to an infectious agent
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "02545578"
+        gloss: "expose to a chance of loss or damage; \"We risked losing a lot of money in this venture\"; \"Why risk your life?\"; \"She laid her job on the line when she told the boss that he was wrong\""
+        angloform:
+          status: gap
+      - wordnet: "02544348"
+        gloss: "take a risk in the hope of a favorable outcome; \"When you buy these stocks you are gambling\""
+        angloform:
+          status: gap

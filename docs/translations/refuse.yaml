@@ -1,0 +1,40 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14857151"
+        gloss: food that is discarded (as from a kitchen)
+        angloform:
+          status: gap
+  VERB:
+    senses:
+      - wordnet: "00797430"
+        gloss: "show unwillingness towards; \"he declined to join the group on a hike\""
+        angloform:
+          status: gap
+      - wordnet: "02237338"
+        gloss: "refuse to accept; \"He refused my offer of hospitality\""
+        angloform:
+          status: redirect
+          word: reject
+          category: VERB_TRANS
+      - wordnet: "02707800"
+        gloss: "elude, especially in a baffling way; \"This behavior defies explanation\""
+        angloform:
+          status: gap
+      - wordnet: "02212825"
+        gloss: "refuse to let have; \"She denies me every pleasure\"; \"he denies her her weekly allowance\""
+        angloform:
+          status: gap
+      - wordnet: "02755017"
+        gloss: "resist immunologically the introduction of some foreign tissue or organ; \"His body rejected the liver of the donor\""
+        angloform:
+          status: redirect
+          word: reject
+          category: VERB_TRANS
+      - wordnet: "02502916"
+        gloss: "refuse entrance or membership; \"They turned away hundreds of fans\"; \"Black people were often rejected by country clubs\""
+        angloform:
+          status: redirect
+          word: reject
+          category: VERB_TRANS

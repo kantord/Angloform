@@ -1,0 +1,13 @@
+# English -> Angloform per-sense translation guidance (2026-09-15).
+by_upos:
+  NOUN:
+    senses:
+      - gloss: an order placed before a product's release date
+        angloform:
+          status: gap
+          note: modern retail jargon; zero WordNet attestation
+  VERB:
+    senses:
+      - gloss: to place such an order
+        angloform:
+          status: gap

@@ -1,0 +1,12 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08050678"
+        gloss: "the organization that is the governing authority of a political unit; \"the government reduced taxes\"; \"the matter was referred to higher authorities\""
+        angloform:
+          status: gap
+      - wordnet: "05909585"
+        gloss: (medicine) a systematic plan for therapy (often including diet)
+        angloform:
+          status: gap

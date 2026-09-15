@@ -1,0 +1,8 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  ADJ:
+    senses:
+      - wordnet: "01889819"
+        gloss: "having or showing feelings of unwarranted importance out of overbearing pride; \"an arrogant official\"; \"arrogant claims\"; \"chesty as a peacock\""
+        angloform:
+          status: gap

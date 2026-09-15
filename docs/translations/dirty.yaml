@@ -1,0 +1,58 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  VERB:
+    senses:
+      - wordnet: "01534147"
+        gloss: "make soiled, filthy, or dirty; \"don't soil your clothes when you play outside!\""
+        angloform:
+          status: gap
+  ADJ:
+    senses:
+      - wordnet: "00419289"
+        gloss: "soiled or likely to soil with dirt or grime; \"dirty unswept sidewalks\"; \"a child in dirty overalls\"; \"dirty slums\"; \"piles of dirty dishes\"; \"put his dirty feet on the clean sheet\"; \"wore an unclean shirt\"; \"mining is a dirty job\"; \"Cinderella did the dirty work while her sisters preened themselves\""
+        angloform:
+          status: gap
+      - wordnet: "00424370"
+        gloss: "(of behavior or especially language) characterized by obscenity or indecency; \"dirty words\"; \"a dirty old man\"; \"dirty books and movies\"; \"boys telling dirty jokes\"; \"has a dirty mouth\""
+        angloform:
+          status: gap
+      - wordnet: "01587474"
+        gloss: "vile; despicable; \"a dirty (or lousy) trick\"; \"a filthy traitor\""
+        angloform:
+          status: gap
+      - wordnet: "00426608"
+        gloss: "spreading pollution or contamination; especially radioactive contamination; \"the air near the foundry was always dirty\"; \"a dirty bomb releases enormous amounts of long-lived radioactive fallout\""
+        angloform:
+          status: gap
+      - wordnet: "02114296"
+        gloss: "contaminated with infecting organisms; \"dirty wounds\"; \"obliged to go into infected rooms\"- Jane Austen"
+        angloform:
+          status: gap
+      - wordnet: "01909077"
+        gloss: "(of color) discolored by impurities; not bright and clear; \"dirty\" is often used in combination; \"a dirty (or dingy) white\"; \"the muddied grey of the sea\"; \"muddy colors\"; \"dirty-green walls\"; \"dirty-blonde hair\""
+        angloform:
+          status: gap
+      - wordnet: "01405390"
+        gloss: "(of a manuscript) defaced with changes; \"foul (or dirty) copy\""
+        angloform:
+          status: gap
+      - wordnet: "01403012"
+        gloss: "obtained illegally or by improper means; \"dirty money\"; \"ill-gotten gains\""
+        angloform:
+          status: gap
+      - wordnet: "01245778"
+        gloss: "expressing or revealing hostility or dislike; \"dirty looks\""
+        angloform:
+          status: gap
+      - wordnet: "00957743"
+        gloss: "violating accepted standards or rules; \"a dirty fighter\"; \"used foul means to gain power\"; \"a nasty unsporting serve\"; \"fined for unsportsmanlike behavior\""
+        angloform:
+          status: gap
+      - wordnet: "00621857"
+        gloss: "unethical or dishonest; \"dirty police officers\"; \"a sordid political campaign\""
+        angloform:
+          status: gap
+      - wordnet: "00305590"
+        gloss: "unpleasantly stormy; \"there's dirty weather in the offing\""
+        angloform:
+          status: gap

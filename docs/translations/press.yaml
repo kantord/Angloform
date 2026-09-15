@@ -1,0 +1,104 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "14451349"
+        gloss: "the state of demanding notice or attention; \"the insistence of their hunger\"; \"the press of business matters\""
+        angloform:
+          status: redirect
+          word: pressure
+          category: NOUN
+      - wordnet: "06263369"
+        gloss: the print media responsible for gathering and publishing news in the form of newspapers or magazines
+        angloform:
+          status: gap
+      - wordnet: "04000311"
+        gloss: a machine used for printing
+        angloform:
+          status: gap
+      - wordnet: "08183398"
+        gloss: a dense crowd of people
+        angloform:
+          status: gap
+      - wordnet: "04550184"
+        gloss: a tall piece of furniture that provides storage space for clothes; has a door and rails or hooks for hanging clothes
+        angloform:
+          status: gap
+      - wordnet: "04000480"
+        gloss: clamp to prevent wooden rackets from warping when not in use
+        angloform:
+          status: gap
+      - wordnet: "03999992"
+        gloss: any machine that exerts pressure to form or shape or cut materials or extract liquids or compress solids
+        angloform:
+          status: gap
+      - wordnet: "00627013"
+        gloss: a weightlift in which the barbell is lifted to shoulder height and then smoothly lifted overhead
+        angloform:
+          status: gap
+      - wordnet: "00113113"
+        gloss: "the act of pressing; the exertion of pressure; \"he gave the button a press\"; \"he used pressure to stop the bleeding\"; \"at the pressing of a button\""
+        angloform:
+          status: redirect
+          word: pressure
+          category: NOUN
+  VERB:
+    senses:
+      - wordnet: "01447257"
+        gloss: "exert pressure or force to or upon; \"He pressed down on the boards\"; \"press your thumb on this spot\""
+        angloform:
+          status: gap
+      - wordnet: "00765649"
+        gloss: "force or impel in an indicated direction; \"I urged him to finish his studies\""
+        angloform:
+          status: gap
+      - wordnet: "02646064"
+        gloss: "to be oppressive or burdensome; \"weigh heavily on the mind\", \"Something pressed on his mind\""
+        angloform:
+          status: redirect
+          word: weigh
+          category: VERB_TRANS
+      - wordnet: "01390616"
+        gloss: "place between two surfaces and apply weight or pressure; \"pressed flowers\""
+        angloform:
+          status: gap
+      - wordnet: "01387786"
+        gloss: "squeeze or press together; \"she compressed her lips\"; \"the spasm contracted the muscle\""
+        angloform:
+          status: gap
+      - wordnet: "02024367"
+        gloss: "crowd closely; \"The crowds pressed along the street\""
+        angloform:
+          status: gap
+      - wordnet: "01754105"
+        gloss: "create by pressing; \"Press little holes into the soft clay\""
+        angloform:
+          status: gap
+      - wordnet: "02722782"
+        gloss: "be urgent; \"This is a pressing problem\""
+        angloform:
+          status: gap
+      - wordnet: "02589576"
+        gloss: "exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for; \"The liberal party pushed for reforms\"; \"She is crusading for women's rights\"; \"The Dean is pushing for his favorite candidate\""
+        angloform:
+          status: gap
+      - wordnet: "01662614"
+        gloss: "press from a plastic; \"press a record\""
+        angloform:
+          status: gap
+      - wordnet: "01447632"
+        gloss: "make strenuous pushing movements during birth to expel the baby; \"`Now push hard,' said the doctor to the woman\""
+        angloform:
+          status: gap
+      - wordnet: "01390833"
+        gloss: "press and smooth with a heated iron; \"press your shirts\"; \"she stood there ironing\""
+        angloform:
+          status: gap
+      - wordnet: "01150370"
+        gloss: "lift weights; \"This guy can press 300 pounds\""
+        angloform:
+          status: gap
+      - wordnet: "00759657"
+        gloss: "ask for or request earnestly; \"The prophet bid all people to become good persons\""
+        angloform:
+          status: gap

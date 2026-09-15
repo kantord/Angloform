@@ -1,0 +1,32 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08441203"
+        gloss: "the collection of rules imposed by authority; \"civilization presupposes respect for the law\"; \"the great problem for jurisprudence to allow freedom while enforcing order\""
+        angloform:
+          status: gap
+      - wordnet: "06532330"
+        gloss: "legal document setting forth rules governing a particular kind of activity; \"there is a law against kidnapping\""
+        angloform:
+          status: gap
+      - wordnet: "05870916"
+        gloss: a rule or body of rules of conduct inherent in human nature and essential to or binding upon human society
+        angloform:
+          status: gap
+      - wordnet: "05872982"
+        gloss: "a generalization that describes recurring facts or events in nature; \"the laws of thermodynamics\""
+        angloform:
+          status: gap
+      - wordnet: "06161718"
+        gloss: the branch of philosophy concerned with the law and the principles that lead courts to make the decisions they do
+        angloform:
+          status: gap
+      - wordnet: "00611143"
+        gloss: "the learned profession that is mastered by graduate study in a law school and that is responsible for the judicial system; \"he studied law at Yale\""
+        angloform:
+          status: gap
+      - wordnet: "08209687"
+        gloss: "the force of policemen and officers; \"the law came looking for him\""
+        angloform:
+          status: gap

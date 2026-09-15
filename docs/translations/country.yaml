@@ -1,0 +1,28 @@
+# English -> Angloform per-sense translation guidance (2026-09-15, autodraft).
+by_upos:
+  NOUN:
+    senses:
+      - wordnet: "08168978"
+        gloss: "a politically organized body of people under a single government; \"the state has elected a new president\"; \"African nations\"; \"students who had come to the nation's capitol\"; \"the country's largest manufacturer\"; \"an industrialized land\""
+        angloform:
+          status: redirect
+          word: state
+          category: NOUN
+      - wordnet: "08544813"
+        gloss: "the territory occupied by a nation; \"he returned to the land of his birth\"; \"he visited several European countries\""
+        angloform:
+          status: redirect
+          word: state
+          category: NOUN
+      - wordnet: "08166552"
+        gloss: "the people who live in a nation or country; \"a statement that sums up the nation's mood\"; \"the news was announced to the nation\"; \"the whole country worshipped him\""
+        angloform:
+          status: gap
+      - wordnet: "08644722"
+        gloss: "an area outside of cities and towns; \"his poetry celebrated the slower pace of life in the country\""
+        angloform:
+          status: gap
+      - wordnet: "08497294"
+        gloss: "a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography); \"it was a mountainous area\"; \"Bible country\""
+        angloform:
+          status: gap
