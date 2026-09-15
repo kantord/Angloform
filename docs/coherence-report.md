@@ -650,3 +650,14 @@
   - sequence: 2 ✓ after/before/until + noun phrase (ADR 0033)
   - elaboration: 2 ✗ no form
 
+## docs/adr/0063-infinitive-verb-class.md
+
+- Sentences: 32; parse: 14/32 (44%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 10/20 consecutive pairs share the subject with the sentence before (50%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 2 ✓ , so
+  - concession: 2 ✗ no form
+  - sequence: 10 ✓ after/before/until + noun phrase (ADR 0033)
+  - exemplification: 1 ✗ no form
+
