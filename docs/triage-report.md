@@ -9,16 +9,16 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 ## Sentence buckets
 
 - **Perfect** (every token usable as-is): 7 (0.3%)
-- **Close** (1–2 problem tokens): 522 (25.6%)
-- **Far** (3+ problem tokens): 1508 (74.0%)
+- **Close** (1–2 problem tokens): 526 (25.8%)
+- **Far** (3+ problem tokens): 1504 (73.8%)
 
 ## Token verdicts
 
 | verdict | tokens | share |
 |---|---|---|
-| OK | 8341 | 38.2% |
+| OK | 8439 | 38.6% |
 | REDIRECT (designed rejection with suggestion) | 298 | 1.4% |
-| MISMATCH (enabled word, uncovered POS) | 2109 | 9.7% |
+| MISMATCH (enabled word, uncovered POS) | 2011 | 9.2% |
 | PROPN (out of scope) | 2075 | 9.5% |
 | OOV | 9024 | 41.3% |
 
@@ -72,11 +72,11 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 - be used as VERB ×48
 - up used as ADP ×46
 - do used as VERB ×45
-- one used as NUM ×34
-- which used as PRON ×33
-- who used as PRON ×30
 - about used as ADP ×26
 - for used as SCONJ ×24
+- may used as AUX ×23
+- other used as ADJ ×22
+- only used as ADV ×20
 
 ## Samples for manual review
 

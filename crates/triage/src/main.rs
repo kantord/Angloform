@@ -169,6 +169,17 @@ fn judge(t: &Token, lex: &Lexicon) -> Verdict {
         if t.upos == "DET" && enabled.starts_with("QUANT") {
             return Verdict::Ok;
         }
+        // ADR 0016: "one" as the exactly-one numeral is NUM_SG, not the
+        // NOUN/VERB/ADJ/ADP/DET families upos_family covers.
+        if t.upos == "NUM" && enabled == "NUM_SG" {
+            return Verdict::Ok;
+        }
+        // ADR 0059: "which"/"who" are dedicated relative-clause
+        // relativizers, gold-tagged PRON but not the PRON_*/POSS_* forms
+        // the PRON special case above already covers.
+        if t.upos == "PRON" && (enabled == "WHICH" || enabled == "WHO") {
+            return Verdict::Ok;
+        }
     }
     // not usable as-is: is this a rejected use of an enabled lemma?
     let rk = reject_key(&t.upos);
