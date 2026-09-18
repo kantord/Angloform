@@ -785,3 +785,41 @@ Shape repeated" even when the actual words vary, which is closer to
 what today's judges were actually reacting to — see the "varied verb"
 trial in `docs/naturalness-iteration-2026-09-05.md`, which still scored
 2/5 despite different words, because the *structure* repeated).
+
+## Angloform has no questions (found auditing docs/triage-report.md's
+"Uncovered POS mismatches", 2026-09-15)
+
+The Grammar has no `Question`/`Interrogative` production at all — not a
+missing wh-word, a missing sentence type. Confirmed 3 ways: no such
+nonterminal in `angloform.lalrpop`; the tokenizer doesn't even recognize
+`"?"`; and it's already explicitly banned — `seed.json`'s `interrogative`
+entry: *"the language has no questions yet — write 'a question' as a
+noun, or restructure."* `what`/`who`(-interrogative, distinct from the
+relative `who`)/`where`/`when`/`why`/`how` all being unaddressed is one
+symptom of this single absence, not six separate gaps.
+
+Real scope if ever tackled: subject-aux inversion for yes/no questions,
+wh-fronting for wh-questions, question-mark tokenization, and a real
+decision per wh-word — closer in size to the relative-clause work (ADR
+0010/0059) than to a single closed-class addition like ADR 0063's
+`VERB_INF`. Deliberately parked, not started: this is grammar-design
+work on the scale of its own initiative, not vocabulary-ratchet work,
+and the language has functioned as purely declarative since day one
+without anyone treating that as blocking.
+
+Everything else near the top of the `MISMATCH` list turned out to
+already be settled, once actually checked against real corpus sentences
+and a real paraphrase attempt (not just the first construction tried):
+`be`/`have`-as-AUX (progressive/perfect, ADR 0003/0016), `about`/`for`
+(ADR 0025/0026), `will`/`would` (an already-accepted Gap, ADR 0009),
+`could`/`should` (already banned with advice), `'s` (the `of`-genitive
+already covers it, and covers it in the *better*-shaped, right-branching
+direction the project already prefers), `this`-as-determiner (same
+anaphora ban as `this`-as-pronoun), spelled-out numbers (digits-only,
+ADR 0022), and `someone`/`anyone`/`something`/`anything` (already
+expressible via `a`/`every`/`no` + `person`/`thing` — the first pass
+wrongly tested `some` + singular, which fails by design, ADR 0017, and
+stopped there instead of finding the real paraphrase). `one`/`which`/
+`who` were pure triage-tool bugs (`upos_family` missing NUM/WHICH/WHO),
+now fixed. The one real, actionable gap in the whole sweep —
+`to`-infinitives — is done (ADR 0063).

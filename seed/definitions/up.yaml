@@ -1,3 +1,25 @@
+# "up" is also attested as ADP 46 times in the real UD-EWT corpus (a
+# MISMATCH in docs/triage-report.md) — but every single real occurrence
+# checked (2026-09-18) is a phrasal-verb particle, not literal spatial
+# "up": "show up" (arrive), "blow up" (destroy/explode), "look up"
+# (search), "mess up" (confuse), "pick up" (intercept/receive), "set up"
+# (establish), "make up" (comprise), "hook up" (meet, informal), "up to"
+# (equal/capable of). ADP isn't a valid `rejected[].category` in this
+# schema (not one of the 5 tracked open-class categories) and there's
+# no free-text `note` field either — this comment is the only place to
+# record it. Stance: no new grammar mechanism for phrasal-verb particles
+# — each idiom is its own separate vocabulary item (the two words
+# together mean something the parts don't), same principle as every
+# other idiom this language rejects. Real redirects already exist for
+# some: "show up" -> arrive, "mess up" -> confuse, "pick up" (intercept
+# sense) -> receive, "up to" (capable of) -> equal. Real gaps (need a
+# new word) for the rest: "look up" (no search/seek word), "blow up"
+# (no destroy/explode word), "set up" (no establish word), "make up"
+# (no comprise word). "hook up" (informal/dating) stays excluded, same
+# as other informal-register words this session. None of this is
+# tracked by any existing tool — the translation-ratchet is single-
+# lemma-keyed and has no representation for a 2-word idiomatic unit;
+# that's a real structural gap in the tooling, not just the vocabulary.
 category: VERB_TRANS
 forms:
   - tag: VERB_TRANS_ED

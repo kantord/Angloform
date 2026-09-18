@@ -164,19 +164,30 @@ that is not derivable from the code, ADRs, or git history.
 
 ## Open decision queue (in order, with standing recommendations)
 
-1. **Coherence relations beyond cause** (exemplification, sequence,
+1. **Angloform has no questions** (docs/ideas.md, "Angloform has no
+   questions"): not a missing wh-word, a missing sentence type — no
+   grammar production, no "?" tokenization, already explicitly banned
+   ("the language has no questions yet"). Real scope (subject-aux
+   inversion, wh-fronting, per-wh-word decisions) is closer to the
+   relative-clause work (ADR 0010/0059) than a single closed-class
+   addition. Deliberately parked: grammar-design work on its own scale,
+   not vocabulary-ratchet work — everything else found auditing
+   docs/triage-report.md's MISMATCH list turned out to already be
+   settled (see docs/ideas.md for the full audit); `to`-infinitives was
+   the one real gap, closed by ADR 0063.
+2. **Coherence relations beyond cause** (exemplification, sequence,
    concession, purpose, elaboration) and cross-sentence relations: decide
    from `docs/coherence-report.md` (relation inventory + topic continuity,
    `just coherence`), not from word counts. Next: the paragraph repair flow
    (agreed design in docs/ideas.md, "Paragraph repair").
-2. Parked with design notes in `docs/ideas.md`: vocative (directed
+3. Parked with design notes in `docs/ideas.md`: vocative (directed
    imperatives), quotation-as-mention, pseudocode/analysis-code compiler,
    embeddings-as-measurement, core+jargon-packs split, LM-based cost model.
-3. Structured repair (docs/ideas.md, "Structured repair"): structure
+4. Structured repair (docs/ideas.md, "Structured repair"): structure
    enumerator → role assignment → table-driven rewrite with explanations;
    NLI as the future faithfulness gate. Steps 1–3 need no model and no API
    spend; the first candidate for build work after the vocabulary queue.
-4. ~~Deferred by ADR 0022 (numbers, decided 2026-09-01): measurement values
+5. ~~Deferred by ADR 0022 (numbers, decided 2026-09-01): measurement values
    ("the exit code is 0" — the natural home for a future 0).~~ Closed
    2026-09-06 by ADR 0058 — "0" tokenizes as its own NUM_VAL terminal, a
    value slot distinct from the NUM_PL count slot, legal as a bare
@@ -184,10 +195,10 @@ that is not derivable from the code, ADRs, or git history.
    thousands separators remain open (smaller, not evidenced as blocking
    yet). This was the last of the original 4 numeric/comparative gaps —
    see docs/readiness.md.
-5. ~~Deferred by ADR 0023 (same): the named-standard form "identical to the
+6. ~~Deferred by ADR 0023 (same): the named-standard form "identical to the
    report".~~ Closed 2026-09-06 by ADR 0055 — an adjective complement can
    now take a PP, same attachment as ADR 0031's NP complement.
-6. ~~Deferred by ADR 0024 (percent): percent of a singular mass, percentages
+7. ~~Deferred by ADR 0024 (percent): percent of a singular mass, percentages
    as predicates, decimals.~~ Closed 2026-09-06 by ADR 0057 (mass/predicate)
    — decimals were already covered by ADR 0029. Ambitransitives ("the
    process stops") remain a findings-level gap with no case attached;
