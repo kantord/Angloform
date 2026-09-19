@@ -1,0 +1,5 @@
+category: NOUN
+definition: a tool, which measures a quality
+rejected:
+  - category: VERB
+    gap: true

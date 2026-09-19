@@ -1,0 +1,5 @@
+category: NOUN
+definition: a structure, which contains a row
+rejected:
+  - category: VERB
+    gap: true

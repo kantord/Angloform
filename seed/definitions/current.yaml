@@ -1,0 +1,5 @@
+category: ADJ
+definition: present
+rejected:
+  - category: NOUN
+    gap: true

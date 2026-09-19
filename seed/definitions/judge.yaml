@@ -1,0 +1,5 @@
+category: VERB_TRANS
+definition: consider a thing
+rejected:
+  - category: NOUN
+    gap: true

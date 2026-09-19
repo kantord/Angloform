@@ -1,0 +1,8 @@
+category: NOUN
+forms:
+  - tag: NOUN_PL
+    form: consequents
+definition: a clause, which follows a condition
+rejected:
+  - category: ADJ
+    gap: true

@@ -1,0 +1,5 @@
+category: NOUN
+definition: a structure, which describes a document
+rejected:
+  - category: VERB
+    gap: true

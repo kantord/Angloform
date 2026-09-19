@@ -1,0 +1,5 @@
+category: NOUN
+definition: a document, which describes an example
+rejected:
+  - category: VERB
+    gap: true

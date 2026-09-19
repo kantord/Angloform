@@ -1,0 +1,5 @@
+category: ADJ
+definition: not absolute
+rejected:
+  - category: NOUN
+    gap: true

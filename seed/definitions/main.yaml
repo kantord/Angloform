@@ -1,0 +1,10 @@
+category: ADJ
+forms:
+  - tag: ADJ_CMP
+    form: more main
+  - tag: ADJ_SUP
+    form: most main
+definition: primary
+rejected:
+  - category: NOUN
+    gap: true

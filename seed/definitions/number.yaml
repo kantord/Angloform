@@ -1,0 +1,5 @@
+category: NOUN
+definition: a quantity, which counts a set
+rejected:
+  - category: VERB
+    gap: true

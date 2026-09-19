@@ -1,0 +1,5 @@
+category: VERB_TRANS
+definition: link a thing
+rejected:
+  - category: NOUN
+    gap: true

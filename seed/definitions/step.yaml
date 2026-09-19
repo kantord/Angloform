@@ -1,0 +1,5 @@
+category: NOUN
+definition: an action, which belongs to a sequence
+rejected:
+  - category: VERB
+    gap: true

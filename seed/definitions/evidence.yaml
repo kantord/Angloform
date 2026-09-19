@@ -1,0 +1,5 @@
+category: NOUN
+definition: a fact, which describes a claim
+rejected:
+  - category: VERB
+    gap: true

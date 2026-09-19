@@ -1,0 +1,5 @@
+category: NOUN
+definition: a sequence, which limits a position
+rejected:
+  - category: VERB
+    redirects: [rank]

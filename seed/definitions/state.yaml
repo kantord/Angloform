@@ -1,0 +1,5 @@
+category: NOUN
+definition: a condition, which limits an action
+rejected:
+  - category: VERB
+    redirects: [describe]

@@ -1,0 +1,5 @@
+category: ADJ
+definition: not present
+rejected:
+  - category: VERB
+    gap: true

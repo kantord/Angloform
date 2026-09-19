@@ -1,0 +1,5 @@
+category: NOUN
+definition: a set, which produces a result
+rejected:
+  - category: VERB
+    gap: true

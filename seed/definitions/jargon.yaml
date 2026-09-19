@@ -1,0 +1,8 @@
+category: NOUN
+forms:
+  - tag: NOUN_PL
+    form: jargons
+definition: a set, which contains a word
+rejected:
+  - category: VERB
+    gap: true

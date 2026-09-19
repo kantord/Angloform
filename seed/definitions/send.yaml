@@ -1,0 +1,8 @@
+category: VERB_TRANS
+forms:
+  - tag: VERB_TRANS_ED
+    form: sent
+definition: give a thing
+rejected:
+  - category: NOUN
+    gap: true

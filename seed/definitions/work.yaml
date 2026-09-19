@@ -1,0 +1,5 @@
+category: NOUN
+definition: an action, which costs a value
+rejected:
+  - category: VERB
+    gap: true

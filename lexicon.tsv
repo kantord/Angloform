@@ -179,9 +179,9 @@ abilities	form	NOUN_PL	ability
 ability	form	NOUN_SG	ability
 about	form	APPROX	about
 absent	form	ADJ_LONG	absent
-absent	reject_advice	VERB	the verb sense (formal — "to absent oneself from a meeting") is not enabled; angloform allows one sense per word
+absent	reject_gap	VERB	no already-enabled word covers this sense yet
 absolute	form	ADJ_LONG	absolute
-absolute	reject_advice	NOUN	the noun sense (philosophy jargon — "the Absolute") is not enabled; angloform allows one sense per word
+absolute	reject_gap	NOUN	no already-enabled word covers this sense yet
 accept	form	VERB_TRANS_BASE	accept
 acceptable	form	ADJ_LONG	acceptable
 accepted	form	VERB_TRANS_ED	accept
@@ -191,17 +191,17 @@ achievement	form	NOUN_SG	achievement
 achievements	form	NOUN_PL	achievement
 across	form	PREP_V	across
 action	form	NOUN_SG	action
-action	reject_advice	VERB	the verb sense (business jargon — "let's action this") is not enabled; angloform allows one sense per word
+action	reject_gap	VERB	no already-enabled word covers this sense yet
 actions	form	NOUN_PL	action
 add	form	VERB_TRANS_BASE	add
-add	reject_advice	NOUN	the reference data attests a noun use of "add"; no common meaning could be confirmed — not enabled
+add	reject_gap	NOUN	no already-enabled word covers this sense yet
 added	form	VERB_TRANS_ED	add
 adding	form	VERB_TRANS_ING	add
 addressee	form	NOUN_SG	addressee
 addressees	form	NOUN_PL	addressee
 adds	form	VERB_TRANS_3SG	add
 adjective	form	NOUN_SG	adjective
-adjective	reject_advice	ADJ	the adjective sense (legal jargon — "adjective law", meaning procedural) is not enabled; angloform allows one sense per word
+adjective	reject_gap	ADJ	no already-enabled word covers this sense yet
 adjectives	form	NOUN_PL	adjective
 admit	form	VERB_TRANS_BASE	admit
 admits	form	VERB_TRANS_3SG	admit
@@ -253,7 +253,7 @@ announced	form	VERB_TRANS_ED	announce
 announces	form	VERB_TRANS_3SG	announce
 announcing	form	VERB_TRANS_ING	announce
 answer	form	VERB_TRANS_BASE	answer
-answer	reject_advice	NOUN	the noun sense (an answer) is not enabled; angloform allows one sense per word
+answer	reject_gap	NOUN	no already-enabled word covers this sense yet
 answered	form	VERB_TRANS_ED	answer
 answering	form	VERB_TRANS_ING	answer
 answers	form	VERB_TRANS_3SG	answer
@@ -275,7 +275,7 @@ appositive	form	NOUN_SG	appositive
 appositive	reject_advice	ADJ	the adjective sense (grammar jargon — "the phrase is appositive") is not enabled; angloform allows one sense per word
 appositives	form	NOUN_PL	appositive
 approximate	form	ADJ_LONG	approximate
-approximate	reject_advice	VERB	the verb sense ("to approximate a value") is not enabled; angloform allows one sense per word
+approximate	reject_gap	VERB	no already-enabled word covers this sense yet
 approximation	form	NOUN_SG	approximation
 approximations	form	NOUN_PL	approximation
 april	form	NOUN_SG	april
@@ -311,7 +311,7 @@ asymmetries	form	NOUN_PL	asymmetry
 asymmetry	form	NOUN_SG	asymmetry
 at	form	PREP_V	at
 attach	form	VERB_INTRANS_BASE	attach
-attach	reject_advice	NOUN	the reference data attests a noun use of "attach"; no common meaning could be confirmed — not enabled
+attach	reject_gap	NOUN	no already-enabled word covers this sense yet
 attached	form	VERB_INTRANS_ED	attach
 attaches	form	VERB_INTRANS_3SG	attach
 attaching	form	VERB_INTRANS_ING	attach
@@ -359,7 +359,7 @@ banning	form	VERB_TRANS_ING	ban
 bans	form	VERB_TRANS_3SG	ban
 bans	term	-	Bans
 bare	form	ADJ_LONG	bare
-bare	reject_advice	VERB	the verb sense ("to bare one's teeth") is not enabled; angloform allows one sense per word
+bare	reject_gap	VERB	no already-enabled word covers this sense yet
 bare plural	term	-	Bare Plural
 bare plurals	term	-	Bare Plurals
 base	form	ADJ_LONG	base
@@ -416,13 +416,13 @@ bounds	form	NOUN_PL	bound
 bracketing	form	NOUN_SG	bracketing
 bracketings	form	NOUN_PL	bracketing
 branch	form	NOUN_SG	branch
-branch	reject_advice	VERB	the verb sense ("the road branches", "to branch out") is not enabled; angloform allows one sense per word
+branch	reject	VERB	split
 branches	form	NOUN_PL	branch
 branching	form	NOUN_SG	branching
-branching	reject_advice	ADJ	the adjective (participial) sense ("a branching path") is not enabled; angloform allows one sense per word
+branching	reject_gap	ADJ	no already-enabled word covers this sense yet
 branchings	form	NOUN_PL	branching
 brand	form	NOUN_SG	brand
-brand	reject_advice	VERB	the verb sense ("to brand cattle", or "to brand someone as X") is not enabled; angloform allows one sense per word
+brand	reject_gap	VERB	no already-enabled word covers this sense yet
 brands	form	NOUN_PL	brand
 break	form	VERB_TRANS_BASE	break
 break	reject_advice	NOUN	the noun sense (a break) is not enabled; angloform allows one sense per word
@@ -437,7 +437,7 @@ brown	form	COLOR_ADJ	brown
 brown	reject_gap	NOUN	no already-enabled word covers this sense yet
 brown	reject_gap	VERB	no already-enabled word covers this sense yet
 bug	form	NOUN_SG	bug
-bug	reject_advice	VERB	the verb sense ("to bug someone"; "to bug a room", i.e. plant a listening device) is not enabled; angloform allows one sense per word
+bug	reject_gap	VERB	no already-enabled word covers this sense yet
 bugs	form	NOUN_PL	bug
 build	form	VERB_TRANS_BASE	build
 build	reject_advice	NOUN	a thing, which comes from parts
@@ -449,7 +449,7 @@ bullets	form	NOUN_PL	bullet
 but	form	CONJ	but
 by	form	PREP_V	by
 cache	form	NOUN_SG	cache
-cache	reject_advice	VERB	the verb sense (computing — "to cache a value") is not enabled; angloform allows one sense per word
+cache	reject_gap	VERB	no already-enabled word covers this sense yet
 caches	form	NOUN_PL	cache
 came	form	VERB_INTRANS_ED	come
 can	form	MODAL_CAN	can
@@ -457,7 +457,7 @@ candidate	form	NOUN_SG	candidate
 candidates	form	NOUN_PL	candidate
 cannot	form	MODAL_CAN_NEG	cannot
 capital	form	NOUN_SG	capital
-capital	reject_advice	ADJ	the adjective sense ("a capital idea"; "capital punishment") is not enabled; angloform allows one sense per word
+capital	reject_gap	ADJ	no already-enabled word covers this sense yet
 capitalized	form	ADJ_LONG	capitalized
 capitalized	reject_advice	VERB	"capitalized" is the past participle of the verb "capitalize" (not separately enabled); angloform allows one sense per word
 capitals	form	NOUN_PL	capital
@@ -470,7 +470,7 @@ case	form	NOUN_SG	case
 case	reject_advice	VERB	the verb sense (slang — "to case a joint", i.e. scope it out) is not enabled; angloform allows one sense per word
 cases	form	NOUN_PL	case
 catch	form	VERB_TRANS_BASE	catch
-catch	reject_advice	NOUN	a thing, which causes a problem
+catch	reject_gap	NOUN	no already-enabled word covers this sense yet
 catches	form	VERB_TRANS_3SG	catch
 catching	form	VERB_TRANS_ING	catch
 categorical	form	ADJ_LONG	categorical
@@ -484,7 +484,7 @@ caused	form	VERB_TRANS_ED	cause
 causes	form	VERB_TRANS_3SG	cause
 causing	form	VERB_TRANS_ING	cause
 chain	form	NOUN_SG	chain
-chain	reject_advice	VERB	the verb sense ("to chain a dog") is not enabled; angloform allows one sense per word
+chain	reject_gap	VERB	no already-enabled word covers this sense yet
 chains	form	NOUN_PL	chain
 challenge	form	VERB_TRANS_BASE	challenge
 challenge	reject_advice	NOUN	the noun sense (a challenge) is not enabled; angloform allows one sense per word
@@ -527,7 +527,7 @@ chosen	form	VERB_TRANS_ED	choose
 citizen	form	NOUN_SG	citizen
 citizens	form	NOUN_PL	citizen
 claim	form	NOUN_SG	claim
-claim	reject_advice	VERB	the verb sense ("to claim something") is not enabled; angloform allows one sense per word
+claim	reject_gap	VERB	no already-enabled word covers this sense yet
 claims	form	NOUN_PL	claim
 clarities	form	NOUN_PL	clarity
 clarity	form	NOUN_SG	clarity
@@ -561,7 +561,7 @@ cognitive loads	term	-	Cognitive Loads
 coherence	form	NOUN_SG	coherence
 coherences	form	NOUN_PL	coherence
 coin	form	VERB_TRANS_BASE	coin
-coin	reject_advice	NOUN	a thing, which has a value
+coin	reject_gap	NOUN	no already-enabled word covers this sense yet
 coinage	form	NOUN_SG	coinage
 coinages	form	NOUN_PL	coinage
 coined	form	VERB_TRANS_ED	coin
@@ -585,7 +585,7 @@ comfortable	form	ADJ_LONG	comfortable
 coming	form	VERB_INTRANS_ING	come
 comma	form	NOUN_SG	comma
 command	form	NOUN_SG	command
-command	reject_advice	VERB	the verb sense ("to command an army") is not enabled; angloform allows one sense per word
+command	reject_gap	VERB	no already-enabled word covers this sense yet
 commands	form	NOUN_PL	command
 commas	form	NOUN_PL	comma
 commit	form	NOUN_SG	commit
@@ -598,7 +598,7 @@ community	form	NOUN_SG	community
 comparative	term	-	Comparative
 comparatives	term	-	Comparatives
 compare	form	VERB_TRANS_BASE	compare
-compare	reject_advice	NOUN	a thing, which matches a thing
+compare	reject_gap	NOUN	no already-enabled word covers this sense yet
 compared	form	VERB_TRANS_ED	compare
 compares	form	VERB_TRANS_3SG	compare
 comparing	form	VERB_TRANS_ING	compare
@@ -609,7 +609,7 @@ compilers	form	NOUN_PL	compiler
 complement	term	-	Complement
 complements	term	-	Complements
 complete	form	ADJ_LONG	complete
-complete	reject_advice	VERB	the verb sense ("to complete a task") is not enabled; angloform allows one sense per word
+complete	reject_gap	VERB	no already-enabled word covers this sense yet
 compound	form	ADJ_LONG	compound
 compound	reject_advice	NOUN	a place, which holds things
 compound	reject_advice	VERB	the verb sense ("to compound a problem") is not enabled; angloform allows one sense per word
@@ -627,12 +627,12 @@ concepts	form	NOUN_PL	concept
 conclusion	form	NOUN_SG	conclusion
 conclusions	form	NOUN_PL	conclusion
 condition	form	NOUN_SG	condition
-condition	reject_advice	VERB	the verb sense ("to condition a response"; "to condition hair") is not enabled; angloform allows one sense per word
+condition	reject_gap	VERB	no already-enabled word covers this sense yet
 conditional	term	-	Conditional
 conditionals	term	-	Conditionals
 conditions	form	NOUN_PL	condition
 conflict	form	VERB_INTRANS_BASE	conflict
-conflict	reject_advice	NOUN	an event, which causes a problem
+conflict	reject_gap	NOUN	no already-enabled word covers this sense yet
 conflicted	form	VERB_INTRANS_ED	conflict
 conflicting	form	VERB_INTRANS_ING	conflict
 conflicts	form	VERB_INTRANS_3SG	conflict
@@ -645,10 +645,10 @@ conjunction	form	NOUN_SG	conjunction
 conjunctions	form	NOUN_PL	conjunction
 conjuncts	term	-	Conjuncts
 connective	form	NOUN_SG	connective
-connective	reject_advice	ADJ	the adjective sense ("connective tissue") is not enabled; angloform allows one sense per word
+connective	reject_gap	ADJ	no already-enabled word covers this sense yet
 connectives	form	NOUN_PL	connective
 consequent	form	NOUN_SG	consequent
-consequent	reject_advice	ADJ	the adjective sense (formal — "consequent damage") is not enabled; angloform allows one sense per word
+consequent	reject_gap	ADJ	no already-enabled word covers this sense yet
 consequents	form	NOUN_PL	consequent
 consider	form	VERB_TRANS_BASE	consider
 considered	form	VERB_TRANS_ED	consider
@@ -702,7 +702,7 @@ core	form	ADJ_LONG	core
 core	reject_advice	NOUN	the noun sense (an apple core, the earth's core) is not enabled; angloform allows one sense per word
 core	reject_advice	VERB	the verb sense ("to core an apple") is not enabled; angloform allows one sense per word
 corner	form	NOUN_SG	corner
-corner	reject_advice	VERB	the verb sense ("to corner the market"; "to corner an animal") is not enabled; angloform allows one sense per word
+corner	reject_gap	VERB	no already-enabled word covers this sense yet
 corners	form	NOUN_PL	corner
 corpora	form	NOUN_PL	corpus
 corpse	form	NOUN_SG	corpse
@@ -724,7 +724,7 @@ counted	form	VERB_TRANS_ED	count
 counting	form	VERB_TRANS_ING	count
 counts	form	VERB_TRANS_3SG	count
 cover	form	VERB_TRANS_BASE	cover
-cover	reject_advice	NOUN	the noun sense (a cover, e.g. of a book) is not enabled; angloform allows one sense per word
+cover	reject_gap	NOUN	no already-enabled word covers this sense yet
 coverage	term	-	Coverage
 coverages	term	-	Coverages
 covered	form	VERB_TRANS_ED	cover
@@ -744,7 +744,7 @@ curating	form	VERB_TRANS_ING	curate
 curation	form	NOUN_SG	curation
 curations	form	NOUN_PL	curation
 current	form	ADJ_LONG	current
-current	reject_advice	NOUN	the noun sense (a current, e.g. electrical or oceanic) is not enabled; angloform allows one sense per word
+current	reject_gap	NOUN	no already-enabled word covers this sense yet
 customer	form	NOUN_SG	customer
 customers	form	NOUN_PL	customer
 danger	form	NOUN_SG	danger
@@ -803,7 +803,7 @@ defined	form	VERB_TRANS_ED	define
 defines	form	VERB_TRANS_3SG	define
 defining	form	VERB_TRANS_ING	define
 definite	form	NOUN_SG	definite
-definite	reject_advice	ADJ	the adjective sense ("a definite answer") is not enabled; angloform allows one sense per word
+definite	reject_gap	ADJ	no already-enabled word covers this sense yet
 definites	form	NOUN_PL	definite
 definition	form	NOUN_SG	definition
 definitions	form	NOUN_PL	definition
@@ -888,7 +888,7 @@ discourses	form	NOUN_PL	discourse
 dissertation	form	NOUN_SG	dissertation
 dissertations	form	NOUN_PL	dissertation
 distance	form	NOUN_SG	distance
-distance	reject_advice	VERB	the verb sense ("to distance oneself from something") is not enabled; angloform allows one sense per word
+distance	reject_gap	VERB	no already-enabled word covers this sense yet
 distances	form	NOUN_PL	distance
 distinct	form	ADJ_LONG	distinct
 do	form	NEG_AUX_BASE	do
@@ -912,7 +912,7 @@ drifted	form	VERB_INTRANS_ED	drift
 drifting	form	VERB_INTRANS_ING	drift
 drifts	form	VERB_INTRANS_3SG	drift
 drop	form	VERB_TRANS_BASE	drop
-drop	reject_advice	NOUN	the noun sense (a drop, e.g. of water) is not enabled; angloform allows one sense per word
+drop	reject_gap	NOUN	no already-enabled word covers this sense yet
 dropped	form	VERB_TRANS_ED	drop
 dropping	form	VERB_TRANS_ING	drop
 drops	form	VERB_TRANS_3SG	drop
@@ -992,7 +992,7 @@ event	form	NOUN_SG	event
 events	form	NOUN_PL	event
 every	form	QUANT_UNIV	every
 evidence	form	NOUN_SG	evidence
-evidence	reject_advice	VERB	the verb sense (formal — "this evidences a trend") is not enabled; angloform allows one sense per word
+evidence	reject_gap	VERB	no already-enabled word covers this sense yet
 evidences	form	NOUN_PL	evidence
 exact	form	ADJ_LONG	exact
 exact	reject_gap	VERB	no already-enabled word covers this sense yet
@@ -1073,7 +1073,7 @@ februaries	form	NOUN_PL	february
 february	form	NOUN_SG	february
 fell	form	VERB_INTRANS_ED	fall
 fence	form	NOUN_SG	fence
-fence	reject_advice	VERB	the verb sense ("to fence a yard"; the sport of fencing; slang "to fence stolen goods") is not enabled; angloform allows one sense per word
+fence	reject_gap	VERB	no already-enabled word covers this sense yet
 fences	form	NOUN_PL	fence
 fewer	ban	-	comparatives of a quantity are deferred (ADR 0030) - write "a small number of <nouns>", or a Comparative of an adjective with "than"
 fiat	form	ADJ	fiat
@@ -1081,7 +1081,7 @@ fiat	reject_advice	NOUN	the noun sense (a fiat, a decree) is not enabled; anglof
 fiater	form	ADJ_CMP	fiat
 fiatest	form	ADJ_SUP	fiat
 field	form	NOUN_SG	field
-field	reject_advice	VERB	the verb sense ("to field a question" or "to field a ball") is not enabled; angloform allows one sense per word
+field	reject_gap	VERB	no already-enabled word covers this sense yet
 fields	form	NOUN_PL	field
 file	form	NOUN_SG	file
 file	reject	VERB	submit
@@ -1121,7 +1121,7 @@ flattens	form	VERB_TRANS_3SG	flatten
 flatter	form	ADJ_CMP	flat
 flattest	form	ADJ_SUP	flat
 floor	form	NOUN_SG	floor
-floor	reject_advice	VERB	the verb sense ("to floor an opponent"; "to floor the accelerator") is not enabled; angloform allows one sense per word
+floor	reject_gap	VERB	no already-enabled word covers this sense yet
 floors	form	NOUN_PL	floor
 fold	form	VERB_TRANS_BASE	fold
 fold	reject_advice	NOUN	the noun sense (a fold, e.g. in fabric or geology; or a sheep pen) is not enabled; angloform allows one sense per word
@@ -1142,7 +1142,7 @@ forces	form	NOUN_PL	force
 form tag	term	-	Form Tag
 form tags	term	-	Form Tags
 format	form	NOUN_SG	format
-format	reject_advice	VERB	the verb sense ("to format a document") is not enabled; angloform allows one sense per word
+format	reject_gap	VERB	no already-enabled word covers this sense yet
 formats	form	NOUN_PL	format
 formulation	form	NOUN_SG	formulation
 formulations	form	NOUN_PL	formulation
@@ -1152,11 +1152,11 @@ fortresses	form	NOUN_PL	fortress
 found	form	VERB_TRANS_ED	find
 four	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
 fraction	form	NOUN_SG	fraction
-fraction	reject_advice	VERB	the verb sense (chemistry jargon — to separate into fractions) is not enabled; angloform allows one sense per word
+fraction	reject_gap	VERB	no already-enabled word covers this sense yet
 fractional	form	ADJ_LONG	fractional
 fractions	form	NOUN_PL	fraction
 frame	form	NOUN_SG	frame
-frame	reject_advice	VERB	the verb sense ("to frame a picture"; "to frame someone for a crime") is not enabled; angloform allows one sense per word
+frame	reject_gap	VERB	no already-enabled word covers this sense yet
 frames	form	NOUN_PL	frame
 free	form	ADJ	free
 free	reject_advice	ADV	the adverbial sense ("run free", "get in free") is not enabled; angloform has no adverb category
@@ -1216,7 +1216,7 @@ generated	reject_advice	VERB	"generated" is the past participle of the verb "gen
 generator	form	NOUN_SG	generator
 generators	form	NOUN_PL	generator
 generic	form	ADJ_LONG	generic
-generic	reject_advice	NOUN	the noun sense (a generic — an unbranded product or drug) is not enabled; angloform allows one sense per word
+generic	reject_gap	NOUN	no already-enabled word covers this sense yet
 geographies	form	NOUN_PL	geography
 geography	form	NOUN_SG	geography
 geometries	form	NOUN_PL	geometry
@@ -1265,14 +1265,14 @@ grounded	form	VERB_TRANS_ED	ground
 grounding	form	VERB_TRANS_ING	ground
 grounds	form	VERB_TRANS_3SG	ground
 group	form	NOUN_SG	group
-group	reject_advice	VERB	the verb sense ("to group items together") is not enabled; angloform allows one sense per word
+group	reject_gap	VERB	no already-enabled word covers this sense yet
 groups	form	NOUN_PL	group
 grow	form	VERB_INTRANS_BASE	grow
 growing	form	VERB_INTRANS_ING	grow
 grown	form	VERB_INTRANS_ED	grow
 grows	form	VERB_INTRANS_3SG	grow
 guard	form	NOUN_SG	guard
-guard	reject_advice	VERB	the verb sense ("to guard a prisoner") is not enabled; angloform allows one sense per word
+guard	reject_gap	VERB	no already-enabled word covers this sense yet
 guardian	form	NOUN_SG	guardian
 guardian	reject_gap	ADJ	no already-enabled word covers this sense yet
 guardians	form	NOUN_PL	guardian
@@ -1435,7 +1435,7 @@ instructions	form	NOUN_PL	instruction
 integer	form	NOUN_SG	integer
 integers	form	NOUN_PL	integer
 integrate	form	VERB_TRANS_BASE	integrate
-integrate	reject_advice	ADJ	the reference data attests an adjectival use of "integrate"; no common meaning could be confirmed — not enabled
+integrate	reject_gap	ADJ	no already-enabled word covers this sense yet
 integrated	form	VERB_TRANS_ED	integrate
 integrates	form	VERB_TRANS_3SG	integrate
 integrating	form	VERB_TRANS_ING	integrate
@@ -1470,7 +1470,7 @@ its	ban	-	third-person reference is banned - repeat the noun you mean (ADR 0002)
 januaries	form	NOUN_PL	january
 january	form	NOUN_SG	january
 jargon	form	NOUN_SG	jargon
-jargon	reject_advice	VERB	the reference data attests a verb use of "jargon"; no common meaning could be confirmed — not enabled
+jargon	reject_gap	VERB	no already-enabled word covers this sense yet
 jargons	form	NOUN_PL	jargon
 join	form	VERB_TRANS_BASE	join
 join	reject_advice	NOUN	the noun sense (a join, e.g. in carpentry or a database) is not enabled; angloform allows one sense per word
@@ -1481,7 +1481,7 @@ joy	form	NOUN_SG	joy
 joy	reject_advice	VERB	the verb sense (archaic/literary — "to joy in something", meaning to rejoice) is not enabled; angloform allows one sense per word
 joys	form	NOUN_PL	joy
 judge	form	VERB_TRANS_BASE	judge
-judge	reject_advice	NOUN	the noun sense (a judge) is not enabled; angloform allows one sense per word
+judge	reject_gap	NOUN	no already-enabled word covers this sense yet
 judged	form	VERB_TRANS_ED	judge
 judges	form	VERB_TRANS_3SG	judge
 judging	form	VERB_TRANS_ING	judge
@@ -1501,7 +1501,7 @@ kept	form	VERB_TRANS_ED	keep
 keyword	form	NOUN_SG	keyword
 keywords	form	NOUN_PL	keyword
 kind	form	NOUN_SG	kind
-kind	reject_advice	ADJ	the adjective sense ("a kind person", meaning considerate) is not enabled; angloform allows one sense per word
+kind	reject_gap	ADJ	no already-enabled word covers this sense yet
 kinds	form	NOUN_PL	kind
 knew	form	VERB_TRANS_ED	know
 know	form	VERB_TRANS_BASE	know
@@ -1546,7 +1546,7 @@ length	form	NOUN_SG	length
 lengths	form	NOUN_PL	length
 less	ban	-	comparatives of a quantity are deferred (ADR 0030) - write "a small <noun>", or a Comparative of an adjective with "than"
 letter	form	NOUN_SG	letter
-letter	reject_advice	VERB	the verb sense ("to letter a sign", sign-painting) is not enabled; angloform allows one sense per word
+letter	reject_gap	VERB	no already-enabled word covers this sense yet
 letters	form	NOUN_PL	letter
 lexer	term	-	Lexer
 lexers	term	-	Lexers
@@ -1563,7 +1563,7 @@ line	form	NOUN_SG	line
 line	reject_advice	VERB	the verb sense ("to line a jacket"; "to line up") is not enabled; angloform allows one sense per word
 lines	form	NOUN_PL	line
 link	form	VERB_TRANS_BASE	link
-link	reject_advice	NOUN	the noun sense (a link) is not enabled; angloform allows one sense per word
+link	reject_gap	NOUN	no already-enabled word covers this sense yet
 linked	form	VERB_TRANS_ED	link
 linking	form	VERB_TRANS_ING	link
 links	form	VERB_TRANS_3SG	link
@@ -1579,7 +1579,7 @@ list	reject	VERB	include
 lists	form	NOUN_PL	list
 lives	form	NOUN_PL	life
 load	form	NOUN_SG	load
-load	reject_advice	VERB	the verb sense ("to load a truck") is not enabled; angloform allows one sense per word
+load	reject_gap	VERB	no already-enabled word covers this sense yet
 loads	form	NOUN_PL	load
 logic	form	NOUN_SG	logic
 logics	form	NOUN_PL	logic
@@ -1621,13 +1621,11 @@ macro	reject_advice	ADJ	the adjective sense ("macroeconomics", "macro photograph
 macros	form	NOUN_PL	macro
 made	form	VERB_TRANS_ED	make
 main	form	ADJ	main
-main	reject_advice	NOUN	the noun sense (a water main; "in the main") is not enabled; angloform allows one sense per word
-mainer	form	ADJ_CMP	main
-mainest	form	ADJ_SUP	main
+main	reject_gap	NOUN	no already-enabled word covers this sense yet
 maintainer	form	NOUN_SG	maintainer
 maintainers	form	NOUN_PL	maintainer
 make	form	VERB_TRANS_BASE	make
-make	reject_advice	NOUN	the noun sense ("what make is your car", meaning brand) is not enabled; angloform allows one sense per word
+make	reject_gap	NOUN	no already-enabled word covers this sense yet
 makes	form	VERB_TRANS_3SG	make
 making	form	VERB_TRANS_ING	make
 man	form	NOUN_SG	man
@@ -1636,7 +1634,7 @@ man	reject_advice	VERB	the verb sense ("to man a post") is deferred; not enabled
 mandatory	form	ADJ_LONG	mandatory
 mandatory	reject_advice	NOUN	the noun sense (obscure legal/historical — "a mandatory", a state holding a mandate) is not enabled; angloform allows one sense per word
 map	form	VERB_TRANS_BASE	map
-map	reject_advice	NOUN	the noun sense (a map) is not enabled; angloform allows one sense per word
+map	reject_gap	NOUN	no already-enabled word covers this sense yet
 mapped	form	VERB_TRANS_ED	map
 mapping	form	VERB_TRANS_ING	map
 maps	form	VERB_TRANS_3SG	map
@@ -1658,14 +1656,14 @@ matching	form	VERB_TRANS_ING	match
 math	form	NOUN_SG	math
 maths	form	NOUN_PL	math
 maximum	form	NOUN_SG	maximum
-maximum	reject_advice	ADJ	the adjective sense ("maximum speed") is not enabled; angloform allows one sense per word
+maximum	reject_gap	ADJ	no already-enabled word covers this sense yet
 maximums	form	NOUN_PL	maximum
 may	form	NOUN_SG	may
 may	reject_advice	VERB	for permission write "can"; for possibility rephrase the sentence (ADR 0009)
 maybe	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
 mays	form	NOUN_PL	may
 meaning	form	NOUN_SG	meaning
-meaning	reject_advice	ADJ	the adjective (participial) sense ("a meaning look", i.e. significant) is not enabled; angloform allows one sense per word
+meaning	reject_gap	ADJ	no already-enabled word covers this sense yet
 meaningful	form	ADJ_LONG	meaningful
 meaningless	form	ADJ_LONG	meaningless
 meanings	form	NOUN_PL	meaning
@@ -1677,7 +1675,7 @@ measurements	form	NOUN_PL	measurement
 measures	form	VERB_TRANS_3SG	measure
 measuring	form	VERB_TRANS_ING	measure
 mechanical	form	ADJ_LONG	mechanical
-mechanical	reject_advice	NOUN	the noun sense (obscure/literary — "the mechanicals", tradesmen, from Shakespeare) is not enabled; angloform allows one sense per word
+mechanical	reject_gap	NOUN	no already-enabled word covers this sense yet
 mechanism	form	NOUN_SG	mechanism
 mechanisms	form	NOUN_PL	mechanism
 meet	form	VERB_TRANS_BASE	meet
@@ -1691,7 +1689,7 @@ memories	form	NOUN_PL	memory
 memory	form	NOUN_SG	memory
 men	form	NOUN_PL	man
 mention	form	VERB_TRANS_BASE	mention
-mention	reject_advice	NOUN	the noun sense ("an honorable mention") is not enabled; angloform allows one sense per word
+mention	reject_gap	NOUN	no already-enabled word covers this sense yet
 mentioned	form	VERB_TRANS_ED	mention
 mentioning	form	VERB_TRANS_ING	mention
 mentions	form	VERB_TRANS_3SG	mention
@@ -1703,7 +1701,7 @@ merged	form	VERB_TRANS_ED	merge
 merges	form	VERB_TRANS_3SG	merge
 merging	form	VERB_TRANS_ING	merge
 message	form	NOUN_SG	message
-message	reject_advice	VERB	the verb sense ("to message a person") is not enabled; angloform allows one sense per word
+message	reject_gap	VERB	no already-enabled word covers this sense yet
 messages	form	NOUN_PL	message
 messenger	form	NOUN_SG	messenger
 messengers	form	NOUN_PL	messenger
@@ -1714,7 +1712,7 @@ met	form	VERB_TRANS_ED	meet
 method	form	NOUN_SG	method
 methods	form	NOUN_PL	method
 metric	form	NOUN_SG	metric
-metric	reject_advice	ADJ	the adjective sense ("the metric system") is not enabled; angloform allows one sense per word
+metric	reject_gap	ADJ	no already-enabled word covers this sense yet
 metrics	form	NOUN_PL	metric
 might	ban	-	for possibility rephrase the sentence, or state the fact plainly (ADR 0009, ADR 0042)
 migrate	form	VERB_TRANS_BASE	migrate
@@ -1735,7 +1733,7 @@ miss	form	NOUN_SG	miss
 miss	reject_advice	VERB	the verb sense ("to miss a target" or "to miss someone") is not enabled; angloform allows one sense per word
 misses	form	NOUN_PL	miss
 mix	form	NOUN_SG	mix
-mix	reject_advice	VERB	the verb sense ("to mix ingredients") is not enabled; angloform allows one sense per word
+mix	reject_gap	VERB	no already-enabled word covers this sense yet
 mixes	form	NOUN_PL	mix
 modal	form	NOUN_SG	modal
 modal	reject_advice	ADJ	the adjective sense ("modal logic", "a modal verb") is not enabled; angloform allows one sense per word
@@ -1756,7 +1754,9 @@ monitors	form	VERB_TRANS_3SG	monitor
 month	form	NOUN_SG	month
 months	form	NOUN_PL	month
 more	form	MORE	more
+more main	form	ADJ_CMP	main
 most	form	MOST	most
+most main	form	ADJ_SUP	main
 move	form	VERB_TRANS_BASE	move
 move	reject_advice	NOUN	the noun sense (a move, e.g. in chess or a relocation) is not enabled; angloform allows one sense per word
 moved	form	VERB_TRANS_ED	move
@@ -1783,7 +1783,7 @@ narrowed	form	VERB_TRANS_ED	narrow
 narrowing	form	VERB_TRANS_ING	narrow
 narrows	form	VERB_TRANS_3SG	narrow
 natural	form	ADJ_LONG	natural
-natural	reject_advice	NOUN	the noun sense (music — a natural sign; also "a natural", someone gifted) is not enabled; angloform allows one sense per word
+natural	reject_gap	NOUN	no already-enabled word covers this sense yet
 naturalness	form	NOUN_SG	naturalness
 naturalnesses	form	NOUN_PL	naturalness
 nature	form	NOUN_SG	nature
@@ -1806,7 +1806,7 @@ nights	form	NOUN_PL	night
 nine	ban	-	counts are digits: write "3 files", not "three files" (ADR 0022)
 no	form	QUANT_NEG	no
 noise	form	NOUN_SG	noise
-noise	reject_advice	VERB	the verb sense (dated — "to noise something abroad", meaning to spread word of) is not enabled; angloform allows one sense per word
+noise	reject_gap	VERB	no already-enabled word covers this sense yet
 noises	form	NOUN_PL	noise
 normative	form	ADJ_LONG	normative
 not	form	NEG	not
@@ -1824,7 +1824,7 @@ nouns	form	NOUN_PL	noun
 november	form	NOUN_SG	november
 novembers	form	NOUN_PL	november
 number	form	NOUN_SG	number
-number	reject_advice	VERB	the verb sense ("to number the pages"; "his days are numbered") is not enabled; angloform allows one sense per word
+number	reject_gap	VERB	no already-enabled word covers this sense yet
 number word	term	-	Number Word
 number words	term	-	Number Words
 numbers	form	NOUN_PL	number
@@ -1844,7 +1844,7 @@ october	form	NOUN_SG	october
 octobers	form	NOUN_PL	october
 of	form	PREP_N	of
 offer	form	VERB_TRANS_BASE	offer
-offer	reject_advice	NOUN	the noun sense (an offer) is not enabled; angloform allows one sense per word
+offer	reject_gap	NOUN	no already-enabled word covers this sense yet
 offered	form	VERB_TRANS_ED	offer
 offering	form	VERB_TRANS_ING	offer
 offers	form	VERB_TRANS_3SG	offer
@@ -1878,13 +1878,13 @@ or	form	CONJ	or
 orange	form	COLOR_ADJ	orange
 orange	reject_gap	NOUN	no already-enabled word covers this sense yet
 order	form	NOUN_SG	order
-order	reject_advice	VERB	the verb sense ("to order food") is not enabled; angloform allows one sense per word
+order	reject	VERB	rank
 ordered	form	ADJ_LONG	ordered
 orders	form	NOUN_PL	order
 ordinal	term	-	Ordinal
 ordinals	term	-	Ordinals
 ordinary	form	ADJ_LONG	ordinary
-ordinary	reject_advice	NOUN	the noun sense (heraldry/legal jargon — "an ordinary") is not enabled; angloform allows one sense per word
+ordinary	reject_gap	NOUN	no already-enabled word covers this sense yet
 organize	form	VERB_TRANS_BASE	organize
 organized	form	VERB_TRANS_ED	organize
 organizes	form	VERB_TRANS_3SG	organize
@@ -1904,9 +1904,8 @@ outranked	form	VERB_TRANS_ED	outrank
 outranking	form	VERB_TRANS_ING	outrank
 outranks	form	VERB_TRANS_3SG	outrank
 over	form	PREP_V	over
-overridden	form	VERB_TRANS_ED	override
 override	form	VERB_TRANS_BASE	override
-override	reject_advice	NOUN	the noun sense (a manual override) is not enabled; angloform allows one sense per word
+override	reject_gap	NOUN	no already-enabled word covers this sense yet
 overrides	form	VERB_TRANS_3SG	override
 overriding	form	VERB_TRANS_ING	override
 overrode	form	VERB_TRANS_ED	override
@@ -1916,13 +1915,13 @@ overshooting	form	VERB_INTRANS_ING	overshoot
 overshoots	form	VERB_INTRANS_3SG	overshoot
 overshot	form	VERB_INTRANS_ED	overshoot
 pack	form	NOUN_SG	pack
-pack	reject_advice	VERB	the verb sense ("to pack a suitcase") is not enabled; angloform allows one sense per word
+pack	reject_gap	VERB	no already-enabled word covers this sense yet
 packs	form	NOUN_PL	pack
 padding	form	NOUN_SG	padding
 paddings	form	NOUN_PL	padding
 paid	form	VERB_TRANS_ED	pay
 pair	form	NOUN_SG	pair
-pair	reject_advice	VERB	the verb sense ("to pair socks"; "wine pairs with cheese") is not enabled; angloform allows one sense per word
+pair	reject_gap	VERB	no already-enabled word covers this sense yet
 pairs	form	NOUN_PL	pair
 paradigm	term	-	Paradigm
 paradigms	term	-	Paradigms
@@ -1930,7 +1929,7 @@ paragraph	form	NOUN_SG	paragraph
 paragraph	reject_advice	VERB	the verb sense ("to paragraph a document", i.e. divide it into paragraphs) is not enabled; angloform allows one sense per word
 paragraphs	form	NOUN_PL	paragraph
 paraphrase	form	NOUN_SG	paraphrase
-paraphrase	reject_advice	VERB	the verb sense ("to paraphrase a text") is not enabled; angloform allows one sense per word
+paraphrase	reject_gap	VERB	no already-enabled word covers this sense yet
 paraphrases	form	NOUN_PL	paraphrase
 parse	form	VERB_TRANS_BASE	parse
 parse	term	-	Parse
@@ -1981,10 +1980,10 @@ photographer	form	NOUN_SG	photographer
 photographers	form	NOUN_PL	photographer
 photos	form	NOUN_PL	photo
 phrase	form	NOUN_SG	phrase
-phrase	reject_advice	VERB	the verb sense ("how you phrase something") is not enabled; angloform allows one sense per word
+phrase	reject_gap	VERB	no already-enabled word covers this sense yet
 phrases	form	NOUN_PL	phrase
 pick	form	VERB_TRANS_BASE	pick
-pick	reject_advice	NOUN	the noun sense (a pick, e.g. a guitar pick or an ice pick) is not enabled; angloform allows one sense per word
+pick	reject_gap	NOUN	no already-enabled word covers this sense yet
 picked	form	VERB_TRANS_ED	pick
 picking	form	VERB_TRANS_ING	pick
 picks	form	VERB_TRANS_3SG	pick
@@ -2028,7 +2027,7 @@ position	form	NOUN_SG	position
 position	reject_advice	VERB	the verb sense ("to position something") is not enabled; angloform allows one sense per word
 positions	form	NOUN_PL	position
 positive	form	ADJ_LONG	positive
-positive	reject_advice	NOUN	the noun sense (photography — a positive print; mathematics — a positive number) is not enabled; angloform allows one sense per word
+positive	reject_gap	NOUN	no already-enabled word covers this sense yet
 possession	form	NOUN_SG	possession
 possessions	form	NOUN_PL	possession
 possessive	form	ADJ_LONG	possessive
@@ -2041,7 +2040,7 @@ poverty	form	NOUN_SG	poverty
 precede	form	VERB_TRANS_BASE	precede
 preceded	form	VERB_TRANS_ED	precede
 precedent	form	NOUN_SG	precedent
-precedent	reject_advice	ADJ	the adjective sense (formal/legal — "precedent" meaning preceding) is not enabled; angloform allows one sense per word
+precedent	reject_gap	ADJ	no already-enabled word covers this sense yet
 precedents	form	NOUN_PL	precedent
 precedes	form	VERB_TRANS_3SG	precede
 preceding	form	VERB_TRANS_ING	precede
@@ -2072,7 +2071,7 @@ present	form	ADJ_LONG	present
 present	reject_advice	NOUN	the noun sense (a present — a gift, or "the present" moment) is not enabled; angloform allows one sense per word
 present	reject_advice	VERB	the verb sense ("to present something") is not enabled; angloform allows one sense per word
 pressure	form	NOUN_SG	pressure
-pressure	reject_advice	VERB	the verb sense ("to pressure someone") is not enabled; angloform allows one sense per word
+pressure	reject_gap	VERB	no already-enabled word covers this sense yet
 pressures	form	NOUN_PL	pressure
 presumably	ban	-	epistemic hedges are banned - state the claim directly, or name the source and let the reader judge it (ADR 0042)
 prevent	form	VERB_TRANS_BASE	prevent
@@ -2101,7 +2100,7 @@ producing	form	VERB_TRANS_ING	produce
 product	form	NOUN_SG	product
 products	form	NOUN_PL	product
 profile	form	NOUN_SG	profile
-profile	reject_advice	VERB	the verb sense ("to profile a suspect"; software "to profile code") is not enabled; angloform allows one sense per word
+profile	reject_gap	VERB	no already-enabled word covers this sense yet
 profiles	form	NOUN_PL	profile
 program	form	NOUN_SG	program
 program	reject	VERB	write
@@ -2147,7 +2146,7 @@ purple	form	COLOR_ADJ	purple
 purple	reject_gap	NOUN	no already-enabled word covers this sense yet
 purple	reject_gap	VERB	no already-enabled word covers this sense yet
 purpose	form	NOUN_SG	purpose
-purpose	reject_advice	VERB	the verb sense (formal/archaic — "I purpose to do something") is not enabled; angloform allows one sense per word
+purpose	reject_gap	VERB	no already-enabled word covers this sense yet
 purposes	form	NOUN_PL	purpose
 put	form	VERB_TRANS_BASE	put
 put	reject_advice	NOUN	the noun sense (finance jargon — "a put option") is not enabled; angloform allows one sense per word
@@ -2210,7 +2209,7 @@ reappeared	form	VERB_INTRANS_ED	reappear
 reappearing	form	VERB_INTRANS_ING	reappear
 reappears	form	VERB_INTRANS_3SG	reappear
 reason	form	NOUN_SG	reason
-reason	reject_advice	VERB	the verb sense ("to reason through a problem") is not enabled; angloform allows one sense per word
+reason	reject_gap	VERB	no already-enabled word covers this sense yet
 reasons	form	NOUN_PL	reason
 rebuild	form	VERB_TRANS_BASE	rebuild
 rebuilding	form	VERB_TRANS_ING	rebuild
@@ -2255,7 +2254,7 @@ referents	form	NOUN_PL	referent
 refering	form	VERB_INTRANS_ING	refer
 refers	form	VERB_INTRANS_3SG	refer
 register	form	NOUN_SG	register
-register	reject_advice	VERB	the verb sense ("to register a car") is not enabled; angloform allows one sense per word
+register	reject_gap	VERB	no already-enabled word covers this sense yet
 register loss	term	-	Register Loss
 register losses	term	-	Register Losses
 registers	form	NOUN_PL	register
@@ -2265,7 +2264,7 @@ regrets	form	VERB_TRANS_3SG	regret
 regretted	form	VERB_TRANS_ED	regret
 regretting	form	VERB_TRANS_ING	regret
 reject	form	VERB_TRANS_BASE	reject
-reject	reject_advice	NOUN	a person, who does not belong
+reject	reject_gap	NOUN	no already-enabled word covers this sense yet
 rejected	form	VERB_TRANS_ED	reject
 rejected sense	term	-	Rejected Sense
 rejected senses	term	-	Rejected Senses
@@ -2276,12 +2275,12 @@ rejects	form	VERB_TRANS_3SG	reject
 relation	form	NOUN_SG	relation
 relations	form	NOUN_PL	relation
 relative	form	ADJ_LONG	relative
-relative	reject_advice	NOUN	the noun sense (a relative, i.e. a family member) is not enabled; angloform allows one sense per word
+relative	reject_gap	NOUN	no already-enabled word covers this sense yet
 remedies	form	NOUN_PL	remedy
 remedy	form	NOUN_SG	remedy
-remedy	reject_advice	VERB	the verb sense ("to remedy a problem") is not enabled; angloform allows one sense per word
+remedy	reject_gap	VERB	no already-enabled word covers this sense yet
 remove	form	VERB_TRANS_BASE	remove
-remove	reject_advice	NOUN	the noun sense (formal — "at one remove", meaning at a distance) is not enabled; angloform allows one sense per word
+remove	reject_gap	NOUN	no already-enabled word covers this sense yet
 removed	form	VERB_TRANS_ED	remove
 removes	form	VERB_TRANS_3SG	remove
 removing	form	VERB_TRANS_ING	remove
@@ -2296,7 +2295,7 @@ reopened	form	VERB_TRANS_ED	reopen
 reopening	form	VERB_TRANS_ING	reopen
 reopens	form	VERB_TRANS_3SG	reopen
 repair	form	NOUN_SG	repair
-repair	reject_advice	VERB	the verb sense ("to repair something") is not enabled; angloform allows one sense per word
+repair	reject_gap	VERB	no already-enabled word covers this sense yet
 repairs	form	NOUN_PL	repair
 repeat	form	VERB_TRANS_BASE	repeat
 repeat	reject	NOUN	repetition
@@ -2372,7 +2371,7 @@ rewarded	form	VERB_TRANS_ED	reward
 rewarding	form	VERB_TRANS_ING	reward
 rewards	form	VERB_TRANS_3SG	reward
 rewrite	form	NOUN_SG	rewrite
-rewrite	reject_advice	VERB	the verb sense ("to rewrite something") is not enabled; angloform allows one sense per word
+rewrite	reject	VERB	edit
 rewrites	form	NOUN_PL	rewrite
 right	form	NOUN_SG	right
 right	reject_advice	ADJ	the adjective sense ("the right answer") is not enabled; angloform allows one sense per word
@@ -2392,7 +2391,7 @@ round	reject_advice	VERB	the verb sense ("to round a number"; "to round a corner
 rounder	form	ADJ_CMP	round
 roundest	form	ADJ_SUP	round
 row	form	NOUN_SG	row
-row	reject_advice	VERB	the verb sense ("to row a boat") is not enabled; angloform allows one sense per word
+row	reject_gap	VERB	no already-enabled word covers this sense yet
 rows	form	NOUN_PL	row
 rule	form	NOUN_SG	rule
 rule	reject_gap	VERB	no already-enabled word covers this sense yet
@@ -2420,7 +2419,7 @@ say	reject_advice	NOUN	the noun sense ("to have a say") is not enabled; anglofor
 saying	form	VERB_TRANS_ING	say
 says	form	VERB_TRANS_3SG	say
 scale	form	NOUN_SG	scale
-scale	reject_advice	VERB	the verb sense ("to scale a wall" or "to scale a business") is not enabled; angloform allows one sense per word
+scale	reject_gap	VERB	no already-enabled word covers this sense yet
 scale word	term	-	Scale Word
 scale words	term	-	Scale Words
 scales	form	NOUN_PL	scale
@@ -2435,13 +2434,13 @@ scope ambiguities	term	-	Scope Ambiguities
 scope ambiguity	term	-	Scope Ambiguity
 scopes	form	NOUN_PL	scope
 score	form	NOUN_SG	score
-score	reject_advice	VERB	the verb sense ("to score a goal") is not enabled; angloform allows one sense per word
+score	reject_gap	VERB	no already-enabled word covers this sense yet
 scores	form	NOUN_PL	score
 script	form	NOUN_SG	script
 script	reject	VERB	write
 scripts	form	NOUN_PL	script
 seam	form	NOUN_SG	seam
-seam	reject_advice	VERB	the verb sense (cricket jargon — "to seam the ball") is not enabled; angloform allows one sense per word
+seam	reject_gap	VERB	no already-enabled word covers this sense yet
 seams	form	NOUN_PL	seam
 second	form	ORD	second
 secondary	form	ADJ_LONG	secondary
@@ -2457,7 +2456,7 @@ seems	ban	-	epistemic hedges are banned - it is a linking verb here; drop it and
 seen	form	VERB_TRANS_ED	see
 sees	form	VERB_TRANS_3SG	see
 send	form	VERB_TRANS_BASE	send
-send	reject_advice	NOUN	a thing, which moves a system
+send	reject_gap	NOUN	no already-enabled word covers this sense yet
 sending	form	VERB_TRANS_ING	send
 sends	form	VERB_TRANS_3SG	send
 sense	form	NOUN_SG	sense
@@ -2482,7 +2481,7 @@ separators	form	NOUN_PL	separator
 september	form	NOUN_SG	september
 septembers	form	NOUN_PL	september
 sequence	form	NOUN_SG	sequence
-sequence	reject_advice	VERB	the verb sense (biology — "to sequence DNA") is not enabled; angloform allows one sense per word
+sequence	reject_gap	VERB	no already-enabled word covers this sense yet
 sequences	form	NOUN_PL	sequence
 server	form	NOUN_SG	server
 servers	form	NOUN_PL	server
@@ -2518,7 +2517,7 @@ should	ban	-	"should" is a deferred modal (ADR 0009) - for an obligation write "
 show	form	VERB_TRANS_BASE	show
 show	reject	NOUN	display
 showcase	form	NOUN_SG	showcase
-showcase	reject_advice	VERB	the verb sense ("to showcase talent") is not enabled; angloform allows one sense per word
+showcase	reject_gap	VERB	no already-enabled word covers this sense yet
 showcases	form	NOUN_PL	showcase
 showed	form	VERB_TRANS_ED	show
 showing	form	VERB_TRANS_ING	show
@@ -2531,7 +2530,7 @@ signals	form	NOUN_PL	signal
 signature	form	NOUN_SG	signature
 signatures	form	NOUN_PL	signature
 silent	form	ADJ_LONG	silent
-silent	reject_advice	NOUN	the noun sense (film jargon — "a silent", a silent film) is not enabled; angloform allows one sense per word
+silent	reject_gap	NOUN	no already-enabled word covers this sense yet
 since	ban	-	"since" is causal or temporal - for a cause and its result write "<cause>, so <result>"; for a result and its reason write "<result>, because <reason>" (ADR 0026)
 single	form	ADJ_LONG	single
 single	reject_advice	NOUN	the noun sense (a single — e.g. a music single, or a one-dollar bill) is not enabled; angloform allows one sense per word
@@ -2557,7 +2556,7 @@ skips	form	VERB_TRANS_3SG	skip
 sky	form	NOUN_SG	sky
 sky	reject_gap	VERB	no already-enabled word covers this sense yet
 slot	form	NOUN_SG	slot
-slot	reject_advice	VERB	the verb sense ("to slot something into place") is not enabled; angloform allows one sense per word
+slot	reject_gap	VERB	no already-enabled word covers this sense yet
 slots	form	NOUN_PL	slot
 small	form	ADJ	small
 small	reject_advice	ADV	the adverbial sense ("cut it small") is not enabled; angloform has no adverb category
@@ -2604,7 +2603,7 @@ stalled	form	VERB_INTRANS_ED	stall
 stalling	form	VERB_INTRANS_ING	stall
 stalls	form	VERB_INTRANS_3SG	stall
 standard	form	NOUN_SG	standard
-standard	reject_advice	ADJ	the adjective sense ("standard procedure") is not enabled; angloform allows one sense per word
+standard	reject_gap	ADJ	no already-enabled word covers this sense yet
 standards	form	NOUN_PL	standard
 start	form	VERB_TRANS_BASE	start
 start	reject	NOUN	beginning
@@ -2612,7 +2611,7 @@ started	form	VERB_TRANS_ED	start
 starting	form	VERB_TRANS_ING	start
 starts	form	VERB_TRANS_3SG	start
 state	form	NOUN_SG	state
-state	reject_advice	VERB	the verb sense ("to state a fact") is not enabled; angloform allows one sense per word
+state	reject	VERB	describe
 statement	form	NOUN_SG	statement
 statements	form	NOUN_PL	statement
 states	form	NOUN_PL	state
@@ -2626,7 +2625,7 @@ stayed	form	VERB_INTRANS_ED	stay
 staying	form	VERB_INTRANS_ING	stay
 stays	form	VERB_INTRANS_3SG	stay
 step	form	NOUN_SG	step
-step	reject_advice	VERB	the verb sense ("to step forward") is not enabled; angloform allows one sense per word
+step	reject_gap	VERB	no already-enabled word covers this sense yet
 step block	term	-	Step Block
 step blocks	term	-	Step Blocks
 steps	form	NOUN_PL	step
@@ -2658,12 +2657,12 @@ stronger	form	ADJ_CMP	strong
 strongest	form	ADJ_SUP	strong
 structural	form	ADJ_LONG	structural
 structure	form	NOUN_SG	structure
-structure	reject_advice	VERB	the verb sense ("to structure something") is not enabled; angloform allows one sense per word
+structure	reject	VERB	organize
 structure loss	term	-	Structure Loss
 structure losses	term	-	Structure Losses
 structures	form	NOUN_PL	structure
 style	form	NOUN_SG	style
-style	reject_advice	VERB	the verb sense ("to style someone's hair") is not enabled; angloform allows one sense per word
+style	reject_gap	VERB	no already-enabled word covers this sense yet
 styles	form	NOUN_PL	style
 subject	form	NOUN_SG	subject
 subject	reject_advice	ADJ	the adjective sense ("subject to change") is not enabled; angloform allows one sense per word
@@ -2679,7 +2678,7 @@ subsets	form	NOUN_PL	subset
 subsystem	form	NOUN_SG	subsystem
 subsystems	form	NOUN_PL	subsystem
 suffix	form	NOUN_SG	suffix
-suffix	reject_advice	VERB	the verb sense (linguistics — "to suffix a letter to a word") is not enabled; angloform allows one sense per word
+suffix	reject_gap	VERB	no already-enabled word covers this sense yet
 suffixes	form	NOUN_PL	suffix
 suggest	form	VERB_TRANS_BASE	suggest
 suggested	form	VERB_TRANS_ED	suggest
@@ -2700,13 +2699,13 @@ suppliers	form	NOUN_PL	supplier
 surface form	term	-	Surface Form
 surface forms	term	-	Surface Forms
 surprise	form	NOUN_SG	surprise
-surprise	reject_advice	VERB	the verb sense ("to surprise someone") is not enabled; angloform allows one sense per word
+surprise	reject_gap	VERB	no already-enabled word covers this sense yet
 surprises	form	NOUN_PL	surprise
 swap	form	NOUN_SG	swap
 swap	reject	VERB	replace
 swaps	form	NOUN_PL	swap
 sweep	form	NOUN_SG	sweep
-sweep	reject_advice	VERB	the verb sense ("to sweep the floor") is not enabled; angloform allows one sense per word
+sweep	reject_gap	VERB	no already-enabled word covers this sense yet
 sweeps	form	NOUN_PL	sweep
 sweet	form	ADJ	sweet
 sweet	reject	NOUN	candy
@@ -2714,10 +2713,10 @@ sweet	reject_advice	ADV	the adverbial sense ("talk sweet") is not enabled; anglo
 sweeter	form	ADJ_CMP	sweet
 sweetest	form	ADJ_SUP	sweet
 syllable	form	NOUN_SG	syllable
-syllable	reject_advice	VERB	the verb sense (rare — to utter distinctly, syllable by syllable) is not enabled; angloform allows one sense per word
+syllable	reject_gap	VERB	no already-enabled word covers this sense yet
 syllables	form	NOUN_PL	syllable
 symbol	form	NOUN_SG	symbol
-symbol	reject_advice	VERB	the verb sense (rare — to symbolize) is not enabled; angloform allows one sense per word
+symbol	reject_gap	VERB	no already-enabled word covers this sense yet
 symbols	form	NOUN_PL	symbol
 synonym	form	NOUN_SG	synonym
 synonyms	form	NOUN_PL	synonym
@@ -2726,7 +2725,7 @@ syntaxes	form	NOUN_PL	syntax
 system	form	NOUN_SG	system
 systems	form	NOUN_PL	system
 table	form	NOUN_SG	table
-table	reject_advice	VERB	the verb sense (to table a motion — propose or postpone, depending on dialect) is not enabled; angloform allows one sense per word
+table	reject_gap	VERB	no already-enabled word covers this sense yet
 tables	form	NOUN_PL	table
 take	form	VERB_TRANS_BASE	take
 take	reject_advice	NOUN	the noun sense ("a hot take"; box-office "the take") is not enabled; angloform allows one sense per word
@@ -2740,10 +2739,10 @@ task	form	NOUN_SG	task
 task	reject_advice	VERB	the verb sense ("to task someone with a job") is not enabled; angloform allows one sense per word
 tasks	form	NOUN_PL	task
 taste	form	NOUN_SG	taste
-taste	reject_advice	VERB	the verb sense ("to taste food") is not enabled; angloform allows one sense per word
+taste	reject_gap	VERB	no already-enabled word covers this sense yet
 tastes	form	NOUN_PL	taste
 team	form	NOUN_SG	team
-team	reject_advice	VERB	the verb sense ("to team up") is not enabled; angloform allows one sense per word
+team	reject_gap	VERB	no already-enabled word covers this sense yet
 teammate	form	NOUN_SG	teammate
 teammates	form	NOUN_PL	teammate
 teams	form	NOUN_PL	team
@@ -2811,7 +2810,7 @@ tolerates	form	VERB_TRANS_3SG	tolerate
 tolerating	form	VERB_TRANS_ING	tolerate
 took	form	VERB_TRANS_ED	take
 tool	form	NOUN_SG	tool
-tool	reject_advice	VERB	the verb sense ("to tool around") is not enabled; irrelevant to this domain
+tool	reject_gap	VERB	no already-enabled word covers this sense yet
 tools	form	NOUN_PL	tool
 touch	form	VERB_TRANS_BASE	touch
 touch	reject_advice	NOUN	the noun sense ("a personal touch"; rugby "touch") is not enabled; angloform allows one sense per word
@@ -2820,7 +2819,7 @@ touches	form	VERB_TRANS_3SG	touch
 touching	form	VERB_TRANS_ING	touch
 toxic	form	ADJ_LONG	toxic
 trade	form	VERB_TRANS_BASE	trade
-trade	reject_advice	NOUN	the noun sense (a trade, e.g. an occupation) is not enabled; angloform allows one sense per word
+trade	reject_gap	NOUN	no already-enabled word covers this sense yet
 traded	form	VERB_TRANS_ED	trade
 trades	form	VERB_TRANS_3SG	trade
 trading	form	VERB_TRANS_ING	trade
@@ -2829,7 +2828,7 @@ traditions	form	NOUN_PL	tradition
 transaction	form	NOUN_SG	transaction
 transactions	form	NOUN_PL	transaction
 transition	form	NOUN_SG	transition
-transition	reject_advice	VERB	the verb sense ("to transition to a new role") is not enabled; angloform allows one sense per word
+transition	reject_gap	VERB	no already-enabled word covers this sense yet
 transitions	form	NOUN_PL	transition
 transitive	form	ADJ_LONG	transitive
 transitive	reject_advice	NOUN	the reference data attests a noun use of "transitive"; no common meaning could be confirmed — not enabled
@@ -2843,7 +2842,7 @@ transparent	form	ADJ_LONG	transparent
 treadmill	form	NOUN_SG	treadmill
 treadmills	form	NOUN_PL	treadmill
 tree	form	NOUN_SG	tree
-tree	reject_advice	VERB	the verb sense ("the dog treed the raccoon", meaning chased up a tree) is not enabled; angloform allows one sense per word
+tree	reject_gap	VERB	no already-enabled word covers this sense yet
 trees	form	NOUN_PL	tree
 tried	form	VERB_INF_ED	try
 tries	form	VERB_INF_3SG	try
@@ -2859,7 +2858,7 @@ try	reject_advice	NOUN	the noun sense (an attempt) is not enabled; angloform all
 tuesday	form	NOUN_SG	tuesday
 tuesdays	form	NOUN_PL	tuesday
 turn	form	VERB_TRANS_BASE	turn
-turn	reject_advice	NOUN	the noun sense (a turn) is not enabled; angloform allows one sense per word
+turn	reject_gap	NOUN	no already-enabled word covers this sense yet
 turned	form	VERB_TRANS_ED	turn
 turning	form	VERB_TRANS_ING	turn
 turns	form	VERB_TRANS_3SG	turn
@@ -2933,7 +2932,7 @@ validating	form	VERB_TRANS_ING	validate
 validator	form	NOUN_SG	validator
 validators	form	NOUN_PL	validator
 value	form	NOUN_SG	value
-value	reject_advice	VERB	the verb sense ("to value something") is not enabled; angloform allows one sense per word
+value	reject_gap	VERB	no already-enabled word covers this sense yet
 values	form	NOUN_PL	value
 verb	form	NOUN_SG	verb
 verb preposition	term	-	Verb Preposition
@@ -2955,14 +2954,14 @@ vocative	form	NOUN_SG	vocative
 vocative	reject_advice	ADJ	the adjective sense (grammar jargon — "the address is vocative") is not enabled; angloform allows one sense per word
 vocatives	form	NOUN_PL	vocative
 wait	form	VERB_INTRANS_BASE	wait
-wait	reject_advice	NOUN	a time, which comes before an event
+wait	reject_gap	NOUN	no already-enabled word covers this sense yet
 waited	form	VERB_INTRANS_ED	wait
 waiting	form	VERB_INTRANS_ING	wait
 waits	form	VERB_INTRANS_3SG	wait
 wallet	form	NOUN_SG	wallet
 wallets	form	NOUN_PL	wallet
 warning	form	NOUN_SG	warning
-warning	reject_advice	ADJ	the adjective (attributive) sense ("a warning sign") is not enabled; angloform allows one sense per word
+warning	reject_gap	ADJ	no already-enabled word covers this sense yet
 warnings	form	NOUN_PL	warning
 was	form	COPULA_SG_PAST	was
 way	form	NOUN_SG	way
@@ -3017,7 +3016,7 @@ wording	form	NOUN_SG	wording
 wordings	form	NOUN_PL	wording
 words	form	NOUN_PL	word
 work	form	NOUN_SG	work
-work	reject_advice	VERB	the verb sense ("to work a job") is not enabled; angloform allows one sense per word
+work	reject_gap	VERB	no already-enabled word covers this sense yet
 works	form	NOUN_PL	work
 world	form	NOUN_SG	world
 world	reject_advice	ADJ	the adjective (attributive) sense ("a world record", "world class") is not enabled; angloform allows one sense per word

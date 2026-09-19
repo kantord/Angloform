@@ -1,0 +1,5 @@
+category: NOUN
+definition: an error, which changes a result
+rejected:
+  - category: VERB
+    gap: true

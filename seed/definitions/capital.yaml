@@ -1,0 +1,5 @@
+category: NOUN
+definition: a letter, which starts a word
+rejected:
+  - category: ADJ
+    gap: true

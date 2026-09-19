@@ -1,0 +1,8 @@
+category: NOUN
+forms:
+  - tag: NOUN_PL
+    form: definites
+definition: a reference, which names a thing
+rejected:
+  - category: ADJ
+    gap: true

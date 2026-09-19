@@ -1,0 +1,5 @@
+category: NOUN
+definition: a fact, which precedes a result
+rejected:
+  - category: VERB
+    gap: true

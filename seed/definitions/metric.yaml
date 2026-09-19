@@ -1,0 +1,5 @@
+category: NOUN
+definition: a measurement, which ranks a quality
+rejected:
+  - category: ADJ
+    gap: true

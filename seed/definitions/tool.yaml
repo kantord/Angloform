@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which helps an action
+rejected:
+  - category: VERB
+    gap: true

@@ -1,0 +1,5 @@
+category: NOUN
+definition: a preference, which avoids a reason
+rejected:
+  - category: VERB
+    gap: true

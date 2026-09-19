@@ -1,0 +1,5 @@
+category: NOUN
+definition: a fact, which causes an ambiguity
+rejected:
+  - category: VERB
+    gap: true

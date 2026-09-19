@@ -1,0 +1,5 @@
+category: NOUN
+definition: a text, which carries a meaning
+rejected:
+  - category: VERB
+    gap: true

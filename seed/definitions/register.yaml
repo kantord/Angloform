@@ -1,0 +1,5 @@
+category: NOUN
+definition: a quality, which describes a text
+rejected:
+  - category: VERB
+    gap: true

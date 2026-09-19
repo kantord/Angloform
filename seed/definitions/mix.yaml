@@ -1,0 +1,5 @@
+category: NOUN
+definition: a set, which contains 2 notations
+rejected:
+  - category: VERB
+    gap: true

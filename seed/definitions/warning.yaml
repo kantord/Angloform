@@ -1,0 +1,5 @@
+category: NOUN
+definition: a message, which precedes an error
+rejected:
+  - category: ADJ
+    gap: true

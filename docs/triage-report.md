@@ -17,8 +17,8 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 | verdict | tokens | share |
 |---|---|---|
 | OK | 8438 | 38.6% |
-| REDIRECT (designed rejection with suggestion) | 276 | 1.3% |
-| MISMATCH (enabled word, uncovered POS) | 2033 | 9.3% |
+| REDIRECT (designed rejection with suggestion) | 210 | 1.0% |
+| MISMATCH (enabled word, uncovered POS) | 2099 | 9.6% |
 | PROPN (out of scope) | 2075 | 9.5% |
 | OOV | 9025 | 41.3% |
 
@@ -44,21 +44,21 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 
 ## Redirect hits (the rejection rules doing their job)
 
-- work used as VERB ×26
 - love used as VERB ×21
 - clean used as ADJ ×10
 - hope used as VERB ×9
 - help used as NOUN ×8
 - long used as ADV ×8
 - late used as ADV ×7
-- link used as NOUN ×7
 - end used as NOUN ×6
 - file used as VERB ×5
 - list used as VERB ×5
 - name used as NOUN ×5
 - run used as VERB ×5
 - set used as VERB ×5
-- taste used as VERB ×5
+- base used as VERB ×4
+- commit used as VERB ×4
+- fall used as NOUN ×4
 
 ## Uncovered POS mismatches (holes in the redirect table)
 
@@ -73,10 +73,10 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 - up used as ADP ×46
 - do used as VERB ×45
 - about used as ADP ×26
+- work used as VERB ×26
 - for used as SCONJ ×24
 - may used as AUX ×23
 - other used as ADJ ×22
-- only used as ADV ×20
 
 ## Samples for manual review
 
@@ -96,7 +96,7 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 - i.e. — *i.e (ADV, OOV)*
 - Wtf is this? — *Wtf (PRON, OOV); this (PRON, OOV)*
 - WASHINGTON (Reuters) - — *WASHINGTON (proper noun); Reuters (proper noun)*
-- The answer is, "Yes!" — *answer as NOUN → "the noun sense (an answer) is not enabled; angloform allows one sense per word"; Yes (INTJ, OOV)*
+- The answer is, "Yes!" — *answer as NOUN (no redirect); Yes (INTJ, OOV)*
 - (On what evidence? — *what (DET, OOV)*
 - Clinton tried, and tried hard. — *Clinton (proper noun); hard (ADV, OOV)*
 - i'm the king — *'m as AUX (no redirect); king (NOUN, OOV)*

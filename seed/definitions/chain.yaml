@@ -1,0 +1,5 @@
+category: NOUN
+definition: a sequence, which links an item
+rejected:
+  - category: VERB
+    gap: true

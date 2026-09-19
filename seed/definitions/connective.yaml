@@ -1,0 +1,8 @@
+category: NOUN
+forms:
+  - tag: NOUN_PL
+    form: connectives
+definition: a word, which joins a clause
+rejected:
+  - category: ADJ
+    gap: true

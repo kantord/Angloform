@@ -1,0 +1,5 @@
+category: NOUN
+definition: a set, which holds a term
+rejected:
+  - category: VERB
+    gap: true

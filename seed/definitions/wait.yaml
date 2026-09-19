@@ -1,0 +1,5 @@
+category: VERB_INTRANS
+definition: stall
+rejected:
+  - category: NOUN
+    gap: true

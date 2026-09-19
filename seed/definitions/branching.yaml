@@ -1,0 +1,8 @@
+category: NOUN
+forms:
+  - tag: NOUN_PL
+    form: branchings
+definition: a quality, which describes a branch
+rejected:
+  - category: ADJ
+    gap: true

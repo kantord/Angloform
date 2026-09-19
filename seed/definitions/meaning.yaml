@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which describes a fact
+rejected:
+  - category: ADJ
+    gap: true

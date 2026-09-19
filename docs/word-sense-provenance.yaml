@@ -2,10 +2,64 @@
 # Not part of the checked schema, never shown to a word's own
 # definition consumer (e.g. `just define`) — couples each redirect
 # decision back to the WordNet gloss that justified it, for audit.
+absent:
+  VERB:
+    gap: true
+    gloss: go away or leave; "He absented himself"
+    redirect: null
+absolute:
+  NOUN:
+    gap: true
+    gloss: something that is conceived or that exists independently and not in relation to other things;
+      something that does not depend on anything else and is beyond human control; something that is not
+      relative; "no mortal being can influence the absolute"
+    redirect: null
+action:
+  VERB:
+    gap: true
+    gloss: put in effect; "carry out a task"; "execute the decision of the people"; "He actioned the operation"
+    redirect: null
+add:
+  NOUN:
+    gap: true
+    gloss: null
+    redirect: null
+adjective:
+  ADJ:
+    gap: true
+    gloss: relating to court practice and procedure as opposed to the principles of law; "adjective law"
+    redirect: null
+answer:
+  NOUN:
+    gap: true
+    gloss: a nonverbal reaction; "his answer to any problem was to get drunk"; "their answer was to sue
+      me"
+    redirect: null
+approximate:
+  VERB:
+    gap: true
+    gloss: judge tentatively or form an estimate of (quantities or time); "I estimate this chicken to
+      weigh three pounds"
+    redirect: null
+attach:
+  NOUN:
+    gap: true
+    gloss: null
+    redirect: null
+author:
+  VERB:
+    gap: true
+    gloss: be the author of; "She authored this play"
+    redirect: null
 ban:
   NOUN:
     gap: true
     gloss: a decree that prohibits something
+    redirect: null
+bare:
+  VERB:
+    gap: true
+    gloss: lay bare; "denude a forest"
     redirect: null
 binary:
   ADJ:
@@ -14,16 +68,77 @@ binary:
       which two stars revolve around each other"; "a binary compound"; "the binary number system has two
       as its base"
     redirect: null
+branch:
+  VERB:
+    gap: false
+    gloss: divide into two or more branches so as to form a fork; "The road forks"
+    redirect: split
+branching:
+  ADJ:
+    gap: true
+    gloss: resembling the branches of a tree
+    redirect: null
+brand:
+  VERB:
+    gap: true
+    gloss: mark or expose as infamous; "She was branded a loose woman"
+    redirect: null
+bug:
+  VERB:
+    gap: true
+    gloss: annoy persistently; "The children teased the boy because of his stammer"
+    redirect: null
+build:
+  NOUN:
+    gap: true
+    gloss: constitution of the human body
+    redirect: null
+cache:
+  VERB:
+    gap: true
+    gloss: save up as for future use
+    redirect: null
+capital:
+  ADJ:
+    gap: true
+    gloss: uppercase; "capital A"; "great A"; "many medieval manuscripts are in majuscule script"
+    redirect: null
 carry:
   NOUN:
     gap: true
     gloss: the act of carrying something
+    redirect: null
+case:
+  VERB:
+    gap: true
+    gloss: enclose in, or as if in, a case; "my feet were encased in mud"
+    redirect: null
+catch:
+  NOUN:
+    gap: true
+    gloss: the act of apprehending (especially apprehending a criminal); "the policeman on the beat got
+      credit for the collar"
+    redirect: null
+cause:
+  NOUN:
+    gap: true
+    gloss: any entity that produces an effect or is responsible for events or results
+    redirect: null
+chain:
+  VERB:
+    gap: true
+    gloss: fasten or secure with chains; "Chain the chairs together"
     redirect: null
 change:
   NOUN:
     gap: true
     gloss: the action of changing something; "the change of government had no impact on the economy";
       "his change on abortion cost him the election"
+    redirect: null
+character:
+  VERB:
+    gap: true
+    gloss: engrave or inscribe characters on
     redirect: null
 check:
   NOUN:
@@ -37,10 +152,26 @@ choice:
     gloss: of superior grade; "choice wines"; "prime beef"; "prize carnations"; "quality paper"; "select
       peaches"
     redirect: null
+claim:
+  VERB:
+    gap: true
+    gloss: take as an undesirable consequence of some event or state of affairs; "the accident claimed
+      three lives"; "The hard work took its toll on her"
+    redirect: null
+coin:
+  NOUN:
+    gap: true
+    gloss: a flat metal piece (usually a disc) used as money
+    redirect: null
 come:
   NOUN:
     gap: true
     gloss: the thick white fluid containing spermatozoa that is ejaculated by the male genital tract
+    redirect: null
+command:
+  VERB:
+    gap: true
+    gloss: make someone do something
     redirect: null
 commit:
   VERB:
@@ -48,17 +179,81 @@ commit:
     gloss: give entirely to a specific person, activity, or cause; "She committed herself to the work
       of God"; "give one's talents to a good cause"; "consecrate your life to the church"
     redirect: save
+compare:
+  NOUN:
+    gap: true
+    gloss: qualities that are comparable; "no comparison between the two books"; "beyond compare"
+    redirect: null
+complete:
+  VERB:
+    gap: true
+    gloss: bring to a whole, with all the necessary parts or elements; "A child would complete the family"
+    redirect: null
+condition:
+  VERB:
+    gap: true
+    gloss: apply conditioner to in order to make smooth and shiny; "I condition my hair after washing
+      it"
+    redirect: null
+conflict:
+  NOUN:
+    gap: true
+    gloss: a hostile meeting of opposing military forces in the course of a war; "Grant won a decisive
+      victory in the battle of Chickamauga"; "he lost his romantic ideas about war when he got into a
+      real engagement"
+    redirect: null
+connective:
+  ADJ:
+    gap: true
+    gloss: connecting or tending to connect; "connective remarks between chapters"; "connective tissue
+      in animals"; "conjunctive tissue in plants"
+    redirect: null
+consequent:
+  ADJ:
+    gap: true
+    gloss: following or accompanying as a consequence; "an excessive growth of bureaucracy, with attendant
+      problems"; "snags incidental to the changeover in management"; "attendant circumstances"; "the period
+      of tension and consequent need for military preparedness"; "the ensuant response to his appeal";
+      "the resultant savings were considerable"
+    redirect: null
 copy:
   VERB:
     gap: false
     gloss: make a replica of; "copy that drawing"; "re-create a picture by Rembrandt"
     redirect: duplicate
+corner:
+  VERB:
+    gap: true
+    gloss: turn a corner; "the car corners"
+    redirect: null
 count:
   NOUN:
     gap: false
     gloss: the act of counting; reciting numbers in ascending order; "the counting continued for several
       hours"
     redirect: number
+cover:
+  NOUN:
+    gap: true
+    gloss: fire that makes it difficult for the enemy to fire on your own individuals or formations; "artillery
+      provided covering fire for the withdrawal"
+    redirect: null
+current:
+  NOUN:
+    gap: true
+    gloss: a steady flow of a fluid (usually from natural causes); "the raft floated downstream on the
+      current"; "he felt a stream of air"; "the hose ejected a stream of water"
+    redirect: null
+definite:
+  ADJ:
+    gap: true
+    gloss: known for certain; "it is definite that they have won"
+    redirect: null
+degree:
+  ADJ:
+    gap: true
+    gloss: null
+    redirect: null
 difference:
   VERB:
     gap: true
@@ -70,15 +265,32 @@ discourse:
     gloss: talk at length and formally about a topic; "The speaker dissertated about the social politics
       in 18th century England"
     redirect: null
+distance:
+  VERB:
+    gap: true
+    gloss: go far ahead of; "He outdistanced the other runners"
+    redirect: null
 document:
   VERB:
     gap: false
     gloss: support or supply with references; "Can you document your claims?"
     redirect: record
+drop:
+  NOUN:
+    gap: true
+    gloss: the act of dropping something; "they expected the drop would be successful"
+    redirect: null
 edit:
   NOUN:
     gap: true
     gloss: null
+    redirect: null
+evidence:
+  VERB:
+    gap: true
+    gloss: provide evidence for; stand as proof of; show by one's behavior, attitude, or external attributes;
+      "His high fever attested to his illness"; "The buildings in Rome manifest a high level of architectural
+      sophistication"; "This decision demonstrates his sense of fairness"
     redirect: null
 exact:
   VERB:
@@ -96,20 +308,99 @@ expense:
     gap: true
     gloss: reduce the estimated value of something; "For tax purposes you can write off the laser printer"
     redirect: null
+fence:
+  VERB:
+    gap: true
+    gloss: have an argument about something
+    redirect: null
+field:
+  VERB:
+    gap: true
+    gloss: select (a team or individual player) for a game; "The Buckeyes fielded a young new quarterback
+      for the Rose Bowl"
+    redirect: null
 file:
   VERB:
     gap: false
     gloss: file a formal charge against; "The suspect was charged with murdering his wife"
     redirect: submit
+floor:
+  VERB:
+    gap: true
+    gloss: knock down with force; "He decked his opponent"
+    redirect: null
+format:
+  VERB:
+    gap: true
+    gloss: divide (a disk) into marked sectors so that it may store data; "Please format this disk before
+      entering data!"
+    redirect: null
+fraction:
+  VERB:
+    gap: true
+    gloss: perform a division; "Can you divide 49 by seven?"
+    redirect: null
+frame:
+  VERB:
+    gap: true
+    gloss: make up plans or basic details for; "frame a policy"
+    redirect: null
 future:
   NOUN:
     gap: false
     gloss: bulk commodities bought or sold at an agreed price for delivery at a specified future date
     redirect: time
+gain:
+  NOUN:
+    gap: true
+    gloss: the amount of increase in signal power or voltage or current expressed as the ratio of output
+      to input
+    redirect: null
+generic:
+  NOUN:
+    gap: true
+    gloss: any product that can be sold without a brand name
+    redirect: null
+get:
+  NOUN:
+    gap: true
+    gloss: a return on a shot that seemed impossible to reach and would normally have resulted in a point
+      for the opponent
+    redirect: null
+give:
+  NOUN:
+    gap: true
+    gloss: the elasticity of something that can be stretched and returns to its original length
+    redirect: null
+group:
+  VERB:
+    gap: true
+    gloss: arrange into a group or groups; "Can you group these shapes together?"
+    redirect: null
+guard:
+  VERB:
+    gap: true
+    gloss: watch over or shield from danger or harm; protect; "guard my possessions while I'm away"
+    redirect: null
 guardian:
   ADJ:
     gap: true
     gloss: null
+    redirect: null
+guess:
+  NOUN:
+    gap: true
+    gloss: an estimate based on little or no information
+    redirect: null
+head:
+  VERB:
+    gap: true
+    gloss: remove the head of; "head the fish"
+    redirect: null
+hole:
+  VERB:
+    gap: true
+    gloss: make holes in
     redirect: null
 human:
   ADJ:
@@ -122,10 +413,36 @@ input:
     gap: false
     gloss: enter (data or a program) into a computer
     redirect: enter
+integrate:
+  ADJ:
+    gap: true
+    gloss: null
+    redirect: null
 invariant:
   ADJ:
     gap: true
     gloss: unvarying in nature; "maintained a constant temperature"; "principles of unvarying validity"
+    redirect: null
+jargon:
+  VERB:
+    gap: true
+    gloss: null
+    redirect: null
+judge:
+  NOUN:
+    gap: true
+    gloss: an authority who is able to estimate worth or quality
+    redirect: null
+keep:
+  NOUN:
+    gap: true
+    gloss: a cell in a jail or prison
+    redirect: null
+kind:
+  ADJ:
+    gap: true
+    gloss: tolerant and forgiving under provocation; "our neighbor was very kind about the window our
+      son broke"
     redirect: null
 know:
   NOUN:
@@ -137,21 +454,105 @@ layer:
     gap: true
     gloss: make or form a layer; "layer the different colored sands"
     redirect: null
+letter:
+  VERB:
+    gap: true
+    gloss: mark letters on or mark with letters
+    redirect: null
+link:
+  NOUN:
+    gap: true
+    gloss: a fastener that serves to join or connect; "the walls are held together with metal links placed
+      in the wet mortar during construction"
+    redirect: null
 list:
   VERB:
     gap: false
     gloss: give or make a list of; name individually; give the names of; "List the states west of the
       Mississippi"
     redirect: include
+load:
+  VERB:
+    gap: true
+    gloss: corrupt, debase, or make impure by adding a foreign or inferior substance; often by replacing
+      valuable ingredients with inferior ones; "adulterate liquor"
+    redirect: null
 machine:
   VERB:
     gap: true
     gloss: make by machinery; "The Americans were machining while others still hand-made cars"
     redirect: null
+main:
+  NOUN:
+    gap: true
+    gloss: a principal pipe in a system that distributes water or gas or electricity or that collects
+      sewage
+    redirect: null
+make:
+  NOUN:
+    gap: true
+    gloss: the act of mixing cards haphazardly
+    redirect: null
+map:
+  NOUN:
+    gap: true
+    gloss: a diagrammatic representation of the earth's surface (or part of it)
+    redirect: null
+mark:
+  NOUN:
+    gap: true
+    gloss: something that exactly succeeds in achieving its goal; "the new advertising campaign was a
+      bell ringer"; "scored a bull's eye"; "hit the mark"; "the president's speech was a home run"
+    redirect: null
+maximum:
+  ADJ:
+    gap: true
+    gloss: the greatest or most complete or best possible; "maximal expansion"; "maximum pressure"
+    redirect: null
+meaning:
+  ADJ:
+    gap: true
+    gloss: rich in significance or implication; "a meaning look"
+    redirect: null
+mechanical:
+  NOUN:
+    gap: true
+    gloss: null
+    redirect: null
+mention:
+  NOUN:
+    gap: true
+    gloss: an official recognition of merit; "although he didn't win the prize he did get special mention"
+    redirect: null
 merchant:
   VERB:
     gap: true
     gloss: null
+    redirect: null
+message:
+  VERB:
+    gap: true
+    gloss: send a message; "There is no messaging service at this company"
+    redirect: null
+metric:
+  ADJ:
+    gap: true
+    gloss: the rhythmic arrangement of syllables
+    redirect: null
+mix:
+  VERB:
+    gap: true
+    gloss: add as an additional element or part; "mix water into the drink"
+    redirect: null
+natural:
+  NOUN:
+    gap: true
+    gloss: (craps) a first roll of 7 or 11 that immediately wins the stake
+    redirect: null
+noise:
+  VERB:
+    gap: true
+    gloss: emit a noise
     redirect: null
 note:
   VERB:
@@ -159,6 +560,11 @@ note:
     gloss: make mention of; "She observed that his presentation took up too much time"; "They noted that
       it was a fine day to go sailing"
     redirect: record
+number:
+  VERB:
+    gap: true
+    gloss: place a limit on the number of
+    redirect: null
 object:
   VERB:
     gap: false
@@ -166,10 +572,66 @@ object:
       to the amount of work her boss charged her with"; "When asked to drive the truck, she objected that
       she did not have a driver's license"
     redirect: disagree
+offer:
+  NOUN:
+    gap: true
+    gloss: a usually brief attempt; "he took a crack at it"; "I gave it a whirl"
+    redirect: null
 old:
   NOUN:
     gap: true
     gloss: past times (especially in the phrase `in days of old')
+    redirect: null
+order:
+  VERB:
+    gap: false
+    gloss: place in a certain order; "order the photos chronologically"
+    redirect: rank
+ordinary:
+  NOUN:
+    gap: true
+    gloss: (heraldry) any of several conventional figures used on shields
+    redirect: null
+override:
+  NOUN:
+    gap: true
+    gloss: the act of nullifying; making null and void; counteracting or overriding the effect or force
+      of something
+    redirect: null
+pack:
+  VERB:
+    gap: true
+    gloss: treat the body or any part of it by wrapping it, as with blankets or sheets, and applying compresses
+      to it, or stuffing it to provide cover, containment, or therapy, or to absorb blood; "The nurse
+      packed gauze in the wound"; "You had better pack your swollen ankle with ice"
+    redirect: null
+pair:
+  VERB:
+    gap: true
+    gloss: bring two objects, ideas, or people together; "This fact is coupled to the other one"; "Matchmaker,
+      can you match my daughter with a nice young man?"; "The student was paired with a partner for collaboration
+      on the project"
+    redirect: null
+paraphrase:
+  VERB:
+    gap: true
+    gloss: express the same message in different words
+    redirect: null
+pattern:
+  VERB:
+    gap: true
+    gloss: plan or create according to a model or models
+    redirect: null
+phrase:
+  VERB:
+    gap: true
+    gloss: divide, combine, or mark into phrases; "phrase a musical passage"
+    redirect: null
+pick:
+  NOUN:
+    gap: true
+    gloss: the act of choosing or selecting; "your choice of colors was unfortunate"; "you can take your
+      pick"
     redirect: null
 pin:
   NOUN:
@@ -192,12 +654,44 @@ point:
     gap: false
     gloss: repair the joints of bricks; "point a chimney"
     redirect: show
+position:
+  VERB:
+    gap: true
+    gloss: put into a certain place or abstract location; "Put your things here"; "Set the tray down";
+      "Set the dogs on the scent of the missing children"; "Place emphasis on a certain point"
+    redirect: null
+positive:
+  NOUN:
+    gap: true
+    gloss: a film showing a photographic image whose tones correspond to those of the original subject
+    redirect: null
+precedent:
+  ADJ:
+    gap: true
+    gloss: preceding in time, order, or significance
+    redirect: null
+precondition:
+  VERB:
+    gap: true
+    gloss: put into the required condition beforehand
+    redirect: null
+pressure:
+  VERB:
+    gap: true
+    gloss: to cause to do through pressure or necessity, by physical, moral or intellectual means :"She
+      forced him to take a job in the city"; "He squeezed her for information"
+    redirect: null
 process:
   VERB:
     gap: true
     gloss: subject to a process or treatment, with the aim of readying for some purpose, improving, or
       remedying a condition; "process cheese"; "process hair"; "treat the water so it can be drunk"; "treat
       the lawn with chemicals" ; "treat an oil spill"
+    redirect: null
+profile:
+  VERB:
+    gap: true
+    gloss: represent in profile, by drawing or painting
     redirect: null
 program:
   VERB:
@@ -215,6 +709,11 @@ prose:
     gap: true
     gloss: null
     redirect: null
+purpose:
+  VERB:
+    gap: true
+    gloss: reach a decision; "he resolved never to drink again"
+    redirect: null
 quality:
   ADJ:
     gap: true
@@ -225,6 +724,17 @@ queue:
     gap: false
     gloss: form a queue, form a line, stand in line; "Customers lined up in front of the store"
     redirect: wait
+range:
+  VERB:
+    gap: true
+    gloss: assign a rank or rating to; "how would you rank these students?"; "The restaurant is rated
+      highly in the food guide"
+    redirect: null
+reason:
+  VERB:
+    gap: true
+    gloss: think logically; "The children must learn to reason"
+    redirect: null
 record:
   NOUN:
     gap: false
@@ -236,6 +746,39 @@ reference:
     gap: false
     gloss: refer to; "he referenced his colleagues' work"
     redirect: refer
+register:
+  VERB:
+    gap: true
+    gloss: enter into someone's consciousness; "Did this event register in your parents' minds?"
+    redirect: null
+reject:
+  NOUN:
+    gap: true
+    gloss: the person or thing that is rejected or set aside as inferior in quality
+    redirect: null
+relative:
+  NOUN:
+    gap: true
+    gloss: an animal or plant that bears a relationship to another (as related by common descent or by
+      membership in the same genus)
+    redirect: null
+remedy:
+  VERB:
+    gap: true
+    gloss: provide relief for; "remedy his illness"
+    redirect: null
+remove:
+  NOUN:
+    gap: true
+    gloss: degree of figurative distance or separation; "just one remove from madness" or "it imitates
+      at many removes a Shakespearean tragedy";
+    redirect: null
+repair:
+  VERB:
+    gap: true
+    gloss: give new life or energy to; "A hot soup will revive me"; "This will renovate my spirits"; "This
+      treatment repaired my health"
+    redirect: null
 repeat:
   NOUN:
     gap: false
@@ -265,6 +808,16 @@ result:
     gap: false
     gloss: come about or follow as a consequence; "nothing will result from this meeting"
     redirect: follow
+rewrite:
+  VERB:
+    gap: false
+    gloss: write differently; alter the writing of; "The student rewrote his thesis"
+    redirect: edit
+row:
+  VERB:
+    gap: true
+    gloss: propel with oars; "row the boat across the lake"
+    redirect: null
 rule:
   VERB:
     gap: true
@@ -276,6 +829,32 @@ save:
     gloss: (sports) the act of preventing the opposition from scoring; "the goalie made a brilliant save";
       "the relief pitcher got credit for a save"
     redirect: null
+scale:
+  VERB:
+    gap: true
+    gloss: size or measure according to a scale; "This model must be scaled down"
+    redirect: null
+score:
+  VERB:
+    gap: true
+    gloss: assign a grade or rank to, according to one's evaluation; "grade tests"; "score the SAT essays";
+      "mark homework"
+    redirect: null
+seam:
+  VERB:
+    gap: true
+    gloss: put together with a seam; "seam a dress"
+    redirect: null
+see:
+  NOUN:
+    gap: true
+    gloss: the seat within a bishop's diocese where his cathedral is located
+    redirect: null
+send:
+  NOUN:
+    gap: true
+    gloss: null
+    redirect: null
 sense:
   VERB:
     gap: false
@@ -286,10 +865,35 @@ sentence:
     gap: true
     gloss: pronounce a sentence on (somebody) in a court of law; "He was condemned to ten years in prison"
     redirect: null
+sequence:
+  VERB:
+    gap: true
+    gloss: arrange in a sequence
+    redirect: null
+shape:
+  VERB:
+    gap: true
+    gloss: give shape or form to; "shape the dough"; "form the young child's character"
+    redirect: null
 share:
   VERB:
     gap: true
     gloss: communicate; "I'd like to share this idea with you"
+    redirect: null
+showcase:
+  VERB:
+    gap: true
+    gloss: null
+    redirect: null
+silent:
+  NOUN:
+    gap: true
+    gloss: null
+    redirect: null
+slot:
+  VERB:
+    gap: true
+    gloss: assign a time slot; "slot a television program"
     redirect: null
 social:
   ADJ:
@@ -301,6 +905,28 @@ source:
     gap: false
     gloss: specify the origin of; "The writer carefully sourced her report"
     redirect: find
+span:
+  VERB:
+    gap: true
+    gloss: to cover or extend over an area or time period; "Rivers traverse the valley floor", "The parking
+      lot spans 3 acres"; "The novel spans three centuries"
+    redirect: null
+standard:
+  ADJ:
+    gap: true
+    gloss: commonly used or supplied; "standard procedure"; "standard car equipment"
+    redirect: null
+state:
+  VERB:
+    gap: false
+    gloss: put before; "I submit to you that the accused is guilty"
+    redirect: describe
+step:
+  VERB:
+    gap: true
+    gloss: move or proceed as if by steps into a new situation; "She stepped into a life of luxury"; "he
+      won't step into his father's footsteps"
+    redirect: null
 stop:
   NOUN:
     gap: true
@@ -312,16 +938,113 @@ store:
     gloss: an electronic memory device; "a memory and the CPU form the central part of a computer to which
       peripherals are attached"
     redirect: null
+string:
+  VERB:
+    gap: true
+    gloss: add as if on a string; "string these ideas together"; "string up these songs and you'll have
+      a musical"
+    redirect: null
+structure:
+  VERB:
+    gap: false
+    gloss: give a structure to; "I need to structure my days"
+    redirect: organize
+style:
+  VERB:
+    gap: true
+    gloss: make consistent with certain rules of style; "style a manuscript"
+    redirect: null
+suffix:
+  VERB:
+    gap: true
+    gloss: attach a suffix to; "suffix words"
+    redirect: null
+surprise:
+  VERB:
+    gap: true
+    gloss: cause to be surprised; "The news really surprised me"
+    redirect: null
 swap:
   VERB:
     gap: false
     gloss: move (a piece of a program) into memory, in computer science
     redirect: replace
+sweep:
+  VERB:
+    gap: true
+    gloss: win an overwhelming victory in or on; "Her new show dog swept all championships"
+    redirect: null
+syllable:
+  VERB:
+    gap: true
+    gloss: null
+    redirect: null
+symbol:
+  VERB:
+    gap: true
+    gloss: null
+    redirect: null
+table:
+  VERB:
+    gap: true
+    gloss: arrange or enter in tabular form
+    redirect: null
+take:
+  NOUN:
+    gap: true
+    gloss: the act of photographing a scene or part of a scene without interruption
+    redirect: null
+taste:
+  VERB:
+    gap: true
+    gloss: experience briefly; "The ex-slave tasted freedom shortly before she died"
+    redirect: null
+team:
+  VERB:
+    gap: true
+    gloss: form a team; "We teamed up for this new project"
+    redirect: null
+term:
+  VERB:
+    gap: true
+    gloss: name formally or designate with a term
+    redirect: null
 test:
   VERB:
     gap: false
     gloss: undergo a test; "She doesn't test well"
     redirect: check
+title:
+  VERB:
+    gap: true
+    gloss: designate by an identifying term; "They styled their nation `The Confederate States'"
+    redirect: null
+tool:
+  VERB:
+    gap: true
+    gloss: work with a tool
+    redirect: null
+trade:
+  NOUN:
+    gap: true
+    gloss: the skilled practice of a practical occupation; "he learned his trade as an apprentice"
+    redirect: null
+transition:
+  VERB:
+    gap: true
+    gloss: make or undergo a transition (from one state or system to another); "The airline transitioned
+      to more fuel-efficient jets"; "The adagio transitioned into an allegro"
+    redirect: null
+tree:
+  VERB:
+    gap: true
+    gloss: stretch (a shoe) on a shoetree
+    redirect: null
+turn:
+  NOUN:
+    gap: true
+    gloss: taking a short walk out and back; "we took a turn in the park"
+    redirect: null
 unknown:
   NOUN:
     gap: true
@@ -346,6 +1069,28 @@ use:
     gloss: exerting shrewd or devious influence especially for one's own advantage; "his manipulation
       of his friends was scandalous"
     redirect: usage
+value:
+  VERB:
+    gap: true
+    gloss: estimate the value of; "How would you rate his chances to become President?"; "Gold was rated
+      highly among the Romans"
+    redirect: null
+wait:
+  NOUN:
+    gap: true
+    gloss: the act of waiting (remaining inactive in one place while expecting something); "the wait was
+      an ordeal for him"
+    redirect: null
+warning:
+  ADJ:
+    gap: true
+    gloss: serving to warn; "shook a monitory finger at him"; "an exemplary jail sentence"
+    redirect: null
+weigh:
+  NOUN:
+    gap: true
+    gloss: null
+    redirect: null
 while:
   VERB:
     gap: true
@@ -356,3 +1101,9 @@ word:
     gap: false
     gloss: put into words or an expression; "He formulated his concerns to the board of trustees"
     redirect: write
+work:
+  VERB:
+    gap: true
+    gloss: give a workout to; "Some parents exercise their infants"; "My personal trainer works me hard";
+      "work one's muscles"; "this puzzle will exercise your mind"
+    redirect: null

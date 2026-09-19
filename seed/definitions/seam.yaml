@@ -1,0 +1,5 @@
+category: NOUN
+definition: a position, which separates 2 clauses
+rejected:
+  - category: VERB
+    gap: true

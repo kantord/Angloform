@@ -1,0 +1,5 @@
+category: NOUN
+definition: a fact, which requires an action
+rejected:
+  - category: VERB
+    gap: true

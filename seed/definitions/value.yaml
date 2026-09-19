@@ -1,0 +1,5 @@
+category: NOUN
+definition: a fact, which measures a quality
+rejected:
+  - category: VERB
+    gap: true

@@ -1,0 +1,5 @@
+category: NOUN
+definition: a word, which requires a capital
+rejected:
+  - category: VERB
+    gap: true
