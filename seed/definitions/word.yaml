@@ -1,0 +1,5 @@
+category: NOUN
+definition: a unit, which names a meaning of a language
+rejected:
+  - category: VERB
+    redirects: [write]

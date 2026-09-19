@@ -7776,16 +7776,6 @@
     }
   },
   {
-    "lemma": "test",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "check"
-    },
-    "forms": {
-      "plural": "tests"
-    }
-  },
-  {
     "lemma": "tie",
     "category": "VERB_INTRANS",
     "reject": {
@@ -7863,13 +7853,6 @@
       "past": "won",
       "ppart": "won",
       "ing": "winning"
-    }
-  },
-  {
-    "lemma": "word",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "write"
     }
   },
   {

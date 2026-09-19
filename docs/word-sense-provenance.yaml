@@ -23,6 +23,11 @@ social:
     gap: true
     gloss: marked by friendly companionship with others; "a social cup of coffee"
     redirect: null
+test:
+  VERB:
+    gap: false
+    gloss: undergo a test; "She doesn't test well"
+    redirect: check
 up:
   ADJ:
     gap: true
@@ -41,3 +46,8 @@ while:
     gap: true
     gloss: null
     redirect: null
+word:
+  VERB:
+    gap: false
+    gloss: put into words or an expression; "He formulated his concerns to the board of trustees"
+    redirect: write
