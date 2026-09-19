@@ -12,7 +12,7 @@ original.
 | 1 | 7 | 24.7 | 17 | 52.0 | 2.11 |
 | 2 | 15 | 54.1 | 10 | 36.7 | 0.68 |
 | 3 | 9 | 35.8 | 14 | 50.4 | 1.41 |
-| 4 | 9 | 36.9 | 11 | 36.4 | 0.99 |
+| 4 | 9 | 36.9 | 11 | 36.3 | 0.98 |
 | 5 | 13 | 49.3 | 13 | 42.8 | 0.87 |
 | 6 | 16 | 62.9 | 18 | 59.0 | 0.94 |
 | 7 | 11 | 36.1 | 15 | 46.7 | 1.29 |
@@ -46,7 +46,7 @@ original.
 | 35 | 25 | 101.9 | 50 | 148.9 | 1.46 |
 | 36 | 11 | 37.0 | 14 | 47.9 | 1.30 |
 
-**Aggregate:** 36 pairs — words 689 → 1039 (+51%), cost 2898.5 → 3544.1 (**ratio 1.22**)
+**Aggregate:** 36 pairs — words 689 → 1039 (+51%), cost 2898.5 → 3544.0 (**ratio 1.22**)
 
 ## Before → after
 
@@ -77,8 +77,8 @@ Declared loss: emphasis
 **4.** BEFORE (9 words, cost 36.9)
 > Every curation commit shows its effect in the diffs.
 
-AFTER (11 words, cost 36.4, **99%** of original) — 1 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 30%
-> Every commit shows the effect of the commit in the diffs
+AFTER (11 words, cost 36.3, **98%** of original) — 1 sentence(s), each parses uniquely ✓, peak-open 4, right-branching 30%
+> Every commit shows the result of the commit in the diffs
 
 Declared loss: nominalization
 

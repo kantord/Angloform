@@ -2,6 +2,110 @@
 # Not part of the checked schema, never shown to a word's own
 # definition consumer (e.g. `just define`) — couples each redirect
 # decision back to the WordNet gloss that justified it, for audit.
+ban:
+  NOUN:
+    gap: true
+    gloss: a decree that prohibits something
+    redirect: null
+binary:
+  ADJ:
+    gap: true
+    gloss: consisting of two (units or components or elements or terms); "a binary star is a system in
+      which two stars revolve around each other"; "a binary compound"; "the binary number system has two
+      as its base"
+    redirect: null
+carry:
+  NOUN:
+    gap: true
+    gloss: the act of carrying something
+    redirect: null
+change:
+  NOUN:
+    gap: true
+    gloss: the action of changing something; "the change of government had no impact on the economy";
+      "his change on abortion cost him the election"
+    redirect: null
+check:
+  NOUN:
+    gap: false
+    gloss: the act of inspecting or verifying; "they made a check of their equipment"; "the pilot ran
+      through the check-out procedure"
+    redirect: test
+choice:
+  ADJ:
+    gap: true
+    gloss: of superior grade; "choice wines"; "prime beef"; "prize carnations"; "quality paper"; "select
+      peaches"
+    redirect: null
+come:
+  NOUN:
+    gap: true
+    gloss: the thick white fluid containing spermatozoa that is ejaculated by the male genital tract
+    redirect: null
+commit:
+  VERB:
+    gap: false
+    gloss: give entirely to a specific person, activity, or cause; "She committed herself to the work
+      of God"; "give one's talents to a good cause"; "consecrate your life to the church"
+    redirect: save
+copy:
+  VERB:
+    gap: false
+    gloss: make a replica of; "copy that drawing"; "re-create a picture by Rembrandt"
+    redirect: duplicate
+count:
+  NOUN:
+    gap: false
+    gloss: the act of counting; reciting numbers in ascending order; "the counting continued for several
+      hours"
+    redirect: number
+difference:
+  VERB:
+    gap: true
+    gloss: null
+    redirect: null
+discourse:
+  VERB:
+    gap: true
+    gloss: talk at length and formally about a topic; "The speaker dissertated about the social politics
+      in 18th century England"
+    redirect: null
+document:
+  VERB:
+    gap: false
+    gloss: support or supply with references; "Can you document your claims?"
+    redirect: record
+edit:
+  NOUN:
+    gap: true
+    gloss: null
+    redirect: null
+exact:
+  VERB:
+    gap: true
+    gloss: take as an undesirable consequence of some event or state of affairs; "the accident claimed
+      three lives"; "The hard work took its toll on her"
+    redirect: null
+example:
+  VERB:
+    gap: true
+    gloss: null
+    redirect: null
+expense:
+  VERB:
+    gap: true
+    gloss: reduce the estimated value of something; "For tax purposes you can write off the laser printer"
+    redirect: null
+file:
+  VERB:
+    gap: false
+    gloss: file a formal charge against; "The suspect was charged with murdering his wife"
+    redirect: submit
+future:
+  NOUN:
+    gap: false
+    gloss: bulk commodities bought or sold at an agreed price for delivery at a specified future date
+    redirect: time
 guardian:
   ADJ:
     gap: true
@@ -13,21 +117,216 @@ human:
     gloss: having human form or attributes as opposed to those of animals or divine beings; "human beings";
       "the human body"; "human kindness"; "human frailty"
     redirect: null
+input:
+  VERB:
+    gap: false
+    gloss: enter (data or a program) into a computer
+    redirect: enter
+invariant:
+  ADJ:
+    gap: true
+    gloss: unvarying in nature; "maintained a constant temperature"; "principles of unvarying validity"
+    redirect: null
+know:
+  NOUN:
+    gap: true
+    gloss: the fact of being aware of information that is known to few people; "he is always in the know"
+    redirect: null
+layer:
+  VERB:
+    gap: true
+    gloss: make or form a layer; "layer the different colored sands"
+    redirect: null
+list:
+  VERB:
+    gap: false
+    gloss: give or make a list of; name individually; give the names of; "List the states west of the
+      Mississippi"
+    redirect: include
+machine:
+  VERB:
+    gap: true
+    gloss: make by machinery; "The Americans were machining while others still hand-made cars"
+    redirect: null
 merchant:
   VERB:
     gap: true
     gloss: null
+    redirect: null
+note:
+  VERB:
+    gap: false
+    gloss: make mention of; "She observed that his presentation took up too much time"; "They noted that
+      it was a fine day to go sailing"
+    redirect: record
+object:
+  VERB:
+    gap: false
+    gloss: express or raise an objection or protest or criticism or express dissent; "She never objected
+      to the amount of work her boss charged her with"; "When asked to drive the truck, she objected that
+      she did not have a driver's license"
+    redirect: disagree
+old:
+  NOUN:
+    gap: true
+    gloss: past times (especially in the phrase `in days of old')
+    redirect: null
+pin:
+  NOUN:
+    gap: true
+    gloss: a club-shaped wooden object used in bowling; set up in triangular groups of ten as the target
+    redirect: null
+place:
+  VERB:
+    gap: true
+    gloss: recognize as being; establish the identity of someone or something; "She identified the man
+      on the 'wanted' poster"
+    redirect: null
+plan:
+  NOUN:
+    gap: false
+    gloss: scale drawing of a structure; "the plans for City Hall were on file"
+    redirect: design
+point:
+  VERB:
+    gap: false
+    gloss: repair the joints of bricks; "point a chimney"
+    redirect: show
+process:
+  VERB:
+    gap: true
+    gloss: subject to a process or treatment, with the aim of readying for some purpose, improving, or
+      remedying a condition; "process cheese"; "process hair"; "treat the water so it can be drunk"; "treat
+      the lawn with chemicals" ; "treat an oil spill"
+    redirect: null
+program:
+  VERB:
+    gap: false
+    gloss: arrange a program of or for; "program the 80th birthday party"
+    redirect: write
+project:
+  VERB:
+    gap: true
+    gloss: present for consideration, examination, criticism, etc.; "He proposed a new plan for dealing
+      with terrorism"; "She proposed a new theory of relativity"
+    redirect: null
+prose:
+  VERB:
+    gap: true
+    gloss: null
+    redirect: null
+quality:
+  ADJ:
+    gap: true
+    gloss: of high social status; "people of quality"; "a quality family"
+    redirect: null
+queue:
+  VERB:
+    gap: false
+    gloss: form a queue, form a line, stand in line; "Customers lined up in front of the store"
+    redirect: wait
+record:
+  NOUN:
+    gap: false
+    gloss: the sum of recognized accomplishments; "the lawyer has a good record"; "the track record shows
+      that he will be a good president"
+    redirect: history
+reference:
+  VERB:
+    gap: false
+    gloss: refer to; "he referenced his colleagues' work"
+    redirect: refer
+repeat:
+  NOUN:
+    gap: false
+    gloss: an event that repeats; "the events today were a repeat of yesterday's"
+    redirect: repetition
+report:
+  VERB:
+    gap: false
+    gloss: to give an account or representation of in words; "Discreet Italian police described it in
+      a manner typically continental"
+    redirect: describe
+request:
+  VERB:
+    gap: true
+    gloss: express the need or desire for; ask for; "She requested an extra bed in her room"; "She called
+      for room service"
+    redirect: null
+research:
+  VERB:
+    gap: true
+    gloss: inquire into; "the students had to research the history of the Second World War for their history
+      project"; "He searched for information on his relatives on the web"; "Scientists are exploring the
+      nature of consciousness"
+    redirect: null
+result:
+  VERB:
+    gap: false
+    gloss: come about or follow as a consequence; "nothing will result from this meeting"
+    redirect: follow
+rule:
+  VERB:
+    gap: true
+    gloss: keep in check; "rule one's temper"
+    redirect: null
+save:
+  NOUN:
+    gap: true
+    gloss: (sports) the act of preventing the opposition from scoring; "the goalie made a brilliant save";
+      "the relief pitcher got credit for a save"
+    redirect: null
+sense:
+  VERB:
+    gap: false
+    gloss: comprehend; "I sensed the real meaning of his letter"
+    redirect: recognize
+sentence:
+  VERB:
+    gap: true
+    gloss: pronounce a sentence on (somebody) in a court of law; "He was condemned to ten years in prison"
+    redirect: null
+share:
+  VERB:
+    gap: true
+    gloss: communicate; "I'd like to share this idea with you"
     redirect: null
 social:
   ADJ:
     gap: true
     gloss: marked by friendly companionship with others; "a social cup of coffee"
     redirect: null
+source:
+  VERB:
+    gap: false
+    gloss: specify the origin of; "The writer carefully sourced her report"
+    redirect: find
+stop:
+  NOUN:
+    gap: true
+    gloss: a brief stay in the course of a journey; "they made a stopover to visit their friends"
+    redirect: null
+store:
+  NOUN:
+    gap: true
+    gloss: an electronic memory device; "a memory and the CPU form the central part of a computer to which
+      peripherals are attached"
+    redirect: null
+swap:
+  VERB:
+    gap: false
+    gloss: move (a piece of a program) into memory, in computer science
+    redirect: replace
 test:
   VERB:
     gap: false
     gloss: undergo a test; "She doesn't test well"
     redirect: check
+unknown:
+  NOUN:
+    gap: true
+    gloss: a variable whose values are solutions of an equation
+    redirect: null
 up:
   ADJ:
     gap: true
@@ -41,6 +340,12 @@ up:
     gap: true
     gloss: null
     redirect: null
+use:
+  NOUN:
+    gap: false
+    gloss: exerting shrewd or devious influence especially for one's own advantage; "his manipulation
+      of his friends was scandalous"
+    redirect: usage
 while:
   VERB:
     gap: true

@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which follows a reason
+rejected:
+  - category: VERB
+    redirects: [follow]

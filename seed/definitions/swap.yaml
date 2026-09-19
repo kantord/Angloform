@@ -1,0 +1,5 @@
+category: NOUN
+definition: an action, which replaces a thing
+rejected:
+  - category: VERB
+    redirects: [replace]

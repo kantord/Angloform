@@ -4,9 +4,9 @@
 
 ## Summary
 
-- 1088 lemmas, 2259 surface forms, 544 redirects (33 word substitute, 464 advice-only, 47 gap)
+- 1087 lemmas, 2257 surface forms, 543 redirects (36 word substitute, 431 advice-only, 76 gap)
 - Domain model: 87 terms with definitions (ADR 0027)
-- Lemmas per category: ADJ 164, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 557, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INF 1, VERB_INTRANS 29, VERB_TRANS 176, WHICH 1, WHO 1, YET 1
+- Lemmas per category: ADJ 164, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 556, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INF 1, VERB_INTRANS 29, VERB_TRANS 176, WHICH 1, WHO 1, YET 1
 
 ## Frequency (open-class lemmas)
 
@@ -20,21 +20,17 @@
 
 ## Redirect findability guard (floor: zipf 3.5)
 
-Every redirect suggestion is above the floor. ✓
+- ⚠ repeat (NOUN) → "repetition": zipf 3.48
 
 ## Redirect targets outside the lexicon
 
 The advice names a word that is not itself enabled (ADR 0023 hole):
 
-- process (VERB) → "handle"
-- request (VERB) → "ask"
 - return (NOUN) → "response"
-- store (NOUN) → "shop"
 - stop (NOUN) → "halt"
 - find (NOUN) → "discovery"
 - start (NOUN) → "beginning"
 - sweet (NOUN) → "candy"
-- edit (NOUN) → "revision"
 - show (NOUN) → "display"
 
 ## Advice-only rejections (attested senses with no word substitute)
@@ -42,60 +38,28 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - old (NOUN): the noun sense ("the old", generic reference to old people) is not enabled; irrelevant to this domain
 - big (ADV): the adverbial sense ("win big") is not enabled; angloform has no adverb category
 - sweet (ADV): the adverbial sense ("talk sweet") is not enabled; angloform has no adverb category
-- machine (VERB): the verb sense ("to machine a part", i.e. shape it with tools) is not enabled; irrelevant to this domain
-- binary (ADJ): the adjective sense ("binary code") is unused in this domain; not enabled
 - initial (NOUN): the noun sense ("his initials") is not enabled; irrelevant to this domain
 - initial (VERB): the verb sense ("to initial a document") is not enabled; irrelevant to this domain
 - have (NOUN): the noun sense ("the haves") is not enabled; irrelevant to this domain (the auxiliary "have" reading is separately unparseable by construction, ADR 0016)
-- sense (VERB): the verb sense ("to sense danger") is not enabled; irrelevant to this domain
 - generated (VERB): "generated" is the past participle of the verb "generate" (deliberately not enabled); angloform allows one sense per word
-- research (VERB): the verb sense (to research something) is not enabled; angloform allows one sense per word
-- rule (VERB): the verb sense (to rule, as a judge or monarch) is not enabled; angloform allows one sense per word
-- invariant (ADJ): the adjective sense (an invariant quantity, unchanging) is not enabled; angloform allows one sense per word
-- expense (VERB): the verb sense ("to expense a purchase", business jargon) is not enabled; angloform allows one sense per word
-- record (NOUN): the noun sense (a record) is not enabled; angloform allows one sense per word
 - match (NOUN): the noun sense (a match — a contest, or a matchstick) is not enabled; angloform allows one sense per word
-- pin (NOUN): the noun sense (a pin, a fastener) is not enabled; angloform allows one sense per word
-- save (NOUN): the noun sense (a save, e.g. in sports or computing) is not enabled; angloform allows one sense per word
-- come (NOUN): the noun sense is vulgar slang and not enabled; angloform allows one sense per word
 - prior (NOUN): the noun sense (a prior, the head of a religious house) is not enabled; angloform allows one sense per word
 - common (NOUN): the noun sense (a common, shared public land) is not enabled; angloform allows one sense per word
 - irregular (NOUN): the noun sense (an irregular — an irregular soldier, or a substandard product) is not enabled; angloform allows one sense per word
 - hidden (VERB): "hidden" is the past participle of the verb "hide" (not separately enabled); angloform allows one sense per word
-- difference (VERB): the verb sense (rare — e.g. heraldry "to difference a coat of arms") is not enabled; angloform allows one sense per word
-- discourse (VERB): the verb sense ("to discourse upon a subject", formal) is not enabled; angloform allows one sense per word
-- prose (VERB): the verb sense (archaic — to write or speak tediously) is not enabled; angloform allows one sense per word
-- project (VERB): the verb sense (to project, e.g. an image or a plan) is not enabled; angloform allows one sense per word
-- example (VERB): the verb sense (rare — to exemplify) is not enabled; angloform allows one sense per word
-- layer (VERB): the verb sense (to layer, e.g. paint or hair) is not enabled; angloform allows one sense per word
-- plan (NOUN): the noun sense (a plan) is not enabled; angloform allows one sense per word
-- repeat (NOUN): the noun sense (a repeat, e.g. a rerun) is not enabled; angloform allows one sense per word
 - say (ADV): the adverbial/interjection sense ("say, that's a good idea") is not enabled; angloform has no adverb category
 - say (NOUN): the noun sense ("to have a say") is not enabled; angloform allows one sense per word
-- future (NOUN): the noun sense (the future; also a financial "future") is not enabled; angloform allows one sense per word
 - reference (VERB): the verb sense ("to reference a source") is not enabled; angloform allows one sense per word
-- object (VERB): the verb sense ("to object to something") is not enabled; angloform allows one sense per word
-- ban (NOUN): the noun sense (a ban) is not enabled; angloform allows one sense per word
-- carry (NOUN): the noun sense (a carry, e.g. in arithmetic or golf) is not enabled; angloform allows one sense per word
 - split (ADJ): the adjective sense ("a split decision") is not enabled; angloform allows one sense per word
 - split (NOUN): the noun sense (a split, e.g. a division) is not enabled; angloform allows one sense per word
 - refer (ADJ): the reference data attests an adjectival use of "refer"; no common meaning could be confirmed — not enabled
 - refer (NOUN): the reference data attests a noun use of "refer"; no common meaning could be confirmed — not enabled
-- unknown (NOUN): the noun sense (an unknown, e.g. in mathematics, or "the unknown") is not enabled; angloform allows one sense per word
 - possessive (NOUN): the noun sense (a possessive, the grammatical case/pronoun) is not enabled; angloform allows one sense per word
 - token (ADJ): the adjective sense ("a token gesture") is not enabled; angloform allows one sense per word
 - token (VERB): the verb sense (archaic — to signify or portend) is not enabled; angloform allows one sense per word
 - class (VERB): the verb sense ("to class something as X") is not enabled; angloform allows one sense per word
-- place (VERB): the verb sense ("to place", e.g. an order or an object) is not enabled; angloform allows one sense per word
-- point (VERB): the verb sense ("to point at something") is not enabled; angloform allows one sense per word
 - referent (ADJ): the adjective sense (e.g. "referent power" in social-psychology terminology) is not enabled; angloform allows one sense per word
-- exact (VERB): the verb sense ("to exact revenge" or "to exact a toll") is not enabled; angloform allows one sense per word
 - know (NOUN): the noun sense ("in the know") is not enabled; angloform allows one sense per word
-- choice (ADJ): the adjective sense ("choice cuts of meat", meaning select) is not enabled; angloform allows one sense per word
-- count (NOUN): the noun sense (a count — a tally, or a nobleman's title) is not enabled; angloform allows one sense per word
-- quality (ADJ): the adjective sense ("quality time", meaning good) is not enabled; angloform allows one sense per word
-- share (VERB): the verb sense ("to share something") is not enabled; angloform allows one sense per word
-- change (NOUN): the noun sense (change — coins, or a change of plans) is not enabled; angloform allows one sense per word
 - structure (VERB): the verb sense ("to structure something") is not enabled; angloform allows one sense per word
 - permanent (NOUN): the noun sense (a permanent — a hairstyle, informally "a perm") is not enabled; angloform allows one sense per word
 - original (NOUN): the noun sense ("the original", or "she's an original") is not enabled; angloform allows one sense per word
@@ -463,7 +427,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - read (ADJ): not new
 - reject (NOUN): a person, who does not belong
 - send (NOUN): a thing, which moves a system
-- sentence (VERB): the verb sense ("to sentence a person", a legal ruling) is not enabled; angloform allows one sense per word
 - sharp (ADV): the adverbial sense ("turn sharp") is not enabled; angloform has no adverb category
 - sharp (NOUN): a thing, which shows a value
 - sharp (VERB): the verb sense is rare and not enabled; angloform allows one sense per word
@@ -507,6 +470,8 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 ## Gaps (attested senses with no already-enabled substitute yet)
 
 - august (ADJ)
+- ban (NOUN)
+- binary (ADJ)
 - black (NOUN)
 - black (VERB)
 - blood (VERB)
@@ -514,9 +479,19 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - blue (VERB)
 - brown (NOUN)
 - brown (VERB)
+- carry (NOUN)
+- change (NOUN)
+- choice (ADJ)
+- come (NOUN)
 - compute (NOUN)
 - desire (NOUN)
+- difference (VERB)
+- discourse (VERB)
+- edit (NOUN)
 - equal (NOUN)
+- exact (VERB)
+- example (VERB)
+- expense (VERB)
 - fire (VERB)
 - fortress (VERB)
 - game (ADJ)
@@ -528,21 +503,38 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - green (VERB)
 - guardian (ADJ)
 - human (ADJ)
+- invariant (ADJ)
+- layer (VERB)
+- machine (VERB)
 - march (VERB)
 - merchant (VERB)
 - orange (NOUN)
+- pin (NOUN)
 - pink (NOUN)
 - pink (VERB)
+- place (VERB)
 - plant (VERB)
+- process (VERB)
+- project (VERB)
+- prose (VERB)
 - purple (NOUN)
 - purple (VERB)
+- quality (ADJ)
 - red (NOUN)
 - red (VERB)
+- request (VERB)
+- research (VERB)
+- rule (VERB)
+- save (NOUN)
+- sentence (VERB)
+- share (VERB)
 - sky (VERB)
 - social (ADJ)
 - stone (ADJ)
 - stone (ADV)
 - stone (VERB)
+- store (NOUN)
+- unknown (NOUN)
 - up (ADJ)
 - up (ADV)
 - up (NOUN)

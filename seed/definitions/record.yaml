@@ -1,0 +1,5 @@
+category: VERB_TRANS
+definition: enter a fact
+rejected:
+  - category: NOUN
+    redirects: [history]

@@ -16,15 +16,15 @@ Corpus: `data/ud/en_ewt-ud-test.conllu` — 2037 sentences, 21847 countable toke
 
 | verdict | tokens | share |
 |---|---|---|
-| OK | 8439 | 38.6% |
-| REDIRECT (designed rejection with suggestion) | 298 | 1.4% |
-| MISMATCH (enabled word, uncovered POS) | 2011 | 9.2% |
+| OK | 8438 | 38.6% |
+| REDIRECT (designed rejection with suggestion) | 276 | 1.3% |
+| MISMATCH (enabled word, uncovered POS) | 2033 | 9.3% |
 | PROPN (out of scope) | 2075 | 9.5% |
-| OOV | 9024 | 41.3% |
+| OOV | 9025 | 41.3% |
 
 ## OOV by gold UPOS
 
-- NOUN: 2993
+- NOUN: 2994
 - ADJ: 1247
 - VERB: 1144
 - PRON: 1084
@@ -47,18 +47,18 @@ it/PRON (×207), they/PRON (×139), we/PRON (×127), will/AUX (×116), this/DET 
 - work used as VERB ×26
 - love used as VERB ×21
 - clean used as ADJ ×10
-- store used as NOUN ×10
 - hope used as VERB ×9
 - help used as NOUN ×8
 - long used as ADV ×8
 - late used as ADV ×7
 - link used as NOUN ×7
 - end used as NOUN ×6
-- change used as NOUN ×5
 - file used as VERB ×5
 - list used as VERB ×5
 - name used as NOUN ×5
 - run used as VERB ×5
+- set used as VERB ×5
+- taste used as VERB ×5
 
 ## Uncovered POS mismatches (holes in the redirect table)
 

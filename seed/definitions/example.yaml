@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which shows a case
+rejected:
+  - category: VERB
+    gap: true

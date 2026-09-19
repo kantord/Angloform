@@ -1,0 +1,5 @@
+category: NOUN
+definition: a quantifier, which names a set
+rejected:
+  - category: VERB
+    gap: true

@@ -1,0 +1,5 @@
+category: NOUN
+definition: an entry, which joins a history
+rejected:
+  - category: VERB
+    redirects: [save]

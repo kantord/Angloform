@@ -1,0 +1,10 @@
+category: VERB_TRANS
+forms:
+  - tag: VERB_TRANS_ED
+    form: edited
+  - tag: VERB_TRANS_ING
+    form: editing
+definition: change a thing
+rejected:
+  - category: NOUN
+    gap: true

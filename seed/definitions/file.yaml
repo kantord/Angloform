@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which holds an item
+rejected:
+  - category: VERB
+    redirects: [submit]

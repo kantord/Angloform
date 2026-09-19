@@ -41,30 +41,10 @@
     }
   },
   {
-    "lemma": "result",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "follow"
-    },
-    "forms": {
-      "plural": "results"
-    }
-  },
-  {
     "lemma": "database",
     "category": "NOUN",
     "forms": {
       "plural": "databases"
-    }
-  },
-  {
-    "lemma": "process",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "handle"
-    },
-    "forms": {
-      "plural": "processes"
     }
   },
   {
@@ -90,36 +70,6 @@
     }
   },
   {
-    "lemma": "program",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "write"
-    },
-    "forms": {
-      "plural": "programs"
-    }
-  },
-  {
-    "lemma": "queue",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "wait"
-    },
-    "forms": {
-      "plural": "queues"
-    }
-  },
-  {
-    "lemma": "request",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "ask"
-    },
-    "forms": {
-      "plural": "requests"
-    }
-  },
-  {
     "lemma": "session",
     "category": "NOUN"
   },
@@ -142,13 +92,6 @@
     "forms": {
       "third": "returns",
       "past": "returned"
-    }
-  },
-  {
-    "lemma": "store",
-    "category": "VERB_TRANS",
-    "reject": {
-      "NOUN": "shop"
     }
   },
   {
@@ -346,16 +289,6 @@
     "note": "single-token modal negation (ADR 0009)"
   },
   {
-    "lemma": "input",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "enter"
-    },
-    "forms": {
-      "plural": "inputs"
-    }
-  },
-  {
     "lemma": "person",
     "category": "NOUN",
     "forms": {
@@ -393,19 +326,6 @@
     "note": "past negation carrier only (ADR 0010)"
   },
   {
-    "lemma": "machine",
-    "category": "NOUN",
-    "note": "verb sense (machine a part) irrelevant to domain",
-    "forms": {
-      "plural": "machines"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to machine a part\", i.e. shape it with tools) is not enabled; irrelevant to this domain"
-      }
-    }
-  },
-  {
     "lemma": "every",
     "category": "QUANT_UNIV",
     "note": "exceptionless universal, singular; subject or object (ADR 0014)"
@@ -414,16 +334,6 @@
     "lemma": "no",
     "category": "QUANT_NEG",
     "note": "universal negative; subject-only, first-token signature (ADR 0014)"
-  },
-  {
-    "lemma": "binary",
-    "category": "NOUN",
-    "note": "programmer-transparent word for build output (ADR 0015); adjectival sense unused",
-    "reject": {
-      "ADJ": {
-        "advice": "the adjective sense (\"binary code\") is unused in this domain; not enabled"
-      }
-    }
   },
   {
     "lemma": "initial",
@@ -464,43 +374,8 @@
     "note": "existential, plural, subject-only; some+not = not-all (ADR 0017)"
   },
   {
-    "lemma": "sense",
-    "category": "NOUN",
-    "note": "verb sense (sense danger) irrelevant to domain",
-    "forms": {
-      "plural": "senses"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to sense danger\") is not enabled; irrelevant to this domain"
-      }
-    }
-  },
-  {
-    "lemma": "source",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "find"
-    },
-    "note": "verb sense (source a component) redirected",
-    "forms": {
-      "plural": "sources"
-    }
-  },
-  {
     "lemma": "truth",
     "category": "NOUN"
-  },
-  {
-    "lemma": "use",
-    "category": "VERB_TRANS",
-    "reject": {
-      "NOUN": "usage"
-    },
-    "note": "added after agenttest run 1: the model's semantically best repair failed only on this gap",
-    "forms": {
-      "third": "uses"
-    }
   },
   {
     "lemma": "it",
@@ -658,36 +533,6 @@
     "advice": "politeness markers are not angloform - state the instruction directly or write \"you must ...\""
   },
   {
-    "lemma": "edit",
-    "category": "VERB_TRANS",
-    "reject": {
-      "NOUN": "revision"
-    },
-    "forms": {
-      "past": "edited",
-      "ing": "editing",
-      "third": "edits"
-    }
-  },
-  {
-    "lemma": "commit",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "save"
-    },
-    "note": "the git artifact; transparent head noun for 'curation commit' (ADR 0015)",
-    "forms": {
-      "plural": "commits"
-    }
-  },
-  {
-    "lemma": "effect",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "cause"
-    }
-  },
-  {
     "lemma": "diff",
     "category": "NOUN",
     "forms": {
@@ -830,17 +675,6 @@
     }
   },
   {
-    "lemma": "swap",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "replace"
-    },
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "swaps"
-    }
-  },
-  {
     "lemma": "rarity",
     "category": "NOUN",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)"
@@ -859,19 +693,6 @@
     }
   },
   {
-    "lemma": "research",
-    "category": "NOUN",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "researches"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (to research something) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "typo",
     "category": "NOUN",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
@@ -885,32 +706,6 @@
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "rationales"
-    }
-  },
-  {
-    "lemma": "rule",
-    "category": "NOUN",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "rules"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (to rule, as a judge or monarch) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "invariant",
-    "category": "NOUN",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "invariants"
-    },
-    "reject": {
-      "ADJ": {
-        "advice": "the adjective sense (an invariant quantity, unchanging) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -945,19 +740,6 @@
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "replacements"
-    }
-  },
-  {
-    "lemma": "expense",
-    "category": "NOUN",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "expenses"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to expense a purchase\", business jargon) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -1018,19 +800,6 @@
     }
   },
   {
-    "lemma": "record",
-    "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "third": "records"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a record) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "match",
     "category": "VERB_TRANS",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
@@ -1044,37 +813,11 @@
     }
   },
   {
-    "lemma": "pin",
-    "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "third": "pins"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a pin, a fastener) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "migrate",
     "category": "VERB_TRANS",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "migrates"
-    }
-  },
-  {
-    "lemma": "save",
-    "category": "VERB_TRANS",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "third": "saves"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a save, e.g. in sports or computing) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -1112,19 +855,6 @@
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "third": "collides"
-    }
-  },
-  {
-    "lemma": "come",
-    "category": "VERB_INTRANS",
-    "forms": {
-      "past": "came"
-    },
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense is vulgar slang and not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -1215,19 +945,6 @@
     }
   },
   {
-    "lemma": "difference",
-    "category": "NOUN",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "forms": {
-      "plural": "differences"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (rare — e.g. heraldry \"to difference a coat of arms\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "explain",
     "category": "VERB_TRANS",
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
@@ -1288,50 +1005,11 @@
     "advice": "\"as\" has too many senses - for a reason write \"<result>, because <reason>\" (ADR 0026); for a comparison write \"is <adjective>er than <noun phrase>\" (ADR 0030)"
   },
   {
-    "lemma": "discourse",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "plural": "discourses"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to discourse upon a subject\", formal) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "anaphora",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
     "forms": {
       "plural": "anaphoras"
-    }
-  },
-  {
-    "lemma": "prose",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "plural": "proses"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (archaic — to write or speak tediously) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "project",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "plural": "projects"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (to project, e.g. an image or a plan) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -1351,30 +1029,6 @@
     }
   },
   {
-    "lemma": "example",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "plural": "examples"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (rare — to exemplify) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "document",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "reject": {
-      "VERB": "record"
-    },
-    "forms": {
-      "plural": "documents"
-    }
-  },
-  {
     "lemma": "design",
     "category": "NOUN",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
@@ -1383,45 +1037,6 @@
     },
     "forms": {
       "plural": "designs"
-    }
-  },
-  {
-    "lemma": "layer",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "plural": "layers"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (to layer, e.g. paint or hair) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "plan",
-    "category": "VERB_TRANS",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "third": "plans"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a plan) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "repeat",
-    "category": "VERB_TRANS",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "forms": {
-      "third": "repeats"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a repeat, e.g. a rerun) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -1445,16 +1060,6 @@
     "lemma": "consistent",
     "category": "ADJ",
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)"
-  },
-  {
-    "lemma": "future",
-    "category": "ADJ",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (the future; also a financial \"future\") is not enabled; angloform allows one sense per word"
-      }
-    }
   },
   {
     "lemma": "instructional",
@@ -1515,29 +1120,6 @@
     }
   },
   {
-    "lemma": "object",
-    "category": "NOUN",
-    "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "forms": {
-      "plural": "objects"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to object to something\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "ban",
-    "category": "VERB_TRANS",
-    "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a ban) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "allow",
     "category": "VERB_TRANS",
     "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
@@ -1566,16 +1148,6 @@
       "ppart": "deferred",
       "ing": "deferring",
       "third": "defers"
-    }
-  },
-  {
-    "lemma": "carry",
-    "category": "VERB_TRANS",
-    "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a carry, e.g. in arithmetic or golf) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -1622,16 +1194,6 @@
       "third": "reappears",
       "past": "reappeared",
       "ing": "reappearing"
-    }
-  },
-  {
-    "lemma": "unknown",
-    "category": "ADJ",
-    "note": "surfaced by the ADR 0002 paragraph run 2 (2026-09-02)",
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (an unknown, e.g. in mathematics, or \"the unknown\") is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {
@@ -1699,32 +1261,6 @@
     }
   },
   {
-    "lemma": "place",
-    "category": "NOUN",
-    "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "forms": {
-      "plural": "places"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to place\", e.g. an order or an object) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "point",
-    "category": "NOUN",
-    "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "forms": {
-      "plural": "points"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to point at something\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "resolution",
     "category": "NOUN",
     "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
@@ -1742,16 +1278,6 @@
     "reject": {
       "ADJ": {
         "advice": "the adjective sense (e.g. \"referent power\" in social-psychology terminology) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "exact",
-    "category": "ADJ",
-    "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to exact revenge\" or \"to exact a toll\") is not enabled; angloform allows one sense per word"
       }
     }
   },
@@ -1828,76 +1354,10 @@
     }
   },
   {
-    "lemma": "choice",
-    "category": "NOUN",
-    "note": "needed by domain-model definitions (ADR 0027)",
-    "forms": {
-      "plural": "choices"
-    },
-    "reject": {
-      "ADJ": {
-        "advice": "the adjective sense (\"choice cuts of meat\", meaning select) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "count",
-    "category": "VERB_TRANS",
-    "note": "needed by domain-model definitions (ADR 0027)",
-    "forms": {
-      "third": "counts",
-      "past": "counted"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (a count — a tally, or a nobleman's title) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "proxy",
     "category": "NOUN",
     "note": "needed by domain-model definitions (ADR 0027)",
     "reject": {}
-  },
-  {
-    "lemma": "quality",
-    "category": "NOUN",
-    "note": "needed by domain-model definitions (ADR 0027)",
-    "forms": {
-      "plural": "qualities"
-    },
-    "reject": {
-      "ADJ": {
-        "advice": "the adjective sense (\"quality time\", meaning good) is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "share",
-    "category": "NOUN",
-    "note": "needed by domain-model definitions (ADR 0027)",
-    "forms": {
-      "plural": "shares"
-    },
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to share something\") is not enabled; angloform allows one sense per word"
-      }
-    }
-  },
-  {
-    "lemma": "change",
-    "category": "VERB_TRANS",
-    "note": "needed by domain-model definitions (ADR 0027)",
-    "forms": {
-      "third": "changes"
-    },
-    "reject": {
-      "NOUN": {
-        "advice": "the noun sense (change — coins, or a change of plans) is not enabled; angloform allows one sense per word"
-      }
-    }
   },
   {
     "lemma": "ambiguous",
@@ -2214,14 +1674,6 @@
     "lemma": "colon",
     "category": "NOUN",
     "note": "ADR 0028"
-  },
-  {
-    "lemma": "list",
-    "category": "NOUN",
-    "note": "ADR 0028: the noun; the verb sense stays out (contain)",
-    "reject": {
-      "VERB": "contain"
-    }
   },
   {
     "lemma": "enumerate",
@@ -7221,17 +6673,6 @@
     }
   },
   {
-    "lemma": "check",
-    "category": "VERB_TRANS",
-    "reject": {
-      "NOUN": "test"
-    },
-    "forms": {
-      "third": "checks",
-      "ing": "checking"
-    }
-  },
-  {
     "lemma": "choose",
     "category": "VERB_TRANS",
     "forms": {
@@ -7317,13 +6758,6 @@
     "forms": {
       "third": "conflicts",
       "past": "conflicted"
-    }
-  },
-  {
-    "lemma": "copy",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "duplicate"
     }
   },
   {
@@ -7479,16 +6913,6 @@
     }
   },
   {
-    "lemma": "file",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "submit"
-    },
-    "forms": {
-      "plural": "files"
-    }
-  },
-  {
     "lemma": "fix",
     "category": "VERB_TRANS",
     "reject": {
@@ -7565,13 +6989,6 @@
     },
     "forms": {
       "plural": "noises"
-    }
-  },
-  {
-    "lemma": "note",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "record"
     }
   },
   {
@@ -7660,16 +7077,6 @@
     }
   },
   {
-    "lemma": "report",
-    "category": "NOUN",
-    "reject": {
-      "VERB": "describe"
-    },
-    "forms": {
-      "plural": "reports"
-    }
-  },
-  {
     "lemma": "send",
     "category": "VERB_TRANS",
     "reject": {
@@ -7680,18 +7087,6 @@
     "forms": {
       "third": "sends",
       "past": "sent"
-    }
-  },
-  {
-    "lemma": "sentence",
-    "category": "NOUN",
-    "reject": {
-      "VERB": {
-        "advice": "the verb sense (\"to sentence a person\", a legal ruling) is not enabled; angloform allows one sense per word"
-      }
-    },
-    "forms": {
-      "plural": "sentences"
     }
   },
   {

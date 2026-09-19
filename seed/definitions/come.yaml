@@ -1,0 +1,8 @@
+category: VERB_INTRANS
+forms:
+  - tag: VERB_INTRANS_ED
+    form: came
+definition: arrive
+rejected:
+  - category: NOUN
+    gap: true

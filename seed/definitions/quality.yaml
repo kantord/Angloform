@@ -1,0 +1,5 @@
+category: NOUN
+definition: a property, which belongs to a thing
+rejected:
+  - category: ADJ
+    gap: true

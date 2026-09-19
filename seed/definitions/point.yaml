@@ -1,0 +1,5 @@
+category: NOUN
+definition: a position, which marks a time
+rejected:
+  - category: VERB
+    redirects: [show]

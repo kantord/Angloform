@@ -1,0 +1,5 @@
+category: NOUN
+definition: a message, which records an event
+rejected:
+  - category: VERB
+    redirects: [record]

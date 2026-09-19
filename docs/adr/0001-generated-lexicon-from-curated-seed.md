@@ -65,7 +65,7 @@ with the data. The data attests the words but does not choose the words.
 - People choose the words and write one entry for every word. The machine
   writes the inflections and finds the Collisions.
 - A commit of the Seed changes the generated files, so the diffs show the
-  effect of the commit. The tool Git keeps the history of the curation.
+  result of the commit. The tool Git keeps the history of the curation.
 - The generated files must match the Seed, so the maintainers need a future
   test. If a person edits the file `lexicon.tsv`, then the future test
   fails.

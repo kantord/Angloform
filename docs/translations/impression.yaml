@@ -9,9 +9,8 @@ by_upos:
       - wordnet: "04675314"
         gloss: "an outward appearance; \"he made a good impression\"; \"I wanted to create an impression of success\"; \"she retained that bold effect in her reproductions of the original painting\""
         angloform:
-          status: redirect
-          word: effect
-          category: NOUN
+          status: gap
+          note: "was redirect:effect, but effect was retired 2026-09-19 (a genuine duplicate of result's consequence sense, not this outward-appearance sense); no other enabled word covers this sense"
       - wordnet: "05936704"
         gloss: "a clear and telling mental image; \"he described his mental picture of his assailant\"; \"he had no clear picture of himself or his world\"; \"the events left a permanent impression in his mind\""
         angloform:

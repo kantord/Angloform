@@ -1,0 +1,5 @@
+category: NOUN
+definition: a file, which enters a machine
+rejected:
+  - category: ADJ
+    gap: true

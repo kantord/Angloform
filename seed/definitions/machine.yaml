@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which reads a program
+rejected:
+  - category: VERB
+    gap: true

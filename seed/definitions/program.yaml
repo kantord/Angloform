@@ -1,0 +1,5 @@
+category: NOUN
+definition: a set of instructions, which enters a machine
+rejected:
+  - category: VERB
+    redirects: [write]

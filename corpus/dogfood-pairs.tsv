@@ -3,7 +3,7 @@
 Word choice must stay a human judgment.	people must choose the words of the Lexicon. machines must not choose the words of the Lexicon.	nominalization,continuity
 …the critical safety property is exactly the kind of check humans miss and machines don't.	people cannot find every Collision. machines can find every Collision.	nominalization,emphasis
 A hand-edited seed/seed.json is the single source of truth.	people edit the file "seed.json". the file "seed.json" is the source of the truth.	emphasis
-Every curation commit shows its effect in the diffs.	every commit shows the effect of the commit in the diffs	nominalization
+Every curation commit shows its effect in the diffs.	every commit shows the result of the commit in the diffs	nominalization
 Both generated files are committed; they are build outputs and are never hand-edited.	the repository has the generated files. people do not edit the generated files.	redundancy
 Curation stays human and cheap: one JSON entry per word; the machine owns inflection and safety.	people choose the words. every word has one entry. the machine writes the inflections and finds the Collisions.	nominalization,continuity
 Reference data is used only for checking - never for choosing words.	the Linter checks the words with the data. the data does not choose the words.	nominalization

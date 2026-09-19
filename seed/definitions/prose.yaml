@@ -1,0 +1,8 @@
+category: NOUN
+forms:
+  - tag: NOUN_PL
+    form: proses
+definition: a text, which contains a sentence
+rejected:
+  - category: VERB
+    gap: true

@@ -17,10 +17,10 @@ have different senses.
 
 English offers 2 orders. The phrase "A, so B" puts the reason at the front,
 and the phrase "because A, B" puts the reason at the front. The phrase "B
-because A" puts the effect at the front. The 2 orders differ in the
+because A" puts the result at the front. The 2 orders differ in the
 structure of the information. One clause is old, and one clause is new. The
 order "old before new" helps the comprehension. The decision "0006" adopts
-the order. The common advice of the style adopts the order. If the effect
+the order. The common advice of the style adopts the order. If the result
 sits at the front, then the sentence can have an ambiguous attachment. The
 phrase "B because A and C" is one example.
 

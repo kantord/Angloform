@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which starts a result
+rejected:
+  - category: VERB
+    redirects: [find]

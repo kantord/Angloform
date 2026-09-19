@@ -1,0 +1,5 @@
+category: NOUN
+definition: a thing, which enters a system
+rejected:
+  - category: VERB
+    redirects: [enter]
