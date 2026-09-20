@@ -67,6 +67,7 @@ extern {
         "NAMELY" => Tok::Namely(<String>),
         "WHICH" => Tok::Which(<String>),
         "WHO" => Tok::Who(<String>),
+        "WHOM" => Tok::Whom(<String>),
         "ORD" => Tok::Ord(<String>),
         "THAN" => Tok::Than(<String>),
         "MORE" => Tok::More(<String>),
@@ -189,6 +190,9 @@ LBecause: Tree = <l:@L> <w:"REASON"> => leaf(l, w);
 LNamely: Tree = <l:@L> <w:"NAMELY"> => leaf(l, w);
 LWhich: Tree = <l:@L> <w:"WHICH"> => leaf(l, w);
 LWho: Tree = <l:@L> <w:"WHO"> => leaf(l, w);
+// PROTOTYPE (not yet ADR'd): object-relative counterpart to LWho, for
+// NounDef only — see PredRelObjCore.
+LWhom: Tree = <l:@L> <w:"WHOM"> => leaf(l, w);
 LOrd: Tree = <l:@L> <w:"ORD"> => leaf(l, w);
 LThan: Tree = <l:@L> <w:"THAN"> => leaf(l, w);
 LMore: Tree = <l:@L> <w:"MORE"> => leaf(l, w);
@@ -424,6 +428,17 @@ pub NounDef: Tree = {
         nd("NounDef", 0, vec![Some(genus), Some(cm), Some(r), Some(p), t]),
     <genus:NPSGCore> <cm:LComma> <r:LWho> <p:PredRel> <t:Tailn<PredRel>?> =>
         nd("NounDef", 0, vec![Some(genus), Some(cm), Some(r), Some(p), t]),
+    // PROTOTYPE (not yet ADR'd): object-relative alternatives — the
+    // antecedent fills the OBJECT role of PredRelObjCore instead of the
+    // subject role. WHICH is reused for the non-human case (a real
+    // token already in scope, disambiguated from the subject-relative
+    // reading above purely by PredRelObjCore's disjoint first token);
+    // WHOM is a new word for the human case, mirroring WHO/WHICH's
+    // existing humanness split.
+    <genus:NPSGCore> <cm:LComma> <r:LWhich> <p:PredRelObjCore> =>
+        nd("NounDef", 0, vec![Some(genus), Some(cm), Some(r), Some(p)]),
+    <genus:NPSGCore> <cm:LComma> <r:LWhom> <p:PredRelObjCore> =>
+        nd("NounDef", 0, vec![Some(genus), Some(cm), Some(r), Some(p)]),
 };
 
 // VerbTransDef: a bare verb phrase, no subject — re-exposes the exact
@@ -665,6 +680,22 @@ PredRelCore: Tree = {
     CopPredn<LBecomeSg>,
     CopPredn<LBecomePl>,
     CopPredn<LBecomePast>,
+};
+
+// PROTOTYPE (not yet ADR'd): object-relative predicate for NounDef only.
+// The antecedent (WHICH/WHOM) fills the OBJECT role instead of the
+// subject role, so this starts with a real subject NP and a transitive
+// verb with no following object NP — the "gap" is simply the object
+// slot's absence, exactly like PredRelCore's intransitive VPn<_, Vi>
+// alternative already does. Every alternative here starts with NPAny
+// (a determiner/pronoun-class token), which never overlaps with any
+// PredRelCore alternative's first token (always a verb/modal/copula
+// form) — so offering this as a sibling continuation after WHICH/WHOM
+// is a disjoint-first-token choice, not a reduce/reduce conflict.
+PredRelObjCore: Tree = {
+    <subj:NPAny> <v:LVt3> <p:PPv?> => nd("VPObj", 0, vec![Some(subj), Some(v), p]),
+    <subj:NPAny> <v:LVtBase> <p:PPv?> => nd("VPObj", 0, vec![Some(subj), Some(v), p]),
+    <subj:NPAny> <v:LVtEd> <p:PPv?> => nd("VPObj", 0, vec![Some(subj), Some(v), p]),
 };
 
 // First person: base agreement for ordinary verbs. The Copula (ADR 0052)

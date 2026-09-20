@@ -39,6 +39,14 @@ fn noun_def_is_a_bare_np_no_copula_wrapper() {
 }
 
 #[test]
+fn prototype_noun_def_object_relative() {
+    // TEMP prototype probe, not yet ADR'd — see PredRelObjCore in
+    // angloform.lalrpop. Confirms the object-relative shape actually
+    // parses end-to-end (not just that the grammar builds conflict-free).
+    ok(DefKind::Noun, "widget", "a thing, which a person builds");
+}
+
+#[test]
 fn noun_def_rejects_a_bare_genus_with_no_differentia() {
     // The exact real failure this whole feature exists to catch: a
     // technically-fine noun phrase that isn't a real definition.
