@@ -358,7 +358,7 @@ fn word(t: &Tok) -> &str {
         | Tok::DoBase(w) | Tok::Do3(w) | Tok::DoPast(w) | Tok::ModalMust(w)
         | Tok::ModalCan(w) | Tok::ModalCannot(w) | Tok::If(w) | Tok::Then(w)
         | Tok::Every(w) | Tok::No(w) | Tok::Num(w) | Tok::NumPl(w) | Tok::Percent(w)
-        | Tok::Approx(w) | Tok::So(w) | Tok::Because(w) | Tok::Namely(w) | Tok::Which(w) | Tok::Who(w) | Tok::Some_(w) | Tok::Name(w)
+        | Tok::Approx(w) | Tok::So(w) | Tok::Because(w) | Tok::Namely(w) | Tok::Which(w) | Tok::Who(w) | Tok::Whom(w) | Tok::Some_(w) | Tok::Name(w)
         | Tok::Ord(w) | Tok::Than(w) | Tok::More(w) | Tok::Scale(w) | Tok::AdjCmp(w) | Tok::AdjLong(w)
         | Tok::AdjSup(w) | Tok::Most(w) | Tok::NumVal(w) | Tok::Be(w) | Tok::BecomeSg(w) | Tok::BecomePl(w) | Tok::BecomePast(w)
         | Tok::Color(w) | Tok::ColorAdj(w)
@@ -1114,7 +1114,7 @@ fn term_of(t: &Tok) -> Vec<Term> {
         // falls through to the generic fallback advice for now, an
         // explicit, documented gap rather than a silent one.
         Tok::Which(_) => vec![Term::Which],
-        Tok::Who(_) => vec![Term::Who],
+        Tok::Who(_) | Tok::Whom(_) => vec![Term::Who],
         Tok::Ord(_) => vec![Term::Ord],
         Tok::Be(_) | Tok::BecomeSg(_) | Tok::BecomePl(_) | Tok::BecomePast(_) => vec![Term::CopAny],
         Tok::Than(_) => vec![Term::Than],

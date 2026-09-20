@@ -1,0 +1,8 @@
+category: NOUN
+forms:
+  - tag: NOUN_PL
+    form: referents
+definition: a thing, which a word names
+rejected:
+  - category: ADJ
+    gap: true

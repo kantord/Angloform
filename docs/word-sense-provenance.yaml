@@ -254,6 +254,11 @@ degree:
     gap: true
     gloss: null
     redirect: null
+design:
+  VERB:
+    gap: false
+    gloss: intend or have as a purpose; "She designed to go far in the world of business"
+    redirect: plan
 difference:
   VERB:
     gap: true
@@ -746,6 +751,11 @@ reference:
     gap: false
     gloss: refer to; "he referenced his colleagues' work"
     redirect: refer
+referent:
+  ADJ:
+    gap: true
+    gloss: having reference; "judgments referent to the indictment"
+    redirect: null
 register:
   VERB:
     gap: true

@@ -1159,6 +1159,17 @@
     "note": "result connective: \"<cause>, so <result>\"; comma mandatory; degree and purpose senses unwritable by construction (ADR 0026)"
   },
   {
+    "lemma": "design",
+    "category": "NOUN",
+    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
+    "reject": {
+      "VERB": "plan"
+    },
+    "forms": {
+      "plural": "designs"
+    }
+  },
+  {
     "lemma": "because",
     "category": "REASON",
     "note": "reason connective: \"<result>, because <reason>\"; comma mandatory; never sentence-initial (ADR 0026)"
@@ -1177,6 +1188,11 @@
     "lemma": "who",
     "category": "WHO",
     "note": "ADR 0059 (revises ADR 0010): non-restrictive relative clause relativizer for a human/agent antecedent — \"the tool notifies the maintainers, who approve the release.\" Correct antecedent choice (who vs. which) is Linter-checked against a small agent-noun list, not grammar-enforced (diagnose::relativizer_animacy). See docs/relative-clause-design-2026-09-06.md."
+  },
+  {
+    "lemma": "whom",
+    "category": "WHOM",
+    "note": "PROTOTYPE, not yet ADR'd (revises/extends ADR 0059): object-relative counterpart to \"who\", for the NounDef definitions grammar only — \"a thing, whom a person hires\" fills the OBJECT role of the following predicate instead of the subject role (PredRelObjCore, crates/grammar/src/angloform.lalrpop). \"which\" is reused for the non-human object-relative case (no new word needed there); \"whom\" exists only because \"who\" was already committed to the subject-only reading, mirroring real English's who/whom split."
   },
   {
     "lemma": "since",
@@ -1225,17 +1241,6 @@
     "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
     "forms": {
       "plural": "validators"
-    }
-  },
-  {
-    "lemma": "design",
-    "category": "NOUN",
-    "note": "project jargon surfaced by the ADR 0002 paragraph run (2026-09-02)",
-    "reject": {
-      "VERB": "plan"
-    },
-    "forms": {
-      "plural": "designs"
     }
   },
   {
@@ -1465,19 +1470,6 @@
     "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
     "forms": {
       "plural": "resolutions"
-    }
-  },
-  {
-    "lemma": "referent",
-    "category": "NOUN",
-    "note": "surfaced by the ADR 0002 paragraph run 3 (2026-09-02)",
-    "forms": {
-      "plural": "referents"
-    },
-    "reject": {
-      "ADJ": {
-        "advice": "the adjective sense (e.g. \"referent power\" in social-psychology terminology) is not enabled; angloform allows one sense per word"
-      }
     }
   },
   {

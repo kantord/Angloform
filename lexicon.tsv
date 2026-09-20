@@ -2249,7 +2249,7 @@ reference ambiguities	term	-	Reference Ambiguities
 reference ambiguity	term	-	Reference Ambiguity
 references	form	NOUN_PL	reference
 referent	form	NOUN_SG	referent
-referent	reject_advice	ADJ	the adjective sense (e.g. "referent power" in social-psychology terminology) is not enabled; angloform allows one sense per word
+referent	reject_gap	ADJ	no already-enabled word covers this sense yet
 referents	form	NOUN_PL	referent
 refering	form	VERB_INTRANS_ING	refer
 refers	form	VERB_INTRANS_3SG	refer
@@ -2999,6 +2999,7 @@ who	form	WHO	who
 whole	form	ADJ_LONG	whole
 whole	reject_advice	ADV	the reference data attests an adverbial use of "whole"; no common meaning could be confirmed — angloform has no adverb category regardless
 whole	reject_advice	NOUN	the noun sense ("the whole is greater than its parts") is not enabled; angloform allows one sense per word
+whom	form	WHOM	whom
 win	form	VERB_INTRANS_BASE	win
 win	reject_advice	NOUN	an event, which ends with a result
 winning	form	VERB_INTRANS_ING	win
