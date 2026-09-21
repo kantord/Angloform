@@ -361,6 +361,11 @@ gain:
     gloss: the amount of increase in signal power or voltage or current expressed as the ratio of output
       to input
     redirect: null
+generated:
+  VERB:
+    gap: false
+    gloss: null
+    redirect: produce
 generic:
   NOUN:
     gap: true
@@ -401,6 +406,11 @@ head:
   VERB:
     gap: true
     gloss: remove the head of; "head the fish"
+    redirect: null
+hidden:
+  VERB:
+    gap: true
+    gloss: null
     redirect: null
 hole:
   VERB:
@@ -553,6 +563,11 @@ natural:
   NOUN:
     gap: true
     gloss: (craps) a first roll of 7 or 11 that immediately wins the stake
+    redirect: null
+nested:
+  VERB:
+    gap: true
+    gloss: null
     redirect: null
 noise:
   VERB:

@@ -756,16 +756,6 @@
     "category": "NOUN"
   },
   {
-    "lemma": "generated",
-    "category": "ADJ",
-    "note": "participial adjective (ADR 0015); the verb generate is deliberately not enabled, so no collision",
-    "reject": {
-      "VERB": {
-        "advice": "\"generated\" is the past participle of the verb \"generate\" (deliberately not enabled); angloform allows one sense per word"
-      }
-    }
-  },
-  {
     "lemma": "entry",
     "category": "NOUN"
   },
@@ -1131,16 +1121,6 @@
     "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
     "forms": {
       "plural": "improvements"
-    }
-  },
-  {
-    "lemma": "hidden",
-    "category": "ADJ",
-    "note": "needed by the ADR 0001 angloform rewrite (dogfood, 2026-09-01)",
-    "reject": {
-      "VERB": {
-        "advice": "\"hidden\" is the past participle of the verb \"hide\" (not separately enabled); angloform allows one sense per word"
-      }
     }
   },
   {
@@ -2823,16 +2803,6 @@
       },
       "ADV": {
         "advice": "the adverbial sense (\"guess wrong\", \"go wrong\") is not enabled; angloform has no adverb category"
-      }
-    }
-  },
-  {
-    "lemma": "nested",
-    "category": "ADJ",
-    "note": "ADR 0007 rewrite",
-    "reject": {
-      "VERB": {
-        "advice": "\"nested\" is the past participle of the verb \"nest\" (not separately enabled); angloform allows one sense per word"
       }
     }
   },

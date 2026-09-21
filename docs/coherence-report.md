@@ -662,3 +662,15 @@
   - exemplification: 1 ✗ no form
   - elaboration: 1 ✗ no form
 
+## docs/adr/0064-object-relative-noun-definitions.md
+
+- Sentences: 39; parse: 0/39 (0%)
+- Headings: 4; with a banned or wrong-sense word: 0
+- Topic continuity: 9/25 consecutive pairs share the subject with the sentence before (36%)
+- Relation inventory (source connectives, indicative counts — hand-check before deciding; ✓ = angloform has a form):
+  - result: 7 ✓ , so
+  - reason: 2 ✓ , because
+  - contrast: 2 ✓ but
+  - concession: 1 ✗ no form
+  - sequence: 7 ✓ after/before/until + noun phrase (ADR 0033)
+

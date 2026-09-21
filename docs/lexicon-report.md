@@ -4,7 +4,7 @@
 
 ## Summary
 
-- 1088 lemmas, 2257 surface forms, 543 redirects (41 word substitute, 315 advice-only, 187 gap)
+- 1088 lemmas, 2257 surface forms, 543 redirects (42 word substitute, 312 advice-only, 189 gap)
 - Domain model: 87 terms with definitions (ADR 0027)
 - Lemmas per category: ADJ 164, APPROX 1, BANNED 68, BE 1, BECOME_PAST 1, BECOME_PL 1, BECOME_SG 1, COLOR 1, COLOR_ADJ 11, CONJ 3, COPULA_1SG 1, COPULA_PL 1, COPULA_PL_PAST 1, COPULA_SG 1, COPULA_SG_PAST 1, DET 1, DET_SG 2, FOCUS 1, MODAL_CAN 1, MODAL_CAN_NEG 1, MODAL_MUST 1, MORE 1, MOST 1, NAME 7, NAMELY 1, NEG 2, NEG_AUX_3SG 1, NEG_AUX_BASE 1, NEG_AUX_PAST 1, NOUN 556, NUM_SG 1, ORD 3, OTHER 1, PERCENT 1, POSS_1SG 1, POSS_2 1, PREP_N 1, PREP_V 18, PRON_1SG 1, PRON_2 1, QUANT_EXIST 1, QUANT_NEG 1, QUANT_UNIV 1, REASON 1, RESULT 1, SCALE 3, SCONJ_COND 1, TEMP_ADV 2, THAN 1, THEN 1, TIME_ADV 1, VERB_INF 1, VERB_INTRANS 29, VERB_TRANS 176, WHICH 1, WHO 1, WHOM 1, YET 1
 
@@ -57,12 +57,10 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - initial (NOUN): the noun sense ("his initials") is not enabled; irrelevant to this domain
 - initial (VERB): the verb sense ("to initial a document") is not enabled; irrelevant to this domain
 - have (NOUN): the noun sense ("the haves") is not enabled; irrelevant to this domain (the auxiliary "have" reading is separately unparseable by construction, ADR 0016)
-- generated (VERB): "generated" is the past participle of the verb "generate" (deliberately not enabled); angloform allows one sense per word
 - match (NOUN): the noun sense (a match — a contest, or a matchstick) is not enabled; angloform allows one sense per word
 - prior (NOUN): the noun sense (a prior, the head of a religious house) is not enabled; angloform allows one sense per word
 - common (NOUN): the noun sense (a common, shared public land) is not enabled; angloform allows one sense per word
 - irregular (NOUN): the noun sense (an irregular — an irregular soldier, or a substandard product) is not enabled; angloform allows one sense per word
-- hidden (VERB): "hidden" is the past participle of the verb "hide" (not separately enabled); angloform allows one sense per word
 - say (ADV): the adverbial/interjection sense ("say, that's a good idea") is not enabled; angloform has no adverb category
 - say (NOUN): the noun sense ("to have a say") is not enabled; angloform allows one sense per word
 - reference (VERB): the verb sense ("to reference a source") is not enabled; angloform allows one sense per word
@@ -169,7 +167,6 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - wrong (ADV): the adverbial sense ("guess wrong", "go wrong") is not enabled; angloform has no adverb category
 - wrong (NOUN): the noun sense ("right a wrong") is not enabled; angloform allows one sense per word
 - wrong (VERB): the verb sense ("to wrong someone") is not enabled; angloform allows one sense per word
-- nested (VERB): "nested" is the past participle of the verb "nest" (not separately enabled); angloform allows one sense per word
 - blunt (VERB): the verb sense ("to blunt an edge" or "to blunt criticism") is not enabled; angloform allows one sense per word
 - stall (NOUN): the noun sense (a stall, e.g. a market stall) is not enabled; angloform allows one sense per word
 - hurt (ADJ): the adjective (participial) sense ("hurt feelings") is not separately enabled; angloform allows one sense per word
@@ -427,6 +424,7 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - group (VERB)
 - guard (VERB)
 - guardian (ADJ)
+- hidden (VERB)
 - human (ADJ)
 - integrate (ADJ)
 - invariant (ADJ)
@@ -451,6 +449,7 @@ The advice names a word that is not itself enabled (ADR 0023 hole):
 - metric (ADJ)
 - mix (VERB)
 - natural (NOUN)
+- nested (VERB)
 - noise (VERB)
 - number (VERB)
 - offer (NOUN)

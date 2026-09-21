@@ -1212,7 +1212,7 @@ general	form	ADJ_LONG	general
 general	reject_advice	NOUN	the noun sense (a general, the military rank) is not enabled; angloform allows one sense per word
 general	reject_advice	VERB	the reference data attests a verb use of "general"; no common meaning could be confirmed — not enabled
 generated	form	ADJ_LONG	generated
-generated	reject_advice	VERB	"generated" is the past participle of the verb "generate" (deliberately not enabled); angloform allows one sense per word
+generated	reject	VERB	produce
 generator	form	NOUN_SG	generator
 generators	form	NOUN_PL	generator
 generic	form	ADJ_LONG	generic
@@ -1326,7 +1326,7 @@ helps	form	VERB_TRANS_3SG	help
 hence	ban	-	for a cause and its result write "<cause>, so <result>"; for a result and its reason write "<result>, because <reason>" (ADR 0026)
 her	ban	-	third-person reference is banned - repeat the noun you mean (ADR 0002)
 hidden	form	ADJ_LONG	hidden
-hidden	reject_advice	VERB	"hidden" is the past participle of the verb "hide" (not separately enabled); angloform allows one sense per word
+hidden	reject_gap	VERB	no already-enabled word covers this sense yet
 his	ban	-	third-person reference is banned - repeat the noun you mean (ADR 0002)
 historian	form	NOUN_SG	historian
 historians	form	NOUN_PL	historian
@@ -1795,7 +1795,7 @@ negative	form	ADJ_LONG	negative
 negative	reject_advice	NOUN	the noun sense (a photographic negative, or a "no" answer) is not enabled; angloform allows one sense per word
 negative	reject_advice	VERB	the verb sense (dated — "to negative a proposal", meaning to veto) is not enabled; angloform allows one sense per word
 nested	form	ADJ_LONG	nested
-nested	reject_advice	VERB	"nested" is the past participle of the verb "nest" (not separately enabled); angloform allows one sense per word
+nested	reject_gap	VERB	no already-enabled word covers this sense yet
 never	form	NEG	never
 new	form	ADJ	new
 new	reject_advice	ADV	the adverbial sense (literary — "new-fallen snow") is not enabled; angloform has no adverb category
